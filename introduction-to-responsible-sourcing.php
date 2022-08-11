@@ -23,7 +23,7 @@
             </div>
             <div class="header-menu">
                 <div class="menu-ham">
-                    <ul>
+                    <ul class="top-nomarg">
                         <li class="menu-click" onclick="openNav()">
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
                                 <title>New Project</title>
@@ -43,7 +43,7 @@
                             <div id="myNav" class="overlay-menu">
                                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                                 <div class="overlay-content">
-                                    <a href="">Home</a>
+                                    <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
                                     <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
@@ -53,7 +53,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="custom__select">
+                <div class="custom__select top-mar-less">
                     <select>
                         <option value="übersicht-meine-nachhaltige-speisekarte.php">DEU</option>
                         <option value="introduction-to-sustainable-menu.php" selected>ENG</option>
@@ -64,11 +64,17 @@
     </header>
     <div class="container-full">
         <div class="page-3_stage">
-            <section class="section1">
+            <section class="section1 mt-4">
                 <div class="left-content">
                     <h3>How to source<br>
-                    products responsibly<br>
-                    for restaurants</h3>
+                        <span class="nowrap1">
+                            products responsibly
+                        </span><br>
+                        <span class="nowrap1">
+                            for restaurants
+                        </span>
+                        
+                    </h3>
                 </div>
                 <div class="">
                     <img src="images/resp_sourcing/resp_sour_L3_banner_img.svg" class="px-4" />
@@ -76,45 +82,64 @@
             </section>
             <section class="section2">
                 <div class="top-content">
-                    <h3>Did you know that...</h3>
+                    <h3>DID YOU KNOW that…</h3>
                 </div>
+
+
+
                 <div class="mid-content">
                     <ul>
-                        <li>
-                            <img src="images/resp_sourcing/fish-in-plate.svg" />
+                        <li class="text-center">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <img src="images/resp_sourcing/fish-in-plate.svg" class="img-fluid didu-img" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <p>
+                                        it is estimated, that in some places, <span class="highlight">90%</span> of fish stocks are either overfished or at maximum capacity
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="text-center">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <img src="images/resp_sourcing/meat.svg" class="img-fluid didu-img w18-rem" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <p>
+                                        meat from grass-fed cattle contains around <span class="highlight">50%</span> more omega-3 fatty acids than non-organic meat due to the grass the cows are pastured on
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="text-center">
+                            <img src="images/resp_sourcing/hen-wth-eggs.svg" class="img-fluid didu-img w18-rem" />
                             <p>
-                            it is estimated, that in some places, <span class="highlight">90%</span> of fish stocks are either overfished or at maximum capacity
+                                eggs from hens raised organically, usually have reduced risk of contamination by bacteria that cause food poisoning
                             </p>
                         </li>
-                        <li>
-                            <img src="images/susmenu.svg" />
+                        <li class="text-center">
+                            <img src="images/resp_sourcing/earth-life.svg" class="img-fluid didu-img h288px" />
                             <p>
-                            meat from grass-fed cattle contains around <span class="highlight">50%</span> more omega-3 fatty acids than non-organic meat due to the grass the cows are pastured on
-                            </p>
-                        </li>
-                        <li>
-                            <img src="images/pritein.svg" />
-                            <p>
-                            eggs from hens raised organically, usually have reduced risk of contamination by bacteria that cause food poisoning
-                            </p>
-                        </li>
-                        <li>
-                            <img src="images/bread.svg" />
-                            <p>
-                            around 1 million animal species are threatened with extinction – more than ever before in human history
+                                around 1 million animal species are threatened with extinction – more than ever before in human history
                             </p>
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="section3">
-                <div class="section3-inner">
+                <div class="section3-inner align-normal">
                     <div class="left-content">
                         <h3>The <br> Big <br> Issue </h3>
                     </div>
                     <div class="right-content">
                         <p>
-                            Your business is food and food is your business. The dishes you offer in your restaurant sometimes drive trends in the overall marketplace. An increasing number of customers  are showing interest in where their food comes from and are demanding healthier and sustainable options when they eat out. By carefully picking the products you present on your menu, you can create a positive and long-lasting impact on the environment and the health of your customers.
+                            Your business is food and food is your business. The dishes you offer in your restaurant sometimes drive trends in the overall marketplace. An increasing number of customers are showing interest in where their food comes from and are demanding healthier and sustainable options when they eat out. By carefully picking the products you present on your menu, you can create a positive and long-lasting impact on the environment and the health of your customers.
                             <br>Responsible sourcing is positive in many ways:
                         </p>
                     </div>
@@ -122,7 +147,7 @@
                 <div class="section3-grid">
                     <ul>
                         <li>
-                            <p>Benefits</p>
+                            <p class="font-size-30px">Benefits</p>
                         </li>
                         <li></li>
                         <li>
@@ -164,7 +189,7 @@
                 <ul> -->
                         <li></li>
                         <li>
-                            
+
                         </li>
                         <li></li>
                         <li>
@@ -176,7 +201,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="section3-inner3">
+                <div class="section3-inner3 align-normal">
                     <div class="left-content">
                         <h3>The <br> Greater <br> Impact </h3>
                     </div>
@@ -187,27 +212,27 @@
                     </div>
                 </div>
             </section>
-            <section class="section4">
-                <div class="left-content noalign">
+            <section class="section4 padr-60px w90-per">
+                <div class="left-content noalign w60-per">
                     <h3><a href="explore-sustainable-menu.php" target="_self">KNOW HOW –<br>STEPS HOW TO<br>SOURCE RESPONSIBLY</a></h3>
                     <p>
                         To be more connected with your customers and suppliers while building trust and credibility in your relationship with them, ask yourself if your products are responsibly sourced and sustainable. Our Comprehensive guide to sustainable products will help you to find information more easily. Take a closer look at your supply chain and get engaged with your suppliers on sustainability topics. Schemes that guarantee a fair price of the product and fair treatment of workers, the origin and way of production or the compostability of packaging will provide you with more information and orientation on the sustainability aspects of your products. Don’t forget to track your progress and talk about successful steps toward becoming a sustainable restaurant.
                     </p>
-                    
-                    
+
+
                     <div class="read-wrap">
                         <a href="explore-responsible-sourcing.php" class="read-more" target="_self">Read More</a>
                     </div>
                 </div>
-                <div class="right-content">
-                    <img src="images/know-svg.svg" />
+                <div class=" mr-4">
+                    <img src="images/resp_sourcing/baskets.svg" class="img-fluid" />
                 </div>
             </section>
             <section class="section5">
                 <div class="bottom-left">
                     <div class="top-content5">
                         <h3>METRO Solutions</h3>
-                        <p>METRO offers the digital tool PROTRACE where you can find out about both the product itself and the supply routes from its origin to the journey to METRO. </p>
+                        <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
                         <p><strong>Applications that can support with menu design or communications are:</strong></p>
                     </div>
                     <div class="bottom-content5">

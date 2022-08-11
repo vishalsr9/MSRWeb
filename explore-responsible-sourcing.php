@@ -68,10 +68,9 @@
 
     <div class="container-full">
 
-
         <div class="page-3_stage page-4_stage">
 
-
+            <!--BANNER-->
             <section class="section1 no-print">
                 <div class="left-content">
                     <h3>How to source<br>responsibly</h3>
@@ -82,20 +81,17 @@
                     <!-- <button class="read-more-btn" href="#" id="myBtn" onclick="expand-next('#more')">Read more</button> -->
                 </div>
                 <div class="right-content">
-                    <img src="images/page3banner.svg" />
+                    <img src="images/resp_sourcing/resp_sour_L3_banner_img.svg" class="img-fluid mt-4" />
                 </div>
             </section>
+
             <section class="section-text container" id="more">
                 <div class="section-text-inner">
                     <p> Content? </p>
                 </div>
             </section>
 
-
-
-            <!--Start from here-->
-
-
+            <!--Importance of sourcing-->
             <section class="section2">
                 <div class="text-center">
                     <div class="wrap-2">
@@ -105,12 +101,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" style="margin:0 auto;">
                     <div class="row">
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    handshake
+                                    <img src="images/resp_sourcing/icon-handshake.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     By being more sustainable, you will build a positive image with your customers and create opportunities to win new ones.
@@ -120,7 +116,7 @@
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    diamond
+                                    <img src="images/resp_sourcing/icon-diamond.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will differentiate yourself from your competitors with added value.
@@ -130,7 +126,7 @@
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    users
+                                    <img src="images/resp_sourcing/icon-users.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will create a
@@ -142,7 +138,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    globe
+                                    <img src="images/resp_sourcing/icon-globe-hand.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will have a positive,
@@ -154,7 +150,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    graph
+                                    <img src="images/resp_sourcing/icon-graph.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     Your business will be future-proof. As
@@ -169,7 +165,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    recycle
+                                    <img src="images/resp_sourcing/icon-recycle.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will stimulate the demand
@@ -183,231 +179,328 @@
                 </div>
             </section>
 
+            <!--Good to know SECTION-->
             <section class="section-white-full-width">
-
-                <h3 class="section-heading-blue">
+                <h3 class="section-heading-blue text-center">
                     Good to know – Schemes that help you find your way
                 </h3>
-                <p class="text-justify two-column-break">
-                    Certifications and labels are a visible way to know how sustainable a product is. When a product is labelled with the logo of a certification scheme, the origin and production method is guaranteed. Digital tools that give information on where the product comes from and how it was made (transparency and traceability) are increasingly available, such as smartphone apps. Being in close contact with suppliers and finding out how they produce food is also a way to be closer to what you are sourcing. Many small producers do not have certifications or digital tools but are happy to share details of how they produce food. The importance of sourcing responsibly Restaurateurs want to offer their customers unique experiences linked to certain regional or cultural aspects. Organic and responsible products are among the key ingredients to differentiate from others. Your customers want to know where your products come from. You can provide this information when you choose products that are
-                    sourced responsibly. By carefully picking the products you present on
-                    your menu, you can create a positive and long-lasting impact on the
-                    environment and the health of your customers.
-
-                    Responsible sourcing provides many benefits for restaurant or café owners. See some of the most important advantages:
-
-                    By being more sustainable,
-                    you will build a positive image with
-                    your customers and create opportunities
-
-                    to win new ones.
-
-                    Not all producers are on the same level of sustainability and for some the development is gradual. A product can
-                    be sustainable for many reasons (local, healthy, organic, etc.) and often this can only be known by asking your
-                    supplier. Sometimes a product is not certified even when it is made sustainably. Sometimes the cost of
-                    certification can prevent producers from getting their products certified. Or there is simply not a relevant
-                    certificate issued for example, most social audits which check the working conditions do not issue a certificate.
-
-                    If you want to find out how sustainable your suppliers are you could ask them if they have a production
-                    certification (for example GlobalG.A.P) or social audits (for example SEDEX and amfori BSCI). You could also ask
-                    them about their sustainable practices even if they are not certified. This will give you a good impression of how
-                    sustainable they are.
-
-                    When you support those producers who are making efforts, it will motivate them to continue and improve. Just
-                    remember that when you make claims about sustainability, they must be provable. And honest, simple
-                    communication is key.
-
-                    Advanced ways to source responsibly
-
-                    Once you have worked on the basics, you can focus on really embedding sustainability into your sourcing:
-
-                    There are rare or locally specific species
-                    that you can source responsibly. For
-                    example, ancient grains instead of the
-                    conventional ones or quinoa instead of rice,
-                    rare animal breeds and heirloom fruit and
-                    vegetables
-                    Source rare or
-                    locally specific species
-                    03
-
-                    If you partner with local producers, it gives
-                    them the encouragement to scale up,
-                    produce the food you want, and commit to
-                    practices that are environmentally positive
-                    Connect and commit to
-                    independent and local
-                    farms and producers
-                    01
-
-                    Introduce waste-free ingredients for example
-                    different cuts of meat for “nose-to-tail”
-                    cooking. Source packaging that will not be
-                    wasted and ask your supplier for refillable
-                    packaging options, for example, for
-                    detergents or oils
-                    Prevent waste
-                    05
-
-                    Source whole ingredients and cook
-                    from scratch
-                    Use whole ingredients
-                    04
-
-                    Source seasonal products whenever they
-                    are available
-                    Focus on
-                    seasonal products
-                    02
-
-                    You can grow produce such as herbs
-                    and lettuce on your own
-                    Grow your own
-                    produce
-                    06
-
-                    Non-certified sustainable products
-
-                    The Comprehensive Guide to Sustainable Products
-
-                    It is not always easy to know what a sustainable product is and the definitions can be different depending on the perspectives and beliefs of the person or
-                    organisation looking at it. You can use the following characteristics as a guide, because sustainable products have at least one of these characteristics.
-
-                    Local and
-                    Regional Products
-
-                    Seasonal products
-
-                    Responsibly sourced
-                    fish and seafood
-                    Organic
-
-                    Ethically traded
-
-                    Animal welfare
-
-                    Nutritious food
-
-                    No waste
-
-                    Packaging with less
-                    environmental impact
-                    Products that do not
-                    cause deforestation
-                    Food that contributes
-                    to biodiversity
-
-                    Food with minimal
-                    carbon footprint
-
-                    Food with minimal
-                    water footprint
-
-                    There is no global agreement on what makes a product local. However, the way to define a local or regional
-                    product is how close it is to your business. Local means the food is from a nearby location. Regional means the
-                    food is from a specific region - usually something that is defined by the country, for example a district,
-                    province or region. It is important that you have a clear definition of this aspect for yourselves and that you
-                    make it transparent to your customers.
-                    There are two additional factors that can also be included: Proximity means the main and/or value-giving
-                    production is in a region (or x km around your business) OR the main and/or value giving ingredient is 100%
-                    from a region (or from x km around your business). Referring to a type of producer or product means
-                    products are transparent and traceable (what’s in them and where they are from), they are produced in a
-                    traditional way or based on a traditional recipe and therefore a rediscovery of old varieties. The producer is a
-                    small holder (SME, Small to Medium Enterprise) and supports local/regional infrastructure and economy.
-
-                    Why is it important to buy locally?
-
-                    Buying local is a responsible act that creates a sense of proximity,
-                    or closeness, in your menu and with your customers. It means you
-                    can put money back into your community and region, giving the
-                    producers financial stability. Depending on the product it may also
-                    mean a reduced carbon footprint due to fewer food miles or the
-                    distance it has travelled. And in some cases, it cuts down on wasteful packaging. Additionally, it
-                    allows you to differentiate from your competitors which contributes to your positive brand
-                    image and reputation. This strengthens your local community and instils pride in local
-                    production. By creating a closer connection to how food is produced, you can establish an
-                    identity with the region which helps to win loyal customers.
-
-                    Naturally, some products will not be available in all localities, for example, mangoes in Germany.
-                    Although, when produce is available locally it should be prioritized wherever it makes
-                    sense.
-
-                    Simple ways to source responsibly
-
-                    Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a
-                    globalised world where most of the time we are used to getting different kinds of products throughout the year, even
-                    though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients
-                    are produced. Check out the following simple ways to source responsibly:
-
-                    LOOK AT WHO SUPPLIES YOUR
-
-                    PRODUCTS
-
-                    READ MORE
-
-                    ANALYSE YOUR
-                    PURCHASES
-
-                    READ MORE
-
-                    MAKE THE ORIGIN OF
-                    YOUR PRODUCTS PUBLIC
-
-                    READ MORE
-
-                    Sharing this information with your customers in a simple way can be a great possibility to
-                    connect them with the food you source.
-
-                    Around the world, logos on labels, and certifications make it possible to recognize products
-                    that have an official sign of quality and origin. But not all products that have a certificate are
-                    labelled. Check out the following main schemes and examples.
-                </p>
-
-            </section>
-
-
-
-            
-                <section class="section5">
-                    <div class="bottom-left">
-                        <div class="top-content5">
-                            <h4 class="section-heading-white-small">SCHEMES AND CERTIFICATIONS</h3>
-                                <p>METRO offers the digital tool PROTRACE where you can find out about both the product itself and the supply routes from its origin to the journey to METRO. </p>
-                        </div>
-                    </div>
-                    <div class="bottom-right">
-                        <div class="top-content5">
-                            <h4>SCHEMES AND CERTIFICATIONS</h3>
-                                <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
-                        </div>
-
-                    </div>
-                </section>
-            
-
-            <section class="section-white-full-width">
-                <div class="">
-                    <h3 class="section-heading-blue-small">
-                        Advanced ways to create a sustainable menu. Learn all about diversifying protein
-                    </h3>
+                <div class="text-justify two-column-break">
                     <p>
-                        Around the world we get our protein from different sources including plants, meat and fish. The problem is that protein from most industrially farmed animal sources is bad for the environment through methane emissions (which are converted to carbon dioxide), the use of water and contamination of soil and water courses. Animal welfare is frequently poor.<span id="dots"></span>
+                        Certifications and labels are a visible way to know how sustainable a product is. When a product is labelled with the logo of a certification scheme, the origin and production method is guaranteed. Digital tools that give information on where the product comes from and how it was made (transparency and traceability) are increasingly available, such as smartphone apps. Being in close contact with suppliers and finding out how they produce food is also a way to be closer to what you are sourcing. Many small producers do not have certifications or digital tools but are happy to share details of how they produce food. Sharing this information with your customers in a simple way can be a great possibility to connect them with the food you source.
+                    </p>
+                    <p>
+                        Around the world, logos on labels, and certifications make it possible to recognize products that have an official sign of quality and origin. But not all products that have a certificate are labelled. Check out the following main schemes and examples.
                     </p>
                 </div>
             </section>
 
-            <section class="section2 mb-50">
-                <div class="text-center">
-                    <div class="wrap-2">
-                        <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
+
+
+            <!--SCHEMES SECTION-->
+            <section class="section-blue-bg-full-width">
+                <div class="row">
+                    <div class="col-md-6 mt-2">
+                        <div class="row mx-5">
+                            <h4 class="section-heading-white-small">SCHEMES AND CERTIFICATIONS</h4>
+
+                            <div class="col-md-12 mt-2 mb-2 scheme-box">
+                                <a href="#" class="sc-link">
+                                    Schemes that guarantee a fair price and fair treatment of workers
+                                </a>
+                            </div>
+                            <div class="col-md-12 mt-2 mb-2 scheme-box">
+                                <a href="#" class="sc-link">
+                                    Schemes that guarantee an origin and way of production
+                                </a>
+                            </div>
+                            <div class="col-md-12 mt-2 mb-2 scheme-box">
+                                <a href="#" class="sc-link">
+                                    Schemes that guarantee a way of production
+                                </a>
+                            </div>
+                            <div class="col-md-12 mt-2 mb-2 scheme-box">
+                                <a href="#" class="sc-link">
+                                    Schemes that guarantee the compostability of packaging
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-2">
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mx-1">
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link">
+                                    Block
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Non-certified sustainable products-->
+            <section class="section-white-full-width">
+                <div class="row">
+                    <div class="col-md-8 mb-5">
+                        <h3 class="section-heading-blue-small">Non-certified sustainable products</h3>
                         <p>
-                            <strong>
-                                It is not always easy to know what a sustainable product is and the definitions can be different depending on the perspectives and beliefs of the person or
-                                organisation looking at it. You can use the following characteristics as a guide, because sustainable products have at least one of these characteristics.
-                            </strong>
+                            Not all producers are on the same level of sustainability and for some the development is gradual. A product can be sustainable for many reasons (local, healthy, organic, etc.) and often this can only be known by asking your supplier. Sometimes a product is not certified even when it is made sustainably. Sometimes the cost of certification can prevent producers from getting their products certified. Or there is simply not a relevant certificate issued for example, most social audits which check the working conditions do not issue a certificate.
+                        </p>
+                        <p>
+                            If you want to find out how sustainable your suppliers are you could ask them if they have a production certification (for example GlobalG.A.P) or social audits (for example SEDEX and amfori BSCI). You could also ask them about their sustainable practices even if they are not certified. This will give you a good impression of how sustainable they are.
+                        </p>
+                        <p>
+                            When you support those producers who are making efforts, it will motivate them to continue and improve. Just remember that when you make claims about sustainability, they must be provable. And honest, simple communication is key.
                         </p>
                     </div>
+                    <div class="col-md-4 mb-5">
+                        <img src="images/resp_sourcing/non-certified-sust-products.svg" class="img-fluid mt-5">
+                    </div>
+                </div>
+            </section>
 
+            <section class="section2 mb-50">
+                <div class="wrap-2 text-center pad-l-r-60px">
+                    <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
+                    <p>
+                        <strong>
+                            It is not always easy to know what a sustainable product is and the definitions can be different depending on the perspectives and beliefs of the person or organisation looking at it. You can use the following characteristics as a guide, because sustainable products have at least one of these characteristics.
+                        </strong>
+                    </p>
+                </div>
+                <div class="row products-section">
+                    <div class="col-md-4 offset-md-1">
+                        <div class="row product-row">
+                            <div class="col-md-12 product-box live">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        <img src="images/resp_sourcing/icon-sm-fruits.svg" class="img-fluid mtop-less">
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Local and Regional Products
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Seasonal products
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Organic
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Ethically traded
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Animal welfare
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Responsibly sourced fish and seafood
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        Nutritious food
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto">
+                                        No waste
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Food that contributes to biodiversity
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Products that do not cause deforestation
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Packaging with less environmental impact
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Food with minimal carbon footprint
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 product-box">
+                                <div class="row">
+                                    <div class="product-icon-1">
+                                        Icon
+                                    </div>
+                                    <div class="product-01 py-auto mtop-1-5r">
+                                        Food with minimal water footprint
+                                    </div>
+                                    <div class="product-highlighter">
+                                        <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    <strong>
+                                        Local and Regional Products
+                                    </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
