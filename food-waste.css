@@ -1,0 +1,92 @@
+.banner-h3 {
+  color: #003b7e;
+  font-size: 50px;
+  font-family: "GothamBold";
+  text-transform: uppercase;
+}
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.banner-image {
+  width: 24rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.banner-section {
+  height: 20rem;
+}
+
+.heirarchy-image {
+  width: 500px;
+  height: auto;
+}
+
+.section4 .right-content img {
+  transform: unset !important;
+}
+
+.w-34rem {
+  width: 34rem !important;
+}
+
+.w-25rem {
+  width: 25rem !important;
+}
+
+.just-center {
+  justify-content: center !important;
+  display: flex;
+}
+
+.theme-p {
+  font-size: 16px !important;
+}
+
+.theme-p-bold {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.b-right {
+  border-right: 1px solid #003b7e;
+}
+
+.icon-box-9 {
+  background-color: #003b7e !important;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  height: 36rem;
+  margin-top: 1.5rem;
+}
+.icon-box-9 > p {
+  margin-top: 9rem;
+}
+
+.h3v2 {
+  color: #003b7e;
+  font-size: 33px;
+  font-family: "GothamBold";
+}
+
+.section-yellow {
+  background: #ffe500;
+  padding: 10px;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+.thermometer {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}

@@ -179,10 +179,9 @@
 						</div>
 						<h2>The role of plastic in gastronomy</h2>
 						<p>Plastic product and plastic packaging play an important role in maintaining hygiene in gastronomy, as they protect food, ensure food safety and improve shelf life. Single-use items, mostly made out of plastic, have up until now been almost indispensable in the gastronomy sector. However, both the production and disposal of plastic and single-use plastic product requires resources and has a negative impact on the environment -especially on our oceans. Gastronomy thus has an impact on the plastic waste challenge and should be forgoing the unnecessary plastic. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-
-
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-plastic-waste.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -225,8 +224,9 @@
 						</div>
 						<h2>The problem with waste! </h2>
 						<p>When waste is not valued it becomes a problem. It costs your business money and when not properly managed it damages the environment and our health. As a restaurateur you really can make an impact by preventing waste, sorting and disposing of it carefully. Doing so will prevent costs and contribute to your reputation with customers and your community. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-food-waste.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>

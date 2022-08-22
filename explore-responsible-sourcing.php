@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>METRO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2010.07.06dev/modernizr.min.js" integrity="sha512-HyO6DE8TAYakYahq831kmrY5Z/6HjP5wucRRPZ9XKDZhjyw5QroAPpvLRRhTSsfFh04OuEYKdcWeqKFTJCvB7g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="css/page2_style.css">
+    <link rel="stylesheet" href="css/page2_style_1.css">
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="./jquery/custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <script src="./jquery/slick.js"></script>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="jquery/resp_source.js"></script>
 </head>
 
 <body class="page4-page">
@@ -83,6 +86,7 @@
                 <div class="right-content">
                     <img src="images/resp_sourcing/resp_sour_L3_banner_img.svg" class="img-fluid mt-4" />
                 </div>
+                <a href="#comp">DEV. Link</a>
             </section>
 
             <section class="section-text container" id="more">
@@ -195,8 +199,11 @@
             </section>
 
 
+            <!--SCHEMES SECTION DEVELOPEMNT AREA START------------------------>
 
-            <!--SCHEMES SECTION-->
+
+            <!--SCHEMES SECTION DEFAULT-->
+
             <section class="section-blue-bg-full-width">
                 <div class="row">
                     <div class="col-md-6 mt-2">
@@ -204,43 +211,170 @@
                             <h4 class="section-heading-white-small">SCHEMES AND CERTIFICATIONS</h4>
 
                             <div class="col-md-12 mt-2 mb-2 scheme-box">
-                                <a href="#" class="sc-link">
-                                    Schemes that guarantee a fair price and fair treatment of workers
+                                <a href="#" class="sc-link" id="scheme1">
+                                    <div class="row scheme-box-row">
+                                        <div class="col-md-10">
+                                            Schemes that guarantee a fair price and fair treatment of workers
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="images/resp_sourcing/scheme-yellow-arow.svg" class="img-fluid scheme-yellow-arow arrow-hide">
+                                        </div>
+                                    </div>
+
                                 </a>
                             </div>
                             <div class="col-md-12 mt-2 mb-2 scheme-box">
-                                <a href="#" class="sc-link">
-                                    Schemes that guarantee an origin and way of production
+
+                                <a href="#" class="sc-link" id="scheme2">
+                                    <div class="row scheme-box-row">
+                                        <div class="col-md-10">
+                                            Schemes that guarantee an origin and way of production
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="images/resp_sourcing/scheme-yellow-arow.svg" class="img-fluid scheme-yellow-arow arrow-hide">
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                             <div class="col-md-12 mt-2 mb-2 scheme-box">
-                                <a href="#" class="sc-link">
-                                    Schemes that guarantee a way of production
+                                <a href="#" class="sc-link sc-link-active" id="scheme3">
+                                    <div class="row scheme-box-row">
+                                        <div class="col-md-10">
+                                            Schemes that guarantee a way of production
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="images/resp_sourcing/scheme-yellow-arow.svg" class="img-fluid scheme-yellow-arow arrow-show">
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                             <div class="col-md-12 mt-2 mb-2 scheme-box">
-                                <a href="#" class="sc-link">
-                                    Schemes that guarantee the compostability of packaging
+                                <a href="#" class="sc-link" id="scheme4">
+                                    <div class="row scheme-box-row">
+                                        <div class="col-md-10">
+                                            Schemes that guarantee the compostability of packaging
+                                        </div>
+                                        <div class="col-md-2">
+                                            <img src="images/resp_sourcing/scheme-yellow-arow.svg" class="img-fluid scheme-yellow-arow arrow-hide">
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-2">
+
+                    <!--------SCHEME1 START------>
+
+                    <!--FIRST ROW-->
+                    <div class="col-md-6 mt-2 nodisplay datasc" id="data-sc1">
+
                         <div class="row mx-1">
 
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc11">
+                                    Fairtrade
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc12">
+                                    Gepa
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+
+                        </div>
+                        <!--SECOND ROW-->
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <div class="row mx-1">
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                    <!--------SCHEME1 END------>
+
+                    <!--------SCHEME2 START------>
+
+                    <div class="col-md-6 mt-2 nodisplay datasc" id="data-sc2">
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc21">
+                                    GEOGRAPHICAL INDICATIONS AND TRADITIONAL SPECIALITIES
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc22">
+                                    EU SCHEMES
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+
+                        </div>
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <div class="row mx-1">
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+                    <!--------SCHEME2 END------>
+
+                    <!--------SCHEME3 START------>
+                    <div class="col-md-6 mt-2 displaythis datasc" id="data-sc3">
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc31">
+                                    EU Organic Farming
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc32">
+                                    GLOBALG.A.P.
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc33">
+                                    GGN
                                 </a>
                             </div>
 
@@ -248,41 +382,96 @@
                         <div class="row mx-1">
 
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc34">
+                                    ASC
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc35">
+                                    MSC
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc36">
+                                    FSC
                                 </a>
                             </div>
                         </div>
                         <div class="row mx-1">
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc37">
+                                    PEFC
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc38">
+                                    RTRS
                                 </a>
                             </div>
                             <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
-                                <a href="#" class="sc-block-link">
-                                    Block
+                                <a href="#" class="sc-block-link" id="sc39">
+                                    RSPO
                                 </a>
                             </div>
                         </div>
                     </div>
+
+                    <!--------SCHEME3 END------>
+
+                    <!--------SCHEME4 START------>
+                    <div class="col-md-6 mt-2 nodisplay datasc" id="data-sc4">
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc41">
+                                    HOME COMPOSTABLE PACKAGING
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block">
+                                <a href="#" class="sc-block-link" id="sc42">
+                                    INDUSTRIAL COMPOSTABLE PACKAGING
+                                </a>
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+
+                        </div>
+                        <div class="row mx-1">
+
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <div class="row mx-1">
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                            <div class="col mx-1 my-1 mt-1 mb-1 sc-block no-bg">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------SCHEME4 END------>
+
                 </div>
             </section>
+
+
+
+
+            <!--SCHEMES SECTION DEVELOPEMNT AREA END------------------------------>
+
 
 
             <!--Non-certified sustainable products-->
@@ -290,13 +479,13 @@
                 <div class="row">
                     <div class="col-md-8 mb-5">
                         <h3 class="section-heading-blue-small">Non-certified sustainable products</h3>
-                        <p>
+                        <p class="justify1">
                             Not all producers are on the same level of sustainability and for some the development is gradual. A product can be sustainable for many reasons (local, healthy, organic, etc.) and often this can only be known by asking your supplier. Sometimes a product is not certified even when it is made sustainably. Sometimes the cost of certification can prevent producers from getting their products certified. Or there is simply not a relevant certificate issued for example, most social audits which check the working conditions do not issue a certificate.
                         </p>
-                        <p>
+                        <p class="justify1">
                             If you want to find out how sustainable your suppliers are you could ask them if they have a production certification (for example GlobalG.A.P) or social audits (for example SEDEX and amfori BSCI). You could also ask them about their sustainable practices even if they are not certified. This will give you a good impression of how sustainable they are.
                         </p>
-                        <p>
+                        <p class="justify1">
                             When you support those producers who are making efforts, it will motivate them to continue and improve. Just remember that when you make claims about sustainability, they must be provable. And honest, simple communication is key.
                         </p>
                     </div>
@@ -306,7 +495,18 @@
                 </div>
             </section>
 
-            <section class="section2 mb-50">
+
+
+
+
+
+            <!--------Comprehensive Guide START------->
+
+
+
+
+
+            <section class="section2 mb-50" id="comp">
                 <div class="wrap-2 text-center pad-l-r-60px">
                     <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
                     <p>
@@ -316,172 +516,187 @@
                     </p>
                 </div>
                 <div class="row products-section">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-md-4">
                         <div class="row product-row">
-                            <div class="col-md-12 product-box live">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp01">
                                     <div class="product-icon-1">
-                                        <img src="images/resp_sourcing/icon-sm-fruits.svg" class="img-fluid mtop-less">
+                                        <img src="images/resp_sourcing/icon-sm-location-marker.svg" class="img-fluid cover1 active">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Local and Regional Products
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
+
                                     </div>
-                                    <div class="product-highlighter">
+                                    <div class="product-highlighter active">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp02">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-fruits.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Seasonal products
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp03">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-flower.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Organic
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp04">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-env.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Ethically traded
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp05">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-animal.svg" class="img-fluid cover1">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Animal welfare
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp06">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-fish.svg" class="img-fluid cover2">
                                     </div>
-                                    <div class="product-01 py-auto mtop-1-5r">
+                                    <div class="product-01 py-auto mtp1r2">
                                         Responsibly sourced fish and seafood
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp07">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-fruits-in-plate.svg" class="img-fluid cover1">
                                     </div>
                                     <div class="product-01 py-auto">
                                         Nutritious food
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp08">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-bin.svg" class="img-fluid cover1">
                                     </div>
                                     <div class="product-01 py-auto">
                                         No waste
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp09">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-bee.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto mtop-1-5r">
                                         Food that contributes to biodiversity
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp10">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-trees.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto mtop-1-5r">
                                         Products that do not cause deforestation
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp11">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-packet.svg" class="img-fluid cover1">
                                     </div>
                                     <div class="product-01 py-auto mtop-1-5r">
                                         Packaging with less environmental impact
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp12">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-carbon-footprint.svg" class="img-fluid cover2">
                                     </div>
                                     <div class="product-01 py-auto mtop-1-5r">
                                         Food with minimal carbon footprint
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 product-box">
-                                <div class="row">
+                            <div class="col-md-12">
+                                <div class="row product-box" id="cp13">
                                     <div class="product-icon-1">
-                                        Icon
+                                        <img src="images/resp_sourcing/icon-sm-water-drop.svg" class="img-fluid cover3">
                                     </div>
                                     <div class="product-01 py-auto mtop-1-5r">
                                         Food with minimal water footprint
+                                        <span class="arrow0"><img src="images/resp_sourcing/long-line.svg" class="img-fluid"></span>
                                     </div>
                                     <div class="product-highlighter">
                                         <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
@@ -490,199 +705,387 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-12">
-                                <p>
-                                    <strong>
-                                        Local and Regional Products
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                                <div class="product-description">
+                                    <!---------01----------->
+                                    <div id="pdesc01" class="description-section" style="display: none;">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-4">
+                                                <img src="images/resp_sourcing/tractor-with-trolly.svg" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p class="justify1">
+                                                    There is no global agreement on what makes a product local. However, the way to define a local or regional product is how close it is to your business. Local means the food is from a nearby location. Regional means the food is from a specific region - usually something that is defined by the country, for example a district, province or region. It is important that you have a clear definition of this aspect for yourselves and that you make it transparent to your customers.
+                                                </p>
+                                                <p class="justify1">
+                                                    There are two additional factors that can also be included: Proximity means the main and/or value-giving production is in a region (or x km around your business) OR the main and/or value giving ingredient is 100% from a region (or from x km around your business). Referring to a type of producer or product means products are transparent and traceable (what’s in them and where they are from), they are produced in a traditional way or based on a traditional recipe and therefore a rediscovery of old varieties. The producer is a small holder (SME, Small to Medium Enterprise) and supports local/regional infrastructure and economy.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 mt-4 yellow-block">
+                                                <p>
+                                                    <img src="images/resp_sourcing/fruit-seller-with-cap.svg" class="img-fluid fruit-cap-img">
+                                                    Buying local is a responsible act that creates a sense of proximity, or closeness, in your menu and with your customers. It means you can put money back into your community and region, giving the producers financial stability. Depending on the product it may also mean a reduced carbon footprint due to fewer food miles or the distance it has travelled. And in some cases, it cuts down on wasteful packaging. Additionally, it allows you to differentiate from your competitors which contributes to your positive brand image and reputation. This strengthens your local community and instils pride in local production. By creating a closer connection to how food is produced, you can establish an identity with the region which helps to win loyal customers
+                                                </p>
+                                                <p>
+                                                    Naturally, some products will not be available in all localities, for example, mangoes in Germany. Although, when produce is available locally it should be prioritized wherever it makes sense.
+                                                </p>
+                                            </div>
 
-
-            <section class="section-white-full-width">
-                <div class="">
-                    <h3 class="section-heading-blue-small">
-                        Simple ways to source responsibly
-                    </h3>
-                    <p>
-                        Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a
-                        globalised world where most of the time we are used to getting different kinds of products throughout the year, even
-                        though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients
-                        are produced. Check out the following simple ways to source responsibly:
-                    </p>
-                </div>
-            </section>
-
-            <section class="container">
-                <ul class="grid--what">
-                    <li>
-                        <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid1.svg" /></span>
-                            <h5>Why do we need<br>proteins?</h5>
-                            <p id="more2">Protein is an essential part of our diet and according to a person’s age, health and level of activity needs to be eaten in varying amounts. Protein is needed for the growth and repair of muscles as well as the proper functioning of hormones, enzymes and antibodies. All of this contributes to a healthy body that functions well. Proteins are made up from a mixture of twenty building blocks or amino acids. Different foods contain different amino acids. It is important to eat a variety of foods in order to get the right amino acids. Because of their different amino acid content, proteins can be divided into complete (meat, fish, eggs, milk, cheese) and incomplete (beans, nuts, seeds, tofu etc). Incomplete proteins can provide the right amino acids if they are mixed for example in a dish made with rice and peas.</p>
-                            <button class="read-more-btn" id="myBtn2">Read more</button>
-                        </div>
-                    </li>
-                    <li>
-
-                        <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid2.svg" /></span>
-                            <h5>Conscious <br> protein</h5>
-                            <p id="more3">Conscious protein describes an approach which is based on consuming a diverse source of sustainable protein and the awareness of people in their eating habits. Conscious proteins include for instance conventional proteins obtained from animals that were raised to high welfare standards as well as alternative protein from plant sources
-                                <br>
-                                <br><b> Animal proteins</b> are from meat and fish raised responsibly. It includes products like eggs and milk.Animal proteins that come from responsibly raised meat or fish means high welfare, fed with sustainable feed and in the case of ruminants grazed on pasture, responsible use of water, assured welfare, responsible use of animal treatments for example antibiotics, a positive impact on biodiversity for example by using heritage breeds, traceable and workers’ rights are assured.
-                                <br><br>
-                                <b> Plant proteins</b> are whole ingredients which include beans, grains, pulses, nuts, chickpeas, ancient grains such as quinoa and minimally processed ingredients such as tofu, tempeh and seitan.Produced responsibly means for example that responsible tofu would be from soy beans grown on non-deforested land and responsible nuts would be grown in orchards where water is managed responsibly.
-                                <br><br>
-
-                                <b>Alternative proteins</b> are either not commonly eaten or are completely new, being produced with novel (new) technologies and ingredients.Exciting work is underway around the world to reproduce meat in laboratories. There is some way to go before it can be considered completely sustainable due to for example the energy required to produce the proteins. The cost remains prohibitive and for some people lab meat is a taboo. Meanwhile it is worth keeping a close eye on developments as this field of research is changing rapidly. In east Asia for example, fish has been successfully reproduced and marketed.Produced responsibly means for example responsible pea protein would be from peas grown on non-deforested land.
-                            </p>
-                            <button class="read-more-btn" id="myBtn3">Read more</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid4.svg" /></span>
-                            <h5>Foraging from <br> the wild</h5>
-                            <p id="more4">Discovering local and wild ingredients connects us to the natural environment. A growing movement of chefs have adopted this ancient practice of foraging, where they roam the uncultivated land closest to their restaurants. They dig, clip and pick the freshest ingredients to complement their menus which are usually lead by the seasons.
-                                In recent history René Redzepi of Noma in Denmark popularised the concept and since then several chefs around the world have started foraging. While still niche, the foraging chefs have a strong connection to their communities for example Aidan Brookes of eleven98 in London. They raise awareness of eating sustainably, slowly building a wave towards a greater respect of the local environment and the need to look after their communities. Be inspired by chefs such as Ana Ros of Hisa Franko in Slovenia, Prateek Sadhu of Masque in India, HisotoNakahigashi of Miyamasou in Japan, Wojciech Modest Amaro of Atelier Amaro in Poland and Ricky Saward of Seven Swans Must Die in Germany.
-                            </p>
-                            <button class="read-more-btn" id="myBtn4">Read more</button>
-                        </div>
-                    </li>
-                </ul>
-
-            </section>
-
-
-            <section class="section-highlight-withimages  section4-5 no-print">
-                <div class="top-highlight text-center">
-                    <h3>Advanced ways to source responsibly </h3>
-                    <p>Once you have worked on the basics, you can focus on really embedding sustainability into your sourcing:</p>
-                </div>
-                <div class="mid-highlight container ">
-                    <ul>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">01</span>
-                                <h5>Connect and commit to independent and local farms and producers</h5>
-                                <p>If you partner with local producers, it gives
-                                    them the encouragement to scale up,
-                                    produce the food you want, and commit to
-                                    practices that are environmentally positive
-                                    <span id="more7">Content?</span>
-                                </p>
-                                <button href="#" class="read-text" id="myBtn7">READ MORE</button>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">03</span>
-                                <h5>Source rare or locally specific species</h5>
-                                <p>
-                                    There are rare or locally specific species
-                                    that you can source responsibly. For
-                                    example, ancient grains instead of the
-                                    conventional ones or quinoa instead of rice,
-                                    rare animal breeds and heirloom fruit and
-                                    vegetables
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">05</span>
-                                <h5>Prevent waste</h5>
-                                <p>Introduce waste-free ingredients for example
-                                    different cuts of meat for “nose-to-tail”
-                                    cooking. Source packaging that will not be
-                                    wasted and ask your supplier for refillable
-                                    packaging options, for example, for
-                                    detergents or oils
-                                    <span id="more8">Content?</span>
-                                </p>
-                                <button href="#" class="read-text" id="myBtn8">READ MORE</button>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                    <div class="circle-setting">
-                        <img src="images/circle-icon.svg" />
-
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">02</span>
-                                <h5>Focus on seasonal products</h5>
-                                <p>Source seasonal products whenever they are available
-                                    <span id="more5"> Content?</span>
-                                </p>
-                                <button href="#" class="read-text" id="myBtn5">READ MORE</button>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">04</span>
-                                <h5>Use whole ingredients</h5>
-                                <div class="more-text">
-                                    <p>Source whole ingredients and cook from scratch</p>
-                                    <div id="more6">
-                                        Content?
+                                        </div>
                                     </div>
-                                    </p>
-                                    <button href="#" class="read-text" id="myBtn6">READ MORE</button>
+                                    <!---------02----------->
+                                    <div id="pdesc02" class="description-section">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="img-fluid">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="justify1">
+                                                    People love seasonal products. Sweet, juicy strawberries,
+                                                    delicate asparagus or a new season lamb – depending on
+                                                    where we live, we have different experiences of seasonality.
+                                                    According to the OECD, seasonal products are those that
+                                                    are either not available on the market during certain seasons
+                                                    or periods of the year or are available through the year but
+                                                    with regular fluctuations in their quantities and prices that
+                                                    are linked to the season or time of the year.
+                                                </p>
+
+                                            </div>
+                                            <div class="col-md-12 mt-4 yellow-block">
+                                                <h4>Why is it important to buy seasonal products?</h3>
+                                                    <p>
+                                                        <img src="images/resp_sourcing/fruid-bowl.svg" class="img-fluid img-normal-200">
+                                                        The arrival of new season produce generates a real excitement and
+                                                        expectation of tastes to come. You can demonstrate how in touch
+                                                        you are with your food sources by updating your menu according
+                                                        to the season. This includes several advantages. It is a good
+                                                        opportunity to market your business and attract new customers by
+                                                        bringing in fresh tastes. Seasonal foods can also be cheaper, and
+                                                        usually taste better. New season produce is fresher due to reduced time in storage and transport
+                                                        and you can actively support your local growers by sourcing from them in season.
+                                                    </p>
+                                                    <p>
+                                                        Naturally, some products will not be available in all localities, for example, mangoes in Germany. Although, when produce is available locally it should be prioritized wherever it makes sense.
+                                                    </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="circle-content more-text">
-                                <span class="text-num">06</span>
-                                <h5>Grow your own produce</h5>
-                                <p>You can grow produce such as herbs and lettuce on your own</p>
+                            <div class="col-md-12">
+                                <button id="cnext" class="read-more-btn float-end">Next Topic</button>
                             </div>
-                        </li>
-
-                    </ul>
-
+                        </div>
+                    </div>
                 </div>
+
+
+
             </section>
 
+            <!--------Comprehensive Guide START------->
+
+            <!--------Simple ways------>
+            <section class="section-white-full-width">
+
+                <h3 class="section-heading-blue-small">
+                    Simple ways to source responsibly
+                </h3>
+                <p>
+                    Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a globalised world where most of the time we are used to getting different kinds of products throughout the year, even though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients are produced. Check out the following simple ways to source responsibly:
+                </p>
+
+            </section>
+            <!--------SLIDER------>
+            <div class="continer mt-2 mb-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                ANALYSE YOUR PURCHASES
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                LOOK AT WHO SUPPLIES YOUR PRODUCTS
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                MAKE THE ORIGIN OF YOUR PRODUCTS PUBLIC
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body align-middle">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                ANALYSE YOUR PURCHASES
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body align-middle">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                ANALYSE YOUR PURCHASES
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card justify-content-center">
+                                        <div class="card-body slider-card-body">
+                                            <img src="images/resp_sourcing/icon-sm-animal.svg" style="width: auto;height:100px" class="img-fluid">
+                                            <h4 class="card-title">
+                                                ANALYSE YOUR PURCHASES
+                                            </h4>
+                                            <button class="read-more-btn" id="myBtn33">Read more</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------ADVANCE WAYS---------->
+            <section class="section-highlight-withimages section4-5 no-print">
+                <div class="top-highlight text-center">
+                    <h3>Advanced ways to source responsibly </h3>
+                    <p>Once you have worked on the basics, you can focus on really embedding sustainability into your
+                        sourcing:</p>
+                </div>
 
 
-            <section class="track-talk">
-                <div class="left-content">
+                <div class="container9">
+                    <div class="row">
+                        <div class="col-md-12 mb-2 mt-2">
+                            <!---top row-->
+                            <div class="row">
+                                <div class="col-md-2 offset-md-2 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            02
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Focus on Seasonal Products whenever they are available
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            Source seasonal products whenever they are available
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 offset-md-2 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            04
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Use whole ingredients
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            Source whole ingredients and cook
+                                            from scratch
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 offset-md-2 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            06
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Grow your own produce
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            You can grow produce such as herbs
+                                            and lettuce on your own
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-2 mt-2">
+                            <!---middle row-->
+                            <img src="images/resp_sourcing/advance-ways.svg" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12 mb-2 mt-2">
+                            <!---bottom row-->
+                            <div class="row">
+                                <div class="col-md-3 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            01
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Connect and commit to independent and local farms and producers
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            If you partner with local producers, it gives them the encouragement to scale up,
+                                            produce the food you want, and commit to
+                                            practices that are environmentally positive
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offset-md-1 col-md-3 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            03
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Source rare or
+                                                locally specific species
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            There are rare or locally specific species
+                                            that you can source responsibly. For
+                                            example, ancient grains instead of the
+                                            conventional ones or quinoa instead of rice,
+                                            rare animal breeds and heirloom fruit and
+                                            vegetables
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 offset-md-1 advance-way-box">
+                                    <div class="row">
+                                        <div class="col-md-12 title-yellow">
+                                            05
+                                        </div>
+                                        <div class="col-md-12 title9">
+                                            <h5>
+                                                Prevent waste
+                                                </h3>
+                                        </div>
+                                        <div class="col-md-12 text9">
+                                            Introduce waste-free ingredients for example
+                                            different cuts of meat for “nose-to-tail”
+                                            cooking. Source packaging that will not be
+                                            wasted and ask your supplier for refillable
+                                            packaging options, for example, for
+                                            detergents or oils
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </section>
+            <!-----Trach and talk--------->
+            <section class="container9 section-text-withimages section4-4 more-text no-print" style="margin-top:8rem!important">
+
+
+
+                <div class="left-content9">
                     <h3>Track and talk <br>about your progress</h3>
-                    <p>
-                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less
-                        plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant.
-                        It is important to track and measure the progress because that boosts morale to achieve even more.
-                        Discuss with your staff regularly about the improvements observed and take note of what positive
-                        impacts they are seeing. Here are a few ways this can be done:
+                    <p class="justify1">Around the world we get our protein from different sources including plants, meat and fish. The problem is that protein from most industrially farmed animal sources is bad for the environment through methane emissions (which are converted to carbon dioxide), the use of water and contamination of soil and water courses. Animal welfare is frequently poor.<span id="dots"></span>
+                        <br>
+                        <span id="more1" style="display:block;background-color:#f2f2f2; margin-top:2rem; padding:2rem">
+
+                            <span class="icon-text-block9 mt-1" style="width:100% ;padding: 0.5rem;">
+                                <span style="width: 50px;height:50px;text-align:center; border-radius: 25px;background-color:#ffe500;display:block;position:absolute;line-height:50px;">
+                                    ICON
+                                </span>
+                                <span style="position:relative;margin-left:60px;display:block;min-height: 50px;height: 50px;overflow: initial;">
+                                    Be aware that “farm-to-table” restaurants continue to appeal to restaurant goers. Connect your customers to the source of your ingredients by talking with them about your menu.
+                                </span>
+                            </span>
+                            <span class="icon-text-block9" style="width:100%;padding: 0.5rem">
+                                <span style="height:50px; border-radius: 25px;width:50px;text-align:center;display:block;background-color:#ffe500;position:absolute;line-height:50px;">
+                                    ICON
+                                </span>
+                                <span style="margin-left:60px;display:block;min-height: 50px;height: 50px;overflow: initial;">
+                                    Explain why you made the changes and the benefits of those changes. For
+                                    example, you might decide not to serve whole strawberries in the winter, but
+                                    customers need to know why not.
+                                </span>
+                            </span>
+                            <span class="icon-text-block9" style="width:100% ;padding: 0.5rem">
+                                <span style="width: 50px;height:50px; border-radius: 25px;display:block;text-align:center;background-color:#ffe500;position:absolute;line-height:50px;">
+                                    ICON
+                                </span>
+                                <span style="position:relative;margin-left:60px;display:block;min-height: 50px;height: 50px;overflow: initial;">
+                                    If you have traceability information on your menu or your website, explain how
+                                    it works. Think about displaying a seasonal calendar with pictures of the
+                                    produce in your restaurant, website or social media page. This can create a
+                                    good connection with your customers especially if you can interact over it and
+                                    freshen up the information as the season changes.
+                                </span>
+                            </span>
+                            <span class="icon-text-block9" style="width:100% ;padding: 0.5rem;">
+                                <span style="margin-top:20px;width: 50px;height:50px; border-radius: 25px;display:block;text-align:center;background-color:#ffe500;position:absolute;line-height:50px;">
+                                    ICON
+                                </span>
+                                <span style="margin-top:20px;position:relative;margin-left:60px;display:block;min-height: 50px;height: 50px;overflow: initial;">
+                                    Communicate what you are doing. For example, a sign on your menu in your
+                                    restaurant or website is a visible reminder to your customers about your
+                                    responsible actions.
+                                </span>
+                            </span>
+                            <span style="font-size: small;">
+                                <br>
+                                As a business your impact on your community will be so much more when your customers and
+                                staff understand what you are doing. Some might copy your practices in their shopping decisions.
+                                Your impact could be greater than you imagine
+                            </span>
+                        </span>
                     </p>
-                    <button class="read-more-btn" href="#" id="myBtn29" onclick="expand-next('#more29')">Read more</button>
-                    <!--
-                    <section class="section-text container" id="more29">
-                        <p> Content? </p>
-                    </section>
-                    -->
-                    <section class="section-gray-lass-pad">
-                        Content?
-                    </section>
+                    <button class="read-more-btn" id="myBtn1">Read more</button>
                 </div>
-                <div class="right-content">
-                    <img src="images/flag-p-svg.svg" />
+                <div class="right-content9">
+                    <img src="images/flag-p-svg.svg" class="img-fluid track-talk1-img9" />
                 </div>
             </section>
-
-            <section class="container section4-6 ">
+            <!-----TODO--------->
+            <section class="container section4-6">
                 <div class="top-content">
                     <h3>Your Action Plan</h3>
                 </div>
@@ -746,14 +1149,16 @@
                     </ul>
                 </div>
             </section>
-
-            <section class="container no-print">
+            <!-----FOOTER--------->
+            <section class="no-print  no-side-margin">
                 <div class="section5">
                     <div class="bottom-left">
                         <div class="top-content5">
                             <h3>METRO Solutions</h3>
-                            <p>METRO offers the digital tool PROTRACE where you can find out about both the product itself and the supply routes from its origin to the journey to METRO. </p>
-                            <p><strong>Applications that can support with menu design or communications are:</strong></p>
+                            <p>METRO offers the digital tool PROTRACE where you can find out about both the product
+                                itself and the supply routes from its origin to the journey to METRO. </p>
+                            <p><strong>Applications that can support with menu design or communications are:</strong>
+                            </p>
                         </div>
                         <div class="bottom-content5">
                             <ul>
@@ -776,7 +1181,8 @@
                     <div class="bottom-right">
                         <div class="top-content5">
                             <h3>METRO Offer</h3>
-                            <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
+                            <p>METRO supports you with a diverse product assortment for your sustainability strategy:
+                            </p>
                         </div>
                         <div class="bottom-content5">
                             <ul>
@@ -812,7 +1218,6 @@
                     </div>
                 </div>
             </section>
-
         </div>
     </div>
 
@@ -899,958 +1304,237 @@
 
     </div>
 
-    <div class=" vegan-modal">
-        <div class="modal-overlay1 modal-toggle1"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle1">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 veg-con">
-                    <h4>Vegan
-                    </h4>
-                    <p>No meat, poultry, fish, insects or ingredients that come from these sources. No processing aids for example isinglass used in some wine production, or non-food ingredients of animal origin. Nothing that involves harm or exploitation of animals. Honey is not eaten.</p>
+
+
+
+
+
+
+
+    <!-----MODALS START--------->
+    <!-----SCHEME1--------->
+    <div id="sc11m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <a type="button" id="sc11mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+
+                <div class="modal-body">
+                    <p>Fairtrade</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class=" vegi-modal">
-        <div class="modal-overlay1 modal-toggle2"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle2">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 vegi-cont">
-                    <h4>Vegetarian
-                    </h4>
-                    <p>No meat, poultry or fish. Sometimes no insects. Milk or egg products derived from live animals, such as cheese is allowed. Honey from bees is also allowed.</p>
+    <div id="sc12m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc12mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>Gepa</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" paleo-modal">
-        <div class="modal-overlay1 modal-toggle3"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle3">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 paleo-cont">
-                    <h4>Paleo
-                    </h4>
-                    <p>This diet is based only on foods that are believed to be found in the Stone Age. These are mainly meat, eggs, fruit, vegetables, nuts and honey.</p>
+    <!-----SCHEME2--------->
+    <div id="sc21m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc21mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>Geographical indications</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" keto-modal">
-        <div class="modal-overlay1 modal-toggle4"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle4">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 keto-cont">
-                    <h4>Keto
-                    </h4>
-                    <p>This diet is a very low-carbohydrate and higher-fat diet. It is similar in many ways to other low-carbohydrate diets.</p>
+    <div id="sc22m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc22mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>EU Schemes</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" fruit-modal">
-        <div class="modal-overlay1 modal-toggle5"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle5">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 fruit-cont">
-                    <h4>Fruitarian
-                    </h4>
-                    <p>Fruit only. The diet extends the concept of vegans and makes sure that the plants are not damaged through the harvest.</p>
+    <!-----SCHEME3--------->
+    <div id="sc31m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc31mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>EU Organic Farming</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" omni-modal">
-        <div class="modal-overlay1 modal-toggle6"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle6">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 omni-cont">
-                    <h4>Omnivore
-                    </h4>
-                    <p>Contains a variety of food of both plant and animal origin.</p>
+    <div id="sc32m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc32mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>Global GAP</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" flexi-modal">
-        <div class="modal-overlay1 modal-toggle7"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle7">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Flexitarian
-                    </h4>
-                    <p>Meat, poultry or fish is eaten occasionally to balance a person’s nutritional needs. Some flexitarians also do this to be more considerate of their consumption of animal products and are often more conscious of animal welfare aspects.</p>
+    <div id="sc33m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc33mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>GGN</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="eng-modal">
-        <div class="modal-overlay1 modal-toggle8"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle8">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Engage
-                        your staff
-                    </h4>
-                    <ul>
-                        <li>Involve staff at the beginning and explain explain what you want to do and why </li>
-                        <li>Your serving staff will be essential in communicating your philosophy and will be more convincing if included in your decisions.</li>
-                        <li>Examples of sustainable menus can help their understanding and encourage them to contribute ideas. </li>
-                    </ul>
+    <div id="sc34m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc34mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>ASC</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" redu-modal">
-        <div class="modal-overlay1 modal-toggle9"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle9">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Reduce the
-                        size of
-                        your menu
-                    </h4>
-                    <p>A smaller menu often indicates good quality and well controlled stock. It is the opportunity
-                        to use more seasonal products and to reduce food waste. Try to keep single ingredients to a minimum while keeping the classics that your customers love. If you make 80% revenue from 20% of your dishes be sure to keep these. Add a dish that changes with the day / month / season.
-                    </p>
+    <div id="sc35m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc35mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>ASC</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" set-modal">
-        <div class="modal-overlay1 modal-toggle13"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle13">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Go for vegetables</h4>
-                    <ul>
-                        <li>Introduce (more) courts where
-                            vegetables play the leading role</li>
-                        <li>Increase the amount of unprocessed
-                            vegetables on the plate compared to the meat or fish portion</li>
-                        <li> Offer more dishes that are completely up
-                            vegetable based</li>
-
-                    </ul>
+    <div id="sc36m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc36mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>FSC</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" ver-modal">
-        <div class="modal-overlay1 modal-toggle14"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle14">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Use sustainable fish</h4>
-                    <ul>
-                        <li>Introduce uncommon species including those that are usually wasted or "by-catch".</li>
-                        <li>Feature fish that is caught responsibly i.e. certified, fully traceable.</li>
-
-                    </ul>
+    <div id="sc37m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc37mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>PEFC</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" exp-modal">
-        <div class="modal-overlay1 modal-toggle15"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle15">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Experiment with plant proteins</h4>
-                    <ul>
-                        <li>Use (more) whole plant proteins for example lentils, quinoa, teff, beans and seaweed</li>
-                        <li>Use different processed plant proteins for example tofu, tempeh.</li>
-
-                    </ul>
+    <div id="sc38m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc38mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>RTRS</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" neh-modal">
-        <div class="modal-overlay1 modal-toggle16"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle16">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Avoid highly processed ingredients </h4>
-                    <p>Be mindful of imitations of traditional ingredients. Often these are highly processed, high in sugar, salt, transfats and are not particularly healthy.</p>
+    <div id="sc39m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc39mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>RSPO</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" setsie-modal">
-        <div class="modal-overlay1 modal-toggle17"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle17">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 flexi-cont">
-                    <h4>Introduce inclusive dishes</h4>
-                    <p>Offer dishes that accommodate different dietary preferences such as vegan.
-                    </p>
+    <!-----SCHEME4--------->
+    <div id="sc41m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc41mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>Home Compostable</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class=" introdiv-modal">
-        <div class="modal-overlay1 modal-toggle18"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle18">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Introduce diverse grains
-                    </h4>
-                    <p>Use ancient varieties of grains such as teff or those that are common to your region.
-                    </p>
+    <div id="sc42m" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a type="button" id="sc42mClose" data-dismiss="modal">
+                    <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid scheme-close-button">
+                </a>
+                <div class="modal-body">
+                    <p>Industrial</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-----MODALS END--------->
 
+    <script src="jquery/page1.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <div class=" intro-modal">
-        <div class="modal-overlay1 modal-toggle10"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle10">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
 
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Introduce
-                        smaller
-                        portion sizes
-                        as an option
-                    </h4>
-                    <p>Many consumers are looking to reduce their consumption.This happens for health reasons, but it can also be an attractive element for diners with children. Increasingly restaurateurs recognize that children are best served with the same food as adults, albeit in a smaller portion.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 30,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 
-    <div class=" source-modal">
-        <div class="modal-overlay1 modal-toggle11"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle11">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Source locally,
-                        regionally
-                        and in season
-                    </h4>
-                    <p>Make an impact with responsible sourcing and only use responsibly sourced fish and food that is organic, nutritious, seasonal, ethically traded, local and regional. Moreover, try to buy foods that encourage biodiversity, do not involve waste and do not destroy forests. If you want to find out more, go to the responsible sourcing chapter. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" use-modal">
-        <div class="modal-overlay1 modal-toggle12"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle12">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont more-text">
-                    <div>
-                        <h4>
-                            Use less
-                            and
-                            better meat
-                        </h4>
-                        <p>If meat is the main feature of most of your dishes, you can reduce the portion of meat, poultry and fish. When you choose meat, poultry, pork and so on look for sustainably sourced products. You can also include different parts of meat that are usually not used, in other words “nose to tail” eating.
-
-                        </p>
-                        <!-- <div class="listing-use" id="more13">
-          </div>
-          <button class="read-more-btn" href="#" id="myBtn13"">Read more</button>
-                              </div> -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            var x, i, j, l, ll, selElmnt, a, b, c;
-            /*look for any elements with the class "custom-select":*/
-            x = document.getElementsByClassName("custom-select");
-            l = x.length;
-            for (i = 0; i < l; i++) {
-                selElmnt = x[i].getElementsByTagName("select")[0];
-                ll = selElmnt.length;
-                /*for each element, create a new DIV that will act as the selected item:*/
-                a = document.createElement("DIV");
-                a.setAttribute("class", "select-selected");
-                a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-                x[i].appendChild(a);
-                /*for each element, create a new DIV that will contain the option list:*/
-                b = document.createElement("DIV");
-                b.setAttribute("class", "select-items select-hide");
-                for (j = 1; j < ll; j++) {
-                    /*for each option in the original select element,
-                    create a new DIV that will act as an option item:*/
-                    c = document.createElement("DIV");
-                    c.innerHTML = selElmnt.options[j].innerHTML;
-                    c.addEventListener("click", function(e) {
-                        /*when an item is clicked, update the original select box,
-                        and the selected item:*/
-                        var y, i, k, s, h, sl, yl;
-                        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                        sl = s.length;
-                        h = this.parentNode.previousSibling;
-                        for (i = 0; i < sl; i++) {
-                            if (s.options[i].innerHTML == this.innerHTML) {
-                                s.selectedIndex = i;
-                                h.innerHTML = this.innerHTML;
-                                y = this.parentNode.getElementsByClassName("same-as-selected");
-                                yl = y.length;
-                                for (k = 0; k < yl; k++) {
-                                    y[k].removeAttribute("class");
-                                }
-                                this.setAttribute("class", "same-as-selected");
-                                break;
-                            }
-                        }
-                        h.click();
-                    });
-                    b.appendChild(c);
-                }
-                x[i].appendChild(b);
-                a.addEventListener("click", function(e) {
-                    /*when the select box is clicked, close any other select boxes,
-                    and open/close the current select box:*/
-                    e.stopPropagation();
-                    closeAllSelect(this);
-                    this.nextSibling.classList.toggle("select-hide");
-                    this.classList.toggle("select-arrow-active");
-                });
-            }
-
-            function closeAllSelect(elmnt) {
-                /*a function that will close all select boxes in the document,
-                except the current select box:*/
-                var x, y, i, xl, yl, arrNo = [];
-                x = document.getElementsByClassName("select-items");
-                y = document.getElementsByClassName("select-selected");
-                xl = x.length;
-                yl = y.length;
-                for (i = 0; i < yl; i++) {
-                    if (elmnt == y[i]) {
-                        arrNo.push(i)
-                    } else {
-                        y[i].classList.remove("select-arrow-active");
-                    }
-                }
-                for (i = 0; i < xl; i++) {
-                    if (arrNo.indexOf(i)) {
-                        x[i].classList.add("select-hide");
-                    }
-                }
-            }
-            /*if the user clicks anywhere outside the select box,
-            then close all select boxes:*/
-            document.addEventListener("click", closeAllSelect);
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 
 
-            $('.slider').slick({
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                arrows: true,
-                dots: false,
-                centerMode: true,
-                variableWidth: true,
-                infinite: true,
-                focusOnSelect: true,
-                cssEase: 'linear',
-                touchMove: true,
-                prevArrow: '<button class="slick-prev"> < </button>',
-                nextArrow: '<button class="slick-next"> > </button>',
-
-                //         responsive: [                        
-                //             {
-                //               breakpoint: 576,
-                //               settings: {
-                //                 centerMode: false,
-                //                 variableWidth: false,
-                //               }
-                //             },
-                //         ]
-            });
 
 
-
-            var imgs = $('.slider img');
-            imgs.each(function() {
-                var item = $(this).closest('.item');
-                item.css({
-                    'background-image': 'url(' + $(this).attr('src') + ')',
-                    'background-position': 'center',
-                    '-webkit-background-size': 'cover',
-                    'background-size': 'cover',
-                });
-                $(this).hide();
-            });
-
-            $('.slider2').slick({
-                slidesToShow: 3,
-                arrows: true,
-                dots: false,
-                centerMode: true,
-                variableWidth: true,
-                infinite: true,
-                focusOnSelect: true,
-                cssEase: 'linear',
-                touchMove: true,
-                prevArrow: '<button class="slick-prev"> < </button>',
-                nextArrow: '<button class="slick-next"> > </button>',
-
-                //         responsive: [                        
-                //             {
-                //               breakpoint: 576,
-                //               settings: {
-                //                 centerMode: false,
-                //                 variableWidth: false,
-                //               }
-                //             },
-                //         ]
-            });
-
-            var imgs = $('.slider2 img');
-            imgs.each(function() {
-                var item = $(this).closest('.item');
-                item.css({
-                    'background-image': 'url(' + $(this).attr('src') + ')',
-                    'background-position': 'center',
-                    '-webkit-background-size': 'cover',
-                    'background-size': 'cover',
-                });
-                $(this).hide();
-            });
-
-
-            /*readmorejs */
-
-            // function myFunction() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText = document.getElementById("more");
-            //   var btnText = document.getElementById("myBtn");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText.innerHTML = "Read more"; 
-            //     moreText.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText.innerHTML = "Read less"; 
-            //     moreText.style.display = "block";
-            //   }
-            // }
-
-            // function myFunction13() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText13 = document.getElementById("more13");
-            //   var btnText13 = document.getElementById("myBtn13");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText13.innerHTML = "Read more"; 
-            //     moreText13.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText13.innerHTML = "Read less"; 
-            //     moreText13.style.display = "block";
-            //   }
-            // }
-
-            // function myFunction14() {
-            //   var dots14 = document.getElementById("dots14");
-            //   var moreText14 = document.getElementById("more14");
-            //   var btnText14 = document.getElementById("myBtn14");
-
-            //   if (dots14.style.display === "none") {
-            //     dots14.style.display = "block";
-            //     btnText14.innerHTML = "Read more"; 
-            //     moreText14.style.display = "none";
-            //   } else {
-            //     dots14.style.display = "none";
-            //     btnText14.innerHTML = "Read less"; 
-            //     moreText14.style.display = "block";
-            //   }
-            // }
-            // function myFunction1() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText1 = document.getElementById("more1");
-            //   var btnText1 = document.getElementById("myBtn1");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText1.innerHTML = "Read more"; 
-            //     moreText1.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText1.innerHTML = "Read less"; 
-            //     moreText1.style.display = "block";
-            //   }
-            // }
-            // function myFunction2() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText2 = document.getElementById("more2");
-            //   var btnText2 = document.getElementById("myBtn2");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText2.innerHTML = "Read more"; 
-            //     moreText2.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText2.innerHTML = "Read less"; 
-            //     moreText2.style.display = "block";
-            //   }
-            // }
-            // function myFunction3() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText3 = document.getElementById("more3");
-            //   var btnText3 = document.getElementById("myBtn3");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText3.innerHTML = "Read more"; 
-            //     moreText3.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText3.innerHTML = "Read less"; 
-            //     moreText3.style.display = "block";
-            //   }
-            // }
-            // function myFunction4() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText4 = document.getElementById("more4");
-            //   var btnText4 = document.getElementById("myBtn4");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText4.innerHTML = "Read more"; 
-            //     moreText4.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText4.innerHTML = "Read less"; 
-            //     moreText4.style.display = "block";
-            //   }
-            // }
-
-            // function myFunction5() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText5 = document.getElementById("more5");
-            //   var btnText5 = document.getElementById("myBtn5");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText5.innerHTML = "Read more"; 
-            //     moreText5.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText5.innerHTML = "Read less"; 
-            //     moreText5.style.display = "inline";
-            //   }
-            // }
-            // function myFunction6() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText6 = document.getElementById("more6");
-            //   var btnText6 = document.getElementById("myBtn6");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "block";
-            //     btnText6.innerHTML = "Read more"; 
-            //     moreText6.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText6.innerHTML = "Read less"; 
-            //     moreText6.style.display = "block";
-            //   }
-            // }
-            // function myFunction7() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText7 = document.getElementById("more7");
-            //   var btnText7 = document.getElementById("myBtn7");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText7.innerHTML = "Read more"; 
-            //     moreText7.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText7.innerHTML = "Read less"; 
-            //     moreText7.style.display = "inline";
-            //   }
-            // }
-            // function myFunction8() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText8 = document.getElementById("more8");
-            //   var btnText8 = document.getElementById("myBtn8");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText8.innerHTML = "Read more"; 
-            //     moreText8.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText8.innerHTML = "Read less"; 
-            //     moreText8.style.display = "inline";
-            //   }
-            // }
-            // function myFunction9() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText9 = document.getElementById("more9");
-            //   var btnText9 = document.getElementById("myBtn9");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText9.innerHTML = "Read more"; 
-            //     moreText9.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText9.innerHTML = "Read less"; 
-            //     moreText9.style.display = "inline";
-            //   }
-            // }
-            // function myFunction10() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText10 = document.getElementById("more10");
-            //   var btnText10 = document.getElementById("myBtn10");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText10.innerHTML = "Read more"; 
-            //     moreText10.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText10.innerHTML = "Read less"; 
-            //     moreText10.style.display = "inline";
-            //   }
-            // }
-            // function myFunction11() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText11 = document.getElementById("more11");
-            //   var btnText11 = document.getElementById("myBtn11");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText11.innerHTML = "Read more"; 
-            //     moreText11.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText11.innerHTML = "Read less"; 
-            //     moreText11.style.display = "inline";
-            //   }
-            // }
-            // function myFunction12() {
-            //   var dots = document.getElementById("dots");
-            //   var moreText12 = document.getElementById("more12");
-            //   var btnText12 = document.getElementById("myBtn12");
-
-            //   if (dots.style.display === "none") {
-            //     dots.style.display = "inline";
-            //     btnText12.innerHTML = "Read more"; 
-            //     moreText12.style.display = "none";
-            //   } else {
-            //     dots.style.display = "none";
-            //     btnText12.innerHTML = "Read less"; 
-            //     moreText12.style.display = "inline";
-            //   }
-            // }
-
-            let collapsibleHeaders = document.getElementsByClassName('collapsible__header');
-
-            Array.from(collapsibleHeaders).forEach(header => {
-                header.addEventListener('click', () => {
-                    header.parentElement.classList.toggle('collapsible--open');
-                });
-            });
-
-            // Quick & dirty toggle to demonstrate modal toggle behavior
-            $('.modal-toggle1').on('click', function(e) {
-                e.preventDefault();
-                $('.vegan-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle2').on('click', function(e) {
-                e.preventDefault();
-                $('.vegi-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle3').on('click', function(e) {
-                e.preventDefault();
-                $('.paleo-modal').toggleClass('is-visible');
-            });
-            $(' .modal-toggle4').on('click', function(e) {
-                e.preventDefault();
-                $('.keto-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle5').on('click', function(e) {
-                e.preventDefault();
-                $('.fruit-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle6').on('click', function(e) {
-                e.preventDefault();
-                $('.omni-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle7').on('click', function(e) {
-                e.preventDefault();
-                $('.flexi-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle8').on('click', function(e) {
-                e.preventDefault();
-                $('.eng-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle9').on('click', function(e) {
-                e.preventDefault();
-                $('.redu-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle10').on('click', function(e) {
-                e.preventDefault();
-                $('.intro-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle11').on('click', function(e) {
-                e.preventDefault();
-                $('.source-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle12').on('click', function(e) {
-                e.preventDefault();
-                $('.use-modal').toggleClass('is-visible');
-            });
-
-            $('.modal-toggle13').on('click', function(e) {
-                e.preventDefault();
-                $('.set-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle14').on('click', function(e) {
-                e.preventDefault();
-                $('.ver-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle15').on('click', function(e) {
-                e.preventDefault();
-                $('.exp-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle16').on('click', function(e) {
-                e.preventDefault();
-                $('.neh-modal').toggleClass('is-visible');
-            });
-            $('.modal-toggle17').on('click', function(e) {
-                e.preventDefault();
-                $('.setsie-modal').toggleClass('is-visible');
-            });
-
-            $('.modal-toggle18').on('click', function(e) {
-                e.preventDefault();
-                $('.introdiv-modal').toggleClass('is-visible');
-            });
-
-
-            $(document).on('click', '.read-more-btn, .read-text', function() {
-                var $el = $(this),
-                    $el_wrap = $el.closest('.more-text'),
-                    $content = $el_wrap.find('[id^="more"]'),
-                    target = $el.attr('target');
-                if (target != null) {
-                    $content = $(target);
-                }
-                if ($content.hasClass('active')) {
-                    $content.slideUp('fast').removeClass('active');
-                    $el.html('Read more').removeClass('btn-active');
-                } else {
-                    $content.slideDown('fast').addClass('active');
-                    $el.html('Read less').addClass('btn-active');
-                }
-            });
-        </script>
-
-        <script src="jquery/page1.js"></script>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 

@@ -197,7 +197,7 @@
         <div class="section-slider-center text-center">
           <div class="wrap">
             <h3>Good to know - Different ways of eating </h3>
-
+            <!---////////////////////////////////////////-->
             <div class="slider">
 
               <div class="item vegan-item">
@@ -417,40 +417,53 @@
 
         </div>
       </section>
+
+      <script>
+        $(document).ready(function() {
+          $("li.accordian1").click(function() {
+            $("li.accordian2").removeClass("collapsible--open");
+            $("li.accordian3").removeClass("collapsible--open");
+            $("li.accordian4").removeClass("collapsible--open");
+          });
+          $("li.accordian2").click(function() {
+            $("li.accordian1").removeClass("collapsible--open");
+            $("li.accordian3").removeClass("collapsible--open");
+            $("li.accordian4").removeClass("collapsible--open");
+          });
+          $("li.accordian3").click(function() {
+            $("li.accordian1").removeClass("collapsible--open");
+            $("li.accordian2").removeClass("collapsible--open");
+            $("li.accordian4").removeClass("collapsible--open");
+          });
+          $("li.accordian4").click(function() {
+            $("li.accordian1").removeClass("collapsible--open");
+            $("li.accordian2").removeClass("collapsible--open");
+            $("li.accordian3").removeClass("collapsible--open");
+          });
+        });
+      </script>
+
+
+
       <section class="section-lena-kitchen container no-print">
         <div class="section-lena text-center">
           <h3>LENA’S KITCHEN </h3>
           <p>Mirror your substainability philosophy on your menu! Here are examples how to do it:</p>
         </div>
-        <ul class="section-lena-inner">
-          <li class="accordian1">
+        <ul class="section-lena-inner" id="accordion9">
+          <li class="accordian1 accor">
             <div class="collapsible__header">OUR FOOD ORIGINS</div>
-            <p class="collapsible__content">Salads and herbs are
-              grown in our indoor
-              garden. Most of our
-              vegetables are from local
-              farms. When we need to
-              we use sources further
-              away. <br> Beef is from cattle
-              pastured locally at Valley
-              farm. <br>Fish is responsibly
-              sourced via Mr FishMarket.
-              Bread is from Mrs Baker in
-              town. <br> Please tell us if you
-              have an allergy and we will
-              do our best to help you
-              choose a suitable meal!</p>
-          </li>
-          <li class="accordian2">
-            <div class="collapsible__header">CERTIFIED SOURCES</div>
-            <p class="collapsible__content">Milk and cream are certified organic from Mrs Wholesale. <br>
-              Soya ingredients come from certified non-deforested land via Mrs Wholesale. <br>
-              Frying oil is certified sustainable palm from Mrs Wholesale.<br>
-              Spices, chocolate, coffee and tea are ethically traded from Mrs Wholesale. <br>
-              Chicken and eggs are from certified sustain-able free-range farms via Mrs Wholesale.
+            <p class="collapsible__content">
+              Salads and herbs are grown in our indoor garden. Most of our vegetables are from local farms. When we need to we use sources further away. <br> Beef is from cattle pastured locally at Valley farm. <br>Fish is responsibly sourced via Mr FishMarket. Bread is from Mrs Baker in town. <br> Please tell us if you have an allergy and we will do our best to help you choose a suitable meal!
             </p>
           </li>
-          <li class="accordian3">
+          <li class="accordian2 accor">
+            <div class="collapsible__header">CERTIFIED SOURCES</div>
+            <p class="collapsible__content">
+              Milk and cream are certified organic from Mrs Wholesale. <br>Soya ingredients come from certified non-deforested land via Mrs Wholesale. <br> Frying oil is certified sustainable palm from Mrs Wholesale.<br> Spices, chocolate, coffee and tea are ethically traded from Mrs Wholesale. <br> Chicken and eggs are from certified sustain-able free-range farms via Mrs Wholesale.
+            </p>
+          </li>
+          <li class="accordian3 accor">
             <div class="collapsible__header">WE DON´T LIKE WASTE</div>
             <p class="collapsible__content">We transform our unused bread into bread crumbs and ingredients for our dishes. <br>
               All our dishes are available in 'hungry and 'very hungry sizes. Please tell us which you prefer.
@@ -458,12 +471,19 @@
               If it turns out you have a little too much on your plate. We will give you the rest to take home with you.
             </p>
           </li>
-          <li class="accordian4">
+          <li class="accordian4 accor">
             <div class="collapsible__header">TO GO</div>
             <p class="collapsible__content">If you can't make it to Lena's kitchen yourself or are in a rush to go elsewhere, we have a delivery and takeaway service. Our containers are compostable at home. Soon we will offer a container deposit scheme so you can save even more <a href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank">packaging</a> going to the rubbish bin! <br> Watch this space. </p>
           </li>
         </ul>
       </section>
+
+
+
+
+
+
+
       <section class="section-text-withimages  section4-5 no-print">
         <div class="left-content">
           <h3>Track and talk <br>

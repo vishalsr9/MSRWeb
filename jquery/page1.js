@@ -19101,3 +19101,26 @@ $('.custom__select select').change(function(){
 });
 
 
+$(document).ready(function () {
+  $("li.accordian1").click(function () {
+    $("li.accordian2").removeClass("collapsible--open");
+    $("li.accordian3").removeClass("collapsible--open");
+    $("li.accordian4").removeClass("collapsible--open");
+  });
+  $("li.accordian2").click(function () {
+    $("li.accordian1").removeClass("collapsible--open");
+    $("li.accordian3").removeClass("collapsible--open");
+    $("li.accordian4").removeClass("collapsible--open");
+  });
+  $("li.accordian3").click(function () {
+    $("li.accordian1").removeClass("collapsible--open");
+    $("li.accordian2").removeClass("collapsible--open");
+    $("li.accordian4").removeClass("collapsible--open");
+  });
+  $("li.accordian4").click(function () {
+    $("li.accordian1").removeClass("collapsible--open");
+    $("li.accordian2").removeClass("collapsible--open");
+    $("li.accordian3").removeClass("collapsible--open");
+  });
+});
+
