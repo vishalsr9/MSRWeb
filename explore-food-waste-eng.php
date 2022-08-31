@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>METRO</title>
+    <link rel="stylesheet" href="css/page2_style_1.css">
+    <script src="jquery/custom.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <!--required---->
+    <link rel="stylesheet" href="required1/bootstrap.min.css" />
+    <link rel="stylesheet" href="required1/font-awesome.min.css" />
+    <link rel="stylesheet" href="required1/normalize.min.css" />
+    <link rel="stylesheet" href="required1/swiper-bundle.min.css" />
+    <script src="required1/bootstrap.bundle.min.js"></script>
+    <script src="required1/jquery-3.6.0.min.js"></script>
+    <script src="required1/modernizr.min.js"></script>
+    <script src="required1/swiper-bundle.min.js"></script>
+    <!------EXPLORE SAFE FOOD L4 PAGE----------->
+    <script src=safe-food.js></script>
+    <link href="safe-food.css" rel="stylesheet">
+  </head>
+  <body class="page4-page">
+    <header>
+      <div class="container no-print">
+        <div class="logo">
+          <a href="/">
+            <img src="images/metro-logo.svg" />
+          </a>
+        </div>
+        <div class="header-menu">
+          <div class="menu-ham">
+            <ul class="no-margin-bottom">
+              <li class="menu-click" onclick="openNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
+                  <title>New Project</title>
+                  <style>
+                    .s0 {
+                      fill: #ffe500
+                    }
+                  </style>
+                  <g id="&lt;Group&gt;">
+                    <g id="&lt;Group&gt;">
+                      <path id="&lt;Path&gt;" class="s0" d="m0 0.6h36v5.3h-36z" />
+                      <path id="&lt;Path&gt;" class="s0" d="m0 10.4h36v5.2h-36z" />
+                      <path id="&lt;Path&gt;" class="s0" d="m0 20.1h36v5.3h-36z" />
+                    </g>
+                  </g>
+                </svg>
+                <div id="myNav" class="overlay-menu">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                    <a href="/">Home</a>
+                    <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                    <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
+                    <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="custom__select">
+            <select>
+              <option value="explore-food-waste-deu.php">DEU</option>
+              <option value="explore-food-waste-eng.php" selected> ENG</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="safeFoodl4_banner no-print">
+      <div class="container-fluid no-print">
+        <div class="row px-4 no-print">
+          <div class="col-md-5 no-print">
+            <div class="banner_l4_title">
+              <h1 class="banner_title">How To Reduce <br>Food Waste </h1>
+              <h6>
+                <strong>Food waste and your business</strong>
+              </h6>
+              <p>Food waste costs money. That ́s why wasted food is a waste of money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict. Conflicts that young and future customers are not willing to accept. At the same time, the demand for food is increasing as the world ́s population grows, but the farmland is finite. That ́s why legislation is being passed which requires hospitality and food services to deal with food waste more efficiently. EU legislation obliges the HoReCa sector to measure food waste e.g. in France, Germany and many other countries. </p>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1 no-print">
+            <div class="banner_l4_img">
+              <img src="./images/safe_food/Asset 1.svg" class="img-fluid pl-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="good_to_know no-print mtcsutom">
+      <div class="container">
+        <div class="row">
+          <h3 class="food_wasteTitle">Landfills should be the last place for food waste</h3>
+          <p class="exploreFood_discripsn">Over 1/3 of all food produced globally goes to waste. There are many other ways to handle food waste. First of all: think about how you can avoid food waste. Then resell surplus food, donate it to people in need, or animal shelters. If possible, recycle food for other purposes and compost as much as possible. Ensure you minimize the quantity of food waste that goes to landfills.</p>
+          <div class="col-md-4 px-4">
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 3.1.svg" class="img-fluid">
+              <p>Makes a positive impacton your business’ image</p>
+            </div>
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 5.1.svg" class="img-fluid">
+              <p>Improves your equipment </p>
+            </div>
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 8.1.svg" class="img-fluid">
+              <p>Has a positive impacton your local environment</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="benefit_box">
+              <h4>Benefits of reducing food waste are enormous</h4>
+            </div>
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 9.1.svg" class="img-fluid">
+              <p>You differentiate yourselfby standing out as responsible </p>
+            </div>
+          </div>
+          <div class="col-md-4 px-4">
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 4.1.svg" class="img-fluid">
+              <p>Improves your business operationpractices and efficiency</p>
+            </div>
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 7.1.svg" class="img-fluid">
+              <p>Has a positive impacton your work ethics </p>
+            </div>
+            <div class="good_to_know_box p-4 safe_foodBox_l4">
+              <img src="./images/safe_food/Asset 10.svg" class="img-fluid">
+              <p>You will be readyto comply with new laws</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="waste_food_l4_slider no-print">
+      <div class="section-div">
+        <div class="container-fluid ">
+          <div class="sw-holder">
+            <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
+            <div class="swholder1 slider_3">
+              <div class="swholder-sw">
+                <div class="swiper swx">
+                  <div class="swiper-wrapper swx-wrapper">
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 slider_3-1 sf-slider-1 text-center">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-1.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 sf-slider-1 text-center">
+                          <span class="sltext-holder"> Engage <br> your staff </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop1" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-2 sf-slider-2">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-2.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Identify different <br>types of waste </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop2" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-3 sf-slider-3">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-3.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Store fruits and vegetables <br>the right way </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop3" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-4 sf-slider-4">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-4.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Only order <br>what you really need </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop4" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-5">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-5.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Source rightfully </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop5" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-6">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-6.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Compost the Scraps </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop6" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide sl-box">
+                      <div class="slide-inner">
+                        <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-7">
+                          <span class="slimg-holder">
+                            <img src="./images/safe_food/fw-7.svg" class="img-fluid mb-2 mt-2">
+                          </span>
+                        </div>
+                        <div class="sl-text sl-text-6 text-center">
+                          <span class="sltext-holder"> Discount or donate <br>surplus food </span>
+                        </div>
+                        <div class="sl-button sl-button-6 text-center">
+                          <button class="read-more-btn food_wastePop7" id="sl-button sl-button-6">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+            </div>
+            <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="advance_way no-print">
+      <div class="container">
+        <div class="row">
+          <h3>Advanced ways to save food waste</h3>
+          <p>You can go even further by implementing advanced ways to reduce food waste in your restaurant:</p>
+        </div>
+      </div>
+    </section>
+    <section class="compost_wasteFood pb-3 no-print">
+      <div class="container-fluid">
+        <div class="row px-4">
+          <h3 class="food_wasteTitle">COMPOST FOOD WASTE</h3>
+          <p class="exploreFood_discripsn">Through composting you can help put food scraps to use and reduce methane emissions in landfills. <br>You can start composting by implementing the following steps: </p>
+          <div class="col-md-6">
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 18.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p class="pt-0">Inform your staff and help them understand why you are doing this. Ask for their ideas and if they know of any limitations that should be considered before starting the project</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 19.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Decide if you will compost on-site or use a removal service</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 26.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Place clear signage in your back-of-house area to show where the food scraps and compost go</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 27.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Secure the composting equipment and food scraps, to prevent them from contaminating the surroundings and from attracting pests</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 28.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Consider using more eco-friendly disposables, for example, rubbish bin liners</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 29.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Check with your local waste collection service or authority about what is possible to send for commercial composting</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 30.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Composters can be positioned indoors or outdoors. They can use earthworms or not and they can be open or closed systems. Don ́t forget to check what is suitable and hygienic for your location</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Once you have established composting at your restaurant, let your local community and customers know about it via your menu, website, social media and/or your window </p>
+                </div>
+              </div>
+            </div>
+            <button class="read-more-btn r2 mt-5" id="myBtn33" href="#clickTohide">Read more</button>
+          </div>
+          <div class="col-md-6">
+            <div class="compost_wasteFood_img">
+              <img src="./images/safe_food/Asset 32.svg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
+      <div class="container">
+        <div class="row safeFoodl4_paragraphs_bgwhite">
+          <div class="col-md-6 p-4">
+            <h4 class="pl-4">Composting and its benefits</h4>
+            <p class="pl-4">Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers. Depending on the local regulations, a restaurant can even use compost for</p>
+          </div>
+          <div class="col-md-6 p-4">
+            <h4></h4>
+            <p class="pt-4">an onsite garden, from plant pots to a small herb garden to a vegetable patch or simply the garden. <br>But not all sorts of food can be composted. Diseased plants, dairy products, coal or charcoal ashes, meat and bones, oil, fat and grease, and all toxic materials cannot be composted. Compostable materials include fruit and vegetable waste, coffee grounds and filters, paper napkins, wood ashes, cardboard and newspaper. You should check with your local waste collection service or authority about what is possible to send for commercial composting. Also, ask them if they collect cooked waste and animal products as they might have a service to process these foods into biogas </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="compost_wasteFood pb-5 no-print">
+      <div class="container-fluid">
+        <div class="row px-4">
+          <h3 class="food_wasteTitle">LEARN TO MAKE MORE OUT OF FOOD SCRAPS</h3>
+          <div class="col-md-6">
+            <div class="compost_wasteFood_img learn_to_make">
+              <center>
+                <img src="./images/safe_food/Asset 33.svg" class="img-fluid">
+              </center>
+              <p class="mt-4">Unwanted parts are those pieces of meat, fish and vegetables that usually get discarded because the taste, texture or appearance is not what diners can stomach. Sometimes these unwanted parts, such as offal or bones, are simply forgotten over the decades. What is clear is that many of us, particularly in developed countries, lost our imagination to create delicious and nutritious meals out of all parts of the animal. We lost our connection to where food comes from and our appreciation of the effort it takes to produce. <br>
+                <br>When you use these generally unwanted parts you can deliver a whole new world of tastes and textures to your customers. Restaurants influence eating patterns and many trends have started in restauration. Check out the following aspects when you want to cook with unwanted parts:
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 34.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Source your fish and meat responsibly</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 35.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Buy different parts of the fish or meat that are not so popular or which may be usually discarded.</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 36.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Talk with your customers about what you are doing and why. To convince them to try out unusual dishes you could offer small tasting plates.</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 37.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Make salmon cut-offs into a risotto</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 38.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Roast skin into crisps</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 39.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Reduce bones into a stock</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 40.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Try using skirt as it is as tasty as an entrecote but cheaper</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Tops of carrots can be made into a pesto sauce</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 42.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Wilted lettuce can be sautéed and served as a side</p>
+                </div>
+              </div>
+            </div>
+            <div class="compost_wasteFood_listing">
+              <div class="media">
+                <div class="media-left">
+                  <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
+                </div>
+                <div class="media-body">
+                  <p>Cook broccoli stalks and puree them into a soup </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="safeFoodl4_banner no-print">
+      <div class="container-fluid">
+        <div class="row px-4">
+          <div class="col-md-5">
+            <div class="banner_l4_title">
+              <h1 class="banner_title2">Track and Talk <br>About Your Progress </h1>
+              <p>Once you have taken some steps, check the cut down of your food waste and keep a track of it. Look out for simple tracking solutions that don’t need too much input from you, for example, monitor your disposal costs, the volume of donations, the win back of sunk costs (by Food surplus redistribution), and the attraction of new customers. Talk to your staff about how much you saved and how they have helped in achieving the desired results. Seeing the progress visibly can motivate them to keep on saving food. Publicise what you are doing. For example, a message on your website or in your menu can be a visible reminder to your customers about your responsible actions. You can have an impact this way as staff and customers will take these messages home with them.</p>
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <div class="banner_l4_img talk_prog_img">
+              <img src="./images/safe_food/Asset 44.svg" class="img-fluid pl-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="action_plan mt-5">
+      <div class="container">
+        <div class="top-content mb-4">
+          <h3>Your Action Plan</h3>
+        </div>
+        <div class="mid-content cation-plan-section">
+          <ul>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Identify sources of food waste in your restaurant </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class="">Store fruits and vegetables in the right way </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Only order what you really need </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Donate your food surplus and get informed about local institutions that take donations and about their conditions for food donations </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Compost goods that are compostable </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Complement the menu with dishes that contain unwanted parts </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Inform and engage your staff </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Tell your customers about your progress </p>
+            </li>
+            <li>
+              <label class="check-wrap">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <p class=""> Install visual reminders </p>
+            </li>
+            <li class="print-li">
+              <button onclick="window.print();" class="no-print">Print</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section5 no-print">
+      <div class="bottom-left">
+        <div class="top-content5">
+          <h3>METRO Solutions</h3>
+          <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+          <p>
+            <strong>Applications that can support with menu design or communications are:</strong>
+          </p>
+        </div>
+        <div class="bottom-content5">
+          <ul>
+            <li>
+              <a href="https://www.menukithd.com/" target="_blank">
+                <img src="images/logo-dish.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dish.co/XX/en/" target="_blank">
+                <img src="images/Dish_Logo-svg.svg" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                <img src="images/Protrace_Logo-ai.svg" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+                <img src="images/Eitiketten.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-right">
+        <div class="top-content5">
+          <h3>METRO Offer</h3>
+          <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
+        </div>
+        <div class="bottom-content5">
+          <ul>
+            <li>
+              <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                <img src="images/Logo_METRO-Regio_weiss.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 373 192" width="373" height="192">
+                  <title>METRO_Bio-ai</title>
+                  <style>
+                    .sf {
+                      fill: #fff
+                    }
+                  </style>
+                  <g id="Ebene 1">
+                    <g id="&lt;Group&gt;">
+                      <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m104.1 0.8h6.4q1.2 0.4 2.3 1.1 1.2 0.6 2.6 1.9 2.4 1.7 5.5 2.3 3 0.5 6.1 0.5 1.9 0 3.5-0.3 1.7-0.3 2.8-0.3 2.6 0 4.4 0.3 1.8 0.3 3.7 0.3 1.8 0.4 3.1 1.1 1.3 0.6 3.2 1.1 0.5 0 1.5 0.3 1.1 0.3 1.6 0.3 2.3 0 4.3 0.5 2 0.6 4.4 1 1.9 1.1 4.1 1.7 2.2 0.7 4.8 1.8 2.9 1.3 5.7 2.9 2.8 1.6 5.2 3.7 2.6 2.2 4 4.9 1.4 2.7 3 5.3 0.8 1.1 0.9 2.1 0.1 1.1 0.1 2.2 0 1.7 0.1 2.9 0.1 1.2 0.6 2.3 0 1.7-0.1 3.2-0.1 1.5-0.6 3.2-0.7 2.2-1.2 4-0.5 1.9-0.5 4-0.4 2.2-1.1 4.2-0.7 2.1-2.6 3.6-1.4 1.7-2.6 3-1.2 1.3-1.7 2.4-2.3 4.3-5.4 7.6-3.1 3.4-7.3 6-1.9 1-3.5 2.6-1.7 1.5-4.3 3.2-3 2.4-6.4 4.1-3.5 1.7-7 3.9-3.1 1-5.5 2.5-2.5 1.6-5.6 3.3-0.7 0-0.7 1.5 0.5 1.7 1.3 3.1 0.8 1.4 3.4 1.9 1.7 1 3.3 2.2 1.7 1.2 2.4 2.9 1.9 2.2 3.1 3.9 1.1 1.7 3 3.9 0.7 0.9 0.7 3.7v0.8q0.7 1.7 1.2 3.7 0.5 1.9 0.5 4.1 0.4 2.4 1 4.5 0.6 2.2 0.6 4.3-0.7 1.1-0.9 2.2-0.3 1.1-0.7 2.1-0.5 0.5-0.6 1.4-0.1 1-0.1 1.4 0.4 1.8 0.1 3.4-0.4 1.6-1.1 3.3-0.5 1.8-1.2 3.7-0.7 1.9-2.5 3.7-1.2 1.7-2.4 3.3-1.2 1.6-2.6 3.8-0.5 0.4-1.2 0.9-0.7 0.6-1.1 1.2-1.9 1.8-3.1 3.6-1.2 1.8-3.1 2.3-0.9 0-0.9 0.6-2.8 3-8 5-2.4 1-5 2.7-2.6 1.6-5.2 2.7h-1.6q-2.4 0-4.6 0.4-2.2 0.4-4.8 0.8-1.2 0.5-2.5 0.6-1.3 0.1-3.2 0.1-1.9 0-3.4-0.2-1.5-0.2-3.4 0.2-1.9 1.1-3.3 0.9-1.4-0.3-3.3-0.9-1.9-0.4-3.4-0.7-1.6-0.2-2.7-0.6h-5l-0.5-0.2h-0.2v0.2q-0.7 0.4-1.3 0.2-0.6-0.2-1-0.2-2.4-1.7-4.9-2.4-2.4-0.6-5.5-1.5-2.4-0.8-4.7-2.1-1.2-0.5-2.4-1-1.2-0.5-2.3-1-4.7-2.1-8-5.2-1.2-1-2.3-1.7-1-0.6-2.2-1.9-0.7-0.4-1.5-1.5-0.9-1.1-0.2-2.2v-0.6q-0.7-2.2-0.1-4.2 0.6-2.1 1.8-4.5 0.5-2.3 1-3.9 0.6-1.7 1.1-3.2 0.2 0 0.2-0.4-0.2-0.2-0.2-0.4v-1.3q1.2-0.7 1.9-1.6 0.7-1 1.4-1.7 1.9-3.6 3.1-8.4 0.4-1.7 1.3-3.3 0.8-1.6 2.7-2.7v-1.3q0.7-1.1 1.3-2.2 0.5-1 1-2.8 0-0.4 0.5-1 0.5-0.7 0.5-1.3 2.1-2.2 2.1-4.4l0.9-0.6q0.5-2.2 1.6-4 1-1.8 2.2-4.2 0.5-1.1 0.6-2.2 0.1-1 0.1-2.8v-10.1l0.9-0.6q1.9-1.8 3.8-3.3 1.9-1.5 4.3-3.2 1.4-1.7 1.4-3 1.1-1.7 1.9-2.8 0.7-1.1 1.4-2.8 1.1-3.5 2.4-6.7 1.3-3.3 3.2-6.5 0.7-0.6 0.7-2.8 0.5-1.3 1.2-2.4 0.7-1 1.2-2.1 0.5-1.7 1.5-2.8 1.1-1.1 1.5-2.8 3.3-5.6 5.2-11.3 1.9-5.8 3.6-11.2 0-1-0.2-2.1-0.1-1.1-0.5-1.5v-0.7q-1.2 0-2.4 0.1-1.2 0.2-2.4 0.6-5.4 2.8-10.6 5.8-5.1 3-9.8 6.5-1 0-1.7 0.8-3.5 3.1-7.2 6-3.6 2.9-6.9 6.3-1.2 1.1-2 1.8-0.9 0.6-2 1.7-1.9 2.8-4.2 5.5-2.2 2.7-4.6 5.5l-0.4 0.4q-0.5 0.4-0.5 0.9-2.4 2.1-4.6 4.8-2.2 2.7-3.4 6.2-1.7 2.6-3 5.2-1.2 2.7-2.4 5.6-0.5 1-0.8 2.1-0.4 1.1 0.1 2.2v0.6q0.4 2.2-0.4 4.8-0.8 2.5-2 4.7v1.5q1.2 2.6 2.4 4.9 1.2 2.2 2.3 4.6 0 0.6-0.7 1.3-0.7 0.4-1.6 1.1-1 0.6-1.4 1h-1q-2.6-2.1-5.4-3.8-2.8-1.8-5.7-4.1v-2q0-0.2-0.2-0.3-0.2-0.1-0.5-0.5-1.1-1.1-1.9-2.3-0.7-1.2-1.6-2.7 0-1.7-0.5-3-0.4-1.3-0.9-3-1.2-3.5-4.7-3.5v-18.1q0.4 0 1.5-0.4 1.1-0.5 1.5-0.5l1-0.8q0.5-3.7 2.5-6.5 2-2.8 3.8-5.8 2.4-2.6 4.6-5.6 2.3-3 4.9-5.8-0.3-0.3 0-0.5 0-0.4 0.9-0.4 0.5-1.1 1.5-1.7 1.1-0.7 2.3-1.8 1.2-1 2.4-2.4 1.3-1.4 3-2.5 1.9-1.7 3.8-3 1.8-1.3 4.2-3.1 1.9-1 3.5-2.4 1.7-1.4 3.6-2.5 3.5-1.7 7.3-4.5l1.4-1.3q5.4-2.2 10.8-4.7 5.4-2.5 10.9-4.6 1.1-1.3 2.3-1.5 1.2-0.2 3.1-0.2v-0.3q0-0.4 0.7-0.4 0.5 0 0.7-0.4 0.2-0.4 0.7-1.1 2.6-0.4 4.9-1 2.4-0.5 4.8-0.9 3-1.1 4.9-2.6 1.9-1.5 3.8-3.3 0.7-1 1.3-2.1 0.6-1.1 1-1.5zm57.7 43.5v-2.1q-0.4-1.7-0.5-3-0.2-1.3-0.2-3.1-0.7-0.6-0.7-1.2-0.7-1.1-0.9-2.2-0.3-1.1-0.7-2.2-1.2-1.7-2.1-3.6-1-2-2.9-3-1.9-1.8-3.5-3.2-1.7-1.4-3.5-3.1-0.3 0.2-0.5 0-0.2 0-0.2-0.9-2.4 0-5.2-0.4-2.9-0.4-5.2-0.9-1.2-0.8-2.4-0.3-1.1 0.6-2.3 1-1.7 1.1-2.3 2.3-0.5 1.1 0.2 3.3 0 0.6-0.5 1.2-0.5 0.5-0.5 1 0 0.6-0.4 1.1-0.5 0.6-0.5 1 0 0.4-0.1 1.2-0.2 0.8-0.6 1.2-1 0.6-1 2.8-0.4 1.1-0.9 2.1-0.5 1.1-0.5 2.2-0.7 1.1-0.8 2.3-0.1 1.1-0.1 2.9l-2.1 6.4q-0.8 0.5-1.3 1.4-0.6 1-1.1 2.1-1.2 1.3-1.5 2.4-0.4 1-0.9 2.1 0 1.7-0.2 2.8-0.2 1.1-1.4 2.2-0.7 1.1-0.9 2.1-0.3 1.1-0.8 2.4-0.7 1.7-1.4 3.2-0.7 1.6-1.9 3.3l-0.7 0.6q-0.4 1.8-1.1 3.4-0.7 1.6-1.2 4-1.2 2.1-2.3 4.6-1 2.5-1.5 4.6-0.7 1.8-0.2 2.5 0.4 0.8 1.6 1.2 0.7 0.6 1.3 0.9 0.6 0.2 1.1 0.6h2.3q0.5 0 1.2-0.3 0.7-0.3 1.2-0.3 2.6-0.7 4.4-1.2 1.7-0.6 3.6-1.6 1.2 0 2.4-0.5 1.1-0.4 2.3-0.4 1.4 0 1.4-0.9 0.7 0 1.3-0.3 0.6-0.3 1.3-0.3 0.7-0.7 1.6-0.9 0.8-0.2 0.8-0.6 4-2.6 8.6-5.7 4.6-3.2 7.9-6.6 2.6-2.8 5.2-5.5 2.5-2.7 4.4-6.2 1.9-3.6 2.7-7.4 0.9-3.8 2-7.7 0.5-0.4 0.6-1.4 0.1-0.9 0.1-1.4zm-53-26.7q0.5 1.1 1.3 1.2 0.9 0.1 2.7 0.1-1.1-0.4-2-1.2-0.8-0.7-2-0.1zm-1.6 15.7h1.6v-0.6h-0.4q-0.3 0-0.5 0.2-0.2 0.2-0.7 0.4zm1.6-0.6q-0.4-1.1-0.5-1.8-0.2-0.8-0.2-1.9-0.7 0.7-0.9 1.1-0.2 0.4-0.7 0.4zm-1.7 15.1v-2.1q-1.1 0.6-1.3 0.8-0.1 0.3-0.1 1.3zm-3.7-17.2q0.4 0.4 1.1 0.6 0.7 0.2 1.2 0.9v-2.2q-0.7 0.7-2.3 0.7zm2.3-4.5h0.7v1.7q0.5 0 1.2 0.3 0.7 0.3 1.2 0.3h0.7q0.7-0.4 0.9-1.1 0.3-0.6 0.7-0.6-1.2-0.4-0.9-1 0.1-0.1 0.1-0.3h-1.5q-0.5 0-0.5-0.8 0-0.7-1.2-0.7v1.5q0 0.7-0.4 0.7h-0.3q0-0.5-0.2-1.3-0.3-0.9 0.9-0.9 0-0.4-0.3-0.7-0.4-0.2-0.4-0.6h1.7q0-0.9-1-0.9h-3q-1 2.2 0.9 2.2l0.7 0.9v1.3h-1.6l-0.5 0.4q-0.2 0.2-0.2 1.3-0.8 0 0 0.6h0.7q1.6 0 1.6-2.3zm4.6-0.7h0.1q0-0.3 0-0.6 0 0 0 0 0 0.3-0.1 0.6zm0.8 0.7v0.6q0.5 0 0.6 0.6 0.1 0.7 0.1 1.1 1.9 0 1-2.3-1.4-2 0-4.4v-0.6q-0.7 0.4-1.7-0.1-0.9-0.6-1.6-0.6v2.2h1.6q-0.6 0.5-0.7 2.2 0.7 0 0.7 1.3zm1.7-5.7q0.4 0 1.2 0.3 0.7 0.2 1.4-0.9-1.9 0-2.6 0.6zm-9.4 14.5h-1.7v0.6q1.7 0 1.7-0.6zm-2.4 25.2q0.7-0.6 2.4-0.6-1.5-1.3-2.4 0.6zm-3.3 7.4q0-1.1-0.1-1.2-0.1-0.1-0.6-0.1 0 1.3 0.7 1.3zm-1.7 7.7h1.7v-0.6h-1.7zm-1.4 6h1.4l-0.7-0.6zm0 10.7q0 0.7-0.5 1.3-0.6 0.7-1.1 1.8 0.7-0.9 2.3-0.9 0-0.4-0.3-1-0.4-0.5-0.4-1.2zm-5.4 5h3.8q-1.4-1.3-2.4-1.9-1.4 1.3-1.4 1.9zm0-9.3q1.4-1.7 1.4-2.1h1v-0.9q-0.3 0-0.3-0.2-0.4-0.4-0.7-0.4h-0.7q-0.4 0.4-1.1 1-0.8 0.7-1.5 1.1 0.7 0.5 1 0.7 0.2 0.2 0.9 0.8zm3.8 3.1q0-0.7 0.2-0.7h0.5q0.5-0.4 0.4-0.5-0.2-0.1-0.2-0.6-0.2-0.2-0.2-0.6-1.4 0-1.4 0.8-0.5 0.7-0.7 1.2-0.3 0.6-1 1 0-0.4-0.3-1-0.4-0.5-0.4-1.2-0.4 1.1-1.3 1.1-0.8 0-2 0.5 0.7 0 1.7 0.6 1.6 0 1.6 0.6l0.7 0.9h2.4zm-6.4 9.3q0-0.7 0.7-0.9 0.7-0.2 0-1.3h-1.6q0.7-0.6 0.2-1.2-0.5-0.5-0.9-0.9 0-0.5-0.4-1.1-0.3-0.7-0.3-1.1h4q1.6 0 1.6-0.6h-2.6q0-1.5-1.6 0-1.9 0-2.1 0.2-0.3 0.2-0.3 1.9 0 2.8 2.4 2.8v2.2q-0.7-0.9-3.1-0.9 0 0.7 0.4 1.2 0.3 0.5 0.3 1.2-0.4 0-1-0.4-0.6-0.5-1.1-0.5-0.9 0.9-0.9 2.4-0.3 0-0.3 0.4 0 0.2 0.3 0.2h1.6q-0.2 0.3-0.5 0.3-0.2 0.2-0.2 0.6v1.3h0.5q0.2 0 0.9-0.6l0.7-0.7q0-0.6-0.3-1.2-0.4-0.5-0.4-0.9 0.5 0 1.4 0.1 1 0.1 1 1.1 0.5 0.7 0.8 0.7 0.4 0 1.5-0.7-0.7-0.6-0.7-2.1h1.7q-0.7-0.7-1-1.4-0.2-0.8-0.7-0.1zm0-9.9q0-0.7-0.6-0.9-0.5-0.2-1-0.9v1.8zm-2.4-2.4q2.6-1.7 1.4-3.7-0.7 0-2.3 1.5 1.2 0.5 0.7 1-0.5 0.5 0.2 1.2zm-0.9 20.9q1.4-0.9 2.3-2.1h-3q0 1.5 0.7 2.1zm2.3-8.6h1v1.5h-1zm15.4 8.6q-4.3-0.4-7.8 2.2-3.6 2.6-4 6-0.7 1.5-1.6 3-0.8 1.5-2 3.3-0.4 1.7-1 3.3-0.6 1.6-1.3 3.4-1.2 2.5-2.4 5.2-1.2 2.7-3 5.5-1.4 1.8-1.4 2.2-1.2 3.7-2.5 7.2-1.3 3.6-3.2 7.2-0.7 1.1-1.2 2.3-0.5 1.2-0.5 2.9 0 1.5-0.7 1.5-0.7 0-0.7 1.5v5.6q1.2 1.1 2.3 1.8 1 0.6 2.2 1-0.2 0.5 0 0.7 0 0.4 1 0.4 1.1 0 2.8-0.5 1.6-0.6 3.5-0.6 2.4-0.8 4.7 0h1.4q4.5-1 8.6-2.4 4.2-1.4 8.4-2.5 1.9-1.1 3.4-1.7 1.5-0.7 3.4-1.8 0.7-0.6 1.4-1.2 0.7-0.5 1.9-0.9 2.4-3.5 6.4-6.1 2.3-1.7 4.7-4.9 0.5 0 0.9-0.8 0.5-0.7 0.5-1.4 0.7-2.8 1.9-4.8 1.2-2.1 2.4-3.8 0.2-0.4 0.4-0.6 0.3-0.3 0.3-0.5v-0.4q0-2.4 0.3-4.1 0.4-1.7 0.4-3.9v-5q-1-7.5-7.1-13.1-3.1-2.8-6.5-4.2-3.4-1.4-7.9-1zm-21.4 3.7h-0.7q0.7 0 0.7 0.4zm0-2.8q0-0.6-0.2-1-0.3-0.3-1.5 0.1 0 0.9 1.7 0.9zm-2.4-2.1q1-1.3 3.1-2.2-1.9 0-2.2 0.2-0.4 0.2-0.9 2zm1.7-8.2l-0.5 0.4q-0.5 0.4-0.5 1.1h3.3q-0.7-0.5-0.9-1-0.2-0.5-0.7-0.5l0.7-0.7q-0.7 0-1.4 0.7v-1.3l-0.5-0.5q-0.5-0.4-0.5-1-0.4 0.4-1 1-0.6 0.7-1.1 1.1 2.1 0 3.1 0.7zm-1-2.8q1.2 0 2.4 0.1 1.2 0.1 2.4 0.5 0-1.5-0.2-2.7-0.1-1.2-0.5-2.3h1.4v-2.8q-1.2 0-1.3 0.3-0.2 0.2-0.1 1.3v1.2q-0.5-0.2-0.8-0.4-0.2-0.2-0.4-0.2h-0.5q-0.7 0.6-1.4 1.5 1.4 0 2.3 0.7-0.9 0-0.9 0.4-0.2 0.2 0 0.2l0.9-0.6q0 0.4 0.4 0.6 0.4 0.2 0.4 0.9-1.2 0.4-2.1 0.2-0.8-0.2-2-0.2c0 0 0 1.3 0 1.3zm0-2.8q-0.7 0-1.4 0.6h1.4zm-0.7 9.5v1.5l0.7 0.6v-0.6q1 0 1-1.5h-1.7v-1.5q-0.4 0-0.9 0.4l-0.5 0.4q-0.7-0.6-0.8-1.3-0.1-0.6-0.1-1v3zm-3.3 22.4v-1.5l-1.7 1.5v0.9q1 0 1.7-0.9zm-1.7 2.2q0-0.5-0.4-0.9-0.3-0.2-0.3-0.4l-0.7 0.6v0.7zm-1.4-13q-0.7 0.5-0.3 1.1 0.3 0.7 0.3 1.7 0.5-0.4 0.5-1.4 0-0.9-0.5-1.4zm-1.6 5q0.4 1.1 0.7 1.7 0.2 0.7 0.9 1.1v-2.8zm-1.4 11.6h0.7v-1.5h-0.7zm12.5-20.5h1.6v-1.3h-2.3q0 0.5 0.3 0.7 0.4 0.2 0.4 0.6zm-13.4 14.7q0 0 0 0zm0.4 0.4q0.5 0.5 1.2 0.5v-1.8q-0.9 0.9-1.2 0.9-0.2 0.2-0.4 0zm-5.9 26.3q0.4-1.1 0.7-1.8 0.2-0.8 0.9-1.8-0.7 0.6-1.2 0.6h-0.4l-1 0.9q-0.9 0.8 0 1.5zm-3.3 12.3v0.8q0.5 0 0.7-0.4 0.3-0.4 0.7-0.4zm-2.3-17.5q1.2 0.4 2.2 0.7 1.1 0.2 1.6 0.8 0-1.1-0.4-1.8-0.3-0.8-0.3-1.9-2.2 1.3-3.1 2.2zm-0.7 11.6v2.2q0.7 0 0.9-0.2l0.5-0.4q0-0.7-0.5-0.9-0.4-0.2-0.9-0.7zm-1-0.6q-0.4-0.6-0.7-1.1-0.2-0.4-0.7-0.4v1.5zm-1.4-3h-3q0 0.6 0.4 1 0.5 0.3 1-0.2 0.7-0.6 0.9-0.7 0.2-0.1 0.7-0.1zm-4 8.2v1.3l1 0.8q0-1.5-1-2.1zm1.7-0.9v-0.9q-1.7 0.1-2.4 0.9zm62.4-128.9q0-0.7 1.7-2.2h-2.6q0 1.5 0.9 2.2zm-25.4 48.5h-0.7-1z" />
+                      <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m232.8 30.3q0.7 0.7 1.7 1.1 1.1 0.4 1.8 1.1 1.4 1.1 2.6 2.6 1.2 1.5 1.6 3.2 1 1.1 1.1 1.8 0.1 0.8 0.1 1.9 0 1.9-0.1 4.6-0.1 2.7-1.1 4.6-0.4 0.7-0.9 1.7-0.5 0.9-0.5 1.6-1.2 1.9-2.7 3.7-1.5 1.9-2.7 3.8-2.6 3-5.5 4.7-3 1.6-7 2.9-5.6 0.6-11.3 0l-0.9-0.9q-1.9-1.1-3.2-2-1.3-1-3.2-2.5-1.9-1.1-3.2-2.3-1.3-1.2-1.3-3.5v-0.5q0-1.3-0.4-1.8-0.5-0.5-0.5-1.6-0.7 0-0.7-0.5 0-0.4 0.7-0.4 0.7-1.1 1-2.1 0.4-1.1 0.4-1.6 1.2-1.7 2-3.3 0.8-1.6 2-3.3 1.9-1.8 3.8-3.4 1.8-1.6 4.4-2.9 1.2-1.3 3-1.8 1.8-0.6 3.9-1.2 0.7-0.9 1.2-1 0.4-0.1 1.1-0.5 1.9-0.7 3.8-1.4 1.9-0.8 3.8-0.8zm-13.7 21.8v-2.2q-0.5 0.5-0.5 2.2zm1-3.4q0.9 1 1.4 0.7 0.5-0.3 1.2-0.3-0.7-1.1-2.3-1.6-1.5-0.6-2.7-0.6 0.7 0.7 0.8 1.2 0.2 0.6 0.6 1 1 0 1-0.4zm1.6 3.8h1.9v-0.4h-1.9zm-63.8 121.8q0.5-1 0.5-1.9v-1.9q0-1.3 0.4-2.4 0.5-1.1 0.5-2.2 1.4-1.9 1.4-5.4 0-1.2 0.5-2.4 0.5-1.2 0.5-2.3 0-0.9 0.2-1.1 0-0.2 0.2-0.4 1.4-1.7 2.5-3.4 1.1-1.6 1.1-3.3 0.7-1.1 1.1-2 0.5-1 1.2-2.3 4.3-8.6 7.8-17.5 1.2-2.8 2.6-5.3 1.4-2.4 2.8-4.6v-0.9q0-3.4 2.4-7.1 1.8-3.4 3.6-6.8 1.8-3.3 3.7-7 1.1-1.1 1.4-2.6 0.2-1.5 0.2-3.2-0.5-1.1 0.5-2 0.9-1 2.8-1h8.7q3.3 2.4 6.4 5 3 2.7 6.3 6l0.5 0.4q-0.5 2.4-0.6 4.5-0.1 2.2-0.8 4.6v1.3q-1.6 3.6-3.5 5.8-0.5 1.1-0.5 2.4v3l-0.5 0.4q-0.4 0.4-0.4 0.9-0.5 0.4-1.1 0.9-0.6 0.6-1.3 1.7 0 1.5-0.4 2-0.3 0.5-1 1.6v1.7q0 1.1-0.6 2.1-0.6 1-1.1 2-1.1 3.5-2.7 6.7-1.5 3.3-2.9 6.7-0.5 1.1-1.1 2.6-0.6 1.5-1 3.2 0 3.5-2.4 7.2-0.7 1-1.3 1.9-0.6 0.9-1 1.5-1.2 2.4-2.4 5-1.2 2.6-1.2 4.5v1.3q-0.4 1.3 0.3 2.4 0.7 1 0.7 2.1 0 0.9 0.4 0.9 0.3 0.2 0.5 0 1.2-0.7 2.2-0.8 1.1-0.1 2.3-0.1 1.9-0.4 3.2-1.5 1.3-1.1 2.7-2.2 2.1-2.5 4.6-5.2 2.4-2.7 4.6-5.3 1.1-1.5 2.8-2.8 1.6-1.3 3-3 0.5-0.7 1-1.3 0.5-0.7 0.9-1.1 1.7-1.7 3.3-3.4 1.7-1.6 3.1-3.3 0.2 0 0.5-0.2 0.4-0.4 0.4-1.1-0.7-0.6-0.3-0.7 0.3-0.2 0.3-0.6 2.6-1.7 4.3-3.9 1.6-2.1 3.5-4.1 1.9-2.1 4.1-5 2.3-2.9 4.6-6 2.4-3 4.4-5.9 2-2.9 3.4-5.3 0-0.6 0.6-0.7 0.6-0.1 1.1-0.1h2.3v7.9q0 0.5-0.1 0.6-0.1 0.1-0.8 0.7-0.5 1.3-1.7 3.1-1.2 1.7-2.6 3.6-1.4 2-2.7 3.9-1.3 1.9-2.2 3.2-0.5 0.5-1.3 1.4-0.8 1-1.5 2.1-1.9 1.7-3.2 3.7-1.3 1.9-3.2 4.3-2.8 2.6-5 5.8-1.1 0.4-2 1.5-0.8 1.1-2 2.2-1.1 1.7-2.2 3.3-1.1 1.6-2.5 3.3-1.2 1.1-2 2.1-0.8 1-2 2-0.5 0.7-1.2 1.5-0.7 0.9-2.5 1.6v0.4q-0.5 0.4-0.8 0.7-0.2 0.4-0.4 0.6-0.3 0.4-0.5 0.4-2.8 2.8-5.5 5-2.7 2.1-5.6 4.5-1.9 1.1-3.1 2-1.3 1-3.2 2.5-1.2 0.5-2.3 0.6-1 0.1-1.7 0.7-1.9 0-3.2 0.3-1.3 0.4-3.2 1h-1.4q-1.9-0.6-3.7-1.1-1.7-0.4-3.6-1-2.1 0-5-0.6-2.8-0.5-4.2-2.2-0.7-0.7-1.8-1.2-1-0.6-1.7-1-1.9-1.1-3.3-2.7-1.4-1.6-1.9-4zm33-48.9q1.1 0.4 1.7 0.4 0.6 0-0.1-0.4zm1 12.9q0-0.9 0.7-0.9h-2.6q1.9 0 1.9 0.9zm-10.6 8q0 0.6 0.4 1.1 0.5 0.4 0.5 1v-2.1zm0 15.1q-0.5 1.1-0.5 1.4v0.9h0.5zm-1.4 0h2.3v-0.8h-1.4q-0.9 0-0.9 0.8zm0 10.4q0.7-1.7 0.7-1.9 0-0.3-1.2-0.3 0.5 0.9 0.5 2.2zm-3.1-6.7h1.4q1-1.1 1.1-1.6 0.1-0.5 0.1-1-1.9 0.7-2.6 2.6zm-0.9-6.2v1.7h4q0-0.4-0.5-0.4-0.9-0.7-1.6-0.8-0.7-0.1-1.9-0.5zm0-4.1q-0.7 0-0.7 0.2 0 0.2 0.7 1.7zm0 8.2q-1 0.9-1.4 0.9h1.4zm15.1-35.4q0 0.4 0.7 0.9 0.7 0.4 1.8 0.4 0-1.1-0.9-1.2-0.9-0.1-1.6-0.1z" />
+                      <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m232 161.9v-2.4q0-1.1 0.5-1.5 0.5-0.4 0.5-1.5-0.7-2.8 0.3-5.5 1.1-2.7 2.7-5.5 1.9-1.7 3.1-3.6 1.2-1.8 1.9-3.8 1.2-1.7 1.9-3 0.7-1.3 1.2-3 1.1-1.3 2.7-3 1.5-1.7 2.2-3.5 1.2-1 1.8-2.4 0.6-1.4 1.3-2.5 0.7-1.1 0.8-2.1 0.1-0.9 0.6-2 2.3-4.5 5-9.1 2.8-4.5 6.1-8.4 1.8-2.4 3.3-4.3 1.4-1.9 3.7-3 0.7-1.1 1.8-1.9 1-0.7 2.2-1.8 3.1-2.8 6.7-4.5 3.7-1.7 7.7-2.8 1.2-0.4 2-0.9 0.8-0.4 2-0.4h0.5q1.1 0.6 2.8 0.7 1.6 0.2 2.8 0.2h8q1 0 1.5 0.4 1.8 1.1 3.7 2.4 1.9 1.2 3.8 2.3 7.8 5.4 11.1 15.1v0.5q0.4 1.2 0.6 1.9 0.1 0.6 0.8 1.7v3.3q0 1.5 0.4 2.5 0.8 2.8 0.4 5.5-0.4 2.7-0.4 5.5-0.4 2.8-1.2 5.4-0.9 2.6-3.2 4.8-1.4 1.9-1.4 4.9 0 1.1-0.3 2.6-0.2 1.5-1.4 2.6-0.7 1.1-1.3 1.8-0.6 0.8-1 1.9-1.2 1.7-1.5 3.1-0.2 1.4-0.2 3.1 0 2.4 2.1 2.4h4l1.4-1.3q0.7-0.9 1.8-1.4 1.1-0.5 1.8-1 1.9-1 3.2-2.1 1.2-1.1 2.7-2.8h1.1q1.9-0.9 3.1-2.1 1.2-1.2 2.4-2.7 1.1-1.3 2.3-2.6 1.2-1.2 2.6-2.3 1.7-1.1 3-2.5 1.2-1.4 3.1-2.5 1.2-1.5 4-4.7 2.9-3.3 4.7-5 0.5-1.1 1.6-2 1-1 1.5-2.1 0.7-0.8 1.2-1.6 0.5-0.8 1.4-1.2 1.2-1.5 1.7-1.5 0.4 0 2.3 1.5 1.2 0.4 1.3 0.5 0.1 0.2 0.1 1.2-0.7 0.9-0.8 1.4-0.1 0.6-0.1 1-0.5 1.1-1.1 2.1-0.6 0.9-1 1.6-0.7 1.7-1.8 2.8-1.1 1.1-2.2 2.1-0.8 0.9-2.3 2.5-1.5 1.6-1.5 2.3-1.9 1.7-3.1 3.6-1.2 2-2.3 3.7-0.5 0-0.7 0.1-0.3 0.1-0.7 0.1-0.5 0.2-0.8 0.2-3 2.2-5.4 5-0.4 1.7-1.5 2.8-1.1 1.1-2.5 1.9-1.6 1.3-3.4 3-1.8 1.6-3.6 3.3-1.2 0.9-2.3 1.6-1 0.8-1.7 1.2-1.5 1.1-3.1 2.2-1.7 1-2.8 1.5-2.6 1-4.6 2.2-2 1.2-4.6 2.3-2.1 0-4.5 1.5-0.9 0.4-3.5 0.4-1.2 0.7-2.3 0.9-1 0.2-2.2 0.9-1.9 1-3.7 2-1.7 1-3.1 2.1-1.2 0.8-2.4 1.7-1.2 0.8-1.6 1.9-1 1.1-1.9 2.1-1 0.9-2.2 2-2.3 1.5-4.2 2.6-1.9 1.1-3.8 2.2-2.3 1-4.3 1.9-2 0.9-4.1 1.7h-1.2q-1.2 0.5-2.3 0.5h-2.2q-4.9 1.3-9.4 0-4-0.5-8.1-2.3-4.2-1.8-7.9-4.6-3.1-2.8-5.2-5.6-2.1-2.8-2.9-6.3-0.4-1.1-0.5-2-0.2-1-0.9-1.7-0.4-1-1-2-0.6-1-0.6-2.1 0-0.8-0.5-1.3-0.5-0.4-0.5-1zm34-21.2v2.4h1.1q0-0.4-0.1-1-0.1-0.5-1-1.4zm0-4.1h2.1v-0.8h-2.1zm0-8.7h2.1v-0.8q-0.7 0-1-0.2-0.2-0.2-1.1-0.2zm1.1 1.2q-0.9 0.1-1.4 0.6-0.4 0.5-1.6 0.5h3zm-5.1 17.5q1.6 0 1.9-0.1 0.2-0.1 0.7-1.2-1 0-2.6 1.3zm-1.4-7.3q0.7 0.6 1.7 0.9 1.1 0.4 1.8 0.4-0.7-1.1-1.2-1.2-0.5-0.1-2.3-0.1zm-0.5 3.2h-1.4q-2.6 0-2.6 1.7 0 0.5 0.2 0.7 0.5 0.4 1.2 0.4 0 1.1-0.1 1.2-0.1 0.1-1.3 0.1h-3.1v1.3q-2.3 0-2.3 1.1v0.8q0 0.5 0.4 0.5 0.7-0.7 1-0.8 0.2-0.1 0.9-0.5h1.7v2.6q0 0.8 0.2 1 0 0.3 0.2 0.5l1.4 1.3q0.8 0 1-0.3 0.2-0.2 1.2-0.2v-1.3h-1.2q-0.7 0-1.2 0.2-0.5 0.3-1.2 0.3 0-0.5 0.4-1.1 0.3-0.7-0.4-1.3 0-0.4 0.5-0.9 0.5-0.4 0.9-0.4 0-0.4 0.6-0.5 0.6-0.1 1.6-1 0-0.4 0.2-1.3 0.2-0.9 0.2-1.3h-1.6q0-0.9 0.6-1 0.6-0.1 1-0.5h0.5q0.5 0 1 0.4-0.5-0.4-0.5-0.8v-0.9h1.9l-0.5-0.9q0 0.7-0.5 0.8-0.5 0.1-0.9 0.1zm1.4-14.7q-1.4 1.3-2.4 1.3h2.4zm5.6 33.5h-4q-2.6 1.9-2.5 4.1-0.5 2.1-1.3 4.4-0.9 2.2-1.8 4.2v1.1q0.9 0.4 1.4 0.8 0.5 0.5 1.2 0.9 0 0.6 0.7 1.3 0.2 0.4 0.7 0.6 4.2-1.5 7.7-3 3.4-1.5 6.4-4.3 0-0.9 0.5-1.4 0.5-0.6 0.5-1.8v-2q0-0.8-1-1.3-1.2-0.6-2.2-1.3-1.1-0.6-1.8-1.1-1.2-1-2.2-1.5-1.1-0.4-2.3 0.3zm-5.6-10.6q-1.2-0.4-2-0.6-0.8-0.1-2-0.7v1.3zm0-14.2q0-1.3-1-2.2-1.1-0.4-1.6 0.2-0.5 0.7-1.4 0.7 1.2 0.4 2 0.5 0.8 0.1 2 0.8zm-5 2.8q-0.4 0.6-0.9 0.7-0.5 0.1-0.5 0.6v1h1q0.4 0 0.9-0.4 0.2-0.2 0.5-0.6 1.9 0 2.2-0.2 0.4-0.1 0.8-1.1v-2.4h-1.4v-0.4l-0.2 0.4h0.2q0 1.1-0.4 1.1h-1.2q0.2 0.2 0.5 0.2 0.2 0.2 0.4 0.2 0.3 0 0.3 0.4-1.2 0-1.2 1.3zm-1.4-2.4v-1.2h-0.5q0 0.8 0.2 1 0 0.2 0.3 0.2zm0.9 18.4q-0.7 0-1.2 0.5-0.4 0.6-1.4 1 1 0.6 1.1 0.7 0.1 0.2 0.6 0.1 0-0.6 0.4-1 0.5-0.5 0.5-1.3zm-5.4-11q0 1.1 2.3 1.1v-2.8q-0.7 0.4-0.9 0.8-0.2 0.4-0.9 0.4l-0.3 0.5zm9.7 3.4q-0.3 0.5 0.2 1.3 0 0.5 1 0.5h0.2q0.2-0.3 0.2-0.5v-0.4q0-0.7-0.4-0.7-0.3 0-0.3-0.2-0.2-0.2-0.2-0.4 0-0.2-0.5-0.6 0 0.6-0.2 1zm-10.9 9.9q-0.4-0.8-1.4-1.2v1.2zm59.6-63.6q-1.8-1.5-3.3-2.9-1.4-1.4-3.3-3.1h-5.4q-1.9-0.7-3.5-0.1-1.7 0.5-3.5 1.6-1.2 0.7-2.8 1.4-1.5 0.8-2.7 1.2-1.8 1.7-4.1 3.3-2.2 1.7-4.8 2.7l-0.3 0.2q-0.2 0.3-0.2 0.7-0.9 0.4-1.4 1.1-0.5 0.6-1.2 1.7-0.7 0.6-1.2 0.8-0.4 0.1-1.4 0.5v6q1.2 0.5 2.6 0.9 1.4 0.4 2.6 0.4 5.4 0 9.4 4.1 1.2 1.5 1.8 2.6 0.6 1.1 2.2 2.2 0.5 0.8 0.5 1.3-0.5 0.6-0.5 1.6v2q-0.7 1.1-0.9 2.2-0.2 1.1-1.2 2.4-2.6 3.8-5.9 7.9-3.3 4.1-5.4 9.1 0 0.6-0.6 1.2-0.6 0.5-0.6 0.9 0 0.9 0.6 1.3 0.6 0.5 1.1 1.1 2.6 2.2 4.8 3.7 2.3 1.5 4.6 2.4h1.4q1.7-1.6 3.1-2.7 1.4-1.2 3-3l0.5-0.4q0-1.1 0.5-2.5 0.5-1.4 0.9-2.4 1.2-1.8 2.6-3.7 1.4-1.9 2.6-3.7 1.4-3.9 2.7-7.1 1.3-3.2 1.8-6.7 1.2-2.8 2.3-5.5 1.2-2.7 1.2-5.5 0-1.3 0.3-3 0.2-1.7 0.2-3.9 0.7-2.3 0.3-4.2-0.3-1.8-0.3-4-0.9-2.3 0.9-4.1z" />
+                      <path id="&lt;Path&gt;" class="sf" d="m331.9 44.6v1.8c0 0.3-0.1 0.7-0.7 0.7h-6v-3.3h6c0.7 0 0.7 0.5 0.7 0.8z" />
+                      <path id="&lt;Path&gt;" class="sf" d="m351.1 44.4v9c0 0.2-0.1 0.7-0.8 0.8h-5.6c-0.6-0.1-0.7-0.6-0.7-0.8v-9c0-0.2 0.1-0.6 0.7-0.6h5.6c0.7 0 0.8 0.4 0.8 0.6z" />
+                      <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m257.8 33.4h105.1v31.2h-105.1zm78.7 10.2c-0.1-1.9-1.5-3-3.2-3.1h-13.3v17.1h5.2v-7.1h1.8l3.6 7.1h5.9l-4-7.1h0.8c1.6-0.1 3.2-1.2 3.2-3.1zm-18.5-3.1h-14.8v3.4h4.9v13.7h5.1v-13.7h4.8zm-16.8 0h-13.5v17.1h13.5v-3.4h-8.4v-3.6h8.4v-3.3h-8.4v-3.4h8.4zm-16.1 0h-6.9l-3.3 8.4-3.3-8.4h-6.9v17.1h5.1v-10.8l3.4 10.8h3.4l3.4-10.8v10.8h5.1zm71.1 2.9c-0.1-1.9-1.5-2.8-3.2-2.9h-11c-1.6 0.1-3 1-3.2 2.9v11.1c0.2 2 1.6 3 3.2 3.1h11c1.7-0.1 3.1-1.1 3.2-3.1z" />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank">METRO <br> Serviceverpackungen </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="footer-wrap no-print">
+      <div class="logo-fooetr">
+        <img src="images/footer-logo.svg" />
+      </div>
+      <div class="fotter-right footer-first-page">
+        <div class="fotter-right-top">
+          <div class="footer-links content-foo">
+            <p>The METRO My Sustainable Restaurant is designed to help food business owners adopt a more sustainable future.</p>
+          </div>
+          <div class="footer-links link2">
+            <ul>
+              <li>
+                <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links link3">
+            <ul>
+              <li>
+                <a href="#" title="">Link 1</a>
+              </li>
+              <li>
+                <a href="#" title="">Link 1</a>
+              </li>
+              <li>
+                <a href="#" title="">Link 1</a>
+              </li>
+              <li>
+                <a href="#" title="">Link 1</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-socials">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="fotter-right page-ani-footer">
+        <div class="fotter-right-top">
+          <div class="footer-links link2">
+            <ul>
+              <li>
+                <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/youtube" target="_blank">
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/@METRO_News" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="food_wastePop_content-1" class="modalx">
+      <div class="modalx-content">
+        <h4>Engage your staff</h4>
+        <p> When you try to avoid food waste, you should talk with your staff and help them understand the importance of eliminating the waste. Your staff’s engagement is crucial to making all the investments work. Keeping them up to date and training them will be needed. You can do this simply by implementing daily briefings, placing posters in easy-to-see places, or reminding them that each one of them is needed to fight food waste in the everyday working life of the gastronomy industry.  </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close1">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-2" class="modalx">
+      <div class="modalx-content">
+        <h4> Store fruits and vegetables in the right way </h4>
+        <p> Fruit and vegetables are a major contributor to the amount of food waste in a restaurant. Check whether you already make use of all possible ways to store fruit and vegetables well, in order to prevent food waste: 
+
+          <ul>
+            <li>Ensure your storage area is well ventilated</li>
+            <li>Use the First-In-First-Out (FIFO) principle to ensure that products that come in first, go out first</li>
+            <li>Store fruit and vegetables at a lower temperature than their normal growing environment, to preserve them longer</li>
+            <li>Store fruits and vegetables according to their specific storage temperatures.  Berries can be stored in a cold fridge but bananas are best out of the fridge, in a cool place. </li>
+            <li>Leave fresh produce out of their temperature zones for as short as possible. For example, packaged salads may lose a day’s shelf life for every hour that their kept out of  their optimum temperature range.</li>
+            <li>Handle fruits and vegetables carefully to avoid damage</li>
+            <li>Stack light weight boxes of delicate items such as berries and mushrooms on top</li>
+            <li>Take care of pre-packaged produce, for example, apples in a plastic bag because the damage of one product can easily and quickly damage the others</li>
+            <li>If you have space try to separate ethylene-producing products (bananas, apple, pear, kiwi, fig, melon, and tomatoes) from ethylene-sensitive products (citrus, pineapple, leafy vegetables, cherries, berries, grapes, and most fruit vegetables (avocado, banana, cucumber, eggplant and tomatoes). This segregation will slow down the ripening of the ethylene-sensitive products</li>
+             </ul>
+         </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close2">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-3" class="modalx">
+      <div class="modalx-content">
+        <h4> Only order what you really need</h4>
+        <p>Avoid food waste in the first place. Only order food that you will really consume. </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close3">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-4" class="modalx">
+      <div class="modalx-content">
+        <h4> Source rightfully </h4>
+        <p>Embrace produce imperfections, but steer clear of vegetables or fruits that are overly bruised or damaged.</p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close4">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-5" class="modalx">
+      <div class="modalx-content">
+        <h4>Compost the Scraps</h4>
+        <p> Composting can help put food scraps to use and reduce methane emissions in landfills. Fruits, vegetables, coffee and tea all are good materials for compost. Read more…</p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close5">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-6" class="modalx">
+      <div class="modalx-content">
+        <h4>• Discount or donate surplus food </h4>
+        <p>Surplus food doesn’t have to be wasted. By donating or discounting your surplus food (e.g. TOO GOOD TO GO, Whole Surplus, or Sirplus), you prevent that food from ending up in a landfill while also helping people in need. Moreover, donations boost your employees’ morale as they see that they are having a positive impact and, depending on your locality, this may bring you financial advantages due to tax benefits of food donations. Food can be donated to charity organizations, food banks, zoos and animal shelters. Usually, food banks will have some requirements about what they accept, for example: 
+          <ul>
+            <li>Fresh packaged food that is in date</li>
+             <li>Fruits and vegetables that are not rotten</li>
+              <li>Unopened food</li>
+          </ul>
+ 
+ </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close6">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-7" class="modalx">
+      <div class="modalx-content">
+        <h4>Advanced ways to save food waste </h4>
+        <p> You can go even further by implementing advanced ways to reduce food waste in your restaurant:
+
+
+
+
+        </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close7">X</a>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop1").click(function() {
+          $("#food_wastePop_content-1").css("display", "block");
+        });
+        $(".food_wastePop_btn-close1").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-1").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop2").click(function() {
+          $("#food_wastePop_content-2").css("display", "block");
+        });
+        $(".food_wastePop_btn-close2").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-2").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop3").click(function() {
+          $("#food_wastePop_content-3").css("display", "block");
+        });
+        $(".food_wastePop_btn-close3").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-3").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop4").click(function() {
+          $("#food_wastePop_content-4").css("display", "block");
+        });
+        $(".food_wastePop_btn-close4").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-4").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop5").click(function() {
+          $("#food_wastePop_content-5").css("display", "block");
+        });
+        $(".food_wastePop_btn-close5").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-5").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop6").click(function() {
+          $("#food_wastePop_content-6").css("display", "block");
+        });
+        $(".food_wastePop_btn-close6").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-6").css("display", "none");
+        });
+      });
+
+      $(document).ready(function() {
+        //slide one
+        $(".food_wastePop7").click(function() {
+          $("#food_wastePop_content-7").css("display", "block");
+        });
+        $(".food_wastePop_btn-close7").click(function() {
+          //alert("Hi")
+          $("#food_wastePop_content-7").css("display", "none");
+        });
+      });
+
+
+
+
+$(document).ready(function() {
+          $('#myBtn33').click(function(){
+            //get collapse content selector
+            var collapse_content_selector = $(this).attr('href');
+
+            //make the collapse content to be shown or hide
+            var toggle_switch = $(this);
+            $(collapse_content_selector).toggle(function(){
+              if($(this).css('display')=='none'){
+                                //change the button label to be 'Show'
+                toggle_switch.html('Read More');
+              }else{
+                                //change the button label to be 'Hide'
+                toggle_switch.html('Read Less');
+              }
+            });
+          });
+
+        });
+
+
+    </script>
+    <script>
+      var swiper = new Swiper(".swx", {
+        grabCursor: true,
+        centeredSlides: true,
+        initialSlide: 1,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 30,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>

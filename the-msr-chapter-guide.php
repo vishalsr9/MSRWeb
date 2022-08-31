@@ -102,7 +102,7 @@
 						</div>
 						<h2>Why it is important to offer a sustainable menu </h2>
 						<p>Sometimes it can be difficult for consumers to find sustainable restaurants let alone a sustainable dish once inside. By putting sustainability on the (online) menu restaurateurs can visibly demonstrate to their customers their engagement for a food future that respects the health of the planet and their communities. </p>
-						<div class="btn-drawer"><a class="modal-cta" href="introduction-to-sustainable-menu.php">TAKE A DEEP DIVE </a></div>
+						<div class="btn-drawer"><a class="modal-cta" href="introduction-to-sustainable-menu-eng.php">TAKE A DEEP DIVE </a></div>
 					</div>
 				</div>
 			</div>
@@ -116,9 +116,9 @@
 						</div>
 						<h2>How to save water in your restaurant</h2>
 						<p>Water runs your business. As a restaurant owner, you require a large amount of it before, during and after the service, from cooking and steaming to washing and sanitizing. But water does not only cost you money, it is also precious. Show your customers that you take responsibility and adapt water saving behavior with long-term benefits for you and the environment. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. <br> For a trickle-down-effect with long-term benefits for people and planet you can even inspire your customers and employees to adapt water saving behaviors themselves for example with info stickers in the bathrooms. </p>
-
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-water-eng.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -132,8 +132,9 @@
 						</div>
 						<h2>Why gastronomy must engage socially </h2>
 						<p>When your staff is treated well, the positive effects on your business are felt not only in your restaurant but in your community around you. As a restaurant owner you have a direct responsibility for your employees, but you also have an indirect responsibility for every worker in the supply chain - the community overall. Take an active role in your community and ensure the welfare of your employees, your customers, your suppliers and others in society who you are in touch with. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-social-eng.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -148,7 +149,7 @@
 						<h2>How to source products responsibly for restaurants </h2>
 						<p>Your business is food and food is your business. As a restaurant owner the dishes you offer sometimes drive trends in the overall market place. Increasing numbers of costumers are showing interest in where their food comes from and are demanding healthier and sustainable options when they eat out. By carefully picking the products you present on your menu, you can create a positive and long lasting impact on the environment and the health of your customers. </p>
 						<div class="btn-drawer">
-							<a class="modal-cta" href="introduction-to-responsible-sourcing.php">TAKE A DEEP DIVE </a>
+							<a class="modal-cta" href="introduction-to-responsible-sourcing-eng.php">TAKE A DEEP DIVE </a>
 						</div>
 					</div>
 				</div>
@@ -163,9 +164,9 @@
 						</div>
 						<h2>Why we need to reduce food waste </h2>
 						<p>Food waste costs you and your customer's money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict. Conflicts that young and future customers are not willing to accept. Just Imagine: If food waste was a country it would be the 3rd largest emitter of greenhouse gases. According to a global METRO study from 2019, already 39% of METRO's HoReCa customers want to tackle food waste in their own operations.</p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-food-waste-eng.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -180,7 +181,7 @@
 						<h2>The role of plastic in gastronomy</h2>
 						<p>Plastic product and plastic packaging play an important role in maintaining hygiene in gastronomy, as they protect food, ensure food safety and improve shelf life. Single-use items, mostly made out of plastic, have up until now been almost indispensable in the gastronomy sector. However, both the production and disposal of plastic and single-use plastic product requires resources and has a negative impact on the environment -especially on our oceans. Gastronomy thus has an impact on the plastic waste challenge and should be forgoing the unnecessary plastic. </p>
 						<div class="btn-drawer">
-							<a class="modal-cta" href="introduction-to-plastic-waste.php">TAKE A DEEP DIVE </a>
+							<a class="modal-cta" href="introduction-to-plastic-waste-eng.php">TAKE A DEEP DIVE </a>
 						</div>
 					</div>
 				</div>
@@ -194,9 +195,9 @@
 						</div>
 						<h2>How to use less energy in your restaurant and save costs </h2>
 						<p>As a restaurant or café owner you usually need a lot of electricity, oil, coal or gas which causes high costs in your budget. With rising energy costs and the scarcity of fossil resources, as well as your customer's growing attention to environmental issues, it will be useful to become more sustainable and save money at the same time. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-energy-eng.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -209,9 +210,9 @@
 						</div>
 						<h2>Why we need to talk about safe food </h2>
 						<p>Several incidents in recent years have shed a bad light on the food industry (for example undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries) and consumers are increasingly becoming aware of the need for safely produced food which doesn't injure them or make them sick. That's why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, minimizing waste and engaging people to work productively. The latest developments with COVID_19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants. </p>
-						<p class="yellow-text">COMPREHENSIVE GUIDES AND TOOLS, COMING SOON. </p>
-
-						<div class="btn-drawer"><button class="back-cta">Back</button></div>
+						<div class="btn-drawer">
+							<a class="modal-cta" href="introduction-to-safe-food-eng.php">TAKE A DEEP DIVE </a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -225,7 +226,7 @@
 						<h2>The problem with waste! </h2>
 						<p>When waste is not valued it becomes a problem. It costs your business money and when not properly managed it damages the environment and our health. As a restaurateur you really can make an impact by preventing waste, sorting and disposing of it carefully. Doing so will prevent costs and contribute to your reputation with customers and your community. </p>
 						<div class="btn-drawer">
-							<a class="modal-cta" href="introduction-to-food-waste.php">TAKE A DEEP DIVE </a>
+							<a class="modal-cta" href="introduction-to-waste-eng.php">TAKE A DEEP DIVE </a>
 						</div>
 					</div>
 				</div>
