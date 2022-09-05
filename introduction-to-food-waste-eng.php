@@ -13,7 +13,7 @@
     <script src="./jquery/custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="food-waste.css">
+    <link rel="stylesheet" href="safe-food.css">
 </head>
 
 <body class="page3-page">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="didyouknow_2culumn">
-                        <img src="./images/safe_food/l3-4.svg" class="px-4 dis_img2">
+                        <img src="./images/safe_food/l3-4.svg" class="px-4 dis_img2" style="width: 60%;">
                         <h4><strong>36% </strong>of HoReCa customers (globally) <br>think that reducing food wasteis one of the most important issues to deal <br>with in their business </h4>
                     </div>
                 </div>
@@ -143,49 +143,49 @@
             </li>
             <li></li>
             <li>
-                <p>Increaseefficiency</p>
+                <p>Increase efficiency</p>
             </li>
             <li></li>
             <!-- </ul><ul> -->
             <li></li>
             <li>
-                <p>Gainknowledge</p>
+                <p>Gain knowledge</p>
             </li>
             <li></li>
             <li>
-                <p>Comply withregulations</p>
+                <p>Comply with regulations</p>
             </li>
             <li></li>
             <li>
-                <p>Boost staffmorale</p>
+                <p>Boost staff morale</p>
             </li>
             <!-- </ul>
                 <ul> -->
             <li>
-                <p>Increasecustomer loyalty(better reviews)</p>
+                <p>Increase customer loyalty (better reviews)</p>
             </li>
             <li></li>
             <li>
-                <p>Gainnew customers</p>
+                <p>Gain new customers</p>
             </li>
             <li></li>
             <li>
-                <p>Build apositive image</p>
+                <p>Build a positive image</p>
             </li>
             <li></li>
             <!-- </ul>
                 <ul> -->
             <li></li>
             <li>
-                <p>Builda positivecommunityimpact</p>
+                <p>Build a positive community impact </p>
             </li>
             <li></li>
             <li>
-                <p>Preventpollution oflocal andglobalenvironment</p>
+                <p>Prevent pollution of local and global environments</p>
             </li>
             <li></li>
             <li>
-                <p>Save naturalresources</p>
+                <p>Save natural resources </p>
             </li>
         </ul>
     </section>
@@ -220,6 +220,7 @@
         <div class="l3-5img mr-4 col-md-6">
             <h3>Food Recovery Hierarchy</h3>
             <img src="./images/safe_food/l3-5.svg" class="img-fluid">
+            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">Read More</a>
         </div>
     </section>
 
@@ -374,6 +375,21 @@
 
     </div>
 
+
+
+<script type="text/javascript">
+     var eurl="introduction-to-food-waste-eng.php"
+    var gurl="introduction-to-food-waste-deu.php"
+
+
+    //btn-test click test script
+
+    $(document).ready( function() {
+   $('#select').change( function() {
+      location.href = $(this).val();
+   });
+});
+</script>
 
 </body>
 

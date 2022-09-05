@@ -75,7 +75,7 @@
 
         .sltitle112 {
             top: 5rem;
-            left: 7rem;
+            left: 4rem;
         }
 
         .swiper-slide-inner {
@@ -1841,7 +1841,7 @@
                                                         in a way it doesn’t impact the surrounding environment. Organic
                                                         products don’t contain artificial colours and preservatives.
                                                     </p>
-                                                    <p class="justify">
+                                                    <p class="justify1">
                                                         Organic products in Europe are produced under strict
                                                         requirements, such as no genetically modified organisms
                                                         (GMOs), no ionising radiation, a limited use of artificial fertilisers,
@@ -1850,7 +1850,7 @@
                                                         animal health. These rules are there to maintain soil fertility and
                                                         the health of plants and animals.
                                                     </p>
-                                                    <p>
+                                                    <p class="justify1">
                                                         Because of this, organic producers farm differently, e.g., they rotate crops (a different crop per season, per
                                                         field, to refresh the soil), cultivate nitrogen-fixing plants and other green manure crops to restore the fertility
                                                         of the soil. Don´t use mineral nitrogen fertilisers, and encourage natural routes of pest control, for example,
@@ -1944,13 +1944,7 @@
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
-                                                        Animal welfare means that fewer animals occupy a given space
-                                                        which
-                                                        means there is less need for antibiotics
-                                                        and medicines whose residues can end up in food. Subsequently,
-                                                        the
-                                                        morale of workers is positive and this
-                                                        impacts how they treat animals in their care.
+                                                        Animal welfare means that fewer animals occupy a given space which means there is less need for antibiotics and medicines whose residues can end up in food. This has a positive impact on the health of consumers. At the same time, it raises awareness among employees and affects how they treat animals.
                                                     </p>
                                                     <p class="justify1">
                                                         As sentient creatures (capable of feeling fear, pain, pleasure
@@ -2078,17 +2072,7 @@
                                                         If we carry on fishing unsustainably there will be no fish left
                                                         and
                                                         what is left will be expensive.
-                                                        The traceability of products is a very important part of
-                                                        sourcing
-                                                        fish sustainably. A robust
-                                                        traceability system means that fish doesn’t come from illegal
-                                                        fishing, the exact catching area
-                                                        is known and the way it is produced is clear. If sustainability
-                                                        guidelines are followed, for both
-                                                        wild caught and farmed fish, the fishermen work in a safe
-                                                        environment and are compensated
-                                                        adequately. The environment is carefully managed and the local
-                                                        communities are supported.
+                                                        The <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">traceability</a> of products is a very important part of sourcing fish sustainably. A robust traceability system means that fish doesn’t come from illegal fishing, the exact catching area is known and the way it is produced is clear. If sustainability guidelines are followed, for both wild caught and farmed fish, the fishermen work in a safe environment and are compensated adequately. The environment is carefully managed and the local communities are supported.
                                                     </p>
                                                 </div>
                                             </div>
@@ -2163,7 +2147,7 @@
                                                 <div class="col-md-12 mt-0 mb-2 yellow-block minus--">
 
                                                     <div class="row">
-                                                        <div class="col-md-8">
+                                                        <div class="col-md-9">
                                                             <h5>
                                                                 <strong>
                                                                     Why is it important to source food that
@@ -2180,7 +2164,7 @@
                                                                 reduced if we stop wasting food.
                                                             </p>
                                                         </div>
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-3">
                                                             <img src="images/resp_sourcing/garbage.svg" class="img-fluidn garbage-img">
                                                         </div>
                                                     </div>
@@ -2195,10 +2179,10 @@
                                         <!-- Food that contributes to biodiversity Content 9 -->
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-3">
+                                                <div class="col-md-5">
                                                     <img src="images/resp_sourcing/earth-life-trees.svg" class="img-fluid earth1">
                                                 </div>
-                                                <div class="col-md-9">
+                                                <div class="col-md-7">
                                                     <p class="justify1">
                                                         Biodiversity is the combination of different kinds of animal
                                                         and plant life on earth and in different areas such as
@@ -2209,9 +2193,7 @@
                                                         discoveries and what we refer to as ecosystem services such
                                                         as cleaning water and providing oxygen.
                                                     </p>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <p class="justify">
+                                                    <p class="justify1">
                                                         Foods that contribute to biodiversity help to maintain this
                                                         richness in species by reducing the negative impacts on
                                                         those ecosystems. These negative impacts can be caused for
@@ -2224,6 +2206,7 @@
                                                         support unique varieties of foods.
                                                     </p>
                                                 </div>
+
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
@@ -2402,7 +2385,7 @@
                                                         </strong>
                                                     </h6>
                                                     <p class="justify1 mt-4">
-                                                        Compostable packaging decomposes into natural elements which are
+                                                        <strong>Compostable packaging</strong> decomposes into natural elements which are
                                                         rich in nutrients and
                                                         good for the environment within a certain period of time. Home
                                                         compostable packaging can
@@ -2414,7 +2397,7 @@
                                                         fruit and vegetable peels.
                                                     </p>
                                                     <p class="justify1 mt-2">
-                                                        Industrial compostable packaging needs to be collected and
+                                                        <strong>Industrial compostable packaging</strong> needs to be collected and
                                                         properly
                                                         treated in a specific facility. It will completely
                                                         break down within 12 weeks thanks to specific conditions
@@ -2522,17 +2505,7 @@
                                                     <div class="row">
                                                         <div class="col-md-8">
                                                             <p class="justify1">
-
-                                                                Carbon emissions contribute to climate change. And climate
-                                                                change is already having a serious negative impact on wildlife,
-                                                                freshwater, oceans, and the economy in various areas on the
-                                                                planet. If we can significantly reduce carbon emissions, we have
-                                                                a
-                                                                good chance to avoid a climate crisis. Emissions also cost
-                                                                producers money, for example, the fuel used to power farm
-                                                                equipment. This cost will eventually be passed onto buyers of
-                                                                that
-                                                                produce.
+                                                                Freshwater is a scarce resource, and it is becoming more and more polluted and depleted in many areas, for example, rivers that run dry and wildlife that is endangered because of contaminated water. If we can avoid depleting this precious resource, we can avoid conflicts and the risk of consuming polluted water in both our water and food supplies.
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
@@ -2543,9 +2516,6 @@
                                                 </div>
 
                                             </div>
-
-
-
                                         </div>
                                     </li>
                                     <a id="next-btn" onclick="ButtonNext9Click();" class="read-more-btn float-end">

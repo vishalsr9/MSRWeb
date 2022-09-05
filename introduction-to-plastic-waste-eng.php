@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="plastic.waste.css">
+    <style>
+        .diduknow-img-5 {
+            width: 26rem !important;
+            margin-top: 4rem;
+        }
+    </STYLE>
+
 </head>
 
 <body class="page3-page">
@@ -195,7 +202,7 @@
                             <div class="diduknow-content text-center">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <img src="images/plastic_waste/water-pollution.svg" class="img-fluid diduknow-img img-w27rem" />
+                                        <img src="images/plastic_waste/water-pollution.svg" class="img-fluid diduknow-img diduknow-img-5 img-w27rem" />
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">

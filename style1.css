@@ -7,7 +7,7 @@ body {
 
 .highlight {
     font-weight: bolder;
-    font-size: larger;
+    font-size: 20px!important;
 }
 
 .noalign {
@@ -1037,7 +1037,8 @@ a.aqu:hover {
 }
 
 .earth1 {
-    width: 13rem;
+    width: 24rem;
+    margin-top:3rem;
 }
 
 .nut-food {
@@ -1520,4 +1521,8 @@ margin-bottom: -3rem;
     border-radius: 6px !important;
     border: 2px solid #ffe500;
     background: none;
+}
+
+.unhighlight{
+    font-weight:normal!important;
 }

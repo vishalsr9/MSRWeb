@@ -138,6 +138,7 @@
       <div class="section-div">
         <div class="container-fluid ">
           <div class="sw-holder">
+            <h3 class="wayT0Title">Simple ways to prevent plastic waste</h3>
             <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
             <div class="swholder1 slider_3">
               <div class="swholder-sw">
@@ -296,7 +297,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 26.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Place clear signage in your back-of-house area to show where the food scraps and compost go</p>
@@ -306,7 +307,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 27.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 30.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Secure the composting equipment and food scraps, to prevent them from contaminating the surroundings and from attracting pests</p>
@@ -316,7 +317,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 28.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 29.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Consider using more eco-friendly disposables, for example, rubbish bin liners</p>
@@ -326,7 +327,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 29.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 28.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Check with your local waste collection service or authority about what is possible to send for commercial composting</p>
@@ -336,7 +337,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 30.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset-l4.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Composters can be positioned indoors or outdoors. They can use earthworms or not and they can be open or closed systems. Don ́t forget to check what is suitable and hygienic for your location</p>
@@ -346,7 +347,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Once you have established composting at your restaurant, let your local community and customers know about it via your menu, website, social media and/or your window </p>
@@ -365,7 +366,7 @@
     </section>
     <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
       <div class="container">
-        <div class="row safeFoodl4_paragraphs_bgwhite">
+        <div class="row safeFoodl4_paragraphs_bgwhite no-print">
           <div class="col-md-6 p-4">
             <h4 class="pl-4">Composting and its benefits</h4>
             <p class="pl-4">Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers. Depending on the local regulations, a restaurant can even use compost for</p>
@@ -395,7 +396,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 34.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Source your fish and meat responsibly</p>
@@ -405,7 +406,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 35.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 42.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Buy different parts of the fish or meat that are not so popular or which may be usually discarded.</p>
@@ -415,7 +416,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 36.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Talk with your customers about what you are doing and why. To convince them to try out unusual dishes you could offer small tasting plates.</p>
@@ -425,7 +426,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 37.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 40.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Make salmon cut-offs into a risotto</p>
@@ -435,7 +436,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 38.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 39.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Roast skin into crisps</p>
@@ -445,7 +446,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 39.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 38.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Reduce bones into a stock</p>
@@ -455,7 +456,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 40.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 37.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Try using skirt as it is as tasty as an entrecote but cheaper</p>
@@ -465,7 +466,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 36.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Tops of carrots can be made into a pesto sauce</p>
@@ -475,7 +476,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 42.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 35.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Wilted lettuce can be sautéed and served as a side</p>
@@ -485,7 +486,7 @@
             <div class="compost_wasteFood_listing">
               <div class="media">
                 <div class="media-left">
-                  <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
+                  <img src="./images/safe_food/Asset 34.svg" class="media-object" style="width:80px">
                 </div>
                 <div class="media-body">
                   <p>Cook broccoli stalks and puree them into a soup </p>
@@ -796,7 +797,15 @@
         <a class="read-more-btn btn btn-sm food_wastePop_btn-close1">X</a>
       </div>
     </div>
-    <div id="food_wastePop_content-2" class="modalx">
+     <div id="food_wastePop_content-2" class="modalx">
+      <div class="modalx-content">
+        <h4>Identifying different types of waste</h4>
+        <p> Food waste may be  all around but you can take simple steps to reduce it. Start by identifying different types of waste in your restaurant and where it is generated. Generally, food waste comes from either the back of the house (e.g. the store room and the kitchen) or from the front of the house (e.g. where customers are served). Check how much food waste your restaurant generates and observe  where most food waste is coming from.
+ </p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close2">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-3" class="modalx">
       <div class="modalx-content">
         <h4> Store fruits and vegetables in the right way </h4>
         <p> Fruit and vegetables are a major contributor to the amount of food waste in a restaurant. Check whether you already make use of all possible ways to store fruit and vegetables well, in order to prevent food waste: 
@@ -813,33 +822,33 @@
             <li>If you have space try to separate ethylene-producing products (bananas, apple, pear, kiwi, fig, melon, and tomatoes) from ethylene-sensitive products (citrus, pineapple, leafy vegetables, cherries, berries, grapes, and most fruit vegetables (avocado, banana, cucumber, eggplant and tomatoes). This segregation will slow down the ripening of the ethylene-sensitive products</li>
              </ul>
          </p>
-        <a class="read-more-btn btn btn-sm food_wastePop_btn-close2">X</a>
-      </div>
-    </div>
-    <div id="food_wastePop_content-3" class="modalx">
-      <div class="modalx-content">
-        <h4> Only order what you really need</h4>
-        <p>Avoid food waste in the first place. Only order food that you will really consume. </p>
         <a class="read-more-btn btn btn-sm food_wastePop_btn-close3">X</a>
       </div>
     </div>
     <div id="food_wastePop_content-4" class="modalx">
       <div class="modalx-content">
-        <h4> Source rightfully </h4>
-        <p>Embrace produce imperfections, but steer clear of vegetables or fruits that are overly bruised or damaged.</p>
+        <h4> Only order what you really need</h4>
+        <p>Avoid food waste in the first place. Only order food that you will really consume. </p>
         <a class="read-more-btn btn btn-sm food_wastePop_btn-close4">X</a>
       </div>
     </div>
     <div id="food_wastePop_content-5" class="modalx">
       <div class="modalx-content">
-        <h4>Compost the Scraps</h4>
-        <p> Composting can help put food scraps to use and reduce methane emissions in landfills. Fruits, vegetables, coffee and tea all are good materials for compost. Read more…</p>
+        <h4> Source rightfully </h4>
+        <p>Embrace produce imperfections, but steer clear of vegetables or fruits that are overly bruised or damaged.</p>
         <a class="read-more-btn btn btn-sm food_wastePop_btn-close5">X</a>
       </div>
     </div>
     <div id="food_wastePop_content-6" class="modalx">
       <div class="modalx-content">
-        <h4>• Discount or donate surplus food </h4>
+        <h4>Compost the Scraps</h4>
+        <p> Composting can help put food scraps to use and reduce methane emissions in landfills. Fruits, vegetables, coffee and tea all are good materials for compost.</p>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close6">X</a>
+      </div>
+    </div>
+    <div id="food_wastePop_content-7" class="modalx">
+      <div class="modalx-content">
+        <h4> Discount or donate surplus food </h4>
         <p>Surplus food doesn’t have to be wasted. By donating or discounting your surplus food (e.g. TOO GOOD TO GO, Whole Surplus, or Sirplus), you prevent that food from ending up in a landfill while also helping people in need. Moreover, donations boost your employees’ morale as they see that they are having a positive impact and, depending on your locality, this may bring you financial advantages due to tax benefits of food donations. Food can be donated to charity organizations, food banks, zoos and animal shelters. Usually, food banks will have some requirements about what they accept, for example: 
           <ul>
             <li>Fresh packaged food that is in date</li>
@@ -848,7 +857,7 @@
           </ul>
  
  </p>
-        <a class="read-more-btn btn btn-sm food_wastePop_btn-close6">X</a>
+        <a class="read-more-btn btn btn-sm food_wastePop_btn-close7">X</a>
       </div>
     </div>
     <div id="food_wastePop_content-7" class="modalx">
@@ -988,5 +997,22 @@ $(document).ready(function() {
         },
       });
     </script>
+
+
+<script type="text/javascript">
+     var eurl="explore-food-waste-eng.php"
+    var gurl="explore-food-waste-deu.php"
+
+
+    //btn-test click test script
+
+    $(document).ready( function() {
+   $('#select').change( function() {
+      location.href = $(this).val();
+   });
+});
+</script>
+
+
   </body>
 </html>
