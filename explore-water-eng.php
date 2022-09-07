@@ -483,8 +483,8 @@
                                             </div>
                                             <div class="col-md-12 title9">
                                                 <h5>
-                                                    Prevent waste
-                                                    </h3>
+                                                    Water saving equipment in bathrooms
+                                                </h5>
                                             </div>
                                             <div class="col-md-12 text9">
                                                 By using water-saving taps, dual flush toilets, sensors on taps, toilets and urinals or cistern displacement devices you can reduce a significant amount of used water.
