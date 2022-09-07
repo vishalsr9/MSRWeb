@@ -705,3 +705,20 @@ section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 span.sltex
 span.slimg-holder.socils_one {
     padding: 12px 29px;
 }
+.sl-image.sl-image-1.text-center.socialSlide2-1 img {
+    width: 8rem;
+}
+
+.swholder1.slider_2 .swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-1.text-center.socialSlide2-1 img {
+    width: 14rem;
+    margin-bottom: 2rem !important;
+}
+.nextStepCta a:hover {   
+    background-color: #ffe500;
+    color: #003b7e;font-weight:600;
+
+}
+.nextStepCta a {   
+    cursor: pointer;
+
+}

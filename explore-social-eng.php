@@ -81,7 +81,7 @@ as a restaurateur</h3>
 only applies to a restaurant’s staff, but also includes how the restaurant acts in the
 community and treats its suppliers. Thanks to established practices in Human Resource
 operations, we know what our jobs entail, that our social and health insurances are taken
-care of, our wages or salaries are paid on time and so on. But beyond good practice,
+care of our wages or salaries are paid on time and so on. But beyond good practice,
 there are other aspects that are important for us to perform to the best of our ability.
 The very same aspects are relevant for restaurant workers, who unfortunately don’t
 necessarily experience the protection and fulfilment that we do.</p>
@@ -115,7 +115,7 @@ focus on their job, and the feeling of being unsafe affects
 staff relations and can make the work environment
 uncomfortable. When back-of-house staff is not properly
 trained, it can result in injuries and poor quality meals, and
-in poor customer service for the front-of-house that can
+in poor customer service for the front-of-house which can
 affect customer retention.</p>
 <p>The hospitality and food industries are among the biggest
 employers in the world, but many businesses lack the
@@ -152,7 +152,7 @@ economy.</p>
             </div>
           </div>
         </section>
-        <section class="good_to_know no-print social_box">
+        <section class="good_to_know no-print social_box" style="padding-bottom: 12rem;">
           <div class="container-fluid">
             <div class="row mb-5">
                           <div class="col-md-4 px-4">
@@ -162,7 +162,7 @@ economy.</p>
 and the 1948 United Nations Universal Declaration of
 Human Rights lay the foundation for basic human
 
-rights requirements for all businesses </p>
+rights requirements for all businesses. </p>
                 </div>
               </div>
               <div class="col-md-4 px-4">
@@ -176,7 +176,7 @@ rights requirements for all businesses </p>
 rights requirements was developed by the UN in 2011 as
 a part of the United Nations Guiding Principles for
 
-Business and Human Rights (UNGP)</p>
+Business and Human Rights (UNGP).</p>
                 </div>
               </div>
             </div>
@@ -195,17 +195,13 @@ permanent or temporary and full time and part-time.</p>
                   <p>Extreme challenges to fair working conditions are
 forced labour, discrimination or other unethical business
 
-behaviour </p>
+behaviour. </p>
                 </div>
               </div>
               <div class="col-md-4 px-4">
                 <div class="good_to_know_box p-4">
                   <img src="./images/safe_food/s-6.svg" class="img-fluid">
-                  <p>Human Rights mean that employees have the right not
-to be treated unfairly in the workplace which includes,
-among others, the right not to be unfairly dismissed, or
-unfairly discriminated against, the right to freedom of
-association and the right of fair labour practices.</p>
+                  <p>Human Rights mean that employees have the right to be treated fairly in the workplace which includes, among others, the right not to be unfairly dismissed, or unfairly discriminated against, the right to freedom of association and the right of fair labour practices.</p>
                 </div>
               </div>
             </div>
@@ -214,10 +210,12 @@ association and the right of fair labour practices.</p>
 
 
 
-<section class="simple_wayTo_preventing no-print social_l4_yellow_slider pt-5" style="padding-bottom: 10rem;background: #ffe500;">
+<section class="simple_wayTo_preventing no-print social_l4_yellow_slider pt-5" style="padding-bottom: 10rem;background: #ffe500;margin-top: 0;">
                   <div class="section-div">
                           <div class="container-fluid">
-                            <h3 class="wayT0Title" style="color:#000;">The 7 Basic Human Rights</h3>
+                            <p class="text-center"><img src="./images/safe_food/s-new.svg" style="width: 30rem;
+    margin-top: -15rem;"></p>
+                            <h3 class="wayT0Title" style="color:#000;margin-top: 0;">The 7 Basic Human Rights</h3>
                             
                             <div class="sw-holder">
                               <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
@@ -234,7 +232,7 @@ association and the right of fair labour practices.</p>
                                           </div>
                                           <div class="sl-text sl-text-1 text-center">
                                             <span class="sltext-holder"> Freedom of association
-and effecti`ve recognition of
+and effective recognition of
 the right to collective bargaining </span>
 <p>For example, employees who have decided to join a union will not
 be subject to any sort of discrimination or dismissal as a result of
@@ -342,7 +340,7 @@ be paid.</p>
                                           <div class="sl-text sl-text-1 text-center">
                                             <span class="sltext-holder"> Fair working hours </span>
 <p>Your staff can work full-time for a maximum of 48 hours/week and
-as an exemption maximum 12hours/week overtime and has
+as an exemption maximum 12 hours/week overtime and has
 
 enough spare time in between.</p>
                                           </div>
@@ -417,10 +415,13 @@ employees from pollution.</p>
                         </div>
                         <div class="col-md-6 offset-md-1">
                           <div class="three-step_para">
-                            <p>As an employer you achieve having sustainable working conditions by first, complying with
-your national employment legislation and second, fulfilling the basic human rights of your
-employees. The 7 main aspects of human rights defined by the UN can serve as your guidance. </p><p class="mt-0">
-                           <strong>Implementing these human rights can be done by following these steps:</strong></p>
+                            <p>As an employer you achieve having sustainable working conditions by: </p>
+                            
+                              <ol>
+                              <li>Complying with your national employment legislation.</li>
+                              <li> Fulfilling the basic human rights of your employees. </li>
+                            </ol>                            <p class="mt-0">
+                           <strong>The 7 main principles of human rights defined by the UN can serve as your guidance.</strong></p>
                           </div>
                         </div>
                       </div>
@@ -491,7 +492,7 @@ employees. The 7 main aspects of human rights defined by the UN can serve as you
                         </div>
                       </div>
                       <p class="text-center nextStepCta mt-4">
-                        <a id="nextBtn1" href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                        <a id="nextBtn1" href="#tabLi2">Next Step <i class="fa fa-long-arrow-right"></i>
                         </a>
                       </p>
                     </div>
@@ -602,7 +603,7 @@ measures they take to ensure fair working conditions</p>
                       </div>
                       <div class="row">
                         <p class="text-center nextStepCta mt-4">
-                          <a id="nextBtn2"href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                          <a id="nextBtn2"href="#tabLi3">Next Step <i class="fa fa-long-arrow-right"></i>
                           </a>
                         </p>
                       </div>
@@ -618,7 +619,7 @@ measures they take to ensure fair working conditions</p>
                           <div class="three-step_para">
                             <p>Connecting with the local community is crucial and can help you to become resilient to difficult
 times. People who are engaged in your business will be more likely to support it, especially
-when your restaurant is a regular feature of their lives. </p>
+when your restaurant is a regular part of their lives. </p>
                             <p class="mt-4">
                               <strong>When you want to be fully integrated and wish to actively contribute to your community,
 here are some steps you can take:</strong>
@@ -734,8 +735,7 @@ home with them, making your impact go even further!</p>
                   <input type="checkbox" checked="checked">
                   <span class="checkmark"></span>
                 </label>
-                <p class=""> Get informed about the national legislation on working conditions
-and the 7 Basic Human Rights that were defined by the UN </p>
+                <p class=""> Get informed about the national legislation on working conditions and the 7 Basic Human Rights Principles that were defined by the UN</p>
               </li>
               <li>
                 <label class="check-wrap">

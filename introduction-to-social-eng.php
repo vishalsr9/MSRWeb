@@ -135,7 +135,7 @@ owner, you not only have direct responsibility for your employees, but
 also have indirect responsibility for every worker in the supply chain – the
 community overall. Take an active role in your community and ensure the
 welfare of your employees, your customers, your suppliers and others in
-society who you are in touch with.<br>
+society who you are in touch with.</p><p class="mt-0">
 Social engagement makes a difference in many ways:
                 </p>
             </div>
@@ -290,7 +290,7 @@ social backgrounds, cultures, and histories including migrants.</p>
         <div class="bottom-left">
             <div class="top-content5">
                 <h3>METRO Solutions</h3>
-                <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+                <p>METRO offers advisory through employees. A reference is provided by METRO’s Fair Working Conditions </p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>
             <div class="bottom-content5">

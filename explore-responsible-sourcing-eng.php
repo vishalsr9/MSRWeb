@@ -170,25 +170,25 @@
 
         /*sw9*/
         .swiper-button-prev {
-            position: relative;
+            /* position: relative;
             left: 4.5rem !important;
-            margin-top: 1rem;
+            margin-top: 1rem; */
             width: 2rem;
             height: 2rem;
             background-color: lightsteelblue;
-            display: block;
+            /* display: block; */
             color: white;
             border-radius: 1rem;
         }
 
         .swiper-button-next {
-            position: relative;
-            left: -4rem !important;
-            margin-top: 1rem;
+            /* position: relative; */
+            /* left: -4rem !important; */
+            /* margin-top: 1rem; */
             width: 2rem;
             height: 2rem;
             background-color: lightsteelblue;
-            display: block;
+            /* display: block; */
             color: white;
             border-radius: 1rem;
         }
@@ -2915,6 +2915,8 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-button-prev ss1"></div>
+                            <div class="swiper-button-next ss1"></div>
                         </div>
                     </div>
 
@@ -2950,8 +2952,8 @@
                 slideShadows: true,
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next.ss1",
+                prevEl: ".swiper-button-prev.ss1",
             },
             pagination: {
                 el: ".swiper-pagination",

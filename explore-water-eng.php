@@ -53,6 +53,30 @@
         .text-holder {
             font-size: 14px;
         }
+
+        .swiper-button-prev {
+            /* position: relative;
+            left: 4.5rem !important;
+            margin-top: 1rem; */
+            width: 2rem !important;
+            height: 2rem !important;
+            background-color: lightsteelblue !important;
+            /* display: block; */
+            color: white !important;
+            border-radius: 1rem !important;
+        }
+
+        .swiper-button-next {
+            /* position: relative; */
+            /* left: -4rem !important; */
+            /* margin-top: 1rem; */
+            width: 2rem !important;
+            height: 2rem !important;
+            background-color: lightsteelblue !important;
+            /* display: block; */
+            color: white !important;
+            border-radius: 1rem !important;
+        }
     </style>
 </head>
 
@@ -268,7 +292,6 @@
                         <div class="section-div">
                             <div class="container-fluid">
                                 <div class="sw-holder">
-                                    <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
                                     <div class="swholder1">
                                         <div class="swholder-sw">
                                             <div class="swiper swx">
@@ -319,11 +342,14 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="swiper-pagination swxPag"></div>
+                                                <div class="swiper-button-prev"></div>
+                                                <div class="swiper-button-next"></div>
                                             </div>
                                         </div>
-                                        <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+
                                     </div>
-                                    <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+
                                 </div>
                             </div>
                         </div>
@@ -946,7 +972,7 @@
                 prevEl: ".swiper-button-prev",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination.swxPag",
             },
         });
     </script>
