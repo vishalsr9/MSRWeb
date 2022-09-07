@@ -1300,7 +1300,7 @@
             <section class="section2 mb-50 no-print" id="comp">
 
 
-                <div class="container-full con50 mt-mb-less">
+                <div class="container-full con50">
                     <div class="row">
                         <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center">
                             <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
@@ -2517,15 +2517,23 @@
 
                                             </div>
                                         </div>
-                                    </li>
-                                    <a id="next-btn" onclick="ButtonNext9Click();" class="read-more-btn float-end">
-                                        Next Topic
-                                    </a>
-                                </ul>
+
                             </div>
                         </div>
+                        </li>
+                        <div class="row">
+                            <div class="col-md-12 mt-5">
+                                <a id="next-btn" onclick="ButtonNext9Click();" class="read-more-btn float-end">
+                                    Next Topic
+                                </a>
+                            </div>
+                        </div>
+                        </ul>
 
                     </div>
+
+                </div>
+                <div class="col-md-12 mt-0 mb-5">
 
                 </div>
         </div>
@@ -2779,12 +2787,6 @@
     <div class="section-div  no-print">
         <div class="container-fluid">
             <div class="sw-holder">
-
-
-
-
-
-
                 <!-- <div class="sw-btn-prev-container">
                             <div class="swiper-button-prev btn-y pbtn"></div>
                         </div> -->
@@ -3205,6 +3207,7 @@
         </div>
     </section>
     <!-----TODO--------->
+    <!-----TODO--------->
     <section class="container section4-6">
         <div class="top-content">
             <h3>Your Action Plan</h3>
@@ -3439,8 +3442,10 @@
                 //alert("Hi")
                 $("#myModal1").css("display", "none");
             });
+
         });
         $(document).ready(function() {
+
             //two
             $(".r2").click(function() {
                 $("#myModal2").css("display", "block");
@@ -3449,9 +3454,12 @@
                 //alert("Hi")
                 $("#myModal2").css("display", "none");
             });
+
         });
 
         $(document).ready(function() {
+
+
             //three
             $(".r3").click(function() {
                 $("#myModal3").css("display", "block");
@@ -3460,9 +3468,12 @@
                 //alert("Hi")
                 $("#myModal3").css("display", "none");
             });
+
         });
 
         $(document).ready(function() {
+
+
             //four
             $(".r4").click(function() {
                 $("#myModal4").css("display", "block");
@@ -3471,12 +3482,27 @@
                 //alert("Hi")
                 $("#myModal4").css("display", "none");
             });
+            //five
+            $(".r5").click(function() {
+                $("#myModal5").css("display", "block");
+            });
+            $(".btn-close5").click(function() {
+                //alert("Hi")
+                $("#myModal5").css("display", "none");
+            });
+            //six
+            $(".r6").click(function() {
+                $("#myModal5").css("display", "block");
+            });
+            $(".btn-close6").click(function() {
+                //alert("Hi")
+                $("#myModal6").css("display", "none");
+            });
 
         });
 
-
-
         $(document).ready(function() {
+
 
             //five
             $(".r5").click(function() {
@@ -3486,14 +3512,22 @@
                 //alert("Hi")
                 $("#myModal5").css("display", "none");
             });
+            //six
+            $(".r6").click(function() {
+                $("#myModal5").css("display", "block");
+            });
+            $(".btn-close6").click(function() {
+                //alert("Hi")
+                $("#myModal6").css("display", "none");
+            });
 
         });
-        $(document).ready(function() {
 
+        $(document).ready(function() {
 
             //six
             $(".r6").click(function() {
-                $("#myModal6").css("display", "block");
+                $("#myModal5").css("display", "block");
             });
             $(".btn-close6").click(function() {
                 //alert("Hi")
@@ -3506,9 +3540,6 @@
 
     <div id="myModal1" class="modalx">
         <div class="modalx-content">
-            <p class="ph3">
-                Analyze your purchases
-            </p>
             <p>
                 Look at your main ingredients. Do you know how sustainable they are? Focusing on the ingredients that are
                 most important
@@ -3524,9 +3555,6 @@
     </div>
     <div id="myModal2" class="modalx">
         <div class="modalx-content text-left">
-            <p class="ph3">
-                Look at who supplies your products
-            </p>
             <p class="justify1">
                 Get to know your suppliers and if possible, visit them to learn about their production
                 methods. Consider
@@ -3557,9 +3585,6 @@
     </div>
     <div id="myModal3" class="modalx">
         <div class="modalx-content">
-            <p class="ph3">
-                Make the origin of your products public
-            </p>
             <p>
                 Some suppliers will use codes to show that they can track their products. Sometimes this is done
                 digitally and can be
@@ -3576,9 +3601,6 @@
     </div>
     <div id="myModal4" class="modalx">
         <div class="modalx-content">
-            <p class="ph3">
-                Engage your staff
-            </p>
             <p>
                 Involve your staff from the beginning and explain why you are doing this. Explain the different ways to
                 source
@@ -3591,9 +3613,6 @@
     </div>
     <div id="myModal5" class="modalx">
         <div class="modalx-content">
-            <p class="ph3">
-                Look at your most common ingredients and source them more sustainable
-            </p>
             <p>
                 Sourcing sustainably is a complex topic, and changes on short notice can be hard to make. Looking at your
                 most common
@@ -3617,20 +3636,18 @@
                     alternatives
                 </li>
             </ul>
-            <a class="read-more-btn btn btn-sm btn-close5" id="btn-close5">Close</a>
+            <a class="read-more-btn btn btn-sm  btn-close5">Close</a>
         </div>
     </div>
     <div id="myModal6" class="modalx">
         <div class="modalx-content">
-            <p class="ph3">
-                Use the comprehensive guide to sustainable products and schemes
-            </p>
+
             <p>
                 Check out for more detailed information our comprehensive guide on sustainable products and our overview
                 of schemes. Use
                 them as additional information for specific questions of your employees or customers.
             </p>
-            <a class="read-more-btn btn btn-sm btn-close6">Close</a>
+            <a class="read-more-btn btn btn-sm  btn-close6">Close</a>
         </div>
     </div>
 
