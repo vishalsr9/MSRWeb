@@ -312,14 +312,19 @@
       background-color: rgba(255, 255, 255, 0.5);
       padding-top: 5rem;
       padding-bottom: 5rem;
-      margin-top: -10rem;
+      margin-top: -9rem;
     }
 
     .veg12 {
       background-color: rgba(255, 255, 255, 0.5);
       padding-top: 5rem;
       padding-bottom: 5rem;
-      margin-top: -10rem;
+      margin-top: -9rem;
+    }
+
+    .list-box1 {
+      height: 14rem;
+      overflow-y: scroll;
     }
   </style>
   <section class="yellow-sec1">
@@ -560,12 +565,12 @@
         <div class="col-md-10 offset-md-1 mt-4">
           <div class="th-content-wrapper">
             <div class="row">
-              <div class="col-md-2 offset-md-2 text-center zdiv">
+              <div class="col-md-3 text-center zdiv">
                 <div class="fruits-inner ">
                   <img src="images/thermometer/fuits-icon.svg" class="img-fluid list-icon1" />
                 </div>
               </div>
-              <div class="col-md-4 text-center">
+              <div class="col-md-6 text-center">
                 <div class="sldr-container">
 
                   <div class="swiper temprature swiper-slide-inner">
@@ -612,7 +617,7 @@
 
                 </div>
               </div>
-              <div class="col-md-2 text-center zdiv">
+              <div class="col-md-3 text-center zdiv">
                 <div class="vegetables-inner">
                   <img src="images/thermometer/vegetables-icon.svg" class="img-fluid list-icon1" />
                 </div>
@@ -624,45 +629,64 @@
 
 
 
-        <div class="col-md-10 offset-md-1 mt-4">
-          <div class="th-content-wrapper">
-            <div class="row">
-              <div class="col-md-6 text-center">
-
-                <div class="fruit12">
-                  <span class="h3v t32 mt-2">
-                    FRUITS
-                  </span>
-                  <br>
-                  <div class="fruit-display">
-                    <div class="fruit-display-inner">
+        <div class="col-md-12 mt-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fruit12">
+                <div class="row">
+                  <div class="col-md-7 offset-md-1  text-center">
+                    <div class="h3v t32">
+                      <span class="fruitspn">
+                        FRUITS
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 offset-md-1 mt-2">
+                    <div class="list-box1">
                       <ul class="thermo-fruits">
                       </ul>
                     </div>
-
                   </div>
                 </div>
 
-
-
               </div>
-
-              <div class="col-md-6 text-center">
-                <div class="veg12">
-                  <span class="h3v t32 mt-2">
-                    VEGETABLES
-                  </span>
-                  <br>
-                  <div class="veg-display">
-                    <div class="veg-display-inner">
+            </div>
+            <div class="col-md-6">
+              <div class="veg12">
+                <div class="row">
+                  <div class="col-md-7 offset-md-4  text-center">
+                    <div class="h3v t32">
+                      <span class="fruitspn">
+                        VEGETABLES
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 offset-md-3 mt-2">
+                    <div class="list-box1">
                       <ul class="thermo-veg">
                       </ul>
                     </div>
-
                   </div>
                 </div>
+
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>
