@@ -331,7 +331,10 @@ to only 40 – 55% for gas.</p>
                                       
 
                                     </div>
-                                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+<div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
+                                </div>
                                 </div>
                                 <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
                               </div>

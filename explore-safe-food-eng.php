@@ -205,6 +205,7 @@
                         </div>
                       </div>
                     </div>
+                   
                     <div class="row mt-2 mb-5">
                       <div class="section-div">
                         <div class="container-fluid">
@@ -481,6 +482,8 @@
                                       </div>
                                     </div>
                                   </div>
+                                  <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
                               <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
@@ -629,6 +632,8 @@
                                       </div>
                                     </div>
                                   </div>
+                                  <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
                               <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
@@ -815,6 +820,8 @@
                                     </div>
 
                                   </div>
+                                  <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
                               <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->

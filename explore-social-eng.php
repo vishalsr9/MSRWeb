@@ -368,7 +368,12 @@ employees from pollution.</p>
                                                                              
 
                                     </div>
-                                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+
+
+                                  <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
+                                </div>
                                 </div>
                                 <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
                               </div>
@@ -482,6 +487,8 @@ employees from pollution.</p>
                                      
 
                                     </div>
+                                    <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                   </div>
                                 </div>
                                 <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
@@ -592,6 +599,8 @@ measures they take to ensure fair working conditions</p>
                                       
                                      
                                     </div>
+                                    <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                   </div>
                                 </div>
                                 <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
@@ -685,6 +694,8 @@ here are some steps you can take:</strong>
                                      
 
                                     </div>
+                                    <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
                                   </div>
                                 </div>
                                 <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->

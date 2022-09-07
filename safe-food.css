@@ -722,3 +722,20 @@ span.slimg-holder.socils_one {
     cursor: pointer;
 
 }
+
+
+  .swiper-button-prev {
+            width: 2rem !important;
+            height: 2rem !important;
+            background-color: lightsteelblue !important;
+            color: white !important;
+            border-radius: 1rem !important;
+        }
+
+        .swiper-button-next {
+            width: 2rem !important;
+            height: 2rem !important;
+            background-color: lightsteelblue !important;
+            color: white !important;
+            border-radius: 1rem !important;
+        }

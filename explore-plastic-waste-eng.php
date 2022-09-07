@@ -436,68 +436,72 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
                                           </div>
                                           <div class="sl-text sl-text-5 text-center">
                                             <span class="sltext-holder">Take part in a water fill up scheme
- </span>
-                                          </div>
-                                          <div class="sl-button sl-button-5 text-center">
-                                            <button class="read-more-btn plasticWaste_btn-9" id="sl-button sl-button-5">Read more</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                       <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                                        <div class="slide-inner">
-                                          <div class="sl-image sl-image-5 plastic_waste_slider10 text-center">
-                                            <span class="slimg-holder">
-                                              <img src="./images/safe_food/pw-10.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                          </div>
-                                          <div class="sl-text sl-text-5 text-center">
-                                            <span class="sltext-holder"> Purchase sustainable packaged products
- </span>
-                                          </div>
-                                          <div class="sl-button sl-button-5 text-center">
-                                            <button class="read-more-btn plasticWaste_btn-10" id="sl-button sl-button-5">Read more</button>
-                                          </div>
-                                        </div>
-                                      </div>
-                                       <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                                        <div class="slide-inner">
-                                          <div class="sl-image sl-image-5 plastic_waste_slider11 text-center">
-                                            <span class="slimg-holder">
-                                              <img src="./images/safe_food/pw-11.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                          </div>
-                                          <div class="sl-text sl-text-5 text-center">
-                                            <span class="sltext-holder"> Engage your staff
- </span>
-                                          </div>
-                                          <div class="sl-button sl-button-5 text-center">
-                                            <button class="read-more-btn plasticWaste_btn-11" id="sl-button sl-button-5">Read more</button>
-                                          </div>
-                                        </div>
-                                      </div>
+                                         </span>
+                                                                                  </div>
+                                                                                  <div class="sl-button sl-button-5 text-center">
+                                                                                    <button class="read-more-btn plasticWaste_btn-9" id="sl-button sl-button-5">Read more</button>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                               <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
+                                                                                <div class="slide-inner">
+                                                                                  <div class="sl-image sl-image-5 plastic_waste_slider10 text-center">
+                                                                                    <span class="slimg-holder">
+                                                                                      <img src="./images/safe_food/pw-10.svg" class="img-fluid mb-2 mt-2">
+                                                                                    </span>
+                                                                                  </div>
+                                                                                  <div class="sl-text sl-text-5 text-center">
+                                                                                    <span class="sltext-holder"> Purchase sustainable packaged products
+                                         </span>
+                                                                                  </div>
+                                                                                  <div class="sl-button sl-button-5 text-center">
+                                                                                    <button class="read-more-btn plasticWaste_btn-10" id="sl-button sl-button-5">Read more</button>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                               <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
+                                                                                <div class="slide-inner">
+                                                                                  <div class="sl-image sl-image-5 plastic_waste_slider11 text-center">
+                                                                                    <span class="slimg-holder">
+                                                                                      <img src="./images/safe_food/pw-11.svg" class="img-fluid mb-2 mt-2">
+                                                                                    </span>
+                                                                                  </div>
+                                                                                  <div class="sl-text sl-text-5 text-center">
+                                                                                    <span class="sltext-holder"> Engage your staff
+                                         </span>
+                                                                                  </div>
+                                                                                  <div class="sl-button sl-button-5 text-center">
+                                                                                    <button class="read-more-btn plasticWaste_btn-11" id="sl-button sl-button-5">Read more</button>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
 
-                                    </div>
-                                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                                </div>
-                                <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
-                              </div>
-                              <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
-                            </div>
-                          </div>
-                        </div>
-              </section>
+                                                                            </div>
+                                                                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+
+                                                                          <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
+                                                                      </div>
+                                                                        </div>
+                                                                        <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+                                                                      </div>
+                                                                      <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                      </section>
 
 
 
 
-              <section class="advance_way no-print plastic_waste_expl">
-                <div class="container">
-                    <div class="row">
-                        <h3>Advanced ways to save plastic waste</h3>
-                        <p>Once you have managed to implement first steps to reduce your plastic use you can consider investing in more advanced ways to prevent plastic:</p>
-                    </div>
-                </div>
-            </section>
+                                                      <section class="advance_way no-print plastic_waste_expl">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <h3>Advanced ways to save plastic waste</h3>
+                                                                <p>Once you have managed to implement first steps to reduce your plastic use you can consider investing in more advanced ways to prevent plastic:</p>
+                                                            </div>
+                                                        </div>
+                                                    </section>
 
 
     <section class="plastic-waste_productRecycle no-print">

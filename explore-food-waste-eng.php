@@ -21,7 +21,23 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <style>
+    .swiper-button-prev .swxp {
+      width: 2rem !important;
+      height: 2rem !important;
+      background-color: lightsteelblue !important;
+      color: white !important;
+      border-radius: 1rem !important;
+    }
 
+    .swiper-button-next .swxn {
+      width: 2rem !important;
+      height: 2rem !important;
+      background-color: lightsteelblue !important;
+      color: white !important;
+      border-radius: 1rem !important;
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -954,6 +970,8 @@
                     </div>
                   </div>
                 </div>
+                <div class="swiper-button-next swxn"></div>
+                <div class="swiper-button-prev swxp"></div>
               </div>
             </div>
             <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
@@ -1736,8 +1754,8 @@
         slideShadows: true,
       },
       navigation: {
-        nextEl: ".swiper-button-next .swxn",
-        prevEl: ".swiper-button-prev .swxp",
+        nextEl: ".swiper-button-next.swxn",
+        prevEl: ".swiper-button-prev.swxp",
       },
       pagination: {
         el: ".swiper-pagination",
