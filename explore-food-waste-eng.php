@@ -761,7 +761,7 @@
       function bindThmScheme2() {
         //0-5
         var fruits = ["Apple", "Apricots", "Cherries", "Coconuts", "Dates", "Figs", "Fresh-cuts", "Grapes", "Kiwifruit", "Loquat", "Nectarines", "Peaches", "Pears", "Persimmons", "Plums", "Strawberries"];
-        var veg = ["Artichokes", "Asparagus", "Bok Choy", "Broccoli", "Brussels sprouts", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chicory", "Chinese Cabbage", "Collard Greens", "Corn (sweet)", "Endive", "Fennel", "Fresh-cut products", "Garlic", "Ginseng", "Greens (leafy)", "Horseradish", "Herbs", "Herbs", "Leek", "Lettuce", "Mushrooms", "Parsley", "Parsnips", "Pea", "Radish", "Salad Greens", "Spinach", "Sprouts", "Turnip", "Watercress"];
+        var veg = ["Artichokes", "Asparagus", "Bok Choy", "Broccoli", "Brussels sprouts", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chicory", "Chinese Cabbage", "Collard Greens", "Corn (sweet)", "Endive", "Fennel", "Fresh-cut products", "Garlic", "Ginseng", "Greens (leafy)", "Horseradish", "Herbs", "Kohlrabi", "Leek", "Lettuce", "Mushrooms", "Parsley", "Parsnips", "Pea", "Radish", "Salad Greens", "Spinach", "Sprouts", "Turnip", "Watercress"];
         $(".red-line").css("width", "32.25806451612903%");
         $(".red-line").css("margin-left", "0%");
         BindFruits(fruits);
