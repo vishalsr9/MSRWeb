@@ -171,18 +171,22 @@
               </div>
             </div>
           </div>
+
+
+
+
           <div class="row mt-5">
             <div class="test">
               <div class="tab-container-one">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="col-md-4 nav-item active">
-                    <a class="nav-link active" href="#home" role="tab" aria-controls="home" data-bs-toggle="tab">Food Safety Management System (FSMS)</a>
+                  <li id="tabLi1" class="col-md-4 nav-item active">
+                    <a id="tabLink1" class="nav-link active" href="#home" role="tab" aria-controls="home" data-bs-toggle="tab">Food Safety Management System (FSMS)</a>
                   </li>
-                  <li class="col-md-4 nav-item">
-                    <a class="nav-link" href="#profile" role="tab" aria-controls="profile" data-bs-toggle="tab">7 principles of HACCP </a>
+                  <li id="tabLi2" class="col-md-4 nav-item">
+                    <a id="tabLink2" class="nav-link" href="#profile" role="tab" aria-controls="profile" data-bs-toggle="tab">7 principles of HACCP </a>
                   </li>
-                  <li class="col-md-4 nav-item">
-                    <a class="nav-link" href="#messages" role="tab" aria-controls="messages" data-bs-toggle="tab">Food Safety Culture </a>
+                  <li id="tabLi3" class="col-md-4 nav-item">
+                    <a id="tabLink3" class="nav-link" href="#messages" role="tab" aria-controls="messages" data-bs-toggle="tab">Food Safety Culture </a>
                   </li>
                 </ul>
                 <div class="tab-content">
@@ -487,7 +491,7 @@
                       </div>
                     </div>
                     <p class="text-center nextStepCta mt-4">
-                      <a href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                      <a id="nextBtn1" href="#">Next Step <i class="fa fa-long-arrow-right"></i>
                       </a>
                     </p>
                   </div>
@@ -640,7 +644,7 @@
                         <p>You can start by looking at each aspect of your operation and identifying the risks caused by contamination from micro-organisms, for example, bacteria like salmonella, physical objects such as shards of glass from broken glass, chemicals such as cleaning agents that might come from poorly rinsed mixing equipment, and allergens such as nuts.</p>
                       </div>
                       <p class="text-center nextStepCta mt-4">
-                        <a href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                        <a id="nextBtn2" href="#">Next Step <i class="fa fa-long-arrow-right"></i>
                         </a>
                       </p>
                     </div>
@@ -826,6 +830,9 @@
             </div>
           </div>
         </div>
+
+
+
       </section>
       <section class="track-and_talk no-print">
         <div class="container-fully">
@@ -1828,6 +1835,36 @@
 
     });
   </script>
+
+
+  <script>
+    $(document).ready(function() {
+      //first button click
+      $("#nextBtn1").click(function() {
+        $("#tabLi1").removeClass("active");
+        $("#tabLink1").removeClass("active");
+        $("#home").removeClass("active")
+        //
+        $("#tabLi2").addClass("active");
+        $("#tabLink2").addClass("active");
+        $("#profile").addClass("active")
+        return false;
+      });
+      //second button click
+      $("#nextBtn2").click(function() {
+        $("#tabLi2").removeClass("active");
+        $("#tabLink2").removeClass("active");
+        $("#profile").removeClass("active")
+        //
+        $("#tabLi3").addClass("active");
+        $("#tabLink3").addClass("active");
+        $("#messages").addClass("active")
+        return false;
+      });
+    });
+  </script>
+
+
 
 
 </body>

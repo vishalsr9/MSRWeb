@@ -397,14 +397,14 @@ employees from pollution.</p>
               <div class="test">
                 <div class="tab-container-one">
                   <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="col-md-4 nav-item active">
-                      <a class="nav-link active" href="#home" role="tab" aria-controls="home" data-bs-toggle="tab">Engage with your employees</a>
+                    <li id="tabLi1" class="col-md-4 nav-item">
+                      <a id="tabLink1" class="nav-link active" href="#home" role="tab" aria-controls="home" data-bs-toggle="tab">Engage with your employees</a>
                     </li>
-                    <li class="col-md-4 nav-item">
-                      <a class="nav-link" href="#profile" role="tab" aria-controls="profile" data-bs-toggle="tab">Engage with your suppliers </a>
+                    <li id="tabLi2" class="col-md-4 nav-item">
+                      <a id="tabLink2" class="nav-link" href="#profile" role="tab" aria-controls="profile" data-bs-toggle="tab">Engage with your suppliers </a>
                     </li>
-                    <li class="col-md-4 nav-item">
-                      <a class="nav-link" href="#messages" role="tab" aria-controls="messages" data-bs-toggle="tab">Connect with your community </a>
+                    <li id="tabLi3" class="col-md-4 nav-item">
+                      <a id="tabLink3" class="nav-link" href="#messages" role="tab" aria-controls="messages" data-bs-toggle="tab">Connect with your community </a>
                     </li>
                   </ul>
                   <div class="tab-content">
@@ -491,7 +491,7 @@ employees. The 7 main aspects of human rights defined by the UN can serve as you
                         </div>
                       </div>
                       <p class="text-center nextStepCta mt-4">
-                        <a href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                        <a id="nextBtn1" href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
                         </a>
                       </p>
                     </div>
@@ -602,7 +602,7 @@ measures they take to ensure fair working conditions</p>
                       </div>
                       <div class="row">
                         <p class="text-center nextStepCta mt-4">
-                          <a href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
+                          <a id="nextBtn2"href="javascript:void(0);">Next Step <i class="fa fa-long-arrow-right"></i>
                           </a>
                         </p>
                       </div>
@@ -1159,6 +1159,33 @@ $(document).ready(function() {
 
 
 </script>
+
+<script>
+    $(document).ready(function() {
+      //first button click
+      $("#nextBtn1").click(function() {
+        $("#tabLi1").removeClass("active");
+        $("#tabLink1").removeClass("active");
+        $("#home").removeClass("active")
+        //
+        $("#tabLi2").addClass("active");
+        $("#tabLink2").addClass("active");
+        $("#profile").addClass("active")
+        return false;
+      });
+      //second button click
+      $("#nextBtn2").click(function() {
+        $("#tabLi2").removeClass("active");
+        $("#tabLink2").removeClass("active");
+        $("#profile").removeClass("active")
+        //
+        $("#tabLi3").addClass("active");
+        $("#tabLink3").addClass("active");
+        $("#messages").addClass("active")
+        return false;
+      });
+    });
+  </script>
 
 
   </body>

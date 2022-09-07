@@ -142,7 +142,7 @@ coffee ground collection.</p>
 
           <div class="col-md-4 px-4">
             <div class="good_to_know_box p-4 safe_foodBox_l4 engery_box waste_l4-img">
-              <img src="./images/safe_food/wl3.svg" class="img-fluid">
+              <img src="./images/safe_food/wl3.svg" class="img-fluid" style="padding: 0;">
             </div>
             <div class="good_to_know_box p-4 safe_foodBox_l4" style="    margin-top: 2.18rem;">
               <img src="./images/safe_food/wl6.svg" class="img-fluid">
