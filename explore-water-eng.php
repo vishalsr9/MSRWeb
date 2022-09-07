@@ -216,17 +216,16 @@
                                     <img src="images/water/icon-sm-hand-dollar.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    <span class="ybtext">
+                                    <div class="ybtext">
                                         39% of HoReCa customers (in 23 countries) think
                                         that reducing energy and water use is one of the most
                                         important issues to deal with in their business. While
                                         59% said they do it for environmental reasons,
                                         23% said they do this to save money.*
-                                    </span>
-
-                                    <span class="box-note-1">
-                                        *Metro´s 2019 global sustainability study
-                                    </span>
+                                    </div>
+                                </div>
+                                <div class="box-note-1">
+                                    *Metro´s 2019 global sustainability study&nbsp;
                                 </div>
                             </div>
                         </div>
@@ -236,26 +235,15 @@
                                     <img src="images/water/icon-sm-green-electric.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-
-                                    <siv class="row">
-                                        <div class="col-md-12">
-                                            <span class="ybtext">
-                                                Like the 39% of customers who want to tackle
-                                                energy and water waste in their own operations,
-                                                you too can take steps that save money while at the
-                                                same time protecting the environment.*
-                                            </span>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <span class="box-note-2">
-                                                *Metro´s 2019 global sustainability study
-                                            </span>
-                                        </div>
-                                    </siv>
-
-
-
-
+                                    <div class="ybtext">
+                                        Like the 39% of customers who want to tackle
+                                        energy and water waste in their own operations,
+                                        you too can take steps that save money while at the
+                                        same time protecting the environment.*
+                                    </div>
+                                </div>
+                                <div class="box-note-1">
+                                    *Metro´s 2019 global sustainability study&nbsp;
                                 </div>
                             </div>
                         </div>
