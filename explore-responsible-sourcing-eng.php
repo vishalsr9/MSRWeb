@@ -3787,26 +3787,63 @@
         };
 
         function CreateSlider(topicno, cellno) {
+
+            var swiper9 = new Swiper(".sw9", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+            var swiper10 = new Swiper(".sw10", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+            var swiper11 = new Swiper(".sw11", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+            var swiper12 = new Swiper(".sw12", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+
+
+
+
+
+
             if (topicno == "1") {
                 $(".scheme-slider-1").css("display", "block");
-                var swiperx = new Swiper(".sw10");
-                swiperx.slideTo(cellno);
+                swiper10.slideTo(cellno);
             } else if (topicno == "2") {
                 $(".scheme-slider-2").css("display", "block");
-                var swiperx = new Swiper(".sw11");
-                swiperx.slideTo(cellno);
+                swiper11.slideTo(cellno);
             } else if (topicno == "3") {
                 $(".scheme-slider-3").css("display", "block");
-                var swiperx = new Swiper(".sw9");
-                swiperx.slideTo(cellno);
-
-
-
-
+                swiper9.slideTo(cellno);
             } else if (topicno == "4") {
                 $(".scheme-slider-4").css("display", "block");
-                var swiperx = new Swiper(".sw12");
-                swiperx.slideTo(cellno);
+                swiper12.slideTo(cellno);
             }
 
             return false;
@@ -3870,43 +3907,6 @@
         });
 
 
-        var swiper = new Swiper(".sw9", {
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-        var swiper = new Swiper(".sw10", {
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-        var swiper = new Swiper(".sw11", {
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-        var swiper = new Swiper(".sw12", {
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
 
 
         var jasonData = {
