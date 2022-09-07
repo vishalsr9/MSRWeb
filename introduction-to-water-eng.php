@@ -24,11 +24,11 @@
 
     <style>
         .border-right {
-            border-right: 3px solid black !important;
+            border-right: 1px solid black !important;
         }
 
         .border-top {
-            border-top: 3px solid black !important;
+            border-top: 1px solid black !important;
         }
     </style>
 </head>
@@ -200,7 +200,7 @@
                         money, it is also a precious resource. Show your customers that you take
                         responsibility by adopting water-saving measures with long-term
                         benefits for you and the environment.
-                        <br>Responsible water consumption pays off in many ways:
+                        <br><br>Responsible water consumption pays off in many ways:
                     </p>
                 </div>
             </div>

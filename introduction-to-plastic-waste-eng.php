@@ -19,6 +19,10 @@
             width: 26rem !important;
             margin-top: 4rem;
         }
+
+        .nodeco {
+            text-decoration: none;
+        }
     </STYLE>
 
 </head>
@@ -121,8 +125,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                            many single-use plastic items have been banned in the EU as of 2021
-                                        </p>
+                                            many <a class="nodeco" href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" target="_blank">single-use plastic items</a> have been banned in the EU as of 2021 </p>
                                     </div>
                                 </div>
 
@@ -332,8 +335,7 @@
 
                         Plastic Waste</h3>
                     <p class="theme-p">
-                        Analyse your plastic consumption and the sources of plastic, how you use and dispose it. A simple waste audit will help avoid single-use plastic such as plastic-wrapped food and drink or plastic containers for takeaway. Since July 2021, many single-use plastic items have been banned in the EU and further laws will be introduced. In Germany, starting in 2023, caterers, delivery services and restaurants will be required to offer reusable containers for takeaway food and beverages in addition to disposable containers. You too will have to use alternatives that are reusable, recyclable and compostable such as plates made from plant-based materials like bamboo. And you can then go for more advanced ways to avoid plastic waste. Engage your staff and customers to bring about sustainable change. Communicate the necessity and the benefit of using less of the most problematic plastics and publicise what you are doing.
-                    </p>
+                        Analyse your plastic consumption and the sources of plastic, how you use and dispose it. A simple waste audit will help avoid single-use plastic such as plastic-wrapped food and drink or plastic containers for takeaway. Since July 2021, many <a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank">single-use plastic items</a> have been banned in the EU and further laws will be introduced. In Germany, starting in 2023, caterers, delivery services and restaurants will be required to offer reusable containers for takeaway food and beverages in addition to disposable containers. You too will have to use alternatives that are reusable, recyclable and compostable such as plates made from plant-based materials like bamboo. And you can then go for more advanced ways to avoid plastic waste. </p>
                     <strong>
                         <ul>
                             <li>Engage your staff and customers to bring about sustainable change</li>

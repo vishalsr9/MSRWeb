@@ -90,7 +90,7 @@
                 </div>
               </section>
 
-              <section class="plastic-waste_yellow" id="clickTohide">
+              <section class="plastic-waste_yellow no-print" id="clickTohide">
                   <div class="container-fluid">
                     <div class="row bg_yellow px-5">
                         <div class="col-md-3">
@@ -163,7 +163,7 @@
                                         <tr>
                                             <td><b>What is the material? </b></td>
                                             <td>Plastic from crude oil with additives</td>
-                                            <td>Plastic fromcrude oil</td>
+                                            <td>Plastic from crude oil</td>
                                             <td>Plastic from crude oil</td>
                                             <td>Plastic from crude oil </td>
                                             <td>Plastic from crude oil, extracted rubber</td>
@@ -263,7 +263,8 @@
                           <div class="col-md-6">
                               <div class="plastic-waste_goodToKnow_box">
                                   <img src="./images/plastic-waste/Asset 21-8.png">
-                                  <p style="margin-top: 35px;"><span>Since 2021</span>, many single-use plastic items have been banned in the EU. Be aware of the new regulations and find solutions for avoiding plastic waste ahead of time that suit you best.</p>
+                                  <p style="margin-top: 35px;"><span>Since 2021</span>, many<a href="https://www.mpulse.de/en/movinggoods/different-packaging-different-decomposition-
+times" target="_blank"> single-use plastic items</a> have been banned in the EU. Be aware of the new regulations and find solutions for avoiding plastic waste ahead of time that suit you best.</p>
                               </div>
                           </div>
                            <div class="col-md-6">
@@ -278,7 +279,7 @@
                            <div class="col-md-6">
                               <div class="plastic-waste_goodToKnow_box">
                                   <img src="./images/plastic-waste/Asset 16.svg" style="width: 55%;">
-                                  <p style="margin-top: 28px;"><span>47%</span> of METRO’s HoReCa customers (globally) want to buy products with more eco-friendly packaging(Metro ́s 2019 global sustainability study).</p>
+                                  <p style="margin-top: 28px;"><span>47%</span> of METRO’s HoReCa customers (globally) want to buy products with more eco-friendly packaging (Metro ́s 2019 global sustainability study).</p>
                               </div>
                           </div>
                            <div class="col-md-6">
@@ -853,7 +854,7 @@
  <div id="plastic_waste_content1" class="modalx">
       <div class="modalx-content">
         <h4>   Rethink your usage of plastic film</h4>
-        <p>Where possible and subject to hygiene regulations, avoid plastic film by using reusable containers or wax wraps</p>
+        <p>Where possible and subject to hygiene regulations, avoid plastic film by using reusable containers or wax wraps.</p>
         <a class="read-more-btn btn btn-sm plasticWaste_close1">X</a>
       </div>
     </div>
@@ -1042,7 +1043,7 @@ $(document).ready(function() {
 $(document).ready(function() {
         //slide one
         $(".plasticWaste_btn-10").click(function() {
-          $("#plastic_waste_content5").css("display", "block");
+          $("#plastic_waste_content10").css("display", "block");
         });
         $(".plasticWaste_close10").click(function() {
           //alert("Hi")

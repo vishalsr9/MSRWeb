@@ -125,7 +125,7 @@
                 </div>
                 <!-- <a href="#devid01">DEV. Link</a> -->
             </section>
-            <section class="soFood_importants no-print" id="clickTohide">
+            <section class="soFood_importants no-print" id="clickTohide" style="display: none;">
                 <div class="container-fluid px-5">
                     <div class="row bg_yellow no-print">
                         <div class="col-md-4 px-4">
@@ -194,31 +194,36 @@
                 <div class="container con-gk" style="margin:0 auto;">
                     <div class="row">
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
-                            <div class="icon-box-1-content">
+                            <div class="icon-box-1-content h18r">
                                 <div class="icon-holder">
                                     <img src="images/water/icon-sm-tap.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    For a restaurant, most water is used in the kitchen,
-                                    followed by bathrooms. It is estimated that restaurants
-                                    can decrease operating costs by 11%, energy use by
-                                    10%, and water use by 15% if efficient water practices
-                                    are implemented.
+                                    <span class="ybtext">
+                                        For a restaurant, most water is used in the kitchen,
+                                        followed by bathrooms. It is estimated that restaurants
+                                        can decrease operating costs by 11%, energy use by
+                                        10%, and water use by 15% if efficient water practices
+                                        are implemented.
+                                    </span>
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
-                            <div class="icon-box-1-content">
+                            <div class="icon-box-1-content h18r">
                                 <div class="icon-holder">
                                     <img src="images/water/icon-sm-hand-dollar.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    39% of HoReCa customers (in 23 countries) think
-                                    that reducing energy and water use is one of the most
-                                    important issues to deal with in their business. While
-                                    59% said they do it for environmental reasons,
-                                    23% said they do this to save money.*<br>
-                                    <br><br>
+                                    <span class="ybtext">
+                                        39% of HoReCa customers (in 23 countries) think
+                                        that reducing energy and water use is one of the most
+                                        important issues to deal with in their business. While
+                                        59% said they do it for environmental reasons,
+                                        23% said they do this to save money.*
+                                    </span>
+
                                     <span class="box-note-1">
                                         *Metro´s 2019 global sustainability study
                                     </span>
@@ -226,18 +231,31 @@
                             </div>
                         </div>
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
-                            <div class="icon-box-1-content">
+                            <div class="icon-box-1-content h18r">
                                 <div class="icon-holder">
                                     <img src="images/water/icon-sm-green-electric.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    Like the 39% of customers who want to tackle
-                                    energy and water waste in their own operations,
-                                    you too can take steps that save money while at the
-                                    same time protecting the environment.*<br><br><br><br>
-                                    <span class="box-note-2">
-                                        *Metro´s 2019 global sustainability study
-                                    </span>
+
+                                    <siv class="row">
+                                        <div class="col-md-12">
+                                            <span class="ybtext">
+                                                Like the 39% of customers who want to tackle
+                                                energy and water waste in their own operations,
+                                                you too can take steps that save money while at the
+                                                same time protecting the environment.*
+                                            </span>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <span class="box-note-2">
+                                                *Metro´s 2019 global sustainability study
+                                            </span>
+                                        </div>
+                                    </siv>
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -328,7 +346,7 @@
             <section class="section-highlight-withimages section4-5 pbg mb-3 no-print">
                 <div class="top-highlight text-center">
                     <h3>Advanced ways to save water</h3>
-                    <p>Once you have managed the daily water-saving routines, you can consider investing in advanced ways to save water</p>
+                    <p>Once you have managed the daily water-saving routines,<br>you can consider investing in advanced ways to save water</p>
                 </div>
 
 
@@ -469,9 +487,7 @@
                                                     </h3>
                                             </div>
                                             <div class="col-md-12 text9">
-
-                                                Prevent waste
-                                                Introduce waste-free ingredients for example different cuts of meat for “nose-to-tail” cooking. Source packaging that will not be wasted and ask your supplier for refillable packaging options, for example, for detergents or oils
+                                                By using water-saving taps, dual flush toilets, sensors on taps, toilets and urinals or cistern displacement devices you can reduce a significant amount of used water.
                                             </div>
                                         </div>
                                     </div>
@@ -960,17 +976,12 @@
     <script>
         $(document).ready(function() {
             $('#hide_show_content').click(function() {
-                //get collapse content selector
                 var collapse_content_selector = $(this).attr('href');
-
-                //make the collapse content to be shown or hide
                 var toggle_switch = $(this);
                 $(collapse_content_selector).toggle(function() {
                     if ($(this).css('display') == 'none') {
-                        //change the button label to be 'Show'
                         toggle_switch.html('Read More');
                     } else {
-                        //change the button label to be 'Hide'
                         toggle_switch.html('Read Less');
                     }
                 });

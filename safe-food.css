@@ -312,7 +312,7 @@ h3.good_to_know_l4{color:#003b7e;font-size:38px;font-family:GothamBold;font-weig
 section.plastic-waste_productRecycle{background:#f2f2f2;padding:20px 0 50px}
 .plastic-wasteStep h2{font-size:55px;font-family:GothamBold;color:#ffe500}
 .plastic-wasteStep h4{font-size:20px;font-family:GothamBold;margin-top:0}
-.plastic-wasteStep p{padding-right:5rem;font-size:15px}
+.plastic-wasteStep p{padding-right:5.7rem;font-size:15px}
 .energy_page_img .plastic-wasteStep p{padding-right:25px;font-size:14px;font-family:gothambook}
 .energy_page_img .plastic-wasteStep{position:relative;top:65px;left:135px;padding:0 4rem}
 .plastic-wasteStepLastRow .plastic-wasteStep{position:relative;top:-70px;left:-100px}
@@ -362,7 +362,7 @@ button.mybtncss:hover{background-color:#ffe500;border-radius:0;padding:10px 22px
 .read-more-btn:hover{color:#003b7e!important}
 .plastic_waste .read-more-btn:hover{background:#ffe500!important;color:#003b7e!important}
 .bg_blue1{background:#003b7e}
-.compost_wasteFood_img.learn_to_make img{width:36rem}
+.compost_wasteFood_img.learn_to_make img{width:32rem}
 .simple_wayTo_preventing{background-color:#f2f2f2;padding:50px;margin-top:55px;margin-bottom:-50px}
 .simple_wayTo_preventing .sl-box{background-color:#fff}
 .wayT0Title{color:#003b7e;font-size:38px;font-family:GothamBold;font-weight:500;margin-bottom:40px;margin-top:30px;text-align:center}
@@ -583,4 +583,125 @@ a.read-more-btn{font-size: 14px;}
 }
 .sl-image.sl-image-5.plastic_waste_slider9.text-center img {
     margin-bottom: 1rem !important;
+}
+
+section.good_to_know.no-print.social_box .good_to_know_box.p-4 img {
+    width: 120px;
+    background: #f2f2f2;
+    padding: 0px 18px;
+}
+section.good_to_know.no-print.social_box .good_to_know_box.p-4 {
+    height: 220px;
+}
+section.good_to_know.no-print.social_box h3 {
+    margin-top: 5.5rem;
+}
+section.good_to_know.no-print.social_box {
+    padding-top: 85px !important;
+}
+
+.sl-image.sl-image-1.socialSlide-1.text-center img {
+    width: 7rem;
+}
+.swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-2.text-center.socialSlide-2 img {
+    width: 13rem;
+    margin-bottom: -2rem !important;
+}
+
+.sl-image.sl-image-3.text-center.socialSlide-3 img {
+    width: 13rem;
+}
+.swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-1.socialSlide-1.text-center img {
+    width: 11rem;
+    margin-bottom: -2rem !important;
+}
+.sl-image.sl-image-2.text-center.socialSlide-2 img {
+    width: 9rem;
+    margin-bottom: 1rem !important;
+}
+
+.swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-3.text-center.socialSlide-3 img {
+    width: 17rem;
+    margin-bottom: -1rem !important;
+}
+.sl-image.sl-image-1.text-center.socialSlide2-1 img {
+    width: 14rem;
+    margin-bottom: 3rem !important;
+}
+
+.swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-2.socialSlide2-2.text-center img {
+    width: 24rem;
+    margin-bottom: 3rem !important;
+}
+.sl-image.sl-image-4.text-center.sl-img-4.socialSlide2-4 img {
+    width: 18rem;
+    margin-bottom: 2rem !important;
+}
+
+.swholder1.slider_2 .swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-4.text-center.sl-img-4.socialSlide2-4 img {
+    width: 23rem;
+    margin-bottom: 6rem !important;
+}
+.sl-image.sl-image-2.socialSlide2-2.text-center img {
+    width: 15rem;
+    margin-bottom: 2rem !important;
+}
+.swholder1.slider_2 .swx>.swiper-wrapper>.swiper-slide-active .sl-image.sl-image-1.text-center.socialSlide2-1 img {
+    width: 24rem;
+    margin-bottom: 5rem !important;
+}
+.three-step_para p strong {
+    font-size: 16px;
+}
+
+.swiper-slide.sl-box.swiper-slide-active .sl-image.sl-image-6.text-center.social_slideL4-2.slider_3-2 img {
+    margin-bottom: 1rem !important;
+}
+.sl-image.sl-image-6.text-center.social_slideL4-3.slider_3-3 img {
+    width: 5rem;
+}
+.swiper-slide.sl-box.swiper-slide-active .sl-image.sl-image-6.text-center.social_slideL4-3.slider_3-3 img {
+    width: 8rem;
+}
+
+.three-step_food_safety p.text-center {
+    color: #fff;
+    margin-top: -25px;
+}
+
+.social_slde span.slimg-holder {
+    background: #ffe500;
+    font-size: 44px;
+    font-family: 'GothamBold';
+    padding: 14px 27px;
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    color: #003b7e;
+}
+section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 .sl-text.sl-text-1.text-center {
+    margin-top: 4rem;
+}
+section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 .sl-text.sl-text-1.text-center p {
+    margin-top: 20px;
+    font-size: 12px;  transition: .5s;
+}
+
+section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 .swiper-slide.sl-box.swiper-slide-active span.sltext-holder {
+    font-size: 26px;
+    font-family: 'GothamBold';
+    margin: 0 1rem;  transition: .5s;
+    text-transform: capitalize;
+}
+
+section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 .swiper-slide.sl-box.swiper-slide-active .sl-text.sl-text-1.text-center p
+{
+        font-size: 15px;  transition: .5s;
+}
+section.simple_wayTo_preventing.no-print.social_l4_yellow_slider.pt-5 span.sltext-holder {
+    text-transform: capitalize;
+}
+
+span.slimg-holder.socils_one {
+    padding: 12px 29px;
 }

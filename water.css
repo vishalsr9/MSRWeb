@@ -110,14 +110,24 @@
 .icon-box-1-content > .text-holder {
   padding-left: 1rem;
   padding-right: 1rem;
+  font-size:16px;
 }
 .box-note-1 {
-  margin-right: -160px;
+  /* margin-right: -140px; */
   font-size: 12px;
+  float:right;
+  padding-top:4rem;
 }
+
+.h18r{
+  height:18rem!important;
+}
+
 .box-note-2 {
-  margin-right: -160px;
+  /* margin-right: -160px; */
   font-size: 12px;
+  float:right;
+  padding-top:5.5rem;
 }
 .strongUl {
   font-weight: bold !important;
