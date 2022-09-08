@@ -235,12 +235,6 @@ sw-btn-prev-container{width:3rem;display:block}
 .swiper-slide.sl-box.swiper-slide-active .sl-image.sl-image-5.plastic_waste_slider5.text-center img{width:9rem}
 .sl-image.sl-image-5.plastic_waste_slider5.text-center img{width:7rem;margin-bottom:1rem!important}
 button.read-more-btn.plasticWaste_btn-1{transform:translate(-50%,38px)}
-.modalx{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:hsla(0,0%,0%,.5)}
-.modalx-content{background-color:#003b7e;color:#fff;margin:auto;padding:20px;border:1px solid #888;width:65rem;margin-bottom:2rem;position:relative}
-.modalx>.modalx-content>a{cursor:pointer;color:#fff!important;border-color:#fff!important;position:absolute;top:-10px;right:0}
-.modalx-content h4{font-family:GothamBold}
-.modalx-content p{padding-right:30px;text-align:justify;margin-bottom:0;font-size:14px}
-.modalx-content .row h4{font-size:16px}
 .didyouknow h3{color:#003b7e;font-size:50px;font-family:GothamBold;text-transform:capitalize}
 section.didyouknow{padding-top:100px;background:#f2f2f2;padding-bottom:50px}
 .didyouknow_para{color:#000;font-size:28px;font-family:GothamBold;text-align:center}

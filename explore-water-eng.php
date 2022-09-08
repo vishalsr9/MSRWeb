@@ -21,61 +21,32 @@
     <!----------------->
     <script src=safe-food.js></script>
     <link href="water.css" rel="stylesheet">
+    <link href="pageslider.css" rel="stylesheet">
     <style>
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text {
-            margin-top: 2rem !important;
+        /* slider balancing */
+        /*balancing*/
+        .sldImg01>img {
+            width: 16rem;
         }
 
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text>.sltext-holder {
-            font-size: 25px !important;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+            width: 22rem;
         }
 
-        .swx>.swiper-wrapper>.swiper-slide-active .sl-image-3>.slimg-holder>img {
-            width: 20rem;
+        .sldImg02>img {
+            width: 12rem;
         }
 
-        .swx>.swiper-wrapper>.swiper-slide-active .sl-image-1>.slimg-holder>img {
-            width: 25rem !important;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+            width: 18rem;
         }
 
-        .sl-image-3>.slimg-holder>img {
-            width: 14rem;
+        .sldImg03>img {
+            width: 16rem;
         }
 
-        .sl-text-3 {
-            margin-top: 1rem;
-        }
-
-        .soFood_importants {
-            margin-top: -2px !important;
-        }
-
-        .text-holder {
-            font-size: 14px;
-        }
-
-        .swiper-button-prev {
-            /* position: relative;
-            left: 4.5rem !important;
-            margin-top: 1rem; */
-            width: 2rem !important;
-            height: 2rem !important;
-            background-color: lightsteelblue !important;
-            /* display: block; */
-            color: white !important;
-            border-radius: 1rem !important;
-        }
-
-        .swiper-button-next {
-            /* position: relative; */
-            /* left: -4rem !important; */
-            /* margin-top: 1rem; */
-            width: 2rem !important;
-            height: 2rem !important;
-            background-color: lightsteelblue !important;
-            /* display: block; */
-            color: white !important;
-            border-radius: 1rem !important;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+            width: 22rem;
         }
     </style>
 </head>
@@ -288,71 +259,122 @@
                         </div>
 
                     </div>
-                    <div class="row mt-2 mb-5">
-                        <div class="section-div">
-                            <div class="container-fluid">
-                                <div class="sw-holder">
-                                    <div class="swholder1">
-                                        <div class="swholder-sw">
-                                            <div class="swiper swx">
-                                                <div class="swiper-wrapper swx-wrapper">
-                                                    <div class="swiper-slide sl-box">
-                                                        <div class="slide-inner">
-                                                            <div class="sl-image sl-image-1 text-center">
-                                                                <span class="slimg-holder">
-                                                                    <img src="./images/water/slider-image-1.svg" class="img-fluid mb-2 mt-2">
-                                                                </span>
-                                                            </div>
-                                                            <div class="sl-text sl-text-1 text-center">
-                                                                <span class="sltext-holder">PREP AND CLEAN WITH CAUTION</span>
-                                                            </div>
-                                                            <div class="sl-button sl-button-1 text-center">
-                                                                <button class="read-more-btn" id="water_btn_1">Read more</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide sl-box">
-                                                        <div class="slide-inner">
-                                                            <div class="sl-image sl-image-2 text-center">
-                                                                <span class="slimg-holder">
-                                                                    <img src="./images/water/slider-image-2.svg" class="img-fluid mb-2 mt-2">
-                                                                </span>
-                                                            </div>
-                                                            <div class="sl-text sl-text-2 text-center">
-                                                                <span class="sltext-holder">FIX LEAKY TAPS AND PIPES</span>
-                                                            </div>
-                                                            <div class="sl-button sl-button-2 text-center">
-                                                                <button class="read-more-btn safe_food_btn-2" id="water_btn_2">Read more</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide sl-box">
-                                                        <div class="slide-inner">
-                                                            <div class="sl-image sl-image-3 text-center">
-                                                                <span class="slimg-holder">
-                                                                    <img src="./images/water/slider-image-3.svg" class=" img-fluid mb-2 mt-2">
-                                                                </span>
-                                                            </div>
-                                                            <div class="sl-text sl-text-3 text-center">
-                                                                <span class="sltext-holder">RE-USE GREY WATER</span>
-                                                            </div>
-                                                            <div class="sl-button sl-button-3 text-center">
-                                                                <button class="read-more-btn safe_food_btn-3" id="water_btn_3">Read more</button>
+                    <div class="row">
+                        <div class="col-md-12 mb-5">
+                            <div class="pageSlider-container">
+                                <div class="pageSlider-container-inner">
+                                    <div class="pageSlider-prev">
+                                        <div class="pageSlider-prev-inner">
+                                            <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                                        </div>
+                                    </div>
+                                    <div class="pageSlider">
+                                        <div class="pageSlider-inner">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="pageSlider-holder">
+                                                        <div class="swiper pageSwiper1">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-image">
+                                                                                <span class="sldImg01">
+                                                                                    <img src="images/water/slider-image-1.svg" class="img-fluid">
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-text">
+                                                                                <span class="sldText01">
+                                                                                    PREP AND CLEAN<br /> WITH CAUTION
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-button">
+                                                                                <span class="sldBtn01">
+                                                                                    <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-image">
+                                                                                <span class="sldImg02">
+                                                                                    <img src="images/water/slider-image-2.svg" class="img-fluid">
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-text">
+                                                                                <span class="sldText02">
+                                                                                    FIX LEAKY TAPS<br />AND PIPES
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-button">
+                                                                                <span class="sldBtn02">
+                                                                                    <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-image">
+                                                                                <span class="sldImg03">
+                                                                                    <img src="images/water/slider-image-3.svg" class=" img-fluid">
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-text">
+                                                                                <span class="sldText03">
+                                                                                    RE-USE GREY WATER
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="pageSlider-slide-button">
+                                                                                <span class="sldBtn03">
+                                                                                    <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="swiper-pagination swxPag"></div>
-                                                <div class="swiper-button-prev"></div>
-                                                <div class="swiper-button-next"></div>
+                                                <div class="col-md-12">
+                                                    <div class="pageSlider-pagination">
+                                                        <div class="pageSlider-pagination-inner">
+                                                            <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
-
                                     </div>
-
+                                    <div class="pageSlider-next">
+                                        <div class="pageSlider-next-inner">
+                                            <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -862,9 +884,9 @@
 
 
 
-
-    <div id="waterPopup1" class="modalx">
+    <div id="pop1" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
             <h4>Prep and clean with caution</h4>
             <p>Check whether you make use of all possible ways to prep and clean with caution:</p>
             <ul>
@@ -890,28 +912,30 @@
                     Replace a water hose with a water brush. This cleans more efficiently using half the water in busy areas such as the trash bin storage area or the terrace areas.
                 </li>
             </ul>
-            <a class="read-more-btn btn btn-sm waterPopupClose1">X</a>
+
         </div>
     </div>
 
-    <div id="WaterPopup2" class="modalx">
+    <div id="pop2" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
             <h4>Fix leaky taps and pipes</h4>
-            <p>Do you know how much water is wasted by drips and leaks from taps, appliance or pipes? Up to 750 litres of water per day are lost through a leaking toilet flush, and up to 70 litres per day through a dripping tap!
+            <p>
+                Do you know how much water is wasted by drips and leaks from taps, appliance or pipes? Up to 750 litres of water per day are lost through a leaking toilet flush, and up to 70 litres per day through a dripping tap!
             </p>
-            <a class="read-more-btn btn btn-sm waterPopupClose2">X</a>
+
         </div>
     </div>
 
-    <div id="WaterPopup3" class="modalx">
+    <div id="pop3" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
             <h4>Re-use grey water</h4>
-            <p>Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+            <p>
+                Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
             </p>
-            <a class="read-more-btn btn btn-sm waterPopupClose3">X</a>
         </div>
     </div>
-
 
 
 
@@ -955,7 +979,17 @@
     <script src="jquery/page1.js"></script>
     <!-- Swiper JS -->
     <script>
-        var swiper = new Swiper(".swx", {
+        //pageSlider swiper
+        function openPopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "block");
+        }
+
+        function closePopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "none");
+        }
+        var swiper = new Swiper(".pageSwiper1", {
             grabCursor: true,
             centeredSlides: true,
             initialSlide: 1,
@@ -968,11 +1002,11 @@
                 slideShadows: true,
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
             },
             pagination: {
-                el: ".swiper-pagination.swxPag",
+                el: ".swiper-pagination.pageSwiper1Pagination",
             },
         });
     </script>

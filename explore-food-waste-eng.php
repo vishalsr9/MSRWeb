@@ -21,21 +21,62 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <link href="pageslider.css" rel="stylesheet">
   <style>
-    .swiper-button-prev .swxp {
-      width: 2rem !important;
-      height: 2rem !important;
-      background-color: lightsteelblue !important;
-      color: white !important;
-      border-radius: 1rem !important;
+    .sldImg01>img {
+      width: 19rem;
     }
 
-    .swiper-button-next .swxn {
-      width: 2rem !important;
-      height: 2rem !important;
-      background-color: lightsteelblue !important;
-      color: white !important;
-      border-radius: 1rem !important;
+    .sldImg02>img {
+      width: 13rem;
+    }
+
+    .sldImg03>img {
+      width: 13rem;
+    }
+
+    .sldImg04>img {
+      width: 10rem;
+    }
+
+    .sldImg05>img {
+      width: 8rem;
+    }
+
+    .sldImg06>img {
+      width: 15rem;
+    }
+
+    .sldImg07>img {
+      width: 8rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+      width: 26rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+      width: 19rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+      width: 20rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+      width: 18rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+      width: 11rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+      width: 22rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
+      width: 11rem;
     }
   </style>
 </head>
@@ -206,6 +247,9 @@
     .swiper-button-next,
     .swiper-rtl .swiper-button-prev {
       background-color: #003b7e;
+      width: 2rem !important;
+      height: 2rem !important;
+      border-radius: 1rem;
     }
 
     .swiper-button-next::after,
@@ -861,118 +905,231 @@
           <h3 class="wayT0Title">Simple ways to prevent plastic waste</h3>
           <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
           <div class="swholder1 slider_3">
+
             <div class="swholder-sw">
-              <div class="swiper swx">
-                <div class="swiper-wrapper swx-wrapper">
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 slider_3-1 sf-slider-1 text-center">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-1.svg" class="img-fluid mb-2 mt-2">
-                        </span>
+
+              <div class="row">
+                <div class="col-md-12 mb-5">
+                  <div class="pageSlider-container">
+                    <div class="pageSlider-container-inner">
+                      <div class="pageSlider-prev">
+                        <div class="pageSlider-prev-inner">
+                          <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                        </div>
                       </div>
-                      <div class="sl-text sl-text-6 sf-slider-1 text-center">
-                        <span class="sltext-holder"> Engage <br> your staff </span>
+                      <div class="pageSlider">
+                        <div class="pageSlider-inner">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="pageSlider-holder">
+                                <div class="swiper pageSwiper1">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg01">
+                                              <img src="images/safe_food/fw-1.svg" class="img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText01">
+                                              Engage <br> your staff
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn01">
+                                              <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg02">
+                                              <img src="images/safe_food/fw-2.svg" class="img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText02">
+                                              Identify different <br>types of waste
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn02">
+                                              <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg03">
+                                              <img src="images/safe_food/fw-3.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText03">
+                                              Store fruits and vegetables <br>the right way
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn03">
+                                              <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg04">
+                                              <img src="images/safe_food/fw-4.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText04">
+                                              Only order <br>what you really need
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn04">
+                                              <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg05">
+                                              <img src="images/safe_food/fw-5.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText05">
+                                              Source rightfully
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn05">
+                                              <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg06">
+                                              <img src="images/safe_food/fw-6.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText06">
+                                              Compost the Scraps
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn06">
+                                              <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg07">
+                                              <img src="images/safe_food/fw-7.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText07">
+                                              Compost the Scraps
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn07">
+                                              <button class="read-more-btn" onclick="openPopUp(7);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="pageSlider-pagination">
+                                <div class="pageSlider-pagination-inner">
+                                  <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop1" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-2 sf-slider-2">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-2.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Identify different <br>types of waste </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop2" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-3 sf-slider-3">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-3.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Store fruits and vegetables <br>the right way </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop3" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-4 sf-slider-4">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-4.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Only order <br>what you really need </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop4" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-5">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-5.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Source rightfully </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop5" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-6">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-6.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Compost the Scraps </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop6" id="sl-button sl-button-6">Read more</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide sl-box">
-                    <div class="slide-inner">
-                      <div class="sl-image sl-image-6 text-center slider_3-5 sf-slider-7">
-                        <span class="slimg-holder">
-                          <img src="./images/safe_food/fw-7.svg" class="img-fluid mb-2 mt-2">
-                        </span>
-                      </div>
-                      <div class="sl-text sl-text-6 text-center">
-                        <span class="sltext-holder"> Discount or donate <br>surplus food </span>
-                      </div>
-                      <div class="sl-button sl-button-6 text-center">
-                        <button class="read-more-btn food_wastePop7" id="sl-button sl-button-6">Read more</button>
+                      <div class="pageSlider-next">
+                        <div class="pageSlider-next-inner">
+                          <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-next swxn"></div>
-                <div class="swiper-button-prev swxp"></div>
+
               </div>
+
+
+
             </div>
             <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
           </div>
@@ -1514,15 +1671,17 @@
   </div>
 
 
-  <div id="food_wastePop_content-1" class="modalx">
+  <div id="pop1" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
       <h4>Engage your staff</h4>
       <p> When you try to avoid food waste, you should talk with your staff and help them understand the importance of eliminating the waste. Your staff’s engagement is crucial to making all the investments work. Keeping them up to date and training them will be needed. You can do this simply by implementing daily briefings, placing posters in easy-to-see places, or reminding them that each one of them is needed to fight food waste. </p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close1">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-2" class="modalx">
+  <div id="pop2" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
       <h4>Identifying different types of waste</h4>
       <p> Food waste may be all around but you can take simple steps to reduce it. Start by identifying different types of waste in your restaurant and where it is generated. Generally, food waste comes from either the back of the house (e.g. the store room and the kitchen) or from the front of the house (e.g. where customers are served). Check how much food waste your restaurant generates and observe where most w food waste is coming from.
       </p>
@@ -1569,11 +1728,12 @@
         </div>
       </div>
 
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close2">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-3" class="modalx">
+  <div id="pop3" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
       <h4> Store fruits and vegetables in the right way </h4>
       <p> Fruit and vegetables are a major contributor to the amount of food waste in a restaurant. Check whether you already make use of all possible ways to store fruit and vegetables well, in order to prevent food waste:
 
@@ -1589,32 +1749,36 @@
         <li>If you have space try to separate ethylene-producing products (bananas, apple, pear, kiwi, fig, melon, and tomatoes) from ethylene-sensitive products (citrus, pineapple, leafy vegetables, cherries, berries, grapes, and most fruit vegetables (avocado, banana, cucumber, eggplant and tomatoes). This segregation will slow down the ripening of the ethylene-sensitive products</li>
       </ul>
       </p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close3">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-4" class="modalx">
+  <div id="pop4" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
       <h4> Only order what you really need</h4>
       <p>Avoid food waste in the first place. Only order food that you will really consume. </p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close4">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-5" class="modalx">
+  <div id="pop5" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
       <h4> Source rightfully </h4>
       <p>Embrace produce imperfections, but steer clear of vegetables or fruits that are overly bruised or damaged.</p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close5">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-6" class="modalx">
+  <div id="pop6" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
       <h4>Compost the Scraps</h4>
       <p> Composting can help put food scraps to use and reduce methane emissions in landfills. Fruits, vegetables, coffee and tea all are good materials for compost.</p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close6">X</a>
+
     </div>
   </div>
-  <div id="food_wastePop_content-7" class="modalx">
+  <div id="pop7" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
       <h4> Discount or donate surplus food </h4>
       <p>Surplus food doesn’t have to be wasted. By donating or discounting your surplus food (e.g. <a href="https://toogoodtogo.org/" target="_blank">TOO GOOD TO GO</a>, Whole Surplus, or <a href="https://sirplus.de/" target="_blank"> Sirplus</a>), you prevent that food from ending up in a landfill while also helping people in need. Moreover, donations boost your employees’ morale as they see that they are having a positive impact and, depending on your locality, this may bring you financial advantages due to tax benefits of food donations. Food can be donated to charity organizations, food banks, zoos and animal shelters. Usually, food banks will have some requirements about what they accept, for example:
       <ul>
@@ -1624,10 +1788,9 @@
       </ul>
 
       </p>
-      <a class="read-more-btn btn btn-sm food_wastePop_btn-close7">X</a>
     </div>
   </div>
-  <div id="food_wastePop_content-7" class="modalx">
+  <!-- <div id="food_wastePop_content-7" class="modalx">
     <div class="modalx-content">
       <h4>Advanced ways to save food waste </h4>
       <p> You can go even further by implementing advanced ways to reduce food waste in your restaurant:
@@ -1638,7 +1801,7 @@
       </p>
       <a class="read-more-btn btn btn-sm food_wastePop_btn-close7">X</a>
     </div>
-  </div>
+  </div> -->
   <script>
     $(document).ready(function() {
       //slide one
@@ -1740,8 +1903,19 @@
 
     });
   </script>
+
   <script>
-    var swiper = new Swiper(".swx", {
+    //pageSlider swiper
+    function openPopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "block");
+    }
+
+    function closePopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "none");
+    }
+    var swiper = new Swiper(".pageSwiper1", {
       grabCursor: true,
       centeredSlides: true,
       initialSlide: 1,
@@ -1754,15 +1928,14 @@
         slideShadows: true,
       },
       navigation: {
-        nextEl: ".swiper-button-next.swxn",
-        prevEl: ".swiper-button-prev.swxp",
+        nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-pagination.pageSwiper1Pagination",
       },
     });
   </script>
-
 
   <script type="text/javascript">
     var eurl = "explore-food-waste-eng.php"
