@@ -44,8 +44,8 @@
                 <div class="overlay-content">
                   <a href="home.php">Home</a>
                   <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
-                  <a href="kapitelübersicht.php">Kapitelübersicht </a>
-                  <a href="übersicht-meine-nachhaltige-speisekarte.php">Übersicht "Meine nachhaltige Speisekarte"</a>
+                  <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht </a>
+                  <a href="introduction-to-sustainable-menu-eng.php">Übersicht "Meine nachhaltige Speisekarte"</a>
                   <a href="tipps-für-meine-nachhaltige-speisekarte.php">Tipps für "Meine nachhaltige Speisekarte"</a>
                 </div>
               </div>
@@ -73,12 +73,7 @@
     </div>
   </header>
   <!-- <img src="images/screen-l.jpg" class="drag-image"/> -->
-  <div id="loader" class="loader hidden">
-    <div class="loader__tiles">
-      <img src="images/loader1.gif" alt="trees tile" class="loader__tile">
-    </div>
-    <span class="loader__text">Wird geladen METRO Neu...</span>
-  </div>
+
   <div class="wrapper">
     <div class="overlay"><span class="close_btn">
         <button class="article__close"></button>

@@ -57,7 +57,7 @@
                                 <div class="overlay-content">
                                     <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -74,6 +74,11 @@
             </div>
         </div>
     </header>
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <section class="banner-section">
         <div class="container-full">
             <div class="row">
@@ -597,6 +602,23 @@
     </script>
     <script src="jquery/page1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
+
 </body>
 
 

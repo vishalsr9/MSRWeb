@@ -55,7 +55,7 @@
                 <div class="overlay-content">
                   <a href="home.php">Home</a>
                   <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                  <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                  <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                   <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                   <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                 </div>
@@ -72,6 +72,11 @@
       </div>
     </div>
   </header>
+  <div id="loader-page2" class="center">
+    <span class="loader__text">
+      <img src="images/loader.gif" class="loader9" />
+    </span>
+  </div>
   <div class="container-full">
     <div class="page-3_stage">
       <section class="section1 mt-4">
@@ -118,7 +123,7 @@
         <div class="right-content">
           <p>
             Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries, etc.) and consumers are increasingly becoming aware of the need for safely produced food that doesn’t injure them or make them sick. That ́s why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, minimizing waste and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants.
-            
+
           </p>
           <p>Good food safety management will help to:</p>
         </div>
@@ -201,12 +206,12 @@
         <div class="left-content noalign w60-per">
           <h3><a href="explore-safe-food-eng.php" target="_self">KNOW HOW –<br>STEPS HOW TO ENSURE<br>SAFE FOOD</a></h3>
           <p>
-            The basic is to have a food safety management system. For this, you can use HACCP (Hazard Analysis Critical Control Points) which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety. 
+            The basic is to have a food safety management system. For this, you can use HACCP (Hazard Analysis Critical Control Points) which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
           </p>
 
 
           <div class="read-wrap">
-            <a href="explore-safe-food-eng.php" class="mybtncss" target="_self">Read More </a> 
+            <a href="explore-safe-food-eng.php" class="mybtncss" target="_self">Read More </a>
           </div>
         </div>
         <div class="w50-per mt-5">
@@ -430,25 +435,38 @@
 
 
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtncustm");
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtncustm");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-
-</script>
-
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+  <script>
+    document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+        document.querySelector(
+          "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader-page2").style.visibility = "visible";
+      } else {
+        document.querySelector(
+          "#loader-page2").style.display = "none";
+        document.querySelector(
+          "body").style.visibility = "visible";
+      }
+    };
+  </script>
 </body>
 
 </html>

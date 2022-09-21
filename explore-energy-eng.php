@@ -148,7 +148,7 @@
             <div class="overlay-content">
               <a href="/">Home</a>
               <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-              <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+              <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
               <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
               <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
             </div>
@@ -164,7 +164,11 @@
       </div>
     </div>
   </header>
-
+  <div id="loader-page2" class="center">
+    <span class="loader__text">
+      <img src="images/loader.gif" class="loader9" />
+    </span>
+  </div>
 
   <div class="container-full">
     <div class="page-3_stage page-4_stage plastic_waste_l4_page">
@@ -1308,7 +1312,21 @@
 
 
 
-
+  <script>
+    document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+        document.querySelector(
+          "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader-page2").style.visibility = "visible";
+      } else {
+        document.querySelector(
+          "#loader-page2").style.display = "none";
+        document.querySelector(
+          "body").style.visibility = "visible";
+      }
+    };
+  </script>
 
 
 

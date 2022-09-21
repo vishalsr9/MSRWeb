@@ -46,7 +46,7 @@
                                 <div class="overlay-content">
                                     <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -63,7 +63,11 @@
             </div>
         </div>
     </header>
-
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <section class="safeFoodl4_banner no-print">
         <div class="container-fluid no-print">
             <div class="row px-4">
@@ -91,19 +95,19 @@
                     <div class="didyouknow_2culumn" style="margin-top: -70px;">
                         <img src="./images/safe_food/w2.svg" class="px-4">
                         <h4>electronic products should never be disposed of<br>
-in the rubbish bin, especially those subject to<br>
-Waste of Electrical and Electronic Equipment (WEEE)<br>
-regulations such as batteries, bulbs, etc.</h4>
+                            in the rubbish bin, especially those subject to<br>
+                            Waste of Electrical and Electronic Equipment (WEEE)<br>
+                            regulations such as batteries, bulbs, etc.</h4>
                     </div>
                 </div>
-               
+
             </div>
             <div class="row border-top">
                 <div class="col-md-6 border-right">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/w3.3.svg" class="px-4" style="width: 24rem;">
                         <h4>used cooking oil should never be<br>
-tipped down the sink as it causes<br>serious drain blockage in the local area</h4>
+                            tipped down the sink as it causes<br>serious drain blockage in the local area</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -125,11 +129,12 @@ tipped down the sink as it causes<br>serious drain blockage in the local area</h
             <div class="right-content">
                 <p>
                     When waste is not valued, it becomes a problem. It costs your
-business money and when not managed properly, it damages the
-environment and our health. As a restaurateur, you really can make an
-impact by preventing waste, sorting and disposing of it carefully.
-Doing so will reduce costs and contribute to your reputation with
-customers and your community.</p><p>Here’s how reducing waste generation will benefit you. You’ll have:
+                    business money and when not managed properly, it damages the
+                    environment and our health. As a restaurateur, you really can make an
+                    impact by preventing waste, sorting and disposing of it carefully.
+                    Doing so will reduce costs and contribute to your reputation with
+                    customers and your community.</p>
+                <p>Here’s how reducing waste generation will benefit you. You’ll have:
                 </p>
             </div>
         </div>
@@ -138,59 +143,61 @@ customers and your community.</p><p>Here’s how reducing waste generation will 
 
     <section class="section3-grid no-print">
         <ul>
-          <li>
-            <p class="font-size-30px">Benefits</p>
-          </li>
-          <li></li>
-          <li>
-            <p>Reduced costs</p>
-          </li>
-          <li></li>
-          <li>
-            <p>An opportunity to innovate menu</p>
-          </li>
-          <li></li>
-          <!-- </ul><ul> -->
-          <li></li>
-          <li>
-            <p> Increased efficiency </p>
-          </li>
-          <li></li>
-          <li>
-            <p>Smooth
-regulatory
-compliance</p>
-          </li>
-          <li></li>
-          <li>
-            <p>A good
-reputation</p>
-          </li>
-          <!-- </ul>
+            <li>
+                <p class="font-size-30px">Benefits</p>
+            </li>
+            <li></li>
+            <li>
+                <p>Reduced costs</p>
+            </li>
+            <li></li>
+            <li>
+                <p>An opportunity to innovate menu</p>
+            </li>
+            <li></li>
+            <!-- </ul><ul> -->
+            <li></li>
+            <li>
+                <p> Increased efficiency </p>
+            </li>
+            <li></li>
+            <li>
+                <p>Smooth
+                    regulatory
+                    compliance</p>
+            </li>
+            <li></li>
+            <li>
+                <p>A good
+                    reputation</p>
+            </li>
+            <!-- </ul>
                 <ul> -->
-          <li>
-            <p></p>
-          </li>
-          <li></li>
-          <li>
-            <p>A positive
-impact on
-local
-community</p>
-          </li>
-          <li></li>
-          <li><p>A reduction
-of impact on
-the local and
-global
-environment</p></li>
-          <!-- <li>
+            <li>
+                <p></p>
+            </li>
+            <li></li>
+            <li>
+                <p>A positive
+                    impact on
+                    local
+                    community</p>
+            </li>
+            <li></li>
+            <li>
+                <p>A reduction
+                    of impact on
+                    the local and
+                    global
+                    environment</p>
+            </li>
+            <!-- <li>
             <p>Prevent food waste</p>
           </li>
           <li></li> -->
-          <!-- </ul>
+            <!-- </ul>
                 <ul> -->
-         <!--  <li></li>
+            <!--  <li></li>
           <li>
             <p>Acquire motivated and reliable staff</p>
           </li>
@@ -213,12 +220,12 @@ environment</p></li>
             </div>
             <div class="right-content">
                 <p>Around the world, landfills are reaching their capacity. Decomposing
-waste generates methane, which is a potent greenhouse gas that
-causes global warming and climate change. When badly managed,
-landfills leach chemicals into the surrounding soil and water, posing a
-problem to nature and thereby our health. Restaurants can generate
-an enormous amount of waste which has grave impacts on their costs
-and reputation.
+                    waste generates methane, which is a potent greenhouse gas that
+                    causes global warming and climate change. When badly managed,
+                    landfills leach chemicals into the surrounding soil and water, posing a
+                    problem to nature and thereby our health. Restaurants can generate
+                    an enormous amount of waste which has grave impacts on their costs
+                    and reputation.
                 </p>
             </div>
         </div>
@@ -228,35 +235,35 @@ and reputation.
     <section class="section4 padr-60px no-print mt-4">
         <div class="left-content noalign col-md-6">
             <h3>KNOW HOW –<br>STEPS HOW TO<br>REDUCE WASTE</h3>
-           <p>Solutions to reduce and manage waste are becoming
-increasingly easy to find.</p>
-                <ul class="mt-1" style="margin-top:-45px !important">
-                    <li>Simple steps can be undertaken to manage your waste, e.g.
-separate waste according to its type, talk to your staff and get
-them involved in hunting down sources of waste generation
-or talk to your local authority and wholesale supplier to check
-what available solutions they have.</li>
+            <p>Solutions to reduce and manage waste are becoming
+                increasingly easy to find.</p>
+            <ul class="mt-1" style="margin-top:-45px !important">
+                <li>Simple steps can be undertaken to manage your waste, e.g.
+                    separate waste according to its type, talk to your staff and get
+                    them involved in hunting down sources of waste generation
+                    or talk to your local authority and wholesale supplier to check
+                    what available solutions they have.</li>
 
-<li>For food waste,<a href="introduction-to-food-waste-eng.php" target="_self"> check out these tips.</a></li>
+                <li>For food waste,<a href="introduction-to-food-waste-eng.php" target="_self"> check out these tips.</a></li>
 
-<li>For single-use plastic items such as takeaway goods, plastic
-stirrers or packaging <a href="introduction-to-plastic-waste-eng.php">check out these tips.</a></li>
+                <li>For single-use plastic items such as takeaway goods, plastic
+                    stirrers or packaging <a href="introduction-to-plastic-waste-eng.php">check out these tips.</a></li>
 
-<li>In general, maximise waste separation by measures such as
-placing waste containers in all areas where waste is generated
-or using containers that are easily washable.</li>
-                </ul>
+                <li>In general, maximise waste separation by measures such as
+                    placing waste containers in all areas where waste is generated
+                    or using containers that are easily washable.</li>
+            </ul>
 
-            
+
 
             <div class="read-wrap">
                 <a href="explore-waste-eng.php" class="read-more" target="_self">Read More</a>
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
-            
+
             <img src="./images/safe_food/w4.svg" class="img-fluid" style="width: 43rem;">
-            
+
         </div>
     </section>
 
@@ -413,20 +420,34 @@ or using containers that are easily washable.</li>
 
 
 
-<script type="text/javascript">
-     var eurl="introduction-to-food-waste-eng.php"
-    var gurl="introduction-to-food-waste-deu.php"
+    <script type="text/javascript">
+        var eurl = "introduction-to-food-waste-eng.php"
+        var gurl = "introduction-to-food-waste-deu.php"
 
 
-    //btn-test click test script
+        //btn-test click test script
 
-    $(document).ready( function() {
-   $('#select').change( function() {
-      location.href = $(this).val();
-   });
-});
-</script>
-
+        $(document).ready(function() {
+            $('#select').change(function() {
+                location.href = $(this).val();
+            });
+        });
+    </script>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 

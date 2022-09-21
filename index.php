@@ -42,9 +42,9 @@
               <div id="myNav" class="overlay-menu">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                  <a href="">Home</a>
+                  <a href="home.php">Home</a>
                   <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                  <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                  <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                   <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                   <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                 </div>
@@ -66,12 +66,7 @@
     </div>
   </header>
   <!-- <img src="images/screen-l.jpg" class="drag-image"/> -->
-  <div id="loader" class="loader hidden">
-    <div class="loader__tiles">
-      <img src="images/loader1.gif" alt="trees tile" class="loader__tile">
-    </div>
-    <span class="loader__text">LOADING MSR...</span>
-  </div>
+
   <div class="wrapper">
     <div class="overlay"><span class="close_btn">
         <button class="article__close"></button>

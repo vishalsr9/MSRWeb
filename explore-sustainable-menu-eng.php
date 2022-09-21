@@ -12,6 +12,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <script src="./jquery/slick.js"></script>
+  <style>
+    .spacerx {
+      margin-top: 3rem;
+    }
+
+    .nodeco {
+      color: white !important;
+      text-decoration: none !important;
+    }
+
+    .nowrap1 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -44,7 +60,7 @@
                 <div class="overlay-content">
                   <a href="/">Home</a>
                   <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                  <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                  <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                   <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                   <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                 </div>
@@ -61,6 +77,11 @@
       </div>
     </div>
   </header>
+  <div id="loader-page2" class="center">
+    <span class="loader__text">
+      <img src="images/loader.gif" class="loader9" />
+    </span>
+  </div>
   <div class="container-full">
     <div class="page-3_stage page-4_stage">
       <section class="section1 no-print">
@@ -193,7 +214,7 @@
 
         </div>
       </section>
-      <section class="section-slider1 no-print">
+      <section class="section-slider1 no-print spacerx">
         <div class="section-slider-center text-center">
           <div class="wrap">
             <h3>Good to know - Different ways of eating </h3>
@@ -337,10 +358,8 @@
               <div class="circle-content more-text">
                 <span class="text-num">01</span>
                 <h5>Explain sustainable <br> ingredients on your menu</h5>
-                <p>Show where your ingredients are from and who has produced them. Explain the sustainability labels of your ingredients
-                  <span id="more7">(check firstthat the label scheme owner allows this and make sure you have the certificatesavailable).Let your customers know how the ingredient is produced. Explain when it is from a local farmer who follows sustainable principles but has decided not to be certified. It is important to make this clear to your customers.Highlight dishes with vegetables and wholegrains. Generally explain your sustainability philosophy and tell your dishes’ sustainable story wherever possible.</span>
+                <p>Show where your ingredients are from and who has produced them. Explain the sustainability labels of your ingredients (check first that the label scheme owner allows this and make sure you have the certificates available).Let your customers know how the ingredient is produced. Explain when it is from a local farmer who follows sustainable principles but has decided not to be certified. It is important to make this clear to your customers.Highlight dishes with vegetables and wholegrains. Generally explain your sustainability philosophy and tell your dishes’ sustainable story wherever possible.
                 </p>
-                <button href="#" class="read-text" id="myBtn7">READ MORE</button>
               </div>
             </li>
             <li>
@@ -356,10 +375,9 @@
               <div class="circle-content more-text">
                 <span class="text-num">05</span>
                 <h5>Add information on the <br> origin of your ingredients</h5>
-                <p>Consider adding information on the origin of your ingredients to your website and social media pages
-                  <span id="more8">as well asin print or on your menu display. It will save space in the individual dishdescriptions.</span>
+                <p>Consider adding information on the origin of your ingredients to your website and social media pages as well as in print or on your menu display. It will save space in the individual dish descriptions.
+
                 </p>
-                <button href="#" class="read-text" id="myBtn8">READ MORE</button>
               </div>
             </li>
 
@@ -374,10 +392,9 @@
               <div class="circle-content more-text">
                 <span class="text-num">02</span>
                 <h5>Highlight your <br> sustainable actions</h5>
-                <p>Use your menu as an opportunity to show what you are doing as a restaurant to be more sustainable for example
-                  <span id="more5">the way you manage food waste, food donations,involvement in your community. Invite customers to take food that they have not eaten, home with them. In sustainable packaging of course!</span>
+                <p>Use your menu as an opportunity to show what you are doing as a restaurant to be more sustainable for example the way you manage food waste, food donations, involvement in your community. Invite customers to take food that they have not eaten home with them. In sustainable packaging of course!
                 </p>
-                <button href="#" class="read-text" id="myBtn5">READ MORE</button>
+
               </div>
             </li>
             <li>
@@ -385,17 +402,18 @@
                 <span class="text-num">04</span>
                 <h5>Describe the dishes <br> in an enticing way</h5>
                 <div class="more-text">
-                  <p>Consider that many consumers are used to choosing on the basis of taste and price. Sustainable ingredients often </p>
-                  <div id="more6">come after that. So focus on describing the taste first.Add descriptions depending on what would appeal to the type of customers you wantto attract. For example :
+                  <p>Consider that many consumers are used to choosing on the basis of taste and price. Sustainable ingredients often come after that. So focus on describing the taste first. Add descriptions depending on what would appeal to the type of customers you want to attract. For example :</p>
+                  </p>
+                  <div id="more6">
                     <ul>
                       <li>“Slow roasted smokey bean bowl”
-                        (house made casserole with mixed organic beans, organic tomato and smokedpimento. Served with a side of wild rice. A delicious and filling protein fix!)
+                        (house made casserole with mixed organic beans, organic tomato and smoked pimento. Served with a side of wild rice. A delicious and filling protein fix!)
                       </li>
                       <li>“Lemony fish cakes”
-                        (house made with certified cod and served with salad and organic mayonnaise.A fresh burst of the ocean!)
+                        (house made with certified cod and served with salad and organic mayonnaise. A fresh burst of the ocean!)
                       </li>
                       <li>“Slow roasted smokey bean bowl”
-                        (house made casserole with mixed organic beans, organic tomato and smokedpimento. Served with a side of wild rice. A delicious and filling protein fix!)
+                        (house made casserole with mixed organic beans, organic tomato and smoked pimento. Served with a side of wild rice. A delicious and filling protein fix!)
                       </li>
 
                     </ul>
@@ -439,15 +457,13 @@
           <li class="accordian2 accor">
             <div class="collapsible__header">CERTIFIED SOURCES</div>
             <p class="collapsible__content">
-              Milk and cream are certified organic from Mrs Wholesale. <br>Soya ingredients come from certified non-deforested land via Mrs Wholesale. <br> Frying oil is certified sustainable palm from Mrs Wholesale.<br> Spices, chocolate, coffee and tea are ethically traded from Mrs Wholesale. <br> Chicken and eggs are from certified sustain-able free-range farms via Mrs Wholesale.
+              Milk and cream are certified organic from Mrs Wholesale. <br>Soya ingredients come from certified non-deforested land via Mrs Wholesale. <br> Frying oil is certified sustainable palm from Mrs Wholesale.<br> Spices, chocolate, coffee and tea are ethically traded from Mrs Wholesale. <br> Chicken and eggs are from certified sustainable free-range farms via Mrs Wholesale.
             </p>
           </li>
           <li class="accordian3 accor">
             <div class="collapsible__header">WE DON´T LIKE WASTE</div>
             <p class="collapsible__content">We transform our unused bread into bread crumbs and ingredients for our dishes. <br>
-              All our dishes are available in 'hungry and 'very hungry sizes. Please tell us which you prefer.
-              <br>
-              If it turns out you have a little too much on your plate. We will give you the rest to take home with you.
+              All our dishes are available in 'hungry and 'very hungry sizes. Please tell us which you prefer. If it turns out you have a little too much on your plate, we will give you the rest to take home with you.
             </p>
           </li>
           <li class="accordian4 accor">
@@ -463,11 +479,11 @@
 
 
 
-      <section class="section-text-withimages  section4-5 no-print">
+      <section class="section-text-withimages section4-5 no-print">
         <div class="left-content">
           <h3>Track and talk <br>
             about your progress</h3>
-          <p>When you have implemented sustainable options in your menu, start measuring the impact for example via direct feedback from customers or from rating websites, number of orders or, profitability of dishes. You could consider using a digital tool to track your recipes and the impact of being more sustainable. Be aware that “farm-to-table” restaurants continue to appeal to restaurant goers. Connect your customers to the source of your ingredients by talking with them about your menu. Explain why you made the changes. If you have traceability information on your menu or your website explain how it works. As a business your impact on your community will be so much more when your customers and staff understand what you are doing. Some might copy your practices in their shopping decisions. Your impact could be greater than you imagine!</p>
+          <p>When you have implemented sustainable options in your menu, start measuring the impact for example via direct feedback from customers or from rating websites, number of orders or profitability of dishes. You could consider using a digital tool to track your recipes and the impact of being more sustainable. Be aware that “farm-to-table” restaurants continue to appeal to restaurant visitors. Connect your customers to the source of your ingredients by talking with them about your menu. Explain why you made the changes. If you have traceability information on your menu or your website explain how it works. As a business your impact on your community will be so much more when your customers and staff understand what you are doing. Some might copy your practices in their shopping decisions. Your impact could be greater than you imagine!</p>
         </div>
         <div class="right-content">
           <img src="images/flag-p-svg.svg" />
@@ -862,11 +878,12 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>
-            Engage
-            your staff
+            <a class="nodeco" href="introduction-to-social-eng.php">Engage
+              your staff</a>
+
           </h4>
           <ul>
-            <li>Involve staff at the beginning and explain explain what you want to do and why </li>
+            <li>Involve staff at the beginning and explain explain what you want to do and why. </li>
             <li>Your serving staff will be essential in communicating your philosophy and will be more convincing if included in your decisions.</li>
             <li>Examples of sustainable menus can help their understanding and encourage them to contribute ideas. </li>
           </ul>
@@ -891,9 +908,10 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>
-            Reduce the
-            size of
-            your menu
+            <a class="nodeco" href="introduction-to-food-waste-eng.php">Reduce the
+              size of
+              your menu</a>
+
           </h4>
           <p>A smaller menu often indicates good quality and well controlled stock. It is the opportunity
             to use more seasonal products and to reduce food waste. Try to keep single ingredients to a minimum while keeping the classics that your customers love. If you make 80% revenue from 20% of your dishes be sure to keep these. Add a dish that changes with the day / month / season.
@@ -923,11 +941,11 @@
           <h4>Go for vegetables</h4>
           <ul>
             <li>Introduce (more) courts where
-              vegetables play the leading role</li>
+              vegetables play the leading role.</li>
             <li>Increase the amount of unprocessed
-              vegetables on the plate compared to the meat or fish portion</li>
+              vegetables on the plate compared to the meat or fish portion.</li>
             <li> Offer more dishes that are completely up
-              vegetable based</li>
+              vegetable based.</li>
 
           </ul>
         </div>
@@ -979,7 +997,7 @@
         <div class="modal-content1 flexi-cont">
           <h4>Experiment with plant proteins</h4>
           <ul>
-            <li>Use (more) whole plant proteins for example lentils, quinoa, teff, beans and seaweed</li>
+            <li>Use (more) whole plant proteins for example lentils, quinoa, teff, beans and seaweed.</li>
             <li>Use different processed plant proteins for example tofu, tempeh.</li>
 
           </ul>
@@ -1103,9 +1121,10 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>
-            Source locally,
-            regionally
-            and in season
+            <a class="nodeco" href="introduction-to-responsible-sourcing-eng.php">Source locally,
+              regionally
+              and in season</a>
+
           </h4>
           <p>Make an impact with responsible sourcing and only use responsibly sourced fish and food that is organic, nutritious, seasonal, ethically traded, local and regional. Moreover, try to buy foods that encourage biodiversity, do not involve waste and do not destroy forests. If you want to find out more, go to the responsible sourcing chapter. </p>
         </div>
@@ -1641,7 +1660,21 @@
     </script>
 
     <script src="jquery/page1.js"></script>
-
+    <script>
+      document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader-page2").style.visibility = "visible";
+        } else {
+          document.querySelector(
+            "#loader-page2").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+        }
+      };
+    </script>
 </body>
 
 

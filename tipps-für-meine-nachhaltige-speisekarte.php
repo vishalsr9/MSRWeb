@@ -44,8 +44,8 @@
                 <div class="overlay-content">
                   <a href="home.php">Home</a>
                   <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
-                  <a href="kapitelübersicht.php">Kapitelübersicht </a>
-                  <a href="übersicht-meine-nachhaltige-speisekarte.php">Übersicht "Meine nachhaltige Speisekarte"</a>
+                  <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht </a>
+                  <a href="introduction-to-sustainable-menu-eng.php">Übersicht "Meine nachhaltige Speisekarte"</a>
                   <a href="tipps-für-meine-nachhaltige-speisekarte.php">Tipps für "Meine nachhaltige Speisekarte"</a>
                 </div>
               </div>
@@ -61,6 +61,11 @@
       </div>
     </div>
   </header>
+  <div id="loader-page2" class="center">
+    <span class="loader__text">
+      <img src="images/loader.gif" class="loader9" />
+    </span>
+  </div>
   <div class="container-full">
     <div class="page-3_stage page-4_stage">
 
@@ -1665,7 +1670,21 @@
     </div>
   </div>
   <script src="jquery/page1.js"></script>
-
+  <script>
+    document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+        document.querySelector(
+          "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader-page2").style.visibility = "visible";
+      } else {
+        document.querySelector(
+          "#loader-page2").style.display = "none";
+        document.querySelector(
+          "body").style.visibility = "visible";
+      }
+    };
+  </script>
 
 </body>
 

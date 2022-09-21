@@ -10,7 +10,7 @@
     <script src="jquery/custom.js"></script>
 
     <link rel="stylesheet" href="style1.css">
-
+    <link href="pageslider.css" rel="stylesheet">
     <!--required---->
     <link rel="stylesheet" href="required1/bootstrap.min.css" />
     <link rel="stylesheet" href="required1/font-awesome.min.css" />
@@ -20,6 +20,7 @@
     <script src="required1/jquery-3.6.0.min.js"></script>
     <script src="required1/modernizr.min.js"></script>
     <script src="required1/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
         /* schemes and certifications */
         .sc-block {
@@ -87,13 +88,6 @@
             font-size: 14px !important;
         }
 
-        .swiper-horizontal>.swiper-pagination-bullets,
-        .swiper-pagination-bullets.swiper-pagination-horizontal,
-        .swiper-pagination-custom,
-        .swiper-pagination-fraction {
-            bottom: -72px !important;
-        }
-
         .slider-panel {
             display: block;
             position: relative;
@@ -110,10 +104,10 @@
             float: left;
         }
 
-        .swiper-pagination-bullet-active {
+        .pageSwiper1Pagination>.swiper-pagination-bullet-active {
             width: 50px !important;
             height: 6px !important;
-            background-color: #ffe500 !important;
+            background-color: #ffe500;
             border-radius: 6px !important;
         }
 
@@ -169,10 +163,10 @@
         }
 
         /*sw9*/
-        .swiper-button-prev {
-            /* position: relative;
+        .swiper-button-prev.sw5 {
+            position: relative;
             left: 4.5rem !important;
-            margin-top: 1rem; */
+            margin-top: 1rem;
             width: 2rem;
             height: 2rem;
             background-color: lightsteelblue;
@@ -181,10 +175,10 @@
             border-radius: 1rem;
         }
 
-        .swiper-button-next {
-            /* position: relative; */
-            /* left: -4rem !important; */
-            /* margin-top: 1rem; */
+        .swiper-button-next.sw5 {
+            position: relative;
+            left: -4rem !important;
+            margin-top: 1rem;
             width: 2rem;
             height: 2rem;
             background-color: lightsteelblue;
@@ -713,7 +707,7 @@
                                 <div class="overlay-content">
                                     <a href="/">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -730,7 +724,11 @@
             </div>
         </div>
     </header>
-
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
 
     <div class="container-full">
 
@@ -742,7 +740,7 @@
                     <h3>How to source<br>responsibly</h3>
                     <h4>Responsible sourcing and your business</h4>
                     <p>
-                        Restaurateurs want to offer their customers unique experiences linked to certain regional or cultural aspects. Organic and responsible products are among the key ingredients to differentiate from others. Your customers want to know where your products come from. You can provide this information when you choose products that are sourced responsibly. By carefully picking the products you present on your menu, you can create a positive and long- lasting impact on the environment and the health of your customers.
+                        Restaurateurs want to offer their customers unique experiences linked to certain regional or cultural aspects. Organic and responsible products are among the key ingredients to differentiate from others. Your customers want to know where your products come from. You can provide this information when you choose products that are sourced responsibly. By carefully picking the products you present on your menu, you can create a positive and long-lasting impact on the environment and the health of your customers.
                     </p>
                     <!-- <button class="read-more-btn" href="#" id="myBtn" onclick="expand-next('#more')">Read more</button> -->
                 </div>
@@ -847,14 +845,28 @@
                 <h3 class="section-heading-blue text-center no-print">
                     Good to know – Schemes that help you find your way
                 </h3>
-                <div class="text-justify two-column-break no-print">
-                    <p>
-                        Certifications and labels are a visible way to know how sustainable a product is. When a product is labelled with the logo of a certification scheme, the origin and production method is guaranteed. Digital tools that give information on where the product comes from and how it was made (transparency and traceability) are increasingly available, such as smartphone apps. Being in close contact with suppliers and finding out how they produce food is also a way to be closer to what you are sourcing. Many small producers do not have certifications or digital tools but are happy to share details of how they produce food. Sharing this information with your customers in a simple way can be a great possibility to connect them with the food you source.
-                    </p>
-                    <p>
-                        Around the world, logos on labels, and certifications make it possible to recognize products that have an official sign of quality and origin. But not all products that have a certificate are labelled. Check out the following main schemes and examples.
-                    </p>
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <p class="justify1">
+                            Certifications and labels are a visible way to know how sustainable a product is. When a product is labelled with the logo of a certification scheme, the origin and production method is guaranteed. Digital tools that give information on where the product comes from and how it was made (transparency and traceability) are increasingly available, such as smartphone apps. METRO’s own traceability solution PROTRACE provides restaurateurs with lot-based traceability information and enables you to receive important information about your products. Being in close contact with suppliers and finding out how they produce food is also a way to be closer to what you are sourcing. Many small producers do not have certifications or digital tools but are happy to share details of how they produce food. Sharing this information with your customers in a simple way can be a great possibility to connect them with the food you source.
+                        </p>
+                        <p class="justify1">
+                            Around the world, logos on labels, and certifications make it possible to recognize products that have an official sign of quality and origin. But not all products that have a certificate are labelled. Check out the following main schemes and examples.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="msr-img-holder">
+                            <div class="msr-img-holder-inner">
+                                <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">
+                                    <img src="images/Protrace_Logo-ai.svg" class="img-fluid pro-trace mt-2" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </section>
 
 
@@ -884,7 +896,7 @@
                             <div class="mb-2 scheme-slider scheme-slider-1" style="display:none">
                                 <div class="slider9container">
                                     <div class="slider-panel slider-panel-1">
-                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-prev sw5"></div>
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
@@ -928,7 +940,7 @@
                                     </div>
 
                                     <div class="slider-panel slider-panel-3">
-                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-next sw5"></div>
                                     </div>
                                 </div>
                             </div>
@@ -937,7 +949,7 @@
                             <div class="mb-2 scheme-slider scheme-slider-2" style="display:none">
                                 <div class="slider9container">
                                     <div class="slider-panel slider-panel-1">
-                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-prev sw5"></div>
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
@@ -980,7 +992,7 @@
                                     </div>
 
                                     <div class="slider-panel slider-panel-3">
-                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-next sw5"></div>
                                     </div>
                                 </div>
                             </div>
@@ -989,7 +1001,7 @@
                                 <div class="slider9container">
 
                                     <div class="slider-panel slider-panel-1">
-                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-prev sw5"></div>
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
@@ -1190,7 +1202,7 @@
                                         <div class="swiper-pagination sw9pag"></div>
                                     </div>
                                     <div class="slider-panel slider-panel-3">
-                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-next sw5"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1198,7 +1210,7 @@
                             <div class="mb-2 scheme-slider scheme-slider-4" style="display:none">
                                 <div class="slider9container">
                                     <div class="slider-panel slider-panel-1">
-                                        <div class="swiper-button-prev .i"></div>
+                                        <div class="swiper-button-prev sw5"></div>
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
@@ -1242,15 +1254,10 @@
                                     </div>
 
                                     <div class="slider-panel slider-panel-3">
-                                        <div class="swiper-button-next .i"></div>
+                                        <div class="swiper-button-next sw5"></div>
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                         </div>
                     </div>
 
@@ -1285,7 +1292,11 @@
                         </p>
                     </div>
                     <div class="col-md-4 mb-5">
-                        <img src="images/resp_sourcing/non-certified-sust-products.svg" class="img-fluid mt-5 no-print">
+                        <div class="msr-img-holder2">
+                            <div class="msr-img-holder-inner2 mt-4">
+                                <img src="images/resp_sourcing/non-certified-sust-products.svg" class="no-print non-certified-sust-products">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -1786,14 +1797,20 @@
                                         </div>
 
                                     </li>
+                                    <!-- SEASONAL FOOD -->
                                     <li class="liContent show-li" style="display:none;">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-5">
-                                                    <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="img-fluid fruit-stall">
+                                                <div class="col-md-4">
+                                                    <div class="msr-img-holder3">
+                                                        <div class="msr-img-holder-inner3 mt-4">
+                                                            <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="fresh-fruit-stall1">
+                                                        </div>
+                                                    </div>
+
                                                 </div>
-                                                <div class="col-md-7 mt-2">
-                                                    <p class="justify1">
+                                                <div class="col-md-8 mt-2">
+                                                    <p class="justify1 mt-2">
                                                         People love seasonal products. Sweet, juicy strawberries,
                                                         delicate asparagus or a new season lamb – depending on
                                                         where we live, we have different experiences of seasonality.
@@ -2053,27 +2070,43 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>Why is it important to buy sustainable fish?</strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/sea-food.svg" class="img-fluid hen-egg">
-                                                        Overfishing and exploitation of fish stocks is a serious
-                                                        problem,
-                                                        and
-                                                        it is estimated that in some places 90% of fish stocks are
-                                                        either
-                                                        overfished or at maximum capacity. This impacts the livelihoods
-                                                        of
-                                                        people who rely on fishing and by extension there are adverse
-                                                        effects your ability to serve fish. By sourcing sustainable fish
-                                                        restaurateurs can help to preserve fish stocks for future
-                                                        generations.
-                                                        If we carry on fishing unsustainably there will be no fish left
-                                                        and
-                                                        what is left will be expensive.
-                                                        The <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">traceability</a> of products is a very important part of sourcing fish sustainably. A robust traceability system means that fish doesn’t come from illegal fishing, the exact catching area is known and the way it is produced is clear. If sustainability guidelines are followed, for both wild caught and farmed fish, the fishermen work in a safe environment and are compensated adequately. The environment is carefully managed and the local communities are supported.
-                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>Why is it important to buy sustainable fish?</strong>
+                                                            </h5>
+                                                            <p class="justify1">
+
+                                                                Overfishing and exploitation of fish stocks is a serious
+                                                                problem,
+                                                                and
+                                                                it is estimated that in some places 90% of fish stocks are
+                                                                either
+                                                                overfished or at maximum capacity. This impacts the livelihoods
+                                                                of
+                                                                people who rely on fishing and by extension there are adverse
+                                                                effects your ability to serve fish. By sourcing sustainable fish
+                                                                restaurateurs can help to preserve fish stocks for future
+                                                                generations.
+                                                                If we carry on fishing unsustainably there will be no fish left
+                                                                and
+                                                                what is left will be expensive.
+                                                                The <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">traceability</a> of products is a very important part of sourcing fish sustainably. A robust traceability system means that fish doesn’t come from illegal fishing, the exact catching area is known and the way it is produced is clear. If sustainability guidelines are followed, for both wild caught and farmed fish, the fishermen work in a safe environment and are compensated adequately. The environment is carefully managed and the local communities are supported.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder4">
+                                                                <div class="msr-img-holder-inner4">
+                                                                    <img src="images/resp_sourcing/sea-food.svg" class="img-fluid">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -2101,24 +2134,31 @@
                                                 </div>
 
                                                 <div class="col-md-12 mt-0 mb-2 yellow-block minus--">
-                                                    <h5>
-                                                        <strong>Why is it important to source nutritious food?</strong>
-                                                    </h5>
-                                                    <p class="justify1 mt-2">
-                                                        <img src="images/resp_sourcing/salad-bowl.svg" class="img-fluid fruit-bowl">
-                                                        We are what we eat! Nutritious food keeps us healthy, and
-                                                        ensures
-                                                        infants and children develop properly. Generally speaking, we
-                                                        want
-                                                        to avoid malnutrition, which causes both undernutrition and
-                                                        obesity with associated diseases like diabetes. A healthy person
-                                                        functions properly, has a strong immune system, is likely to
-                                                        have
-                                                        safer pregnancies and childbirth, lower risk of diseases and
-                                                        will
-                                                        live
-                                                        longer
-                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>Why is it important to source nutritious food?</strong>
+                                                            </h5>
+                                                            <p class="justify1 mt-2">
+                                                                We are what we eat! Nutritious food keeps us healthy, and
+                                                                ensures
+                                                                infants and children develop properly. Generally speaking, we
+                                                                want
+                                                                to avoid malnutrition, which causes both undernutrition and
+                                                                obesity with associated diseases like diabetes. A healthy person
+                                                                functions properly, has a strong immune system, is likely to
+                                                                have
+                                                                safer pregnancies and childbirth, lower risk of diseases and
+                                                                will
+                                                                live
+                                                                longer
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <img src="images/resp_sourcing/salad-bowl.svg" class="salad-bowl">
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -2128,12 +2168,11 @@
                                         <!-- No waste Content 8 -->
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/resp_sourcing/bin-waste.svg" class="img-fluid nut-food mx-5">
+                                                <div class="col-md-5">
+                                                    <img src="images/resp_sourcing/bin-waste.svg" class="bin-waste">
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <p class="justify1">
-
+                                                <div class="col-md-7">
+                                                    <p class="justify1 mt-5 px-5">
                                                         Food waste can be avoided if production resources are used
                                                         efficiently and everything that is fit for human consumption is
                                                         used. For example, fruit and vegetables that are not visually
@@ -2142,7 +2181,6 @@
                                                         uncommon parts going to waste.
                                                     </p>
                                                 </div>
-
 
                                                 <div class="col-md-12 mt-0 mb-2 yellow-block minus--">
 
@@ -2163,9 +2201,16 @@
                                                                 emissions that come from the food system could be
                                                                 reduced if we stop wasting food.
                                                             </p>
+                                                            <div class="read-wrap">
+                                                                <a href="introduction-to-food-waste-eng.php" class="read-more" target="_self">Read More</a>
+                                                            </div>
                                                         </div>
                                                         <div class="col-md-3">
-                                                            <img src="images/resp_sourcing/garbage.svg" class="img-fluidn garbage-img">
+                                                            <div class="msr-img-holder5">
+                                                                <div class="msr-img-holder-inner5">
+                                                                    <img src="images/resp_sourcing/garbage.svg" class="">
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
 
@@ -2179,10 +2224,11 @@
                                         <!-- Food that contributes to biodiversity Content 9 -->
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-5">
-                                                    <img src="images/resp_sourcing/earth-life-trees.svg" class="img-fluid earth1">
+                                                <div class="col-md-12 text-center">
+
+                                                    <img src="images/resp_sourcing/earth-life-trees.svg" class="earth-life-trees">
                                                 </div>
-                                                <div class="col-md-7">
+                                                <div class="col-md-12">
                                                     <p class="justify1">
                                                         Biodiversity is the combination of different kinds of animal
                                                         and plant life on earth and in different areas such as
@@ -2209,40 +2255,54 @@
 
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>
-                                                            Why is it important to source food that contributes
-                                                            to biodiversity?
-                                                        </strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/save-earth.svg" class="img-fluid fruit-bowl">
-                                                        As humans our mental well-being is better when we are part
-                                                        of an environment that has a healthy and balanced
-                                                        biodiversity. Sadly, activities such as deforestation,
-                                                        agricultural intensification and climate change have lead to a
-                                                        decline in biodiversity. This means a massive loss of species
-                                                        over a relatively short period of time.
+                                                <div class="col-md-12 yellow-block nojustify1">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>
+                                                                    Why is it important to source food that contributes
+                                                                    to biodiversity?
+                                                                </strong>
+                                                            </h5>
+                                                            <p class="">
 
-                                                    </p>
-                                                    <p class="justify">
-                                                        Around 1 million animal species are threatened with extinction –
-                                                        more than ever before in human
-                                                        history. This goes hand in hand with wildlife population
-                                                        declines,
-                                                        habitat loss, and depletion of
-                                                        the natural resources that we depend on for our livelihoods and
-                                                        economic development. We
-                                                        must rethink how we are using natural resources, ease the
-                                                        pressure,
-                                                        and allow ecosystems to
-                                                        recover. Furthermore, food crops and animals that lack
-                                                        biodiversity
-                                                        are more prone to diseases
-                                                        and require a higher use of medicines.
-                                                    </p>
+                                                                As humans our mental well-being is better when we are part
+                                                                of an environment that has a healthy and balanced
+                                                                biodiversity. Sadly, activities such as deforestation,
+                                                                agricultural intensification and climate change have lead to a
+                                                                decline in biodiversity. This means a massive loss of species
+                                                                over a relatively short period of time.
+
+                                                            </p>
+                                                            <p class="">
+                                                                Around 1 million animal species are threatened with extinction –
+                                                                more than ever before in human
+                                                                history. This goes hand in hand with wildlife population
+                                                                declines,
+                                                                habitat loss, and depletion of
+                                                                the natural resources that we depend on for our livelihoods and
+                                                                economic development. We
+                                                                must rethink how we are using natural resources, ease the
+                                                                pressure,
+                                                                and allow ecosystems to
+                                                                recover. Furthermore, food crops and animals that lack
+                                                                biodiversity
+                                                                are more prone to diseases
+                                                                and require a higher use of medicines.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder6">
+                                                                <div class="msr-img-holder-inner6">
+                                                                    <img src="images/resp_sourcing/save-earth.svg" class="save-earth">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
                                                 </div>
+
                                             </div>
                                         </div>
                                         <div class="spacer"></div>
@@ -2304,7 +2364,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img src="images/resp_sourcing/plastic-disposable.svg" class="img-fluid">
+                                                    <img src="images/resp_sourcing/plastic-disposable.svg" class="plastic-disposable">
                                                 </div>
                                                 <div class="col-md-6 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2315,7 +2375,7 @@
                                                         almost indispensable, and it is mostly made of plastic.
                                                         Packaging that has less environmental impact means that it
                                                         does not create waste and the resources that were needed to
-                                                        produce it are not discarded. The three Rs are a way to explain
+                                                        produce it are not discarded. <strong>The three Rs</strong> are a way to explain
                                                         the concept:
                                                     </p>
                                                 </div>
@@ -2556,390 +2616,322 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="images/resp_sourcing/fresh-store.svg" class="img-fluid mb-2 mt-2 mx-2 my-2 no-print">
+                <div class="msr-img-holder7">
+                    <div class="msr-img-holder-inner7">
+                        <img src="images/resp_sourcing/fresh-store.svg" class="fresh-store">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
 
     <!-----SLIDER START------>
+
     <style>
-        .section-container {
-            width: 100%;
-            margin-left: 40px !important;
-            margin-right: 40px !important;
+        /* SLIDER BALANCING STYLE */
+
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+            width: 24rem;
+            transition: 0.5s;
         }
 
-        .sw-container {
-            height: 30rem;
-            /*border: 1px solid red;*/
-        }
-
-        .section-div>.container-fluid {
-            margin: 0 !important;
-        }
-
-        .sw-holder {
-            padding: 40px;
-        }
-
-        .slimg-holder>img {
-            width: 8rem;
-            height: auto;
-        }
-
-        .sl-image-5>.slimg-holder>img {
-            width: 14rem;
-            height: auto;
-        }
-
-        .sl-image-3>.slimg-holder>img {
-            width: 18rem;
-            height: auto;
-        }
-
-        .sl-image-4>.slimg-holder>img {
-            width: 17rem;
-            height: auto;
-        }
-
-        .sl-image-2>.slimg-holder>img {
+        .sldImg01>img {
             width: 16rem;
-            height: auto;
+            transition: 0.5s;
         }
 
-        .sl-image-1>.slimg-holder>img {
-            width: 12rem;
-            height: auto;
+        .sldImg02>img {
+            width: 23rem;
+            margin-bottom: 2rem;
+            transition: 0.5s;
         }
 
-        .sl-text-1 {
-            margin-top: 0rem;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+            width: 35rem;
+            transition: 0.5s;
+            margin-bottom: 2rem;
         }
 
-        .sl-button-1 {
-            /*margin-top: 2.5rem;*/
+        .sldImg03>img {
+            margin-top: 3.6rem;
+            margin-bottom: 2rem;
+            transition: 0.5s;
+            width: 23rem;
         }
 
-        .sl-text-2 {
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText03 {
+            margin-bottom: 2rem;
+        }
+
+
+
+
+        .sldImg04>img {
             margin-top: .8rem;
+            transition: 0.5s;
+            width: 23rem;
         }
 
-        .sl-button-2 {
-            /* margin-top: .8rem;*/
+        .sldImg05>img {
+            margin-top: 1rem !important;
+            transition: 0.5s;
+            margin-bottom: 1rem;
+            width: 22rem;
         }
 
-        .sl-text-4 {
-            margin-top: 1rem;
-        }
-
-        .sl-button-4 {
-            margin-top: 1.3rem;
-        }
-
-        .sl-box {
-            background-color: #f2f2f2;
-            padding: 1rem;
-            width: 25rem;
-            min-width: 25rem;
-            height: 22rem;
-            margin-left: .5rem;
-            margin-right: .5rem;
-            position: relative;
-        }
-
-        .sltext-holder {
-            font-size: 22px;
-            font-weight: bold;
-            color: #003b7e;
-            text-transform: uppercase;
-        }
-
-        .sl-text-3 {
-            margin-top: 2rem;
-        }
-
-        .sl-button-3 {
-            /*margin-top: 1rem;*/
-        }
-
-        .swiper-button-prev:after,
-        .swiper-rtl .swiper-button-next:after {
-            font-size: 16px;
-            color: #003b7e;
-        }
-
-        .swiper-button-next:after,
-        .swiper-rtl .swiper-button-prev:after {
-            font-size: 16px;
-            color: #003b7e;
-        }
-
-        .btn-y {
-            width: 2rem;
-            height: 2rem;
-            background-color: #ffe500;
-            border-radius: 1rem;
-            position: relative;
-            top: 14rem;
-        }
-
-        sw-btn-prev-container {
-            width: 3rem;
-            display: block;
-            position: relative;
-            float: left;
-        }
-
-        sw-btn-next-container {
-            width: 3rem;
-            display: block;
-            position: relative;
-            float: right;
-        }
-
-
-        .pbtn {
-            left: 22px !important;
-        }
-
-        .nbtn {
-            right: 22px !important;
-        }
-
-        .swholder-pg {
-            display: block;
-            width: 90%;
-            height: 2rem;
-            position: absolute;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide:not(.swiper-slide-active) {
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
             margin-top: 3rem;
+            width: 35rem;
+            transition: 0.5s;
+            margin-bottom: 3rem;
         }
 
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text>.sltext-holder {
-            font-size: 28px;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+            width: 35rem;
+            margin-top: 1rem;
+            transition: 0.5s;
         }
 
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text {
-            margin-top: 4rem !important;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
+            display: block;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
         }
 
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text-1 {
-            margin-top: 1rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text-4 {
-            margin-top: 3rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-image-4>.slimg-holder>img {
-            width: 20rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-image-1>.slimg-holder>img {
-            width: 15rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text-5 {
-            margin-top: 1rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-button-5 {
-            margin-top: 0rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-button-1 {
-            margin-top: 1rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-text-6 {
-            margin-top: 1rem !important;
-        }
-
-        .swx>.swiper-wrapper>div.swiper-slide-active>.slide-inner>.sl-button {
+        .pageSlider-slide.swiper-slide>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
+            display: block;
             margin-top: 2rem;
+            margin-bottom: 1rem;
         }
 
-        .swx>.swiper-wrapper>.swiper-slide-active {
-            width: 30rem !important;
-            height: 28rem !important;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+            width: 33rem;
+            transition: 0.5s;
+
         }
 
-        .swholder-pg>.swiper-pagination>.swiper-pagination-bullet {
-            width: 20px;
-            height: 8px;
-            background-color: white;
-            border: 2px solid #003b7e;
-            margin-left: 2px;
-            margin-right: 2px;
+        .sldImg06>img {
+            width: 11.5rem;
+            transition: 0.5s;
         }
 
-        .swholder-pg>.swiper-pagination>.swiper-pagination-bullet-active {
-            width: 30px;
-            height: 8px !important;
-            background-color: #003b7e;
-            border: 2px solid #003b7e;
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+            width: 17rem;
+            transition: 0.5s;
         }
     </style>
 
-    <div class="section-div  no-print">
-        <div class="container-fluid">
-            <div class="sw-holder">
-                <!-- <div class="sw-btn-prev-container">
-                            <div class="swiper-button-prev btn-y pbtn"></div>
-                        </div> -->
-
-                <div class="swholder1">
-                    <div class="swholder-sw">
-                        <div class="swiper swx">
-                            <div class="swiper-wrapper swx-wrapper">
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-                                        <div class="sl-image sl-image-1 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/purchase-box.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-1 text-center">
-                                            <span class="sltext-holder">
-                                                ANALYSE YOUR<br />PURCHASES
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-1 text-center">
-                                            <button class="read-more-btn r1" id="sl-button sl-button-1">Read more</button>
-                                        </div>
-                                    </div>
-
-                                </div>
 
 
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-                                        <div class="sl-image sl-image-2 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/package-delivery.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-2 text-center">
-                                            <span class="sltext-holder">
-                                                LOOK AT WHO SUPPLIES YOUR PRODUCTS
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-2 text-center">
-                                            <button class="read-more-btn r2" id="sl-button sl-button-2">Read more</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-                                        <div class="sl-image sl-image-3 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/cow-milking.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-3 text-center">
-                                            <span class="sltext-holder">
-                                                MAKE THE ORIGIN OF YOUR PRODUCTS PUBLIC
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-3 text-center">
-                                            <button class="read-more-btn r3" id="sl-button sl-button-3">Read more</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-                                        <div class="sl-image sl-image-4 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/sliderimg4.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                            <span class="sltext-holder">
-                                                ENGAGE YOUR STAFF
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                            <button class="read-more-btn r4" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-
-                                        <div class="sl-image sl-image-5 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/sliderimg5.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-5 text-center">
-                                            <span class="sltext-holder">
-                                                Look at your most common ingredients and source them more sustainable
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-5 text-center">
-                                            <button class="read-more-btn r51 r5" id="sl-button sl-button-5">Read more</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide sl-box">
-                                    <div class="slide-inner">
-
-                                        <div class="sl-image sl-image-6 text-center">
-                                            <span class="slimg-holder">
-                                                <img src="images/resp_sourcing/sliderimg6.svg" class="img-fluid mb-2 mt-2">
-                                            </span>
-                                        </div>
-                                        <div class="sl-text sl-text-6 text-center">
-                                            <span class="sltext-holder">
-                                                Use the comprehensive guide to sustainable products and schemes
-                                            </span>
-                                        </div>
-                                        <div class="sl-button sl-button-6 text-center">
-                                            <button class="read-more-btn r6" id="sl-button sl-button-6">Read more</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-button-prev ss1"></div>
-                            <div class="swiper-button-next ss1"></div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pageSlider-container">
+                <div class="pageSlider-container-inner">
+                    <div class="pageSlider-prev">
+                        <div class="pageSlider-prev-inner">
+                            <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
                         </div>
                     </div>
+                    <div class="pageSlider">
+                        <div class="pageSlider-inner">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="pageSlider-holder">
+                                        <div class="swiper pageSwiper1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg01">
+                                                                    <img src="images/resp_sourcing/purchase-box.svg" class="img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText01">
+                                                                    ANALYSE YOUR<br />PURCHASES
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn01">
+                                                                    <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg02">
+                                                                    <img src="images/resp_sourcing/package-delivery.svg" class="img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText02">
+                                                                    LOOK AT WHO<br>SUPPLIES YOUR PRODUCTS
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn02">
+                                                                    <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg03">
+                                                                    <img src="images/resp_sourcing/cow-milking.svg" class=" img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText03">
+                                                                    MAKE THE ORIGIN OF<br>YOUR PRODUCTS PUBLIC
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn03">
+                                                                    <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg04">
+                                                                    <img src="images/resp_sourcing/sliderimg4.svg" class=" img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText04">
+                                                                    ENGAGE YOUR STAFF
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn04">
+                                                                    <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-                    <div class="swholder-pg">
-                        <div class="swiper-pagination"></div>
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg05">
+                                                                    <img src="images/resp_sourcing/sliderimg5.svg" class=" img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText05">
+                                                                    Look at your most common ingredients and source them more sustainable
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn05">
+                                                                    <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-image">
+                                                                <span class="sldImg06">
+                                                                    <img src="images/resp_sourcing/sliderimg6.svg" class=" img-fluid">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-text">
+                                                                <span class="sldText06">
+                                                                    Use the comprehensive guide to sustainable products and schemes
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="pageSlider-slide-button">
+                                                                <span class="sldBtn06">
+                                                                    <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="pageSlider-pagination">
+                                        <div class="pageSlider-pagination-inner">
+                                            <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pageSlider-next">
+                        <div class="pageSlider-next-inner">
+                            <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                        </div>
                     </div>
                 </div>
-
-
-
-
-                <!-- <div class="sw-btn-next-container">
-                            <div class="swiper-button-next nbtn btn-y"></div>
-                        </div> -->
-
             </div>
         </div>
-
     </div>
 
+    <!-- Swiper JS -->
     <script>
-        var swiper = new Swiper(".swx", {
+        //pageSlider swiper
+        function openPopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "block");
+        }
 
+        function closePopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "none");
+        }
+        var swiper = new Swiper(".pageSwiper1", {
             grabCursor: true,
             centeredSlides: true,
             initialSlide: 1,
@@ -2952,14 +2944,18 @@
                 slideShadows: true,
             },
             navigation: {
-                nextEl: ".swiper-button-next.ss1",
-                prevEl: ".swiper-button-prev.ss1",
+                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
             },
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination.pageSwiper1Pagination",
             },
         });
     </script>
+
+
+
+
 
     <!-----SLIDER End------>
 
@@ -2984,7 +2980,7 @@
                                 </div>
                                 <div class="col-md-12 title9">
                                     <h5>
-                                        Focus on Seasonal Products whenever they are available
+                                        Focus on seasonal products whenever they are available
                                         </h3>
                                 </div>
                                 <div class="col-md-12 text9">
@@ -3046,7 +3042,7 @@
                                 <div class="col-md-12 text9">
                                     If you partner with local producers, it gives them the encouragement to scale up,
                                     produce the food you want, and commit to
-                                    practices that are environmentally positive
+                                    practices that are environmentally friendly
                                 </div>
                             </div>
                         </div>
@@ -3108,10 +3104,10 @@
     <section class="container9 section-text-withimages section4-4 more-text no-print">
         <div class="left-content9">
             <div class="row">
-                <div class="col-md-12 ml-23r">
+                <div class="col-md-12">
                     <h3 class="h3v2">Track and talk <br>about your progress</h3>
-                    <p class="justify1 text-center">
-                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing. Here are a few ways this can be done -
+                    <p class="justify1">
+                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing.<br>Here are a few ways this can be done -
                     </p>
                 </div>
             </div>
@@ -3129,7 +3125,7 @@
                             <div class="col-md-10">
                                 <p class="justify1 tt">
                                     <strong>
-                                        Be aware that “farm-to-table” restaurants continue to appeal to restaurant goers. Connect your customers to the source of your ingredients by talking with them about your menu.
+                                        Be aware that “farm-to-table” restaurants continue to appeal to restaurant visitors. Connect your customers to the source of your ingredients by talking with them about your menu.
                                     </strong>
                                 </p>
                             </div>
@@ -3146,7 +3142,7 @@
                                 <p class="justify1 tt">
                                     <strong>
                                         Explain why you made the changes and the benefits of those changes. For
-                                        example, you might decide not to serve whole strawberries in the winter, but
+                                        example, you might decide not to serve strawberries in the winter, but
                                         customers need to know why not.
                                     </strong>
                                 </p>
@@ -3190,7 +3186,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 mt-4">
                         <p class="justify1 ml-2">
                             As a business your impact on your community will be so much more when your customers and
                             staff understand what you are doing. Some might copy your practices in their shopping decisions.
@@ -3433,130 +3429,30 @@
 
 
 
-
-    <script>
-        $(document).ready(function() {
-            //one
-            $(".r1").click(function() {
-                $("#myModal1").css("display", "block");
-            });
-            $(".btn-close1").click(function() {
-                //alert("Hi")
-                $("#myModal1").css("display", "none");
-            });
-
-        });
-        $(document).ready(function() {
-
-            //two
-            $(".r2").click(function() {
-                $("#myModal2").css("display", "block");
-            });
-            $(".btn-close2").click(function() {
-                //alert("Hi")
-                $("#myModal2").css("display", "none");
-            });
-
-        });
-
-        $(document).ready(function() {
-
-
-            //three
-            $(".r3").click(function() {
-                $("#myModal3").css("display", "block");
-            });
-            $(".btn-close3").click(function() {
-                //alert("Hi")
-                $("#myModal3").css("display", "none");
-            });
-
-        });
-
-        $(document).ready(function() {
-
-
-            //four
-            $(".r4").click(function() {
-                $("#myModal4").css("display", "block");
-            });
-            $(".btn-close4").click(function() {
-                //alert("Hi")
-                $("#myModal4").css("display", "none");
-            });
-            //five
-            $(".r5").click(function() {
-                $("#myModal5").css("display", "block");
-            });
-            $(".btn-close5").click(function() {
-                //alert("Hi")
-                $("#myModal5").css("display", "none");
-            });
-            //six
-            $(".r6").click(function() {
-                $("#myModal5").css("display", "block");
-            });
-            $(".btn-close6").click(function() {
-                //alert("Hi")
-                $("#myModal6").css("display", "none");
-            });
-
-        });
-
-        $(document).ready(function() {
-
-
-            //five
-            $(".r5").click(function() {
-                $("#myModal5").css("display", "block");
-            });
-            $(".btn-close5").click(function() {
-                //alert("Hi")
-                $("#myModal5").css("display", "none");
-            });
-            //six
-            $(".r6").click(function() {
-                $("#myModal5").css("display", "block");
-            });
-            $(".btn-close6").click(function() {
-                //alert("Hi")
-                $("#myModal6").css("display", "none");
-            });
-
-        });
-
-        $(document).ready(function() {
-
-            //six
-            $(".r6").click(function() {
-                $("#myModal5").css("display", "block");
-            });
-            $(".btn-close6").click(function() {
-                //alert("Hi")
-                $("#myModal6").css("display", "none");
-            });
-
-        });
-    </script>
-
-
-    <div id="myModal1" class="modalx">
+    <div id="pop1" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+            <h4>
+                Analyze your purchases
+            </h4>
             <p>
                 Look at your main ingredients. Do you know how sustainable they are? Focusing on the ingredients that are
                 most important
-                to your business is an effective way to start. Sustainable products meet at least one ofr these
+                to your business is an effective way to start. Sustainable products meet at least one of these
                 characteristics: they
-                are local and/or regional, seasonal, organic, fairly traded, animal welfare assured, fish sourced
+                are local and/or regional, seasonal, organic, fairly traded, animal welfare assured, sourced
                 responsibly,
-                nutritious, create less waste, contribute to biodiversity, have minimal carbon footprint, and minimal
+                nutritious, create less waste, contribute to biodiversity, have minimal carbon footprint and minimal
                 water footprint.
             </p>
-            <a class="read-more-btn btn btn-sm btn-close1">Close</a>
         </div>
     </div>
-    <div id="myModal2" class="modalx">
+    <div id="pop2" class="modalx">
         <div class="modalx-content text-left">
+            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+            <h4>
+                Look at who supplies your products
+            </h4>
             <p class="justify1">
                 Get to know your suppliers and if possible, visit them to learn about their production
                 methods. Consider
@@ -3567,7 +3463,7 @@
                 <li>
                     How are your animals raised? For example, indoors or outdoors, how much time do they spend indoors?
                     How much space do
-                    they have in their cages or boxes?
+                    they have in their stables or boxes?
                 </li>
                 <li>What are your animals fed? For example, grass or uncertified soy?</li>
                 <li>
@@ -3578,19 +3474,22 @@
                 <li>What is the species of the fish you sell?</li>
                 <li>Where was your fish caught?</li>
                 <li>Does your fish have certification or accreditation?</li>
-                <li>Is your palm oil and soy from sources that have not destroyed forests?</li>
+                <li>Is your palm oil and soy from sources that have not led to deforestation?</li>
                 <li>How do your suppliers trace their products?</li>
                 <li>What information can your suppliers make available to you?</li>
             </ul>
-            <a class="read-more-btn btn btn-sm btn-close2">Close</a>
         </div>
     </div>
-    <div id="myModal3" class="modalx">
+    <div id="pop3" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+            <h4>
+                Make the origin of your products public
+            </h4>
             <p>
                 Some suppliers will use codes to show that they can track their products. Sometimes this is done
                 digitally and can be
-                available on an app. Ask if you can display this information on your menu so customers can scan it. Ask
+                available on an app. Ask if you can display this information on your menu so customers can scan it e.g. via a QR-Code. Ask
                 if your supplier
                 has a website or social media page where you can find updates from their site and can also encourage
                 your customers to
@@ -3598,11 +3497,12 @@
                 transparent to
                 your customers is what they increasingly expect.
             </p>
-            <a class="read-more-btn btn btn-sm  btn-close3">Close</a>
         </div>
     </div>
-    <div id="myModal4" class="modalx">
+    <div id="pop4" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+            <h4>Engage your staff</h4>
             <p>
                 Involve your staff from the beginning and explain why you are doing this. Explain the different ways to
                 source
@@ -3610,11 +3510,14 @@
                 seasonal
                 calendars in the office or the kitchen.
             </p>
-            <a class="read-more-btn btn btn-sm  btn-close4">Close</a>
         </div>
     </div>
-    <div id="myModal5" class="modalx">
+    <div id="pop5" class="modalx">
         <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+            <h4>
+                Look at your most common ingredients and source them most sustainable
+            </h4>
             <p>
                 Sourcing sustainably is a complex topic, and changes on short notice can be hard to make. Looking at your
                 most common
@@ -3638,18 +3541,19 @@
                     alternatives
                 </li>
             </ul>
-            <a class="read-more-btn btn btn-sm  btn-close5">Close</a>
         </div>
     </div>
-    <div id="myModal6" class="modalx">
+    <div id="pop6" class="modalx">
         <div class="modalx-content">
-
+            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+            <h4>
+                Use the comprehensive guide to sustainable products and schemes
+            </h4>
             <p>
                 Check out for more detailed information our comprehensive guide on sustainable products and our overview
                 of schemes. Use
                 them as additional information for specific questions of your employees or customers.
             </p>
-            <a class="read-more-btn btn btn-sm  btn-close6">Close</a>
         </div>
     </div>
 
@@ -3658,69 +3562,9 @@
 
 
 
-
-
-    <style>
-        /* The Modal (background) */
-        .modalx {
-            display: none;
-            /* Hidden by default */
-            position: fixed;
-            /* Stay in place */
-            z-index: 1;
-            /* Sit on top */
-            padding-top: 100px;
-            /* Location of the box */
-            left: 0;
-            top: 0;
-            width: 100%;
-            /* Full width */
-            height: 100%;
-            /* Full height */
-            overflow: auto;
-            /* Enable scroll if needed */
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4);
-            /* Black w/ opacity */
-        }
-
-        /* Modal Content */
-        .modalx-content {
-            background-color: #003b7e;
-            color: white;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-        }
-
-        /* The Close Button */
-        .closex {
-            color: #aaaaaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .closex:hover,
-        .closex:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .modalx>.modalx-content>a {
-            cursor: pointer;
-            color: white !important;
-            border-color: white !important;
-        }
-    </style>
-
     <script>
         //schemes and certifications script
         window.onload = function() {
-
             BindTopics();
             var topicno = "1";
             BindSubTopics(topicno);
@@ -3743,31 +3587,25 @@
         };
 
         function BindSubTopics(topicno) {
-
             $("#subtopics9").html("");
             var subTopics = "";
             subTopics += "<div class='row'>";
             if (topicno == "3") {
                 subTopics += "<span id='d-border1'></span>";
             }
-
             if (topicno == "1") {
-                //alert(jasonData.Topics[0].subTopics.length);
                 for (var t = 0; t < jasonData.Topics[0].subTopics.length; t++) {
                     subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='1' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[0].subTopics[t]["sid"] + ">" + jasonData.Topics[0].subTopics[t]["data-text"] + "</a></div>";
                 }
             } else if (topicno == "2") {
-                //alert(jasonData.Topics[0].subTopics.length);
                 for (var t = 0; t < jasonData.Topics[1].subTopics.length; t++) {
                     subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='2' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[1].subTopics[t]["sid"] + ">" + jasonData.Topics[1].subTopics[t]["data-text"] + "</a></div>";
                 }
             } else if (topicno == "3") {
-                //alert(jasonData.Topics[0].subTopics.length);
                 for (var t = 0; t < jasonData.Topics[2].subTopics.length; t++) {
                     subTopics += "<div class='col-md-3 mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='3' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[2].subTopics[t]["sid"] + ">" + jasonData.Topics[2].subTopics[t]["data-text"] + "</a></div>";
                 }
             } else if (topicno == "4") {
-                //alert(jasonData.Topics[0].subTopics.length);
                 for (var t = 0; t < jasonData.Topics[3].subTopics.length; t++) {
                     subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='4' data-cellno=" + (t) + " data-id=" + jasonData.Topics[3].subTopics[t]["sid"] + ">" + jasonData.Topics[3].subTopics[t]["data-text"] + "</a></div>";
                 }
@@ -3775,12 +3613,10 @@
             subTopics += "</div>";
 
             $("#subtopics9").html(subTopics);
-            //highLightDesign(topicno);
             return false;
         };
 
         function ShowInSlider(elem) {
-            //alert("data-id:" + $(elem).data("topicno"));
             var topicno = $(elem).data("topicno");
             var cellno = $(elem).data("cellno");
             $("#subtopicsDiv").hide();
@@ -3792,46 +3628,41 @@
 
             var swiper9 = new Swiper(".sw9", {
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".swiper-pagination.sw9pag",
                 },
                 navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                    nextEl: ".swiper-button-next.sw5",
+                    prevEl: ".swiper-button-prev.sw5",
                 },
             });
             var swiper10 = new Swiper(".sw10", {
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".swiper-pagination.sw9pag",
                 },
                 navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                    nextEl: ".swiper-button-next.sw5",
+                    prevEl: ".swiper-button-prev.sw5",
                 },
             });
             var swiper11 = new Swiper(".sw11", {
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".swiper-pagination.sw9pag",
                 },
                 navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                    nextEl: ".swiper-button-next.sw5",
+                    prevEl: ".swiper-button-prev.sw5",
                 },
             });
 
             var swiper12 = new Swiper(".sw12", {
                 pagination: {
-                    el: ".swiper-pagination",
+                    el: ".swiper-pagination.sw9pag",
                 },
                 navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                    nextEl: ".swiper-button-next.sw5",
+                    prevEl: ".swiper-button-prev.sw5",
                 },
             });
-
-
-
-
-
 
 
             if (topicno == "1") {
@@ -4067,7 +3898,21 @@
             },
         });
     </script>
-
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 
 </body>
 

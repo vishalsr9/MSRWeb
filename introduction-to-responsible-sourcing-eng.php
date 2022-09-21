@@ -13,6 +13,7 @@
     <script src="./jquery/custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style1.css">
+
 </head>
 
 <body class="page3-page">
@@ -45,7 +46,7 @@
                                 <div class="overlay-content">
                                     <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -62,6 +63,11 @@
             </div>
         </div>
     </header>
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <div class="container-full">
         <div class="page-3_stage">
             <section class="section1 mt-4">
@@ -92,7 +98,7 @@
                         <li class="text-center">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <img src="images/resp_sourcing/fish-in-plate.svg" class="img-fluid didu-img" />
+                                    <img src="images/resp_sourcing/Fish_Responsible Sourcing.svg" class="img-fluid didu-img Fish_Responsible" />
                                 </div>
                                 <div class="col-md-12 text-center">
                                     <p>
@@ -126,7 +132,7 @@
                         <li class="text-center">
                             <img src="images/resp_sourcing/earth-life.svg" class="img-fluid didu-img h288px" />
                             <p>
-                                around 1 million animal species are threatened with extinction – more than ever before in human history
+                                around <span class="highlight">1 million</span> animal species are threatened with extinction – more than ever before in human history
                             </p>
                         </li>
                     </ul>
@@ -140,7 +146,7 @@
                     <div class="right-content">
                         <p>
                             Your business is food and food is your business. The dishes you offer in your restaurant sometimes drive trends in the overall marketplace. An increasing number of customers are showing interest in where their food comes from and are demanding healthier and sustainable options when they eat out. By carefully picking the products you present on your menu, you can create a positive and long-lasting impact on the environment and the health of your customers.
-                            <br>Responsible sourcing is positive in many ways:
+                            <br><br>Responsible sourcing is positive in many ways:
                         </p>
                     </div>
                 </div>
@@ -214,9 +220,9 @@
             </section>
             <section class="section4 padr-60px w90-per">
                 <div class="left-content noalign w60-per">
-                    <h3><a href="explore-sustainable-menu.php" target="_self">KNOW HOW –<br>STEPS HOW TO<br>SOURCE RESPONSIBLY</a></h3>
+                    <h3>KNOW HOW –<br>STEPS HOW TO<br>SOURCE RESPONSIBLY</h3>
                     <p>
-                        To be more connected with your customers and suppliers while building trust and credibility in your relationship with them, ask yourself if your products are responsibly sourced and sustainable. Our Comprehensive guide to sustainable products will help you to find information more easily. Take a closer look at your supply chain and get engaged with your suppliers on sustainability topics. Schemes that guarantee a fair price of the product and fair treatment of workers, the origin and way of production or the compostability of packaging will provide you with more information and orientation on the sustainability aspects of your products. Don’t forget to track your progress and talk about successful steps toward becoming a sustainable restaurant.
+                        To be more connected with your customers and suppliers while building trust and credibility in your relationship with them, ask yourself if your products are responsibly sourced and sustainable. Our comprehensive guide to sustainable products will help you to find information more easily. Take a closer look at your supply chain and get engaged with your suppliers on sustainability topics. Schemes that guarantee a fair price of the product and fair treatment of workers, the origin and way of production or the compostability of packaging will provide you with more information and orientation on the sustainability aspects of your products. Don’t forget to track your progress and talk about successful steps toward becoming a sustainable restaurant.
                     </p>
 
 
@@ -225,7 +231,9 @@
                     </div>
                 </div>
                 <div class=" mr-4">
-                    <img src="images/resp_sourcing/baskets.svg" class="img-fluid" />
+                    <a href="https://www.metro.de/">
+                        <img src="images/resp_sourcing/baskets.svg" class="img-fluid" />
+                    </a>
                 </div>
             </section>
             <section class="section5">
@@ -377,285 +385,23 @@
         </div>
 
     </div>
-    <script>
-        window.onload = function() {
-
-            BindTopics();
-            var topicno = "1";
-            BindSubTopics(topicno);
-
-        };
-
-
-
-        function BindTopics() {
-            var listTopics = "";
-            listTopics += "<ul id='topics'>";
-            for (var t = 0; t < jasonData.Topics.length; t++) {
-                listTopics += "<li class='topic-box' id='" + "topic" + t + "'><a class='topic-link' data-topicindex=" + t + " onclick='highLightTopic9(this);'><div class='ltext'>" + jasonData.Topics[t]["data-heading"] + "</div><div class='yarrow'><img src='images/resp_sourcing/scheme-yellow-arow.svg' class='img-fluid scheme-yellow-arow arrow-show'></div></a></li>";
-            }
-            listTopics += "</ul>";
-            $("#subtopics9").show();
-            $("#sl9").hide();
-            $("#topics9").html(listTopics);
-            return false;
-        };
-
-
-
-        function BindSubTopics(topicno) {
-
-            $("#subtopics9").html("");
-            var subTopics = "";
-            subTopics += "<div class='row'>";
-            if (topicno == "1") {
-                //alert(jasonData.Topics[0].subTopics.length);
-                for (var t = 0; t < jasonData.Topics[0].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='1' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[0].subTopics[t]["sid"] + ">" + jasonData.Topics[0].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "2") {
-                //alert(jasonData.Topics[0].subTopics.length);
-                for (var t = 0; t < jasonData.Topics[1].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='2' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[1].subTopics[t]["sid"] + ">" + jasonData.Topics[1].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "3") {
-                //alert(jasonData.Topics[0].subTopics.length);
-                for (var t = 0; t < jasonData.Topics[2].subTopics.length; t++) {
-                    subTopics += "<div class='col-md-3 mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='3' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[2].subTopics[t]["sid"] + ">" + jasonData.Topics[2].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "4") {
-                //alert(jasonData.Topics[0].subTopics.length);
-                for (var t = 0; t < jasonData.Topics[3].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='4' data-cellno=" + (t) + " data-id=" + jasonData.Topics[3].subTopics[t]["sid"] + ">" + jasonData.Topics[3].subTopics[t]["data-text"] + "</a></div>";
-                }
-            }
-            subTopics += "</div>";
-
-            $("#subtopics9").html(subTopics);
-            //highLightDesign(topicno);
-            return false;
-        };
-
-        function ShowInSlider(elem) {
-            //alert("data-id:" + $(elem).data("topicno"));
-
-            var topicno = $(elem).data("topicno");
-            var cellno = $(elem).data("topicno");
-            $("#subtopicsDiv").hide();
-            CreateSlider(topicno);
-
-            if (topicno == "1") {
-                new Swiper($(".slider-scheme-1")).slideTo(cellno, 1000, false);
-            } else if (topicno == "2") {
-                new Swiper($(".slider-scheme-1")).slideTo(cellno, 1000, false);
-
-            } else if (topicno == "3") {
-                new Swiper($(".slider-scheme-1")).slideTo(cellno, 1000, false);
-            } else if (topicno == "4") {
-                new Swiper($(".slider-scheme-1")).slideTo(cellno, 1000, false);
-            }
-
-            return false;
-        };
-
-
-        function CreateSlider(topicno) {
-            if (topicno == "1") {
-                $(".scheme-slider-1").css("display", "block");
-            } else if (topicno == "2") {
-                $(".scheme-slider-2").css("display", "block");
-            } else if (topicno == "3") {
-                $(".scheme-slider-3").css("display", "block");
-            } else if (topicno == "4") {
-                $(".scheme-slider-4").css("display", "block");
-            }
-
-            return false;
-        };
-
-        function highLightTopic9(elem) {
-            var topicno = $(elem).data("topicindex");
-            $("#subtopicsDiv").show();
-            //remove all highlishts
-            $(".ltext").css("font-weight", "normal");
-            $(".yarrow>img").css("display", "none");
-            $(".scheme-slider-4").css("display", "none");
-            $(".scheme-slider-3").css("display", "none");
-            $(".scheme-slider-2").css("display", "none");
-            $(".scheme-slider-1")
-            //hide subtopicsDic
-            $("#SubTopicsDiv").css("visibility", "hidden");
-            //alert(topicno);
-            if (topicno == "0") {
-                $("li#topic0>a.topic-link>div.ltext").css("font-weight", "bold");
-                $("#topic0>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "1") {
-                $("li#topic1>a.topic-link>div.ltext").css("font-weight", "bold");
-                $("#topic1>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "2") {
-                $("li#topic2>a.topic-link>div.ltext").css("font-weight", "bold");
-                $("#topic2>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "3") {
-                $("li#topic3>a.topic-link>div.ltext").css("font-weight", "bold");
-                $("#topic3>a>div.yarrow>img").css("display", "block");
-            }
-
-            BindSubTopics(topicno + 1);
-
-            return false;
-        };
-
-
-
-        function closeSlider() {
-            $(".scheme-slider-4").css("display", "none");
-            $(".scheme-slider-3").css("display", "none");
-            $(".scheme-slider-2").css("display", "none");
-            $(".scheme-slider-1").css("display", "none");
-            $("#subtopicsDiv").show();
-            return false;
-        };
-
-        $(document).ready(function() { //working
-            $("a.topic-link").click(function() {
-                //alert("Clicked");
-                //$("li.topic-box:first-child").css("font-weight", "normal");
-                //$("li.topic-box:first-child>a>div.yarrow>img").css("display", "none");
-            });
-        });
-
-
-
-        var swiper = new Swiper(".slider-scheme-1", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-        var swiper = new Swiper(".slider-scheme-2", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-        var swiper = new Swiper(".slider-scheme-3", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-        var swiper = new Swiper(".slider-scheme-4", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-        var jasonData = {
-            "Topics": [{
-                    "id": "topic1",
-                    "data-heading": "Schemes that guarantee a fair price and fair treatment of workers",
-                    "subTopics": [{
-                            "sid": "s11",
-                            "data-text": "FAIRTRADE",
-                            "icon-url": "images/resp_sourcing/scheme-logos/Fairtrade_Certification_Mark.svg.png",
-                            "desc": "FAIRTRADE is a scheme with a label that brings together NGOs and producers’ representatives. It guarantees that the product has been purchased at a fair price from producers and produced under conditions that respect human rights, for example, no forced labour and respect of the environment."
-                        },
-                        {
-                            "sid": "s12",
-                            "data-text": "GEPA ",
-                            "icon-url": "images/resp_sourcing/scheme-logos/GEPA.png",
-                            "desc": "GEPA is an enterprise that practices 100 per cent Fair Trade and any surplus is exclusively re-invested in Fair Trade."
-                        },
-                    ]
-                },
-                {
-                    "id": "topic2",
-                    "data-heading": "Schemes that guarantee an origin and way of production ",
-                    "subTopics": [{
-                        "sid": "s21",
-                        "data-text": "GEOGRAPHICAL INDICATIONS AND TRADITIONAL SPECIALITIES",
-                        "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
-                        "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
-                    }, {
-                        "sid": "s22",
-                        "data-text": "EU SCHEMES",
-                        "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
-                        "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
-                    }, ]
-                },
-                {
-                    "id": "topic3",
-                    "data-heading": "Schemes that guarantee a way of production ",
-                    "subTopics": [{
-                            "sid": "s31",
-                            "data-text": "EU Organic Farming",
-                            "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
-                            "desc": "EU Organic Farming is a scheme that ensures that the production method is respectful of the environment and animal welfare. The rules governing the organic production method are the same throughout Europe, and imported products are subject to the same requirements. Approved products carry the EU organic logo."
-                        },
-                        {
-                            "sid": "s32",
-                            "data-text": "GLOBALG.A.P",
-                            "icon-url": "icon url 3-2"
-                        },
-                        {
-                            "sid": "s33",
-                            "data-text": "GGN",
-                            "icon-url": "icon url 3-3"
-                        },
-                        {
-                            "sid": "s34",
-                            "data-text": "ASC",
-                            "icon-url": "icon url 3-4"
-                        },
-                        {
-                            "sid": "s34",
-                            "data-text": "MSC",
-                            "icon-url": "icon url 3-5"
-                        },
-                        {
-                            "sid": "s35",
-                            "data-text": "FSC",
-                            "icon-url": "icon url 3-6"
-                        },
-                        {
-                            "sid": "s36",
-                            "data-text": "PEFC",
-                            "icon-url": "icon url 3-7"
-                        },
-                        {
-                            "sid": "s38",
-                            "data-text": "RTRS",
-                            "icon-url": "icon url 3-8"
-                        },
-                        {
-                            "sid": "s39",
-                            "data-text": "RSPO",
-                            "icon-url": "icon url 3-9"
-                        },
-                    ]
-                },
-                {
-                    "id": "topic4",
-                    "data-heading": "Schemes that guarantee the compostability of packaging ",
-                    "subTopics": [{
-                            "sid": "s41",
-                            "data-text": "HOME COMPOSTABLE PACKAGING",
-                            "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
-                            "desc": "HOME COMPOSTABLE PACKAGING is shown by a logo that indicates that the packaging can compost at ambient temperatures (20-30°C) within 52 weeks according to European standard EN 13432. The certifying body is placed next to the logo with the company’s reference number. This packaging is also compostable. "
-                        },
-                        {
-                            "sid": "s42",
-                            "data-text": "INDUSTRIAL COMPOSTABLE PACKAGING",
-                            "icon-url": "icon url 4-2"
-                        },
-                    ]
-                },
-            ]
-        };
-    </script>
     <script src="jquery/page1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 

@@ -46,7 +46,7 @@
                                 <div class="overlay-content">
                                     <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -63,7 +63,11 @@
             </div>
         </div>
     </header>
-
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <section class="safeFoodl4_banner no-print">
         <div class="container-fluid no-print">
             <div class="row px-4">
@@ -377,20 +381,34 @@
 
 
 
-<script type="text/javascript">
-     var eurl="introduction-to-food-waste-eng.php"
-    var gurl="introduction-to-food-waste-deu.php"
+    <script type="text/javascript">
+        var eurl = "introduction-to-food-waste-eng.php"
+        var gurl = "introduction-to-food-waste-deu.php"
 
 
-    //btn-test click test script
+        //btn-test click test script
 
-    $(document).ready( function() {
-   $('#select').change( function() {
-      location.href = $(this).val();
-   });
-});
-</script>
-
+        $(document).ready(function() {
+            $('#select').change(function() {
+                location.href = $(this).val();
+            });
+        });
+    </script>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 

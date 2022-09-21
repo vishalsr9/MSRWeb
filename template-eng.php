@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>METRO</title>
-   
+
     <link rel="stylesheet" href="required1/bootstrap.min.css" />
     <link rel="stylesheet" href="required1/font-awesome.min.css" />
     <link rel="stylesheet" href="required1/normalize.min.css" />
@@ -21,7 +21,7 @@
 
 <body class="stage1">
 
-      <header>
+    <header>
         <div class="container no-print">
             <div class="logo">
                 <a href="/"> <img src="images/metro-logo.svg" /></a>
@@ -48,17 +48,17 @@
                         </li>
 
                     </ul>
-                            <div id="myNav" class="overlay-menu overlay">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <div class="overlay-content">
-                                    <a href="/">Home</a>
-                                    <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
-                                    <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
-                                    <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
-                                </div>
-                            </div>
-                    
+                    <div id="myNav" class="overlay-menu overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="/">Home</a>
+                            <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+                            <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
+                            <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
+                            <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="custom__select">
                     <select id="select">
@@ -77,12 +77,12 @@
             <div class="container mt-5 px-2 py-2 mb-5">
                 <div class="row">
                     <div class="col-md-12 mt-1 mb-1">
-                        
-                       <h1><strong>Introduction to Safe Food: ENG</strong></h1>
-                            <p>
-                               Page is under construction
-                                
-                            </p>
+
+                        <h1><strong>Introduction to Safe Food: ENG</strong></h1>
+                        <p>
+                            Page is under construction
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,21 +96,19 @@
 
 
 
-<script type="text/javascript">
-   var eurl="introduction-to-safe-food-eng.php"
-    var gurl="introduction-to-safe-food-deu.php"
+    <script type="text/javascript">
+        var eurl = "introduction-to-safe-food-eng.php"
+        var gurl = "introduction-to-safe-food-deu.php"
 
 
-    //btn-test click test script
+        //btn-test click test script
 
-    $(document).ready( function() {
-   $('#select').change( function() {
-      location.href = $(this).val();
-   });
-});
-
-    
-</script>
+        $(document).ready(function() {
+            $('#select').change(function() {
+                location.href = $(this).val();
+            });
+        });
+    </script>
 
 </body>
 

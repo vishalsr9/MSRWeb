@@ -46,7 +46,7 @@
                                 <div class="overlay-content">
                                     <a href="home.php">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -63,7 +63,11 @@
             </div>
         </div>
     </header>
-
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <section class="safeFoodl4_banner no-print">
         <div class="container-fluid no-print">
             <div class="row px-4">
@@ -91,7 +95,7 @@
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/en-2.svg" class="px-4">
                         <h4><strong>39%</strong> of HoReCa customers consider<br>reducing energy and water consumption<br>
-among the most important issues to deal <br>with in their business</h4>
+                            among the most important issues to deal <br>with in their business</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -127,10 +131,11 @@ among the most important issues to deal <br>with in their business</h4>
             <div class="right-content">
                 <p>
                     As a restaurant or café owner, you usually need a lot of electricity, oil, coal
-or gas which causes high costs in your budget. With rising energy costs
-and the scarcity of fossil resources, as well as your customer’s growing
-attention to environmental issues, it will be useful to become more
-sustainable and save money at the same time.</p><p>Your restaurant would benefit from saving energy in many ways:
+                    or gas which causes high costs in your budget. With rising energy costs
+                    and the scarcity of fossil resources, as well as your customer’s growing
+                    attention to environmental issues, it will be useful to become more
+                    sustainable and save money at the same time.</p>
+                <p>Your restaurant would benefit from saving energy in many ways:
                 </p>
             </div>
         </div>
@@ -148,7 +153,7 @@ sustainable and save money at the same time.</p><p>Your restaurant would benefit
             </li>
             <li></li>
             <li>
-                <p>Significantly less pollution by restricting use of   fossil fuels</p>
+                <p>Significantly less pollution by restricting use of fossil fuels</p>
             </li>
             <li></li>
             <!-- </ul><ul> -->
@@ -161,12 +166,12 @@ sustainable and save money at the same time.</p><p>Your restaurant would benefit
                 <p>Responsible member of local community</p>
             </li>
             <li></li>
-           
+
             <!-- </ul>
                 <ul> -->
-            
-            
-            
+
+
+
         </ul>
     </section>
 
@@ -179,15 +184,15 @@ sustainable and save money at the same time.</p><p>Your restaurant would benefit
             <div class="right-content">
                 <p>
                     The climate is changing rapidly. The natural greenhouse effect ensures
-life-friendly temperatures on earth. Humans are accelerating this
-natural effect multiple times through the emission of greenhouse
-gases, such as carbon dioxide (CO2), which is especially released by
-the burning of fossil fuels in generating electricity. The greenhouse
-gases build up in the atmosphere, contributing to an increase in global
-average temperature with far-reaching human and environmental
-consequences. The effects of the global climate crisis can be observed
-already. These include weather extremes like drought, floods, and
-storms, and an alarming rise in sea levels.
+                    life-friendly temperatures on earth. Humans are accelerating this
+                    natural effect multiple times through the emission of greenhouse
+                    gases, such as carbon dioxide (CO2), which is especially released by
+                    the burning of fossil fuels in generating electricity. The greenhouse
+                    gases build up in the atmosphere, contributing to an increase in global
+                    average temperature with far-reaching human and environmental
+                    consequences. The effects of the global climate crisis can be observed
+                    already. These include weather extremes like drought, floods, and
+                    storms, and an alarming rise in sea levels.
                 </p>
             </div>
         </div>
@@ -197,36 +202,36 @@ storms, and an alarming rise in sea levels.
     <section class="section4 padr-60px no-print">
         <div class="left-content noalign col-md-6">
             <h3>KNOW HOW –<br>STEPS HOW TO REDUCE<br>ENERGY CONSUMPTION</h3>
-           
-                <ul>
-                    <li> Analyse your consumption and hunt for sources of energy wastage,
-e.g. by finding the energy leaks in your restaurant (like open doors on
-cold days that wastes energy spent to warm the interiors), peaks in
-energy usage, and equipment that wastes energy.</li>
-<li>Actively involve your staff in your energy saving program because
-your staff’s engagement is crucial to make all the investments work.
-Engage with them regularly so that you can keep them up to date
-and invite them to propose their own ideas, conduct short training
-sessions, or place posters in easy-to-see places.</li>
-<li>There are many simple ways to do this such as turning off
-unnecessary lights and electric equipment or switching your
-lightbulbs for energy-efficient ones.</li>
-<li>There are also advanced ways in which you can save energy. For
-example, go for energy-efficient equipment or use renewable energy.
-You can also use induction cooking, which is faster, safer, cleaner, and
-more efficient than either gas or electric.</li>
-                </ul>
 
-            
+            <ul>
+                <li> Analyse your consumption and hunt for sources of energy wastage,
+                    e.g. by finding the energy leaks in your restaurant (like open doors on
+                    cold days that wastes energy spent to warm the interiors), peaks in
+                    energy usage, and equipment that wastes energy.</li>
+                <li>Actively involve your staff in your energy saving program because
+                    your staff’s engagement is crucial to make all the investments work.
+                    Engage with them regularly so that you can keep them up to date
+                    and invite them to propose their own ideas, conduct short training
+                    sessions, or place posters in easy-to-see places.</li>
+                <li>There are many simple ways to do this such as turning off
+                    unnecessary lights and electric equipment or switching your
+                    lightbulbs for energy-efficient ones.</li>
+                <li>There are also advanced ways in which you can save energy. For
+                    example, go for energy-efficient equipment or use renewable energy.
+                    You can also use induction cooking, which is faster, safer, cleaner, and
+                    more efficient than either gas or electric.</li>
+            </ul>
+
+
 
             <div class="read-wrap">
                 <a href="explore-energy-eng.php" class="read-more" target="_self">Read More</a>
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
-            
+
             <img src="./images/safe_food/en-6.svg" class="img-fluid">
-            
+
         </div>
     </section>
 
@@ -383,20 +388,34 @@ more efficient than either gas or electric.</li>
 
 
 
-<script type="text/javascript">
-     var eurl="introduction-to-food-waste-eng.php"
-    var gurl="introduction-to-food-waste-deu.php"
+    <script type="text/javascript">
+        var eurl = "introduction-to-food-waste-eng.php"
+        var gurl = "introduction-to-food-waste-deu.php"
 
 
-    //btn-test click test script
+        //btn-test click test script
 
-    $(document).ready( function() {
-   $('#select').change( function() {
-      location.href = $(this).val();
-   });
-});
-</script>
-
+        $(document).ready(function() {
+            $('#select').change(function() {
+                location.href = $(this).val();
+            });
+        });
+    </script>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 

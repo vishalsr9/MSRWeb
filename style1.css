@@ -681,12 +681,13 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     padding-left:1rem;
 }
 
+
 .h3v2 {
     color: #003B7E;
     font-size: 36px;
     font-family: 'GothamBold';
     text-transform: capitalize;
-    text-align:center;
+    /* text-align:center; */
 }
 
 .h3v3 {
@@ -1525,4 +1526,191 @@ margin-bottom: -3rem;
 
 .unhighlight{
     font-weight:normal!important;
+}
+
+.Fish_Responsible{
+    margin-top: 2rem;
+padding-bottom: .5rem;
+}
+
+.pro-trace{
+    width:8rem;
+}
+
+.msr-img-holder{
+    width:auto;
+    height:10rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder>.msr-img-holder-inner>img{
+    vertical-align: middle;
+}
+
+.msr-img-holder2{
+    width:auto;
+    height:8rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner2{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder2>.msr-img-holder-inner2>img{
+    vertical-align: middle;
+}
+
+.non-certified-sust-products{
+    height:16rem;
+    width:auto;
+}
+
+
+.msr-img-holder3{
+    width:auto;
+    height:8rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner3{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder3>.msr-img-holder-inner3>img{
+    vertical-align: middle;
+    height:10rem;
+    margin-top:-1.5rem;
+}
+
+.msr-img-holder4{
+    width:auto;
+    height:15rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner4{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder4>.msr-img-holder-inner4>img{
+    vertical-align: middle;
+    height:15rem;
+    margin-top:.5rem;
+}
+
+.salad-bowl{
+    height:9rem;
+    width:auto;
+}
+
+
+
+.msr-img-holder5{
+    width:auto;
+    height:9rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner5{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder5>.msr-img-holder-inner5>img{
+    vertical-align: middle;
+height: 9rem;
+margin-top: -2rem;
+}
+
+
+.earth-life-trees{
+    height:20rem;
+}
+
+.msr-img-holder6{
+    width:auto;
+    height:9rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner6{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder6>.msr-img-holder-inner6>img{
+    vertical-align: middle;
+height: 13rem;
+margin-top: 2rem;
+}
+
+
+.save-earth{
+    height:20rem;
+}
+
+.msr-img-holder7{
+    width:auto;
+    height:11rem;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner7{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder7>.msr-img-holder-inner7>img{
+    vertical-align: middle;
+height: 11em;
+margin-top: -2rem;
+}
+
+
+.fresh-store{
+    height:11rem!important;
+}
+
+.bin-waste{
+    height:15.5rem;
+}
+
+.nojustify1{
+    text-align:left!important;
+}
+
+.plastic-disposable{
+    height: 16rem;
+margin-top: -1rem;
+margin-bottom: 2rem;
+}
+
+.loader9{
+    margin-top:-2rem;
+    width:150px;
+    height:150px;
 }

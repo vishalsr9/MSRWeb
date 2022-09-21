@@ -28,10 +28,9 @@ echo "<div id='myModalmessage' class='modal'><div class='modal-content'><div cla
 ?>
 <body class="page2-page">
 <div id="loader-page2" class="center">
-<div class="loader__tiles">
-  <img src="images/loader1.gif" alt="trees tile" class="loader__tile">
-</div>
-<span class="loader__text">LOADING MSR...</span>
+	<span class="loader__text">
+		<img src="images/loader.gif" class="loader9"/>
+	</span>
 </div>
 <header>
 	<div class="container">
@@ -60,8 +59,8 @@ echo "<div id='myModalmessage' class='modal'><div class='modal-content'><div cla
   <div class="overlay-content">
   <a href="home.php">Home</a>
     <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
-    <a href="kapitelübersicht.php">Kapitelübersicht </a>
-    <a href="übersicht-meine-nachhaltige-speisekarte.php">Übersicht "Meine nachhaltige Speisekarte"</a>
+    <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht </a>
+    <a href="introduction-to-sustainable-menu-eng.php">Übersicht "Meine nachhaltige Speisekarte"</a>
 	<a href="tipps-für-meine-nachhaltige-speisekarte.php">Tipps für "Meine nachhaltige Speisekarte"</a>
   </div>
 </div>
@@ -11264,7 +11263,7 @@ echo "<div id='myModalmessage' class='modal'><div class='modal-content'><div cla
 </div>
 <h2>Die Bedeutung einer nachhaltigen Speisekarte </h2>
 <p>Wie oft wurden Sie schon nach vegetarischen Alternativen gefragt oder wo das Fleisch herkommt? Nutzen Sie die Chance und zeigen Sie bereits in Ihrer Speisekarte, dass Sie an einer hochwertigen Lebensmittelauswahl arbeiten, die besser ist für die Gesundheit Ihrer Gäste und den Planeten. Indem Sie nachhaltige Gerichte in Ihrer (Online-) Speisekarte ausweisen, können Sie Ihr Engagement für mehr Nachhaltigkeit unter Beweis stellen und neue Kunden gewinnen.</p>
-<div class="btn-drawer"><a class="modal-cta" href="übersicht-meine-nachhaltige-speisekarte.php">MEHR ERFAHREN</a></div>
+<div class="btn-drawer"><a class="modal-cta" href="introduction-to-sustainable-menu-eng.php">MEHR ERFAHREN</a></div>
 </div>
 </div>
 </div>

@@ -10,6 +10,28 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="./jquery/custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .milk1 {
+            height: 15rem !important;
+        }
+
+        .susmenu {
+            height: 15rem !important;
+        }
+
+        .pritein {
+            height: 12rem !important;
+        }
+
+        .bread1 {
+            height: 12rem;
+        }
+
+        .highlight {
+            font-weight: bolder;
+            font-size: 20px !important;
+        }
+    </style>
 </head>
 
 <body class="page3-page">
@@ -42,7 +64,7 @@
                                 <div class="overlay-content">
                                     <a href="">Home</a>
                                     <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide.php">The MSR Chapter Guide</a>
+                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
                                     <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
                                     <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
                                 </div>
@@ -52,13 +74,18 @@
                 </div>
                 <div class="custom__select">
                     <select>
-                        <option value="übersicht-meine-nachhaltige-speisekarte.php">DEU</option>
+                        <option value="introduction-to-sustainable-menu-deu.php">DEU</option>
                         <option value="introduction-to-sustainable-menu-eng.php" selected>ENG</option>
                     </select>
                 </div>
             </div>
         </div>
     </header>
+    <div id="loader-page2" class="center">
+        <span class="loader__text">
+            <img src="images/loader.gif" class="loader9" />
+        </span>
+    </div>
     <div class="container-full">
         <div class="page-3_stage">
             <section class="section1">
@@ -76,7 +103,7 @@
                 <div class="mid-content">
                     <ul>
                         <li>
-                            <img src="images/milk.svg" />
+                            <img src="images/milk.svg" class="milk1" />
                             <p>
                                 proteins can be divided into complete
                                 (meat, ﬁsh, eggs, milk, cheese)
@@ -85,22 +112,22 @@
                             </p>
                         </li>
                         <li>
-                            <img src="images/susmenu.svg" />
+                            <img src="images/susmenu.svg" class="susmenu" />
                             <p>
                                 a sustainable menu means making conscious choices about the food you place on it. It offers dishes that reﬂect what is optimal for our health and the health of our planet
                             </p>
                         </li>
                         <li>
-                            <img src="images/pritein.svg" />
+                            <img src="images/pritein.svg" class="pritein" />
                             <p>
                                 conscious protein describes an approach
                                 which is based on consuming a diverse source of sustainable protein and the awareness of people in their eating habits
                             </p>
                         </li>
                         <li>
-                            <img src="images/bread.svg" />
+                            <img src="images/bread.svg" class="bread1" />
                             <p>
-                                one in three meals are eaten out of home
+                                <span class="highlight">one in three</span> meals are eaten out of home
                             </p>
                         </li>
                     </ul>
@@ -185,13 +212,13 @@
             </section>
             <section class="section4">
                 <div class="left-content">
-                    <h3><a href="explore-sustainable-menu.php" target="_self">Know how – <br> Steps how to create a <br> Sustainable Menu</a></h3>
+                    <h3>Know how – <br> Steps how to create a <br> Sustainable Menu</h3>
                     <p>It is easy to mirror your sustainability philosophy on your menu.
                         There are several steps that can help you.
                     </p>
                     <ul>
                         <li>
-                            Reduce the size of your menu
+                            Reducing the size of your menu
                         </li>
                         <li>Demonstrating the impact of responsible sourcing</li>
                         <li>Offering mainly regional and organic food</li>
@@ -440,7 +467,21 @@
         document.addEventListener("click", closeAllSelect);
     </script>
     <script src="jquery/page1.js"></script>
-
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader-page2").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader-page2").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 
