@@ -1142,102 +1142,122 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
 
 
 
-
-
-  <div id="plastic_waste_content1" class="modalx">
+  <div id="pop1" class="modalx">
     <div class="modalx-content">
-      <h4> Rethink your usage of plastic film</h4>
-      <p>Where possible and subject to hygiene regulations, avoid plastic film by using reusable containers or wax wraps.</p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close1">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+      <h4>Rethink your usage of plastic film</h4>
+      <p>
+        Where possible and subject to hygiene regulations, avoid plastic film by using reusable containers or wax wraps.
+      </p>
     </div>
   </div>
-  <div id="plastic_waste_content2" class="modalx">
+
+
+  <div id="pop2" class="modalx">
     <div class="modalx-content">
-      <h4> Avoid single use plastics</h4>
-      <p>You can avoid single use plastic, encourage customers to bring their own containers for takeaway and purchase products that are packaged more sustainably.</p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close2">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+      <h4>Avoid single use plastics</h4>
+      <p>
+        You can avoid single use plastic, encourage customers to bring their own containers for takeaway and purchase products that are packaged more sustainably.
+      </p>
     </div>
   </div>
-  <div id="plastic_waste_content3" class="modalx">
+
+
+  <div id="pop3" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
       <h4>Don’t serve plastic straws</h4>
-      <p> Reflect if you really need to use some items or if they are there because of habit. Therefore, consider not serving straws unless guests specifically ask for them</p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close3">X</a>
-    </div>
-  </div>
-  <div id="plastic_waste_content4" class="modalx">
-    <div class="modalx-content">
-      <h4> Give discounts for people who bring their own takeaway containers</h4>
-      <p>Encourage your customers to bring their own containers for takeaway food and drinks and consider giving an incentive like a discount. Ensure that hygiene rules are in place, for example, filling a food container or coffee cup away from the food preparation area. </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close4">X</a>
-    </div>
-  </div>
-  <div id="plastic_waste_content5" class="modalx">
-    <div class="modalx-content">
-      <h4> Ask your customers if they need cutlery </h4>
-      <p>Before you give your customers cutlery (knife, fork, spoon, stirrer, or chopsticks) with their takeaway ask them if they actually want it.</p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close5">X</a>
-    </div>
-  </div>
-  <div id="plastic_waste_content6" class="modalx">
-    <div class="modalx-content">
-      <h4>Introduce tap water </h4>
-      <p>If the water quality allows it, offer tap water for customers.
+      <p>
+        Reflect if you really need to use some items or if they are there because of habit. Therefore, consider not serving straws unless guests specifically ask for them.
       </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close6">X</a>
     </div>
   </div>
-  <div id="plastic_waste_content7" class="modalx">
+
+
+  <div id="pop4" class="modalx">
     <div class="modalx-content">
-      <h4>Use returnable deposit packaging and returnable plastic carrier packaging </h4>
-      <p>To reduce plastic, use returnable deposit packaging wherever possible, for example, glass water bottles or plastic crates instead of plastic wrap as returnable plastic carrier packaging.
+      <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+      <h4>Give discounts for people who bring their own takeaway containers</h4>
+      <p>
+        Encourage your customers to bring their own containers for takeaway food and drinks and consider giving an incentive like a discount. Ensure that hygiene rules are in place, for example, filling a food container or coffee cup away from the food preparation area.
       </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close7">X</a>
     </div>
   </div>
-  <div id="plastic_waste_content8" class="modalx">
+
+  <div id="pop5" class="modalx">
     <div class="modalx-content">
-      <h4> Use plastic collection and disposal services </h4>
-      <p>Your local wholesaler provides plastic collection and disposal services that you should use so that plastic can be properly recycled.
+      <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+      <h4>Ask your customers if they need cutlery</h4>
+      <p>
+        Before you give your customers cutlery (knife, fork, spoon, stirrer, or chopsticks) with their takeaway ask them if they actually want it.
       </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close8">X</a>
     </div>
   </div>
-  <div id="plastic_waste_content9" class="modalx">
+
+
+  <div id="pop6" class="modalx">
     <div class="modalx-content">
-      <h4> Take part in a water fill up scheme
-      </h4>
-      <p>Water fill up schemes put your restaurants on the map for registered uses for people to come and fill up their bottles for free. You do not only show your social awareness, but you also concretely prevent more plastic from being consumed because consumers will not need to buy water in plastic bottles. Moreover, this can also be a way to generate new customers. </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close9">X</a>
-    </div>
-  </div>
-  <div id="plastic_waste_content10" class="modalx">
-    <div class="modalx-content">
-      <h4> Purchase sustainable packaged products </h4>
-      <p>Buy products that are packaged sustainably. This means simple packaging without PVC, PVDC and EPS. This might also lower your disposal costs.
+      <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+      <h4>Introduce tap water</h4>
+      <p>
+        If the water quality allows it, offer tap water for customers.
       </p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close10">X</a>
+    </div>
+  </div>
+
+
+  <div id="pop7" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
+      <h4>Use returnable deposit packaging and returnable plastic carrier packaging</h4>
+      <p>
+        To reduce plastic, use returnable deposit packaging wherever possible, for example, glass water bottles or plastic crates instead of plastic wrap as returnable plastic carrier packaging.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="pop8" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
+      <h4>Use plastic collection and disposal services</h4>
+      <p>
+        Your local wholesaler provides plastic collection and disposal services that you should use so that plastic can be properly recycled.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="pop9" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
+      <h4>Take part in a water fill up scheme</h4>
+      <p>
+        Water fill up schemes put your restaurants on the map for registered uses for people to come and fill up their bottles for free. You do not only show your social awareness, but you also concretely prevent more plastic from being consumed because consumers will not need to buy water in plastic bottles. Moreover, this can also be a way to generate new customers.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop10" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
+      <h4>Purchase sustainable packaged products</h4>
+      <p>
+        Buy products that are packaged sustainably. This means simple packaging without PVC, PVDC and EPS. This might also lower your disposal costs.
+      </p>
     </div>
   </div>
 
   <div id="pop11" class="modalx">
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
-      <h4>Re-use grey water</h4>
+      <h4>Engage your staff</h4>
       <p>
-        Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+        The use of plastic is closely linked to habits. Therefore, it is essential to communicate the necessity and the benefit of using less plastic to your staff. Involve them in regular updates and briefings on your plastic use policy, place posters in easy-to-see places to remind them of new habits, and let them know that input from each one is needed and appreciated.
       </p>
     </div>
   </div>
-
-  <div id="plastic_waste_content11" class="modalx">
-    <div class="modalx-content">
-      <h4>Engage your staff</h4>
-      <p>The use of plastic is closely linked to habits. Therefore, it is essential to communicate the necessity and the benefit of using less plastic to your staff. Involve them in regular updates and briefings on your plastic use policy, place posters in easy-to-see places to remind them of new habits, and let them know that input from each one is needed and appreciated.</p>
-      <a class="read-more-btn btn btn-sm plasticWaste_close11">X</a>
-    </div>
-  </div>
-
 
 
 
