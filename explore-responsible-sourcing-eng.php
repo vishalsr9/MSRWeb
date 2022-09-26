@@ -675,6 +675,24 @@
             font-weight: bold !important;
         }
     </style>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            #section-to-print,
+            #section-to-print * {
+                visibility: visible;
+            }
+
+            #section-to-print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
 </head>
 
 <body class="page4-page">
@@ -724,9 +742,9 @@
             </div>
         </div>
     </header>
-    <div id="loader-page2" class="center">
+    <div id="loader-page2" class="center no-print">
         <span class="loader__text">
-            <img src="images/loader.gif" class="loader9" />
+            <img src="images/yellow_pan.gif" class="loader9" />
         </span>
     </div>
 
@@ -846,16 +864,16 @@
                     Good to know – Schemes that help you find your way
                 </h3>
 
-                <div class="row">
+                <div class="row no-print">
                     <div class="col-md-9">
-                        <p class="justify1">
+                        <p class="justify1 no-print">
                             Certifications and labels are a visible way to know how sustainable a product is. When a product is labelled with the logo of a certification scheme, the origin and production method is guaranteed. Digital tools that give information on where the product comes from and how it was made (transparency and traceability) are increasingly available, such as smartphone apps. METRO’s own traceability solution PROTRACE provides restaurateurs with lot-based traceability information and enables you to receive important information about your products. Being in close contact with suppliers and finding out how they produce food is also a way to be closer to what you are sourcing. Many small producers do not have certifications or digital tools but are happy to share details of how they produce food. Sharing this information with your customers in a simple way can be a great possibility to connect them with the food you source.
                         </p>
-                        <p class="justify1">
+                        <p class="justify1 no-print">
                             Around the world, logos on labels, and certifications make it possible to recognize products that have an official sign of quality and origin. But not all products that have a certificate are labelled. Check out the following main schemes and examples.
                         </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 no-print">
                         <div class="msr-img-holder">
                             <div class="msr-img-holder-inner">
                                 <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">
@@ -1064,7 +1082,7 @@
                                                                 GGN label is for fruit and vegetables, farmed seafood and plants
                                                                 and gives consumers guidance and assurance of good
                                                                 farming practices that have been certified according to GLOBAL
-                                                                G.A.P. standard. . You can look up the origin of a
+                                                                G.A.P. standard. You can look up the origin of a
                                                                 product and what the producer’s farm looks like via the online
                                                                 GGN portal.
                                                             </p>
@@ -1313,20 +1331,20 @@
 
                 <div class="container-full con50">
                     <div class="row">
-                        <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center">
+                        <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center no-print">
                             <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
                             <p>
                                 <strong>
-                                    It is not always easy to know what a sustainable product is and the definitions can
+                                    It is not always easy to know what a sustainable product is and<br>the definitions can
                                     be different depending on the perspectives and beliefs of the person or organisation
-                                    looking at it. You can use the following characteristics as a guide, because
+                                    looking at it.<br>You can use the following characteristics as a guide, because
                                     sustainable products have at least one of these characteristics.
                                 </strong>
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 no-print">
                             <ul id="n-Ul">
                                 <li id="n-li-1" class="n-li">
                                     <div class="pbox">
@@ -1721,7 +1739,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-md-8">
+                        <div class="col-md-8 no-print">
                             <div class="conx">
                                 <ul id="ulContent1">
                                     <li class="liContent show-li" style="display:none;">
@@ -2264,7 +2282,7 @@
                                                                     to biodiversity?
                                                                 </strong>
                                                             </h5>
-                                                            <p class="">
+                                                            <p class="justify1">
 
                                                                 As humans our mental well-being is better when we are part
                                                                 of an environment that has a healthy and balanced
@@ -2274,7 +2292,7 @@
                                                                 over a relatively short period of time.
 
                                                             </p>
-                                                            <p class="">
+                                                            <p class="justify1">
                                                                 Around 1 million animal species are threatened with extinction –
                                                                 more than ever before in human
                                                                 history. This goes hand in hand with wildlife population
@@ -2294,7 +2312,7 @@
                                                         <div class="col-md-4">
                                                             <div class="msr-img-holder6">
                                                                 <div class="msr-img-holder-inner6">
-                                                                    <img src="images/resp_sourcing/save-earth.svg" class="save-earth">
+                                                                    <img src="images/resp_sourcing/save-earth.svg" class="save-earth sve2">
                                                                 </div>
                                                             </div>
 
@@ -2418,62 +2436,78 @@
                                                         starch) and wood/paper fibre from managed forests.
                                                     </p>
                                                 </div>
-                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>
-                                                            Why is it important to source packaging that has<br>
-                                                            less environmental impact?
-                                                        </strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/food-pack.svg" class="img-fluid hen-egg">
-                                                        When packaging is used unnecessarily and dispensed of in the
-                                                        wrong way it can cause harm to the environment. The production
-                                                        and disposal of conventional plastic and single-use packaging
-                                                        requires resources (for example fossil fuel) and has a
-                                                        negative
-                                                        impact on the environment - a truckload of plastic ends up in
-                                                        our
-                                                        oceans every minute. Other materials like cardboard and wood
-                                                        when not disposed of properly can also attract fines and waste
-                                                        collection costs.
-                                                    </p>
-                                                    <h6 class="">
-                                                        <strong>
-                                                            Here are some examples of how long some products need to
-                                                            break down in a landfill
-                                                        </strong>
-                                                    </h6>
-                                                    <p class="justify1 mt-4">
-                                                        <strong>Compostable packaging</strong> decomposes into natural elements which are
-                                                        rich in nutrients and
-                                                        good for the environment within a certain period of time. Home
-                                                        compostable packaging can
-                                                        compost at ambient temperature (20-30°C) within 52 weeks
-                                                        according
-                                                        to European standard
-                                                        EN 13432. This means that you can throw your packaging in your
-                                                        compostable bin with your
-                                                        fruit and vegetable peels.
-                                                    </p>
-                                                    <p class="justify1 mt-2">
-                                                        <strong>Industrial compostable packaging</strong> needs to be collected and
-                                                        properly
-                                                        treated in a specific facility. It will completely
-                                                        break down within 12 weeks thanks to specific conditions
-                                                        (50-70°C)
-                                                        according to European standard EN 13432. If the
-                                                        waste is put into a recycling bin, it will contaminate the whole
-                                                        batch, making it impossible to be recycled and reused.
-                                                        In landfills or in in-home
-                                                        compost bins, it won’t biodegrade. And if it ends up in marine
-                                                        environments, it’ll function similarly to conventional
-                                                        plastic, breaking down into micro-sized pieces, lasting for
-                                                        decades,
-                                                        and
-                                                        presenting a danger to marine life.
 
-                                                    </p>
+
+                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>
+                                                                    Why is it important to source packaging that has<br>
+                                                                    less environmental impact?
+                                                                </strong>
+                                                            </h5>
+                                                            <p class="justify1">
+                                                                When packaging is used unnecessarily and dispensed of in the
+                                                                wrong way it can cause harm to the environment. The production
+                                                                and disposal of conventional plastic and single-use packaging
+                                                                requires resources (for example fossil fuel) and has a
+                                                                negative
+                                                                impact on the environment - a truckload of plastic ends up in
+                                                                our
+                                                                oceans every minute. Other materials like cardboard and wood
+                                                                when not disposed of properly can also attract fines and waste
+                                                                collection costs.
+                                                            </p>
+                                                            <h6 class="">
+                                                                <strong>
+                                                                    Here are some examples of how long some products need to
+                                                                    break down in a landfill
+                                                                </strong>
+                                                            </h6>
+                                                            <p class="justify1 mt-4">
+                                                                <strong>Compostable packaging</strong> decomposes into natural elements which are
+                                                                rich in nutrients and
+                                                                good for the environment within a certain period of time. Home
+                                                                compostable packaging can
+                                                                compost at ambient temperature (20-30°C) within 52 weeks
+                                                                according
+                                                                to European standard
+                                                                EN 13432. This means that you can throw your packaging in your
+                                                                compostable bin with your
+                                                                fruit and vegetable peels.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder9">
+                                                                <div class="msr-img-holder-inner9">
+                                                                    <img src="images/resp_sourcing/food-pack.svg" class="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+
+
+                                                            <p class="justify1 mt-2">
+                                                                <strong>Industrial compostable packaging</strong> needs to be collected and
+                                                                properly
+                                                                treated in a specific facility. It will completely
+                                                                break down within 12 weeks thanks to specific conditions
+                                                                (50-70°C)
+                                                                according to European standard EN 13432. If the
+                                                                waste is put into a recycling bin, it will contaminate the whole
+                                                                batch, making it impossible to be recycled and reused.
+                                                                In landfills or in in-home
+                                                                compost bins, it won’t biodegrade. And if it ends up in marine
+                                                                environments, it’ll function similarly to conventional
+                                                                plastic, breaking down into micro-sized pieces, lasting for
+                                                                decades,
+                                                                and
+                                                                presenting a danger to marine life.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2525,7 +2559,7 @@
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/earth-temperature.svg" class="img-fluid hen-egg mt-2">
+                                                            <img src="images/resp_sourcing/earth-temperature.svg" class="et2">
                                                         </div>
                                                     </div>
 
@@ -2615,7 +2649,7 @@
                     Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a globalised world where most of the time we are used to getting different kinds of products throughout the year, even though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients are produced. Check out the following simple ways to source responsibly:
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 no-print">
                 <div class="msr-img-holder7">
                     <div class="msr-img-holder-inner7">
                         <img src="images/resp_sourcing/fresh-store.svg" class="fresh-store">
@@ -2725,23 +2759,23 @@
 
 
 
-    <div class="row">
+    <div class="row no-print">
         <div class="col-md-12">
             <div class="pageSlider-container">
                 <div class="pageSlider-container-inner">
-                    <div class="pageSlider-prev">
+                    <div class="pageSlider-prev no-print">
                         <div class="pageSlider-prev-inner">
                             <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
                         </div>
                     </div>
-                    <div class="pageSlider">
+                    <div class="pageSlider no-print">
                         <div class="pageSlider-inner">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="pageSlider-holder">
-                                        <div class="swiper pageSwiper1">
+                                        <div class="swiper pageSwiper1 no-print">
                                             <div class="swiper-wrapper">
-                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                <div class="swiper-slide pageSlider-slide text-center no-print">
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="pageSlider-slide-image">
@@ -2758,7 +2792,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
+                                                            <div class="pageSlider-slide-button no-print">
                                                                 <span class="sldBtn01">
                                                                     <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
                                                                 </span>
@@ -2766,7 +2800,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                <div class="swiper-slide pageSlider-slide text-center no-print">
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="pageSlider-slide-image">
@@ -2776,7 +2810,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
+                                                            <div class="pageSlider-slide-text no-print">
                                                                 <span class="sldText02">
                                                                     LOOK AT WHO<br>SUPPLIES YOUR PRODUCTS
                                                                 </span>
@@ -2791,7 +2825,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="swiper-slide pageSlider-slide text-center">
+                                                <div class="swiper-slide pageSlider-slide text-center no-print">
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="pageSlider-slide-image">
@@ -2899,8 +2933,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="pageSlider-pagination">
-                                        <div class="pageSlider-pagination-inner">
+                                    <div class="pageSlider-pagination no-print">
+                                        <div class="pageSlider-pagination-inner no-print">
                                             <div class="swiper-pagination pageSwiper1Pagination"></div>
                                         </div>
                                     </div>
@@ -2910,7 +2944,7 @@
                         </div>
                     </div>
                     <div class="pageSlider-next">
-                        <div class="pageSlider-next-inner">
+                        <div class="pageSlider-next-inner no-print">
                             <div class="swiper-button-next pageSwiper1NextBtn"></div>
                         </div>
                     </div>
@@ -2968,7 +3002,7 @@
         </div>
 
 
-        <div class="container9 mt-m2 mb-5">
+        <div class="container9 mt-m2 mb-5 no-print">
             <div class="row">
                 <div class="col-md-12 mb-2">
                     <!---top row-->
@@ -3102,7 +3136,7 @@
 
     <!-----Trach and talk--------->
     <section class="container9 section-text-withimages section4-4 more-text no-print">
-        <div class="left-content9">
+        <div class="left-content9 no-print">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="h3v2">Track and talk <br>about your progress</h3>
@@ -3113,17 +3147,17 @@
             </div>
 
 
-            <div class="track-talk-subsection mt-5 mb-3 py-2">
+            <div class="track-talk-subsection mt-5 mb-3 py-2 no-print">
                 <div class="row">
                     <div class="col-md-12 mt-5">
                         <div class="row">
                             <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-1">
+                                <div class="tracktalk-iconbox tracktalk-icon-1 no-print">
                                     <img src="images/resp_sourcing/tracktalk-icon1.svg" class="img-fluid " />
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Be aware that “farm-to-table” restaurants continue to appeal to restaurant visitors. Connect your customers to the source of your ingredients by talking with them about your menu.
                                     </strong>
@@ -3134,12 +3168,12 @@
                     <div class="col-md-12 mt-3">
                         <div class="row">
                             <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-2">
+                                <div class="tracktalk-iconbox tracktalk-icon-2 no-print">
                                     <img src="images/resp_sourcing/tracktalk-icon2.svg" class="img-fluid tracktalk-icon" />
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Explain why you made the changes and the benefits of those changes. For
                                         example, you might decide not to serve strawberries in the winter, but
@@ -3157,7 +3191,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>If you have traceability information on your menu or your website, explain how
                                         it works. Think about displaying a seasonal calendar with pictures of the
                                         produce in your restaurant, website or social media page. This can create a
@@ -3175,7 +3209,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Communicate what you are doing. For example, a sign on your menu in your
                                         restaurant or website is a visible reminder to your customers about your
@@ -3206,7 +3240,7 @@
     </section>
     <!-----TODO--------->
     <!-----TODO--------->
-    <section class="container section4-6">
+    <section class="container section4-6 print9 " id="section-to-print">
         <div class="top-content">
             <h3>Your Action Plan</h3>
         </div>

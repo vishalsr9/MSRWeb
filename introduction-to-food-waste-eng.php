@@ -65,7 +65,7 @@
     </header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
-            <img src="images/loader.gif" class="loader9" />
+            <!-- <img src="images/loader.gif" class="loader9" /> -->
         </span>
     </div>
     <section class="safeFoodl4_banner no-print">
@@ -73,7 +73,7 @@
             <div class="row px-4">
                 <div class="col-md-6">
                     <div class="banner_l4_title Banner_l3_title">
-                        <h1 class="banner_title">WHY WE NEED TO REDUCE FOOD WASTE</h1>
+                        <h1 class="banner_title">WHY WE NEED TO REDUCE <br>FOOD WASTE</h1>
 
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                 <div class="col-md-6">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-4.svg" class="px-4 dis_img2" style="width: 60%;">
-                        <h4><strong>36% </strong>of HoReCa customers (globally) <br>think that reducing food wasteis one of the most important issues to deal <br>with in their business </h4>
+                        <h4><strong>36% </strong>of HoReCa customers (globally) think <br>that reducing food waste is one of the most <br>important issues to deal with in their business </h4>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
             </li>
             <li></li>
             <li>
-                <p>Prevent pollution of local and global environments</p>
+                <p>Prevent pollution of local and global environment</p>
             </li>
             <li></li>
             <li>
@@ -213,7 +213,7 @@
         <div class="left-content noalign border-right col-md-6">
             <h3>KNOW HOW – <br>STEPS HOW TO<br> AVOID FOOD WASTE</h3>
             <p>
-                Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest Food Waste Report.<br><br>Landfills should be the last place where food waste ends up!
+                Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest <a href="https://responsibility.metroag.de/focus-areas/food-waste">Food Waste Report</a>.<br><br>Landfills should be the last place where food waste ends up!
             </p>
 
 

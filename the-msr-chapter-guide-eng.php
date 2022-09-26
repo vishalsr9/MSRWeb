@@ -16,13 +16,19 @@
 		.page-2_stage {
 			max-width: 60% !important;
 		}
+
+		.loader9 {
+			margin-top: -3rem;
+			width: 100px;
+			height: 100px;
+		}
 	</style>
 </head>
 
 <body class="page2-page">
 	<div id="loader-page2" class="center">
 		<span class="loader__text">
-			<img src="images/loader.gif" class="loader9" />
+			<img src="images/yellow_pan.gif" class="loader9" />
 		</span>
 	</div>
 	<header>

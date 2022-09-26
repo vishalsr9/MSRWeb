@@ -28,6 +28,24 @@
       text-overflow: ellipsis;
     }
   </style>
+  <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -79,7 +97,7 @@
   </header>
   <div id="loader-page2" class="center">
     <span class="loader__text">
-      <img src="images/loader.gif" class="loader9" />
+      <img src="images/yellow_pan.gif" class="loader9" />
     </span>
   </div>
   <div class="container-full">
@@ -489,7 +507,7 @@
           <img src="images/flag-p-svg.svg" />
         </div>
       </section>
-      <section class="container section4-6 ">
+      <section class="container section4-6 " id="section-to-print">
         <div class="top-content">
           <h3>Your Action Plan</h3>
         </div>

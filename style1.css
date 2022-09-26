@@ -1033,6 +1033,23 @@ a.aqu:hover {
     margin-top: -3rem;
 }
 
+.hen-egg0 {
+    width: 15rem;
+    height: auto;
+    float: right;
+    padding-left: 2rem;
+    margin-top: -3rem;
+}
+
+.hen-egg1 {
+    width: 15rem;
+height: auto;
+float: right;
+padding-left: 2rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+
 #ulContent1 {
     margin-top: 60px;
 }
@@ -1593,8 +1610,9 @@ padding-bottom: .5rem;
 
 .msr-img-holder3>.msr-img-holder-inner3>img{
     vertical-align: middle;
-    height:10rem;
-    margin-top:-1.5rem;
+height: 12rem;
+margin-top: -2.5rem;
+margin-left: -2rem;
 }
 
 .msr-img-holder4{
@@ -1617,8 +1635,10 @@ padding-bottom: .5rem;
 }
 
 .salad-bowl{
-    height:9rem;
-    width:auto;
+    height: 12rem;
+width: auto;
+margin-left: 2rem;
+margin-top: 2rem;
 }
 
 
@@ -1639,7 +1659,7 @@ padding-bottom: .5rem;
 .msr-img-holder5>.msr-img-holder-inner5>img{
     vertical-align: middle;
 height: 9rem;
-margin-top: -2rem;
+margin-top: 2rem;
 }
 
 
@@ -1696,7 +1716,7 @@ margin-top: -2rem;
 }
 
 .bin-waste{
-    height:15.5rem;
+    height:17.5rem;
 }
 
 .nojustify1{
@@ -1710,7 +1730,55 @@ margin-bottom: 2rem;
 }
 
 .loader9{
-    margin-top:-2rem;
-    width:150px;
-    height:150px;
+    margin-top: -3rem;
+width: 100px;
+height: 100px;
+}
+
+.msr-img-holder9{
+    width:auto;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+.msr-img-holder-inner9{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.msr-img-holder9>.msr-img-holder-inner9>img{
+   vertical-align: middle;
+/* height: 19em; */
+margin-top: 3.5rem;
+width: 18rem;
+}
+
+img.h2e{
+width: 16rem !important;
+margin-top: 0rem !important;
+}
+
+img.sf1{
+    margin-top: 6.5rem!important;
+}
+
+img.sve1{
+    margin-top: 6rem!important;
+}
+
+img.sve2{
+    margin-top: 5rem!important;
+}
+
+img.et1{
+    width: 16rem;
+margin-top: 2rem;
+margin-left: 2rem;
+}
+
+img.et2{
+    width: 16rem;
+margin-top: 0rem;
+margin-left: 2rem;
 }

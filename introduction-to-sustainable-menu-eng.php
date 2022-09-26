@@ -83,7 +83,7 @@
     </header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
-            <img src="images/loader.gif" class="loader9" />
+            <img src="images/yellow_pan.gif" class="loader9" />
         </span>
     </div>
     <div class="container-full">
@@ -482,6 +482,7 @@
             }
         };
     </script>
+
 </body>
 
 

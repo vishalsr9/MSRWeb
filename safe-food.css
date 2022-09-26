@@ -579,7 +579,7 @@ button.read-more-btn.plasticWaste_btn-1 {
 
 .didyouknow h3 {
   color: #003b7e;
-  font-size: 50px;
+  font-size: 40px;
   font-family: GothamBold;
   text-transform: capitalize;
 }
@@ -704,7 +704,7 @@ section.didyouknow {
 .good_to_know_box {
   text-align: center;
   border: 2px solid #003b7e;
-  height: 360px;
+  height: 400px;
 }
 .good_to_know_box img.img-fluid {
   width: 40%;
@@ -717,7 +717,7 @@ section.good_to_know {
 }
 .good_to_know_box p {
   margin-top: 12px;
-  font-size: 14px;
+  font-size: 16px;
 }
 section.good_to_know h3 {
   font-size: 40px;
@@ -942,7 +942,7 @@ section.good_to_know h3 {
   cursor: pointer;
 }
 .three-step_para p {
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 60px;
 }
 b,
@@ -1103,7 +1103,7 @@ h1.banner_title {
   margin-bottom: 3rem;
 }
 .food_wasteTitle {
-  margin-bottom: 25px !important;
+  margin-bottom: 15px !important;
   margin-top: 2rem !important;
   font-size: 40px !important;
   text-align: center !important;
@@ -1216,7 +1216,7 @@ section.compost_wasteFood {
   display: none;
 }
 .learn_to_make p {
-  font-size: 16px;
+  font-size: 16px;padding-left: 40px;
   margin-bottom: 0;
 }
 .compost_wasteFood_img.learn_to_make {
@@ -1390,7 +1390,7 @@ section.didyouknow_contents.waste_foot_l3 img {
 }
 .didyouknow_contents.waste_foot_l3 h3 {
   color: #003b7e;
-  font-size: 50px;
+  font-size: 40px;
   font-family: GothamBold;
   text-transform: capitalize;
   margin-top: 4rem;
@@ -1564,7 +1564,7 @@ section.didyouknow_contents.waste_foot_l3 img {
 }
 a.imgCta {
   position: absolute;
-  top: 7%;
+  top: 9%;
   transform: translate(-50%, 105px);
   left: 53%;
   color: #fff;

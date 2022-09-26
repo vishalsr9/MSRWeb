@@ -132,7 +132,7 @@
   </header>
   <div id="loader-page2" class="center">
     <span class="loader__text">
-      <img src="images/loader.gif" class="loader9" />
+      <!-- <img src="images/loader.gif" class="loader9" /> -->
     </span>
   </div>
   <section class="safeFoodl4_banner no-print">
@@ -144,7 +144,7 @@
             <h6>
               <strong>Food waste and your business</strong>
             </h6>
-            <p>Food waste costs money. That ́s why wasted food is a waste of money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict. Conflicts that young and future customers are not willing to accept. At the same time, the demand for food is increasing as the world ́s population grows, but the farmland is finite. That ́s why legislation is being passed which requires hospitality and food services to deal with food waste more efficiently. EU legislation obliges the HoReCa sector to measure food waste e.g. in France, Germany and many other countries. </p>
+            <p>Food waste costs money. That's why wasted food is a waste of money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict. Conflicts that young and future customers are not willing to accept. At the same time, the demand for food is increasing as the world ́s population grows, but the farmland is finite. That's why legislation is being passed which requires hospitality and food services to deal with food waste more efficiently. EU legislation obliges the HoReCa sector to measure food waste e.g. in France, Germany and many other countries. </p>
           </div>
         </div>
         <div class="col-md-5 offset-md-1 no-print">
@@ -159,11 +159,11 @@
     <div class="container">
       <div class="row">
         <h3 class="food_wasteTitle">Landfills should be the last place for food waste</h3>
-        <p class="exploreFood_discripsn">Over 1/3 of all food produced globally goes to waste. There are many other ways to handle food waste. First of all: think about how you can avoid food waste. Then resell surplus food, donate it to people in need, or animal shelters. If possible, recycle food for other purposes and compost as much as possible. Ensure you minimize the quantity of food waste that goes to landfills.</p>
+        <p class="exploreFood_discripsn">Over 1/3 of all food produced globally goes to waste. There are many other ways to handle food waste. <br>First of all: think about how you can avoid food waste. Then resell surplus food, donate it to people in need, or animal shelters. If possible, recycle food for other purposes and compost as much as possible. Ensure you minimize the quantity of food waste that goes to landfills.</p>
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 3.1.svg" class="img-fluid">
-            <p>Makes a positive impacton your business’ image</p>
+            <p>Makes a positive impact on your business’ image</p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 5.1.svg" class="img-fluid">
@@ -171,7 +171,7 @@
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 8.1.svg" class="img-fluid">
-            <p>Has a positive impacton your local environment</p>
+            <p>Has a positive impact on your local environment</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -180,21 +180,21 @@
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 9.1.svg" class="img-fluid">
-            <p>You differentiate yourselfby standing out as responsible </p>
+            <p>You differentiate yourself by standing out as responsible </p>
           </div>
         </div>
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 4.1.svg" class="img-fluid">
-            <p>Improves your business operationpractices and efficiency</p>
+            <p>Improves your business operation practices and efficiency</p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 7.1.svg" class="img-fluid">
-            <p>Has a positive impacton your work ethics </p>
+            <p>Has a positive impact on your work ethics </p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 10.svg" class="img-fluid">
-            <p>You will be readyto comply with new laws</p>
+            <p>You will be ready to comply with new laws</p>
           </div>
         </div>
       </div>
@@ -907,7 +907,7 @@
     <div class="section-div">
       <div class="container-fluid ">
         <div class="sw-holder">
-          <h3 class="wayT0Title">Simple ways to prevent plastic waste</h3>
+          <h3 class="wayT0Title">Simple ways to prevent food waste</h3>
           <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
           <div class="swholder1 slider_3">
 
@@ -1091,7 +1091,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-text">
                                             <span class="sldText07">
-                                              Compost the Scraps
+                                              Discount or donate surplus food
                                             </span>
                                           </div>
                                         </div>
@@ -1147,7 +1147,7 @@
   <section class="advance_way no-print">
     <div class="container">
       <div class="row">
-        <h3>Advanced ways to save food waste</h3>
+        <h3>Advanced ways to reduce food waste</h3>
         <p>You can go even further by implementing advanced ways to reduce food waste in your restaurant:</p>
       </div>
     </div>
@@ -1184,7 +1184,7 @@
                 <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Place clear signage in your back-of-house area to show where the food scraps and compost go</p>
+                <p>Place clear signs in your back-of-house area to show where the food scraps and compost go</p>
               </div>
             </div>
           </div>
@@ -1253,11 +1253,11 @@
       <div class="row safeFoodl4_paragraphs_bgwhite no-print">
         <div class="col-md-6 p-4">
           <h4 class="pl-4">Composting and its benefits</h4>
-          <p class="pl-4">Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers. Depending on the local regulations, a restaurant can even use compost for</p>
+          <p class="pl-4">Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers. </p>
         </div>
         <div class="col-md-6 p-4">
           <h4></h4>
-          <p class="pt-4">an onsite garden, from plant pots to a small herb garden to a vegetable patch or simply the garden. </p>
+          <p class="pt-4">Depending on the local regulations, a restaurant can even use compost for an onsite garden, from plant pots to a small herb garden to a vegetable patch. </p>
           <p>But not all sorts of food can be composted. Diseased plants, dairy products, coal or charcoal ashes, meat and bones, oil, fat and grease, and all toxic materials cannot be composted. Compostable materials include fruit and vegetable waste, coffee grounds and filters, paper napkins, wood ashes, cardboard and newspaper. You should check with your local waste collection service or authority about what is possible to send for commercial composting. Also, ask them if they collect cooked waste and animal products as they might have a service to process these foods into biogas. </p>
         </div>
       </div>
@@ -1267,25 +1267,26 @@
     <div class="container-fluid">
       <div class="row px-4">
         <h3 class="food_wasteTitle">LEARN TO MAKE MORE OUT OF FOOD SCRAPS</h3>
+        <p class="text-center">Check out the following aspects when you want to cook with unwanted parts:</p>
         <div class="col-md-6">
           <div class="compost_wasteFood_img learn_to_make">
 
-            <p class="mt-4">Unwanted parts are those pieces of meat, fish and vegetables that usually get discarded because the taste, texture or appearance is not what diners can stomach. Sometimes these unwanted parts, such as offal or bones, are simply forgotten over the decades. What is clear is that many of us, particularly in developed countries, lost our imagination to create delicious and nutritious meals out of all parts of the animal. We lost our connection to where food comes from and our appreciation of the effort it takes to produce. <br>
-              <br>When you use these generally unwanted parts you can deliver a whole new world of tastes and textures to your customers. Restaurants influence eating patterns and many trends have started in restauration. Check out the following aspects when you want to cook with unwanted parts:
+            <p class="mt-5">Unwanted parts are those pieces of meat, fish and vegetables that usually get discarded because the taste, texture or appearance is not what diners can stomach. Sometimes these unwanted parts, such as offal or bones, are simply forgotten over the decades. What is clear is that many of us, particularly in developed countries, lost our imagination to create delicious and nutritious meals out of all parts of the animal. We lost our connection to where food comes from and our appreciation of the effort it takes to produce. <br>
+              <br>When you use these generally unwanted parts you can deliver a whole new world of tastes and textures to your customers. Restaurants influence eating patterns and many trends have started in restauration. 
             </p>
             <center class="mt-5">
               <img src="./images/safe_food/Asset 33.svg" class="img-fluid">
             </center>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-4">
           <div class="compost_wasteFood_listing">
             <div class="media">
               <div class="media-left">
                 <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Source your fish and meat responsibly</p>
+                <p>Source your fish and meat <a href="https://responsibility.metroag.de/focus-areas/raw-material-sourcing "> responsibly</a></p>
               </div>
             </div>
           </div>
@@ -1688,7 +1689,7 @@
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
       <h4>Identifying different types of waste</h4>
-      <p> Food waste may be all around but you can take simple steps to reduce it. Start by identifying different types of waste in your restaurant and where it is generated. Generally, food waste comes from either the back of the house (e.g. the store room and the kitchen) or from the front of the house (e.g. where customers are served). Check how much food waste your restaurant generates and observe where most w food waste is coming from.
+      <p> Food waste may be all around but you can take simple steps to reduce it. Start by identifying different types of waste in your restaurant and where it is generated. Generally, food waste comes from either the back of the house (e.g. the store room and the kitchen) or from the front of the house (e.g. where customers are served). Check how much food waste your restaurant generates and observe where most food waste is coming from.
       </p>
       <div class="row mt-4">
         <div class="col-md-6">
@@ -1696,19 +1697,20 @@
           <ul>
             <li> Measure, track and analyse the food wasted</li>
             <li> Evaluate your inventory, menu and dish sales. Remove non-sellers from the menu</li>
-            <li> Use digital tools such as Menukit to track recipes and calculate the daily food needed in order to control your purchasing cost</li>
+            <li> Use digital tools such as <a href="https://www.menukithd.com/ 
+">Menukit</a> to track recipes and calculate the daily food needed in order to control your purchasing cost</li>
             <li> Ask your staff to “hunt” for waste and suggest ways to manage it</li>
-            <li> Optimize the shelf life by ensuring that the cool chain is not broken and products are stored at the right temperature</li>
+            <li> Optimize the shelf life by ensuring that the cool chain is not broken and products are stored at the right temperature </li>
             <li> Organise and label your stock so that the shelf life is visible and you can more easily rotate it</li>
             <li> Ensure all opened and prepared ingredients have a label stating the shelf life</li>
             <li> Keep your stock organized so that you know what needs to be used up and to ensure you don’t order more than your kitchen needs</li>
             <li>Check your inventory frequently in order to compare purchased quantities and the quantity of food wasted</li>
-            <li>Find ways of repurposing unused ingredients and parts of food with zero waste recipes</li>
+            <li>Find ways of repurposing unused ingredients and parts of food with <a href="https://www.mpulse.de/en/gastronomy/food-trends-for-the-hospitality-industry"> zero waste</a> recipes</li>
             <li> Consider that food scraps (not of animal origin) can be donated for animal feed in a local animal shelter or a zoo</li>
             <li> At the end of the service, allow your staff to eat the surplus food or take it home</li>
             <li>Donate your surplus ingredients if you can´t use them</li>
             <li> Recycle and / or upcycle waste where possible</li>
-            <li>Learn to cook with unwanted parts of meat, fish, fruit and vegetables</li>
+            <li>Learn to <a href="www.mpulse.de/en/movinggoods/nose-to-tail-vergessene-delicatessen "> cook with unwanted parts</a> of meat, fish, fruit and vegetables</li>
 
 
           </ul>
@@ -1745,9 +1747,9 @@
       <ul>
         <li>Ensure your storage area is well ventilated</li>
         <li>Use the First-In-First-Out (FIFO) principle to ensure that products that come in first, go out first</li>
-        <li>Store fruit and vegetables at a lower temperature than their normal growing environment, to preserve them longer</li>
-        <li>Store fruits and vegetables according to their specific storage temperatures. Berries can be stored in a cold fridge but bananas are best out of the fridge, in a cool place. </li>
-        <li>Leave fresh produce out of their temperature zones for as short as possible. For example, packaged salads may lose a day’s shelf life for every hour that their kept out of their optimum temperature range.</li>
+        <li>Store fruit and vegetables at a lower temperature than their normal growing environment, preserve them longer</li>
+        <li>Store fruits and vegetables according to their specific storage temperatures. Berries can be stored in a cold fridge but bananas are stored best take out of the fridge in a cool place. </li>
+        <li>Leave fresh produce out of their temperature zones for as short as possible. For example, packaged salads may lose a day’s shelf life for every hour that their kept out of their optimum temperature range</li>
         <li>Handle fruits and vegetables carefully to avoid damage</li>
         <li>Stack light weight boxes of delicate items such as berries and mushrooms on top</li>
         <li>Take care of pre-packaged produce, for example, apples in a plastic bag because the damage of one product can easily and quickly damage the others</li>

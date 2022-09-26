@@ -679,6 +679,24 @@
             font-weight: bold !important;
         }
     </style>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            #section-to-print,
+            #section-to-print * {
+                visibility: visible;
+            }
+
+            #section-to-print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
 </head>
 
 <body class="page4-page">
@@ -730,7 +748,7 @@
     </header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
-            <img src="images/loader.gif" class="loader9" />
+            <img src="images/yellow_pan.gif" class="loader9" />
         </span>
     </div>
 
@@ -837,14 +855,28 @@
                 <h3 class="section-heading-blue text-center no-print">
                     Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu finden
                 </h3>
-                <div class="text-justify two-column-break no-print">
-                    <p>
-                        Zertifizierungen und Siegel helfen dabei, nachhaltige Produkte zu erkennen. Wenn ein Produkt mit dem Logo eines Zertifizierungssiegels gekennzeichnet ist, sind die Herkunft und die Art der Herstellung garantiert. Um schnell und unkompliziert an diese Information zu gelangen, gibt es zunehmend mehr Smartphone Apps, die die transparente Rückverfolgbarkeit von Produkten ermöglichen. Der enge Kontakt zu Ihren Lieferanten und die Informationen darüber, wie sie Lebensmittel verarbeiten, sind ebenfalls ein Weg, um näher an dem Herstellungsprozess der Produkte zu sein, die Sie einkaufen. Doch denken Sie daran: nicht alle Produkte sind mit einem Zertifikat gekennzeichnet. Viele kleinere Landwirte verfügen nicht über die Mittel, um Zertifizierungen zu beantragen und sind deshalb nicht auf den entsprechenden Websites für Siegel und Zertifizierungen gelistet. In der Regel geben Ihnen diese kleinen Landwirtschaftsbetriebe aber gerne Auskunft darüber, wie sie ihre Lebensmittel herstellen. Die Weitergabe dieser Informationen an Ihre Gäste in einer für sie verständlichen Form kann eine gute Möglichkeit sein, das Verständnis für die von Ihnen angebotenen Lebensmitteln zu stärken.
-                    </p>
-                    <p>
-                        Nachfolgend finden Sie die wichtigsten Siegel der Lebensmittelbranche.
-                    </p>
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <p class="justify1 no-print">
+                            Zertifizierungen und Siegel helfen dabei, nachhaltige Produkte zu erkennen. Wenn ein Produkt mit dem Logo eines Zertifizierungssiegels gekennzeichnet ist, sind die Herkunft und die Art der Herstellung garantiert. Um schnell und unkompliziert an diese Information zu gelangen, gibt es zunehmend mehr Smartphone Apps, die die transparente Rückverfolgbarkeit von Produkten ermöglichen. Der enge Kontakt zu Ihren Lieferanten und die Informationen darüber, wie sie Lebensmittel verarbeiten, sind ebenfalls ein Weg, um näher an dem Herstellungsprozess der Produkte zu sein, die Sie einkaufen. Doch denken Sie daran: nicht alle Produkte sind mit einem Zertifikat gekennzeichnet. Viele kleinere Landwirte verfügen nicht über die Mittel, um Zertifizierungen zu beantragen und sind deshalb nicht auf den entsprechenden Websites für Siegel und Zertifizierungen gelistet. In der Regel geben Ihnen diese kleinen Landwirtschaftsbetriebe aber gerne Auskunft darüber, wie sie ihre Lebensmittel herstellen. Die Weitergabe dieser Informationen an Ihre Gäste in einer für sie verständlichen Form kann eine gute Möglichkeit sein, das Verständnis für die von Ihnen angebotenen Lebensmitteln zu stärken.
+                        </p>
+                        <p class="justify1 no-print">
+                            Nachfolgend finden Sie die wichtigsten Siegel der Lebensmittelbranche.
+                        </p>
+                    </div>
+                    <div class="col-md-3 no-print">
+                        <div class="msr-img-holder">
+                            <div class="msr-img-holder-inner no-print">
+                                <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">
+                                    <img src="images/Protrace_Logo-ai.svg" class="img-fluid pro-trace mt-2 no-print" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </section>
 
 
@@ -1211,6 +1243,7 @@
 
 
             <!--Non-certified sustainable products-->
+
             <section class="section-white-full-width no-print">
                 <div class="row">
                     <div class="col-md-8 mb-5">
@@ -1226,11 +1259,14 @@
                         </p>
                     </div>
                     <div class="col-md-4 mb-5">
-                        <img src="images/resp_sourcing/non-certified-sust-products.svg" class="img-fluid mt-5 no-print">
+                        <div class="msr-img-holder2">
+                            <div class="msr-img-holder-inner2 mt-4">
+                                <img src="images/resp_sourcing/non-certified-sust-products.svg" class="no-print non-certified-sust-products">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-
 
 
 
@@ -1247,7 +1283,7 @@
                             <h3 class="section-heading-blue">Der umfassende Leitfaden für nachhaltige Produkte </h3>
                             <p>
                                 <strong>
-                                    Es ist nicht immer einfach herauszufinden, wann ein Produkt nachhaltig ist. Die Definitionen können je nach Perspektive und Überzeugung von Personen oder Organisationen stark voneinander abweichen. Folgende Merkmale eignen sich als Leitfaden, da nachhaltige Produkte mindestens eines dieser Merkmale aufweisen:
+                                    Es ist nicht immer einfach herauszufinden, wann ein Produkt nachhaltig ist.<br>Die Definitionen können je nach Perspektive und Überzeugung von Personen oder Organisationen stark voneinander abweichen.<br>Folgende Merkmale eignen sich als Leitfaden, da nachhaltige Produkte mindestens eines dieser Merkmale aufweisen:
                                 </strong>
                             </p>
                         </div>
@@ -1684,11 +1720,16 @@
                                     <li class="liContent show-li" style="display:none;">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-5">
-                                                    <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="img-fluid fruit-stall">
+                                                <div class="col-md-4">
+                                                    <div class="msr-img-holder3">
+                                                        <div class="msr-img-holder-inner3 mt-4">
+                                                            <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="fresh-fruit-stall1 no-print">
+                                                        </div>
+                                                    </div>
+
                                                 </div>
-                                                <div class="col-md-7 mt-2">
-                                                    <p class="justify1">
+                                                <div class="col-md-8 mt-2">
+                                                    <p class="justify1 mt-2">
                                                         Natürlich sind einige Produkte nicht an allen Orten verfügbar, wie z. B. Mangos, aber wenn ein Produkt vor Ort verfügbar ist, sollte es auch dort eingekauft werden, sofern dies sinnvoll ist.
                                                     </p>
                                                 </div>
@@ -1703,6 +1744,8 @@
                                                     </p>
                                                 </div>
                                             </div>
+
+
                                         </div>
                                         <div class="spacer"></div>
                                     </li>
@@ -1782,18 +1825,43 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>
-                                                            Warum ist es wichtig, Produkte einzukaufen, bei denen auf das Tierwohl geachtet wird?
-                                                        </strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/hen-egg-basket.svg" class="img-fluid hen-egg">
-                                                        Obwohl Tiere Gefühle empfinden, werden Milliarden von ihnen in überfüllten, Massentierhaltungen gehalten. Aufgrund der intensiven Haltung werden Antibiotika oft routinemäßig eingesetzt. Wenn die Abfälle aus solchen Betrieben nicht ordnungsgemäß behandelt werden, kann dies auch Auswirkungen auf die umliegende Natur und die Gemeinden haben. Die Bedingungen in vielen Massentierhaltungsbetrieben kann außerdem auch das Wohlbefinden der Tiere beeinträchtigen. Rassen, die für die Intensivhaltung verwendet werden, nehmen schneller an Gewicht zu, wodurch z.B. im Falle von Hühnern ihre Knochen schwächer werden, weshalb diese leicht brechen können. Daraus resultiert auch, dass viele Tiere nicht mehr für die Produktion von Fleisch genutzt werden können.
-                                                    </p>
-                                                    <p class="justify1">
-                                                        Tiere, die mehr Raum für Bewegung haben, können ihr natürliches Verhalten ausleben, was zu weniger Stress führt. Wenn die Tiere sich frei bewegen können, stärkt das ihre Muskeln und führt zu einer besseren Fleischqualität. Das Fleisch von Tieren, die unter stressfreien Bedingungen geschlachtet werden, hat einen besseren Geschmack und eine bessere Konsistenz. Und Eier von Hühnern, die im Freien gehalten werden, haben ein geringeres Risiko einer Kontamination mit Salmonellen, die Lebensmittelvergiftungen verursachen können.
-                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>
+                                                                    Warum ist es wichtig, Verpackungen zu verwenden,<br>
+                                                                    die die Umwelt weniger belasten?
+                                                                </strong>
+                                                            </h5>
+                                                            <p class="justify1">
+                                                                Wenn Verpackungen unnötig verwendet und falsch entsorgt werden, schaden sie der Umwelt. Die Herstellung und Entsorgung herkömmlicher Kunststoff- und Einwegverpackungen erfordert Ressourcen (z.B. fossile Brennstoffe) und dies hat negative Auswirkungen auf die Umwelt. Machen wir uns bewusst: jede Minute landet eine LKW-Ladung Plastik in unseren Ozeanen! Andere Materialien wie Pappe und Holz können, wenn sie nicht ordnungsgemäß entsorgt werden, ebenfalls Kosten durch Bußgelder oder die Müllentsorgung verursachen.
+                                                            </p>
+                                                            <h6 class="">
+                                                                <strong>
+                                                                    Hier sind einige Beispiele dafür, wie lange manche Produkte auf einer Deponie lagern, bis sie vollständig abgebaut sind.
+                                                                </strong>
+                                                            </h6>
+                                                            <p class="justify1 mt-4">
+                                                                <strong>Kompostierbare Verpackungen</strong> zersetzen sich innerhalb eines bestimmten Zeitraums in natürliche, nährstoffreiche und umweltverträgliche Bestandteile. Verpackungen, die im eigenen Garten kompostiert werden , kompostieren sich gemäß der europäischen Norm EN 13432 bei einer Umgebungstemperatur von 20 - 30 °C innerhalb von 52 Wochen. Das bedeutet, dass sie solche Verpackungen zusammen mit Ihren Obst- und Gemüseschalen in Ihre Komposttonne werfen können.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder9">
+                                                                <div class="msr-img-holder-inner9">
+                                                                    <img src="images/resp_sourcing/food-pack.svg" class="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+
+
+                                                            <p class="justify1 mt-2">
+                                                                <strong>Industriell kompostierbare Verpackungen</strong> müssen in einer speziellen Anlage gesammelt und ordnungsgemäß behandelt werden. Aufgrund der spezifischen Bedingungen (50 bis 70 °C) können sie gemäß der europäischen Norm EN 13432 innerhalb von 12 Wochen vollständig abgebaut werden. Werden andere Abfälle in eine Recyclingtonne gegeben, verunreinigen sie die restlichen Bestandteile, so dass diese nicht mehr recycelt und wiederverwendet werden können. Auf Mülldeponien oder in der heimischen Komposttonne kann der Müll nicht biologisch abgebaut werden. Und wenn sie im Meer landen, zerfallen sie ähnlich wie herkömmlicher Kunststoff in mikroskopisch kleine Teile, halten sich jahrzehntelang und stellen eine Gefahr für das Leben im Meer dar.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1807,9 +1875,8 @@
                                                     <img src="images/resp_sourcing/ocean-ship-fishing.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
-                                                    <p class="justify1">
-                                                        Laut MSC Marine Stewardship Council bedeutet nachhaltige Fischerei, dass genügend Fisch im Meer verbleibt, die Lebensräume geschützt werden, und dass Menschen, die von der Fischerei leben, ihren Lebensunterhalt damit sichern können.
-                                                    </p>
+
+
                                                     <p class="justify1">
                                                         Weltweit werden viele verschiedene Fischmethoden angewandt, die häufig Schäden an den Ökosystemen unserer Meere, Flüsse und in ländlichen Gebieten verursachen. Der Einsatz von Netzen, die den Meeresboden zerstören, verursacht zum Beispiel enorme Schäden an Korallenriffen. Als Beifang werden Fische oder Meereslebewesen bezeichnet, die unabsichtlich gefangen werden, während die Fischer versuchen, andere Arten zu fischen. Der hohe Anteil an Beifang ist eine wesentliche Ursache für die Überfischung der Meere. Ein großer Teil des Beifangs wird nicht für den Verzehr verwendet und die verletzten oder toten Tiere werden von den Fischern in der Regel wieder ins Meer geworfen.
                                                     </p>
@@ -1818,13 +1885,32 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>Wieso ist es wichtig, nachhaltigen Fisch einzukaufen?</strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/sea-food.svg" class="img-fluid hen-egg">
-                                                        Überfischung und Ausbeutung der Fischbestände sind ein ernstes Problem. Schätzungen zufolge sind an manchen Orten bereits 90 % der Fischbestände entweder überfischt oder an ihrer Kapazitätsgrenze. Dies hat Auswirkungen auf den Lebensunterhalt der Menschen, die von der Fischerei abhängig sind. Durch den Kauf von nachhaltigem Fisch können Gastronomiebetreibende dazu beitragen, die Fischbestände für künftige Generationen zu erhalten. Wenn wir weiterhin Fisch nicht nachhaltig fangen, wird es bald keinen bezahlbaren Fisch mehr geben. Die verbleibenden Fischbestände würden sich als Luxusprodukt etablieren und nur noch zu deutlich höherem Preisen erhältlich sein.
-                                                    </p>
+
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>Wieso ist es wichtig, nachhaltigen Fisch einzukaufen?</strong>
+                                                            </h5>
+                                                            <p class="justify1">
+                                                                Überfischung und Ausbeutung der Fischbestände sind ein ernstes Problem. Schätzungen zufolge sind an manchen Orten bereits 90 % der Fischbestände entweder überfischt oder an ihrer Kapazitätsgrenze. Dies hat Auswirkungen auf den Lebensunterhalt der Menschen, die von der Fischerei abhängig sind. Durch den Kauf von nachhaltigem Fisch können Gastronomiebetreibende dazu beitragen, die Fischbestände für künftige Generationen zu erhalten. Wenn wir weiterhin Fisch nicht nachhaltig fangen, wird es bald keinen bezahlbaren Fisch mehr geben. Die verbleibenden Fischbestände würden sich als Luxusprodukt etablieren und nur noch zu deutlich höherem Preisen erhältlich sein.
+                                                            </p>
+                                                            <p>
+                                                                Die Rückverfolgbarkeit von Produkten ist ein sehr wichtiger Bestandteil der nachhaltigen Fischbeschaffung. Ein solides Rückverfolgbarkeitssystem überprüft, das Fanggebiet und die Art und Weise, wie der Fisch gefangen wurde. Zudem wird geprüft, ob der Fisch aus illegalem Fischfang stammt. Wenn die nachhaltigen Richtlinien eingehalten wurden, arbeiten Fischer, sowohl bei gefangenem als auch bei gezüchtetem Fisch, in einem sicheren Umfeld und werden angemessen entlohnt. Auf diese Weise wird die Umwelt respektvoll behandelt und die lokalen Gemeinden werden unterstützt.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder4">
+                                                                <div class="msr-img-holder-inner4">
+                                                                    <img src="images/resp_sourcing/sea-food.svg" class="sf1">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1842,33 +1928,42 @@
                                                         Nährstoffreiche Lebensmittel enthalten Stoffe, die der Körper braucht und verwerten kann, um gesund zu bleiben. Bei diesen Stoffen handelt es sich um Proteine (die Bausteine für Muskeln), Fett (für die Funktion der Nerven, die Gesundheit der Haut und den Stoffwechsel), Kohlenhydrate (für Energie) und eine ganze Reihe weiterer Elemente wie Mineralien und Vitamine, die für das reibungslose Funktionieren der Prozesse in unserem Körper erforderlich sind. Die Art der Ernährung, die unser Körper benötigt, ändert sich im Laufe des Lebens und hängt von unserem Geschlecht, unserer Bewegung und unserem Gesundheitszustand ab.
                                                     </p>
                                                 </div>
-
                                                 <div class="col-md-12 mt-0 mb-2 yellow-block minus--">
-                                                    <h5>
-                                                        <strong>Warum ist es wichtig, nährstoffreiche Lebensmittel einzukaufen?</strong>
-                                                    </h5>
-                                                    <p class="justify1 mt-2">
-                                                        <img src="images/resp_sourcing/salad-bowl.svg" class="img-fluid fruit-bowl">
-                                                        Wir sind, was wir essen! Eine gute Ernährung hält uns gesund und sorgt dafür, dass sich Säuglinge und Kinder gesund entwickeln. In der Regel sind Menschen darauf bedacht, eine schlechte Ernährung zu vermeiden, denn diese kann sowohl Unterernährung wie auch Übergewicht (z.B. Diabetes) verursachen. Ein gesunder Mensch ist leistungsfähiger, hat ein stärkeres Immunsystem, eine sicherere Schwangerschaft und Geburt, ein geringeres Krankheitsrisiko und er lebt länger.
-                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>Warum ist es wichtig, nährstoffreiche Lebensmittel einzukaufen?</strong>
+                                                            </h5>
+                                                            <p class="justify1 mt-2">
+                                                                Wir sind, was wir essen! Eine gute Ernährung hält uns gesund und sorgt dafür, dass sich Säuglinge und Kinder gesund entwickeln. In der Regel sind Menschen darauf bedacht, eine schlechte Ernährung zu vermeiden, denn diese kann sowohl Unterernährung wie auch Übergewicht (z.B. Diabetes) verursachen. Ein gesunder Mensch ist leistungsfähiger, hat ein stärkeres Immunsystem, eine sicherere Schwangerschaft und Geburt, ein geringeres Krankheitsrisiko und er lebt länger.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <img src="images/resp_sourcing/salad-bowl.svg" class="salad-bowl">
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="spacer"></div>
                                     </li>
                                     <li class="liContent show-li" style="display:none;">
                                         <!-- No waste Content 8 -->
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/resp_sourcing/bin-waste.svg" class="img-fluid nut-food mx-5">
+                                                <div class="col-md-5">
+                                                    <img src="images/resp_sourcing/bin-waste.svg" class="bin-waste">
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <p class="justify1">
+                                                <div class="col-md-7">
+                                                    <p class="justify1 mt-5 px-5">
                                                         Lebensmittelverschwendung kann vermieden werden, wenn Produktionsressourcen effizient genutzt werden und alles, was für den menschlichen Verzehr geeignet ist, verwendet wird. So können beispielsweise Obst und Gemüse, die optische Makel aufweisen, für Soßen oder Eintöpfe verwendet werden. Auch die Nutzung aller Teile eines Tieres (von der Nase bis zum Schwanz) verhindert, dass Teile, die üblicherweise nicht auf unseren Speisekarten stehen, verschwendet werden.
                                                     </p>
                                                 </div>
+
                                                 <div class="col-md-12 mt-0 mb-2 yellow-block minus--">
+
                                                     <div class="row">
                                                         <div class="col-md-9">
                                                             <h5>
@@ -1879,24 +1974,35 @@
                                                             <p class="justify1 mt-2">
                                                                 Etwa ein Drittel aller weltweit produzierten Lebensmittel landet im Abfall. Wenn wir Lebensmittel verschwenden, vergeuden wir auch die Energie und das Wasser, die für den Anbau, die Ernte, den Transport und die Verpackung der Lebensmittel erforderlich sind. Deshalb könnten etwa 11 % aller Treibhausgasemissionen, die durch die Produktion von Lebensmitteln entstehen, reduziert werden, wenn wir die Verschwendung von Lebensmitteln verhindern würden.
                                                             </p>
+                                                            <div class="read-wrap">
+                                                                <a href="introduction-to-food-waste-eng.php" class="read-more" target="_self">Read More</a>
+                                                            </div>
                                                         </div>
                                                         <div class="col-md-3">
-                                                            <img src="images/resp_sourcing/garbage.svg" class="img-fluidn garbage-img">
+                                                            <div class="msr-img-holder5">
+                                                                <div class="msr-img-holder-inner5">
+                                                                    <img src="images/resp_sourcing/garbage.svg" class="">
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="spacer"></div>
                                     </li>
                                     <li class="liContent show-li" style="display:none;">
                                         <!-- Food that contributes to biodiversity Content 9 -->
+
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-md-5">
-                                                    <img src="images/resp_sourcing/earth-life-trees.svg" class="img-fluid earth1">
+                                                <div class="col-md-12 text-center">
+
+                                                    <img src="images/resp_sourcing/earth-life-trees.svg" class="earth-life-trees">
                                                 </div>
-                                                <div class="col-md-7">
+                                                <div class="col-md-12">
                                                     <p class="justify1">
                                                         Biodiversität bedeutet Artenvielfalt und umfasst die Gesamtheit aller auf der Erde lebenden Organismen. Sie umfasst winzige Organismen wie Insekten, Würmer, Pilze und Mikroorganismen, die zusammenarbeiten, um unsere Böden und Gewässer gesund zu halten. Wenn die Natur einen hohen Grad an biologischer Vielfalt aufweist, können wir von ihr profitieren, da sie uns Nahrung bereitstellt, medizinische Entdeckungen ermöglicht und uns mit den so genannten Ökosystemleistungen, wie der Reinigung von Wasser und der Bereitstellung von Sauerstoff, versorgt.
                                                     </p>
@@ -1907,22 +2013,37 @@
 
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>
-                                                            Warum ist es wichtig, Lebensmittel einzukaufen, die zur Artenvielfalt beitragen?
-                                                        </strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/save-earth.svg" class="img-fluid fruit-bowl">
-                                                        Wir Menschen fühlen uns psychisch wohler, wenn wir Teil einer Umwelt sind, die eine gesunde und ausgewogene biologische Vielfalt aufweist. Leider haben die Abholzung von Wäldern, die Intensivierung der Landwirtschaft und der Klimawandel zu einem Rückgang der Artenvielfalt geführt. Dies hat in relativ kurzer Zeit zu einem massiven Verlust von Arten geführt.
-                                                    </p>
-                                                    <p class="justify">
-                                                        Rund eine Million Tierarten sind vom Aussterben bedroht – mehr als je zuvor in der Geschichte der Menschheit. Dies geht einher mit dem Rückgang der Tierpopulationen, dem Verlust von Lebensräumen und der Erschöpfung der natürlichen Ressourcen, auf die wir für unsere Lebensgrundlage und unsere wirtschaftliche Entwicklung angewiesen sind. Wir müssen überdenken, wie wir die natürlichen Ressourcen nutzen, den Druck verringern und den Ökosystemen die Möglichkeit geben, sich zu erholen. Außerdem sind Nutzpflanzen und Tiere, denen es an biologischer Vielfalt mangelt, anfälliger für Krankheiten und benötigen mehr Medikamente.
-                                                    </p>
+                                                <div class="col-md-12 yellow-block nojustify1">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>
+                                                                    Warum ist es wichtig, Lebensmittel einzukaufen, die zur Artenvielfalt beitragen?
+                                                                </strong>
+                                                            </h5>
+                                                            <p class="justify1">
+                                                                Wir Menschen fühlen uns psychisch wohler, wenn wir Teil einer Umwelt sind, die eine gesunde und ausgewogene biologische Vielfalt aufweist. Leider haben die Abholzung von Wäldern, die Intensivierung der Landwirtschaft und der Klimawandel zu einem Rückgang der Artenvielfalt geführt. Dies hat in relativ kurzer Zeit zu einem massiven Verlust von Arten geführt.
+                                                            </p>
+                                                            <p class="justify1">
+                                                                Rund eine Million Tierarten sind vom Aussterben bedroht – mehr als je zuvor in der Geschichte der Menschheit. Dies geht einher mit dem Rückgang der Tierpopulationen, dem Verlust von Lebensräumen und der Erschöpfung der natürlichen Ressourcen, auf die wir für unsere Lebensgrundlage und unsere wirtschaftliche Entwicklung angewiesen sind. Wir müssen überdenken, wie wir die natürlichen Ressourcen nutzen, den Druck verringern und den Ökosystemen die Möglichkeit geben, sich zu erholen. Außerdem sind Nutzpflanzen und Tiere, denen es an biologischer Vielfalt mangelt, anfälliger für Krankheiten und benötigen mehr Medikamente.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder6">
+                                                                <div class="msr-img-holder-inner6">
+                                                                    <img src="images/resp_sourcing/save-earth.svg" class="save-earth sve1">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
                                                 </div>
+
                                             </div>
                                         </div>
+
+
                                         <div class="spacer"></div>
                                     </li>
                                     <li class="liContent show-li" style="display:none;">
@@ -1988,29 +2109,44 @@
                                                         Das Material stammt aus erneuerbaren Ressourcen (z. B. biobasierte Kunststoffe aus Zuckerrohr oder Stärke) und Holz-/Papierfasern aus kontrollierten Wäldern.
                                                     </p>
                                                 </div>
-                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <h5>
-                                                        <strong>
-                                                            Warum ist es wichtig, Verpackungen zu verwenden, die die Umwelt weniger belasten?
-                                                        </strong>
-                                                    </h5>
-                                                    <p class="justify1">
-                                                        <img src="images/resp_sourcing/food-pack.svg" class="img-fluid hen-egg">
-                                                        Wenn Verpackungen unnötig verwendet und falsch entsorgt werden, schaden sie der Umwelt. Die Herstellung und Entsorgung herkömmlicher Kunststoff- und Einwegverpackungen erfordert Ressourcen (z.B. fossile Brennstoffe) und dies hat negative Auswirkungen auf die Umwelt. Machen wir uns bewusst: jede Minute landet eine LKW-Ladung Plastik in unseren Ozeanen! Andere Materialien wie Pappe und Holz können, wenn sie nicht ordnungsgemäß entsorgt werden, ebenfalls Kosten durch Bußgelder oder die Müllentsorgung verursachen.
-                                                    </p>
-                                                    <h6 class="">
-                                                        <strong>
-                                                            Hier sind einige Beispiele dafür, wie lange manche Produkte auf einer Deponie lagern, bis sie vollständig abgebaut sind.
-                                                        </strong>
-                                                    </h6>
-                                                    <p class="justify1 mt-4">
-                                                        <strong>Kompostierbare Verpackungen</strong> zersetzen sich innerhalb eines bestimmten Zeitraums in natürliche, nährstoffreiche und umweltverträgliche Bestandteile. Verpackungen, die im eigenen Garten kompostiert werden , kompostieren sich gemäß der europäischen Norm EN 13432 bei einer Umgebungstemperatur von 20 - 30 °C innerhalb von 52 Wochen. Das bedeutet, dass sie solche Verpackungen zusammen mit Ihren Obst- und Gemüseschalen in Ihre Komposttonne werfen können.
-                                                    </p>
-                                                    <p class="justify1 mt-2">
-                                                        <strong>Industriell kompostierbare Verpackungen</strong> needs to be collected and
-                                                        müssen in einer speziellen Anlage gesammelt und ordnungsgemäß behandelt werden. Aufgrund der spezifischen Bedingungen (50 bis 70 °C) können sie gemäß der europäischen Norm EN 13432 innerhalb von 12 Wochen vollständig abgebaut werden. Werden andere Abfälle in eine Recyclingtonne gegeben, verunreinigen sie die restlichen Bestandteile, so dass diese nicht mehr recycelt und wiederverwendet werden können. Auf Mülldeponien oder in der heimischen Komposttonne kann der Müll nicht biologisch abgebaut werden. Und wenn sie im Meer landen, zerfallen sie ähnlich wie herkömmlicher Kunststoff in mikroskopisch kleine Teile, halten sich jahrzehntelang und stellen eine Gefahr für das Leben im Meer dar.
 
-                                                    </p>
+
+                                                <div class="col-md-12 mt-2 mb-2 yellow-block">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <h5>
+                                                                <strong>
+                                                                    Warum ist es wichtig, Verpackungen zu verwenden, die die Umwelt weniger belasten?
+                                                                </strong>
+                                                            </h5>
+                                                            <p class="justify1">
+                                                                Wenn Verpackungen unnötig verwendet und falsch entsorgt werden, schaden sie der Umwelt. Die Herstellung und Entsorgung herkömmlicher Kunststoff- und Einwegverpackungen erfordert Ressourcen (z.B. fossile Brennstoffe) und dies hat negative Auswirkungen auf die Umwelt. Machen wir uns bewusst: jede Minute landet eine LKW-Ladung Plastik in unseren Ozeanen! Andere Materialien wie Pappe und Holz können, wenn sie nicht ordnungsgemäß entsorgt werden, ebenfalls Kosten durch Bußgelder oder die Müllentsorgung verursachen.
+                                                            </p>
+                                                            <h6 class="">
+                                                                <strong>
+                                                                    Hier sind einige Beispiele dafür, wie lange manche Produkte auf einer Deponie lagern, bis sie vollständig abgebaut sind.
+                                                                </strong>
+                                                            </h6>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="msr-img-holder9">
+                                                                <div class="msr-img-holder-inner9">
+                                                                    <img src="images/resp_sourcing/food-pack.svg" class="h2e">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+
+                                                            <p class="justify1 mt-4">
+                                                                <strong>Kompostierbare Verpackungen</strong> zersetzen sich innerhalb eines bestimmten Zeitraums in natürliche, nährstoffreiche und umweltverträgliche Bestandteile. Verpackungen, die im eigenen Garten kompostiert werden , kompostieren sich gemäß der europäischen Norm EN 13432 bei einer Umgebungstemperatur von 20 - 30 °C innerhalb von 52 Wochen. Das bedeutet, dass sie solche Verpackungen zusammen mit Ihren Obst- und Gemüseschalen in Ihre Komposttonne werfen können.
+                                                            </p>
+                                                            <p class="justify1 mt-2">
+                                                                <strong>Industriell kompostierbare Verpackungen</strong> needs to be collected and
+                                                                müssen in einer speziellen Anlage gesammelt und ordnungsgemäß behandelt werden. Aufgrund der spezifischen Bedingungen (50 bis 70 °C) können sie gemäß der europäischen Norm EN 13432 innerhalb von 12 Wochen vollständig abgebaut werden. Werden andere Abfälle in eine Recyclingtonne gegeben, verunreinigen sie die restlichen Bestandteile, so dass diese nicht mehr recycelt und wiederverwendet werden können. Auf Mülldeponien oder in der heimischen Komposttonne kann der Müll nicht biologisch abgebaut werden. Und wenn sie im Meer landen, zerfallen sie ähnlich wie herkömmlicher Kunststoff in mikroskopisch kleine Teile, halten sich jahrzehntelang und stellen eine Gefahr für das Leben im Meer dar.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -2041,7 +2177,7 @@
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/earth-temperature.svg" class="img-fluid hen-egg mt-2">
+                                                            <img src="images/resp_sourcing/earth-temperature.svg" class="et1">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2121,7 +2257,12 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="images/resp_sourcing/fresh-store.svg" class="img-fluid mb-2 mt-2 mx-2 my-2 no-print">
+                <div class="msr-img-holder7">
+                    <div class="msr-img-holder-inner7">
+                        <img src="images/resp_sourcing/fresh-store.svg" class="fresh-store no-print">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -2586,14 +2727,13 @@
     <section class="container9 section-text-withimages section4-4 more-text no-print">
         <div class="left-content9">
             <div class="row">
-                <div class="col-md-12 ml-23r">
-                    <h3 class="h3v2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber </h3>
-                    <p class="justify1 text-center">
+                <div class="col-md-12">
+                    <h3 class="h3v2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber</h3>
+                    <p class="justify1">
                         Überprüfen Sie, sobald Sie mit ersten Maßnahmen eines verantwortungsbewussten Einkaufs begonnen haben, welche Auswirkungen damit verbunden sind (z.B. weniger Plastikmüll, höhere Umsätze mit nachhaltigen Gerichten, positivere Bewertungen für Ihr Restaurant). Es ist wichtig, die Fortschritte zu verfolgen und zu messen, denn das stärkt die Moral, noch mehr zu erreichen. Diskutieren Sie regelmäßig mit Ihrem Personal und notieren Sie, welche positiven Auswirkungen sie wahrnehmen. Hier sind einige Vorschläge, wie dies geschehen kann –
                     </p>
                 </div>
             </div>
-
 
             <div class="track-talk-subsection mt-5 mb-3 py-2">
                 <div class="row">
@@ -2605,7 +2745,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Machen Sie sich bewusst, dass "Farm-to-Table"-Restaurants bei Kunden immer beliebter werden. Informieren Sie Ihre Gäste über die Herkunft Ihrer Zutaten, indem Sie mit ihnen über Ihre Speisekarte sprechen.
                                     </strong>
@@ -2621,7 +2761,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Erklären Sie, warum Sie die Änderungen vorgenommen haben und deren Vorteile. Wenn Sie zum Beispiel beschließen, im Winter keine Erdbeeren zu servieren, müssen Ihre Gäste verstehen, warum nicht.
                                     </strong>
@@ -2637,7 +2777,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>Wenn Sie auf Ihrer Speisekarte oder auf Ihrer Website Informationen zur Rückverfolgbarkeit anbieten, erklären Sie, wie das funktioniert. Überlegen Sie, ob Sie in Ihrem Restaurant, auf Ihrer Website oder in den sozialen Medien einen Saisonkalender mit Bildern zu den entsprechenden Produkten veröffentlichen. Dadurch können Sie mit Ihren Gästen in näheren Kontakt treten, vor allem, wenn Sie mit ihnen interagieren und die Informationen im Laufe der Saison aktualisieren können.</strong>
                                 </p>
                             </div>
@@ -2651,7 +2791,7 @@
                                 </div>
                             </div>
                             <div class="col-md-10">
-                                <p class="justify1 tt">
+                                <p class="tt">
                                     <strong>
                                         Kommunizieren Sie, was Sie tun. Ein Hinweis in der Speisekarte Ihres Restaurants oder auf Ihrer Website kann Ihr verantwortungsbewusstes Handeln für Ihre Gäste sichtbar machen.
                                     </strong>
@@ -2660,7 +2800,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 mt-4">
                         <p class="justify1 ml-2">
                             Als Gastronomie-Betreibende haben Sie einen viel größeren Einfluss, wenn Ihre Gäste und Mitarbeitenden verstehen, was Sie tun. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.
                         </p>
@@ -2678,7 +2818,7 @@
     </section>
     <!-----TODO--------->
     <!-----TODO--------->
-    <section class="container section4-6">
+    <section class="container section4-6" id="section-to-print">
         <div class="top-content">
             <h3>Ihr Aktionsplan</h3>
         </div>

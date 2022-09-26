@@ -23,94 +23,117 @@
   <link href="pageslider.css" rel="stylesheet">
   <style>
     .sldImg01>img {
-      width: 3.5rem;
+      width: 5rem;
+      transition: 0.5s;
     }
 
     .sldImg02>img {
-      width: 9rem;
+      width: 11rem;
+      transition: 0.5s;
     }
 
     .sldImg03>img {
       width: 14rem;
+      transition: 0.5s;
     }
 
     .sldImg04>img {
-      width: 22rem;
+      width: 23rem;
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+      transition: 0.5s;
     }
 
     .sldImg05>img {
       width: 8rem;
+      transition: 0.5s;
     }
 
     .sldImg06>img {
       width: 22rem;
       margin-top: 2rem;
       margin-bottom: 2rem;
+      transition: 0.5s;
     }
 
     .sldImg07>img {
-      width: 2.5rem;
+      width: 3.5rem;
+      transition: 0.5s;
     }
 
     .sldImg08>img {
       width: 11rem;
+      transition: 0.5s;
     }
+
 
     .sldImg09>img {
       width: 12rem;
+      transition: 0.5s;
     }
 
     .sldImg10>img {
       width: 22rem;
       margin-top: 2rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-      width: 6rem;
+      width: 9rem;
       margin-bottom: 1rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-      width: 14rem;
+      width: 21rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-      width: 20rem;
+      width: 27rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
-      width: 25rem;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      width: 34rem;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
-      width: 12rem;
+      width: 15rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
-      width: 26rem;
+      width: 36rem;
       margin-top: 3rem;
-      margin-bottom: 3rem;
+      margin-bottom: 6rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
-      width: 5rem;
+      width: 7rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg08>img {
-      width: 16rem;
+      width: 21rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg09>img {
-      width: 17rem;
+      width: 23rem;
+      transition: 0.5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg10>img {
-      width: 26rem;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
+      width: 35rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      transition: 0.5s;
     }
   </style>
 </head>
@@ -166,7 +189,7 @@
   </header>
   <div id="loader-page2" class="center">
     <span class="loader__text">
-      <img src="images/loader.gif" class="loader9" />
+      <img src="images/yellow_pan.gif" class="loader9" />
     </span>
   </div>
 
@@ -1118,108 +1141,6 @@
 
 
   <script type="text/javascript">
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-1").click(function() {
-        $("#energy_content1").css("display", "block");
-      });
-      $(".energy_close1").click(function() {
-        //alert("Hi")
-        $("#energy_content1").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-2").click(function() {
-        $("#energy_content2").css("display", "block");
-      });
-      $(".energy_close2").click(function() {
-        //alert("Hi")
-        $("#energy_content2").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-3").click(function() {
-        $("#energy_content3").css("display", "block");
-      });
-      $(".energy_close3").click(function() {
-        //alert("Hi")
-        $("#energy_content3").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-4").click(function() {
-        $("#energy_content4").css("display", "block");
-      });
-      $(".energy_close4").click(function() {
-        //alert("Hi")
-        $("#energy_content4").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-5").click(function() {
-        $("#energy_content5").css("display", "block");
-      });
-      $(".energy_close5").click(function() {
-        //alert("Hi")
-        $("#energy_content5").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-6").click(function() {
-        $("#energy_content6").css("display", "block");
-      });
-      $(".energy_close6").click(function() {
-        //alert("Hi")
-        $("#energy_content6").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-7").click(function() {
-        $("#energy_content7").css("display", "block");
-      });
-      $(".energy_close7").click(function() {
-        //alert("Hi")
-        $("#energy_content7").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-8").click(function() {
-        $("#energy_content8").css("display", "block");
-      });
-      $(".energy_close8").click(function() {
-        //alert("Hi")
-        $("#energy_content8").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-9").click(function() {
-        $("#energy_content9").css("display", "block");
-      });
-      $(".energy_close9").click(function() {
-        //alert("Hi")
-        $("#energy_content9").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-10").click(function() {
-        $("#energy_content10").css("display", "block");
-      });
-      $(".energy_close10").click(function() {
-        //alert("Hi")
-        $("#energy_content10").css("display", "none");
-      });
-    });
-
-
     function myFunction() {
       var dots = document.getElementById("dots");
       var moreText = document.getElementById("moreless");

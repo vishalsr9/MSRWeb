@@ -102,7 +102,7 @@
     </header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
-            <img src="images/loader.gif" class="loader9" />
+            <img src="images/yellow_pan.gif" class="loader9" />
         </span>
     </div>
     <div class="container-full">
@@ -681,6 +681,7 @@
                     </ul>
                 </div>
             </section>
+
             <!-----FOOTER--------->
             <section class="no-side-margin no-print">
                 <div class="section5">
@@ -761,6 +762,12 @@
             </section>
         </div>
     </div>
+
+
+
+
+
+
     <div class="footer-wrap no-print">
         <div class="logo-fooetr">
             <img src="images/footer-logo.svg" />

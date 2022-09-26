@@ -73,7 +73,7 @@
   </header>
   <div id="loader-page2" class="center">
     <span class="loader__text">
-      <img src="images/loader.gif" class="loader9" />
+      <img src="images/yellow_pan.gif" class="loader9" />
     </span>
   </div>
   <div class="container-full">
@@ -98,7 +98,7 @@
             <div class="col-md-4 px-4">
               <div class="import_box">
                 <img src="./images/safe_food/sf-l4-1.svg" class="img-fluid">
-                <p>Contaminated food is wasted food. The foundation of running a sustainable business is about being efficient with resources, minimising waste, and engaging people to work productively. When a good system is in place to manage the preparation of safe food (a food safety management system), the related processes become more efficient and your restaurant will manage its resources and waste better. This can have a knock-on effect on the overall efficiency of your restaurant. </p>
+                <p>Contaminated food is wasted food. The foundation of running a sustainable business is about being efficient with resources, <a href="explore-waste-eng.php"> minimising waste</a>, and engaging people to work productively. When a good system is in place to manage the preparation of safe food (a food safety management system), the related processes become more efficient and your restaurant will manage its resources and waste better. This can have a knock-on effect on the overall efficiency of your restaurant. </p>
               </div>
             </div>
             <div class="col-md-4 px-4">
@@ -110,7 +110,7 @@
             <div class="col-md-4 px-4">
               <div class="import_box">
                 <img src="./images/safe_food/sf-l4-3.svg" class="img-fluid">
-                <p>In most countries, a system to manage the production of safe food is a legal requirement, although the level of the requirements and how they are enforced varies between countries, and regions. Inspections by food safety authorities usually focus on clean and well-maintained facilities, buildings, and equipment, hygienic handling of food, and hygienic management of food safety.</p>
+                <p>In most countries, a system to manage the production of safe food is a legal requirement, although the level of the requirements and how they are enforced varies between countries and regions. Inspections by food safety authorities usually focus on clean and well-maintained facilities, buildings, and equipment, hygienic handling of food, and hygienic management of food safety.</p>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4">
                 <img src="./images/safe_food/Asset 38.png" class="img-fluid">
-                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions. There are four main hazards that can contaminate your food. Microorganisms, for example, bacteria, can cause sickness or food poisoning. Physical objects, for example, shards of glass from broken glass pose a threat to food safety. Moreover, chemicals for example cleaning chemicals can get into food, if the serving platter is not rinsed well. Finally, allergens such as nuts in a sauce can cause health issues when they are not declared to your customer in advance. </p>
+                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions. There are four main hazards that can contaminate your food. 1.Microorganisms, for example bacteria can cause sickness or food poisoning 2.Physical objects, for example shards of broken glass pose a threat to food safety 3.Chemicals, for examples for cleaning, can get into food, if the serving platter is not rinsed well 4.Allergens such as nuts in a sauce can cause health issues when not declared to your customer in advance </p>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@
             </div>
             <div class="col-md-6">
               <div class="step_safty_para">
-                <p> To make these systems effective, we recommend a food safety culture, which means shared values and commitment of your leadership to ensuring safe food. Check out the following information for a robust framework for safe food: </p>
+                <p> To make these systems effective, we recommend a food safety culture, which means shared values and commitment of your leadership to ensuring safe food.<br> Check out the following information for a robust framework for safe food: </p>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@
                         <div class="three-step_para">
                           <p>A <strong>food safety management system (FSMS)</strong> will cover every aspect of your food handling and purchasing and will have the necessary checks, records, and reviews in place to make sure your procedures are being followed. The system should be documented – not only for you to know what is happening - but also for your staff to be briefed properly and to have proof that you are managing your processes safely for your local authority inspector. Ensuring food safety also means organising your premises and processes appropriately. This exercise helps the organisation to operate sustainably. Many of the documentation and recording systems used in food safety management can be adapted and introduced systematically for sustainability. </p>
                           <p class="mt-0">
-                            If you do the following activities to manage food safety, you will also be implementing sustainability:</p>
+                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong></p>
                         </div>
                       </div>
                     </div>
@@ -857,7 +857,7 @@
             </div>
             <div class="col-md-6">
               <div class="track-and_talk_img">
-                <img src="./images/safe_food/Asset 30.png" class="img-fluid">
+                <img src="./images/safe_food/Asset 30.png" class="img-fluid" style="width:40rem;">
               </div>
             </div>
           </div>
