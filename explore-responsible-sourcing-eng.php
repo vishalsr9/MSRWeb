@@ -771,7 +771,7 @@
 
 
             <!--Importance of sourcing-->
-            <section class="section2 no-print">
+            <section class="section2 no-print z0">
                 <div class="text-center">
                     <div class="wrap-2">
                         <h3 class="section-heading-blue">The importance of sourcing responsibly </h3>

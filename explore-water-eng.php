@@ -26,27 +26,51 @@
         /* slider balancing */
         /*balancing*/
         .sldImg01>img {
-            width: 16rem;
+            width: 19rem;
+            transition: .5s;
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-            width: 22rem;
+            width: 35rem;
+            transition: .5s;
         }
 
         .sldImg02>img {
-            width: 12rem;
+            width: 15rem;
+            transition: .5s;
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-            width: 18rem;
+            width: 27rem;
+            transition: .5s;
         }
 
         .sldImg03>img {
-            width: 16rem;
+            width: 17rem;
+            transition: .5s;
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-            width: 22rem;
+            width: 32rem;
+            transition: .5s;
+        }
+    </style>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            #section-to-print,
+            #section-to-print * {
+                visibility: visible;
+            }
+
+            #section-to-print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
         }
     </style>
 </head>
@@ -185,7 +209,7 @@
                 </div>
             </section>
             <!--Good to know-->
-            <section class="section2 no-print">
+            <section class="section2 no-print z0">
                 <div class="text-center">
                     <div class="wrap-2">
                         <h3 class="section-heading-blue">Good to know</h3>
@@ -264,6 +288,8 @@
                         </div>
 
                     </div>
+
+
                     <div class="row">
                         <div class="col-md-12 mb-5">
                             <div class="pageSlider-container">
@@ -381,8 +407,12 @@
                         </div>
 
                     </div>
+
+
                 </div>
             </section>
+
+
             <!-- ADVANCE WAYS -->
             <section class="section-highlight-withimages section4-5 pbg mb-3 no-print">
                 <div class="top-highlight text-center">
@@ -627,7 +657,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container section4-6">
+            <section class="container section4-6" id="section-to-print">
                 <div class="top-content">
                     <h3>Your Action Plan</h3>
                 </div>

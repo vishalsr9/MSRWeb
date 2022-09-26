@@ -22,6 +22,23 @@
 
   <link href="pageslider.css" rel="stylesheet">
   <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
     .sldImg01>img {
       width: 5rem;
       transition: 0.5s;
@@ -731,7 +748,7 @@
       </section>
 
 
-      <section class="action_plan mt-5">
+      <section class="action_plan mt-5" id="section-to-print">
         <div class="container">
           <div class="top-content mb-4">
             <h3>Your Action Plan</h3>

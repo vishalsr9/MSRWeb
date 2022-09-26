@@ -20,6 +20,24 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -744,7 +762,7 @@
           </div>
         </div>
       </section>
-      <section class="container section4-6">
+      <section class="container section4-6" id="section-to-print">
         <div class="top-content">
           <h3>Your Action Plan</h3>
         </div>

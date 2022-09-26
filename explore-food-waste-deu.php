@@ -32,11 +32,11 @@
     }
 
     .sldImg03>img {
-      width: 13rem;
+      width: 15rem;
     }
 
     .sldImg04>img {
-      width: 10rem;
+      width: 12rem;
     }
 
     .sldImg05>img {
@@ -44,39 +44,56 @@
     }
 
     .sldImg06>img {
-      width: 15rem;
+      width: 16rem;
     }
 
     .sldImg07>img {
-      width: 8rem;
+      width: 7rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-      width: 26rem;
+      width: 35rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-      width: 19rem;
+      width: 26rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-      width: 20rem;
+      width: 30rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
-      width: 18rem;
+      width: 24rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
-      width: 11rem;
+      width: 16rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
-      width: 22rem;
+      width: 30rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
-      width: 11rem;
+      width: 13rem;
+    }
+
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
     }
   </style>
 </head>
@@ -159,7 +176,7 @@
     <div class="container">
       <div class="row">
         <h3 class="food_wasteTitle">Mülldeponien sollten der letzte Ort sein, <br>auf dem nicht benötigte Lebensmittel landen
-</h3>
+        </h3>
         <p class="exploreFood_discripsn">Mehr als<strong> 1/3</strong> aller weltweit produzierten Lebensmittel landen im Abfall. Es gibt viele andere Möglichkeiten besser mit Lebensmittelabfällen umzugehen. Verkaufen Sie überschüssige Lebensmittel weiter oder spenden Sie sie an Menschen und Tiere. Wenn möglich, recyceln Sie Lebensmittel für andere Zwecke und kompostieren Sie so viel wie möglich. </p>
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
@@ -168,7 +185,7 @@
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 5.1.svg" class="img-fluid">
-            <p>Hat einen positiven Einfluss auf die Arbeitsmoral  </p>
+            <p>Hat einen positiven Einfluss auf die Arbeitsmoral </p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 8.1.svg" class="img-fluid">
@@ -194,7 +211,7 @@
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 7.1.svg" class="img-fluid">
             <p>Hat einen positiven Einfluss auf Ihre Arbeitsmoral
- </p>
+            </p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 10.svg" class="img-fluid">
@@ -400,7 +417,7 @@
     <div class="thermo-inner">
       <div class="text-center">
         <h3 class="msr-text-color h3v t-lower">
-          Gut zu wissen 
+          Gut zu wissen
         </h3>
 
         <p class="c-para1">
@@ -945,7 +962,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-text">
                                             <span class="sldText01">
-                                             Beziehen<br> Sie Ihr Personal ein
+                                              Beziehen<br> Sie Ihr Personal ein
                                             </span>
                                           </div>
                                         </div>
@@ -1045,7 +1062,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-text">
                                             <span class="sldText05">
-                                              Achten Sie auf gute Qualität 
+                                              Achten Sie auf gute Qualität
                                             </span>
                                           </div>
                                         </div>
@@ -1070,7 +1087,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-text">
                                             <span class="sldText06">
-                                              Kompostieren Sie die Reste 
+                                              Kompostieren Sie die Reste
                                             </span>
                                           </div>
                                         </div>
@@ -1160,8 +1177,8 @@
     <div class="container-fluid">
       <div class="row px-4">
         <h3 class="food_wasteTitle">Kompostieren Sie Lebensmittelabfälle </h3>
-        <p class="exploreFood_discripsn">Durch Kompostierung können Sie dazu beitragen, Lebensmittelabfälle zu verwerten und die Methanemissionen in Mülldeponien zu verringern.<br> Orientieren Sie sich an den folgenden Schritten, um Lebensmittel zu kompostieren: 
- </p>
+        <p class="exploreFood_discripsn">Durch Kompostierung können Sie dazu beitragen, Lebensmittelabfälle zu verwerten und die Methanemissionen in Mülldeponien zu verringern.<br> Orientieren Sie sich an den folgenden Schritten, um Lebensmittel zu kompostieren:
+        </p>
         <div class="col-md-6">
           <div class="compost_wasteFood_listing">
             <div class="media">
@@ -1189,8 +1206,8 @@
                 <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Bringen Sie Hinweisschilder im hinteren Bereich Ihres Restaurants an, um zu zeigen, wo und was kompostiert wird 
-</p>
+                <p>Bringen Sie Hinweisschilder im hinteren Bereich Ihres Restaurants an, um zu zeigen, wo und was kompostiert wird
+                </p>
               </div>
             </div>
           </div>
@@ -1201,7 +1218,7 @@
               </div>
               <div class="media-body">
                 <p>Sichern Sie die Kompostanlage, um zu verhindern, dass sie die Umgebung verunreinigt und Schädlinge anzieht
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -1212,7 +1229,7 @@
               </div>
               <div class="media-body">
                 <p class="mt-3">Benutzen Sie umweltfreundliche Müllbeutel für die Abfallentsorgung
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -1232,8 +1249,8 @@
                 <img src="./images/safe_food/Asset-l4.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Kompostieranlagen können im Haus oder im Freien aufgestellt werden. Der Einsatz von Regenwürmern kann die Kompostierung beschleunigen. Und Sie können sich sowohl für offene als auch für geschlossene Systeme entscheiden. Prüfen Sie, was für Ihren Standort geeignet und hygienisch ist. 
-</p>
+                <p>Kompostieranlagen können im Haus oder im Freien aufgestellt werden. Der Einsatz von Regenwürmern kann die Kompostierung beschleunigen. Und Sie können sich sowohl für offene als auch für geschlossene Systeme entscheiden. Prüfen Sie, was für Ihren Standort geeignet und hygienisch ist.
+                </p>
               </div>
             </div>
           </div>
@@ -1264,12 +1281,12 @@
           <h4 class="pl-4">Die Vorteile der Kompostierung</h4>
           <p class="pl-4">Bei der Kompostierung wird organisches Material, wie z. B. Speisereste, mit Hilfe von Wärme, Feuchtigkeit, Bewegung, Luftzufuhr und manchmal mit Regenwürmern zersetzt. Damit können alle organischen, ungekochten Abfälle eines Restaurants in nährstoffreiche Erde umgewandelt werden. Diese Erde kann dann zum Beispiel als natürlicher Dünger durch die örtlichen Landwirte und Gärtner genutzt werden. Sie könnten sie auch im Garten Ihres Restaurants verwenden, sofern Sie einen besitzen. Weil Kompost keine synthetischen chemischen Bestandteile enthält, aber ein guter Dünger für Beete und Gärten ist, wirkt er sich positiv auf die Umwelt aus. Die Kompostierung von Lebensmittelabfällen trägt zur Verringerung von Lebensmittelabfällen und damit zu einem noch besseren Ruf Ihres Restaurants bei.
 
-</p>
+          </p>
         </div>
         <div class="col-md-6 p-4">
           <h4></h4>
           <p class="pt-4">Allerdings können nicht alle Lebensmittel kompostiert werden. Kranke Pflanzen, Milchprodukte, Asche, Fleisch und Knochen, Öl, Fett und Schmiermittel sowie alle giftigen Materialien können nicht kompostiert werden. Kompostierbar sind Obst- und Gemüseabfälle, Kaffeesatz und -filter, Papierservietten, Holzasche, Pappe und Zeitungen. Erkundigen Sie sich bei Ihrer örtlichen Müllabfuhr, was in die städtische Kompostierung abgegeben werden darf. Erkundigen Sie sich auch, ob gekochte und tierische Produkte angenommen werden. Eventuell besteht die Möglichkeit, diese Lebensmittel in einer kommunalen Biogas-Anlage zu verarbeiten.
- </p>
+          </p>
         </div>
       </div>
     </div>
@@ -1278,15 +1295,15 @@
     <div class="container-fluid">
       <div class="row px-4">
         <h3 class="food_wasteTitle">Lernen Sie, mit Lebensmittelresten zu kochen
-</h3>
+        </h3>
         <p class="text-center">Check out the following aspects when you want to cook with unwanted parts:</p>
         <div class="col-md-6">
           <div class="compost_wasteFood_img learn_to_make">
 
-            <p class="mt-5">Es gibt Bestandteile von Fleisch, Fisch und Gemüse, die üblicherweise weggeworfen werden, weil ihr Geschmack, ihre Beschaffenheit oder ihr Aussehen zum Kochen ungeeignet scheinen. Innereien oder Knochen gerieten so im Laufe der Zeit schlicht in Vergessenheit. Viele von uns, insbesondere in den Industrieländern, haben vergessen, dass tatsächlich alle Teile eines Tieres zu leckeren und nahrhaften Gerichten verarbeitet werden können. Wir haben den Bezug dazu verloren, woher Lebensmittel kommen und wie viel Aufwand ihre Herstellung erfordert.  <br><br>
+            <p class="mt-5">Es gibt Bestandteile von Fleisch, Fisch und Gemüse, die üblicherweise weggeworfen werden, weil ihr Geschmack, ihre Beschaffenheit oder ihr Aussehen zum Kochen ungeeignet scheinen. Innereien oder Knochen gerieten so im Laufe der Zeit schlicht in Vergessenheit. Viele von uns, insbesondere in den Industrieländern, haben vergessen, dass tatsächlich alle Teile eines Tieres zu leckeren und nahrhaften Gerichten verarbeitet werden können. Wir haben den Bezug dazu verloren, woher Lebensmittel kommen und wie viel Aufwand ihre Herstellung erfordert. <br><br>
 
-Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln beim Kochen zu verwenden, können Sie Ihren Gästen eine ganz neue Welt des Geschmacks eröffnen. Restaurants beeinflussen das Essverhalten Ihrer Gäste. Viele Trends haben in der Gastronomie begonnen. Beachten Sie die folgenden Aspekte, wenn Sie das einmal ausprobieren wollen: 
-</p>
+              Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln beim Kochen zu verwenden, können Sie Ihren Gästen eine ganz neue Welt des Geschmacks eröffnen. Restaurants beeinflussen das Essverhalten Ihrer Gäste. Viele Trends haben in der Gastronomie begonnen. Beachten Sie die folgenden Aspekte, wenn Sie das einmal ausprobieren wollen:
+            </p>
             <center class="mt-5">
               <img src="./images/safe_food/Asset 33.svg" class="img-fluid">
             </center>
@@ -1300,7 +1317,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               </div>
               <div class="media-body">
                 <p>Beziehen Sie Fisch und Fleisch aus nachhaltigen Quellen
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -1321,7 +1338,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               </div>
               <div class="media-body">
                 <p>Sprechen Sie mit Ihren Gästen darüber, was Sie tun und weshalb. Um sie davon zu überzeugen, ungewöhnliche Gerichte zu probieren, könnten Sie Probierteller anbieten
-</p>
+                </p>
               </div>
             </div>
           </div>
@@ -1381,8 +1398,8 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
                 <img src="./images/safe_food/Asset 35.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Verwelkter Salat kann sautiert und als Beilage serviert werden 
-</p>
+                <p>Verwelkter Salat kann sautiert und als Beilage serviert werden
+                </p>
               </div>
             </div>
           </div>
@@ -1393,7 +1410,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               </div>
               <div class="media-body">
                 <p>Gekochte Brokkolistängel können zu einer Suppe püriert werden
- </p>
+                </p>
               </div>
             </div>
           </div>
@@ -1407,7 +1424,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
         <div class="col-md-5">
           <div class="banner_l4_title">
             <h1 class="banner_title2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber</h1>
-            <p>Überprüfen Sie regelmäßig die Ergebnisse Ihrer Maßnahmen, sobald Sie erste Schritte zur Abfallvermeidung ergriffen haben. Halten Sie Ausschau nach einfachen Lösungen, die Ihnen nicht viel Zeit abverlangen. Überwachen Sie z.B. Ihre Entsorgungskosten, das Spendenaufkommen, die Einsparung von Kosten durch die Verteilung von Lebensmittelresten und die Ansprache neuer Gäste. Sprechen Sie mit Ihren Mitarbeitenden, wie viel Sie eingespart haben und wie ihre Mitarbeitenden Sie bei diesen angestrebten Einsparungen unterstützt haben. Die sichtbaren Fortschritte können Sie motivieren, auch weiterhin Lebensmittel einzusparen. Machen Sie Ihre Aktivitäten bekannt. Sie können Ihr verantwortungsbewusstes Handeln für Ihre Gäste mit einem Hinweis auf Ihrer Website oder in Ihrer Speisekarte sichtbar machen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.  </p>
+            <p>Überprüfen Sie regelmäßig die Ergebnisse Ihrer Maßnahmen, sobald Sie erste Schritte zur Abfallvermeidung ergriffen haben. Halten Sie Ausschau nach einfachen Lösungen, die Ihnen nicht viel Zeit abverlangen. Überwachen Sie z.B. Ihre Entsorgungskosten, das Spendenaufkommen, die Einsparung von Kosten durch die Verteilung von Lebensmittelresten und die Ansprache neuer Gäste. Sprechen Sie mit Ihren Mitarbeitenden, wie viel Sie eingespart haben und wie ihre Mitarbeitenden Sie bei diesen angestrebten Einsparungen unterstützt haben. Die sichtbaren Fortschritte können Sie motivieren, auch weiterhin Lebensmittel einzusparen. Machen Sie Ihre Aktivitäten bekannt. Sie können Ihr verantwortungsbewusstes Handeln für Ihre Gäste mit einem Hinweis auf Ihrer Website oder in Ihrer Speisekarte sichtbar machen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen. </p>
           </div>
         </div>
         <div class="col-md-5 offset-md-1">
@@ -1418,7 +1435,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
       </div>
     </div>
   </section>
-  <section class="action_plan mt-5">
+  <section class="action_plan mt-5" id="section-to-print">
     <div class="container">
       <div class="top-content mb-4">
         <h3> Ihr Aktionsplan </h3>
@@ -1431,7 +1448,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Ermitteln Sie, die Herkunft der Lebensmittelabfälle in Ihrem Restaurant
-</p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1439,7 +1456,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class="">Lagern Sie Obst und Gemüse ordnungsgemäß
- </p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1447,7 +1464,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Kaufen Sie nur das ein, was Sie wirklich brauchen
-  </p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1455,7 +1472,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Spenden Sie überschüssige Lebensmittel und informieren Sie sich über lokale Einrichtungen, die Spenden annehmen. Achten Sie auf die Anforderungen, die diese Einrichtungen an die Abgabe von Lebensmittel stellen
- </p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1463,7 +1480,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Kompostieren Sie Produkte, die kompostierbar sind
-</p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1471,14 +1488,14 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Ergänzen Sie die Speisekarte mit Gerichten, die auch unübliche Zutaten enthalten
- </p>
+            </p>
           </li>
           <li>
             <label class="check-wrap">
               <input type="checkbox" checked="checked">
               <span class="checkmark"></span>
             </label>
-            <p class=""> Informieren und engagieren Sie Ihr Personal  </p>
+            <p class=""> Informieren und engagieren Sie Ihr Personal </p>
           </li>
           <li>
             <label class="check-wrap">
@@ -1493,7 +1510,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
               <span class="checkmark"></span>
             </label>
             <p class=""> Bringen Sie visuelle Erinnerungshilfen an
- </p>
+            </p>
           </li>
           <li class="print-li">
             <button onclick="window.print();" class="no-print">Print</button>
@@ -1706,7 +1723,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
       <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
       <h4>Beziehen Sie Ihr Personal ein</h4>
       <p> Wenn Sie versuchen, möglichst wenig Lebensmittel zu verschwenden, sollten Sie Ihr Personal miteinbinden. Machen Sie ihnen die Bedeutung der Abfallvermeidung in Ihrem Betrieb verständlich. Das Engagement Ihres Personals ist entscheidend dafür, dass alle Maßnahmen funktionieren. Sie müssen auf dem Laufenden gehalten und geschult werden. Führen Sie mehrfache Schulungen durch, platzieren Sie Informationen zur Abfallvermeidung an gut sichtbaren Stellen und erinnern Sie alle immer wieder daran, dass die Unterstützung jedes einzelnen Mitarbeitenden zählt, um die Lebensmittelverschwendung im Arbeitsalltag der Gastronomie zu bekämpfen.
- </p>
+      </p>
 
     </div>
   </div>
@@ -1725,53 +1742,53 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
             <li> Nutzen Sie digitale Tools, wie das <a href="https://www.menukithd.com/ 
 ">Menukit </a>, um Rezepte zu verwalten und den täglichen Bedarf an Lebensmitteln zu berechnen. So können Sie gleichzeitig Ihre Einkaufskosten besser kontrollieren.</li>
             <li> Fragen Sie Ihre Mitarbeitenden nach ihrer Einschätzung: Wo werden Lebensmittel verschwendet und wie kann man es vermeiden?
-</li>
+            </li>
             <li> Optimieren Sie die Haltbarkeit von Lebensmitteln, indem Sie sicherstellen, dass die Kühlketten nicht unterbrochen und die Produkte bei der richtigen Temperatur gelagert werden
-</li>
-            <li>Organisieren und beschriften Sie Ihre Vorräte, so dass die Haltbarkeit sichtbar ist 
-</li>
+            </li>
+            <li>Organisieren und beschriften Sie Ihre Vorräte, so dass die Haltbarkeit sichtbar ist
+            </li>
             <li>Stellen Sie sicher, dass alle bereits geöffneten und verarbeiteten Zutaten ein Etikett mit ihrer Haltbarkeitsdauer erhalten
-</li>
+            </li>
             <li>Sorgen Sie für Ordnung in Ihrem Vorratsraum. Sie sollten immer wissen, was verbraucht werden muss, damit Sie nicht mehr bestellen, als wirklich nötig ist</li>
             <li>Überprüfen Sie Ihren Bestand regelmäßig, um die gekauften Mengen und die Menge der verschwendeten Lebensmittel zu vergleichen
-</li>
+            </li>
             <li>Versuchen Sie, bislang nicht verwendete Teile von Lebensmitteln zu nutzen, z.B. mit Hilfe von <a href="https://www.mpulse.de/de/gastronomie/food-trends-fuer-die-gastronomie "> Zero-Waste-Rezepten</a>
-</li>
+            </li>
             <li> Bedenken Sie, dass Lebensmittelreste (die nicht von Tieren stammen) als Tierfutter gespendet werden können, z.B. an ein örtliches Tierheim oder einen Zoo
-</li>
+            </li>
             <li> Erlauben Sie Ihrem Personal, die überschüssigen Lebensmittel am Ende des Tages zu essen oder mit nach Hause zu nehmen</li>
             <li>Spenden Sie Ihre übrig gebliebenen Lebensmittel
-</li>
+            </li>
             <li> Recyceln und/oder verwerten Sie Abfälle, wo immer es möglich ist</li>
-            <li>Lebensmittelabfälle im <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants "> vorderen Bereich des</a> Restaurants 
-</li>
+            <li>Lebensmittelabfälle im <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants "> vorderen Bereich des</a> Restaurants
+            </li>
 
 
           </ul>
         </div>
 
         <div class="col-md-6">
-          <h6><strong>Lebensmittelabfälle im vorderen Bereich des Restaurants 
-</strong></h6>
+          <h6><strong>Lebensmittelabfälle im vorderen Bereich des Restaurants
+            </strong></h6>
           <ul>
             <li> Überwachen Sie die Portionsgrößen der Gerichte. Prüfen Sie, ob Sie die Mengen ändern sollten, wenn zu viele Reste pro Gast anfallen
-</li>
+            </li>
             <li> Erwägen Sie die Verwendung kleinerer Teller</li>
             <li> Analysieren Sie die Beliebtheit einzelner Gerichte </li>
             <li> Ermutigen Sie Ihre Gäste, Essensreste mitzunehmen</li>
             <li> Legen Sie mit Ihrem Personal die genauen Portionsgrößen pro Gericht fest
-</li>
+            </li>
             <li> Überarbeiten Sie Ihre Speisekarte, um die Menge der Lebensmittelreste zu reduzieren
-</li>
+            </li>
             <li> Geben Sie Rabatte an Ihre Gäste weiter, wenn Sie übriggebliebene Lebensmittel verwenden
-</li>
+            </li>
             <li> Spenden Sie Ihre überschüssigen Lebensmittel, wenn Sie sie nicht weiterverkaufen können</li>
             <li> Trennen Sie Ihre Lebensmittelabfälle ordnungsgemäß, damit sie richtig verarbeitet werden können
-</li>
+            </li>
             <li> Kompostieren Sie Ihre Lebensmittel, wenn möglich
- </li>
-            <li> Informieren Sie Ihre Gäste über Ihre Maßnahmen 
-</li>
+            </li>
+            <li> Informieren Sie Ihre Gäste über Ihre Maßnahmen
+            </li>
 
           </ul>
         </div>
@@ -1784,27 +1801,27 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
       <h4> Lagern Sie Obst und Gemüse richtig </h4>
-      <p> Obst und Gemüse tragen wesentlich zu der Menge von Lebensmittelabfällen in Ihrem Restaurant bei. Prüfen Sie deshalb, ob Sie bereits alle Maßnahmen zur Lagerung von Obst und Gemüse ausschöpfen, um unnötige Lebensmittelabfälle zu vermeiden: 
+      <p> Obst und Gemüse tragen wesentlich zu der Menge von Lebensmittelabfällen in Ihrem Restaurant bei. Prüfen Sie deshalb, ob Sie bereits alle Maßnahmen zur Lagerung von Obst und Gemüse ausschöpfen, um unnötige Lebensmittelabfälle zu vermeiden:
 
 
       <ul>
         <li>Stellen Sie sicher, dass Ihr Lagerraum gut belüftet ist
-</li>
+        </li>
         <li>Wenden Sie das First-In-First-Out-Prinzip (FIFO) an, um sicherzugehen, dass Produkte, die zuerst angeliefert werden, auch sofort weiterverarbeitet werden
-</li>
+        </li>
         <li>Lagern Sie Obst und Gemüse bei einer niedrigeren Temperatur als in der Umgebung, in er sie normalerweise wachsen, um ihre Haltbarkeit zu verlängern.
-</li>
+        </li>
         <li>Lagern Sie Obst und Gemüse entsprechend ihren spezifischen Lagertemperaturen. Beeren können z.B. in einem Kühlschrank aufbewahrt werden, Bananen sollten jedoch außerhalb des Kühlschranks an einem kühlen Ort gelagert werden
- </li>
+        </li>
         <li>Frische Produkte sollten ihre spezifische Temperaturzone nicht zu lange verlassen. Abgepackte Salate verlieren einen Tag ihrer Haltbarkeit für jede Stunde, die sie nicht optimal gelagert werden</li>
         <li>Gehen Sie vorsichtig mit Obst und Gemüse um, um Beschädigungen zu vermeiden
-</li>
+        </li>
         <li>Stapeln Sie leichte Waren wie Beeren, Pilze und leichte Kisten oben im Kühlschrank und Kühlraum
-</li>
+        </li>
         <li>Achten Sie auf verpackte Produkte, wie z.B. Äpfel in einer Plastikfolie, da die Beschädigung eines Produkts in der Verpackung auch die anderen schnell beschädigen kann
-</li>
-        <li>Trennen Sie Ethylen produzierende Produkte (Bananen, Äpfel, Birnen, Kiwis, Feigen, Melonen und Tomaten) von ethylempfindlichen Produkten (Zitrusfrüchte, Ananas, Blattgemüse, Kirschen, Beeren, Trauben sowie Fruchtgemüse). Durch die Trennung wird die Reifung der ethylempfindlichen Lebensmittel verlangsamt 
-</li>
+        </li>
+        <li>Trennen Sie Ethylen produzierende Produkte (Bananen, Äpfel, Birnen, Kiwis, Feigen, Melonen und Tomaten) von ethylempfindlichen Produkten (Zitrusfrüchte, Ananas, Blattgemüse, Kirschen, Beeren, Trauben sowie Fruchtgemüse). Durch die Trennung wird die Reifung der ethylempfindlichen Lebensmittel verlangsamt
+        </li>
       </ul>
       </p>
 
@@ -1821,7 +1838,7 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
   <div id="pop5" class="modalx">
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-      <h4> Achten Sie auf gute Qualität  </h4>
+      <h4> Achten Sie auf gute Qualität </h4>
       <p>Seien Sie offen für leichte Mängel an Lebensmitteln, aber meiden Sie Gemüse und Obst, das zu viele Druckstellen oder Schäden aufweist.</p>
 
     </div>
@@ -1837,14 +1854,14 @@ Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln 
   <div id="pop7" class="modalx">
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
-      <h4> Spenden Sie überschüssige Lebensmittel  </h4>
-      <p>Nicht verwendete Lebensmittel müssen nicht weggeworfen werden. Indem Sie solche Lebensmittel spenden oder günstiger anbieten (z.B. über TOO GOOD TO GO), verhindern Sie, dass diese auf der Mülldeponie landen. Gleichzeitig helfen Sie Menschen in Not. Darüber hinaus steigern Spenden die Moral Ihres Personals, weil Ihre Mitarbeiter sehen, dass sie etwas Positives bewirken. Spenden können Ihnen auch bei der Steuer finanzielle Vorteile bringen. Grundsätzlich können Lebensmittel an Wohltätigkeitsorganisationen, Lebensmittelbanken, Zoos oder Tierheime gespendet werden. Aber denken Sie daran: In der Regel stellen diese bestimmte Anforderungen an die Lebensmittel, die sie annehmen. Dies sind zum Beispiel: 
+      <h4> Spenden Sie überschüssige Lebensmittel </h4>
+      <p>Nicht verwendete Lebensmittel müssen nicht weggeworfen werden. Indem Sie solche Lebensmittel spenden oder günstiger anbieten (z.B. über TOO GOOD TO GO), verhindern Sie, dass diese auf der Mülldeponie landen. Gleichzeitig helfen Sie Menschen in Not. Darüber hinaus steigern Spenden die Moral Ihres Personals, weil Ihre Mitarbeiter sehen, dass sie etwas Positives bewirken. Spenden können Ihnen auch bei der Steuer finanzielle Vorteile bringen. Grundsätzlich können Lebensmittel an Wohltätigkeitsorganisationen, Lebensmittelbanken, Zoos oder Tierheime gespendet werden. Aber denken Sie daran: In der Regel stellen diese bestimmte Anforderungen an die Lebensmittel, die sie annehmen. Dies sind zum Beispiel:
 
       <ul>
         <li>Frische Lebensmittel müssen verpackt und noch haltbar sein
-</li>
+        </li>
         <li>Obst und Gemüse darf nicht verdorben sein
-</li>
+        </li>
         <li>Verpackte Lebensmittel müssen ungeöffnet sein </li>
       </ul>
 

@@ -65,6 +65,7 @@
   height: 40rem;
   float: left;
   position: relative;
+  z-index: 2;
 }
 
 .pageSlider-prev-inner {
@@ -82,11 +83,20 @@
   /**/
 }
 
+.swiper-pagination {
+  z-index: 9;
+}
+
 .pageSlider-next {
   width: 1%;
   height: 40rem;
   float: left;
   position: relative;
+  z-index: 1;
+}
+
+.pageSlider-pagination-inner {
+  z-index: 0;
 }
 
 .pageSlider-next-inner {

@@ -17,6 +17,24 @@
     <script src="required1/modernizr.min.js"></script>
     <script src="required1/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="./assets/js/common.js"></script>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            #section-to-print,
+            #section-to-print * {
+                visibility: visible;
+            }
+
+            #section-to-print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
 </head>
 
 <body class="stage1">

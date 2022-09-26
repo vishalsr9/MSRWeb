@@ -20,6 +20,24 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -206,7 +224,8 @@
                         <div class="three-step_para">
                           <p>A <strong>food safety management system (FSMS)</strong> will cover every aspect of your food handling and purchasing and will have the necessary checks, records, and reviews in place to make sure your procedures are being followed. The system should be documented – not only for you to know what is happening - but also for your staff to be briefed properly and to have proof that you are managing your processes safely for your local authority inspector. Ensuring food safety also means organising your premises and processes appropriately. This exercise helps the organisation to operate sustainably. Many of the documentation and recording systems used in food safety management can be adapted and introduced systematically for sustainability. </p>
                           <p class="mt-0">
-                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong></p>
+                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -863,7 +882,7 @@
           </div>
         </div>
       </section>
-      <section class="container section4-6">
+      <section class="container section4-6" id="section-to-print">
         <div class="top-content">
           <h3>Your Action Plan</h3>
         </div>

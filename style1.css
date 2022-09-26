@@ -1030,7 +1030,7 @@ a.aqu:hover {
     height: auto;
     float: right;
     padding-left: 2rem;
-    margin-top: -3rem;
+    margin-top: 0rem;
 }
 
 .hen-egg0 {
@@ -1781,4 +1781,8 @@ img.et2{
     width: 16rem;
 margin-top: 0rem;
 margin-left: 2rem;
+}
+
+.z0{
+    z-index:0!important;
 }

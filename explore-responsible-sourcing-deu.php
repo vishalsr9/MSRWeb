@@ -775,7 +775,7 @@
 
 
             <!--Importance of sourcing-->
-            <section class="section2 no-print">
+            <section class="section2 no-print z0">
                 <div class="text-center">
                     <div class="wrap-2">
                         <h3 class="section-heading-blue">Die Bedeutung eines verantwortungsbewussten Einkaufs</h3>
@@ -1825,42 +1825,19 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
-                                                    <div class="row">
-                                                        <div class="col-md-8">
-                                                            <h5>
-                                                                <strong>
-                                                                    Warum ist es wichtig, Verpackungen zu verwenden,<br>
-                                                                    die die Umwelt weniger belasten?
-                                                                </strong>
-                                                            </h5>
-                                                            <p class="justify1">
-                                                                Wenn Verpackungen unnötig verwendet und falsch entsorgt werden, schaden sie der Umwelt. Die Herstellung und Entsorgung herkömmlicher Kunststoff- und Einwegverpackungen erfordert Ressourcen (z.B. fossile Brennstoffe) und dies hat negative Auswirkungen auf die Umwelt. Machen wir uns bewusst: jede Minute landet eine LKW-Ladung Plastik in unseren Ozeanen! Andere Materialien wie Pappe und Holz können, wenn sie nicht ordnungsgemäß entsorgt werden, ebenfalls Kosten durch Bußgelder oder die Müllentsorgung verursachen.
-                                                            </p>
-                                                            <h6 class="">
-                                                                <strong>
-                                                                    Hier sind einige Beispiele dafür, wie lange manche Produkte auf einer Deponie lagern, bis sie vollständig abgebaut sind.
-                                                                </strong>
-                                                            </h6>
-                                                            <p class="justify1 mt-4">
-                                                                <strong>Kompostierbare Verpackungen</strong> zersetzen sich innerhalb eines bestimmten Zeitraums in natürliche, nährstoffreiche und umweltverträgliche Bestandteile. Verpackungen, die im eigenen Garten kompostiert werden , kompostieren sich gemäß der europäischen Norm EN 13432 bei einer Umgebungstemperatur von 20 - 30 °C innerhalb von 52 Wochen. Das bedeutet, dass sie solche Verpackungen zusammen mit Ihren Obst- und Gemüseschalen in Ihre Komposttonne werfen können.
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-md-4">
-                                                            <div class="msr-img-holder9">
-                                                                <div class="msr-img-holder-inner9">
-                                                                    <img src="images/resp_sourcing/food-pack.svg" class="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-
-
-                                                            <p class="justify1 mt-2">
-                                                                <strong>Industriell kompostierbare Verpackungen</strong> müssen in einer speziellen Anlage gesammelt und ordnungsgemäß behandelt werden. Aufgrund der spezifischen Bedingungen (50 bis 70 °C) können sie gemäß der europäischen Norm EN 13432 innerhalb von 12 Wochen vollständig abgebaut werden. Werden andere Abfälle in eine Recyclingtonne gegeben, verunreinigen sie die restlichen Bestandteile, so dass diese nicht mehr recycelt und wiederverwendet werden können. Auf Mülldeponien oder in der heimischen Komposttonne kann der Müll nicht biologisch abgebaut werden. Und wenn sie im Meer landen, zerfallen sie ähnlich wie herkömmlicher Kunststoff in mikroskopisch kleine Teile, halten sich jahrzehntelang und stellen eine Gefahr für das Leben im Meer dar.
-
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                                    <h5>
+                                                        <strong>
+                                                            Warum ist es wichtig, Produkte einzukaufen,<br>
+                                                            bei denen auf das Tierwohl geachtet wird?
+                                                        </strong>
+                                                    </h5>
+                                                    <p class="justify1">
+                                                        <img src="images/resp_sourcing/hen-egg-basket.svg" class="img-fluid hen-egg">
+                                                        Obwohl Tiere Gefühle empfinden, werden Milliarden von ihnen in überfüllten, Massentierhaltungen gehalten. Aufgrund der intensiven Haltung werden Antibiotika oft routinemäßig eingesetzt. Wenn die Abfälle aus solchen Betrieben nicht ordnungsgemäß behandelt werden, kann dies auch Auswirkungen auf die umliegende Natur und die Gemeinden haben. Die Bedingungen in vielen Massentierhaltungsbetrieben kann außerdem auch das Wohlbefinden der Tiere beeinträchtigen. Rassen, die für die Intensivhaltung verwendet werden, nehmen schneller an Gewicht zu, wodurch z.B. im Falle von Hühnern ihre Knochen schwächer werden, weshalb diese leicht brechen können. Daraus resultiert auch, dass viele Tiere nicht mehr für die Produktion von Fleisch genutzt werden können.
+                                                    </p>
+                                                    <p class="justify1">
+                                                        Tiere, die mehr Raum für Bewegung haben, können ihr natürliches Verhalten ausleben, was zu weniger Stress führt. Wenn die Tiere sich frei bewegen können, stärkt das ihre Muskeln und führt zu einer besseren Fleischqualität. Das Fleisch von Tieren, die unter stressfreien Bedingungen geschlachtet werden, hat einen besseren Geschmack und eine bessere Konsistenz. Und Eier von Hühnern, die im Freien gehalten werden, haben ein geringeres Risiko einer Kontamination mit Salmonellen, die Lebensmittelvergiftungen verursachen können.
+                                                    </p>
 
                                                 </div>
                                             </div>

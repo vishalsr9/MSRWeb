@@ -19,6 +19,86 @@
   <script src="required1/modernizr.min.js"></script>
   <script src="required1/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="./assets/js/common.js"></script>
+  <link rel="stylesheet" href="pageslider.css">
+  <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
+
+    .sldImg01>img {
+      width: 13rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+      width: 23rem;
+      transition: .5s;
+    }
+
+    .sldImg02>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+      width: 21rem;
+      transition: .5s;
+    }
+
+    .sldImg03>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+      width: 20rem;
+      transition: .5s;
+    }
+
+    .sldImg04>img {
+      width: 16rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+      width: 33rem;
+      transition: .5s;
+    }
+
+    .sldImg05>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+      width: 23rem;
+      transition: .5s;
+    }
+
+    .sldImg06>img {
+      width: 13rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+      width: 25rem;
+      transition: .5s;
+    }
+  </style>
 </head>
 
 <body class="stage1">
@@ -196,114 +276,173 @@
                 This is how you can start managing your waste:</strong></p>
             <div class="sw-holder">
               <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-              <div class="swholder1">
-                <div class="swholder-sw food_wasteSlide energy_l4 waste_l4-1">
-                  <div class="swiper swx swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                    <div class="swiper-wrapper swx-wrapper" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-71.5px, 0px, 0px);" id="swiper-wrapper-9329353e60f736c3" aria-live="polite">
-                      <div class="swiper-slide sl-box swiper-slide-prev" role="group" aria-label="1 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 energy_slider1 text-center waste_slide">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl8.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder">Sort and try to separate the waste according to<br>its type – food, plastics, cartons, etc.</span>
-                          </div>
-                          <div class="sl-button sl-button-1 text-center">
-                            <!-- <button class="read-more-btn plasticWaste_btn-1" id="sl-button sl-button-1">Read more</button> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box swiper-slide-active" role="group" aria-label="2 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-2 energy_slider2 waste_l4-2 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl9.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-2 text-center">
-                            <span class="sltext-holder">Identify waste generation sources and talk to<br>your staff about their ideas on waste reduction. </span>
-                          </div>
-                          <div class="sl-button sl-button-2 text-center">
-                            <!-- <button class="read-more-btn plasticWaste_btn-2" id="sl-button sl-button-2">Read more</button> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box swiper-slide-next" role="group" aria-label="3 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-3 energy_slider3 waste_l4-3 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl10.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-3 text-center">
-                            <span class="sltext-holder">Ensure that your existing waste management<br>systems are being used correctly.</span>
-                          </div>
-                          <div class="sl-button sl-button-3 text-center">
-                            <!-- <button class="read-more-btn plasticWaste_btn-3" id="sl-button sl-button-3">Read more</button> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="4 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-4 energy_slider4 waste_l4-4 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl11.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-4 text-center">
-                            <span class="sltext-holder"> Talk to your local authority to check what the available<br>solutions are. Talk to your wholesale supplier to check<br>what solutions they have available. Some will arrange<br>
-                              waste collection. </span>
-                          </div>
-                          <div class="sl-button sl-button-4 text-center">
-                            <!-- <button class="read-more-btn plasticWaste_btn-4" id="sl-button sl-button-4">Read more</button> -->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 energy_slider5 waste_l4-5 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl12.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> For food waste</span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <a class="read-more-btn plasticWaste_btn-5 wastes_btn-1" href="explore-food-waste-eng.php">Check out these tips</a>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 energy_slider6 waste_l4-6 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/wl13.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> For single use plastic items such as takeaway<br>goods, plastic stirrers, or packaging </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <a class="read-more-btn plasticWaste_btn-6 wastes_btn-2" href="explore-plastic-waste-eng.php">Check out these tips </a>
+              <div class="row">
+                <div class="col-md-12 mb-5">
+                  <div class="pageSlider-container">
+                    <div class="pageSlider-container-inner">
+                      <div class="pageSlider-prev">
+                        <div class="pageSlider-prev-inner">
+                          <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                        </div>
+                      </div>
+                      <div class="pageSlider">
+                        <div class="pageSlider-inner">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="pageSlider-holder">
+                                <div class="swiper pageSwiper1">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg01">
+                                              <img src="images/safe_food/wl8.svg" class="img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText01">
+                                              Sort and try to separate the waste according to its type – food, plastics, cartons, etc.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg02">
+                                              <img src="images/safe_food/wl9.svg" class="img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText02">
+                                              Identify waste generation sources and talk to your staff about their ideas on waste reduction.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg03">
+                                              <img src="images/safe_food/wl10.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText03">
+                                              Ensure that your existing waste management systems are being used correctly.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg04">
+                                              <img src="images/safe_food/wl11.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText04">
+                                              Talk to your local authority to check what the available solutions are. Talk to your wholesale supplier to check<br>what solutions they have available. Some will arrange<br>
+                                              waste collection.
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg05">
+                                              <img src="images/safe_food/wl12.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText05">
+                                              For food waste
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn05">
+                                              <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-slide pageSlider-slide text-center">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-image">
+                                            <span class="sldImg06">
+                                              <img src="images/safe_food/wl13.svg" class=" img-fluid">
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-text">
+                                            <span class="sldText06">
+                                              For single use plastic items such as takeaway goods, plastic stirrers, or packaging
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                          <div class="pageSlider-slide-button">
+                                            <span class="sldBtn06">
+                                              <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="pageSlider-pagination">
+                                <div class="pageSlider-pagination-inner">
+                                  <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                </div>
+                              </div>
+
+                            </div>
                           </div>
                         </div>
                       </div>
-
-
-
+                      <div class="pageSlider-next">
+                        <div class="pageSlider-next-inner">
+                          <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                        </div>
+                      </div>
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                   </div>
                 </div>
-                <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+
               </div>
-              <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+
             </div>
           </div>
         </div>
@@ -428,7 +567,7 @@
       </section>
 
 
-      <section class="action_plan mt-5">
+      <section class="action_plan mt-5" id="section-to-print">
         <div class="container">
           <div class="top-content mb-4">
             <h3>Your Action Plan</h3>
@@ -717,25 +856,22 @@
   </div>
 
 
-
-
-
-
-  <div id="waste_content1" class="modalx">
+  <div id="pop5" class="modalx">
     <div class="modalx-content">
-      <h4> For food waste</h4>
-      <!-- <p>Reposition heat generating equipment away from cooling equipment. For example, ensure the oven is not next to the ice machine where it will have to work harder than needed. 
-</p> -->
-      <a class="read-more-btn btn btn-sm waste_close1">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+      <h4>For food waste</h4>
+      <p>
+        Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+      </p>
     </div>
   </div>
-
-  <div id="waste_content2" class="modalx">
+  <div id="pop6" class="modalx">
     <div class="modalx-content">
-      <h4> For single use plastic items such as takeaway goods, plastic stirrers, or packaging, </h4>
-      <!-- <p>Reposition heat generating equipment away from cooling equipment. For example, ensure the oven is not next to the ice machine where it will have to work harder than needed. 
-</p> -->
-      <a class="read-more-btn btn btn-sm waste_close2">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+      <h4>For single use plastic items such as takeaway goods, plastic stirrers, or packaging</h4>
+      <p>
+        Reposition heat generating equipment away from cooling equipment. For example, ensure the oven is not next to the ice machine where it will have to work harder than needed.
+      </p>
     </div>
   </div>
 
@@ -746,28 +882,6 @@
 
 
   <script type="text/javascript">
-    $(document).ready(function() {
-      //slide one
-      $(".wastes_btn_1").click(function() {
-        $("#waste_content1").css("display", "block");
-      });
-      $(".waste_close1").click(function() {
-        //alert("Hi")
-        $("#waste_content1").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".wastes_btn_2").click(function() {
-        $("#waste_content2").css("display", "block");
-      });
-      $(".waste_close2").click(function() {
-        //alert("Hi")
-        $("#waste_content2").css("display", "none");
-      });
-    });
-
-
     function myFunction() {
       var dots = document.getElementById("dots");
       var moreText = document.getElementById("moreless");
@@ -784,12 +898,6 @@
       }
     }
   </script>
-
-
-
-
-
-
 
   <script type="text/javascript">
     var eurl = "explore-to-plastic-waste-eng.php"
@@ -825,28 +933,7 @@
 
     });
   </script>
-  <script>
-    var swiper = new Swiper(".swx", {
-      grabCursor: true,
-      centeredSlides: true,
-      initialSlide: 1,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 30,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+
 
 
 
@@ -867,6 +954,40 @@
   </script>
 
 
+
+
+  <script>
+    //pageSlider swiper
+    function openPopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "block");
+    }
+
+    function closePopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "none");
+    }
+    var swiper = new Swiper(".pageSwiper1", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper1Pagination",
+      },
+    });
+  </script>
 
 
 </body>

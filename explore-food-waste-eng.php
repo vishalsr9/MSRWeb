@@ -32,11 +32,11 @@
     }
 
     .sldImg03>img {
-      width: 13rem;
+      width: 15rem;
     }
 
     .sldImg04>img {
-      width: 10rem;
+      width: 12rem;
     }
 
     .sldImg05>img {
@@ -44,39 +44,56 @@
     }
 
     .sldImg06>img {
-      width: 15rem;
+      width: 16rem;
     }
 
     .sldImg07>img {
-      width: 8rem;
+      width: 7rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-      width: 26rem;
+      width: 35rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-      width: 19rem;
+      width: 26rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-      width: 20rem;
+      width: 30rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
-      width: 18rem;
+      width: 24rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
-      width: 11rem;
+      width: 16rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
-      width: 22rem;
+      width: 30rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
-      width: 11rem;
+      width: 13rem;
+    }
+
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
     }
   </style>
 </head>
@@ -1272,7 +1289,7 @@
           <div class="compost_wasteFood_img learn_to_make">
 
             <p class="mt-5">Unwanted parts are those pieces of meat, fish and vegetables that usually get discarded because the taste, texture or appearance is not what diners can stomach. Sometimes these unwanted parts, such as offal or bones, are simply forgotten over the decades. What is clear is that many of us, particularly in developed countries, lost our imagination to create delicious and nutritious meals out of all parts of the animal. We lost our connection to where food comes from and our appreciation of the effort it takes to produce. <br>
-              <br>When you use these generally unwanted parts you can deliver a whole new world of tastes and textures to your customers. Restaurants influence eating patterns and many trends have started in restauration. 
+              <br>When you use these generally unwanted parts you can deliver a whole new world of tastes and textures to your customers. Restaurants influence eating patterns and many trends have started in restauration.
             </p>
             <center class="mt-5">
               <img src="./images/safe_food/Asset 33.svg" class="img-fluid">
@@ -1401,7 +1418,7 @@
       </div>
     </div>
   </section>
-  <section class="action_plan mt-5">
+  <section class="action_plan mt-5" id="section-to-print">
     <div class="container">
       <div class="top-content mb-4">
         <h3>Your Action Plan</h3>

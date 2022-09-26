@@ -18,6 +18,150 @@
   <script src="required1/modernizr.min.js"></script>
   <script src="required1/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="./assets/js/common.js"></script>
+  <link rel="stylesheet" href="pageslider.css">
+  <style>
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+
+      #section-to-print,
+      #section-to-print * {
+        visibility: visible;
+      }
+
+      #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+
+    .pageSlider-slide.swiper-slide-active,
+    .pageSlider-slide {
+      background: white;
+    }
+
+    .sldImg01>img {
+      width: 24rem;
+      transition: .5s;
+      margin-bottom: 1rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+      width: 35rem;
+      transition: .5s;
+      margin-bottom: 3rem;
+      margin-top: 4rem;
+    }
+
+    .sldImg02>img {
+      width: 16rem;
+      transition: .5s;
+    }
+
+    .sldImg03>img {
+      width: 11rem;
+      transition: .5s;
+    }
+
+    .sldImg04>img {
+      width: 14rem;
+      transition: .5s;
+    }
+
+    .sldImg05>img {
+      width: 7.5rem;
+      transition: .5s;
+    }
+
+    .sldImg06>img {
+      width: 10rem;
+      transition: .5s;
+    }
+
+    .sldImg07>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .sldImg08>img {
+      margin-top: 1rem;
+      margin-bottom: .3rem;
+      transition: .5s;
+    }
+
+    .sldImg09>img {
+      width: 5.5rem;
+      transition: .5s;
+    }
+
+    .sldImg10>img {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .sldImg11>img {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      transition: .5s;
+    }
+
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+      width: 32rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+      width: 21rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+      width: 29rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+      width: 14rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+      width: 19rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
+      width: 24rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg08>img {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg09>img {
+      width: 9.5rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg10>img {
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg11>img {
+      margin-bottom: 3rem;
+      margin-top: 5rem;
+      transition: .5s;
+    }
+  </style>
 </head>
 
 <body class="stage1">
@@ -304,193 +448,334 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
           <div class="container-fluid">
             <h3 class="wayT0Title">Simple ways to prevent plastic waste</h3>
             <p class="disc">As a restaurateur, there are many ways to reduce plastic waste in your restaurant</p>
-            <div class="sw-holder">
-              <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-              <div class="swholder1">
-                <div class="swholder-sw food_wasteSlide">
-                  <div class="swiper swx swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                    <div class="swiper-wrapper swx-wrapper" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-71.5px, 0px, 0px);" id="swiper-wrapper-9329353e60f736c3" aria-live="polite">
-                      <div class="swiper-slide sl-box swiper-slide-prev" role="group" aria-label="1 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-1.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> RETHINK<br>YOUR USAGE OF PLASTIC FILM </span>
-                          </div>
-                          <div class="sl-button sl-button-1 text-center">
-                            <button class="read-more-btn plasticWaste_btn-1" id="sl-button sl-button-1">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box swiper-slide-active" role="group" aria-label="2 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-2 plastic_waste_slider2 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-2.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-2 text-center">
-                            <span class="sltext-holder">AVOID<br>SINGLE USE PLASTICS </span>
-                          </div>
-                          <div class="sl-button sl-button-2 text-center">
-                            <button class="read-more-btn plasticWaste_btn-2" id="sl-button sl-button-2">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box swiper-slide-next" role="group" aria-label="3 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-3 plastic_waste_slider3 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-3.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-3 text-center">
-                            <span class="sltext-holder">DON’T SERVE <br>PLASTIC STRAWS </span>
-                          </div>
-                          <div class="sl-button sl-button-3 text-center">
-                            <button class="read-more-btn plasticWaste_btn-3" id="sl-button sl-button-3">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="4 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-4 plastic_waste_slider4 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-4.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-4 text-center">
-                            <span class="sltext-holder"> GIVE DISCOUNT FOR<br>PEOPLE WHO BRING THEIR OWN<br>TAKEAWAY CONTAINERS </span>
-                          </div>
-                          <div class="sl-button sl-button-4 text-center">
-                            <button class="read-more-btn plasticWaste_btn-4" id="sl-button sl-button-4">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider5 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-5.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> ASK YOUR CUSTOMERS<br>IF THEY NEED CUTLERY </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-5" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
 
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider6 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-6.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> Introduce tap water </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-6" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider7 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-7.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> Use returnable deposit packaging and returnable plastic carrier packaging </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-7" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider8 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-8.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> Use plastic collection and disposal services</span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-8" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider9 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-9.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder">Take part in a water fill up scheme
-                            </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-9" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider10 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-10.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> Purchase sustainable packaged products
-                            </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-10" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 5">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-5 plastic_waste_slider11 text-center">
-                            <span class="slimg-holder">
-                              <img src="./images/safe_food/pw-11.svg" class="img-fluid mb-2 mt-2">
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-5 text-center">
-                            <span class="sltext-holder"> Engage your staff
-                            </span>
-                          </div>
-                          <div class="sl-button sl-button-5 text-center">
-                            <button class="read-more-btn plasticWaste_btn-11" id="sl-button sl-button-5">Read more</button>
-                          </div>
-                        </div>
-                      </div>
 
+            <div class="row">
+              <div class="col-md-12 mb-5">
+                <div class="pageSlider-container">
+                  <div class="pageSlider-container-inner">
+                    <div class="pageSlider-prev">
+                      <div class="pageSlider-prev-inner">
+                        <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                      </div>
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    <div class="pageSlider">
+                      <div class="pageSlider-inner">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="pageSlider-holder">
+                              <div class="swiper pageSwiper1">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg01">
+                                            <img src="images/safe_food/pw-1.svg" class="img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText01">
+                                            RETHINK<br>YOUR USAGE OF PLASTIC FILM
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn01">
+                                            <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg02">
+                                            <img src="images/safe_food/pw-2.svg" class="img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText02">
+                                            AVOID<br>SINGLE USE PLASTICS
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn02">
+                                            <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg03">
+                                            <img src="images/safe_food/pw-3.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText03">
+                                            DON’T SERVE <br>PLASTIC STRAWS
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn03">
+                                            <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg04">
+                                            <img src="images/safe_food/pw-4.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText04">
+                                            GIVE DISCOUNT FOR<br>PEOPLE WHO BRING THEIR OWN<br>TAKEAWAY CONTAINERS
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn04">
+                                            <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg05">
+                                            <img src="images/safe_food/pw-5.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText05">
+                                            ASK YOUR CUSTOMERS<br>IF THEY NEED CUTLERY
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn05">
+                                            <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
 
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg06">
+                                            <img src="images/safe_food/pw-6.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText06">
+                                            Introduce tap water
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn06">
+                                            <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg07">
+                                            <img src="images/safe_food/pw-7.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText07">
+                                            Use returnable deposit packaging and returnable plastic carrier packaging
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn07">
+                                            <button class="read-more-btn" onclick="openPopUp(7);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg08">
+                                            <img src="images/safe_food/pw-8.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText08">
+                                            Use plastic collection and disposal services
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn08">
+                                            <button class="read-more-btn" onclick="openPopUp(8);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg09">
+                                            <img src="images/safe_food/pw-9.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText09">
+                                            Take part in a water fill up scheme
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn09">
+                                            <button class="read-more-btn" onclick="openPopUp(9);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg10">
+                                            <img src="images/safe_food/pw-10.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText10">
+                                            Purchase sustainable packaged products
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn10">
+                                            <button class="read-more-btn" onclick="openPopUp(10);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image">
+                                          <span class="sldImg11">
+                                            <img src="images/safe_food/pw-11.svg" class=" img-fluid">
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText11">
+                                            Engage your staff
+                                          </span>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-button">
+                                          <span class="sldBtn11">
+                                            <button class="read-more-btn" onclick="openPopUp(11);">Read more</button>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="pageSlider-pagination">
+                              <div class="pageSlider-pagination-inner">
+                                <div class="swiper-pagination pageSwiper1Pagination"></div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pageSlider-next">
+                      <div class="pageSlider-next-inner">
+                        <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
               </div>
-              <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+
             </div>
+
+
           </div>
         </div>
       </section>
@@ -587,7 +872,7 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
       </section>
 
 
-      <section class="action_plan mt-5">
+      <section class="action_plan mt-5" id="section-to-print">
         <div class="container">
           <div class="top-content mb-4">
             <h3>Your Action Plan</h3>
@@ -934,6 +1219,17 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
       <a class="read-more-btn btn btn-sm plasticWaste_close10">X</a>
     </div>
   </div>
+
+  <div id="pop11" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
+      <h4>Re-use grey water</h4>
+      <p>
+        Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+      </p>
+    </div>
+  </div>
+
   <div id="plastic_waste_content11" class="modalx">
     <div class="modalx-content">
       <h4>Engage your staff</h4>
@@ -946,128 +1242,6 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
 
 
 
-
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-1").click(function() {
-        $("#plastic_waste_content1").css("display", "block");
-      });
-      $(".plasticWaste_close1").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content1").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-2").click(function() {
-        $("#plastic_waste_content2").css("display", "block");
-      });
-      $(".plasticWaste_close2").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-3").click(function() {
-        $("#plastic_waste_content3").css("display", "block");
-      });
-      $(".plasticWaste_close3").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content3").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-4").click(function() {
-        $("#plastic_waste_content4").css("display", "block");
-      });
-      $(".plasticWaste_close4").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content4").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-5").click(function() {
-        $("#plastic_waste_content5").css("display", "block");
-      });
-      $(".plasticWaste_close5").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content5").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-6").click(function() {
-        $("#plastic_waste_content6").css("display", "block");
-      });
-      $(".plasticWaste_close6").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content6").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-7").click(function() {
-        $("#plastic_waste_content7").css("display", "block");
-      });
-      $(".plasticWaste_close7").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content7").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-8").click(function() {
-        $("#plastic_waste_content8").css("display", "block");
-      });
-      $(".plasticWaste_close8").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content8").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-9").click(function() {
-        $("#plastic_waste_content9").css("display", "block");
-      });
-      $(".plasticWaste_close9").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content9").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-10").click(function() {
-        $("#plastic_waste_content10").css("display", "block");
-      });
-      $(".plasticWaste_close10").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content10").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".plasticWaste_btn-11").click(function() {
-        $("#plastic_waste_content11").css("display", "block");
-      });
-      $(".plasticWaste_close11").click(function() {
-        //alert("Hi")
-        $("#plastic_waste_content11").css("display", "none");
-      });
-    });
-  </script>
 
 
 
@@ -1109,30 +1283,6 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
 
     });
   </script>
-  <script>
-    var swiper = new Swiper(".swx", {
-      grabCursor: true,
-      centeredSlides: true,
-      initialSlide: 1,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 30,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
-
-
 
   <script>
     document.onreadystatechange = function() {
@@ -1150,7 +1300,46 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
     };
   </script>
 
+  <script>
+    //pageSlider swiper
+    function openPopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "block");
+    }
 
+    function closePopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "none");
+    }
+    var swiper = new Swiper(".pageSwiper1", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper1Pagination",
+      },
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".nextStepCta a").click(function() {
+        $(".nav-tabs .nav-item").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
 
 
 </body>
