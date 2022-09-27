@@ -2014,7 +2014,7 @@
       },
     });
   </script>
-
+  <script src="jquery/page1.js"></script>
   <script type="text/javascript">
     var eurl = "explore-food-waste-eng.php"
     var gurl = "explore-food-waste-deu.php"

@@ -379,7 +379,7 @@
 
     </div>
 
-
+    <script src="jquery/page1.js"></script>
 
     <script type="text/javascript">
         var eurl = "introduction-to-food-waste-eng.php"
@@ -409,7 +409,6 @@
             }
         };
     </script>
-    <script src="jquery/page1.js"></script>
 </body>
 
 

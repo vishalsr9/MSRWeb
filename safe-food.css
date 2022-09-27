@@ -581,7 +581,7 @@ button.read-more-btn.plasticWaste_btn-1 {
   color: #003b7e;
   font-size: 40px;
   font-family: GothamBold;
-  text-transform: capitalize;
+  text-transform: inherit;
 }
 section.didyouknow {
   padding-top: 100px;
@@ -704,7 +704,13 @@ section.didyouknow {
 .good_to_know_box {
   text-align: center;
   border: 2px solid #003b7e;
-  height: 400px;
+  height: 480px;
+}
+.track-and_talk_img img {
+    width: 36rem !important;
+}
+.good_to_know_box ol {
+    text-align: left;
 }
 .good_to_know_box img.img-fluid {
   width: 40%;
@@ -717,7 +723,7 @@ section.good_to_know {
 }
 .good_to_know_box p {
   margin-top: 12px;
-  font-size: 16px;
+  font-size: 17px;
 }
 section.good_to_know h3 {
   font-size: 40px;
@@ -1073,7 +1079,7 @@ h1.banner_title {
 }
 .good_to_know_box.p-4.safe_foodBox_l4 {
   margin-bottom: 5rem !important;
-  height: 140px;
+  height: 185px;
   margin: 35px;
 }
 .benefit_box {
@@ -1392,7 +1398,7 @@ section.didyouknow_contents.waste_foot_l3 img {
   color: #003b7e;
   font-size: 40px;
   font-family: GothamBold;
-  text-transform: capitalize;
+  text-transform: inherit;
   margin-top: 4rem;
   margin-bottom: 3rem;
 }
@@ -2217,15 +2223,18 @@ section.good_to_know.no-print.mtcsutom.energy_page
   border: none;
   position: relative;
   top: -30px;
-  height: 175px;
+  height: 220px;
 }
 .good_to_know_box.p-4.safe_foodBox_l4.engery_box img.img-fluid {
   width: 9rem !important;
 }
 .good_to_know_box.p-4.safe_foodBox_l4.engery_box p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: gothambook;
   font-weight: 600;
+}
+.banner_l4_img.talk_prog_img img {
+    width: 40rem;
 }
 .plastic-wasteStep.energy_img_row_main1 {
   left: -70px;
@@ -2972,3 +2981,8 @@ span.slimg-holder.socils_one {
 .nextStepCta a {
   cursor: pointer;
 }
+
+
+
+
+

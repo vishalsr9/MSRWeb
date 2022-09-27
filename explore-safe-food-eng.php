@@ -20,24 +20,6 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
-  <style>
-    @media print {
-      body * {
-        visibility: hidden;
-      }
-
-      #section-to-print,
-      #section-to-print * {
-        visibility: visible;
-      }
-
-      #section-to-print {
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
-    }
-  </style>
 </head>
 
 <body class="page4-page">
@@ -116,7 +98,7 @@
             <div class="col-md-4 px-4">
               <div class="import_box">
                 <img src="./images/safe_food/sf-l4-1.svg" class="img-fluid">
-                <p>Contaminated food is wasted food. The foundation of running a sustainable business is about being efficient with resources, <a href="explore-waste-eng.php"> minimising waste</a>, and engaging people to work productively. When a good system is in place to manage the preparation of safe food (a food safety management system), the related processes become more efficient and your restaurant will manage its resources and waste better. This can have a knock-on effect on the overall efficiency of your restaurant. </p>
+                <p>Contaminated food is wasted food. The foundation of running a sustainable business is about being efficient with resources, <a href="http://msr.bdevtestservers.com/introduction-to-waste-eng.php"> minimising waste</a>, and engaging people to work productively. When a good system is in place to manage the preparation of safe food (a food safety management system), the related processes become more efficient and your restaurant will manage its resources and waste better. This can have a knock-on effect on the overall efficiency of your restaurant. </p>
               </div>
             </div>
             <div class="col-md-4 px-4">
@@ -173,7 +155,17 @@
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4">
                 <img src="./images/safe_food/Asset 38.png" class="img-fluid">
-                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions. There are four main hazards that can contaminate your food. 1.Microorganisms, for example bacteria can cause sickness or food poisoning 2.Physical objects, for example shards of broken glass pose a threat to food safety 3.Chemicals, for examples for cleaning, can get into food, if the serving platter is not rinsed well 4.Allergens such as nuts in a sauce can cause health issues when not declared to your customer in advance </p>
+                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions.</p><p>
+There are four main hazards that can contaminate your food:</p>
+                  <ol>
+                    <li>Microorganisms, for example bacteria can cause sickness or food poisoning</li>
+                    <li>Physical objects, for example shards of broken glass pose a threat to food safety</li>
+                    <li>Chemicals, for examples for cleaning, can get into food, if the serving platter is not rinsed well</li>
+                    <li>Allergens such as nuts in a sauce can cause health issues when not declared to your customer in advance</li>
+                    
+
+                  </ol>
+                
               </div>
             </div>
           </div>
@@ -224,8 +216,7 @@
                         <div class="three-step_para">
                           <p>A <strong>food safety management system (FSMS)</strong> will cover every aspect of your food handling and purchasing and will have the necessary checks, records, and reviews in place to make sure your procedures are being followed. The system should be documented – not only for you to know what is happening - but also for your staff to be briefed properly and to have proof that you are managing your processes safely for your local authority inspector. Ensuring food safety also means organising your premises and processes appropriately. This exercise helps the organisation to operate sustainably. Many of the documentation and recording systems used in food safety management can be adapted and introduced systematically for sustainability. </p>
                           <p class="mt-0">
-                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong>
-                          </p>
+                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong></p>
                         </div>
                       </div>
                     </div>
@@ -882,7 +873,7 @@
           </div>
         </div>
       </section>
-      <section class="container section4-6" id="section-to-print">
+      <section class="container section4-6">
         <div class="top-content">
           <h3>Your Action Plan</h3>
         </div>

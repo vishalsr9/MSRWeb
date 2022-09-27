@@ -88,7 +88,7 @@
         </div>
       </section>
       <section class="didyouknow">
-        <h3 class="text-center">Did you know that...</h3>
+        <h3 class="text-center">Did you know that…</h3>
         <div class="offset-md-3 col-md-6">
           <p class="text-center">
             <img src="./images/safe_food/Asset 3.svg" class="px-4">
@@ -122,7 +122,7 @@
         </div>
         <div class="right-content">
           <p>
-            Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries, etc.) and consumers are increasingly becoming aware of the need for safely produced food that doesn’t injure them or make them sick. That ́s why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, minimizing waste and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants.
+            Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries, etc.) and consumers are increasingly becoming aware of the need for safely produced food that doesn’t injure them or make them sick. That ́s why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, <a href="http://msr.bdevtestservers.com/introduction-to-waste-eng.php"> minimizing waste </a>and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants.
 
           </p>
           <p>Good food safety management will help to:</p>

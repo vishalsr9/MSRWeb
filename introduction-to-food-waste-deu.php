@@ -93,7 +93,7 @@
                 <h3 class="text-center">WUSSTEN SIE, dass…</h3>
                 <div class="col-md-6 border-right">
                     <div class="didyouknow_2culumn">
-                        <img src="./images/safe_food/l3-1.svg" class="px-4">                        
+                        <img src="./images/safe_food/l3-1.svg" class="px-4">
                         <h4>wir jedes Jahr <br><strong>2.21 Milliarden Tonnen</strong> <br>Abfall wegwerfen</h4>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                 <div class="col-md-6">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-4.svg" class="px-4 dis_img2" style="width: 60%;">
-                        <h4><strong>36 %</strong> der HoReCa-Kundinnen & Kunden  (weltweit)<br> der Meinung sind, dass die Verringerung von<br> Lebensmittelabfällen eines der wichtigsten Themen ist, <br>mit denen sie sich in ihren Betrieben beschäftigen müssen</h4>
+                        <h4><strong>36 %</strong> der HoReCa-Kundinnen & Kunden (weltweit)<br> der Meinung sind, dass die Verringerung von<br> Lebensmittelabfällen eines der wichtigsten Themen ist, <br>mit denen sie sich in ihren Betrieben beschäftigen müssen</h4>
                     </div>
                 </div>
             </div>
@@ -125,12 +125,13 @@
     <section class="section3-inners">
         <div class="section3-inner align-normal big_issues">
             <div class="left-content">
-                <h3>EIN <br>WICHTIGES<br> THEMA  </h3>
+                <h3>EIN <br>WICHTIGES<br> THEMA </h3>
             </div>
             <div class="right-content">
                 <p>
-                    Lebensmittelabfälle kosten eine Menge Geld, welches Sie und Ihre Gäste zahlen. Das Wegwerfen von wertvollen Ressourcen birgt darüber hinaus ein enormes Potenzial für ökologische und soziale Konflikte, die junge und zukünftige Gäste nicht mehr hinnehmen wollen. Wussten Sie, dass, wenn Lebensmittelabfälle ein Land wären, es der drittgrößte Emittent von Treibhausgasen wäre? </p><p>
-Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, indem wir Lebensmittelverschwendung in unseren Betrieben vermeiden. Dadurch können Sie:
+                    Lebensmittelabfälle kosten eine Menge Geld, welches Sie und Ihre Gäste zahlen. Das Wegwerfen von wertvollen Ressourcen birgt darüber hinaus ein enormes Potenzial für ökologische und soziale Konflikte, die junge und zukünftige Gäste nicht mehr hinnehmen wollen. Wussten Sie, dass, wenn Lebensmittelabfälle ein Land wären, es der drittgrößte Emittent von Treibhausgasen wäre? </p>
+                <p>
+                    Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, indem wir Lebensmittelverschwendung in unseren Betrieben vermeiden. Dadurch können Sie:
 
                 </p>
             </div>
@@ -141,7 +142,7 @@ Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, i
     <section class="section3-grid">
         <ul>
             <li>
-                <p class="font-size-30px">Benefits</p>
+                <p class="font-size-30px">Vorteile</p>
             </li>
             <li></li>
             <li>
@@ -169,7 +170,7 @@ Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, i
                 <ul> -->
             <li>
                 <p>Die Treue von Gästen erhöhen (was auch zu besseren Bewertungen führt)
-</p>
+                </p>
             </li>
             <li></li>
             <li>
@@ -184,13 +185,13 @@ Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, i
                 <ul> -->
             <li></li>
             <li>
-                <p>Dinen positiven Einfluss auf Ihre Community ausüben
-</p>
+                <p>Einen positiven Einfluss auf Ihre Community ausüben
+                </p>
             </li>
             <li></li>
             <li>
                 <p>Die Verschmutzung der lokalen und globalen Umwelt verhindern
-</p>
+                </p>
             </li>
             <li></li>
             <li>
@@ -217,22 +218,22 @@ Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, i
 
     <section class="section4 padr-60px w90-per">
         <div class="left-content noalign border-right col-md-6">
-            <h3>ERSTE SCHRITTE, <br>WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN  </h3>
+            <h3>KNOW-HOW – ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN </h3>
             <p>
                 Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen. Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung">Lebensmittelabfälle. </a><br><br>
-Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene Lebensmittel landen!
+                Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene Lebensmittel landen!
 
             </p>
 
 
             <div class="read-wrap">
-                <a href="explore-food-waste-eng.php" class="read-more" target="_self">LESEN SIE MEHR DARÜBER</a>
+                <a href="explore-food-waste-eng.php" class="read-more" target="_self">WEITERLESEN</a>
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
             <h3>Food Recovery Hierarchy</h3>
             <img src="./images/safe_food/l3-5.svg" class="img-fluid">
-            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">LESEN SIE MEHR DARÜBER</a>
+            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">WEITERLESEN</a>
         </div>
     </section>
 
@@ -417,6 +418,7 @@ Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene 
             }
         };
     </script>
+    <script src="jquery/page1.js"></script>
 </body>
 
 

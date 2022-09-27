@@ -176,7 +176,7 @@
     <div class="container">
       <div class="row">
         <h3 class="food_wasteTitle">Landfills should be the last place for food waste</h3>
-        <p class="exploreFood_discripsn">Over 1/3 of all food produced globally goes to waste. There are many other ways to handle food waste. <br>First of all: think about how you can avoid food waste. Then resell surplus food, donate it to people in need, or animal shelters. If possible, recycle food for other purposes and compost as much as possible. Ensure you minimize the quantity of food waste that goes to landfills.</p>
+        <p class="exploreFood_discripsn">Over 1/3 of all food produced globally goes to waste. There are many other ways to handle food waste. <br>First of all: think about how you can avoid food waste. Then resell surplus food, donate it to people in need or animal shelters. If possible, recycle food for other purposes and compost as much as possible. Ensure you minimize the quantity of food waste that goes to landfills.</p>
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 3.1.svg" class="img-fluid">
@@ -192,7 +192,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="benefit_box">
+          <div class="benefit_box" style="min-height: 28.1rem;">
             <h4>Benefits of reducing food waste are enormous</h4>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
@@ -894,7 +894,7 @@
       function bindThmScheme7() {
         //12-15
         var fruits = ["Bananas", "Carambola", "Cherimoya", "Durian", "Grapefruit", "Mangosteen", "Papayas", "Wax apples"];
-        var veg = ["Ginger", "Melon", "Melon", "Potatoes", "Pumpkin", "Sweet potato", "Tomatoes", "Watermelon", "Winter squash"];
+        var veg = ["Ginger", "Melon", "Onions", "Potatoes", "Pumpkin", "Sweet potato", "Tomatoes", "Watermelon", "Winter squash"];
         $(".red-line").css("width", "19.35483870967742%");
         $(".red-line").css("margin-left", "77.41935483870967%");
         BindFruits(fruits);
@@ -1727,7 +1727,7 @@
             <li> At the end of the service, allow your staff to eat the surplus food or take it home</li>
             <li>Donate your surplus ingredients if you can´t use them</li>
             <li> Recycle and / or upcycle waste where possible</li>
-            <li>Learn to <a href="www.mpulse.de/en/movinggoods/nose-to-tail-vergessene-delicatessen "> cook with unwanted parts</a> of meat, fish, fruit and vegetables</li>
+            <li>Learn to <a href="https://www.mpulse.de/en/movinggoods/nose-to-tail-vergessene-delicatessen"> cook with unwanted parts</a> of meat, fish, fruit and vegetables</li>
 
 
           </ul>
@@ -1764,8 +1764,8 @@
       <ul>
         <li>Ensure your storage area is well ventilated</li>
         <li>Use the First-In-First-Out (FIFO) principle to ensure that products that come in first, go out first</li>
-        <li>Store fruit and vegetables at a lower temperature than their normal growing environment, preserve them longer</li>
-        <li>Store fruits and vegetables according to their specific storage temperatures. Berries can be stored in a cold fridge but bananas are stored best take out of the fridge in a cool place. </li>
+        <li>Store fruit and vegetables at a lower temperature than their normal growing environment to preserve them longer</li>
+        <li>Store fruits and vegetables according to their specific storage temperatures. Berries can be stored in a cold fridge but bananas are stored best of the fridge in a cool place. </li>
         <li>Leave fresh produce out of their temperature zones for as short as possible. For example, packaged salads may lose a day’s shelf life for every hour that their kept out of their optimum temperature range</li>
         <li>Handle fruits and vegetables carefully to avoid damage</li>
         <li>Stack light weight boxes of delicate items such as berries and mushrooms on top</li>
@@ -1974,7 +1974,7 @@
       });
     });
   </script>
-
+  <script src="jquery/page1.js"></script>
   <script>
     document.onreadystatechange = function() {
       if (document.readyState !== "complete") {

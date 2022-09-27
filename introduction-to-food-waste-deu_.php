@@ -56,8 +56,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="introduction-to-food-waste-deu.php">DEU</option>
-                        <option value="introduction-to-food-waste-eng.php" selected>ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
             </div>
@@ -73,7 +73,7 @@
             <div class="row px-4">
                 <div class="col-md-6">
                     <div class="banner_l4_title Banner_l3_title">
-                        <h1 class="banner_title">WHY WE NEED TO REDUCE <br>FOOD WASTE</h1>
+                        <h1 class="banner_title">Warum wir die Menge an Lebensmittelabfällen<br> reduzieren müssen</h1>
 
                     </div>
                 </div>
@@ -90,17 +90,17 @@
     <section class="didyouknow_contents waste_foot_l3">
         <div class="col-md-10 offset-md-1">
             <div class="row">
-                <h3 class="text-center">Did you know that...</h3>
+                <h3 class="text-center">WUSSTEN SIE, dass…</h3>
                 <div class="col-md-6 border-right">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-1.svg" class="px-4">
-                        <h4>we dump a massive<br> <strong>2.21 billion tons</strong> <br>of waste every year </h4>
+                        <h4>wir jedes Jahr <br><strong>2.21 Milliarden Tonnen</strong> <br>Abfall wegwerfen</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-2.svg" class="px-4 dis_img2">
-                        <h4>food loss and waste costs <br>the global economy <br><strong>$940 billion each year </strong></h4>
+                        <h4>Lebensmittelverluste und -verschwendung<br> die Weltwirtschaft jedes Jahr<br> <strong>$940 Milliarden kosten</strong></h4>
                     </div>
                 </div>
             </div>
@@ -108,13 +108,13 @@
                 <div class="col-md-6 border-right">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-3.svg" class="px-4">
-                        <h4>an area larger than China and<br> <strong>1 /4 </strong>of the world’s fresh water supply <br>is used to grow food that is never eaten </h4>
+                        <h4>eine Fläche größer als China und <br><strong>1/4</strong> der weltweiten Süßwasservorräte <br>für den Anbau von Lebensmitteln genutzt wird, <br>die niemals gegessen werden</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-4.svg" class="px-4 dis_img2" style="width: 60%;">
-                        <h4><strong>36% </strong>of HoReCa customers (globally) think <br>that reducing food waste is one of the most <br>important issues to deal with in their business </h4>
+                        <h4><strong>36 %</strong> der HoReCa-Kundinnen & Kunden (weltweit)<br> der Meinung sind, dass die Verringerung von<br> Lebensmittelabfällen eines der wichtigsten Themen ist, <br>mit denen sie sich in ihren Betrieben beschäftigen müssen</h4>
                     </div>
                 </div>
             </div>
@@ -125,11 +125,14 @@
     <section class="section3-inners">
         <div class="section3-inner align-normal big_issues">
             <div class="left-content">
-                <h3>The <br> Big <br> Issue </h3>
+                <h3>EIN <br>WICHTIGES<br> THEMA </h3>
             </div>
             <div class="right-content">
                 <p>
-                    Food waste costs you and your customers money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict which young and future customers are not willing to accept. Did you know that if food waste was a country, it would be the 3rd largest emitter of greenhouse gases?<br><br> In the restaurant business, we can make a real difference by eliminating food waste in our operations and thus:
+                    Lebensmittelabfälle kosten eine Menge Geld, welches Sie und Ihre Gäste zahlen. Das Wegwerfen von wertvollen Ressourcen birgt darüber hinaus ein enormes Potenzial für ökologische und soziale Konflikte, die junge und zukünftige Gäste nicht mehr hinnehmen wollen. Wussten Sie, dass, wenn Lebensmittelabfälle ein Land wären, es der drittgrößte Emittent von Treibhausgasen wäre? </p>
+                <p>
+                    Im Gastgewerbe können wir dazu beitragen, einen echten Unterschied zu machen, indem wir Lebensmittelverschwendung in unseren Betrieben vermeiden. Dadurch können Sie:
+
                 </p>
             </div>
         </div>
@@ -143,53 +146,56 @@
             </li>
             <li></li>
             <li>
-                <p>Reduce costs</p>
+                <p>Kosten senken</p>
             </li>
             <li></li>
             <li>
-                <p>Increase efficiency</p>
+                <p>Wffizienter sein</p>
             </li>
             <li></li>
             <!-- </ul><ul> -->
             <li></li>
             <li>
-                <p>Gain knowledge</p>
+                <p>Dazu lernen</p>
             </li>
             <li></li>
             <li>
-                <p>Comply with regulations</p>
+                <p>Vorschriften einhalten</p>
             </li>
             <li></li>
             <li>
-                <p>Boost staff morale</p>
+                <p>Die Arbeitsmoral steigern</p>
             </li>
             <!-- </ul>
                 <ul> -->
             <li>
-                <p>Increase customer loyalty (better reviews)</p>
+                <p>Die Treue von Gästen erhöhen (was auch zu besseren Bewertungen führt)
+                </p>
             </li>
             <li></li>
             <li>
-                <p>Gain new customers</p>
+                <p>Neue Gäste gewinnen</p>
             </li>
             <li></li>
             <li>
-                <p>Build a positive image</p>
+                <p>Ihren Ruf verbessern</p>
             </li>
             <li></li>
             <!-- </ul>
                 <ul> -->
             <li></li>
             <li>
-                <p>Build a positive community impact </p>
+                <p>Dinen positiven Einfluss auf Ihre Community ausüben
+                </p>
             </li>
             <li></li>
             <li>
-                <p>Prevent pollution of local and global environment</p>
+                <p>Die Verschmutzung der lokalen und globalen Umwelt verhindern
+                </p>
             </li>
             <li></li>
             <li>
-                <p>Save natural resources </p>
+                <p>Natürliche Ressourcen schonen </p>
             </li>
         </ul>
     </section>
@@ -198,11 +204,12 @@
     <section class="section3-inners">
         <div class="section3-inner align-normal big_issues">
             <div class="left-content">
-                <h3>THE <br>GREATER <br>IMPACT </h3>
+                <h3>EIN <br>GESELLSCHAFTLICHER <br>TREND </h3>
             </div>
             <div class="right-content">
                 <p>
-                    The demand for food is increasing as the world ́s population grows, but farmland is finite. That ́s why preventing food waste is an important issue in terms of global food security. Every year, over 1/3 of all food produced globally goes to waste while <strong>840 million people are going hungry to bed</strong>. Each one of them could be sufficiently fed with less than what is wasted in the US, UK and Europe every year. According to a global METRO study from 2019, 39% of METRO’s HoReCa customers want to tackle food waste in their own operations.
+                    Die Nachfrage nach Lebensmitteln steigt mit dem Wachstum der Weltbevölkerung, aber die Anbauflächen sind endlich. Deshalb ist die Vermeidung von Lebensmittelverschwendung ein wichtiges Thema für die globale Ernährungssicherheit. Jedes Jahr werden über 1/3 aller weltweit produzierten Lebensmittel weggeworfen, während gleichzeitig <strong>840 Millionen Menschen hungrig zu Bett gehen</strong>. Jeder von ihnen könnte mit weniger als dem, was in den USA, Großbritannien und Europa jährlich verschwendet wird, ernährt werden. In einer METRO-Umfrage aus dem Jahr 2022 gaben 82 % der HoReCa Kunden an, dass die Reduktion von Lebensmittelverschwendung sie sehr in ihrem Betriebsalltag beschäftigt.
+
                 </p>
             </div>
         </div>
@@ -211,20 +218,22 @@
 
     <section class="section4 padr-60px w90-per">
         <div class="left-content noalign border-right col-md-6">
-            <h3>KNOW HOW – <br>STEPS HOW TO<br> AVOID FOOD WASTE</h3>
+            <h3>ERSTE SCHRITTE, <br>WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN </h3>
             <p>
-                Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest <a href="https://responsibility.metroag.de/focus-areas/food-waste">Food Waste Report</a>.<br><br>Landfills should be the last place where food waste ends up!
+                Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen. Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung">Lebensmittelabfälle. </a><br><br>
+                Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene Lebensmittel landen!
+
             </p>
 
 
             <div class="read-wrap">
-                <a href="explore-food-waste-eng.php" class="read-more" target="_self">Read More</a>
+                <a href="explore-food-waste-eng.php" class="read-more" target="_self">LESEN SIE MEHR DARÜBER</a>
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
             <h3>Food Recovery Hierarchy</h3>
             <img src="./images/safe_food/l3-5.svg" class="img-fluid">
-            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">Read More</a>
+            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">LESEN SIE MEHR DARÜBER</a>
         </div>
     </section>
 
@@ -233,8 +242,8 @@
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Solutions</h3>
-                <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+                <h3>METRO- LÖSUNGEN</h3>
+                <p>Sammlung von Abfällen oder Pfandsysteme finden Sie entweder bei METRO oder über einen externen Anbieter sowohl für Non-Food- als auch für Lebensmittelabfälle. Kontaktieren Sie Wohltätigkeitsorganisationen, die überschüssige Lebensmittel annehmen. </p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>
             <div class="bottom-content5">
@@ -379,7 +388,7 @@
 
     </div>
 
-
+    <script src="jquery/page1.js"></script>
 
     <script type="text/javascript">
         var eurl = "introduction-to-food-waste-eng.php"
@@ -409,7 +418,6 @@
             }
         };
     </script>
-    <script src="jquery/page1.js"></script>
 </body>
 
 
