@@ -20,6 +20,7 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <link rel="stylesheet" href="pageslider.css">
   <style>
     @media print {
       body * {
@@ -82,8 +83,8 @@
         </div>
         <div class="custom__select">
           <select>
-            <option value="explore-safe-food-deu.php">DEU</option>
-            <option value="explore-safe-food-eng.php" selected>ENG</option>
+            <option value="#">DEU</option>
+            <option value="explore-social-eng.php" selected>ENG</option>
           </select>
         </div>
       </div>
@@ -457,74 +458,131 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row mt-2 mb-5">
-                      <div class="section-div">
-                        <div class="container-fluid">
-                          <div class="sw-holder">
-                            <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-                            <div class="swholder1">
-                              <div class="swholder-sw">
-                                <div class="swiper swx">
-                                  <div class="swiper-wrapper swx-wrapper">
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-1 socialSlide-1 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-8.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-1 text-center">
-                                          <span class="sltext-holder"> TRAIN AND EMPOWER <br>YOUR STAFF </span>
-                                        </div>
-                                        <div class="sl-button sl-button-1 text-center">
-                                          <button class="read-more-btn socialL4_btn-1" id="sl-button sl-button-1">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-2 text-center socialSlide-2">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-9.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-2 text-center">
-                                          <span class="sltext-holder">CHECK WHAT YOU NEED TO DO </span>
-                                        </div>
-                                        <div class="sl-button sl-button-2 text-center">
-                                          <button class="read-more-btn SocialL4_btn-2" id="sl-button sl-button-2">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-3 text-center socialSlide-3">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-10.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-3 text-center">
-                                          <span class="sltext-holder"> COMMUNICATE CLEARLY </span>
-                                        </div>
-                                        <div class="sl-button sl-button-3 text-center">
-                                          <button class="read-more-btn socialL4_btn-3" id="sl-button sl-button-3">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
 
+
+
+
+
+                    <div class="row">
+                      <div class="col-md-12 mb-5">
+                        <div class="pageSlider-container">
+                          <div class="pageSlider-container-inner">
+                            <div class="pageSlider-prev">
+                              <div class="pageSlider-prev-inner">
+                                <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                              </div>
+                            </div>
+                            <div class="pageSlider">
+                              <div class="pageSlider-inner">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-holder">
+                                      <div class="swiper pageSwiper1">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg01">
+                                                    <img src="images/safe_food/s-8.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText01">
+                                                    TRAIN AND EMPOWER <br>YOUR STAFF
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn01">
+                                                    <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg02">
+                                                    <img src="images/safe_food/s-9.svg" class="img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText02">
+                                                    CHECK WHAT YOU NEED TO DO
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn02">
+                                                    <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg03">
+                                                    <img src="images/safe_food/s-10.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText03">
+                                                    COMMUNICATE CLEARLY
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn03">
+                                                    <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-pagination">
+                                      <div class="pageSlider-pagination-inner">
+                                        <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                      </div>
+                                    </div>
 
                                   </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
-                              <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
                             </div>
-                            <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+                            <div class="pageSlider-next">
+                              <div class="pageSlider-next-inner">
+                                <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
+
+
+
                     <p class="text-center nextStepCta mt-4">
                       <a id="nextBtn1" href="#tabLi2">Next Step <i class="fa fa-long-arrow-right"></i>
                       </a>
@@ -1132,36 +1190,7 @@
 
   <script src="jquery/page1.js"></script>
   <!-- Swiper JS -->
-  <script>
-    var swiper = new Swiper(".swx", {
-      grabCursor: true,
-      centeredSlides: true,
-      initialSlide: 1,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 30,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $(".nextStepCta a").click(function() {
-        $(".nav-tabs .nav-item").removeClass("active");
-        $(this).addClass("active");
-      });
-    });
-  </script>
+
 
 
 
@@ -1186,7 +1215,38 @@
 
     });
   </script>
+  <script>
+    //pageSlider swiper
+    function openPopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "block");
+    }
 
+    function closePopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "none");
+    }
+    var swiper = new Swiper(".pageSwiper1", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper1Pagination",
+      },
+    });
+  </script>
   <script>
     $(document).ready(function() {
       //first button click

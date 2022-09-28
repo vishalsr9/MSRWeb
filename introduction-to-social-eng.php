@@ -56,7 +56,7 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="introduction-to-social-deu">DEU</option>
+                        <option value="introduction-to-social-deu.php">DEU</option>
                         <option value="introduction-to-social-eng.php" selected>ENG</option>
                     </select>
                 </div>
@@ -476,6 +476,7 @@
             }
         };
     </script>
+    <script src="jquery/page1.js"></script>
 </body>
 
 

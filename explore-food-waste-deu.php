@@ -161,7 +161,7 @@
             <h6>
               <strong>Lebensmittelverschwendung in der Gastronomie</strong>
             </h6>
-            <p>Lebensmittel nicht zu verwenden, kostet Geld. Das Wegwerfen von wertvollen Ressourcen, birgt zudem ein enormes ökologisches und soziales Konfliktpotential. Konflikte, die junge und zukünftige Generationen nicht mehr akzeptieren. Gleichzeitig steigt mit dem Anstieg der Weltbevölkerung die Nachfrage nach Lebensmitteln, während Anbauflächen endlich sind. Deshalb werden immer mehr Gesetze erlassen, die das Gastgewerbe verpflichten, sich effizienter mit Lebensmittelabfällen zu befassen. Seit 2020 ist der HoReCa-Sektor in allen EU-Mitgliedstaaten verpflichtet, Lebensmittelabfälle zu erfassen und darüber zu berichten. Lesen Sie mehr. </p>
+            <p>Lebensmittel nicht zu verwenden, kostet Geld. Das Wegwerfen von wertvollen Ressourcen, birgt zudem ein enormes ökologisches und soziales Konfliktpotential. Konflikte, die junge und zukünftige Generationen nicht mehr akzeptieren. Gleichzeitig steigt mit dem Anstieg der Weltbevölkerung die Nachfrage nach Lebensmitteln, während Anbauflächen endlich sind. Deshalb werden immer mehr Gesetze erlassen, die das Gastgewerbe verpflichten, sich effizienter mit Lebensmittelabfällen zu befassen. Seit 2020 ist der HoReCa-Sektor in allen EU-Mitgliedstaaten verpflichtet, Lebensmittelabfälle zu erfassen und darüber zu berichten. </p>
           </div>
         </div>
         <div class="col-md-5 offset-md-1 no-print">
@@ -193,7 +193,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="benefit_box">
+          <div class="benefit_box"style="min-height: 28.04rem;">
             <h4 style="    font-size: 29px;
     line-height: 1.5;
 ">Die Reduzierung von Lebensmittelabfällen hat viele Vorteile</h4>
@@ -206,12 +206,11 @@
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 4.1.svg" class="img-fluid">
-            <p>Verbessert Ihre Geschäftsabläufe und Effizienz</p>
+            <p>Effizientere Geschäftsabläufe</p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 7.1.svg" class="img-fluid">
-            <p>Hat einen positiven Einfluss auf Ihre Arbeitsmoral
-            </p>
+            <p>Hat einen positiven Einfluss auf Ihre lokale Umwelt</p>
           </div>
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 10.svg" class="img-fluid">
@@ -421,7 +420,7 @@
         </h3>
 
         <p class="c-para1">
-          Optimum "short-term" storage temperature ranges (&deg;C)
+          Optimale "kurzfristige" Lagertemperaturbereiche (&deg;C)
 
         </p>
       </div>
@@ -723,7 +722,7 @@
                   <div class="col-md-7 offset-md-1  text-center">
                     <div class="h3v t32">
                       <span class="fruitspn">
-                        FRUITS
+                        Obst
                       </span>
                     </div>
                   </div>
@@ -745,7 +744,7 @@
                   <div class="col-md-7 offset-md-4  text-center">
                     <div class="h3v t32">
                       <span class="fruitspn">
-                        VEGETABLES
+                        Gemüse
                       </span>
                     </div>
                   </div>
@@ -836,7 +835,7 @@
 
       function bindThmScheme1() {
         //0-2
-        var fruits = ["Raspberries", "Blueberries", "Blackberries"];
+        var fruits = ["Himbeeren", "Blaubeeren", "Brombeeren"];
         var veg = [""];
         $(".red-line").css("width", "12.90322580645161%");
         $(".red-line").css("margin-left", "0%");
@@ -846,8 +845,8 @@
 
       function bindThmScheme2() {
         //0-5
-        var fruits = ["Apple", "Apricots", "Cherries", "Coconuts", "Dates", "Figs", "Fresh-cuts", "Grapes", "Kiwifruit", "Loquat", "Nectarines", "Peaches", "Pears", "Persimmons", "Plums", "Strawberries"];
-        var veg = ["Artichokes", "Asparagus", "Bok Choy", "Broccoli", "Brussels sprouts", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chicory", "Chinese Cabbage", "Collard Greens", "Corn (sweet)", "Endive", "Fennel", "Fresh-cut products", "Garlic", "Ginseng", "Greens (leafy)", "Horseradish", "Herbs", "Kohlrabi", "Leek", "Lettuce", "Mushrooms", "Parsley", "Parsnips", "Pea", "Radish", "Salad Greens", "Spinach", "Sprouts", "Turnip", "Watercress"];
+        var fruits = ["Äpfel", "Aprikosen", "Kirschen", "Kokosnüsse", "Datteln", "Feigen", "Frischgeschnittenes", "Trauben", "Kiwis", "Mispeln", "Nektarinen", "Pfirsiche", "Birnen", "Kakis", "Pflaumen", "Erdbeeren"];
+        var veg = ["Artichoken", "Spargel", "Bok Choy", "Brokkoli", "Rosenkohl", "Kohl", "Karotten", "Blumenkohl", "Sellerie", "Chicorée", "Chinakohl", "Mangold", "Mais", "Endiviensalat", "Fenchel", "Frischgeschnittene Produkte", "Knoblauch", "Ginseng", "Grünes Blattgemüse", "Meerrettich", "Kräuter", "Kohlrabi", "Lauch", "Salat", "Pilze", "Petersilie", "Erbsen", "Rettich", "Salatblätter", "Spinat", "Sprossen", "Steckrübe", "Brunnenkresse"];
         $(".red-line").css("width", "32.25806451612903%");
         $(".red-line").css("margin-left", "0%");
         BindFruits(fruits);
@@ -856,7 +855,7 @@
 
       function bindThmScheme3() {
         //2-5
-        var fruits = ["Ripe Avocados", "Cranberry", "Litchis", "Truffles"];
+        var fruits = ["Reife Avocados", "Cranberry", "Litschis", "Trüffel"];
         var veg = [""];
         $(".red-line").css("width", "19.35483870967742%");
         $(".red-line").css("margin-left", "12.90322580645161%");
@@ -867,7 +866,7 @@
       function bindThmScheme4() {
         //5-7
         var fruits = ["Papayas"];
-        var veg = ["Netted Melons"];
+        var veg = ["Melonen"];
         $(".red-line").css("width", "12.90322580645161%");
         $(".red-line").css("margin-left", "32.25806451612903%");
         BindFruits(fruits);
@@ -876,8 +875,8 @@
 
       function bindThmScheme5() {
         //7-10
-        var fruits = ["Avocados", "Dragon fruit", "Lemons", "Lime", "Mandarin", "Mangoes", "Oranges", "Passion fruit", "Pomegranates"];
-        var veg = ["Beans (green)", "Cactus Leaves", "Cassava", "Chayotes", "Cucumber", " Eggplant-aubergine", "Okra", "Peppers (bell/chilli)", "Squash (yellow)", "Tomatillo (Physalis)", "Zucchinis"];
+        var fruits = ["Avocados", "Drachenfrucht", "Zitronen", "Limetten", "Mandarinen", "Mangos", "Orangen", "Passionsfrucht", "Granatapfel"];
+        var veg = ["Grüne Bohnen", "Kaktusblätter", "Maniok", "Chayoten", "Gurken", " Auberginen", "Okraschoten", "Paprika (Paprika/Chili)", "Kürbis (gelb)", "Physalis", "Zucchinis"];
         $(".red-line").css("width", "19.35483870967742%");
         $(".red-line").css("margin-left", "45.16129032258064%");
         BindFruits(fruits);
@@ -886,8 +885,8 @@
 
       function bindThmScheme6() {
         //7-12
-        var fruits = ["Pineapples"];
-        var veg = ["Garlic", "Onions "];
+        var fruits = ["Ananas"];
+        var veg = ["Knoblauch", "Zwiebeln "];
         $(".red-line").css("width", "32.25806451612903%");
         $(".red-line").css("margin-left", "45.16129032258064%");
         BindFruits(fruits);
@@ -897,8 +896,8 @@
 
       function bindThmScheme7() {
         //12-15
-        var fruits = ["Bananas", "Carambola", "Cherimoya", "Durian", "Grapefruit", "Mangosteen", "Papayas", "Wax apples"];
-        var veg = ["Ginger", "Melon", "Melon", "Potatoes", "Pumpkin", "Sweet potato", "Tomatoes", "Watermelon", "Winter squash"];
+        var fruits = ["Bananen", "Karambole", "Kirschlorbeer", "Durian", "Grapefruit", "Mangostane", "Papayas", "Wachs-Äpfel"];
+        var veg = ["Ingwer", "Melonen", "Zwiebeln", "Kartoffeln", "Kürbis", "Süßkartoffel", "Tomaten", "Wassermelone", "Winterkürbis"];
         $(".red-line").css("width", "19.35483870967742%");
         $(".red-line").css("margin-left", "77.41935483870967%");
         BindFruits(fruits);
@@ -969,7 +968,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn01">
-                                              <button class="read-more-btn" onclick="openPopUp(1);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(1);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -987,14 +986,14 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-text">
                                             <span class="sldText02">
-                                              Lebensmittelabfälle<br> zu reduzieren
+                                              Verschiedene <br>Abfallarten identifizieren
                                             </span>
                                           </div>
                                         </div>
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn02">
-                                              <button class="read-more-btn" onclick="openPopUp(2);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(2);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1019,7 +1018,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn03">
-                                              <button class="read-more-btn" onclick="openPopUp(3);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(3);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1044,7 +1043,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn04">
-                                              <button class="read-more-btn" onclick="openPopUp(4);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(4);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1069,7 +1068,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn05">
-                                              <button class="read-more-btn" onclick="openPopUp(5);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(5);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1094,7 +1093,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn06">
-                                              <button class="read-more-btn" onclick="openPopUp(6);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(6);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1119,7 +1118,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn07">
-                                              <button class="read-more-btn" onclick="openPopUp(7);">Lesen Sie mehr</button>
+                                              <button class="read-more-btn" onclick="openPopUp(7);">WEITERLESEN</button>
                                             </span>
                                           </div>
                                         </div>
@@ -1169,7 +1168,7 @@
     <div class="container">
       <div class="row">
         <h3>Tipps für Fortgeschrittene, um die Menge an Lebensmittelabfällen zu reduzieren</h3>
-        <p>YSie können noch einen Schritt weiter gehen. Nutzen Sie die folgenden Tipps für Fortgeschrittene zur Reduzierung von Lebensmittelabfällen: </p>
+        <p>Sie können noch einen Schritt weiter gehen. Nutzen Sie die folgenden Tipps für Fortgeschrittene zur Reduzierung von Lebensmittelabfällen: </p>
       </div>
     </div>
   </section>
@@ -1264,7 +1263,7 @@
               </div>
             </div>
           </div>
-          <button class="read-more-btn r2 mt-5" id="myBtn33" href="#clickTohide">Lesen Sie mehr</button>
+          <button class="read-more-btn r2 mt-5" id="myBtn33" href="#clickTohide">WEITERLESEN</button>
         </div>
         <div class="col-md-6">
           <div class="compost_wasteFood_img">
@@ -1296,13 +1295,13 @@
       <div class="row px-4">
         <h3 class="food_wasteTitle">Lernen Sie, mit Lebensmittelresten zu kochen
         </h3>
-        <p class="text-center">Check out the following aspects when you want to cook with unwanted parts:</p>
+        <p class="text-center">Beachten Sie die folgenden Aspekte, wenn Sie das einmal ausprobieren wollen:</p>
         <div class="col-md-6">
           <div class="compost_wasteFood_img learn_to_make">
 
             <p class="mt-5">Es gibt Bestandteile von Fleisch, Fisch und Gemüse, die üblicherweise weggeworfen werden, weil ihr Geschmack, ihre Beschaffenheit oder ihr Aussehen zum Kochen ungeeignet scheinen. Innereien oder Knochen gerieten so im Laufe der Zeit schlicht in Vergessenheit. Viele von uns, insbesondere in den Industrieländern, haben vergessen, dass tatsächlich alle Teile eines Tieres zu leckeren und nahrhaften Gerichten verarbeitet werden können. Wir haben den Bezug dazu verloren, woher Lebensmittel kommen und wie viel Aufwand ihre Herstellung erfordert. <br><br>
 
-              Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln beim Kochen zu verwenden, können Sie Ihren Gästen eine ganz neue Welt des Geschmacks eröffnen. Restaurants beeinflussen das Essverhalten Ihrer Gäste. Viele Trends haben in der Gastronomie begonnen. Beachten Sie die folgenden Aspekte, wenn Sie das einmal ausprobieren wollen:
+              Wenn Sie einmal versuchen, bislang unerwünschte Bestandteile von Lebensmitteln beim Kochen zu verwenden, können Sie Ihren Gästen eine ganz neue Welt des Geschmacks eröffnen. Restaurants beeinflussen das Essverhalten Ihrer Gäste. Viele Trends haben in der Gastronomie begonnen.
             </p>
             <center class="mt-5">
               <img src="./images/safe_food/Asset 33.svg" class="img-fluid">
@@ -1522,10 +1521,10 @@
   <section class="section5 no-print">
     <div class="bottom-left">
       <div class="top-content5">
-        <h3>METRO Solutions</h3>
-        <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+        <h3>METRO-Lösungen</h3>
+        <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
         <p>
-          <strong>Applications that can support with menu design or communications are:</strong>
+          <strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong>
         </p>
       </div>
       <div class="bottom-content5">
@@ -1555,8 +1554,8 @@
     </div>
     <div class="bottom-right">
       <div class="top-content5">
-        <h3>METRO Offer</h3>
-        <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
+        <h3>METRO ANGEBOTE</h3>
+        <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie: </p>
       </div>
       <div class="bottom-content5">
         <ul>
@@ -1606,16 +1605,16 @@
         <div class="footer-links link2">
           <ul>
             <li>
-              <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a>
+              <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a>
+              <a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a>
+              <a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a>
+              <a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -1669,18 +1668,18 @@
     <div class="fotter-right page-ani-footer">
       <div class="fotter-right-top">
         <div class="footer-links link2">
-          <ul>
+         <ul>
             <li>
-              <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a>
+              <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a>
+              <a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a>
+              <a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a>
             </li>
             <li>
-              <a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a>
+              <a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -1730,7 +1729,7 @@
   <div id="pop2" class="modalx">
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-      <h4>Lebensmittelabfälle zu reduzieren </h4>
+      <h4>Verschiedene Abfallarten identifizieren </h4>
       <p> Lebensmittelabfälle sind in der Gastronomie allgegenwärtig, aber Sie können einfache Maßnahmen ergreifen, um sie zu reduzieren. Beginnen Sie damit, die verschiedenen Abfallarten in Ihrem Restaurant zu identifizieren und stellen Sie fest, wo diese anfallen. Allgemein entstehen Lebensmittelabfälle entweder im hinteren Teil Ihres Restaurants (z.B. im Lager oder in der Küche) oder im vorderen Teil (z.B. dort, wo die Gäste bedient werden). Prüfen Sie, wie viel Lebensmittelabfälle Sie in Ihrem Restaurant produzieren und ermitteln Sie, wo diese Lebensmittel unnötig weggeworfen werden.
       </p>
       <div class="row mt-4">
@@ -1974,7 +1973,7 @@
             toggle_switch.html('Lesen Sie mehr');
           } else {
             //change the button label to be 'Hide'
-            toggle_switch.html('Read Less');
+            toggle_switch.html('WENIGER');
           }
         });
       });

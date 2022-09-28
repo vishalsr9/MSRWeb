@@ -20,6 +20,185 @@
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
+  <link rel="stylesheet" href="pageslider.css">
+  <style>
+    .sldImg01>img {
+      width: 17rem;
+      transition: .5s;
+    }
+
+    .sldImg02>img {
+      width: 17rem;
+      transition: .5s;
+    }
+
+    .sldImg03>img {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .sldImg04>img {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .sldImg04>img {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      transition: .5s;
+    }
+
+    .sldImg05>img {
+      width: 21rem;
+      transition: .5s;
+    }
+
+    .sldImg06>img {
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .sldImg07>img {
+      width: 20rem;
+      transition: .5s;
+    }
+
+    .sldImg08>img {
+      width: 10rem;
+      transition: .5s;
+    }
+
+    .sldImg09>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .sldImg10>img {
+      width: 20rem;
+      transition: .5s;
+    }
+
+    .sldImg11>img {
+      width: 20rem;
+      transition: .5s;
+    }
+
+    .sldImg12>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .sldImg13>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .sldImg14>img {
+      width: 12em;
+      transition: .5s;
+    }
+
+    .sldImg15>img {
+      width: 12em;
+      transition: .5s;
+    }
+
+    .sldImg16>img {
+      width: 13em;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+      width: 32rem;
+      transition: .5s;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+      width: 36rem;
+      transition: .5s;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+      margin-top: 6rem;
+      margin-bottom: 4rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+      width: 35rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
+      width: 35rem;
+      margin-top: 1rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg08>img {
+      width: 19rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg09>img {
+      width: 35rem;
+      margin-top: 2rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg10>img {
+      width: 35rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg11>img {
+      width: 35rem;
+      margin-top: 1rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg12>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg13>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg14>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg15>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg16>img {
+      width: 23rem;
+      transition: .5s;
+    }
+  </style>
 </head>
 
 <body class="page4-page">
@@ -155,17 +334,18 @@
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4">
                 <img src="./images/safe_food/Asset 38.png" class="img-fluid">
-                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions.</p><p>
-There are four main hazards that can contaminate your food:</p>
-                  <ol>
-                    <li>Microorganisms, for example bacteria can cause sickness or food poisoning</li>
-                    <li>Physical objects, for example shards of broken glass pose a threat to food safety</li>
-                    <li>Chemicals, for examples for cleaning, can get into food, if the serving platter is not rinsed well</li>
-                    <li>Allergens such as nuts in a sauce can cause health issues when not declared to your customer in advance</li>
-                    
+                <p>Hazards present a risk to food safety. They may be found in the original raw material but they can also be introduced by poor transport, handling and preparing food, or storage conditions.</p>
+                <p>
+                  There are four main hazards that can contaminate your food:</p>
+                <ol>
+                  <li>Microorganisms, for example bacteria can cause sickness or food poisoning</li>
+                  <li>Physical objects, for example shards of broken glass pose a threat to food safety</li>
+                  <li>Chemicals, for examples for cleaning, can get into food, if the serving platter is not rinsed well</li>
+                  <li>Allergens such as nuts in a sauce can cause health issues when not declared to your customer in advance</li>
 
-                  </ol>
-                
+
+                </ol>
+
               </div>
             </div>
           </div>
@@ -216,298 +396,466 @@ There are four main hazards that can contaminate your food:</p>
                         <div class="three-step_para">
                           <p>A <strong>food safety management system (FSMS)</strong> will cover every aspect of your food handling and purchasing and will have the necessary checks, records, and reviews in place to make sure your procedures are being followed. The system should be documented – not only for you to know what is happening - but also for your staff to be briefed properly and to have proof that you are managing your processes safely for your local authority inspector. Ensuring food safety also means organising your premises and processes appropriately. This exercise helps the organisation to operate sustainably. Many of the documentation and recording systems used in food safety management can be adapted and introduced systematically for sustainability. </p>
                           <p class="mt-0">
-                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong></p>
+                            <strong> If you do the following activities to manage food safety, you will also be implementing sustainability:</strong>
+                          </p>
                         </div>
                       </div>
                     </div>
 
-                    <div class="row mt-2 mb-5">
-                      <div class="section-div">
-                        <div class="container-fluid">
-                          <div class="sw-holder">
-                            <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-                            <div class="swholder1">
-                              <div class="swholder-sw">
-                                <div class="swiper swx">
-                                  <div class="swiper-wrapper swx-wrapper">
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-1 safe_foodsSlids-1 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/sf-1.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-1 text-center">
-                                          <span class="sltext-holder"> People </span>
-                                        </div>
-                                        <div class="sl-button sl-button-1 text-center">
-                                          <button class="read-more-btn safe_food_btn-1" id="sl-button sl-button-1">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-2 text-center safe_foodsSlids-2">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/sf-2.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-2 text-center">
-                                          <span class="sltext-holder"> PURCHASING </span>
-                                        </div>
-                                        <div class="sl-button sl-button-2 text-center">
-                                          <button class="read-more-btn safe_food_btn-2" id="sl-button sl-button-2">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-3 text-center safe_foodsSlids-3">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/sf-3.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-3 text-center">
-                                          <span class="sltext-holder"> Restaurant designs </span>
-                                        </div>
-                                        <div class="sl-button sl-button-3 text-center">
-                                          <button class="read-more-btn safe_food_btn-3" id="sl-button sl-button-3">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-4 slider_max-12 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/sf-4.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Separation </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btn-4" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
+                    <div class="row">
+                      <div class="col-md-12 mb-5">
+                        <div class="pageSlider-container">
+                          <div class="pageSlider-container-inner">
+                            <div class="pageSlider-prev">
+                              <div class="pageSlider-prev-inner">
+                                <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                              </div>
+                            </div>
+                            <div class="pageSlider">
+                              <div class="pageSlider-inner">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-holder">
+                                      <div class="swiper pageSwiper1">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg01">
+                                                    <img src="images/safe_food/sf-1.svg" class="img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText01">
+                                                    People
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn01">
+                                                    <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg02">
+                                                    <img src="images/safe_food/sf-2.svg" class="img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText02">
+                                                    PURCHASING
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn02">
+                                                    <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg03">
+                                                    <img src="images/safe_food/sf-3.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText03">
+                                                    Restaurant designs
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn03">
+                                                    <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg04">
+                                                    <img src="images/safe_food/sf-4.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText04">
+                                                    Separation
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn04">
+                                                    <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg05">
+                                                    <img src="images/safe_food/safe-2.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText05">
+                                                    Equipment
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn04">
+                                                    <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg06">
+                                                    <img src="images/safe_food/safe-3.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText06">
+                                                    Cold chain
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn06">
+                                                    <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg07">
+                                                    <img src="images/safe_food/safe-4.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText07">
+                                                    Receiving and storing food
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn07">
+                                                    <button class="read-more-btn" onclick="openPopUp(7);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg08">
+                                                    <img src="images/safe_food/safe-5.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText08">
+                                                    Maintenance
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn08">
+                                                    <button class="read-more-btn" onclick="openPopUp(8);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg09">
+                                                    <img src="images/safe_food/safe-7.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText09">
+                                                    Preservation
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn09">
+                                                    <button class="read-more-btn" onclick="openPopUp(9);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg10">
+                                                    <img src="images/safe_food/safe-8.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText10">
+                                                    Food allergies
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn10">
+                                                    <button class="read-more-btn" onclick="openPopUp(10);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg11">
+                                                    <img src="images/safe_food/safe-9.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText11">
+                                                    Waste
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn11">
+                                                    <button class="read-more-btn" onclick="openPopUp(11);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg12">
+                                                    <img src="images/safe_food/safe-12.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText12">
+                                                    Delivery and takeaway
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn11">
+                                                    <button class="read-more-btn" onclick="openPopUp(12);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg13">
+                                                    <img src="images/safe_food/safe-11.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText13">
+                                                    Sub-contractors
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn13">
+                                                    <button class="read-more-btn" onclick="openPopUp(13);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg14">
+                                                    <img src="images/safe_food/safe-13.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText14">
+                                                    Accountability and documentation
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn14">
+                                                    <button class="read-more-btn" onclick="openPopUp(14);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg15">
+                                                    <img src="images/safe_food/safe-12.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText15">
+                                                    Independent check
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn15">
+                                                    <button class="read-more-btn" onclick="openPopUp(15);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg16">
+                                                    <img src="images/safe_food/sf-5.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText16">
+                                                    Dirty areas
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn16">
+                                                    <button class="read-more-btn" onclick="openPopUp(16);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
 
 
 
-
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-1 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-2.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Equipment</span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-1" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-2 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-3.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Cold chain </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-2" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-3 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-4.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Receiving and storing food </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-3" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-4 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-5.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Maintenance </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-4" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-5 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-6.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Cleaning</span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-5" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-6 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-7.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Preservation </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-6" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-7 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-8.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Food allergies </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-7" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-8 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-9.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder">Waste </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-8" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-9 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-10.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Delivery and takeaway </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-9" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-10 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-11.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder">Sub-contractors </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-10" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-11 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-13.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Accountability and documentation </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-11" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image safe_foodSlide-12 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/safe-12.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> Independent check </span>
-                                        </div>
-                                        <div class="sl-button sl-button-4 text-center">
-                                          <button class="read-more-btn safe_food_btns-12" id="sl-button sl-button-4">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-
-
-
-
-
-
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-5 text-center safe_foodSlide13">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/sf-5.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-5 text-center">
-                                          <span class="sltext-holder"> Dirty areas </span>
-                                        </div>
-                                        <div class="sl-button sl-button-5 text-center">
-                                          <button class="read-more-btn safe_food_btn-5" id="sl-button sl-button-5">Read more</button>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-pagination">
+                                      <div class="pageSlider-pagination-inner">
+                                        <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                      </div>
+                                    </div>
+
+                                  </div>
                                 </div>
                               </div>
-                              <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
                             </div>
-                            <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+                            <div class="pageSlider-next">
+                              <div class="pageSlider-next-inner">
+                                <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
+
+
                     <p class="text-center nextStepCta mt-4">
                       <a id="nextBtn1" href="#">Next Step <i class="fa fa-long-arrow-right"></i>
                       </a>
@@ -1116,49 +1464,195 @@ There are four main hazards that can contaminate your food:</p>
     </div>
   </div>
 
-
-
-
-  <div id="safe_food_content-1" class="modalx">
+  <div id="pop1" class="modalx">
     <div class="modalx-content">
-      <h4>People </h4>
-      <p> Properly trained staff that understands why personal hygiene and preventing contamination is important will be more engaged in the daily management of food safety. They will be more motivated to carry out their tasks well and will be less likely to make mistakes that lead to contaminated food. A sustainable restaurant treats its staff well and staff that is engaged will also be motivated to help implement other sustainable actions. </p>
-      <a class="read-more-btn btn btn-sm safe_food_close-1">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+      <h4>People</h4>
+      <p>
+        Properly trained staff that understands why personal hygiene and preventing contamination is important will be more engaged in the daily management of food safety. They will be more motivated to carry out their tasks well and will be less likely to make mistakes that lead to contaminated food. A sustainable restaurant treats its staff well and staff that is engaged will also be motivated to help implement other sustainable actions.
+      </p>
     </div>
   </div>
-  <div id="safe_food_content-2" class="modalx">
+
+  <div id="pop2" class="modalx">
     <div class="modalx-content">
-      <h4> Purchasing </h4>
-      <p> A reputable supplier will have food safety covered. You can check this by asking for their certificate or inspection report carried out by their local or national authority, an accredited third-party independent inspector, or for a certificate from a Global Food Safety Initiative (GFSI) benchmarked scheme. Your FSMS requires you to keep a list of suppliers. This can also help you keep track of how they are performing concerning sustainability activities like <a target="_self" href="introduction-to-responsible-sourcing-eng.php">responsible sourcing</a>. When you require your suppliers to have food safety standards, it also encourages their own efficiency and waste management. That way you can help suppliers to improve their processes which can mean they gain additional business and become economically sustainable.</p>
-      <a class="read-more-btn btn btn-sm safe_food_close-2">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+      <h4>Purchasing</h4>
+      <p>
+        A reputable supplier will have food safety covered. You can check this by asking for their certificate or inspection report carried out by their local or national authority, an accredited third-party independent inspector, or for a certificate from a Global Food Safety Initiative (GFSI) benchmarked scheme. Your FSMS requires you to keep a list of suppliers. This can also help you keep track of how they are performing concerning sustainability activities like <a target="_self" href="introduction-to-responsible-sourcing-eng.php">responsible sourcing</a>. When you require your suppliers to have food safety standards, it also encourages their own efficiency and waste management. That way you can help suppliers to improve their processes which can mean they gain additional business and become economically sustainable.
+      </p>
     </div>
   </div>
-  <div id="safe_food_content-3" class="modalx">
+
+  <div id="pop3" class="modalx">
     <div class="modalx-content">
-      <h4> Restaurant designs </h4>
-      <p> Arrange your restaurant in a way to ensure a smooth flow and to prevent cross-contamination. Where this is not always possible you must have a procedure in place to ensure there is no cross-contamination. For example, if different shifts manage preparation using one surface, it can be cleaned thoroughly in between. This helps your staff to work better and prevent tensions during hurried shifts.</p>
-      <a class="read-more-btn btn btn-sm safe_food_close-3">X</a>
+      <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+      <h4>Restaurant designs</h4>
+      <p>
+        Arrange your restaurant in a way to ensure a smooth flow and to prevent cross-contamination. Where this is not always possible you must have a procedure in place to ensure there is no cross-contamination. For example, if different shifts manage preparation using one surface, it can be cleaned thoroughly in between. This helps your staff to work better and prevent tensions during hurried shifts.
+      </p>
     </div>
   </div>
-  <div id="safe_food_content-4" class="modalx">
+
+  <div id="pop4" class="modalx">
     <div class="modalx-content">
-      <h4> Separation </h4>
-      <p>Raw and ready to eat or cooked foods must be handled separately as should food containing allergens. Dirty foods must be prepared in a separate area and not next
+      <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+      <h4>Separation</h4>
+      <p>
+        Raw and ready to eat or cooked foods must be handled separately as should food containing allergens. Dirty foods must be prepared in a separate area and not next
         to clean foods. Waste must be separated and stored in labelled containers. For example, raw vegetables with soil on should be cleaned away from the salad that is ready to eat. Vegetable peelings can be kept to make stock or be composted.
       </p>
-      <a class="read-more-btn btn btn-sm safe_food_close-4">X</a>
     </div>
   </div>
-  <div id="safe_food_content-5" class="modalx">
+
+
+  <div id="pop5" class="modalx">
     <div class="modalx-content">
-      <h4> Dirty areas </h4>
-      <p>Areas for washing up, garbage bins or vegetable processing should be separated from clean areas. It helps to manage the flow of waste and ensure the correct waste is recycled or reused. For example, clean rinse water can be used to water your garden if you have one.
+      <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+      <h4>Equipment</h4>
+      <p>
+        Equipment that is right for the job makes the kitchen more efficient. Modern, well designed equipment is easy to clean and efficient to operate which saves time and energy and reduces the risk of contamination.
       </p>
-
-
-      <a class="read-more-btn btn btn-sm safe_food_close-5">X</a>
     </div>
   </div>
+
+
+  <div id="pop6" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+      <h4>Cold chain</h4>
+      <p>
+        When the cold chain is secured chilled food is safe and keeps longer which in turn minimises the amount of waste. Chilled food should be transported in a chilled vehicle
+        and where that is not possible in temperature- controlled containers that can carry frozen blocks.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop7" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
+      <h4>Receiving and storing food</h4>
+      <p>
+        Foods need segregation on multiple counts. Ones that contain allergens, ones that are raw or from the ready-to-eat section and ones that are packed from the unpacked ones. When you receive food, the outer cartons should be removed to prevent contamination from entering your kitchen. A good system will have a designated space for the packaging which makes it easier to know that it is for recycling. Good stock control means you use up food in time, before the end of its shelf life. Storage at the right temperature prevents bacteria multiplying, keeps the food safe and ensures the shelf life lasts as the supplier intended it to. This prevents wasted food.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop8" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
+      <h4>Maintenance</h4>
+      <p>
+        Your equipment and machinery must be checked regularly to ensure it is not damaged. Damage can lead to small pieces of metal getting into food. Well-maintained equipment is more efficient. For example, a boiler that has chalk build-up is unhygienic and takes more energy to heat. A freezer that is not well- ventilated can take more energy to cool food down. An air conditioner blocked with dust risks leaching contamination from bacteria into the atmosphere and takes excessive energy to cool.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="pop9" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
+      <h4>Preservation</h4>
+      <p>
+        Preservation extends the life of food. Correct freezing keeps food safe. When food is too hot and enters the freezer, it uses additional energy to cool down. It can also cause localised spots of warming on frozen or chilled foods already in the freezer which in turn lead to the growth of unwanted bacteria. When freezing is done safely, it can help prevent wastage of unused food. It can also be a way to use local foods that are out of season. Fermentation, when done safely, extends shelf life and creates a delicious and healthy product out of simple ingredients such as pickled vegetables. Needless to say, the products should be labelled and the shelf life indicated clearly.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop10" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
+      <h4>Food allergies</h4>
+      <p>
+        In many countries, customers must have access to the full list of existing allergens in restaurant dishes. Allergen management is a highly challenging area for restaurants especially if the staff turnover is high – this can negatively impact knowledge transfer. A simple menu is the cornerstone of a sustainable restaurant, and it makes managing allergen listings easier. However, when you change your menu seasonally, be sure to indicate this to your customers and staff. When meals are made from scratch, you can be sure what the ingredients are and whether they have any allergens in them, which should be made known to the customers. Reputable suppliers will list the allergens on their products.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop11" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
+      <h4>Waste</h4>
+      <p>
+        How you manage unused food and the remains of meals is an important consideration. For example, depending on how it was used, unused bread can be reused in a different meal in the form of breadcrumbs or could be composted, or thrown away. How you deal with this means different considerations on food safety as well as the amount of waste you generate.
+      </p>
+    </div>
+  </div>
+
+
+
+  <div id="pop12" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(12);">X</a>
+      <h4>Delivery and takeaway</h4>
+      <p>
+        Especially since the outbreak of COVID 19, food delivery and take- away has picked up momentum. Strong containers that keep food free of contamination and are easy to dispose of, are needed. Compostable containers are a good alternative and if you can use a returnable container scheme, check how the containers are cleaned.
+      </p>
+    </div>
+  </div>
+
+  <div id="pop13" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(13);">X</a>
+      <h4>Sub-contractors</h4>
+      <p>
+        Usually, subcontractors look after ancillary tasks such as delivery and pest control. They must ensure that their practices do not endanger the safety of food. Delivery drivers, for example, must ensure food is transported at the right temperature at the right time. Pest control subcontractors must ensure that the placement of their devices and chemicals used do not pose a risk of contamination in your kitchen. When your subcontractors are aware of your requirements, they may have ideas to offer. Some pest subcontractors are changing the way they catch pests to limit the use of harmful chemicals in the environment.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="pop14" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(14);">X</a>
+      <h4>Accountability and documentation</h4>
+      <p>
+        As a restaurant manager, you are responsible for the overall supervision of your FSMS (food safety management system). The FSMS needs to be documented and this means keeping up-to-date and accurate records. This also means doing checks - you or a responsible member of staff on your behalf - conducts the opening and closing checks, any on-top checks, and ensures that “prove it” documentation (such as cleaning and training records) are completed. When you have a system already established to manage food safety, it is easier to include checks necessary in other sustainability aspects. Recording the status of a new process and monitoring its progress is another part of managing sustainability for example energy usage.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="pop15" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(15);">X</a>
+      <h4>Independent check</h4>
+      <p>
+        To verify that your food safety system is working, you might want to have it checked independently. There are professional service providers, who can tailor inspection and analysis programs for your premises. Having this external input is a way for you to improve, and an endorsement that your food safety management is working plus an additional assurance you can give to your guests. Similar services exist in sustainability management although these are not as common. Ask your local authority or wholesaler for their recommendations.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <div id="pop16" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(16);">X</a>
+      <h4>Dirty areas</h4>
+      <p>
+        Areas for washing up, garbage bins or vegetable processing should be separated from clean areas. It helps to manage the flow of waste and ensure the correct waste is recycled or reused. For example, clean rinse water can be used to water your garden if you have one.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <div id="safe_foodSlide_c-5" class="modalx">
+    <div class="modalx-content">
+      <h4>Cleaning </h4>
+      <p> A professional cleaning program that is specific to your premises, uses the right chemicals with the correct dosage, and suitable for the correct equipment, not only gets things clean but also prevents damage to your local environment from excessive chemicals which add to your costs. Taking a step further, you might consider environmentally- friendly cleaning chemicals. When you clean as you go, you prevent a build-up of waste and reduce the risk of contaminating clean areas by overflowing bins, for instance. Clearly labelled containers in a separated area make it easier to recycle or reuse waste.
+
+      </p>
+      <a class="read-more-btn btn btn-sm safe_foodSlide-close-5">X</a>
+    </div>
+  </div>
+
+
+
+
+
 
 
 
@@ -1308,123 +1802,6 @@ There are four main hazards that can contaminate your food:</p>
 
 
 
-  <div id="safe_foodSlide_c-1" class="modalx">
-    <div class="modalx-content">
-      <h4>Equipment </h4>
-      <p> Equipment that is right for the job makes the kitchen more efficient. Modern, well designed equipment is easy to clean and efficient to operate which saves time and energy and reduces the risk of contamination.</p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-1">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-2" class="modalx">
-    <div class="modalx-content">
-      <h4>Cold chain </h4>
-      <p> When the cold chain is secured chilled food is safe and keeps longer which in turn minimises the amount of waste. Chilled food should be transported in a chilled vehicle
-        and where that is not possible in temperature- controlled containers that can carry frozen blocks.
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-2">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-3" class="modalx">
-    <div class="modalx-content">
-      <h4>Receiving and storing food </h4>
-      <p> Foods need segregation on multiple counts. Ones that contain allergens, ones that are raw or from the ready-to-eat section and ones that are packed from the unpacked ones. When you receive food, the outer cartons should be removed to prevent contamination from entering your kitchen. A good system will have a designated space for the packaging which makes it easier to know that it is for recycling. Good stock control means you use up food in time, before the end of its shelf life. Storage at the right temperature prevents bacteria multiplying, keeps the food safe and ensures the shelf life lasts as the supplier intended it to. This prevents wasted food.
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-3">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-4" class="modalx">
-    <div class="modalx-content">
-      <h4>Maintenance </h4>
-      <p> Your equipment and machinery must be checked regularly to ensure it is not damaged. Damage can lead to small pieces of metal getting into food. Well-maintained equipment is more efficient. For example, a boiler that has chalk build-up is unhygienic and takes more energy to heat. A freezer that is not well- ventilated can take more energy to cool food down. An air conditioner blocked with dust risks leaching contamination from bacteria into the atmosphere and takes excessive energy to cool.
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-4">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-5" class="modalx">
-    <div class="modalx-content">
-      <h4>Cleaning </h4>
-      <p> A professional cleaning program that is specific to your premises, uses the right chemicals with the correct dosage, and suitable for the correct equipment, not only gets things clean but also prevents damage to your local environment from excessive chemicals which add to your costs. Taking a step further, you might consider environmentally- friendly cleaning chemicals. When you clean as you go, you prevent a build-up of waste and reduce the risk of contaminating clean areas by overflowing bins, for instance. Clearly labelled containers in a separated area make it easier to recycle or reuse waste.
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-5">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-6" class="modalx">
-    <div class="modalx-content">
-      <h4>Preservation</h4>
-      <p>Preservation extends the life of food. Correct freezing keeps food safe. When food is too hot and enters the freezer, it uses additional energy to cool down. It can also cause localised spots of warming on frozen or chilled foods already in the freezer which in turn lead to the growth of unwanted bacteria. When freezing is done safely, it can help prevent wastage of unused food. It can also be a way to use local foods that are out of season. Fermentation, when done safely, extends shelf life and creates a delicious and healthy product out of simple ingredients such as pickled vegetables. Needless to say, the products should be labelled and the shelf life indicated clearly.
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-6">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-7" class="modalx">
-    <div class="modalx-content">
-      <h4>Food allergies </h4>
-      <p> In many countries, customers must have access to the full list of existing allergens in restaurant dishes. Allergen management is a highly challenging area for restaurants especially if the staff turnover is high – this can negatively impact knowledge transfer. A simple menu is the cornerstone of a sustainable restaurant, and it makes managing allergen listings easier. However, when you change your menu seasonally, be sure to indicate this to your customers and staff. When meals are made from scratch, you can be sure what the ingredients are and whether they have any allergens in them, which should be made known to the customers. Reputable suppliers will list the allergens on their products.
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-7">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-8" class="modalx">
-    <div class="modalx-content">
-      <h4>Waste </h4>
-      <p>How you manage unused food and the remains of meals is an important consideration. For example, depending on how it was used, unused bread can be reused in a different meal in the form of breadcrumbs or could be composted, or thrown away. How you deal with this means different considerations on food safety as well as the amount of waste you generate.
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-8">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-9" class="modalx">
-    <div class="modalx-content">
-      <h4>Delivery and takeaway </h4>
-      <p>Especially since the outbreak of COVID 19, food delivery and take- away has picked up momentum. Strong containers that keep food free of contamination and are easy to dispose of, are needed. Compostable containers are a good alternative and if you can use a returnable container scheme, check how the containers are cleaned.
-
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-9">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-10" class="modalx">
-    <div class="modalx-content">
-      <h4>Sub-contractors
-      </h4>
-      <p>Usually, subcontractors look after ancillary tasks such as delivery and pest control. They must ensure that their practices do not endanger the safety of food. Delivery drivers, for example, must ensure food is transported at the right temperature at the right time. Pest control subcontractors must ensure that the placement of their devices and chemicals used do not pose a risk of contamination in your kitchen. When your subcontractors are aware of your requirements, they may have ideas to offer. Some pest subcontractors are changing the way they catch pests to limit the use of harmful chemicals in the environment.
-
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-10">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-11" class="modalx">
-    <div class="modalx-content">
-      <h4>Accountability and documentation</h4>
-      <p>As a restaurant manager, you are responsible for the overall supervision of your FSMS (food safety management system). The FSMS needs to be documented and this means keeping up-to-date and accurate records. This also means doing checks - you or a responsible member of staff on your behalf - conducts the opening and closing checks, any on-top checks, and ensures that “prove it” documentation (such as cleaning and training records) are completed. When you have a system already established to manage food safety, it is easier to include checks necessary in other sustainability aspects. Recording the status of a new process and monitoring its progress is another part of managing sustainability for example energy usage.
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-11">X</a>
-    </div>
-  </div>
-
-  <div id="safe_foodSlide_c-12" class="modalx">
-    <div class="modalx-content">
-      <h4>Independent check</h4>
-      <p>To verify that your food safety system is working, you might want to have it checked independently. There are professional service providers, who can tailor inspection and analysis programs for your premises. Having this external input is a way for you to improve, and an endorsement that your food safety management is working plus an additional assurance you can give to your guests. Similar services exist in sustainability management although these are not as common. Ask your local authority or wholesaler for their recommendations.
-
-
-      </p>
-      <a class="read-more-btn btn btn-sm safe_foodSlide-close-12">X</a>
-    </div>
-  </div>
 
 
 
@@ -1432,379 +1809,32 @@ There are four main hazards that can contaminate your food:</p>
 
 
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-1").click(function() {
-        $("#safe_foodSlide_c-1").css("display", "block");
-      });
-      $(".safe_foodSlide-close-1").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-1").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-2").click(function() {
-        $("#safe_foodSlide_c-2").css("display", "block");
-      });
-      $(".safe_foodSlide-close-2").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-3").click(function() {
-        $("#safe_foodSlide_c-3").css("display", "block");
-      });
-      $(".safe_foodSlide-close-3").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-3").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-4").click(function() {
-        $("#safe_foodSlide_c-4").css("display", "block");
-      });
-      $(".safe_foodSlide-close-4").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-4").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-5").click(function() {
-        $("#safe_foodSlide_c-5").css("display", "block");
-      });
-      $(".safe_foodSlide-close-5").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-5").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-6").click(function() {
-        $("#safe_foodSlide_c-6").css("display", "block");
-      });
-      $(".safe_foodSlide-close-6").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-6").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-7").click(function() {
-        $("#safe_foodSlide_c-7").css("display", "block");
-      });
-      $(".safe_foodSlide-close-7").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-7").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-8").click(function() {
-        $("#safe_foodSlide_c-8").css("display", "block");
-      });
-      $(".safe_foodSlide-close-8").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-8").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-9").click(function() {
-        $("#safe_foodSlide_c-9").css("display", "block");
-      });
-      $(".safe_foodSlide-close-9").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-9").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-10").click(function() {
-        $("#safe_foodSlide_c-10").css("display", "block");
-      });
-      $(".safe_foodSlide-close-10").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-10").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-11").click(function() {
-        $("#safe_foodSlide_c-11").css("display", "block");
-      });
-      $(".safe_foodSlide-close-11").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-11").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btns-12").click(function() {
-        $("#safe_foodSlide_c-12").css("display", "block");
-      });
-      $(".safe_foodSlide-close-12").click(function() {
-        //alert("Hi")
-        $("#safe_foodSlide_c-12").css("display", "none");
-      });
-    });
-  </script>
 
 
 
 
 
 
-  <script>
-    /* slider first*/
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn-1").click(function() {
-        $("#safe_food_content-1").css("display", "block");
-      });
-      $(".safe_food_close-1").click(function() {
-        //alert("Hi")
-        $("#safe_food_content-1").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn-2").click(function() {
-        $("#safe_food_content-2").css("display", "block");
-      });
-      $(".safe_food_close-2").click(function() {
-        //alert("Hi")
-        $("#safe_food_content-2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn-3").click(function() {
-        $("#safe_food_content-3").css("display", "block");
-      });
-      $(".safe_food_close-3").click(function() {
-        //alert("Hi")
-        $("#safe_food_content-3").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn-4").click(function() {
-        $("#safe_food_content-4").css("display", "block");
-      });
-      $(".safe_food_close-4").click(function() {
-        //alert("Hi")
-        $("#safe_food_content-4").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn-5").click(function() {
-        $("#safe_food_content-5").css("display", "block");
-      });
-      $(".safe_food_close-5").click(function() {
-        //alert("Hi")
-        $("#safe_food_content-5").css("display", "none");
-      });
-    });
-
-    /* slider first*/
 
 
 
-
-    /* slider second*/
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-1").click(function() {
-        $("#safe_food_content2-1").css("display", "block");
-      });
-      $(".safe_food_close2-1").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-1").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-2").click(function() {
-        $("#safe_food_content2-2").css("display", "block");
-      });
-      $(".safe_food_close2-2").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-2").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-3").click(function() {
-        $("#safe_food_content2-3").css("display", "block");
-      });
-      $(".safe_food_close2-3").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-3").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-4").click(function() {
-        $("#safe_food_content2-4").css("display", "block");
-      });
-      $(".safe_food_close2-4").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-4").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-5").click(function() {
-        $("#safe_food_content2-5").css("display", "block");
-      });
-      $(".safe_food_close2-5").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-5").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-6").click(function() {
-        $("#safe_food_content2-6").css("display", "block");
-      });
-      $(".safe_food_close2-6").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-6").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn2-7").click(function() {
-        $("#safe_food_content2-7").css("display", "block");
-      });
-      $(".safe_food_close2-7").click(function() {
-        //alert("Hi")
-        $("#safe_food_content2-7").css("display", "none");
-      });
-    });
-
-
-    /* slider secon*/
-
-
-
-
-
-
-    /* slider third*/
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-1").click(function() {
-        $("#safe_food_content3-1").css("display", "block");
-      });
-      $(".safe_food_close3-1").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-1").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-2").click(function() {
-        $("#safe_food_content3-2").css("display", "block");
-      });
-      $(".safe_food_close3-2").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-2").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-3").click(function() {
-        $("#safe_food_content3-3").css("display", "block");
-      });
-      $(".safe_food_close3-3").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-3").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-4").click(function() {
-        $("#safe_food_content3-4").css("display", "block");
-      });
-      $(".safe_food_close3-4").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-4").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-5").click(function() {
-        $("#safe_food_content3-5").css("display", "block");
-      });
-      $(".safe_food_close3-5").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-5").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-6").click(function() {
-        $("#safe_food_content3-6").css("display", "block");
-      });
-      $(".safe_food_close3-6").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-6").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-7").click(function() {
-        $("#safe_food_content3-7").css("display", "block");
-      });
-      $(".safe_food_close3-7").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-7").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-8").click(function() {
-        $("#safe_food_content3-8").css("display", "block");
-      });
-      $(".safe_food_close3-8").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-8").css("display", "none");
-      });
-    });
-    $(document).ready(function() {
-      //slide one
-      $(".safe_food_btn3-9").click(function() {
-        $("#safe_food_content3-9").css("display", "block");
-      });
-      $(".safe_food_close3-9").click(function() {
-        //alert("Hi")
-        $("#safe_food_content3-9").css("display", "none");
-      });
-    });
-
-    /* third secon*/
-  </script>
 
 
 
   <script src="jquery/page1.js"></script>
   <!-- Swiper JS -->
   <script>
-    var swiper = new Swiper(".swx", {
+    //pageSlider swiper
+    function openPopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "block");
+    }
+
+    function closePopUp(Id) {
+      //alert(Id);
+      $("#pop" + Id).css("display", "none");
+    }
+    var swiper = new Swiper(".pageSwiper1", {
       grabCursor: true,
       centeredSlides: true,
       initialSlide: 1,
@@ -1817,14 +1847,15 @@ There are four main hazards that can contaminate your food:</p>
         slideShadows: true,
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-pagination.pageSwiper1Pagination",
       },
     });
   </script>
+
   <script type="text/javascript">
     $(document).ready(function() {
       $(".nextStepCta a").click(function() {

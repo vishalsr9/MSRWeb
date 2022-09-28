@@ -195,8 +195,7 @@
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
                                             more than two-thirds of the earth’s surface is
-                                            covered by oceans, seas and coastal areas,
-
+                                            covered by oceans, seas and coastal areas
                                             and constitutes <span class="highlight">95%</span> of the space
 
                                             available to life

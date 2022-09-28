@@ -1330,13 +1330,13 @@
 
                 <div class="container-full con50">
                     <div class="row">
-                        <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center no-print">
+                        <div class="col-md-12 mt-2 mb-4 mx-1 my-1 text-center no-print">
                             <h3 class="section-heading-blue">The Comprehensive Guide to Sustainable Products </h3>
-                            <p>
+                            <p class="">
                                 <strong>
-                                    It is not always easy to know what a sustainable product is and<br>the definitions can
-                                    be different depending on the perspectives and beliefs of the person or organisation
-                                    looking at it.<br>You can use the following characteristics as a guide, because
+                                    It is not always easy to know what a sustainable product is and the definitions can
+                                    be different depending on<br>the perspectives and beliefs of the person or organisation
+                                    looking at it. You can use the following characteristics<br>as a guide, because
                                     sustainable products have at least one of these characteristics.
                                 </strong>
                             </p>

@@ -231,9 +231,9 @@
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
-            <h3>Food Recovery Hierarchy</h3>
-            <img src="./images/safe_food/l3-5.svg" class="img-fluid">
-            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">WEITERLESEN</a>
+            <!-- <h3>Food Recovery Hierarchy</h3> -->
+            <img src="./images/safe_food/Food Waste L3_graphics.svg" class="img-fluid">
+            <a style="top:12.5%;left:50%;" href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">WEITERLESEN</a>
         </div>
     </section>
 

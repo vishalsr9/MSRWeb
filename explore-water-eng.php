@@ -983,38 +983,6 @@
 
 
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            //slide one
-            $("#water_btn_1").click(function() {
-                $("#waterPopup1").css("display", "block");
-            });
-            $(".waterPopupClose1").click(function() {
-                //alert("Hi")
-                $("#waterPopup1").css("display", "none");
-            });
-            //slide 2
-            $("#water_btn_2").click(function() {
-                $("#WaterPopup2").css("display", "block");
-            });
-            $(".waterPopupClose2").click(function() {
-                //alert("Hi")
-                $("#WaterPopup2").css("display", "none");
-            });
-            //slide 3
-            $("#water_btn_3").click(function() {
-                $("#WaterPopup3").css("display", "block");
-            });
-            $(".waterPopupClose3").click(function() {
-                //alert("Hi")
-                $("#WaterPopup3").css("display", "none");
-            });
-
-        });
-    </script>
-
-
-
 
 
 
