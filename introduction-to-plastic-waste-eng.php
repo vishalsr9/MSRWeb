@@ -113,7 +113,7 @@
         </section>
         <section class="section2">
             <div class="top-content">
-                <h3>DID YOU KNOW that…</h3>
+                <h3>Did you know that…</h3>
             </div>
 
 
@@ -122,7 +122,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 mx-auto my-auto border-b">
+                        <!-- <div class="col-md-12 mx-auto my-auto border-b">
                             <div class="diduknow-content text-center">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -135,7 +135,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="col-md-6 border-r border-b">
                             <div class="diduknow-content text-center">
@@ -161,7 +161,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                            global plastics production has increased <span class="highlight">from 15 million tonnes</span> in 1964 <span class="highlight">to 367 million tonnes</span> in 2020, and is expected to double again over the next 20 years
+                                            global plastic production has increased <span class="highlight">from 15 million tonnes</span> in 1964 <span class="highlight">to 367 million tonnes</span> in 2020, and is expected to double again over the next 20 years
                                         </p>
                                     </div>
                                 </div>
@@ -189,7 +189,8 @@
                             <div class="diduknow-content text-center">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <img src="images/plastic_waste/earth.svg" class="img-fluid diduknow-img img-w12rem" />
+                                        <img src="images/plastic_waste/earth.svg" class="img-fluid diduknow-img img-w12rem" style="width: 11rem !important;
+    height: 13.2rem;" />
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
@@ -232,7 +233,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                            <span class="highlight">73%</span>of millennials (21-34) are willing to pay more for sustainable offerings
+                                            <span class="highlight">73% </span>of millennials (21-34) are willing to pay more for sustainable offerings
                                         </p>
                                     </div>
                                 </div>
@@ -340,7 +341,7 @@
 
                         Plastic Waste</h3>
                     <p class="theme-p">
-                        Analyse your plastic consumption and the sources of plastic, how you use and dispose it. A simple waste audit will help avoid single-use plastic such as plastic-wrapped food and drink or plastic containers for takeaway. Since July 2021, many <a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank">single-use plastic items</a> have been banned in the EU and further laws will be introduced. In Germany, starting in 2023, caterers, delivery services and restaurants will be required to offer reusable containers for takeaway food and beverages in addition to disposable containers. You too will have to use alternatives that are reusable, recyclable and compostable such as plates made from plant-based materials like bamboo. And you can then go for more advanced ways to avoid plastic waste. </p>
+                        Analyse your plastic consumption and the sources of plastic, how you use and dispose it. A simple waste audit will help avoid single-use plastic such as plastic-wrapped food and drinks or plastic containers for takeaway. Since July 2021, many <a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank">single-use plastic items</a> have been banned in the EU and further laws will be introduced. In Germany, starting in 2023, caterers, delivery services and restaurants will be required to offer reusable containers for takeaway food and beverages in addition to disposable containers. You too will have to use <a href="https://www.mpulse.de/en/assortment/packaging-preferably-sustainably" class="nodeco" target="_blank">alternatives</a> that are reusable, recyclable and compostable such as plates made from plant-based materials like bamboo. And you can then go for more advanced ways to avoid plastic waste. </p>
                     <strong>
                         <ul>
                             <li>Engage your staff and customers to bring about sustainable change</li>

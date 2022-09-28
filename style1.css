@@ -744,10 +744,10 @@ margin-left:1rem;
 }
 
 .tracktalk-iconbox {
-   width: 5rem;
-height: 5rem;
+   width: 4rem;
+height: 4rem;
 text-align: center;
-border-radius: 2.5rem;
+border-radius: 2rem;
 background-color: #ffe500;
 display: block;
 position: absolute;
@@ -1090,11 +1090,11 @@ margin-bottom: 1rem;
 }
 
 .tracktalk-icon-1{
-    margin-top:-8px!important;
+    margin-top:0px!important;
 }
 
 .tracktalk-icon-2{
-    margin-top:-7px!important;
+    margin-top:0px!important;
 }
 
 .tracktalk-icon-3{
@@ -1110,9 +1110,9 @@ margin-bottom: 1rem;
 }
 
 .tracktalk-iconbox>img{
-    width:2.8rem;
-    height:auto;
-    margin-top:17px;
+    height: 2rem;
+width: auto;
+margin-top: 12px;
 }
 
 .spacerx{
@@ -1551,24 +1551,39 @@ padding-bottom: .5rem;
 }
 
 .pro-trace{
-    width:8rem;
+    height:8rem;
 }
 
 .msr-img-holder{
-    width:auto;
-    height:10rem;
+
     white-space: nowrap; /* This is required unless you put the helper span closely near the img */
     text-align: center;
-    margin: 1em 0;
+
+}
+
+.protrace-frame{
+    height: 13rem;
+width: 10rem;
+line-height: 11rem;
+text-align: center;
+margin-left: 8rem;
+    
+}
+
+.protrace-img{
+    vertical-align: middle;
+height: 8rem;
+
 }
 
 .msr-img-holder-inner{
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+    text-align:center;
 }
 
-.msr-img-holder>.msr-img-holder-inner>img{
+.msr-img-holder>.msr-img-holder-inner>a>img{
     vertical-align: middle;
 }
 

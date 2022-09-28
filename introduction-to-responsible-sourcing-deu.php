@@ -218,7 +218,7 @@
             </section>
             <section class="section4 padr-60px w90-per">
                 <div class="left-content noalign w60-per">
-                    <h3>KNOW HOW –<br>ERSTE SCHRITTE WIE SIE<br>VERANTWORTUNGSBEWUSST EINKAUFEN</h3>
+                    <h3>KNOW-HOW –<br>ERSTE SCHRITTE WIE SIE<br>VERANTWORTUNGSBEWUSST EINKAUFEN</h3>
                     <p>
                         Um die Beziehungen zu Ihren Gästen und Lieferanten zu verbessern und gleichzeitig für Vertrauen und Glaubwürdigkeit zu sorgen, sollten Sie sich fragen, ob Ihre Produkte verantwortungsbewusst hergestellt werden und nachhaltig sind. Unser Leitfaden für nachhaltige Produkte wird Ihnen helfen, dazu leichter Informationen zu finden. Schauen Sie sich zusätzlich Ihre Lieferkette an und sprechen Sie mit Ihren Lieferanten über das Thema Nachhaltigkeit. Siegel, die faire Preise für Produkte, faire Arbeitsbedingungen oder die Kompostierbarkeit von Verpackungen garantieren, geben Ihnen mehr Informationen und Orientierung, wie nachhaltig Produkte sind. Vergessen Sie nicht, Ihre Fortschritte zu überprüfen und über Ihre erfolgreichen Schritte auf dem Weg zu einem nachhaltigen Restaurant zu sprechen.
                     </p>

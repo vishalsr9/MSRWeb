@@ -1872,8 +1872,7 @@
                                                                 Überfischung und Ausbeutung der Fischbestände sind ein ernstes Problem. Schätzungen zufolge sind an manchen Orten bereits 90 % der Fischbestände entweder überfischt oder an ihrer Kapazitätsgrenze. Dies hat Auswirkungen auf den Lebensunterhalt der Menschen, die von der Fischerei abhängig sind. Durch den Kauf von nachhaltigem Fisch können Gastronomiebetreibende dazu beitragen, die Fischbestände für künftige Generationen zu erhalten. Wenn wir weiterhin Fisch nicht nachhaltig fangen, wird es bald keinen bezahlbaren Fisch mehr geben. Die verbleibenden Fischbestände würden sich als Luxusprodukt etablieren und nur noch zu deutlich höherem Preisen erhältlich sein.
                                                             </p>
                                                             <p>
-                                                                Die Rückverfolgbarkeit von Produkten ist ein sehr wichtiger Bestandteil der nachhaltigen Fischbeschaffung. Ein solides Rückverfolgbarkeitssystem überprüft, das Fanggebiet und die Art und Weise, wie der Fisch gefangen wurde. Zudem wird geprüft, ob der Fisch aus illegalem Fischfang stammt. Wenn die nachhaltigen Richtlinien eingehalten wurden, arbeiten Fischer, sowohl bei gefangenem als auch bei gezüchtetem Fisch, in einem sicheren Umfeld und werden angemessen entlohnt. Auf diese Weise wird die Umwelt respektvoll behandelt und die lokalen Gemeinden werden unterstützt.
-                                                            </p>
+                                                                Die <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">Rückverfolgbarkeit</a> von Produkten ist ein sehr wichtiger Bestandteil der nachhaltigen Fischbeschaffung. Ein solides Rückverfolgbarkeitssystem überprüft, das Fanggebiet und die Art und Weise, wie der Fisch gefangen wurde. Zudem wird geprüft, ob der Fisch aus illegalem Fischfang stammt. Wenn die nachhaltigen Richtlinien eingehalten wurden, arbeiten Fischer, sowohl bei gefangenem als auch bei gezüchtetem Fisch, in einem sicheren Umfeld und werden angemessen entlohnt. Auf diese Weise wird die Umwelt respektvoll behandelt und die lokalen Gemeinden werden unterstützt. </p>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="msr-img-holder4">
@@ -1952,7 +1951,7 @@
                                                                 Etwa ein Drittel aller weltweit produzierten Lebensmittel landet im Abfall. Wenn wir Lebensmittel verschwenden, vergeuden wir auch die Energie und das Wasser, die für den Anbau, die Ernte, den Transport und die Verpackung der Lebensmittel erforderlich sind. Deshalb könnten etwa 11 % aller Treibhausgasemissionen, die durch die Produktion von Lebensmitteln entstehen, reduziert werden, wenn wir die Verschwendung von Lebensmitteln verhindern würden.
                                                             </p>
                                                             <div class="read-wrap">
-                                                                <a href="introduction-to-food-waste-eng.php" class="read-more" target="_self">Read More</a>
+                                                                <a href="introduction-to-food-waste-deu.php" class="read-more" target="_self">Read More</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3">

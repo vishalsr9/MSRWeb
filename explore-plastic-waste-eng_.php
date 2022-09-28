@@ -227,7 +227,7 @@
         <div class="left-content no-print">
           <h3>How to avoid plastic waste</h3>
           <h4>Plastic waste and your business</h4>
-          <p>Plastic products and plastic packaging play an important role in maintaining hygiene in gastronomy, as they protect food, ensure food safety and improve shelf life. However, both the production and disposal of plastic and single-use packaging require resources and have a negative impact on the environment. At the same time, worldwide regulations regarding Single Use Plastics (SUP’s) are increasing. That is why we are supporting our HoReCa customers to use alternatives and dispose of plastics properly. Businesses can generate costs from not managing plastic waste properly. But by doing things differently restaurants can show their customers that they care about the environment and wellbeing of their communities<span id="dots"></span>
+          <p>Plastic products and plastic packaging play an important role in maintaining hygiene in gastronomy, as they protect food, ensure food safety and improve shelf life. However, both the production and disposal of plastic and single-use packaging require resources and have a negative impact on the environment. At the same time, worldwide regulations regarding Single Use Plastics (SUP’s) are increasing. That is why we must support our HoReCa customers to use alternatives and dispose of plastics properly. Businesses can generate costs from not managing plastic waste properly. But by doing things differently restaurants can show their customers that they care about the environment and wellbeing of their communities<span id="dots"></span>
 
           </p>
           <!-- <button class="read-more-btn" href="#" id="myBtn" onclick="expand-next('#more')">Read more</button> -->
@@ -242,7 +242,7 @@
         <div class="container-fluid">
           <div class="row bg_yellow px-5">
             <div class="col-md-3">
-              <img src="./images/plastic-waste/Asset 2-1.svg">
+              <img src="./images/plastic-waste/Asset 2.svg">
             </div>
             <div class="col-md-9">
               <h3>The impact of gastronomy on the plastic waste challenge</h3>
@@ -274,7 +274,7 @@
               <div class="row">
                 <h5>Start with analysing your plastic waste</h5>
                 <h3>SIMPLE WASTE AUDIT</h3>
-                <p>A simple waste audit will show you what plastics you have and where you could focus your plastic reduction actions. <br>Check out some examples that will guide you: </p>
+                <p>A simple waste audit will show you what plastics you have and where you could focus your plastic reduction actions. Check out some examples that will guide you: </p>
                 <ul class="list-unstyled d-flex mt-5">
                   <li>Product </li>
                   <li>
@@ -338,10 +338,10 @@
                     <td>Ask your supplier to deliver with a reusable trolley wrap. Ask your supplier for alternatives, less or simpler packaging that can be easily cleaned and separated.</td>
                     <td>Check with your supplier to do a returnable deposit for crates of plastic. This will cut the plastic wrapping and bottles that you have to dispose of.</td>
                     <td>Customers might not want extra plastic to fill their rubbish bins. Since 2021, in Europe, plastic disposables are no longer allowed by law. Ask your supplier for alternatives. </td>
-                    <td>Talk to your suppliers about what alternatives they have. This is a difficult issue particularly in times of pandemics and there are not many solutions currently.</td>
+                    <td>Talk to your suppliers about what alternatives they have. This is a difficult issue particularly duringCOVID and there are not many solutions currently.</td>
                   </tr>
                   <tr>
-                    <td><b>Is there an alternative?</b></td>
+                    <td><b>Is there analternative?</b></td>
                     <td>Ask your supplier to deliver with a usable trolley wrap.</td>
                     <td>Non crude oil based plastics.</td>
                     <td>Tap water when safe. Filtered / treated tap water in house when not safe. Glass bottles - also with deposit scheme.</td>
@@ -359,7 +359,7 @@
                 <h3 class="food_wasteTitle plastic_ble">The most problematic plastics</h3>
                 <div class="col-md-4 px-4 no-print">
                   <div class="good_to_know_box p-4 safe_foodBox_l4">
-                    <h6 class="yellow_circle">PVDC</h6>
+                    <img src="./images/plastic-waste/Asset 10.svg" class="img-fluid">
                     <h4>PolyVinyliDene Chloride </h4>
                     <p>It is produced from chlorine and can have a negative impact on the environment and human health. PVDC disposal through incineration is problematic as it generates a similar quantity of dioxins as PVC.</p>
                   </div>
@@ -368,7 +368,7 @@
 
                 <div class="col-md-4 px-4 no-print">
                   <div class="good_to_know_box p-4 safe_foodBox_l4">
-                    <h6 class="yellow_circle">PVC</h6>
+                    <img src="./images/plastic-waste/Asset 11.svg" class="img-fluid">
                     <h4>Polyvinyl Chloride</h4>
                     <p>It contains substances called phthalates, which are added to the PVC to make it flexible but these chemicals and dioxins leach into the environment through incineration. Their potential negative impact on human health is a concern and is not fully understood. In addition, PVC is also difficult to recycle. Today less than 1% of PVC is recycled and this is problematic for future recycling targets in Europe. Look at the packaging on products you purchase – try to avoid packaging with the recycling logo number 3 which is a sign for PVC and favour packaging where “PVC free” is communicated.</p>
                   </div>
@@ -377,7 +377,7 @@
 
                 <div class="col-md-4 px-4 no-print">
                   <div class="good_to_know_box p-4 safe_foodBox_l4">
-                    <h6 class="yellow_circle">EPS</h6>
+                    <img src="./images/plastic-waste/Asset 12.svg" class="img-fluid">
                     <h4>Expanded polystyrene </h4>
                     <p>It has very low recycling rates today, as it is 95% air so it is not cost-effective to collect, store or ship. While it is technically possible to recycle, recycled EPS is often contaminated with additives and therefore not suitable for food packaging. As a result, very few regions around the world collect EPS as part of the recyclables stream. It may break into small pieces, even minuscule pieces which are harder to clean up.</p>
                   </div>
@@ -417,7 +417,7 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
             </div>
             <div class="col-md-6">
               <div class="plastic-waste_goodToKnow_box">
-                <img src="./images/plastic-waste/Asset 15-1.svg" style="width: 60%;">
+                <img src="./images/plastic-waste/Asset 15.svg" style="width: 60%;">
                 <p>Plastic that is used only once (disposable) will generally come into your business as containers from delivery such as trolleys and pallets wrapped in plastic film, plastic-wrapped food and drink, containers for takeaway, plastic wrap for use in the kitchen and hygiene items such as gloves.</p>
               </div>
             </div>
@@ -800,7 +800,7 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
               <div class="plastic-wasteStep">
                 <h2>02</h2>
                 <h4>Purchase products<br> in bulk</h4>
-                <p>Your wholesaler can give you information on what can be purchased in bulk, for example, detergents, oils and dry ingredients like flour</p>
+                <p>Your wholesaler can give you information on what can be purchased in bulk, for example, detergents, oils and dry ingredients like flour.</p>
               </div>
             </div>
             <div class="col-md-4 offset-md-1">
