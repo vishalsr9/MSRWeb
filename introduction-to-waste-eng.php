@@ -22,7 +22,7 @@
     <header class="no-print">
         <div class="container">
             <div class="logo">
-                <a href="">
+                <a href="index.php">
                     <img src="images/metro-logo.svg" />
                 </a>
             </div>
@@ -315,9 +315,7 @@
     <section class="section4 padr-60px no-print mt-4">
         <div class="left-content noalign col-md-6">
             <h3>
-                <a href="explore-waste-eng.php">
-                    KNOW HOW –<br>STEPS HOW TO<br>REDUCE WASTE
-                </a>
+                KNOW HOW –<br>STEPS HOW TO<br>REDUCE WASTE
             </h3>
 
 

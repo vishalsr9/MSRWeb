@@ -65,7 +65,7 @@
     <header class="no-print">
         <div class="container">
             <div class="logo">
-                <a href="">
+                <a href="index.php">
                     <img src="images/metro-logo.svg" />
                 </a>
             </div>

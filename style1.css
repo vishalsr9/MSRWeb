@@ -1090,27 +1090,28 @@ margin-bottom: 1rem;
 }
 
 .tracktalk-icon-1{
-    margin-top:0px!important;
+    margin-top:1rem!important;
 }
 
 .tracktalk-icon-2{
-    margin-top:0px!important;
+    margin-top:.9rem!important;
 }
 
 .tracktalk-icon-3{
-    margin-top:13px!important;
+    margin-top:2.3rem!important;
 }
 
 .tracktalk-icon-4{
-    margin-top:-12px!important;
+    margin-top:.8rem!important;
 }
 
 .tt{
     font-size:18px;
+    margin-top: 1rem;
 }
 
 .tracktalk-iconbox>img{
-    height: 2rem;
+    height: 2.4rem;
 width: auto;
 margin-top: 12px;
 }

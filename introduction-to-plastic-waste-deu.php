@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="plastic.waste.css">
-     <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
     <style>
         .diduknow-img-5 {
             width: 26rem !important;
@@ -30,129 +30,129 @@
 
 <body class="page3-page">
     <header class="no-print">
-  <div class="container">
-    <div class="logo">
-      <a href="">
-        <img src="images/metro-logo.svg" />
-      </a>
-    </div>
-    
-    <div class="new_header header-menu">
-      <div id="nav-icon4" class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="custom__select top-mar-less">
-        <select>
-          <option value="introduction-to-plastic-waste-deu.php" selected>DEU</option>
-          <option value="introduction-to-plastic-waste-eng.php">ENG</option>
-        </select>
-      </div>
-      <nav>
-        <ul class="main">
-          <li>
-            <a href="http://msr.bdevtestservers.com/home.php">Home</a>
-          </li>
-          <li>
-            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
-          </li>
-          <li>
-            <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
-          </li>
-          <div class="sub_menuUi">
-                  <li>
-                    <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-safe-food-deu.php">Sichere Lebensmittel</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-energy-deu.php">Energie</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-water-deu.php">Wasser</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-waste-deu.php">Abfälle</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-social-deu.php">Gemeinschaft</a>
-                  </li>
-                  </div>
-          <li>
-            <a href="https://www.metroag.de/en/contact">Kontakt</a>
-          </li>
-        </ul>
-        <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
-        <div class="social">
-          <p>Hilfreiche Links</p>
-          <a href="https://www.menukithd.com/" target="_blank">
-            <img src="images/logo-dish.png" style="width: 5rem;">
-          </a>
-          <a href="https://www.dish.co/XX/en/" target="_blank">
-            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
-          </a>
-          <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
-            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-          </a>
-          <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-            <img src="images/Eitiketten.png">
-          </a>
+        <div class="container">
+            <div class="logo">
+                <a href="home.php">
+                    <img src="images/metro-logo.svg" />
+                </a>
+            </div>
+
+            <div class="new_header header-menu">
+                <div id="nav-icon4" class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="custom__select top-mar-less">
+                    <select>
+                        <option value="introduction-to-plastic-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-plastic-waste-eng.php">ENG</option>
+                    </select>
+                </div>
+                <nav>
+                    <ul class="main">
+                        <li>
+                            <a href="http://msr.bdevtestservers.com/home.php">Home</a>
+                        </li>
+                        <li>
+                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                        </li>
+                        <li>
+                            <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
+                        </li>
+                        <div class="sub_menuUi">
+                            <li>
+                                <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-safe-food-deu.php">Sichere Lebensmittel</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-energy-deu.php">Energie</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-water-deu.php">Wasser</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-waste-deu.php">Abfälle</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-social-deu.php">Gemeinschaft</a>
+                            </li>
+                        </div>
+                        <li>
+                            <a href="https://www.metroag.de/en/contact">Kontakt</a>
+                        </li>
+                    </ul>
+                    <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+                    <div class="social">
+                        <p>Hilfreiche Links</p>
+                        <a href="https://www.menukithd.com/" target="_blank">
+                            <img src="images/logo-dish.png" style="width: 5rem;">
+                        </a>
+                        <a href="https://www.dish.co/XX/en/" target="_blank">
+                            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+                        </a>
+                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+                        </a>
+                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+                            <img src="images/Eitiketten.png">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <img src="images/Logo_METRO-Regio_weiss.png">
+                        </a>
+                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <img src="./images/safe_food/foot_nav2.PNG">
+                        </a>
+                        <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+                    </div>
+                    <div class="footer-socials side_nav">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/@METRO_News" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+                </nav>
+                <div class="overlay"></div>
+            </div>
         </div>
-        <div class="social">
-          <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-            <img src="images/Logo_METRO-Regio_weiss.png">
-          </a>
-          <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-            <img src="./images/safe_food/foot_nav2.PNG">
-          </a>
-          <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
-        </div>
-        <div class="footer-socials side_nav">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/mpulse/" target="_blank">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/youtube" target="_blank">
-                <i class="fa fa-youtube-play"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/@METRO_News" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
-      </nav>
-      <div class="overlay"></div>
-    </div>
-  </div>
-</header>
+    </header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
             <img src="images/yellow_pan.gif" class="loader9" />
@@ -164,10 +164,10 @@
                 <div class="col-md-6 mt-2">
                     <h3 class="mt-12 px-5 h3v">
                         <span class="nowrap1">
-                           Die Bedeutung von 
+                            Die Bedeutung von
                         </span><br>
                         <span class="nowrap1">
-                          Plastik in der Gastronomie
+                            Plastik in der Gastronomie
                         </span>
 
                     </h3>
@@ -224,7 +224,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                           
+
                                             nur <span class="highlight">14 %</span> der Plastikverpackungen für das Recycling gesammelt werden und die generelle Recyclingquote für Kunststoffe sogar noch niedriger ist
 
                                         </p>
@@ -257,7 +257,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                           Plastik mindestens <span class="highlight">100 Jahre</span> braucht, um abgebaut zu werden
+                                            Plastik mindestens <span class="highlight">100 Jahre</span> braucht, um abgebaut zu werden
                                         </p>
                                     </div>
                                 </div>
@@ -291,7 +291,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <p class="diduknow-p">
-                                           
+
                                             es bis <span class="highlight"> 2050</span> mehr Plastik als Fische (nach Gewicht) in den Ozeanen geben wird, wenn wir nichts dagegen unternehmen
                                         </p>
                                     </div>
@@ -335,7 +335,7 @@
                     Plastikprodukte und -verpackungen spielen eine wichtige Rolle in der Gastronomie, da sie Lebensmittel schützen, die Sicherheit von Lebensmitteln gewährleisten und ihre Haltbarkeit verlängern. Einwegartikel, die meist aus Kunststoff sind, sind daher aus der Gastronomie kaum wegzudenken. Doch sowohl die Herstellung als auch die Entsorgung von Plastik und Einwegartikeln aus Kunststoff verbrauchen Ressourcen und haben negative Auswirkungen auf die Umwelt – insbesondere auf unsere Meere. Die Gastronomie hat also einen Einfluss auf das Problem des Plastikmülls und sollte auf vermeidbares Plastik verzichten.
                 </p>
                 <p class="mt-2">
-                     Das hat viele Vorteile, auch für Ihr Restaurant: 
+                    Das hat viele Vorteile, auch für Ihr Restaurant:
                 </p>
             </div>
         </div>
@@ -377,7 +377,7 @@
             </div>
             <div class="right-content">
                 <p>
-                    Die Art und Weise, wie Plastik derzeit hergestellt, verwendet und entsorgt wird, schadet der Umwelt. Jegliches Plastik, das jemals herstellt wurde, existiert heute noch in irgendeiner Form, denn Plastik benötigt mindestens 100 Jahre, bis es abgebaut ist und verschmutzt währenddessen Mülldeponien, Ozeane und Meeresumwelt. Wenn Plastik in kleine Fragmente zerfällt, verwechseln Tiere, die im oder vom Meer leben, dieses Plastik mit Nahrung, wodurch Plastik auch in unsere Nahrungskette gelangt. Für Sie als Gastronomin bzw. Gastronom bedeutet dies, dass die Fischbestände betroffen sein können. Damit Sie Ihren Gästen eine hohe Produktqualität gewährleisten können, müssen Sie zukünftig mit erheblichen Preissteigerungen rechnen.  
+                    Die Art und Weise, wie Plastik derzeit hergestellt, verwendet und entsorgt wird, schadet der Umwelt. Jegliches Plastik, das jemals herstellt wurde, existiert heute noch in irgendeiner Form, denn Plastik benötigt mindestens 100 Jahre, bis es abgebaut ist und verschmutzt währenddessen Mülldeponien, Ozeane und Meeresumwelt. Wenn Plastik in kleine Fragmente zerfällt, verwechseln Tiere, die im oder vom Meer leben, dieses Plastik mit Nahrung, wodurch Plastik auch in unsere Nahrungskette gelangt. Für Sie als Gastronomin bzw. Gastronom bedeutet dies, dass die Fischbestände betroffen sein können. Damit Sie Ihren Gästen eine hohe Produktqualität gewährleisten können, müssen Sie zukünftig mit erheblichen Preissteigerungen rechnen.
 
                 </p>
             </div>
@@ -394,17 +394,17 @@
                     <h3 class="h3v3 text-black">
                         KNOW-HOW – <br>ERSTE SCHRITTE, <br>WIE SIE PLASTIKMÜLL REDUZIEREN
 
-                       </h3>
+                    </h3>
                     <p class="theme-p">
-                    
 
-                        Analysieren Sie Ihren Plastikverbrauch. Prüfen Sie, wie Sie Plastik verwenden und entsorgen. Ein erster Check hilft, Einwegplastik zu vermeiden, indem Sie z.B. in Plastik verpackte Lebensmittel oder Plastikeinwegflaschen aus dem Angebot nehmen. Seit Juli 2021 sind viele<a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank"> Einwegplastikartikel</a> in der EU verboten und weitere Gesetze werden folgen. In Deutschland werden Gastronomiebetriebe ab dem 1.1.2023 verpflichtet, neben Einwegbehältern auch wiederverwendbare Behältnisse für Speisen und Getränke zum Mitnehmen anzubieten. Gastronomiebetreibende müssen <a href="https://www.mpulse.de/de/sortiment/wie-ver-packen-wir-das-nachhaltig" class="nodeco" target="_blank">Alternativen</a> verwenden, die wiederverwendbar, recyclebar und kompostierbar sind, z.B. Teller aus pflanzlichen Materialien wie Bagasse. Darüber hinaus können Sie auch fortgeschrittene Maßnahmen einführen: 
+
+                        Analysieren Sie Ihren Plastikverbrauch. Prüfen Sie, wie Sie Plastik verwenden und entsorgen. Ein erster Check hilft, Einwegplastik zu vermeiden, indem Sie z.B. in Plastik verpackte Lebensmittel oder Plastikeinwegflaschen aus dem Angebot nehmen. Seit Juli 2021 sind viele<a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank"> Einwegplastikartikel</a> in der EU verboten und weitere Gesetze werden folgen. In Deutschland werden Gastronomiebetriebe ab dem 1.1.2023 verpflichtet, neben Einwegbehältern auch wiederverwendbare Behältnisse für Speisen und Getränke zum Mitnehmen anzubieten. Gastronomiebetreibende müssen <a href="https://www.mpulse.de/de/sortiment/wie-ver-packen-wir-das-nachhaltig" class="nodeco" target="_blank">Alternativen</a> verwenden, die wiederverwendbar, recyclebar und kompostierbar sind, z.B. Teller aus pflanzlichen Materialien wie Bagasse. Darüber hinaus können Sie auch fortgeschrittene Maßnahmen einführen:
 
                     </p>
                     <strong>
                         <ul>
                             <li>Binden Sie Ihre Mitarbeitenden und Gäste ein, um einen nachhaltigen Wandel in Ihrem Restaurant herbeizuführen
-</li>
+                            </li>
                             <li>Kommunizieren Sie, weshalb es wichtig ist, möglichst wenig Plastik zu verwenden und machen Sie Ihre Maßnahmen bekannt</li>
                         </ul>
                     </strong>
@@ -459,7 +459,7 @@
                 <h3>METRO ANGEBOTE</h3>
                 <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:
 
- </p>
+                </p>
             </div>
             <div class="bottom-content5">
                 <ul>

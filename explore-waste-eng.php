@@ -22,6 +22,10 @@
   <link rel="stylesheet" href="pageslider.css">
   <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    section.good_to_know.no-print.mtcsutom.energy_page.waste_l4-page .good_to_know_box.p-4.safe_foodBox_l4 {
+      min-height: 260px;
+    }
+
     .advance_way h3 {
       font-size: 50px;
     }
@@ -126,7 +130,7 @@
   <header class="no-print">
     <div class="container">
       <div class="logo">
-        <a href="">
+        <a href="index.php">
           <img src="images/metro-logo.svg" />
         </a>
       </div>
@@ -552,7 +556,7 @@
         <div class="container">
           <div class="row">
             <h3>How to maximise sorting waste</h3>
-            <p>When waste is sorted, it is easier to identify and you can start to address where it can be
+            <p>When waste is sorted, it is easier to identify and you can start to address where processes can be
 
               made more efficient. <br>Here are some tips to maximise the process:</p>
           </div>

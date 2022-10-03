@@ -25,7 +25,7 @@
   <header class="no-print page1-header">
     <div class="container">
       <div class="logo">
-        <a href="">
+        <a href="home.php">
           <img src="images/metro-logo.svg" />
         </a>
       </div>

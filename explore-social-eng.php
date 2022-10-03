@@ -23,6 +23,14 @@
   <link rel="stylesheet" href="pageslider.css">
   <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    .swiper.pageSwiper2>.swiper-wrapper>.swiper-slide.pageSlider-slide>div.row>div.col-md-12>.pageSlider-slide-text>p {
+      font-family: gotham-light;
+    }
+
+    section.good_to_know.no-print.social_box h3 {
+      margin-top: 7.5rem;
+    }
+
     .tabc-image1 {
       height: 22rem;
     }
@@ -93,12 +101,12 @@
     }
 
     .sldImg01>img {
-      width: 10rem;
+      width: 9rem;
       transition: .5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-      width: 19rem;
+      width: 17rem;
       transition: .5s;
     }
 
@@ -108,17 +116,17 @@
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-      width: 23rem;
+      width: 21rem;
       transition: .5s;
     }
 
     .sldImg03>img {
-      width: 17rem;
+      width: 16rem;
       transition: .5s;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-      width: 31rem;
+      width: 29rem;
       transition: .5s;
     }
 
@@ -305,7 +313,7 @@
   <header class="no-print">
     <div class="container">
       <div class="logo">
-        <a href="">
+        <a href="index.php">
           <img src="images/metro-logo.svg" />
         </a>
       </div>
