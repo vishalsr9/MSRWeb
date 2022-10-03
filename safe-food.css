@@ -116,12 +116,12 @@ sw-btn-prev-container {
   height: 2rem;
   position: absolute;
 }
-.three-step_food_safety button.read-more-btn {
+/*.three-step_food_safety button.read-more-btn {
   position: absolute;
   left: 50%;
   bottom: 30px;
   transform: translate(-50%, -10px);
-}
+}*/
 .swx
   > .swiper-wrapper
   > .swiper-slide-active

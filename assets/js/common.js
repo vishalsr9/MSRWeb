@@ -15,3 +15,20 @@ function closeNav() {
 }
 
 
+
+
+//New menu Js start*/
+
+   $('.burger, .overlay').click(function(){
+  $('.burger').toggleClass('clicked');
+  $('.overlay').toggleClass('show');
+  $('nav').toggleClass('show');
+  $('body').toggleClass('overflow');
+});
+
+    $(document).ready(function(){
+    $('#nav-icon4').click(function(){
+        $(this).toggleClass('open');
+    });
+});
+

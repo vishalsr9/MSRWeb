@@ -14,14 +14,67 @@
   <link rel="stylesheet" href="required1/normalize.min.css" />
   <link rel="stylesheet" href="required1/swiper-bundle.min.css" />
   <script src="required1/bootstrap.bundle.min.js"></script>
-  <script src="required1/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="required1/modernizr.min.js"></script>
   <script src="required1/swiper-bundle.min.js"></script>
   <!------EXPLORE SAFE FOOD L4 PAGE----------->
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
   <link rel="stylesheet" href="pageslider.css">
+  <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    .tabc-image1 {
+      height: 22rem;
+    }
+
+    .tab-text-holder1 {
+      height: 22rem;
+    }
+
+
+    .img-holder2 {
+      height: 36rem;
+      width: 100%;
+      text-align: center;
+    }
+
+
+    .tntImg {
+      height: 35rem;
+      width: auto;
+    }
+
+    .tab-text-holder1-inner {
+      margin-top: 5rem;
+      margin-left: 6rem;
+    }
+
+    .pad9 {
+      padding: 12px 28px !important;
+    }
+
+    section.good_to_know.no-print.social_box .good_to_know_box.p-4 {
+      height: 20rem;
+    }
+
+    .swiper.pageSwiper4>.swiper-wrapper>.swiper-slide {
+      background-color: white;
+    }
+
+
+    .pageSlider-slide-text>p {
+      text-transform: none;
+    }
+
+    .pageSlider-slide-text>span {
+      text-transform: none;
+    }
+
+    .bg_yellow img {
+      margin-top: -5rem;
+      height: 28rem;
+    }
+
     @media print {
       body * {
         visibility: hidden;
@@ -38,55 +91,338 @@
         top: 0;
       }
     }
+
+    .sldImg01>img {
+      width: 10rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+      width: 19rem;
+      transition: .5s;
+    }
+
+    .sldImg02>img {
+      width: 12rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+      width: 23rem;
+      transition: .5s;
+    }
+
+    .sldImg03>img {
+      width: 17rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+      width: 31rem;
+      transition: .5s;
+    }
+
+    .sldImg21>img {
+      width: 11rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg21>img {
+      width: 19rem;
+      transition: .5s;
+    }
+
+    .sldImg22>img {
+      width: 22rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg22>img {
+      width: 38rem;
+      transition: .5s;
+    }
+
+    .sldImg23>img {
+      width: 15rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg23>img {
+      width: 27rem;
+      transition: .5s;
+    }
+
+    .sldImg24>img {
+      width: 24rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg24>img {
+      width: 36rem;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      transition: .5s;
+    }
+
+    .sldImg31>img {
+      width: 15rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg31>img {
+      width: 29rem;
+      transition: .5s;
+    }
+
+    .sldImg32>img {
+      width: 19rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg32>img {
+      width: 36rem;
+      transition: .5s;
+    }
+
+    .sldImg33>img {
+      width: 7rem;
+      transition: .5s;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg33>img {
+      width: 13rem;
+      transition: .5s;
+    }
+
+    span.slimg-holder.socils_one {
+      padding: 12px 24px;
+    }
+
+    .pageSlider-slide-text>p.sl1 {
+      font-size: 14px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text {
+      margin-top: 2rem;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl1 {
+      font-size: 21px;
+      margin-top: 3rem;
+    }
+
+    .pageSlider-slide-text>p.sl2 {
+      font-size: 10px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl2 {
+      font-size: 21px;
+      margin-top: 1rem;
+    }
+
+    .pageSlider-slide-text>p.sl3 {
+      font-size: 12px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl3 {
+      font-size: 21px;
+      margin-top: 2rem;
+    }
+
+    .pageSlider-slide-text>p.sl4 {
+      font-size: 10px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl4 {
+      font-size: 21px;
+      margin-top: 1rem;
+    }
+
+    .pageSlider-slide-text>p.sl5 {
+      font-size: 14px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl5 {
+      font-size: 21px;
+      margin-top: 4rem;
+    }
+
+    .pageSlider-slide-text>p.sl6 {
+      font-size: 18px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl6 {
+      font-size: 21px;
+      margin-top: 5rem;
+    }
+
+    .pageSlider-slide-text>p.sl7 {
+      font-size: 16px;
+      font-weight: normal;
+      color: black;
+      margin-top: .5rem;
+      font-family: gothambook;
+    }
+
+    .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>p.sl7 {
+      font-size: 21px;
+      margin-top: 4rem;
+    }
+
+    .bg-d {
+      background-color: #003b7e !important;
+    }
   </style>
 </head>
 
 <body class="page4-page">
-  <header>
-    <div class="container no-print">
+  <header class="no-print">
+    <div class="container">
       <div class="logo">
-        <a href="/">
+        <a href="">
           <img src="images/metro-logo.svg" />
         </a>
       </div>
-      <div class="header-menu">
-        <div class="menu-ham">
-          <ul class="no-margin-bottom">
-            <li class="menu-click" onclick="openNav()">
-              <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
-                <title>New Project</title>
-                <style>
-                  .s0 {
-                    fill: #ffe500
-                  }
-                </style>
-                <g id="&lt;Group&gt;">
-                  <g id="&lt;Group&gt;">
-                    <path id="&lt;Path&gt;" class="s0" d="m0 0.6h36v5.3h-36z" />
-                    <path id="&lt;Path&gt;" class="s0" d="m0 10.4h36v5.2h-36z" />
-                    <path id="&lt;Path&gt;" class="s0" d="m0 20.1h36v5.3h-36z" />
-                  </g>
-                </g>
-              </svg>
-              <div id="myNav" class="overlay-menu">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                  <a href="/">Home</a>
-                  <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                  <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
-                  <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
-                  <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
-                </div>
-              </div>
-            </li>
-          </ul>
+
+      <div class="new_header header-menu">
+        <div id="nav-icon4" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="custom__select">
+        <div class="custom__select top-mar-less">
           <select>
-            <option value="#">DEU</option>
+            <option value="explore-social-deu.php">DEU</option>
             <option value="explore-social-eng.php" selected>ENG</option>
           </select>
         </div>
+        <nav>
+          <ul class="main">
+            <li>
+              <a href="http://msr.bdevtestservers.com/">Home</a>
+            </li>
+            <li>
+              <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+            </li>
+            <li>
+              <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
+            </li>
+            <div class="sub_menuUi">
+              <li>
+                <a href="introduction-to-sustainable-menu-eng.php">Sustainable Menu</a>
+              </li>
+              <li>
+                <a href="introduction-to-responsible-sourcing-eng.php">Responsible Sourcing</a>
+              </li>
+              <li>
+                <a href="introduction-to-food-waste-eng.php">Food Waste</a>
+              </li>
+              <li>
+                <a href="introduction-to-plastic-waste-eng.php">Plastic Waste</a>
+              </li>
+              <li>
+                <a href="introduction-to-safe-food-eng.php">Safe Food</a>
+              </li>
+              <li>
+                <a href="introduction-to-energy-eng.php">Energy</a>
+              </li>
+              <li>
+                <a href="introduction-to-water-eng.php">Water</a>
+              </li>
+              <li>
+                <a href="introduction-to-waste-eng.php">Waste</a>
+              </li>
+              <li>
+                <a href="introduction-to-social-eng.php">Social</a>
+              </li>
+            </div>
+            <li>
+              <a href="https://www.metroag.de/en/contact">Contact</a>
+            </li>
+          </ul>
+          <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+          <div class="social">
+            <p>Useful Links</p>
+            <a href="https://www.menukithd.com/" target="_blank">
+              <img src="images/logo-dish.png" style="width: 5rem;">
+            </a>
+            <a href="https://www.dish.co/XX/en/" target="_blank">
+              <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+            </a>
+            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+              <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+            </a>
+            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+              <img src="images/Eitiketten.png">
+            </a>
+          </div>
+          <div class="social">
+            <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+              <img src="images/Logo_METRO-Regio_weiss.png">
+            </a>
+            <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+              <img src="./images/safe_food/foot_nav2.PNG">
+            </a>
+            <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+          </div>
+          <div class="footer-socials side_nav">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.metroag.de/youtube" target="_blank">
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/@METRO_News" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+        </nav>
+        <div class="overlay"></div>
       </div>
     </div>
   </header>
@@ -124,7 +460,7 @@
             <h4 style="padding-left: 10rem;">What it means to be a socially engaged restaurant owner</h4>
             <div class="col-md-4 px-4">
               <div class="import_box mt-5">
-                <img src="./images/safe_food/s-2.svg" class="img-fluid" style="margin-top: 0;">
+                <img src="./images/safe_food/s-2.svg" class="safe-food-s2x">
 
               </div>
             </div>
@@ -149,13 +485,13 @@
                   underpaid and abused workers are still commonplace
                   whether in their physical working conditions, the working
                   hours, safety or contractual matters like working on a
-                  temporary or seasonal basis. Extreme challenges also exist</p>
+                  temporary or seasonal basis.</p>
               </div>
             </div>
             <div class="col-md-4 px-4">
               <div class="import_box">
 
-                <p>such as forced labour, discrimination or other unethical
+                <p>Extreme challenges also exist such as forced labour, discrimination or other unethical
                   business behaviour. When the basic rights are not
                   respected, the ‘on top’ aspects which are crucial for a
                   person’s self-fulfilment are most certainly not considered.
@@ -179,14 +515,14 @@
         </div>
       </section>
       <section class="good_to_know no-print social_box" style="padding-bottom: 12rem;">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row mb-5">
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4">
                 <img src="./images/safe_food/s-3.svg" class="img-fluid">
                 <p>Human Rights are crucial for a person’s self-fulfilment
                   and the 1948 United Nations Universal Declaration of
-                  Human Rights lay the foundation for basic human
+                  Human Rights Lays the foundation for basic human
 
                   rights requirements for all businesses. </p>
               </div>
@@ -212,7 +548,7 @@
                 <img src="./images/safe_food/s-20.svg" class="img-fluid">
                 <p>Labour legislations exist which must be complied with
                   irrespective of your employees’ contracts, be it
-                  permanent or temporary and full time and part-time.</p>
+                  permanent or temporary, full time or part-time.</p>
               </div>
             </div>
             <div class="col-md-4 px-4">
@@ -239,180 +575,246 @@
       <section class="simple_wayTo_preventing no-print social_l4_yellow_slider pt-5" style="padding-bottom: 10rem;background: #ffe500;margin-top: 0;">
         <div class="section-div">
           <div class="container-fluid">
-            <p class="text-center"><img src="./images/safe_food/s-new.svg" style="width: 30rem;
-    margin-top: -15rem;"></p>
+            <p class="text-center"><img src="./images/safe_food/s-new.svg" style="width: 30rem;margin-top: -15rem;"></p>
             <h3 class="wayT0Title" style="color:#000;margin-top: 0;">The 7 Basic Human Rights</h3>
 
-            <div class="sw-holder">
-              <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-              <div class="swholder1">
-                <div class="swholder-sw food_wasteSlide">
-                  <div class="swiper swx swiper-initialized swiper-horizontal swiper-pointer-events">
-                    <div class="swiper-wrapper swx-wrapper" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-42.5px, 0px, 0px);" id="swiper-wrapper-9329353e60f736c3" aria-live="polite">
-                      <div class="swiper-slide sl-box swiper-slide-prev" role="group" aria-label="1 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder socils_one">
-                              1
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> Freedom of association
-                              and effective recognition of
-                              the right to collective bargaining </span>
-                            <p>For example, employees who have decided to join a union will not
-                              be subject to any sort of discrimination or dismissal as a result of
 
-                              their union membership.</p>
-                          </div>
 
-                        </div>
+            <div class="row">
+              <div class="col-md-12 mb-5">
+                <div class="pageSlider-container">
+                  <div class="pageSlider-container-inner">
+                    <div class="pageSlider-prev">
+                      <div class="pageSlider-prev-inner">
+                        <div class="swiper-button-prev pageSwiper4PrevBtn bg-d"></div>
                       </div>
-                      <div class="swiper-slide sl-box swiper-slide-active" role="group" aria-label="2 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              2
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> Elimination of all forms of forced
-                              or compulsory labour including
-
-                              disciplinary measures</span>
-                            <p>For example, employees can leave when they want to. You cannot
-                              withhold any part of an employee’s salary, benefits, property, or
-                              documents in order to force them to continue working. Thus, you
-                              cannot force extra hours to compensate for accommodation you
-
-                              might provide.</p>
-                          </div>
-
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box social_slde swiper-slide-next" role="group" aria-label="3 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              3
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder">No child labour
-
-                              (and respect the needs of
-                              young employees) </span>
-                            <p>The international Labour Organisation (ILO) defines the general
-                              minimum age for admission to employment or work as 15 years
-                              (or 13 for light work). You must ask the age of an applicant prior to
-                              employment and a copy of the passport or ID document must be
-
-                              kept in the personnel file.</p>
-                          </div>
-
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="4 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              4
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> No discrimination in employment
-
-                              and occupation</span>
-                            <p>Decisions on hiring, wages, promotion, training, discipline,
-                              retirement and termination are always based on unbiased criteria
-                              and are not linked to any direct or indirect discriminatory
-                              characteristics. Also, offer equal pay for equal work performed at
-                              equal levels at similar locations. This means that employees must
-                              be treated equally and judged by their skills, not their gender, age,
-
-                              ethnicity, sexual orientation or physical ability.</p>
-                          </div>
-
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="5 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              5
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder">
-                              Fair renumeration</span>
-                            <p>Your staff must have formal contracts, receive pay slips and
-                              payment on a regular basis, and be paid at least the (legal)
-                              minimum wage. To be sustainable, that remuneration would mean
-                              a living wage or income that ensures a decent life. Overtime must
-
-                              be paid.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-                      <div class="swiper-slide sl-box" role="group" aria-label="6 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              6
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> Fair working hours </span>
-                            <p>Your staff can work full-time for a maximum of 48 hours/week and
-                              as an exemption maximum 12 hours/week overtime and has
-
-                              enough spare time in between.</p>
-                          </div>
-
-                        </div>
-                      </div>
-                      <div class="swiper-slide sl-box" role="group" aria-label="7 / 11">
-                        <div class="slide-inner">
-                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
-                            <span class="slimg-holder">
-                              7
-                            </span>
-                          </div>
-                          <div class="sl-text sl-text-1 text-center">
-                            <span class="sltext-holder"> Health and safety </span>
-                            <p>Ensure that your staff is provided with effective personal
-                              protective equipment (PPE) and training to safely perform their
-                              job. This may be, for example, the proper equipment to protect
-
-                              employees from pollution.</p>
-                          </div>
-
-                        </div>
-                      </div>
-
-
                     </div>
-                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    <div class="pageSlider">
+                      <div class="pageSlider-inner">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="pageSlider-holder">
+                              <div class="swiper pageSwiper4">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one pad9">
+                                              1
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText41">
+                                            Freedom of association
+                                            and effective recognition of
+                                            the right to collective bargaining
+                                          </span>
+                                          <p class="sl1">
+                                            For example, employees who have decided to join a union will not
+                                            be subject to any sort of discrimination or dismissal as a result of
+                                            their union membership.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              2
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText42">
+                                            Elimination of all forms of forced or compulsory labour including disciplinary measures
+                                          </span>
+                                          <p class="sl2">For example, employees can leave when they want to. You cannot
+                                            withhold any part of an employee’s salary, benefits, property, or
+                                            documents in order to force them to continue working. Thus, you
+                                            cannot force extra hours to compensate for accommodation you might provide.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              3
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText43">
+                                            No child labour
+                                            (and respect the needs of
+                                            young employees)
+                                          </span>
+                                          <p class="sl3">The International Labour Organisation (ILO) defines the general
+                                            minimum age for admission to employment or work as 15 years
+                                            (or 13 for light work). You must ask the age of an applicant prior to
+                                            employment and a copy of the passport or ID document must be
+                                            kept in the personnel file.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              4
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText44">
+                                            No discrimination in employment
+                                            and occupation
+                                          </span>
+                                          <p class="sl4">
+                                            Decisions on hiring, wages, promotion, training, discipline,
+                                            retirement and termination are always based on unbiased criteria
+                                            and are not linked to any direct or indirect discriminatory
+                                            characteristics. Also, offer equal pay for equal work performed at
+                                            equal levels at similar locations. This means that employees must
+                                            be treated equally and judged by their skills, not their gender, age,
+                                            ethnicity, sexual orientation or physical ability.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              5
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText45">
+                                            Fair renumeration
+                                          </span>
+                                          <p class="sl5">
+                                            Your staff must have formal contracts, receive pay slips and
+                                            payment on a regular basis, and be paid at least the (legal)
+                                            minimum wage. To be sustainable, that remuneration would mean
+                                            a living wage or income that ensures a decent life. Overtime must
+                                            be paid.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              6
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText46">
+                                            Fair working hours
+                                          </span>
+                                          <p class="sl6">
+                                            Your staff can work full-time for a maximum of 48 hours/week and
+                                            as an exemption maximum 12 hours/week overtime and has
+                                            enough spare time in between.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide pageSlider-slide text-center">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-image mb-5">
+                                          <div class="sl-image sl-image-1 plastic_waste_slider1 social_slde text-center">
+                                            <span class="slimg-holder socils_one">
+                                              7
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="pageSlider-slide-text">
+                                          <span class="sldText47">
+                                            Health and safety
+                                          </span>
+                                          <p class="sl7">
+                                            Ensure that your staff is provided with effective personal
+                                            protective equipment (PPE) and training to safely perform their
+                                            job. This may be, for example, the proper equipment to protect
+                                            employees from pollution.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
 
 
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="pageSlider-pagination">
+                              <div class="pageSlider-pagination-inner">
+                                <div class="swiper-pagination pageSwiper4Pagination"></div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pageSlider-next">
+                      <div class="pageSlider-next-inner">
+                        <div class="swiper-button-next pageSwiper4NextBtn bg-d"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
               </div>
-              <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
+
             </div>
+
+
+
           </div>
         </div>
       </section>
-
-
-
-
-
 
 
       <section class="three-step_food_safety no-print">
@@ -439,28 +841,37 @@
                 <div class="tab-content">
                   <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="row">
-                      <div class="col-md-3 offset-md-1">
-                        <div class="three-step_img" style="margin-top:0;">
-                          <img src="./images/safe_food/s-7.svg" class="img-fluid">
-                        </div>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                        <div class="three-step_para">
-                          <p>As an employer you achieve having sustainable working conditions by: </p>
+                      <div class="col-md-12 mt-4 mb-4">
+                        <div class="tab-main-content">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="img-holder1">
+                                  <div class="img-holder1-inner">
+                                    <img src="./images/safe_food/s-7.svg" class="tabc-image1">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="tab-text-holder1">
+                                  <div class="tab-text-holder1-inner">
+                                    <p>As an employer you achieve having sustainable working conditions by: </p>
 
-                          <ol>
-                            <li>Complying with your national employment legislation.</li>
-                            <li> Fulfilling the basic human rights of your employees. </li>
-                          </ol>
-                          <p class="mt-0">
-                            <strong>The 7 main principles of human rights defined by the UN can serve as your guidance.</strong>
-                          </p>
+                                    <ol>
+                                      <li>Complying with your national employment legislation.</li>
+                                      <li> Fulfilling the basic human rights of your employees. </li>
+                                    </ol>
+                                    <p class="mt-0">
+                                      <strong>The 7 main principles of human rights defined by the UN can serve as your guidance.</strong>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-
-
-
 
 
                     <div class="row">
@@ -589,112 +1000,163 @@
                     </p>
                   </div>
                   <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
                     <div class="row">
-                      <div class="col-md-3 offset-md-1">
-                        <div class="three-step_img" style="margin-top: 0;">
-                          <img src="./images/safe_food/s-11.svg" class="img-fluid" style="width: 20rem;">
-                        </div>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                        <div class="three-step_para">
-                          <p>
-                            Workers’ rights in the supply chain are an issue in almost all countries. You can make a
-                            difference by asking your suppliers to ensure fair working conditions. By recognising this and
-                            asking your suppliers how they guarantee workers’ rights is an aspect of responsible sourcing
-                            through which you can make an impact on another level of the food system.
-                          </p>
-                          <p class="mt-0"><strong>Here are some simple steps to engage with your suppliers:</strong></p>
-
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-2 mb-5">
-                      <div class="section-div">
-                        <div class="container-fluid">
-                          <div class="sw-holder">
-                            <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-                            <div class="swholder1 slider_2">
-                              <div class="swholder-sw">
-                                <div class="swiper swx">
-                                  <div class="swiper-wrapper swx-wrapper">
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-1 text-center socialSlide2-1">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-12.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-1 text-center">
-                                          <span class="sltext-holder"> KEEP IN TOUCH </span>
-                                          <p>Connect regularly with your suppliers</p>
-                                        </div>
-
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-2 socialSlide2-2 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-13.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-2 text-center">
-                                          <span class="sltext-holder"> BUY LOCALLY</span>
-                                          <p>Connect regularly with your suppliers</p>
-                                        </div>
-                                        <!-- <div class="sl-button sl-button-2 text-center">
-                                            <button class="read-more-btn safe_food_btn2-2" id="sl-button sl-button-2">Read more</button>
-                                          </div> -->
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-3 text-center socialSlide2-3">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-14.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-3 text-center">
-                                          <span class="sltext-holder"> TALK TO YOUR SUPPLIER </span>
-                                          <p>Engage with your suppliers to know more about the
-                                            measures they take to ensure fair working conditions</p>
-                                        </div>
-                                        <!--  <div class="sl-button sl-button-3 text-center">
-                                            <button class="read-more-btn safe_food_btn2-3" id="sl-button sl-button-3">Read more</button>
-                                          </div> -->
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-4 text-center sl-img-4 socialSlide2-4">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-15.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-4 text-center">
-                                          <span class="sltext-holder"> SHARE WHAT YOU KNOW </span>
-                                          <p>Share what you have learned with your supplier</p>
-                                        </div>
-                                        <!-- <div class="sl-button sl-button-4 text-center">
-                                            <button class="read-more-btn safe_food_btn2-4" id="sl-button sl-button-4">Read more</button>
-                                          </div> -->
-                                      </div>
-                                    </div>
-
-
-
+                      <div class="col-md-12 mt-4 mb-4">
+                        <div class="tab-main-content">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="img-holder1">
+                                  <div class="img-holder1-inner">
+                                    <img src="./images/safe_food/s-11.svg" class="tabc-image1">
                                   </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
-                              <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+                              <div class="col-md-6">
+                                <div class="tab-text-holder1">
+                                  <div class="tab-text-holder1-inner">
+                                    <p>
+                                      Workers’ rights in the supply chain are an issue in almost all countries. You can make a
+                                      difference by asking your suppliers to ensure fair working conditions. By recognising this and
+                                      asking your suppliers how they guarantee workers’ rights is an aspect of responsible sourcing
+                                      through which you can make an impact on another level of the food system.
+                                    </p>
+                                    <p class="mt-0"><strong>Here are some simple steps to engage with your suppliers:</strong></p>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
                           </div>
                         </div>
                       </div>
                     </div>
+
+
+
+
+
+
+                    <div class="row">
+                      <div class="col-md-12 mb-5">
+                        <div class="pageSlider-container">
+                          <div class="pageSlider-container-inner">
+                            <div class="pageSlider-prev">
+                              <div class="pageSlider-prev-inner">
+                                <div class="swiper-button-prev pageSwiper2PrevBtn"></div>
+                              </div>
+                            </div>
+                            <div class="pageSlider">
+                              <div class="pageSlider-inner">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-holder">
+                                      <div class="swiper pageSwiper2">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg21">
+                                                    <img src="images/safe_food/s-12.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText21">
+                                                    KEEP IN TOUCH
+                                                  </span>
+                                                  <p>Connect regularly with your suppliers</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg22">
+                                                    <img src="images/safe_food/s-13.svg" class="img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText22">
+                                                    BUY LOCALLY
+                                                  </span>
+                                                  <p>Connect regularly with your suppliers</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg23">
+                                                    <img src="images/safe_food/s-14.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText23">
+                                                    TALK TO YOUR SUPPLIER
+                                                  </span>
+                                                  <p>Engage with your suppliers to know more about the
+                                                    measures they take to ensure fair working conditions</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg24">
+                                                    <img src="images/safe_food/s-15.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText24">
+                                                    SHARE WHAT YOU KNOW
+                                                  </span>
+                                                  <p>Share what you have learned with your supplier</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-pagination">
+                                      <div class="pageSlider-pagination-inner">
+                                        <div class="swiper-pagination pageSwiper2Pagination"></div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="pageSlider-next">
+                              <div class="pageSlider-next-inner">
+                                <div class="swiper-button-next pageSwiper2NextBtn"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+
                     <div class="row">
                       <p class="text-center nextStepCta mt-4">
                         <a id="nextBtn2" href="#tabLi3">Next Step <i class="fa fa-long-arrow-right"></i>
@@ -703,93 +1165,158 @@
                     </div>
                   </div>
                   <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+
                     <div class="row">
-                      <div class="col-md-3 offset-md-1">
-                        <div class="three-step_img" style="margin-top:0">
-                          <img src="./images/safe_food/s-16.svg" class="img-fluid">
-                        </div>
-                      </div>
-                      <div class="col-md-6 offset-md-1">
-                        <div class="three-step_para">
-                          <p>Connecting with the local community is crucial and can help you to become resilient to difficult
-                            times. People who are engaged in your business will be more likely to support it, especially
-                            when your restaurant is a regular part of their lives. </p>
-                          <p class="mt-4">
-                            <strong>When you want to be fully integrated and wish to actively contribute to your community,
-                              here are some steps you can take:</strong>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-2 mb-5">
-                      <div class="section-div">
-                        <div class="container-fluid">
-                          <div class="sw-holder">
-                            <!--<div class="sw-btn-prev-container"><div class="swiper-button-prev btn-y pbtn"></div></div>-->
-                            <div class="swholder1 slider_3">
-                              <div class="swholder-sw">
-                                <div class="swiper swx">
-                                  <div class="swiper-wrapper swx-wrapper">
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-6 slider_3-1 social_slideL4-1 text-center">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-17.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-6 text-center">
-                                          <span class="sltext-holder"> CONTRIBUTE TO <br>THE LOCAL COMMUNITY </span>
-                                        </div>
-                                        <div class="sl-button sl-button-6 text-center">
-                                          <button class="read-more-btn socialL4_btn2-1" id="sl-button sl-button-6">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-6 text-center social_slideL4-2 slider_3-2">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-18.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-6 text-center">
-                                          <span class="sltext-holder"> HIRE LOCAL EMPLOYEES<br>AND BE INCLUSIVE </span>
-                                        </div>
-                                        <div class="sl-button sl-button-6 text-center">
-                                          <button class="read-more-btn socialL4_btn2-2" id="sl-button sl-button-6">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-slide sl-box">
-                                      <div class="slide-inner">
-                                        <div class="sl-image sl-image-6 text-center social_slideL4-3 slider_3-3">
-                                          <span class="slimg-holder">
-                                            <img src="./images/safe_food/s-19.svg" class="img-fluid mb-2 mt-2">
-                                          </span>
-                                        </div>
-                                        <div class="sl-text sl-text-6 text-center">
-                                          <span class="sltext-holder"> SOURCE SEASONAL<br>PRODUCTS LOCALLY </span>
-                                        </div>
-                                        <div class="sl-button sl-button-6 text-center">
-                                          <button class="read-more-btn socialL4_btn2-3" id="sl-button sl-button-6">Read more</button>
-                                        </div>
-                                      </div>
-                                    </div>
-
-
-
+                      <div class="col-md-12 mt-4 mb-4">
+                        <div class="tab-main-content">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <div class="img-holder1">
+                                  <div class="img-holder1-inner">
+                                    <img src="./images/safe_food/s-16.svg" class="tabc-image1">
                                   </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
                                 </div>
                               </div>
-                              <!--<div class="swholder-pg"><div class="swiper-pagination"></div></div>-->
+                              <div class="col-md-6">
+                                <div class="tab-text-holder1">
+                                  <div class="tab-text-holder1-inner">
+                                    <p>Connecting with the local community is crucial and can help you to become resilient to difficult
+                                      times. People who are engaged in your business will be more likely to support it, especially
+                                      when your restaurant is a regular part of their lives. </p>
+                                    <p class="mt-4">
+                                      <strong>When you want to be fully integrated and wish to actively contribute to your community,
+                                        here are some steps you can take:</strong>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <!--<div class="sw-btn-next-container"><div class="swiper-button-next nbtn btn-y"></div></div>-->
                           </div>
                         </div>
                       </div>
                     </div>
+
+
+
+                    <div class="row">
+                      <div class="col-md-12 mb-5">
+                        <div class="pageSlider-container">
+                          <div class="pageSlider-container-inner">
+                            <div class="pageSlider-prev">
+                              <div class="pageSlider-prev-inner">
+                                <div class="swiper-button-prev pageSwiper3PrevBtn"></div>
+                              </div>
+                            </div>
+                            <div class="pageSlider">
+                              <div class="pageSlider-inner">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-holder">
+                                      <div class="swiper pageSwiper3">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg31">
+                                                    <img src="images/safe_food/s-17.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText31">
+                                                    CONTRIBUTE TO <br>THE LOCAL COMMUNITY
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn31">
+                                                    <button class="read-more-btn" onclick="openPopUp(31);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg32">
+                                                    <img src="images/safe_food/s-18.svg" class="img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText32">
+                                                    HIRE LOCAL EMPLOYEES<br>AND BE INCLUSIVE
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn32">
+                                                    <button class="read-more-btn" onclick="openPopUp(32);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide pageSlider-slide text-center">
+                                            <div class="row">
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-image">
+                                                  <span class="sldImg33">
+                                                    <img src="images/safe_food/s-19.svg" class=" img-fluid">
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-text">
+                                                  <span class="sldText33">
+                                                    SOURCE SEASONAL<br>PRODUCTS LOCALLY
+                                                  </span>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-12">
+                                                <div class="pageSlider-slide-button">
+                                                  <span class="sldBtn33">
+                                                    <button class="read-more-btn" onclick="openPopUp(33);">Read more</button>
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <div class="pageSlider-pagination">
+                                      <div class="pageSlider-pagination-inner">
+                                        <div class="swiper-pagination pageSwiper3Pagination"></div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="pageSlider-next">
+                              <div class="pageSlider-next-inner">
+                                <div class="swiper-button-next pageSwiper3NextBtn"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -797,6 +1324,10 @@
           </div>
         </div>
       </section>
+
+
+
+
       <section class="track-and_talk no-print">
         <div class="container-fully">
           <div class="row">
@@ -813,9 +1344,12 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="track-and_talk_img">
-                <img src="./images/safe_food/Asset 30.png" class="img-fluid">
+              <div class="img-holder2">
+                <div class="img-holder2-inner">
+                  <img src="./images/safe_food/Asset 30.png" class="tntImg">
+                </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -1059,132 +1593,74 @@
 
 
 
-  <div id="socialL4_c1" class="modalx">
+  <div id="pop1" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
       <h4>Train and empower your staff</h4>
-      <p>Agree together how you will support staff who perform care work and who might need cover at the last moment for example those with sick or elderly relatives or parents with young children. Ensure that your shift plans accommodate older and less physically able members of staff. Promote from within your restaurant from within – train and empower your staff through training and promotion.</p>
-      <a class="read-more-btn btn btn-sm socialL4_c1_close1">X</a>
-    </div>
-  </div>
-  <div id="socialL4_c2" class="modalx">
-    <div class="modalx-content">
-      <h4>Check what you need to do </h4>
-      <p>Identify your legal and human rights requirements, assess your status, make changes and monitor ongoing. Ensure Personal Protective Equipment (PPE) is provided for all staff as needed. Allow staff to take home surplus meals and establish one free meal during their shift.
+      <p>
+        Agree together how you will support staff who perform care work and who might need cover at the last moment for example those with sick or elderly relatives or parents with young children. Ensure that your shift plans accommodate older and less physically able members of staff. Promote from within your restaurant from within – train and empower your staff through training and promotion.
       </p>
-      <a class="read-more-btn btn btn-sm socialL4_c1_close2">X</a>
+
     </div>
   </div>
-  <div id="socialL4_c3" class="modalx">
+
+  <div id="pop2" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+      <h4>Check what you need to do</h4>
+      <p>
+        Identify your legal and human rights requirements, assess your status, make changes and monitor ongoing. Ensure Personal Protective Equipment (PPE) is provided for all staff as needed. Allow staff to take home surplus meals and establish one free meal during their shift.
+      </p>
+
+    </div>
+  </div>
+
+
+  <div id="pop3" class="modalx">
+    <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
       <h4>Communicate clearly</h4>
-      <p>State your commitment and expectations towards your staff explicitly. Be clear what your and their responsibilities are. Communicate often and involve your staff through education, training and socially interacting. Install a robust remediation and grievance procedure to deal with feedback and complaints. Agree at the same time with your staff how to distribute tips.
+      <p>
+        State your commitment and expectations towards your staff explicitly. Be clear what your and their responsibilities are. Communicate often and involve your staff through education, training and socially interacting. Install a robust remediation and grievance procedure to deal with feedback and complaints. Agree at the same time with your staff how to distribute tips.
       </p>
-      <a class="read-more-btn btn btn-sm socialL4_c1_close3">X</a>
+
     </div>
   </div>
 
 
-
-  <div id="socialL4-2_c1" class="modalx">
+  <div id="pop31" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
       <h4>Contribute to the local community</h4>
-      <p>Contribute to local activities and charitable projects such as street-festivals. Donate your surplus food. Collect money for charity or donate your employees` time to support local charities. Let your restaurant serve as a welcoming space outside busy hours, for those who need it such as local charities and organisations. Create a welcoming space for parents with children, especially during the day.
+      <p>
+        Contribute to local activities and charitable projects such as street-festivals. Donate your surplus food. Collect money for charity or donate your employees` time to support local charities. Let your restaurant serve as a welcoming space outside busy hours, for those who need it such as local charities and organisations. Create a welcoming space for parents with children, especially during the day.
       </p>
-      <a class="read-more-btn btn btn-sm socialL4-2_c1_close1">X</a>
+
     </div>
   </div>
-  <div id="socialL4-2_c2" class="modalx">
+
+  <div id="pop32" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(32);">X</a>
       <h4>Hire local employees and be inclusive</h4>
-      <p>Make it clear that you run an inclusive restaurant and that you do not tolerate discrimination whether it be employees or customers. When you are hiring, consider local employees, and people with different social backgrounds, cultures, and histories, including migrants.
-
+      <p>
+        Make it clear that you run an inclusive restaurant and that you do not tolerate discrimination whether it be employees or customers. When you are hiring, consider local employees, and people with different social backgrounds, cultures, and histories, including migrants.
       </p>
-      <a class="read-more-btn btn btn-sm socialL4-2_c1_close2">X</a>
+
     </div>
   </div>
-  <div id="socialL4-2_c3" class="modalx">
+
+  <div id="pop33" class="modalx">
     <div class="modalx-content">
+      <a class="btn-close-popup" onclick="closePopUp(33);">X</a>
       <h4>Source seasonal products locally</h4>
-      <p>Purchase your seasonal products locally and look for local specialties for your menu. Try to provide menu options that can accommodate different dietary preferences for your customers.
+      <p>
+        Purchase your seasonal products locally and look for local specialties for your menu. Try to provide menu options that can accommodate different dietary preferences for your customers.
       </p>
-      <a class="read-more-btn btn btn-sm socialL4-2_c1_close3">X</a>
+
     </div>
   </div>
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      //slide one
-      $(".socialL4_btn2-1").click(function() {
-        $("#socialL4-2_c1").css("display", "block");
-      });
-      $(".socialL4-2_c1_close1").click(function() {
-        //alert("Hi")
-        $("#socialL4-2_c1").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".socialL4_btn2-2").click(function() {
-        $("#socialL4-2_c2").css("display", "block");
-      });
-      $(".socialL4-2_c1_close2").click(function() {
-        //alert("Hi")
-        $("#socialL4-2_c2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".socialL4_btn2-3").click(function() {
-        $("#socialL4-2_c3").css("display", "block");
-      });
-      $(".socialL4-2_c1_close3").click(function() {
-        //alert("Hi")
-        $("#socialL4-2_c3").css("display", "none");
-      });
-    });
-
-
-    $(document).ready(function() {
-      //slide one
-      $(".socialL4_btn-1").click(function() {
-        $("#socialL4_c1").css("display", "block");
-      });
-      $(".socialL4_c1_close1").click(function() {
-        //alert("Hi")
-        $("#socialL4_c1").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".SocialL4_btn-2").click(function() {
-        $("#socialL4_c2").css("display", "block");
-      });
-      $(".socialL4_c1_close2").click(function() {
-        //alert("Hi")
-        $("#socialL4_c2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".socialL4_btn-3").click(function() {
-        $("#socialL4_c3").css("display", "block");
-      });
-      $(".socialL4_c1_close3").click(function() {
-        //alert("Hi")
-        $("#socialL4_c3").css("display", "none");
-      });
-    });
-  </script>
 
 
 
@@ -1246,6 +1722,69 @@
         el: ".swiper-pagination.pageSwiper1Pagination",
       },
     });
+
+    var swiper = new Swiper(".pageSwiper2", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper2NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper2PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper2Pagination",
+      },
+    });
+
+    var swiper = new Swiper(".pageSwiper3", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper3NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper3PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper3Pagination",
+      },
+    });
+
+    var swiper = new Swiper(".pageSwiper4", {
+      grabCursor: true,
+      centeredSlides: true,
+      initialSlide: 1,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 30,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next.pageSwiper4NextBtn",
+        prevEl: ".swiper-button-prev.pageSwiper4PrevBtn",
+      },
+      pagination: {
+        el: ".swiper-pagination.pageSwiper4Pagination",
+      },
+    });
   </script>
   <script>
     $(document).ready(function() {
@@ -1289,6 +1828,9 @@
       }
     };
   </script>
+
+  <script type="text/javascript" src="./assets/js/common.js"></script>
+
 </body>
 
 </html>

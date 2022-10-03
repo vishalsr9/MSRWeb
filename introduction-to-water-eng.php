@@ -9,6 +9,8 @@
     <script src="jquery/custom.js"></script>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="water.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+
     <!--required---->
     <link rel="stylesheet" href="required1/bootstrap.min.css" />
     <link rel="stylesheet" href="required1/font-awesome.min.css" />
@@ -18,6 +20,7 @@
     <script src="required1/jquery-3.6.0.min.js"></script>
     <script src="required1/modernizr.min.js"></script>
     <script src="required1/swiper-bundle.min.js"></script>
+     
     <!------EXPLORE SAFE FOOD L3 PAGE----------->
 
     <script src=safe-food.js></script>
@@ -34,54 +37,131 @@
 </head>
 
 <body class="page3-page">
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="">
-                    <img src="images/metro-logo.svg" />
-                </a>
-            </div>
-            <div class="header-menu">
-                <div class="menu-ham">
-                    <ul class="top-nomarg">
-                        <li class="menu-click" onclick="openNav()">
-                            <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
-                                <title>New Project</title>
-                                <style>
-                                    .s0 {
-                                        fill: #ffe500
-                                    }
-                                </style>
-                                <g id="&lt;Group&gt;">
-                                    <g id="&lt;Group&gt;">
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 0.6h36v5.3h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 10.4h36v5.2h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 20.1h36v5.3h-36z" />
-                                    </g>
-                                </g>
-                            </svg>
-                            <div id="myNav" class="overlay-menu">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <div class="overlay-content">
-                                    <a href="home.php">Home</a>
-                                    <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
-                                    <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
-                                    <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="custom__select top-mar-less">
-                    <select>
-                        <option value="introduction-to-water-deu.php">DEU</option>
-                        <option value="introduction-to-water-eng.php" selected>ENG</option>
-                    </select>
-                </div>
-            </div>
+     
+    <header class="no-print">
+  <div class="container">
+    <div class="logo">
+      <a href="">
+        <img src="images/metro-logo.svg" />
+      </a>
+    </div>
+    
+    <div class="new_header header-menu">
+      <div id="nav-icon4" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="custom__select top-mar-less">
+        <select>
+          <option value="introduction-to-water-deu.php">DEU</option>
+          <option value="introduction-to-water-eng.php" selected>ENG</option>
+        </select>
+      </div>
+      <nav>
+      <ul class="main">
+          <li>
+            <a href="http://msr.bdevtestservers.com/">Home</a>
+          </li>
+          <li>
+            <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+          </li>
+          <li>
+            <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
+          </li>
+          <div class="sub_menuUi">
+                  <li>
+                    <a href="introduction-to-sustainable-menu-eng.php">Sustainable Menu</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-responsible-sourcing-eng.php">Responsible Sourcing</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-food-waste-eng.php">Food Waste</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-plastic-waste-eng.php">Plastic Waste</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-safe-food-eng.php">Safe Food</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-energy-eng.php">Energy</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-water-eng.php">Water</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-waste-eng.php">Waste</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-social-eng.php">Social</a>
+                  </li>
+                  </div>
+          <li>
+            <a href="https://www.metroag.de/en/contact">Contact</a>
+          </li>
+        </ul>
+        <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+        <div class="social">
+          <p>Useful Links</p>
+          <a href="https://www.menukithd.com/" target="_blank">
+            <img src="images/logo-dish.png" style="width: 5rem;">
+          </a>
+          <a href="https://www.dish.co/XX/en/" target="_blank">
+            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+          </a>
+          <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+          </a>
+          <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+            <img src="images/Eitiketten.png">
+          </a>
         </div>
-    </header>
+        <div class="social">
+          <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+            <img src="images/Logo_METRO-Regio_weiss.png">
+          </a>
+          <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+            <img src="./images/safe_food/foot_nav2.png">
+          </a>
+          <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.png"></a>
+        </div>
+        <div class="footer-socials side_nav">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metroag.de/youtube" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/@METRO_News" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+      </nav>
+      <div class="overlay"></div>
+    </div>
+  </div>
+</header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
             <img src="images/yellow_pan.gif" class="loader9" />
@@ -95,7 +175,7 @@
             <!-- BANNER -->
             <section class="section1 mt-4">
                 <div class="left-content col-md-6">
-                    <h3>HOW TO SAVE<br>WATER IN YOUR <br>RESTAURANT </h3>
+                    <h3>HOW TO SAVE WATER <br>IN YOUR  RESTAURANT </h3>
                 </div>
                 <div class="col-md-6">
                     <img src="images/water/banner_img.svg" class="px-4">
@@ -103,7 +183,7 @@
             </section>
             <!-- DID U KNOW -->
             <section class="didyouknow">
-                <h3 class="text-center">Did you know that...</h3>
+                <h3 class="text-center" style="text-transform: inherit;">Did you know that...</h3>
 
                 <div class="didyouknow_contents">
                     <div class="col-md-10 offset-md-1">
@@ -114,7 +194,7 @@
                                         <img src="images/water/earth-water.svg" class="img-fluid">
                                     </span>
                                     <div class="duktext-inner duktext-1">
-                                        <p class="text-center">just <span class="highlight2">2.5%</span> of the world’s water is fresh water<br>
+                                        <p class="text-center">just <span class="highlight2">2.5%</span> of the world’s water is fresh water
                                             and we can only use <span class="highlight2">0.3%</span> of it</p>
                                     </div>
 
@@ -126,7 +206,7 @@
                                         <img src="images/water/drought.svg" class="img-fluid">
                                     </span>
                                     <div class="duktext-inner duktext-2">
-                                        <p><span class="highlight2">1.2</span> billion humans lack access to enough<br>
+                                        <p><span class="highlight2">1.2</span> billion humans lack access to enough
                                             water due to drought and actual scarcity</p>
                                     </div>
 
@@ -143,7 +223,7 @@
                                     </span>
                                     <div class="duktext-inner duktext-3">
                                         <p><span class="highlight2">1.6</span> billion humans lack adequate access to
-                                            <br>water because of infrastructure problems
+                                            water because of infrastructure problems
                                     </div>
 
                                 </div>
@@ -154,8 +234,8 @@
                                         <img src="images/water/water-in-hand.svg" class="img-fluid">
                                     </span>
                                     <div class="duktext-inner duktext-4">
-                                        <p>global water demand is projected<br>
-                                            to increase by <span class="highlight2">55%</span> by 2050</p>
+                                        <p>global water demand is projected
+                                            to increase by <span class="highlight2">55%</span> by <span class="highlight2">2050</span></p>
                                     </div>
 
                                 </div>
@@ -170,8 +250,8 @@
                                         <img src="images/water/water-scarcity.svg" class="img-fluid">
                                     </span>
                                     <div class="duktext-inner duktext-5">
-                                        <p>By 2030, water scarcity as a result of climate change<br>
-                                            will displace betweeen 24 and <span class="highlight2">700 million</span> people</p>
+                                        <p>By 2030, water scarcity as a result of climate change
+                                            will displace betweeen <span class="highlight2">24</span> and <span class="highlight2">700 million</span> people</p>
                                     </div>
 
                                 </div>
@@ -182,7 +262,7 @@
                                         <img src="images/water/water-pollution.svg" class="img-fluid">
                                     </span>
                                     <div class="duktext-inner duktext-6">
-                                        <p>globally, <span class="highlight2">80%</span> of wastewater flows back into<br>
+                                        <p>globally, <span class="highlight2">80%</span> of wastewater flows back into
                                             the ecosystem without being treated or reused</p>
                                     </div>
 
@@ -572,6 +652,9 @@
             }
         };
     </script>
+
+
+<script src="./assets/js/common.js"></script>
 
 </body>
 

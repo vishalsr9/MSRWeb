@@ -22,11 +22,14 @@
     <script src=safe-food.js></script>
     <link href="water.css" rel="stylesheet">
     <link href="pageslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/common.css">
     <style>
         /* slider balancing */
         /*balancing*/
+
+
         .sldImg01>img {
-            width: 19rem;
+            width: 16rem;
             transition: .5s;
         }
 
@@ -36,91 +39,150 @@
         }
 
         .sldImg02>img {
-            width: 15rem;
+            width: 12rem;
             transition: .5s;
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-            width: 27rem;
+            width: 28rem;
             transition: .5s;
         }
 
         .sldImg03>img {
-            width: 17rem;
+            width: 16rem;
             transition: .5s;
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-            width: 32rem;
+            width: 31rem;
             transition: .5s;
-        }
-    </style>
-    <style>
-        @media print {
-            body * {
-                visibility: hidden;
-            }
-
-            #section-to-print,
-            #section-to-print * {
-                visibility: visible;
-            }
-
-            #section-to-print {
-                position: absolute;
-                left: 0;
-                top: 0;
-            }
         }
     </style>
 </head>
 
 <body class="page4-page">
-    <header>
-        <div class="container no-print">
+
+    <header class="no-print">
+        <div class="container">
             <div class="logo">
-                <a href="/">
+                <a href="">
                     <img src="images/metro-logo.svg" />
                 </a>
             </div>
-            <div class="header-menu">
-                <div class="menu-ham">
-                    <ul class="no-margin-bottom">
-                        <li class="menu-click" onclick="openNav()">
-                            <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
-                                <title>New Project</title>
-                                <style>
-                                    .s0 {
-                                        fill: #ffe500
-                                    }
-                                </style>
-                                <g id="&lt;Group&gt;">
-                                    <g id="&lt;Group&gt;">
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 0.6h36v5.3h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 10.4h36v5.2h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 20.1h36v5.3h-36z" />
-                                    </g>
-                                </g>
-                            </svg>
-                            <div id="myNav" class="overlay-menu">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <div class="overlay-content">
-                                    <a href="/">Home</a>
-                                    <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                                    <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
-                                    <a href="introduction-to-sustainable-menu.php">Introduction to Sustainable Menu</a>
-                                    <a href="explore-sustainable-menu.php">Explore Sustainable Menu</a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+
+            <div class="new_header header-menu">
+                <div id="nav-icon4" class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="custom__select">
+                <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-water-deu.php">DEU</option>
-                        <option value="explore-water-eng.php" selected>ENG</option>
+                        <option value="introduction-to-energy-deu.php">DEU</option>
+                        <option value="introduction-to-energy-eng.php" selected>ENG</option>
                     </select>
                 </div>
+                <nav>
+                    <ul class="main">
+                        <li>
+                            <a href="http://msr.bdevtestservers.com/">Home</a>
+                        </li>
+                        <li>
+                            <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+                        </li>
+                        <li>
+                            <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
+                        </li>
+                        <div class="sub_menuUi">
+                            <li>
+                                <a href="introduction-to-sustainable-menu-eng.php">Sustainable Menu</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-responsible-sourcing-eng.php">Responsible Sourcing</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-food-waste-eng.php">Food Waste</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-plastic-waste-eng.php">Plastic Waste</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-safe-food-eng.php">Safe Food</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-energy-eng.php">Energy</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-water-eng.php">Water</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-waste-eng.php">Waste</a>
+                            </li>
+                            <li>
+                                <a href="introduction-to-social-eng.php">Social</a>
+                            </li>
+                        </div>
+                        <li>
+                            <a href="https://www.metroag.de/en/contact">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+                    <div class="social">
+                        <p>Useful Links</p>
+                        <a href="https://www.menukithd.com/" target="_blank">
+                            <img src="images/logo-dish.png" style="width: 5rem;">
+                        </a>
+                        <a href="https://www.dish.co/XX/en/" target="_blank">
+                            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+                        </a>
+                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+                        </a>
+                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+                            <img src="images/Eitiketten.png">
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <img src="images/Logo_METRO-Regio_weiss.png">
+                        </a>
+                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <img src="./images/safe_food/foot_nav2.PNG">
+                        </a>
+                        <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+                    </div>
+                    <div class="footer-socials side_nav">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/@METRO_News" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+                </nav>
+                <div class="overlay"></div>
             </div>
         </div>
     </header>
@@ -209,10 +271,10 @@
                 </div>
             </section>
             <!--Good to know-->
-            <section class="section2 no-print z0">
+            <section class="section2 no-print">
                 <div class="text-center">
                     <div class="wrap-2">
-                        <h3 class="section-heading-blue">Good to know</h3>
+                        <h3 class="section-heading-blue" style="text-transform:inherit !important;">Good to know</h3>
                     </div>
                 </div>
                 <div class="container con-gk" style="margin:0 auto;">
@@ -288,8 +350,6 @@
                         </div>
 
                     </div>
-
-
                     <div class="row">
                         <div class="col-md-12 mb-5">
                             <div class="pageSlider-container">
@@ -407,17 +467,13 @@
                         </div>
 
                     </div>
-
-
                 </div>
             </section>
-
-
             <!-- ADVANCE WAYS -->
             <section class="section-highlight-withimages section4-5 pbg mb-3 no-print">
                 <div class="top-highlight text-center">
                     <h3>Advanced ways to save water</h3>
-                    <p>Once you have managed the daily water-saving routines,<br>you can consider investing in advanced ways to save water</p>
+                    <p>Once you have managed the daily water-saving routines,<br>you can consider investing in advanced ways to save water:</p>
                 </div>
 
 
@@ -580,7 +636,7 @@
                                                 resources such as indoor grown salads
                                                 and herbs, seasonal fruit and vegetables,
                                                 or detergents formulated to use less
-                                                water.<br><br>
+                                                water<br><br>
                                                 <span id="sevenRM" style="display:none">
                                                     If your restaurant has a garden or
                                                     terrace plants, water them early in the
@@ -591,7 +647,7 @@
                                                     in itself (vegan). Depending on how and
                                                     where it is produced, meat is among
                                                     those foods that consume the highest
-                                                    quantities of water.
+                                                    quantities of water
                                                 </span>
                                                 <button class="read-text btn-active" id="sevevebtnl" style="display: none;">Read less</button>
                                                 <button class="read-text btn-active" id="sevevebtn">Read more</button>
@@ -651,13 +707,13 @@
                         </div>
                         <div class="col-md-6">
                             <div class="track-and_talk_img">
-                                <img src="./images/safe_food/Asset 30.png" class="img-fluid success-img">
+                                <img src="./images/safe_food/Asset 30.png" class="img-fluid success-img" style="width: 36rem;">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="container section4-6" id="section-to-print">
+            <section class="container section4-6">
                 <div class="top-content">
                     <h3>Your Action Plan</h3>
                 </div>
@@ -974,14 +1030,10 @@
             <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
             <h4>Re-use grey water</h4>
             <p>
-                Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+                Grey water means water that has already been used for cooking, ice buckets and also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
             </p>
         </div>
     </div>
-
-
-
-
 
 
 
@@ -1062,7 +1114,7 @@
             }
         };
     </script>
-
+    <script src="./assets/js/common.js"></script>
 </body>
 
 </html>

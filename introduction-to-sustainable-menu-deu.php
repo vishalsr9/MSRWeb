@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/page2_style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="./jquery/custom.js"></script>
+    <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .milk1 {
@@ -35,63 +36,130 @@
 </head>
 
 <body class="page3-page">
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="home.php"> <img src="images/metro-logo.svg" /></a>
-            </div>
-            <div class="header-menu">
-                <div class="menu-ham">
-                    <ul>
-                        <li class="menu-click" onclick="openNav()">
-                            <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 36 26" width="36" height="26">
-                                <title>New Project</title>
-                                <style>
-                                    .s0 {
-                                        fill: #ffe500
-                                    }
-                                </style>
-                                <g id="&lt;Group&gt;">
-                                    <g id="&lt;Group&gt;">
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 0.6h36v5.3h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 10.4h36v5.2h-36z" />
-                                        <path id="&lt;Path&gt;" class="s0" d="m0 20.1h36v5.3h-36z" />
-                                    </g>
-                                </g>
-                            </svg>
-                            <div id="myNav" class="overlay-menu">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <div class="overlay-content">
-                                    <a href="home.php">Home</a>
-                                    <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
-                                    <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht </a>
-                                    <a href="introduction-to-sustainable-menu-eng.php">Übersicht "Meine nachhaltige Speisekarte"</a>
-                                    <a href="tipps-für-meine-nachhaltige-speisekarte.php">Tipps für "Meine nachhaltige Speisekarte"</a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="custom__select">
-                    <select>
-                        <option value="introduction-to-sustainable-menu-deu.php" selected>DEU</option>
-                        <option value="introduction-to-sustainable-menu-eng.php">ENG</option>
-                    </select>
-                </div>
-                <!-- <div class="language custom-select">
-                <ul>
-                    <li>
-                        <select>
-                            <option value="0">DEU</option>
-                            <option value="1">LAN</option>
-                            <option value="1">DEU</option>
-                        </select> 
-                    </li>
-                </ul>
-            </div> -->
-            </div>
+    <header class="no-print">
+  <div class="container">
+    <div class="logo">
+      <a href="">
+        <img src="images/metro-logo.svg" />
+      </a>
+    </div>
+    
+    <div class="new_header header-menu">
+      <div id="nav-icon4" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="custom__select top-mar-less">
+        <select>
+          <option value="introduction-to-sustainable-menu-deu.php" selected>DEU</option>
+          <option value="introduction-to-sustainable-menu-eng.php">ENG</option>
+        </select>
+      </div>
+      <nav>
+        <ul class="main">
+          <li>
+            <a href="http://msr.bdevtestservers.com/home.php">Home</a>
+          </li>
+          <li>
+            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+          </li>
+          <li>
+            <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
+          </li>
+          <div class="sub_menuUi">
+                  <li>
+                    <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-safe-food-deu.php">Sichere Lebensmittel</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-energy-deu.php">Energie</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-water-deu.php">Wasser</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-waste-deu.php">Abfälle</a>
+                  </li>
+                  <li>
+                    <a href="introduction-to-social-deu.php">Gemeinschaft</a>
+                  </li>
+                  </div>
+          <li>
+            <a href="https://www.metroag.de/en/contact">Kontakt</a>
+          </li>
+        </ul>
+        <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+        <div class="social">
+          <p>Hilfreiche Links</p>
+          <a href="https://www.menukithd.com/" target="_blank">
+            <img src="images/logo-dish.png" style="width: 5rem;">
+          </a>
+          <a href="https://www.dish.co/XX/en/" target="_blank">
+            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+          </a>
+          <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+          </a>
+          <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+            <img src="images/Eitiketten.png">
+          </a>
         </div>
-    </header>
+        <div class="social">
+          <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+            <img src="images/Logo_METRO-Regio_weiss.png">
+          </a>
+          <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+            <img src="./images/safe_food/foot_nav2.PNG">
+          </a>
+          <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+        </div>
+        <div class="footer-socials side_nav">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.metroag.de/youtube" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/@METRO_News" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+      </nav>
+      <div class="overlay"></div>
+    </div>
+  </div>
+</header>
     <div id="loader-page2" class="center">
         <span class="loader__text">
             <img src="images/yellow_pan.gif" class="loader9" />
@@ -490,6 +558,8 @@
             }
         };
     </script>
+
+    <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 
 

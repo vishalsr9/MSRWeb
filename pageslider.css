@@ -108,6 +108,8 @@
   margin-top: 1.5rem;
 }
 
+/* ONE CONTROLS */
+
 .swiper-button-prev.pageSwiper1PrevBtn {
   width: 2rem !important;
   height: 2rem !important;
@@ -144,6 +146,155 @@
   font-size: 16px;
   margin-right: 5px;
   font-weight: bold;
+}
+
+/* two CONTROLS */
+.swiper-button-prev.pageSwiper2PrevBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-prev.pageSwiper2PrevBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper2NextBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-next.pageSwiper2NextBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper2NextBtn:after,
+.swiper-rtl .swiper-button-prev.pageSwiper2PrevBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.swiper-button-prev.pageSwiper2PrevBtn:after,
+.swiper-rtl .swiper-button-next.pageSwiper2NextBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+/* three CONTROLS */
+.swiper-button-prev.pageSwiper3PrevBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-prev.pageSwiper3PrevBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper3NextBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-next.pageSwiper3NextBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper3NextBtn:after,
+.swiper-rtl .swiper-button-prev.pageSwiper3PrevBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.swiper-button-prev.pageSwiper3PrevBtn:after,
+.swiper-rtl .swiper-button-next.pageSwiper3NextBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+/* four CONTROLS */
+.swiper-button-prev.pageSwiper4PrevBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-prev.pageSwiper4PrevBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper4NextBtn {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: #ffe500;
+  border-radius: 1rem;
+}
+
+.swiper-button-next.pageSwiper4NextBtn:hover {
+  outline: 5px solid #ffe500;
+}
+
+.swiper-button-next.pageSwiper4NextBtn:after,
+.swiper-rtl .swiper-button-prev.pageSwiper4PrevBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.swiper-button-next.pageSwiper4NextBtn.bg-d:after,
+.swiper-rtl .swiper-button-prev.pageSwiper4PrevBtn.bg-d:after {
+  color: white;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.swiper-button-prev.pageSwiper4PrevBtn:after,
+.swiper-rtl .swiper-button-next.pageSwiper4NextBtn:after {
+  color: #003b7e;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+/* CONTROLS END */
+
+.swiper-button-next.pageSwiper4NextBtn.bg-d:hover {
+  outline: 5px solid #003b7e;
+}
+
+.swiper-button-prev.pageSwiper4PrevBtn.bg-d:hover {
+  outline: 5px solid #003b7e;
+}
+
+.swiper-button-prev.pageSwiper4PrevBtn.bg-d:after,
+.swiper-rtl .swiper-button-next.pageSwiper4NextBtn.bg-d:after {
+  color: white;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.swiper-button-prev.pageSwiper1PrevBtn.bg-d:hover {
+  outline: 5px solid #003b7e;
+}
+
+.swiper-button-next.pageSwiper1NextBtn.bg-d:hover {
+  outline: 5px solid #003b7e;
 }
 
 .pageSlider-pagination {
