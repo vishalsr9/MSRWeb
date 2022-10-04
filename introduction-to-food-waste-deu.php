@@ -306,7 +306,7 @@
 
 
             <div class="read-wrap">
-                <a href="explore-food-waste-eng.php" class="read-more" target="_self">WEITERLESEN</a>
+                <a href="explore-food-waste-deu.php" class="read-more" target="_self">WEITERLESEN</a>
             </div>
         </div>
         <div class="l3-5img mr-4 col-md-6">
