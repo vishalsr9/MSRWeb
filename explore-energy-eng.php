@@ -349,10 +349,7 @@
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4 safe_foodBox_l4 engery_box">
                 <img src="./images/safe_food/eng-3.svg" class="img-fluid">
-                <p>Induction is faster, safer, cleaner, and more
-                  efficient than either gas or electric. Food
-                  being cooked with induction will receive
-                  <strong>90%</strong> of the heat generated, as opposed
+                <p><a href="https://www.mpulse.de/en/innovation/the-question-of-the-day-gas-or-induction">Induction is faster, safer, cleaner, and more efficient than either gas or electric.</a> Food being cooked with induction will receive <strong>90%</strong> of the heat generated, as opposed
                   to only 40 – 55% for gas.
                 </p>
               </div>

@@ -20,6 +20,10 @@
   <script src="required1/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="pageslider.css">
   <style>
+    .simple_waste_audit ul li p {
+      word-wrap: anywhere;
+    }
+
     @media print {
       body * {
         visibility: hidden;
@@ -352,77 +356,77 @@
                 <h3>Abfallgutachten</h3>
                 <p>Ein simples Abfallgutachten zeigt Ihnen, welche Kunststoffe bei Ihnen anfallen und worauf Sie sich zur Reduzierung von Plastik- und Verpackungsmüll konzentrieren können. <br>Sehen Sie sich die folgenden Beispiele an, die Ihnen als Orientierung dienen können: </p>
                 <ul class="list-unstyled d-flex mt-5">
-                  <li>Product </li>
+                  <li>Produkt</li>
                   <li>
                     <img src="./images/plastic-waste/Asset 4.svg">
-                    <p>Delivery Wrapping</p>
+                    <p>Lieferverpackungen</p>
                   </li>
                   <li>
                     <img src="./images/plastic-waste/Asset 5.svg">
-                    <p> Food Packaging</p>
+                    <p>Lebensmittelverpackungen</p>
                   </li>
                   <li>
                     <img src="./images/plastic-waste/Asset 6.svg">
-                    <p>Water Bottles</p>
+                    <p>Wasserflaschen</p>
                   </li>
                   <li>
                     <img src="./images/plastic-waste/Asset 7.svg">
-                    <p>Takeaway Packaging</p>
+                    <p>Verpackungen zum Mitnehmen</p>
                   </li>
                   <li>
                     <img src="./images/plastic-waste/Asset 8.svg">
-                    <p>Gloves, Masks</p>
+                    <p>Handschuhe, Masken</p>
                   </li>
                 </ul>
 
                 <table class="table">
                   <tr>
-                    <td><b>What is the packaging?</b></td>
+                    <td><b>Verpackungsart</b></td>
                     <td>PVC / PVDC</td>
-                    <td>Plastic PET, rPET</td>
-                    <td>Plastic PET, rPET</td>
-                    <td>Bowls - PET </td>
+                    <td>PET, rPET</td>
+                    <td>PET, rPET</td>
+                    <td>Behälter aus PET</td>
                     <td>Vinyl, latex, polyester</td>
                   </tr>
                   <tr>
-                    <td><b>What is the material? </b></td>
-                    <td>Plastic from crude oil with additives</td>
-                    <td>Plastic from crude oil</td>
-                    <td>Plastic from crude oil</td>
-                    <td>Plastic from crude oil </td>
-                    <td>Plastic from crude oil, extracted rubber</td>
+                    <td><b>Material</b></td>
+                    <td>Kunststoff aus Erdöl mit Zusatzstoffen</td>
+                    <td>Kunststoff aus Erdöl</td>
+                    <td>Kunststoff aus Erdö</td>
+                    <td>Kunststoff aus Erdöl</td>
+                    <td>Kunststoff aus Erdöl mit Zusatzstoffen, extrahiert</td>
                   </tr>
                   <tr>
-                    <td><b>How should it be disposed?</b></td>
-                    <td>General waste</td>
-                    <td>Depends on the content. Some can be separated into the recycle bin others not </td>
-                    <td>Recycle bin</td>
-                    <td>Recycle bin or general waste (if food residues) </td>
-                    <td>General waste</td>
+                    <td><b>Entsorgung</b></td>
+                    <td>Normaler Müll</td>
+                    <td>Kommt auf den Inhalt an. Einige können im normalen Müll entsorgt werden, manches nicht</td>
+                    <td>Recyclingbehälter</td>
+                    <td>Recyclingabfall oder normaler Müll (bei Lebensmittelrückständen)</td>
+                    <td>Normaler Müll</td>
                   </tr>
                   <tr>
-                    <td><b>How much do you have? </b></td>
-                    <td>kg / month</td>
-                    <td>kg / month</td>
-                    <td>kg / month</td>
-                    <td>kg / month </td>
-                    <td>kg / month</td>
+                    <td><b>Ihr Plastikmüll</b></td>
+                    <td>kg / Monat</td>
+                    <td>kg / Monat</td>
+                    <td>kg / Monat</td>
+                    <td>kg / Monat</td>
+                    <td>kg / Monat</td>
                   </tr>
                   <tr>
-                    <td><b>Have you thought of this?</b></td>
-                    <td>It takes space in your waste bin which you might pay for. Ask your supplier to take the waste back during delivery.</td>
-                    <td>Ask your supplier to deliver with a reusable trolley wrap. Ask your supplier for alternatives, less or simpler packaging that can be easily cleaned and separated.</td>
-                    <td>Check with your supplier to do a returnable deposit for crates of plastic. This will cut the plastic wrapping and bottles that you have to dispose of.</td>
-                    <td>Customers might not want extra plastic to fill their rubbish bins. Since 2021, in Europe, plastic disposables are no longer allowed by law. Ask your supplier for alternatives. </td>
-                    <td>Talk to your suppliers about what alternatives they have. This is a difficult issue particularly in times of pandemics and there are not many solutions currently.</td>
+                    <td><b>Denken Sie darüber nach</b></td>
+                    <td>Beansprucht Platz in Ihrem Abfalleimer, für den Sie möglicherweise bezahlen. Bitte Sie Ihren Lieferanten, den Abfall bei der Lieferung zurückzunehmen.</td>
+                    <td>Fragen Sie Ihren Lieferanten nach Alternativen, weniger oder einfacheren Verpackungen, die sich leicht reinigen und trennen lassen.</td>
+                    <td>Erkundigen Sie sich bei Ihrem Lieferanten nach einem Mehrwegpfand für Plastikkisten. So können Sie die Menge der zu entsorgenden Plastikverpackungen und Flaschen reduzieren.</td>
+                    <td>Die Kunden wollen nicht, dass zusätzliches Plastik ihre Mülleimer füllt. In Europa sind Einwegartikel aus Plastik seit 2021 gesetzlich verboten. Fragen Sie Ihre Lieferanten nach Alternativen.</td>
+                    <td>Sprechen Sie mit Ihren Lieferanten, welche Alternativen vorhanden sind. Dies ist insbesondere durch die COVID-Pandemie ein schwieriges Thema, für das es derzeit noch nicht viele Lösungen gibt.</td>
                   </tr>
                   <tr>
-                    <td><b>Is there an alternative?</b></td>
-                    <td>Ask your supplier to deliver with a usable trolley wrap.</td>
-                    <td>Non crude oil based plastics.</td>
-                    <td>Tap water when safe. Filtered / treated tap water in house when not safe. Glass bottles - also with deposit scheme.</td>
-                    <td>Compostable bagasse, bamboo containers. Container deposit schemes. </td>
-                    <td>Cotton masks, Plastic screens instead of masks.</td>
+                    <td><b>Alternativen</b></td>
+                    <td>Bitten Sie Ihren Lieferanten mit einer wiederverwendbaren Lieferverpackung zu liefern.</td>
+                    <td>Keine erdölbasierten Kunststoffe.</td>
+                    <td>Leitungswasser, wenn es sicher ist. Gefiltertes/behandeltes Leitungswasser, wenn es nicht sicher ist. Glasflaschen – auch mit Pfandsystem.</td>
+                    <td>Kompostierbare Säcke. Behälter aus Bambus. Pfandsysteme für Behälter.</td>
+                    <td>Baumwollmasken, Gesichtsvisiere aus Plastik anstelle von Masken.</td>
                   </tr>
                 </table>
               </div>

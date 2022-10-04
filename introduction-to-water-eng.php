@@ -353,12 +353,12 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12">
-                                <h3 class="know-how-heading">KNOW HOW –<br>STEPS HOW TO ENSURE<br>SAFE FOOD</h3>
+                                <h3 class="know-how-heading">KNOW HOW –<br>STEPS TO SAVE<br>WATER</h3>
                                 <ul class="justify1">
                                     <li class=" strongUl">
                                         Analyse and evaluate your consumption. Your utility company can
                                         help you get started. Hunt for areas of water wastage and start
-                                        with simple ways to save water such as fixing leaky taps and pipes
+                                        with simple ways to save water, such as fixing leaky taps and pipes
                                         or prepping and cleaning with caution, e.g. running the dishwasher
                                         only when it is full.
                                     </li>
@@ -370,7 +370,7 @@
                                     <li class=" strongUl">
                                         There are also advanced ways in which you can save water. For
                                         example, by purchasing and offering more products with a low
-                                        impact on water resources such as seasonal fruit and vegetables.
+                                        impact on water resources, such as seasonal fruit and vegetables.
                                     </li>
                                     <li class=" strongUl">
                                         Once you have taken the first steps to save water, check the

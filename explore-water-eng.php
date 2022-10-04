@@ -1030,7 +1030,7 @@
             <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
             <h4>Re-use grey water</h4>
             <p>
-                Grey water means water that has already been used for cooking, ice buckets and also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+                Grey water means water that has already been used for cooking, ice buckets and also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not contain salt as it harms plants and that the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
             </p>
         </div>
     </div>

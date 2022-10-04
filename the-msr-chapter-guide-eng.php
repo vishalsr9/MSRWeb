@@ -174,8 +174,6 @@
 				<area id="water_id" coords="252,342,468,548" shape="rect">
 			</map>
 
-
-
 			<div class="note-msg">Select any topic to read more</div>
 
 			<div id="sust-menu" class="drawer test">
@@ -278,7 +276,7 @@
 							<img src="images/L2-03.svg" />
 						</div>
 						<h2>How to use less energy in your restaurant and save costs </h2>
-						<p>As a restaurant or café owner you usually need a lot of electricity, oil, coal or gas which causes high costs in your budget. With rising energy costs and the scarcity of fossil resources, as well as your customer's growing attention to environmental issues, it will be useful to become more sustainable and save money at the same time. </p>
+						<p>As a restaurant or café owner, you usually need a lot of electricity, oil, coal, or gas which causes high costs in your budget. With rising energy costs and the scarcity of fossil resources, as well as your customer's growing attention to environmental issues, it will be useful to become more sustainable and save money at the same time. </p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-energy-eng.php">TAKE A DEEP DIVE </a>
 						</div>
@@ -293,7 +291,7 @@
 							<img src="images/L2-08.svg" />
 						</div>
 						<h2>Why we need to talk about safe food </h2>
-						<p>Several incidents in recent years have shed a bad light on the food industry (for example undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries) and consumers are increasingly becoming aware of the need for safely produced food which doesn't injure them or make them sick. That's why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, minimizing waste and engaging people to work productively. The latest developments with COVID_19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants. </p>
+						<p>Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, and needles in strawberries) and consumers are increasingly becoming aware of the need for safely produced food which doesn't injure them or make them sick. That's why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, minimizing waste, and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants. </p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-safe-food-eng.php">TAKE A DEEP DIVE </a>
 						</div>
@@ -328,6 +326,7 @@
 				<div class="btn-row"><button onclick="nextModal()" class="modal-cta">Join our wait-list for latest updates</button></div>
 			</div>
 		</div>
+
 	</div>
 
 	<div id="myModal2" class="modal">

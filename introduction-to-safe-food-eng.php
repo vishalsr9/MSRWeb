@@ -272,7 +272,7 @@
         </div>
         <div class="right-content">
           <p>
-            As many as 7 out of 10 meals a week are eaten out of home. That is a lot of trust to put into a food business whose kitchen most people have never seen preparing their food. That trust is often not questioned until something goes wrong. A restaurant’s reputation can take years to establish but just one food safety incident or a failed hygiene inspection to ruin that business. 80% of people now decide what restaurant to visit online. What would happen if hygiene inspection results were linked to social media review platforms?
+            As many as 7 out of 10 meals a week are eaten out of home. That is a lot of trust to put into a food business whose kitchen most people have never seen preparing their food. That trust is often not questioned until something goes wrong. A restaurant’s reputation can take years to establish, but just one food safety incident or a failed hygiene inspection to ruin that business. 80% of people now decide what restaurant to visit, online. What would happen if hygiene inspection results were linked to social media review platforms?
 
           </p>
         </div>
@@ -283,7 +283,7 @@
         <div class="left-content noalign w60-per">
           <h3><a href="explore-safe-food-eng.php" target="_self">KNOW HOW –<br>STEPS HOW TO ENSURE<br>SAFE FOOD</a></h3>
           <p>
-            The basic is to have a food safety management system. For this, you can use <a href="explore-safe-food-eng.php"> HACCP (Hazard Analysis Critical Control Points)</a> which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
+            It is basic to have a food safety management system. For this, you can use <a href="explore-safe-food-eng.php"> HACCP (Hazard Analysis Critical Control Points)</a> which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
           </p>
 
 

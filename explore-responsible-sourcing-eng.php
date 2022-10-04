@@ -3219,7 +3219,7 @@
                 <div class="col-md-12">
                     <h3 class="h3v2">Track and talk <br>about your progress</h3>
                     <p class="justify1">
-                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing.<br>Here are a few ways this can be done.
+                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing.<br>Here are a few ways this can be done:
                     </p>
                 </div>
             </div>

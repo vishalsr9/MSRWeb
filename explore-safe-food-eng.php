@@ -571,7 +571,7 @@
             <div class="col-md-4 px-4">
               <div class="good_to_know_box p-4">
                 <img src="./images/safe_food/Asset 39.png" class="img-fluid">
-                <p>Inspections from food safety authorities usually focus primarily on clean and well-maintained facilities, buildings, and equipment – including appropriate layout, ventilation, hand washing facilities and pest control. Secondly, they concentrate on hygienic handling of food including preparation, cooking, re-heating, cooling and storage. Lastly, they take a closer look at hygienic management of food safety including the system or checks in place to ensure food sold or served is safe to eat, that food safety is always well managed and good standards are maintained and the staff is well trained. </p>
+                <p>Inspections from food safety authorities usually focus primarily on clean and well-maintained facilities, buildings, and equipment – including appropriate layout, ventilation, hand washing facilities, and pest control. Secondly, they concentrate on hygienic handling of food, including preparation, cooking, re-heating, cooling and storage. Lastly, they take a closer look at hygienic management of food safety including the system or checks in place to ensure food sold or served is safe to eat, that food safety is always well managed and good standards are maintained and the staff is well trained. </p>
               </div>
             </div>
             <div class="col-md-4 px-4">
@@ -1114,7 +1114,7 @@
                       <div class="col-md-6 offset-md-1">
                         <div class="three-step_para">
                           <p>
-                            <strong>HACCP (Hazard Analysis and Critical Control Points)</strong> is a methodology that can guide your restaurant towards better food safety practices. In some countries, for example in Europe, it is already a legal requirement but generally restaurants are not expected to have a fully comprehensive HACCP system. It is based around seven basic principles of mitigating risk and preventing adverse outcomes. By being aware of what could go wrong, you and your staff can manage your business in a way to prevent things going wrong and have a way to deal with it if something does happen. This risk-based approach can also help you manage sustainability hazards for example preventing used cooking oil from leaking into the drain system instead of collecting it separately as required. HACCP indicates you to identify, evaluate and control all food hazards.
+                            <strong>HACCP (Hazard Analysis and Critical Control Points)</strong> is a methodology that can guide your restaurant towards better food safety practices. In some countries, for example, in Europe, it is already a legal requirement but generally, restaurants are not expected to have a fully comprehensive HACCP system. It is based around seven basic principles of mitigating risk and preventing adverse outcomes. By being aware of what could go wrong, you and your staff can manage your business in a way to prevent things going wrong and have a way to deal with it if something does happen. This risk-based approach can also help you manage sustainability hazards, for example, preventing used cooking oil from leaking into the drain system instead of collecting it separately as required. HACCP indicates you to identify, evaluate, and control all food hazards.
                           </p>
                           <p class="mt-4">
                             <strong>The seven main principles are:</strong>
@@ -1366,7 +1366,7 @@
                       </div>
                       <div class="col-md-6 offset-md-1">
                         <div class="three-step_para">
-                          <p>When well-trained and informed staff is involved in setting up a food safety management system and they will be fully committed to making it work. This is called a <strong>food safety culture</strong>. It is a relatively new concept in gastronomy and one that you can embrace as a way to really embed food safety into your business and be sure not to have unwanted incidents. As you read through these steps you will see how this process is as systematic as it is sustainable. </p>
+                          <p>When well-trained and informed staff is involved in setting up a food safety management system, they are more likely to be fully committed to making it work. This is called a <strong>food safety culture</strong>. It is a relatively new concept in gastronomy and one that you can embrace as a way to really embed food safety into your business and be sure not to have unwanted incidents. As you read through these steps you will see how this process is as systematic as it is sustainable. </p>
                           <p class="mt-4">
                             <strong>Check out the following simple steps to create a food safety culture:</strong>
                           </p>
@@ -1958,7 +1958,7 @@
       <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
       <h4>Separation</h4>
       <p>
-        Raw and ready to eat or cooked foods must be handled separately as should food containing allergens. Dirty foods must be prepared in a separate area and not next
+        Raw and ready-to-eat or cooked foods must be handled separately as should food containing allergens. Dirty foods must be prepared in a separate area and not next
         to clean foods. Waste must be separated and stored in labelled containers. For example, raw vegetables with soil on should be cleaned away from the salad that is ready to eat. Vegetable peelings can be kept to make stock or be composted.
       </p>
     </div>
@@ -2002,7 +2002,7 @@
       <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
       <h4>Maintenance</h4>
       <p>
-        Your equipment and machinery must be checked regularly to ensure it is not damaged. Damage can lead to small pieces of metal getting into food. Well-maintained equipment is more efficient. For example, a boiler that has chalk build-up is unhygienic and takes more energy to heat. A freezer that is not well- ventilated can take more energy to cool food down. An air conditioner blocked with dust risks leaching contamination from bacteria into the atmosphere and takes excessive energy to cool.
+        Your equipment and machinery must be checked regularly to ensure it is not damaged. Damage can lead to small pieces of metal getting into food. Well-maintained equipment is more efficient. For example, a boiler that has chalk build-up is unhygienic and takes more energy to heat. A freezer that is not well-ventilated can take more energy to cool food down. An air conditioner blocked with dust risks leaching contamination from bacteria into the atmosphere and takes excessive energy to cool.
       </p>
     </div>
   </div>
@@ -2066,7 +2066,7 @@
       <a class="btn-close-popup" onclick="closePopUp(14);">X</a>
       <h4>Accountability and documentation</h4>
       <p>
-        As a restaurant manager, you are responsible for the overall supervision of your FSMS (food safety management system). The FSMS needs to be documented and this means keeping up-to-date and accurate records. This also means doing checks - you or a responsible member of staff on your behalf - conducts the opening and closing checks, any on-top checks, and ensures that “prove it” documentation (such as cleaning and training records) are completed. When you have a system already established to manage food safety, it is easier to include checks necessary in other sustainability aspects. Recording the status of a new process and monitoring its progress is another part of managing sustainability for example energy usage.
+        As a restaurant manager, you are responsible for the overall supervision of your FSMS (food safety management system). The FSMS needs to be documented and this means keeping up-to-date and accurate records. This also means doing checks - you or a responsible member of staff on your behalf - conducts the opening and closing checks, any on-top checks, and ensures that “prove it” documentation (such as cleaning and training records) are completed. When you have a system already established to manage food safety, it is easier to include checks necessary in other sustainability aspects. Recording the status of a new process and monitoring its progress is another part of managing sustainability, for example, energy usage.
       </p>
     </div>
   </div>
@@ -2124,7 +2124,7 @@
       <a class="btn-close-popup" onclick="closePopUp(21);">X</a>
       <h4>Identify all risks and hazards</h4>
       <p>
-        Identify risks and hazards that could make food unsafe to eat at each step of your operation, from the food that you receive to the meals you serve such as bacteria, chemical contamination or objects getting into food.
+        Identify risks and hazards that could make food unsafe to eat at each step of your operation, from the food that you receive to the meals you serve, such as bacteria, chemical contamination, or objects getting into food.
       </p>
     </div>
   </div>
@@ -2135,7 +2135,7 @@
       <a class="btn-close-popup" onclick="closePopUp(22);">X</a>
       <h4>Identify the critical control points (CCPs)</h4>
       <p>
-        Identify the critical control points (CCPs) where hazards are at a acceptable level and will be eliminated by following the work flow.
+        Identify the critical control points (CCPs) where hazards are at an acceptable level and will be eliminated by following the work flow.
       </p>
     </div>
   </div>
@@ -2146,7 +2146,7 @@
       <a class="btn-close-popup" onclick="closePopUp(23);">X</a>
       <h4>Establish the standards</h4>
       <p>
-        Establish the standards to be met and critical thresholds not be exceeded such as temperatures that would interrupt the cold chain.
+        Establish the standards to be met and critical thresholds not be exceeded, such as temperatures that would interrupt the cold chain.
       </p>
     </div>
   </div>
@@ -2166,7 +2166,7 @@
       <a class="btn-close-popup" onclick="closePopUp(25);">X</a>
       <h4>Define the corrective actions</h4>
       <p>
-        For events of non-compliance with the thresholds define the corrective actions to be implemented.
+        For events of non-compliance with the thresholds, define the corrective actions to be implemented.
       </p>
     </div>
   </div>
@@ -2249,7 +2249,7 @@
       <a class="btn-close-popup" onclick="closePopUp(36);">X</a>
       <h4>Empower your employees</h4>
       <p>
-        Enable them to make decisions themselves, for example, to refuse potentially unsafe food from suppliers on arrival. If food isn’t safe, for example, the temperature is over your legal requirement, it will either make someone sick or be wasted later. The best filter is your staff which could prevent mishaps at the right time.
+        Enable them to make decisions themselves, for example, to refuse potentially unsafe food from suppliers on arrival. If food isn’t safe, for example, the temperature is over your legal requirement, it will either make someone sick or be wasted later. The best filter is your staff which could prevent mishaps in time.
       </p>
     </div>
   </div>
