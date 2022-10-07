@@ -11507,7 +11507,7 @@ Eigentümer entscheiden sich für eine nachhaltigere Zukunft.</p>
 </div>
 <div class="footer-socials">
 <ul>
-<li><a href="https://www.facebook.com/mpulse/"  target="_blank"> <i class="fa fa-facebook"></i></a></li>
+<li><a href="https://de-de.facebook.com/metro.deutschland/"  target="_blank"> <i class="fa fa-facebook"></i></a></li>
 <li><a href="https://www.metroag.de/youtube" target="_blank" ><i class="fa fa-youtube-play"></i></a></li>
 <li><a href="https://www.instagram.com/metro_mpulse/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
 <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>

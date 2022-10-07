@@ -37,6 +37,12 @@
       }
     }
 
+    .gtnb1>img {
+      width: 21rem !important;
+      margin-bottom: 1rem !important;
+      margin-top: 1rem !important;
+    }
+
     .pageSlider-slide.swiper-slide-active,
     .pageSlider-slide {
       background: white;
@@ -226,7 +232,7 @@
               </li>
             </div>
             <li>
-              <a href="https://www.metroag.de/en/contact">Contact</a>
+              <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
             </li>
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -235,14 +241,11 @@
             <a href="https://www.menukithd.com/" target="_blank">
               <img src="images/logo-dish.png" style="width: 5rem;">
             </a>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
             </a>
-            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
               <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-            </a>
-            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-              <img src="images/Eitiketten.png">
             </a>
           </div>
           <div class="social">
@@ -257,7 +260,7 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -492,8 +495,8 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
               </div>
             </div>
             <div class="col-md-6">
-              <div class="plastic-waste_goodToKnow_box">
-                <img src="./images/plastic-waste/Asset 15-1.svg" style="width: 60%;">
+              <div class="plastic-waste_goodToKnow_box gtnb1">
+                <img src="./images/plastic-waste/Asset 15-1.svg" class="Asset-15-1">
                 <p>Plastic that is used only once (disposable) will generally come into your business as containers from delivery such as trolleys and pallets wrapped in plastic film, plastic-wrapped food and drink, containers for takeaway, plastic wrap for use in the kitchen and hygiene items such as gloves.</p>
               </div>
             </div>
@@ -1028,18 +1031,13 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.dish.co/XX/en/" target="_blank">
+                  <a href="https://www.dish.co/DE/en/" target="_blank">
                     <img src="images/Dish_Logo-svg.svg">
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                  <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                     <img src="images/Protrace_Logo-ai.svg">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                    <img src="images/Eitiketten.png">
                   </a>
                 </li>
               </ul>
@@ -1185,7 +1183,7 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
         <div class="footer-socials">
           <ul>
             <li>
-              <a href="https://www.facebook.com/mpulse/" target="_blank">
+              <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>

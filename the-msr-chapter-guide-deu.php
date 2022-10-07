@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 
@@ -9,9 +7,9 @@
 	<title>METRO - The MSR Chapter Guide</title>
 	<meta name="description" content="METRO - The MSR Chapter Guide" />
 	<link rel="stylesheet" href="css/page2_style.css">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="jquery/jquery.rwdImageMaps.min.js"></script>
-	
+
 	<script src="./jquery/page2new.js"></script>
 	<script src="./jquery/custom.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,16 +20,16 @@
 		}
 
 		.image-map {
-  background: url(././images/L2_German.svg);
-    width: 1104px;
-    height: 710px;
-    margin: 0 auto;
-    display: block;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 5rem;
- 
-}
+			background: url("http://msr.bdevtestservers.com/images/l2-deu.svg");
+			width: 1104px;
+			height: 710px;
+			margin: 0 auto;
+			display: block;
+			background-repeat: no-repeat;
+			position: relative;
+			margin-top: 5rem;
+
+		}
 
 		.image-map>a.map {
 			position: absolute;
@@ -54,171 +52,174 @@
 		</span>
 	</div>
 	<header class="no-print">
-  <div class="container">
-    <div class="logo">
-      <a href="">
-        <img src="images/metro-logo.svg" />
-      </a>
-    </div>
-    
-    <div class="new_header header-menu">
-      <div id="nav-icon4" class="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="custom__select top-mar-less">
-        <select>
-          <option value="the-msr-chapter-guide-deu.php" selected>DEU</option>
-          <option value="the-msr-chapter-guide-eng.php">ENG</option>
-        </select>
-      </div>
-      <nav>
-        <ul class="main">
-          <li>
-            <a href="http://msr.bdevtestservers.com/home.php">Home</a>
-          </li>
-          <li>
-            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
-          </li>
-          <li>
-            <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
-          </li>
-          <div class="sub_menuUi">
-                  <li>
-                    <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-safe-food-deu.php">Sichere Lebensmittel</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-energy-deu.php">Energie</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-water-deu.php">Wasser</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-waste-deu.php">Abfälle</a>
-                  </li>
-                  <li>
-                    <a href="introduction-to-social-deu.php">Gemeinschaft</a>
-                  </li>
-                  </div>
-          <li>
-            <a href="https://www.metroag.de/en/contact">Kontakt</a>
-          </li>
-        </ul>
-        <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
-        <div class="social">
-          <p>Hilfreiche Links</p>
-          <a href="https://www.menukithd.com/" target="_blank">
-            <img src="images/logo-dish.png" style="width: 5rem;">
-          </a>
-          <a href="https://www.dish.co/XX/en/" target="_blank">
-            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
-          </a>
-          <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
-            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-          </a>
-          <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-            <img src="images/Eitiketten.png">
-          </a>
-        </div>
-        <div class="social">
-          <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-            <img src="images/Logo_METRO-Regio_weiss.png">
-          </a>
-          <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-            <img src="./images/safe_food/foot_nav2.PNG">
-          </a>
-          <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
-        </div>
-        <div class="footer-socials side_nav">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/mpulse/" target="_blank">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/youtube" target="_blank">
-                <i class="fa fa-youtube-play"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/@METRO_News" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
-      </nav>
-      <div class="overlay"></div>
-    </div>
-  </div>
-</header>
+		<div class="container">
+			<div class="logo">
+				<a href="">
+					<img src="images/metro-logo.svg" />
+				</a>
+			</div>
+
+			<div class="new_header header-menu">
+				<div id="nav-icon4" class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="custom__select top-mar-less">
+					<select>
+						<option value="the-msr-chapter-guide-deu.php" selected>DEU</option>
+						<option value="the-msr-chapter-guide-eng.php">ENG</option>
+					</select>
+				</div>
+				<nav>
+					<ul class="main">
+						<li>
+							<a href="http://msr.bdevtestservers.com/home.php">Home</a>
+						</li>
+						<li>
+							<a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+						</li>
+						<li>
+							<a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
+						</li>
+						<div class="sub_menuUi">
+							<li>
+								<a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
+							</li>
+							<li>
+								<a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
+							</li>
+							<li>
+								<a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
+							</li>
+							<li>
+								<a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
+							</li>
+							<li>
+								<a href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit</a>
+							</li>
+							<li>
+								<a href="introduction-to-energy-deu.php">Energie</a>
+							</li>
+							<li>
+								<a href="introduction-to-water-deu.php">Wasser</a>
+							</li>
+							<li>
+								<a href="introduction-to-waste-deu.php">Abfälle</a>
+							</li>
+							<li>
+								<a href="introduction-to-social-deu.php">Gemeinschaft</a>
+							</li>
+						</div>
+						<li>
+							<a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
+						</li>
+					</ul>
+					<!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+					<div class="social">
+						<p>Hilfreiche Links</p>
+						<a href="https://www.menukithd.com/" target="_blank">
+							<img src="images/logo-dish.png" style="width: 5rem;">
+						</a>
+						<a href="https://www.dish.co/DE/en/" target="_blank">
+							<img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
+						</a>
+						<a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+							<img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
+						</a>
+						<a href="https://www.metro-go.de/de-DE/home" target="_blank">
+							<img src="images/Eitiketten.png">
+						</a>
+					</div>
+					<div class="social">
+						<a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+							<img src="images/Logo_METRO-Regio_weiss.png">
+						</a>
+						<a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+							<img src="./images/safe_food/foot_nav2.PNG">
+						</a>
+						<a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+					</div>
+					<div class="footer-socials side_nav">
+						<ul>
+							<li>
+								<a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.metroag.de/youtube" target="_blank">
+									<i class="fa fa-youtube-play"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+									<i class="fa fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/@METRO_News" target="_blank">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+				</nav>
+				<div class="overlay"></div>
+			</div>
+		</div>
+	</header>
+	<style>
+
+	</style>
 	<div class="container">
 		<div class="page-2_stage">
 
 
 			<div class="image-map">
-				<a class="map" rel="" style="    top: 0px;
+				<a class="map" rel="" style="top: 0px;
     left: 25rem;
     width: 12rem;
     height: 8rem;" href="#" id="car_parking"></a>
-				<a class="map" rel="o" style="   top: 1rem;
-    left: 44rem;
-    width: 6rem;
-    height: 7rem;" href="#" id="safe_food_id"></a>
 				<a class="map" rel="o" style="top: 0rem;
-    left: 61rem;
-    width: 6rem;
-    height: 10rem;" href="#" id="energy_id"></a>
+left: 39.6rem;
+width: 12rem;
+height: 7rem;" href="#" id="safe_food_id"></a>
+				<a class="map" rel="o" style="top: 0rem;
+left: 56rem;
+width: 11rem;
+height: 10rem;" href="#" id="energy_id"></a>
 				<a class="map" rel="g" style="top: 12rem;
-    left: 61rem;
-    width: 6rem;
-    height: 9rem;" href="#" id="waste_id"></a>
-				<a class="map" rel="l" style="    top: 22rem;
+left: 56rem;
+width: 11rem;
+height: 9rem;" href="#" id="waste_id"></a>
+				<a class="map" rel="l" style="top: 23rem;
     left: 59rem;
     width: 10rem;
     height: 10rem;" href="#" id="plastic_waste_id"></a>
-				<a class="map" rel="e" style="    top: 31rem;
+				<a class="map" rel="e" style="top: 31rem;
     left: 29rem;
     width: 9rem;
     height: 8rem;" href="#" id="food_waste_id"></a>
 
-				<a class="map" rel="e" style="    top: 29rem;
+				<a class="map" rel="e" style="top: 29rem;
     left: 13rem;
     width: 7rem;
     height: 7rem;" href="#" id="Sustainable_Menu_id"></a>
-				<a class="map" rel="e" style="   top: 15rem;
+				<a class="map" rel="e" style="top: 15rem;
     left: 0rem;
     width: 8rem;
     height: 9rem;" href="#" id="social_id"></a>
 				<a class="map" rel="e" style="top: 8rem;
-    left: 8rem;
-    width: 7rem;
-    height: 6rem;" href="#" id="water_id"></a>
+left: 8rem;
+width: 7rem;
+height: 7rem;" href="#" id="water_id"></a>
 			</div>
 
 
@@ -478,7 +479,7 @@
 				</div>
 				<div class="footer-socials">
 					<ul>
-						<li><a href="https://www.facebook.com/mpulse/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
 						<li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -739,7 +740,7 @@ modal.style.display = "block";
 		};
 	</script>
 
-<script type="text/javascript" src="./assets/js/common.js"></script>
+	<script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

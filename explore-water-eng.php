@@ -123,7 +123,7 @@
                             </li>
                         </div>
                         <li>
-                            <a href="https://www.metroag.de/en/contact">Contact</a>
+                            <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
                         </li>
                     </ul>
                     <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -132,14 +132,11 @@
                         <a href="https://www.menukithd.com/" target="_blank">
                             <img src="images/logo-dish.png" style="width: 5rem;">
                         </a>
-                        <a href="https://www.dish.co/XX/en/" target="_blank">
+                        <a href="https://www.dish.co/DE/en/" target="_blank">
                             <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
                         </a>
-                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                             <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-                        </a>
-                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                            <img src="images/Eitiketten.png">
                         </a>
                     </div>
                     <div class="social">
@@ -154,7 +151,7 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
@@ -217,7 +214,7 @@
                         <div class="col-md-4 px-4">
                             <div class="import_box">
                                 <img src="./images/water/col-img-1.svg" class="img-fluid">
-                                <p class="ybox-title">The link between water and climate change</p>
+                                <p class="ybox-title">The link between water<br>and climate change</p>
                                 <p>
                                     The climate is changing and greenhouse gas emissions
                                     are accelerating global warming. The increase in global
@@ -234,7 +231,7 @@
                         <div class="col-md-4 px-4">
                             <div class="import_box">
                                 <img src="./images/water/col-img-2.svg" class="img-fluid">
-                                <p class="ybox-title">Increasing discrepancies between water
+                                <p class="ybox-title">Increasing discrepancies between<br>water
                                     supply and demand</p>
                                 <p>
                                     Water availability depends on both the amount of water
@@ -252,7 +249,7 @@
                             <div class="import_box">
                                 <img src="./images/water/col-img-3.svg" class="img-fluid">
 
-                                <p class="ybox-title">The future of water quality</p>
+                                <p class="ybox-title">The future of<br>water quality</p>
                                 <p>
                                     Water quality is crucial for the life that sustains in water
                                     and for regular water usage. Higher temperatures
@@ -787,18 +784,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.dish.co/XX/en/" target="_blank">
+                                    <a href="https://www.dish.co/DE/en/" target="_blank">
                                         <img src="images/Dish_Logo-svg.svg" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                                    <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                                         <img src="images/Protrace_Logo-ai.svg" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                                        <img src="images/Eitiketten.png" />
                                     </a>
                                 </li>
                             </ul>
@@ -947,7 +939,7 @@
                 <div class="footer-socials">
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/mpulse/" target="_blank">
+                            <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>

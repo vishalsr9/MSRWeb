@@ -719,7 +719,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.dish.co/XX/en/" target="_blank">
+                                    <a href="https://www.dish.co/DE/en/" target="_blank">
                                         <img src="images/Dish_Logo-svg.svg" />
                                     </a>
                                 </li>

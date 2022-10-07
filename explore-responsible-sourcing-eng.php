@@ -28,6 +28,10 @@
             z-index: 10;
         }
 
+        .ggnlogo {
+            width: 4rem !important;
+        }
+
         #d-border1 {
             content: ' ';
             display: block;
@@ -291,7 +295,7 @@
 
         .sltitle93 {
             top: 7rem !important;
-            left: -5rem !important;
+            left: -8rem !important;
         }
 
         .slimage94 {
@@ -758,7 +762,7 @@
                             </li>
                         </div>
                         <li>
-                            <a href="https://www.metroag.de/en/contact">Contact</a>
+                            <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
                         </li>
                     </ul>
                     <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -767,14 +771,11 @@
                         <a href="https://www.menukithd.com/" target="_blank">
                             <img src="images/logo-dish.png" style="width: 5rem;">
                         </a>
-                        <a href="https://www.dish.co/XX/en/" target="_blank">
+                        <a href="https://www.dish.co/DE/en/" target="_blank">
                             <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
                         </a>
-                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                             <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-                        </a>
-                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                            <img src="images/Eitiketten.png">
                         </a>
                     </div>
                     <div class="social">
@@ -954,7 +955,7 @@
                     </div>
                     <div class="col-md-3 no-print">
                         <div class="protrace-frame">
-                            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace">
+                            <a href="https://dataentry.protrace.metrosystems.net/login">
                                 <img src="images/Protrace_Logo-ai.svg" class="protrace-img" />
                             </a>
                         </div>
@@ -1150,7 +1151,7 @@
                                                 <div class="swiper-slide ss sl9 sl93">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage93">
-                                                            <img src="images/resp_sourcing/scheme-logos/GGN.png" class="img-fluid">
+                                                            <img src="images/resp_sourcing/scheme-logos/GGN_FullLogo.svg" class="ggnlogo">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle93">
                                                             <span class="sltitletxt">GGN</span>
@@ -3401,13 +3402,10 @@
                             <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
                         </li>
                         <li>
-                            <a href="https://www.dish.co/XX/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                            <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
                         </li>
                         <li>
-                            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.metro-go.de/de-DE/home" target="_blank"> <img src="images/Eitiketten.png" /></a>
+                            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
                         </li>
                     </ul>
 
@@ -3525,7 +3523,7 @@
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://www.facebook.com/mpulse/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank"> <i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                         <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>

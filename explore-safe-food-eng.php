@@ -430,7 +430,7 @@
               </li>
             </div>
             <li>
-              <a href="https://www.metroag.de/en/contact">Contact</a>
+              <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
             </li>
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -439,14 +439,11 @@
             <a href="https://www.menukithd.com/" target="_blank">
               <img src="images/logo-dish.png" style="width: 5rem;">
             </a>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
             </a>
-            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
               <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-            </a>
-            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-              <img src="images/Eitiketten.png">
             </a>
           </div>
           <div class="social">
@@ -461,7 +458,7 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -953,7 +950,7 @@
                                               <div class="col-md-12">
                                                 <div class="pageSlider-slide-text">
                                                   <span class="sldText12">
-                                                    Delivery and takeaway
+                                                    Delivery and take-away
                                                   </span>
                                                 </div>
                                               </div>
@@ -1739,18 +1736,13 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.dish.co/XX/en/" target="_blank">
+                  <a href="https://www.dish.co/DE/en/" target="_blank">
                     <img src="images/Dish_Logo-svg.svg" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                  <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                     <img src="images/Protrace_Logo-ai.svg" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                    <img src="images/Eitiketten.png" />
                   </a>
                 </li>
               </ul>
@@ -1893,7 +1885,7 @@
         <div class="footer-socials">
           <ul>
             <li>
-              <a href="https://www.facebook.com/mpulse/" target="_blank">
+              <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
@@ -2043,9 +2035,9 @@
   <div id="pop12" class="modalx">
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(12);">X</a>
-      <h4>Delivery and takeaway</h4>
+      <h4>Delivery and take-away</h4>
       <p>
-        Especially since the outbreak of COVID 19, food delivery and take- away has picked up momentum. Strong containers that keep food free of contamination and are easy to dispose of, are needed. Compostable containers are a good alternative and if you can use a returnable container scheme, check how the containers are cleaned.
+        Especially since the outbreak of COVID 19, food delivery and take-away has picked up momentum. Strong containers that keep food free of contamination and are easy to dispose of, are needed. Compostable containers are a good alternative and if you can use a returnable container scheme, check how the containers are cleaned.
       </p>
     </div>
   </div>

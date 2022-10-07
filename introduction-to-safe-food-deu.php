@@ -41,61 +41,61 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-safe-food-deu.php" selected>DEU</option>
-            <option value="introduction-to-safe-food-eng.php">ENG</option>
+            <option value="introduction-to-responsible-sourcing-deu.php" selected>DEU</option>
+            <option value="introduction-to-responsible-sourcing-eng.php">ENG</option>
           </select>
         </div>
         <nav>
           <ul class="main">
             <li>
-              <a href="http://msr.bdevtestservers.com/">Home</a>
+              <a href="http://msr.bdevtestservers.com/home.php">Home</a>
             </li>
             <li>
-              <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
+              <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
             </li>
             <li>
-              <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
+              <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
             </li>
             <div class="sub_menuUi">
               <li>
-                <a href="introduction-to-sustainable-menu-eng.php">Sustainable Menu</a>
+                <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
               </li>
               <li>
-                <a href="introduction-to-responsible-sourcing-eng.php">Responsible Sourcing</a>
+                <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
               </li>
               <li>
-                <a href="introduction-to-food-waste-eng.php">Food Waste</a>
+                <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
               </li>
               <li>
-                <a href="introduction-to-plastic-waste-eng.php">Plastic Waste</a>
+                <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
               </li>
               <li>
-                <a href="introduction-to-safe-food-eng.php">Safe Food</a>
+                <a href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit</a>
               </li>
               <li>
-                <a href="introduction-to-energy-eng.php">Energy</a>
+                <a href="introduction-to-energy-deu.php">Energie</a>
               </li>
               <li>
-                <a href="introduction-to-water-eng.php">Water</a>
+                <a href="introduction-to-water-deu.php">Wasser</a>
               </li>
               <li>
-                <a href="introduction-to-waste-eng.php">Waste</a>
+                <a href="introduction-to-waste-deu.php">Abfälle</a>
               </li>
               <li>
-                <a href="introduction-to-social-eng.php">Social</a>
+                <a href="introduction-to-social-deu.php">Gemeinschaft</a>
               </li>
             </div>
             <li>
-              <a href="https://www.metroag.de/en/contact">Contact</a>
+              <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
           <div class="social">
-            <p>Useful Links</p>
+            <p>Hilfreiche Links</p>
             <a href="https://www.menukithd.com/" target="_blank">
               <img src="images/logo-dish.png" style="width: 5rem;">
             </a>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
             </a>
             <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
@@ -117,7 +117,7 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -307,7 +307,7 @@
                 <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
               </li>
               <li>
-                <a href="https://www.dish.co/XX/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
               </li>
               <li>
                 <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
@@ -429,7 +429,7 @@
         </div>
         <div class="footer-socials">
           <ul>
-            <li><a href="https://www.facebook.com/mpulse/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
             <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
             <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>

@@ -83,7 +83,7 @@
               </li>
             </div>
             <li>
-              <a href="https://www.metroag.de/en/contact">Kontakt</a>
+              <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -92,7 +92,7 @@
             <a href="https://www.menukithd.com/" target="_blank">
               <img src="images/logo-dish.png" style="width: 5rem;">
             </a>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
             </a>
             <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">

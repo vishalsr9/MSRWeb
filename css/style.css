@@ -1825,6 +1825,7 @@ html {
   padding-top: 20px;
   bottom: 0;
   left: 0;
+  z-index: 100;
 }
 body.popup-exists {
   overflow-x: hidden;

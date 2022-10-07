@@ -161,7 +161,7 @@
               </li>
             </div>
             <li>
-              <a href="https://www.metroag.de/en/contact">Contact</a>
+              <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
             </li>
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -170,14 +170,11 @@
             <a href="https://www.menukithd.com/" target="_blank">
               <img src="images/logo-dish.png" style="width: 5rem;">
             </a>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
             </a>
-            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
               <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-            </a>
-            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-              <img src="images/Eitiketten.png">
             </a>
           </div>
           <div class="social">
@@ -192,7 +189,7 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
@@ -1583,18 +1580,13 @@
             </a>
           </li>
           <li>
-            <a href="https://www.dish.co/XX/en/" target="_blank">
+            <a href="https://www.dish.co/DE/en/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" />
             </a>
           </li>
           <li>
-            <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
               <img src="images/Protrace_Logo-ai.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-              <img src="images/Eitiketten.png" />
             </a>
           </li>
         </ul>
@@ -1734,7 +1726,7 @@
         <div class="footer-socials">
           <ul>
             <li>
-              <a href="https://www.facebook.com/mpulse/" target="_blank">
+              <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
@@ -1897,107 +1889,7 @@
       <a class="read-more-btn btn btn-sm food_wastePop_btn-close7">X</a>
     </div>
   </div> -->
-  <script>
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop1").click(function() {
-        $("#food_wastePop_content-1").css("display", "block");
-      });
-      $(".food_wastePop_btn-close1").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-1").css("display", "none");
-      });
-    });
 
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop2").click(function() {
-        $("#food_wastePop_content-2").css("display", "block");
-      });
-      $(".food_wastePop_btn-close2").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-2").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop3").click(function() {
-        $("#food_wastePop_content-3").css("display", "block");
-      });
-      $(".food_wastePop_btn-close3").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-3").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop4").click(function() {
-        $("#food_wastePop_content-4").css("display", "block");
-      });
-      $(".food_wastePop_btn-close4").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-4").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop5").click(function() {
-        $("#food_wastePop_content-5").css("display", "block");
-      });
-      $(".food_wastePop_btn-close5").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-5").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop6").click(function() {
-        $("#food_wastePop_content-6").css("display", "block");
-      });
-      $(".food_wastePop_btn-close6").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-6").css("display", "none");
-      });
-    });
-
-    $(document).ready(function() {
-      //slide one
-      $(".food_wastePop7").click(function() {
-        $("#food_wastePop_content-7").css("display", "block");
-      });
-      $(".food_wastePop_btn-close7").click(function() {
-        //alert("Hi")
-        $("#food_wastePop_content-7").css("display", "none");
-      });
-    });
-
-
-
-
-    $(document).ready(function() {
-      $('#myBtn33').click(function() {
-        //get collapse content selector
-        var collapse_content_selector = $(this).attr('href');
-
-        //make the collapse content to be shown or hide
-        var toggle_switch = $(this);
-        $(collapse_content_selector).toggle(function() {
-          if ($(this).css('display') == 'none') {
-            //change the button label to be 'Show'
-            toggle_switch.html('Read More');
-          } else {
-            //change the button label to be 'Hide'
-            toggle_switch.html('Read Less');
-          }
-        });
-      });
-
-    });
-  </script>
 
   <script>
     //pageSlider swiper
@@ -2032,19 +1924,7 @@
     });
   </script>
 
-  <script type="text/javascript">
-    var eurl = "explore-food-waste-eng.php"
-    var gurl = "explore-food-waste-deu.php"
 
-
-    //btn-test click test script
-
-    $(document).ready(function() {
-      $('#select').change(function() {
-        location.href = $(this).val();
-      });
-    });
-  </script>
   <script src="jquery/page1.js"></script>
   <script>
     document.onreadystatechange = function() {

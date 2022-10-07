@@ -79,7 +79,7 @@
                             </li>
                         </div>
                         <li>
-                            <a href="https://www.metroag.de/en/contact">Contact</a>
+                            <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
                         </li>
                     </ul>
                     <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -88,14 +88,11 @@
                         <a href="https://www.menukithd.com/" target="_blank">
                             <img src="images/logo-dish.png" style="width: 5rem;">
                         </a>
-                        <a href="https://www.dish.co/XX/en/" target="_blank">
+                        <a href="https://www.dish.co/DE/en/" target="_blank">
                             <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
                         </a>
-                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
                             <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-                        </a>
-                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                            <img src="images/Eitiketten.png">
                         </a>
                     </div>
                     <div class="social">
@@ -110,7 +107,7 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/mpulse/" target="_blank">
+                                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
@@ -328,15 +325,11 @@
                                 <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
                             </li>
                             <li>
-                                <a href="https://www.dish.co/XX/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                                <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
                             </li>
                             <li>
-                                <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
+                                <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
                             </li>
-                            <li>
-                                <a href="https://www.metro-go.de/de-DE/home" target="_blank"> <img src="images/Eitiketten.png" /></a>
-                            </li>
-
                         </ul>
 
                     </div>
@@ -451,7 +444,7 @@
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://www.facebook.com/mpulse/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank"> <i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                         <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
