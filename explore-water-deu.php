@@ -222,7 +222,7 @@
                         <div class="col-md-4 px-4">
                             <div class="import_box">
                                 <img src="./images/water/col-img-1.svg" class="img-fluid">
-                                <p class="ybox-title">Der Zusammenhang von Wasser und Klimawandel</p>
+                                <p class="ybox-title">Der Zusammenhang von Wasser<br>und Klimawandel</p>
                                 <p>
                                     Das Klima verändert sich und führt zu einer steigenden Erderwärmung. Der Anstieg der globalen Durchschnittstemperatur hat weitreichende Folgen. Dazu gehören Extremwetterlagen wie Trockenheit, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels. Zusätzlich verzeichnen Wissenschaftler messbare Auswirkungen auf die Menge, Verteilung, Verfügbarkeit und Qualität von Wasser.
                                 </p>
@@ -232,7 +232,7 @@
                         <div class="col-md-4 px-4">
                             <div class="import_box">
                                 <img src="./images/water/col-img-2.svg" class="img-fluid">
-                                <p class="ybox-title">Die wachsende Kluft zwischen Wasserangebot und -nachfrage</p>
+                                <p class="ybox-title">Die wachsende Kluft<br>zwischen Wasserangebot und nachfrage</p>
                                 <p>
                                     Wasservorräte hängen sowohl von der verfügbaren Wassermenge als auch von der Wassernutzung ab. Wenn der Verbrauch einen bestimmten Prozentsatz der verfügbaren Ressourcen übersteigt, wird dies als Wasserstress bezeichnet. Die Ursachen für Wasserstress sind Bevölkerungs- und Wirtschaftswachstum sowie der steigende Verbrauch von z.B. industriellem Fleisch und Milchprodukten.
                                 </p>
@@ -242,7 +242,7 @@
                             <div class="import_box">
                                 <img src="./images/water/col-img-3.svg" class="img-fluid">
 
-                                <p class="ybox-title">Die Zukunft der Wasserqualität</p>
+                                <p class="ybox-title">Die Zukunft der<br>Wasserqualität</p>
                                 <p>
                                     Die Wasserqualität ist sowohl für Lebewesen in Gewässern als auch für die Wassernutzung von Bedeutung. Höhere Temperaturen verringern den Sauerstoffgehalt von Gewässern, der für Lebewesen unter Wasser unerlässlich ist. Wenn die derzeitige Entwicklung anhält, wird sich die Wasserqualität in den kommenden Jahrzehnten weiter verschlechtern, wodurch die menschliche Gesundheit und unsere Ökosysteme weiter gefährdet werden. Dabei wird die Art der landwirtschaftlichen Nutzung in Flusseinzugsgebieten, insbesondere der Einsatz von Düngemitteln und Pestiziden, den größten Einfluss haben.
                                 </p>

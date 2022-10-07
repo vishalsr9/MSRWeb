@@ -67,7 +67,7 @@
                 <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
               </li>
               <li>
-                <a href="introduction-to-safe-food-deu.php">Sichere Lebensmittel</a>
+                <a href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit</a>
               </li>
               <li>
                 <a href="introduction-to-energy-deu.php">Energie</a>
