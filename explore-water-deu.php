@@ -492,7 +492,7 @@
                                                 <h5>Wenden Sie sich an Ihr Stadtwerk</h5>
                                             </div>
                                             <div class="col-md-12 text9">
-                                                Stellen Sie Regentonnen auf, um Regenwasser aufzufangen und wiederzuverwenden, z.B. zum Gießen von Pflanzen oder Reinigen der Außenbereiche. Grauwasser kann auch für die Toilettenspülung verwendet werden. Seien Sie innovativ und informieren Sie sich bei Ihrem Stadtwerk über die beste Methode, um in Ihrer Region Wasser zu sparen.
+                                                Stellen Sie Regentonnen auf, um Regenwasser aufzufangen und wiederzuverwenden, z.B. zum Gießen von Pflanzen oder Reinigen der Außenbereiche. Grauwasser kann auch für die Toilettenspülung verwendet werden. Seien Sie innovativ und informieren Sie sich bei Ihren Stadtwerken über die beste Methode, um in Ihrer Region Wasser zu sparen.
                                             </div>
                                         </div>
                                     </div>
@@ -613,7 +613,7 @@
                         <div class="col-md-6">
                             <div class="track-and_talk_discr">
                                 <h3>Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
-                                <p class="justify1 prless-2r">Überprüfen Sie die Veränderungen Ihres Wasserverbrauchs, sobald Sie einige der genannten Maßnahmen zur Wassereinsparung ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand erfordern. Erkundigen Sie sich beispielsweise bei Ihrem Wasserversorger über Angebote, die Sie verwenden können. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Sie bereits einsparen konnten und wie sie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Wasser zu sparen. Machen Sie Ihre Maßnahmen bekannt. Zum Beispiel kann ein Schild in den Waschräumen oder auf der Speisekarte Ihre Gäste auf Ihr verantwortungsvolles Handeln hinweisen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
+                                <p class="justify1 prless-2r">Überprüfen Sie die Veränderungen Ihres Wasserverbrauchs, sobald Sie einige der genannten Maßnahmen zur Wassereinsparung ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand erfordern. Erkundigen Sie sich beispielsweise bei Ihrem Wasserversorger über nützliche Angebote.. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Sie bereits einsparen konnten und wassie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Wasser zu sparen. Machen Sie Ihre Maßnahmen bekannt. Zum Beispiel kann ein Schild in den Waschräumen oder auf der Speisekarte Ihre Gäste auf Ihr verantwortungsvolles Handeln hinweisen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
                             </div>
                         </div>
                         <div class="col-md-6">

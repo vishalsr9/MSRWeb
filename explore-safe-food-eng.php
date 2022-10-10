@@ -87,8 +87,10 @@
     }
 
     .sldImg12>img {
-      width: 12rem;
+      width: 23rem;
       transition: .5s;
+      margin-top: 2rem;
+      margin-bottom: 0rem;
     }
 
     .sldImg13>img {
@@ -176,8 +178,10 @@
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg12>img {
-      width: 22rem;
+      width: 35rem;
       transition: .5s;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
     }
 
     .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg13>img {
@@ -1020,7 +1024,7 @@
                                               <div class="col-md-12">
                                                 <div class="pageSlider-slide-image">
                                                   <span class="sldImg15">
-                                                    <img src="images/safe_food/safe-12.svg" class=" img-fluid">
+                                                    <img src="images/safe_food/safe-14.svg" class=" img-fluid">
                                                   </span>
                                                 </div>
                                               </div>

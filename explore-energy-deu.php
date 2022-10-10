@@ -177,8 +177,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-safe-food-deu.php" selected>DEU</option>
-                        <option value="explore-safe-food-eng.php">ENG</option>
+                        <option value="explore-energy-deu.php" selected>DEU</option>
+                        <option value="explore-energy-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -300,7 +300,7 @@
                 <div class="left-content no-print">
                     <h3>Wie man Energie effizient nutzt</h3>
                     <h4>Energienutzung in der Gastronomie</h4>
-                    <p>Energie kann einen erheblichen Kostenfaktor für Ihren Betrieb darstellen. Angesichts steigender Energiekosten und der begrenzten Verfügbarkeit fossiler Ressourcen sowie der wachsenden Sensibilität der Verbraucher für Umweltfragen ist es an der Zeit, Energie effizienter zu nutzen und gleichzeitig Kosten zu sparen.<span id="dots"></span>
+                    <p>Energie kann einen erheblichen Kostenfaktor für Ihren Betrieb darstellen. Angesichts steigender Energiekosten und der begrenzten Verfügbarkeit fossiler Ressourcen sowie der wachsenden Sensibilität der Verbraucher und Verbraucherinnen für Umweltfragen ist es an der Zeit, Energie effizienter zu nutzen und gleichzeitig Kosten zu sparen.<span id="dots"></span>
 
                     </p>
                     <!-- <button class="read-more-btn" href="#" id="myBtn" onclick="expand-next('#more')">Read more</button> -->
@@ -738,8 +738,8 @@
                         <div class="col-md-4">
                             <div class="plastic-wasteStep energy_img_row_main1">
                                 <h2>01</h2>
-                                <h4>Installieren Sie<br>Kompaktleuchtstofflampen</h4>
-                                <p>Wussten Sie, dass Kompaktleuchtstofflampen 75% weniger Energie verbrauchen und 10 Mal länger halten als herkömmliche Glühbirnen? Langfristig gesehen, bietet die Anschaffung dieser Lampen erhebliche ökologische und wirtschaftliche Vorteile.</p>
+                                <h4>IInstallieren Sie LED-Lampen</h4>
+                                <p>Wussten Sie, dass Kompaktleuchtstofflampen 90% weniger Energie verbrauchen und eine deutlich längere Lebensdauer als herkömmliche Glühbirnen haben? Langfristig gesehen, bietet die Anschaffung dieser Lampen erhebliche ökologische und wirtschaftliche Vorteile.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -755,7 +755,7 @@
                                 <h2>05</h2>
                                 <h4>Nutzen Sie erneuerbare Energiequellen</h4>
                                 <p>
-                                    Mit der Nutzung erneuerbarer Energie tragen Sie nicht nur zu mehr Umweltschutz bei, sondern Sie haben dadurch langfristig auch wirtschaftliche Vorteile.
+                                    Mit der Nutzung erneuerbarer Energie tragen Sie nicht nur zu mehr Umweltschutz bei, zugleich profitieren sie langfristig von wirtschaftlichen Vorteilen.
                                     <span id="dots"></span><span id="moreless"><br class="mb-4">
                                         Erkundigen Sie sich bei Ihrem kommunalen Energieversorger über Angebote und mögliche finanzielle Fördermittel.<br>
                                         <i class="fa fa-caret-right"></i>Installieren Sie Solarmodule. Thermische Solaranlagen können Wasser erwärmen und rentieren sich oftmals schon nach 2 bis 3 Jahren<br class="mb-4">
@@ -785,7 +785,7 @@
                         <div class="col-md-5">
                             <div class="banner_l4_title" style="padding-left: 3rem;">
                                 <h1 class="banner_title2">Überprüfen Sie Ihre<br>Fortschritte und sprechen Sie darüber</h1>
-                                <p>Überprüfen Sie die Veränderungen Ihres Energieverbrauchs, sobald Sie einige der genannten Maßnahmen ergriffen haben. Informieren Sie sich bei Ihrem kommunalen Energieversorgungsunternehmen über Lösungen, die nicht viel Aufwand benötigen. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Energie Sie eingespart haben. Erfolge können alle motivieren, weiterhin Energie zu sparen. Machen Sie Ihre Maßnahmen bekannt: Hinweise auf den Gästetoiletten mit der Aufforderung, das Licht auszuschalten oder Energiespartipps auf Ihrer Speisekarte und Webseite erinnern daran, noch mehr Energie zu sparen.</p>
+                                <p>Überprüfen Sie die Veränderungen Ihres Energieverbrauchs, sobald Sie einige der genannten Maßnahmen ergriffen haben. Informieren Sie sich bei Ihrem lokalen Energieversorgungsunternehmen über Lösungen, die nicht viel Aufwand benötigen. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Energie Sie eingespart haben. Erfolge können alle motivieren, weiterhin Energie zu sparen. Machen Sie Ihre Maßnahmen bekannt: Hinweise auf den Gästetoiletten mit der Aufforderung, das Licht auszuschalten oder Energiespartipps auf Ihrer Speisekarte und Webseite erinnern daran, noch mehr Energie zu sparen.</p>
                             </div>
                         </div>
                         <div class="col-md-5 offset-md-1">

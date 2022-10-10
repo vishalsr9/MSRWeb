@@ -208,7 +208,7 @@
       </div>
       <div class="right-content">
         <p>
-          Wenn Abfälle nicht angemessen gehandhabt werden, werden sie zum Problem. Sie kosten Geld und schaden der Umwelt und unserer Gesundheit, wenn sie nicht ordnungsgemäß entsorgt werden. Als Gastronomin oder Gastronom können Sie viel bewirken, indem Sie Abfälle vermeiden, richtig sortieren und entsorgen. Auf diese Weise können Sie Kosten vermeiden und Ihren guten Ruf bei Ihren Gästen und in Ihrer Gemeinde ausbauen.
+          Wenn man nicht angemessen mit Abfällen umgeht, werden sie zum Problem. Sie kosten Geld und schaden der Umwelt und unserer Gesundheit, wenn sie nicht ordnungsgemäß entsorgt werden. Als Gastronomin oder Gastronom können Sie viel bewirken, indem Sie Abfälle vermeiden, richtig sortieren und entsorgen. Auf diese Weise können Sie Kosten vermeiden und Ihren guten Ruf bei Ihren Gästen und in Ihrer Gemeinde ausbauen.
         </p>
         <p>Die Vorteile der Vermeidung von Abfall sind:</p>
       </div>
@@ -284,7 +284,7 @@
         <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
       </div>
       <div class="right-content">
-        <p>Weltweit sind die Mülldeponien überfüllt. Bei der Zersetzung von Abfällen entsteht Methan, ein Treibhausgas, das die globale Erderwärmung und den Klimawandel verstärkt. Wenn Deponien falsch geführt werden, sickern Chemikalien in den umliegenden Boden und das Wasser. Das stellt ein Problem für die Natur und unsere Gesundheit dar. Restaurants können enorme Mengen an Abfall erzeugen und sollten auf die Vermeidung von unnötigem Abfall achten.</p>
+        <p>Weltweit sind die Mülldeponien überfüllt. Bei der Zersetzung von Abfällen entsteht Methan, ein Treibhausgas, das die globale Erderwärmung und den Klimawandel verstärkt. Wenn Deponien falsch geführt werden, sickern Chemikalien in den umliegenden Boden und damit in das Grundwasser. Das stellt ein Problem für die Natur und unsere Gesundheit dar. Restaurants können enorme Mengen an Abfall erzeugen und sollten auf die Vermeidung von unnötigem Abfällen achten.</p>
       </div>
     </div>
   </section>
@@ -298,9 +298,9 @@
 
 
       <ul class="mt-1" style="margin-top:-45px !important">
-        <li>Lösungen zur Abfallvermeidung sind immer leichter zu finden. Sie können zunächst einfache Maßnahmen für Ihr Abfallmanagement ergreifen, z.B. indem Sie Ihre Abfälle sortieren. Zusätzlich sollten Sie mit Ihren Mitarbeitenden sprechen und gemeinsam nach Abfallquellen suchen. Schließlich können Sie sich an Ihr kommunales Stadtwerk und Ihren Großhändler wenden, um zu erfahren, welche Lösungen sie zur Abfallvermeidung anbieten.</li>
+        <li>Lösungen zur Abfallvermeidung sind immer leichter zu finden. Sie können zunächst einfache Maßnahmen für Ihr Abfallmanagement ergreifen, z.B. indem Sie Ihre Abfälle sortieren. Zusätzlich sollten Sie mit Ihren Mitarbeitenden sprechen und gemeinsam nach Abfallquellen suchen. Schließlich können Sie sich an Ihre Stadtwerke und Ihren Großhändler wenden, um zu erfahren, welche Lösungen sie zur Abfallvermeidung anbieten.</li>
 
-        <li>Beachten Sie folgende Tipps für Lebensmittelabfälle: Hinweise für Einweg-Plastikartikel, wie z.B. Mahlzeiten zum Mitnehmen, Plastikbesteck oder -verpackungen, finden Sie hier.</li>
+        <li>Beachten Sie folgende Tipps für <a href="introduction-to-food-waste-deu.php">Lebensmittelabfälle</a>: Hinweise für Einweg-Plastikartikel, wie z.B. Mahlzeiten zum Mitnehmen, Plastikbesteck oder -verpackungen, finden Sie <a href="introduction-to-plastic-waste-deu.php">hier</a>.</li>
 
         <li>Generell gilt, dass Sie Ihre Abfalltrennung optimieren sollten, indem Sie in allen Bereichen, in denen Müll anfällt, Behälter aufstellen, die leicht zu reinigen sind.</li>
       </ul>

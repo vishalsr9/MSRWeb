@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="pageslider.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
+        .pageSlider-slide-text>span {
+            text-transform: full-size-kana !important;
+
+        }
+
         section.good_to_know.no-print.mtcsutom.energy_page.waste_l4-page .good_to_know_box.p-4.safe_foodBox_l4 {
             min-height: 260px;
         }
@@ -95,22 +100,26 @@
         }
 
         .sldImg04>img {
+            width: 23rem;
+            transition: .5s;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+            width: 33rem;
+            transition: .5s;
+            margin-top: 6rem;
+            margin-bottom: 3rem;
+        }
+
+        .sldImg05>img {
             width: 9rem;
             transition: .5s;
         }
 
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
-            width: 13rem;
-            transition: .5s;
-        }
-
-        .sldImg05>img {
-            width: 12rem;
-            transition: .5s;
-        }
-
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
-            width: 23rem;
+            width: 17rem;
             transition: .5s;
         }
 
@@ -279,8 +288,8 @@
                 <div class="container">
                     <div class="row">
                         <h3 class="food_wasteTitle">Gut zu wissen</h3>
-                        <p class="exploreFood_discripsn mb-5">Abfall hat mehr Wert, wenn er für die weitere Verwendung und Verarbeitung richtig sortiert wird. Hier sind einige<br>
-                            Kategorien, in die Abfälle getrennt werden können.<br><strong>Die Unterstützung durch die örtlichen Behörden, Freiwilligenorganisationen und Lieferanten hängt von der jeweiligen Region ab:</strong></p>
+                        <p class="exploreFood_discripsn mb-5">Abfall hat mehr Wert, wenn er für die weitere Verwendung und Verarbeitung richtig sortiert wird. Im Folgenden werden<br>
+                            einige Kategorie benannt, wie Sie Abfälle korrekt trennen und entsorgen können.<br><strong>Die Unterstützung durch die örtlichen Behörden, Freiwilligenorganisationen und Lieferanten hängt von der jeweiligen Region ab:</strong></p>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4 safe_foodBox_l4">
                                 <img src="./images/safe_food/wl2.svg" class="img-fluid">
@@ -424,7 +433,7 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText04">
-                                                                                            Wenden Sie sich an Ihre Behörden vor Ort, um zu erfahren, welche Lösungen es gibt. Sprechen Sie mit Ihrem Großhändler und fragen Sie, welche Lösungen für ein besseres Abfallmanagement angeboten werden. Einige organisieren die Abholung von Abfällen.
+                                                                                            Wenden Sie sich an Ihre Behörden vor Ort, um zu erfahren, welche Lösungen es gibt.
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -442,14 +451,14 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText05">
-                                                                                            Für die Entsorgung
+                                                                                            Für die Entsorgung von Lebensmittelabfällen finden Sie hier einige Tipps.
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-button">
                                                                                         <span class="sldBtn05">
-                                                                                            <button class="read-more-btn" onclick="openPopUp(5);">Weiterlesen</button>
+                                                                                            <a href="introduction-to-food-waste-deu.php" class="read-more-btn">Weiterlesen</a>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -467,14 +476,14 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText06">
-                                                                                            Für Einwegartikel aus Kunststoff, z.B. Produkte zum Mitnehmen, Plastikrührstäbchen und Verpackungen aus Kunststoff, schauen Sie sich diese Tipps an.
+                                                                                            Für Einwegartikel aus Kunststoff, z.B. Produkte zum Mitnehmen, Plastikrührstäbchen und Verpackungen aus Kunststoff, schauen Sie sich diese Hinweise an.
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-button">
                                                                                         <span class="sldBtn06">
-                                                                                            <button class="read-more-btn" onclick="openPopUp(6);">Weiterlesen</button>
+                                                                                            <a href="introduction-to-plastic-waste-deu.php" class="read-more-btn">Weiterlesen</a>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -590,8 +599,7 @@
                         <div class="col-md-6">
                             <div class="track-and_talk_discr">
                                 <h3>Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
-                                <p>Überprüfen Sie die Veränderungen Ihres Abfallmanagements, sobald Sie einige der genannten Maßnahmen ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand von Ihnen erfordern. Erkundigen Sie sich beispielsweise bei Ihrem kommunalen Entsorgungsunternehmen über Angebote, die Sie nutzen können. Und sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Abfall Sie insgesamt vermieden haben und wie diese dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Abfall zu vermeiden.<br>
-                                    Da es lokale Unterschiede bei den Müllabfuhr- und Entsorgungsdiensten gibt, müssen Sie selbst entscheiden, wie Sie Ihre Gäste auf Ihr Abfallmanagement aufmerksam machen. Sie können auf Kontaktstellen hinweisen, z.B. auf die Website des kommunalen Entsorgungsunternehmens, auf METRO-Services oder auf spezifische Dienstleistungen, die Ihre Lieferanten anbieten. Die Wirkung Ihrer Handlungen wird dadurch vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen!</p>
+                                <p>Überprüfen Sie die Veränderungen Ihres Abfallmanagements, sobald Sie einige der genannten Maßnahmen ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand von Ihnen erfordern. Erkundigen Sie sich beispielsweise bei Ihrem lokalen Entsorgungsunternehmen über Angebote, die Sie nutzen können. Und Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Abfall Sie insgesamt vermieden haben und wie Sie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Abfall zu vermeiden. Da es lokale Unterschiede bei den Müllabfuhr- und Entsorgungsdiensten gibt, müssen Sie selbst entscheiden, wie Sie Ihre Gäste auf Ihr Abfallmanagement aufmerksam machen. Sie können auf Kontaktstellen hinweisen, z.B. auf die Website des lokalen Entsorgungsunternehmens, auf METRO-Services oder auf spezifische Dienstleistungen, die Ihre Lieferanten anbieten. Die Wirkung Ihrer Handlungen wird dadurch vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen!</p>
                             </div>
                         </div>
                         <div class="col-md-6">

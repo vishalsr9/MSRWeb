@@ -322,7 +322,7 @@
         </div>
         <div class="right-content">
           <p>
-            Der verantwortungsvolle Umgang mit Wasser ist eine weltweite Herausforderung: Es ist eine unserer kostbarsten und am meisten gefährdeten natürlichen Ressourcen. Nach Angaben der UNESCO lebt etwa 80% der Weltbevölkerung in Gebieten, in denen die Sicherheit des Wassers stark gefährdet ist. Der weltweite Bedarf wird in den kommenden Jahrzehnten noch erheblich steigen und Prognosen der UNESCO zufolge wird die Welt bis 2030 mit einem globalen Wasserdefizit von 40% konfrontiert sein. Die Auswirkungen des Klimawandels werden das Problem weiter verschärfen und zu einer zunehmenden Diskrepanz zwischen Wasserangebot und -nachfrage führen.
+            Der verantwortungsvolle Umgang mit Wasser ist eine weltweite Herausforderung: Es ist eine unserer kostbarsten natürlichen Ressourcen, die zugleich extrem gefährdet ist. Nach Angaben der UNESCO lebt etwa 80% der Weltbevölkerung in Gebieten, in denen die Sicherheit des Wassers stark gefährdet ist. Der weltweite Bedarf wird in den kommenden Jahrzehnten noch erheblich steigen und Prognosen der UNESCO zufolge wird die Welt bis 2030 mit einem globalen Wasserdefizit von 40% konfrontiert sein. Die Auswirkungen des Klimawandels werden das Problem weiter verschärfen und zu einer zunehmenden Diskrepanz zwischen Wasserangebot und -nachfrage führen.
           </p>
         </div>
       </section>
@@ -337,7 +337,7 @@
                 <h3 class="know-how-heading">KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>WASSER SPAREN</h3>
                 <ul class="justify1">
                   <li class=" strongUl">
-                    Analysieren und bewerten Sie Ihren Wasserverbrauch. Ihr Stadtwerk kann Ihnen dabei helfen. Finden Sie heraus, wo Wasser verschwendet wird, und beginnen Sie mit einfachen Maßnahmen, wie z.B. das Reparieren von undichten Wasserhähnen oder dem Austausch von defekten Leitungen.
+                    Analysieren und bewerten Sie Ihren Wasserverbrauch. Ihre Stadtwerke können Ihnen dabei helfen. Finden Sie heraus, wo Wasser verschwendet wird, und beginnen Sie mit einfachen Maßnahmen, wie z.B. das Reparieren von undichten Wasserhähnen oder dem Austausch von defekten Leitungen.
                   </li>
                   <li class=" strongUl">
                     Auch die Essenszubereitung oder die Reinigung von Geschirr lässt sich oft mit deutlich weniger Wasser durchführen. Lassen Sie zum Beispiel den Geschirrspüler nur dann laufen, wenn er voll ist.

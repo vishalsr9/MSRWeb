@@ -179,14 +179,14 @@
         <div class="col-md-6 border-right">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/en-2.svg" class="px-4">
-            <h4><strong>39%</strong> der HoReCa-Kunden die Senkung<br>ihres Energie- und Wasserverbrauchs<br>
-              zu den wichtigsten Themen<br>in ihrem Geschäftsbetrieb zählen</h4>
+            <h4><strong>39%</strong> der HoReCa-Kundinnen und Kunden die <br>Senkung ihres Energie- und Wasserverbrauchs<br>
+              zu den wichtigsten Themen in ihrem<br>Geschäftsbetrieb zählen</h4>
           </div>
         </div>
         <div class="col-md-6">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/en-3.svg" class="px-4 dis_img2">
-            <h4><strong>38% </strong>der HoReCa-Kunden am meisten<br>daran interessiert sind, ihren<br>Energie- und Wasserverbrauch zu senken</h4>
+            <h4><strong>38% </strong>der HoReCa-Kunden vor<br>allem daran interessiert sind, ihren<br>Energie- und Wasserverbrauch zu senken</h4>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
         <div class="col-md-6 border-right">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/en-4.svg" class="px-4">
-            <h4>Kompaktleuchtstofflampen <strong>75%</strong><br>weniger Energie als Glühbirnen verbrauchen<br>und bis zu 10 Mal länger halten (wodurch<br>Sie eine Menge Geld sparen können)</h4>
+            <h4>LED-Lampen bis zu <strong>90%</strong> weniger<br>Energie als Glühbirnen verbrauchen und eine<br>deutlich höhere Lebensdauer haben<br>(wodurch Sie eine Menge Geld sparen können)</h4>
           </div>
         </div>
         <div class="col-md-6">
@@ -215,7 +215,7 @@
       </div>
       <div class="right-content">
         <p>
-          Als Gastronom benötigen Sie in der Regel viel Strom, Öl, Kohle oder Gas, was Ihr Budget stark belasten kann. Angesichts steigender Energiekosten und der Verknappung fossiler Ressourcen sowie der wachsenden Aufmerksamkeit Ihrer Gäste für Umweltfragen ist es sinnvoll, nachhaltiger zu werden und dabei gleichzeitig Kosten zu sparen.
+          Als Gastronomin und Gastronom benötigen Sie in der Regel viel Strom, Öl, Kohle oder Gas, was Ihr Budget stark belasten kann. Angesichts steigender Energiekosten und der Verknappung fossiler Ressourcen sowie der wachsenden Aufmerksamkeit Ihrer Gäste für Umweltfragen ist es sinnvoll, nachhaltiger zu werden und dabei gleichzeitig Kosten zu sparen.
         </p>
         <p>Ihr Restaurant profitiert in vielerlei Hinsicht davon, wenn Sie Energie sparen:</p>
       </div>
@@ -244,7 +244,7 @@
       </li>
       <li></li>
       <li>
-        <p>Verantwortungsbewusstes Mitglied der lokalen Gemeinschaft</p>
+        <p>Verantwortungsbewusstes Mitglied der Gemeinschaft</p>
       </li>
       <li></li>
 
@@ -264,7 +264,7 @@
       </div>
       <div class="right-content">
         <p>
-          Das Klima verändert sich rasant. Der natürliche Treibhauseffekt sorgt für lebensfreundliche Temperaturen auf der Erde. Der Mensch beschleunigt diesen natürlichen Effekt um ein Vielfaches durch den Ausstoß von Treibhausgasen wie Kohlendioxid (CO2), welches vor allem durch die Verbrennung fossiler Brennstoffe zur Stromerzeugung freigesetzt wird. Die Treibhausgase reichern sich in der Atmosphäre an und tragen zu einem Anstieg der globalen Durchschnittstemperatur mit weitreichenden Folgen für Mensch und Umwelt bei. Die Auswirkungen der globalen Klimakrise können wir bereits wahrnehmen. Dazu gehören Wetterextreme wie Dürren, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels.
+          Das Klima verändert sich rasant. Der natürliche Treibhauseffekt sorgt für ein Klima, das Leben auf der Erde ermöglicht.. Der Mensch beschleunigt diesen natürlichen Effekt um ein Vielfaches durch den Ausstoß von Treibhausgasen wie Kohlendioxid (CO2), welches vor allem durch die Verbrennung fossiler Brennstoffe zur Stromerzeugung freigesetzt wird. Die Treibhausgase reichern sich in der Atmosphäre an und tragen zu einem Anstieg der globalen Durchschnittstemperatur mit weitreichenden Folgen für Mensch und Umwelt bei. Wir können die Auswirkungen der globalen Klimakrise bereits wahrnehmen.Dazu gehören Wetterextreme wie Dürren, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels.
         </p>
       </div>
     </div>
@@ -277,15 +277,15 @@
 
       <ul>
         <li>
-          Analysieren Sie Ihren Verbrauch und suchen Sie nach Orten, wo Energie verschwendet wird, indem Sie z.B. die Energielecks in Ihrem Restaurant (wie offene Türen an kalten Tagen), Spitzen im Energieverbrauch und Geräte mit hohem Energieverbrauch aufspüren.
+          Analysieren Sie Ihren Verbrauch und suchen Sie nach Orten, wo Energie verschwendet wird, indem Sie z.B. die Energielecks in Ihrem Restaurant (wie offene Türen an kalten Tagen), besondere Höhen im Energieverbrauch beispielsweise durch Geräte mit hohem Verbrauch, aufspüren.
         </li>
         <li>
-          Beziehen Sie Ihr Personal aktiv in Ihren Aktionsplan zum Energiesparen ein, denn das Engagement Ihrer Mitarbeiter ist wichtig, damit Ihre Maßnahmen wirken. Sprechen Sie in regelmäßigen Abständen mit Ihrem Personal und ermutigen Sie es, eigene Ideen einzubringen. Führen Sie kurze Schulungen durch oder bringen Sie Hinweise an gut sichtbaren Stellen an.
+          Beziehen Sie Ihr Personal aktiv in Ihren Aktionsplan zum Energiesparen ein, denn das Engagement Ihrer Mitarbeitenden ist wichtig, damit Ihre Maßnahmen wirken. Sprechen Sie in regelmäßigen Abständen mit Ihrem Personal und ermutigen Sie es, eigene Ideen einzubringen. Führen Sie kurze Schulungen durch oder bringen Sie Hinweise an gut sichtbaren Stellen an.
         </li>
         <li>
           Schalten Sie überflüssige Lampen und elektrische Geräte aus oder tauschen Sie Ihre Glühbirnen gegen energieeffiziente Leuchtmittel
         </li>
-        <li>Darüber hinaus gibt es auch energiesparende Maßnahmen für Fortgeschrittene. Entscheiden Sie sich zum Beispiel für energieeffiziente Geräte oder steigen Sie auf erneuerbare Energien um. Kochen Sie mit Induktion, da es schneller, sicherer, sauberer und effizienter als das Kochen auf Gas- oder Elektroherden ist.</li>
+        <li>Darüber hinaus gibt es auch energiesparende Maßnahmen für Fortgeschrittene. Entscheiden Sie sich zum Beispiel für energieeffiziente Geräte oder steigen Sie auf erneuerbare Energien um. Kochen Sie mit Induktion, da es schneller, sicherer, sauberer und effizienter ist als das Kochen auf Gas- oder Elektroherden.</li>
       </ul>
 
 

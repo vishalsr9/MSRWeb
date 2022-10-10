@@ -22,6 +22,11 @@
   <link rel="stylesheet" href="pageslider.css">
   <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    .pageSlider-slide-text>span {
+      text-transform: full-size-kana;
+
+    }
+
     section.good_to_know.no-print.mtcsutom.energy_page.waste_l4-page .good_to_know_box.p-4.safe_foodBox_l4 {
       min-height: 260px;
     }
@@ -483,7 +488,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn05">
-                                              <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                              <a href="introduction-to-food-waste-eng.php" class="read-more-btn">Read more</a>
                                             </span>
                                           </div>
                                         </div>
@@ -508,7 +513,7 @@
                                         <div class="col-md-12">
                                           <div class="pageSlider-slide-button">
                                             <span class="sldBtn06">
-                                              <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                              <a href="introduction-to-plastic-waste-eng.php" class="read-more-btn">Read more</a>
                                             </span>
                                           </div>
                                         </div>
