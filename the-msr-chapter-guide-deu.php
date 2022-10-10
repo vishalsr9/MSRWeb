@@ -20,7 +20,7 @@
 		}
 
 		.image-map {
-			background: url("http://msr.bdevtestservers.com/images/l2-deu.svg");
+			background: url("images/L2-deu-final.svg");
 			width: 1104px;
 			height: 710px;
 			margin: 0 auto;
@@ -42,6 +42,10 @@
 			width: 100px;
 			height: 100px;
 		}
+
+		.mt-less-5r {
+			margin-top: -5rem;
+		}
 	</style>
 </head>
 
@@ -52,7 +56,7 @@
 		</span>
 	</div>
 	<header class="no-print">
-		<div class="container">
+		<div class="container mt-less-5r">
 			<div class="logo">
 				<a href="">
 					<img src="images/metro-logo.svg" />
@@ -183,40 +187,40 @@
 
 
 			<div class="image-map">
-				<a class="map" rel="" style="top: 0px;
+				<a class="map" rel="" style="top: 3px;
     left: 25rem;
     width: 12rem;
     height: 8rem;" href="#" id="car_parking"></a>
-				<a class="map" rel="o" style="top: 0rem;
+				<a class="map" rel="o" style="top: 3rem;
 left: 39.6rem;
 width: 12rem;
 height: 7rem;" href="#" id="safe_food_id"></a>
-				<a class="map" rel="o" style="top: 0rem;
+				<a class="map" rel="o" style="top: 3rem;
 left: 56rem;
 width: 11rem;
 height: 10rem;" href="#" id="energy_id"></a>
-				<a class="map" rel="g" style="top: 12rem;
+				<a class="map" rel="g" style="top: 15rem;
 left: 56rem;
 width: 11rem;
 height: 9rem;" href="#" id="waste_id"></a>
-				<a class="map" rel="l" style="top: 23rem;
+				<a class="map" rel="l" style="top: 26rem;
     left: 59rem;
     width: 10rem;
     height: 10rem;" href="#" id="plastic_waste_id"></a>
-				<a class="map" rel="e" style="top: 31rem;
+				<a class="map" rel="e" style="top: 34rem;
     left: 29rem;
     width: 9rem;
     height: 8rem;" href="#" id="food_waste_id"></a>
 
-				<a class="map" rel="e" style="top: 29rem;
+				<a class="map" rel="e" style="top: 32rem;
     left: 13rem;
     width: 7rem;
     height: 7rem;" href="#" id="Sustainable_Menu_id"></a>
-				<a class="map" rel="e" style="top: 15rem;
+				<a class="map" rel="e" style="top: 18rem;
     left: 0rem;
     width: 8rem;
     height: 9rem;" href="#" id="social_id"></a>
-				<a class="map" rel="e" style="top: 8rem;
+				<a class="map" rel="e" style="top: 11rem;
 left: 8rem;
 width: 7rem;
 height: 7rem;" href="#" id="water_id"></a>
