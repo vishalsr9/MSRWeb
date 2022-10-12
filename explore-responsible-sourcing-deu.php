@@ -23,6 +23,10 @@
     <script src="required1/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
+        .footer-socials.side_nav>ul {
+            margin-left: 0rem;
+        }
+
         /* schemes and certifications */
         .sc-block {
             z-index: 10;
@@ -731,7 +735,7 @@
                             <a href="http://msr.bdevtestservers.com/home.php">Home</a>
                         </li>
                         <li>
-                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
                         </li>
                         <li>
                             <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>

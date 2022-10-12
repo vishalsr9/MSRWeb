@@ -22,6 +22,11 @@
   <script src=safe-food.js></script>
   <link href="safe-food.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/common.css">
+  <style>
+    .footer-socials.side_nav>ul {
+      margin-left: 0rem;
+    }
+  </style>
 </head>
 
 <body class="page3-page">
@@ -51,7 +56,7 @@
               <a href="http://msr.bdevtestservers.com/home.php">Home</a>
             </li>
             <li>
-              <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+              <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
             </li>
             <li>
               <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -279,7 +284,7 @@
 
       <section class="section4 padr-60px">
         <div class="left-content noalign w60-per">
-          <h3><a href="explore-safe-food-eng.php" target="_self">KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>LEBENSMITTELSICHERHEIT SICHERSTELLEN</a></h3>
+          <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>LEBENSMITTELSICHERHEIT SICHERSTELLEN</h3>
           <p>
             Das Wichtigste ist ein Lebensmittelsicherheitsmanagement. Hierfür können Sie das HACCP-Konzept (Hazard Analysis Critical Control Points) verwenden – eine Methode, die Ihr Restaurant bei der Einhaltung der Lebensmittelsicherheit unterstützt. Mit diesem Konzept können Sie die Lebensmittelsicherheit in Ihrem Restaurant effektiv verankern. Ihre direkte Beteiligung als Führungsperson an diesem System setzt ein positives Beispiel und wird Ihre Mitarbeitenden motivieren, Ihrem Vorbild zu folgen. Zeigen Sie, dass Sie sich ernsthaft für Lebensmittelsicherheit einsetzen.
           </p>

@@ -30,6 +30,10 @@
       border-right: 1px solid black !important;
     }
 
+    .footer-socials.side_nav>ul {
+      margin-left: 0rem;
+    }
+
     .border-top {
       border-top: 1px solid black !important;
     }
@@ -64,7 +68,7 @@
               <a href="http://msr.bdevtestservers.com/home.php">Home</a>
             </li>
             <li>
-              <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+              <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
             </li>
             <li>
               <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -205,7 +209,7 @@
                     <img src="images/water/drought.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-2">
-                    <p><span class="highlight2">1.2</span> Milliarden Menschen aufgrund von Dürre und Wasserknappheit keinen</p>
+                    <p><span class="highlight2">1.2</span> Milliarden Menschen aufgrund von Dürre und Wasserknappheit keinen<br>Zugang zu ausreichend Wasser haben</p>
                   </div>
 
                 </div>
@@ -303,10 +307,7 @@
           </li>
           <li></li>
           <li>
-            <p>Positive impact<br>
-              on local and<br>
-              global
-              environment</p>
+            <p>Positives Image</p>
           </li>
           <li></li>
           <li>

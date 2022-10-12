@@ -23,8 +23,12 @@
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
         .pageSlider-slide-text>span {
-            text-transform: full-size-kana !important;
+            text-transform: none;
+            font-weight: 100 !important;
+        }
 
+        .footer-socials.side_nav>ul {
+            margin-left: 0rem;
         }
 
         section.good_to_know.no-print.mtcsutom.energy_page.waste_l4-page .good_to_know_box.p-4.safe_foodBox_l4 {
@@ -162,7 +166,7 @@
                             <a href="http://msr.bdevtestservers.com/home.php">Home</a>
                         </li>
                         <li>
-                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
                         </li>
                         <li>
                             <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>

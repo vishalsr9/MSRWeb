@@ -31,6 +31,10 @@
             margin-top: 7.5rem;
         }
 
+        .footer-socials.side_nav>ul {
+            margin-left: 0rem;
+        }
+
         .tabc-image1 {
             height: 22rem;
         }
@@ -331,6 +335,14 @@
         .bg-d {
             background-color: #003b7e !important;
         }
+
+        .two-column {
+            column-count: 2;
+        }
+
+        .noalign {
+            text-align: unset !important;
+        }
     </style>
 </head>
 
@@ -361,7 +373,7 @@
                             <a href="http://msr.bdevtestservers.com/home.php">Home</a>
                         </li>
                         <li>
-                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
                         </li>
                         <li>
                             <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -481,30 +493,28 @@
                 <!-- <a href="#devid01">DEV. Link</a> -->
             </section>
             <section class="soFood_importants no-print" id="clickTohide">
-                <div class="container-fluid px-5">
-                    <div class="row bg_yellow no-print">
-                        <h4 style="padding-left: 10rem;">Was es bedeutet, ein sozial engagierter Gastronomiebetreibender zu sein</h4>
-                        <div class="col-md-4 px-4">
-                            <div class="import_box mt-5">
-                                <img src="./images/safe_food/s-2.svg" class="safe-food-s2x">
 
-                            </div>
+                <div class="container-fluid px-3">
+                    <div class="row bg_yellow mt-3">
+                        <div class="col-md-4">
+                            <img src="./images/safe_food/s-2.svg" class="img-fluid mt-5 px-2">
                         </div>
-                        <div class="col-md-4 px-4">
-                            <div class="import_box">
-
-                                <p>Ein nachhaltiger Arbeitgebender zu sein bedeutet viel mehr als bloß Gesetze einzuhalten. Ein erfolgreiches, nachhaltiges Unternehmen wird motivierte Mitarbeitende halten und neue gewinnen können. Zudem wird es dafür sorgen, dass die Mitarbeitenden ihr Bestes geben und sich weiterentwickeln können. Den Pflichten eines sozial engagierten Arbeitgebers nicht nachzukommen, birgt dagegen viele Nachteile: Die Sorge um eine pünktliche Gehaltszahlung beeinträchtigt die Konzentration von Mitarbeitenden bei der Arbeit. Diese Unsicherheit kann die Beziehung zwischen Mitarbeitenden und Betrieb negativ beeinflussen, so dass sich das Arbeitsklima verschlechtert. Ist zudem das Personal in der Küche nicht richtig geschult ist, kann dies schnell zu Verletzungen führen. Auch das sorgt dafür, dass sich die Qualität der Arbeit und damit die Qualität der zubereiteten Gerichte verschlechtert. Zudem kann auch das Personal aus dem Service durch Unaufmerksamkeit dazu beitragen, dass Gäste verloren gehen.</p>
-                                <p>Das Gastgewerbe und die Lebensmittelbranche gehören zu den größten Arbeitgebern der Welt, aber in vielen Betrieben fehlt es oftmals an einer guten Arbeitsphilosophie. Leider sind unterbezahlte und ausgebeutete Arbeitnehmende immer noch an der Tagesordnung, sei es in Bezug auf die physischen Arbeitsbedingungen, Arbeitszeiten, Sicherheit oder vertragliche Aspekte wie Zeit- oder Saisonarbeit. Darüber -</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-4">
-                            <div class="import_box">
-                                <p>- hinaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens.. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die „höheren“ Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.</p>
-                                <p>Als Gastronomin oder Gastronom haben Sie eine unmittelbare Verantwortung für Ihre Mitarbeitenden. Darüber hinaus haben Sie auch eine indirekte Verantwortung für jeden Arbeitnehmenden in der Lieferkette, der Sie mit Produkten versorgt – sei es der Landwirt oder die Landwirtin oder der Fahrer bzw. die Fahrerin, welche Ihnen Waren liefern. Ein sozial engagierter Gastronomiebetreibender zu sein, bedeutet daher, sich auch vor Ort in der eigenen Region angemessen zu verhalten, z. B. gegenüber anderen Gastronomiebetreibenden, Verbänden und Wohltätigkeitsorganisationen. Insbesondere in extrem herausfordernden Zeiten kann die Art und Weise, wie Sie Ihr Personal und Ihre Lieferanten behandeln oder wie Sie mit Ihrer Gemeinde interagieren, nicht nur für Sie positive Auswirkungen haben, sondern Sie auch beeinflussen und damit auch grundsätzlich das Verständnis von guter Arbeit in der Gastronomie.</p>
-                            </div>
+                        <div class="col-md-8 mt-3 px-3">
+                            <h4 class="noalign">Was es bedeutet, ein sozial engagierter Gastronomiebetreibender zu sein</h4>
+                            <p class="two-column justify1">
+                                Ein nachhaltiger Arbeitgebender zu sein bedeutet viel mehr als bloß Gesetze einzuhalten. Ein erfolgreiches, nachhaltiges Unternehmen wird motivierte Mitarbeitende halten und neue gewinnen können. Zudem wird es dafür sorgen, dass die Mitarbeitenden ihr Bestes geben und sich weiterentwickeln können. Den Pflichten eines sozial engagierten Arbeitgebers nicht nachzukommen, birgt dagegen viele Nachteile: Die Sorge um eine pünktliche Gehaltszahlung beeinträchtigt die Konzentration von Mitarbeitenden bei der Arbeit. Diese Unsicherheit kann die Beziehung zwischen Mitarbeitenden und Betrieb negativ beeinflussen, so dass sich das Arbeitsklima verschlechtert. Ist zudem das Personal in der Küche nicht richtig geschult ist, kann dies schnell zu Verletzungen führen. Auch das sorgt dafür, dass sich die Qualität der Arbeit und damit die Qualität der zubereiteten Gerichte verschlechtert. Zudem kann auch das Personal aus dem Service durch Unaufmerksamkeit dazu beitragen, dass Gäste verloren gehen.
+                                <br>
+                                Das Gastgewerbe und die Lebensmittelbranche gehören zu den größten Arbeitgebern der Welt, aber in vielen Betrieben fehlt es oftmals an einer guten Arbeitsphilosophie. Leider sind unterbezahlte und ausgebeutete Arbeitnehmende immer noch an der Tagesordnung, sei es in Bezug auf die physischen Arbeitsbedingungen, Arbeitszeiten, Sicherheit oder vertragliche Aspekte wie Zeit- oder Saisonarbeit.
+                                <br>
+                                Darüberh inaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens.. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die „höheren“ Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.
+                                <br>
+                                Als Gastronomin oder Gastronom haben Sie eine unmittelbare Verantwortung für Ihre Mitarbeitenden. Darüber hinaus haben Sie auch eine indirekte Verantwortung für jeden Arbeitnehmenden in der Lieferkette, der Sie mit Produkten versorgt – sei es der Landwirt oder die Landwirtin oder der Fahrer bzw. die Fahrerin, welche Ihnen Waren liefern. Ein sozial engagierter Gastronomiebetreibender zu sein, bedeutet daher, sich auch vor Ort in der eigenen Region angemessen zu verhalten, z. B. gegenüber anderen Gastronomiebetreibenden, Verbänden und Wohltätigkeitsorganisationen. Insbesondere in extrem herausfordernden Zeiten kann die Art und Weise, wie Sie Ihr Personal und Ihre Lieferanten behandeln oder wie Sie mit Ihrer Gemeinde interagieren, nicht nur für Sie positive Auswirkungen haben, sondern Sie auch beeinflussen und damit auch grundsätzlich das Verständnis von guter Arbeit in der Gastronomie.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+
             </section>
             <section class="good_to_know no-print social_box" style="padding-bottom: 12rem;">
                 <div class="container">

@@ -84,18 +84,29 @@
                     </ul>
                     <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
                     <div class="social">
-                        <p>Useful Links</p>
-                        <a href="https://www.menukithd.com/" target="_blank">
-                            <img src="images/logo-dish.png" style="width: 5rem;">
-                        </a>
-                        <a href="https://www.dish.co/DE/en/" target="_blank">
-                            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
-                        </a>
-                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
-                            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-                        </a>
-                    </div>
-                    <div class="social">
+                        <p class="mb-2">Useful Links</p>
+                        <div class="mt-4">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.menukithd.com/" target="_blank">
+                                            <img src="images/logo-dish.png" class="img-fluid">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.dish.co/DE/en/" target="_blank">
+                                            <img src="images/Dish_Logo-svg.svg" class="img-fluid" style="height: 2rem;margin-left: .5rem;">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
+                                            <img src="images/Protrace_Logo-ai.svg" class="img-fluid" style="height: 3rem; margin-left:1rem;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--<div class="social">
                         <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
                             <img src="images/Logo_METRO-Regio_weiss.png">
                         </a>
@@ -103,37 +114,37 @@
                             <img src="./images/safe_food/foot_nav2.PNG">
                         </a>
                         <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
-                    </div>
-                    <div class="footer-socials side_nav">
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
-                                    <i class="fa fa-youtube-play"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/@METRO_News" target="_blank">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
+                    </div>-->
+                        <div class="footer-socials side_nav">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.metroag.de/youtube" target="_blank">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/@METRO_News" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
                 </nav>
                 <div class="overlay"></div>
             </div>
@@ -402,7 +413,7 @@
                 <h3>METRO Offer</h3>
                 <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
             </div>
-            <div class="bottom-content5">
+            <!-- <div class="bottom-content5">
                 <ul>
                     <li>
                         <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <img src="images/Logo_METRO-Regio_weiss.png" /></a>
@@ -432,7 +443,7 @@
                         <a href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank">METRO <br> Serviceverpackungen </a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </section>
 

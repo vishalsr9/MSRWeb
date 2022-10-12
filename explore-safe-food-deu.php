@@ -27,6 +27,10 @@
             min-height: 47rem;
         }
 
+        .footer-socials.side_nav>ul {
+            margin-left: 0rem;
+        }
+
         .sldImg01>img {
             width: 17rem;
             transition: .5s;
@@ -220,7 +224,7 @@
         }
 
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg22>img {
-            width: 24rem;
+            width: 21rem;
             transition: .5s;
         }
 
@@ -399,7 +403,7 @@
                             <a href="http://msr.bdevtestservers.com/home.php">Home</a>
                         </li>
                         <li>
-                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
                         </li>
                         <li>
                             <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -1175,7 +1179,8 @@
                                                                                             <div class="col-md-12">
                                                                                                 <div class="pageSlider-slide-text">
                                                                                                     <span class="sldText22">
-                                                                                                        2. Identifizieren Sie kritische<br>Kontrollpunkte
+                                                                                                        2. dentifizieren Sie die<br>kritischen Kontrollpunkte (CCPs)
+
                                                                                                     </span>
                                                                                                 </div>
                                                                                             </div>
@@ -1703,14 +1708,14 @@
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
                             </label>
-                            <p class=""> Follow the HACCP </p>
+                            <p class="">Befolgen Sie das HACCP-Konzept</p>
                         </li>
                         <li>
                             <label class="check-wrap">
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
                             </label>
-                            <p class=""> Start a food safety culture in your restaurant </p>
+                            <p class="">Führen Sie eine Kultur der Lebensmittelsicherheit ein</p>
                         </li>
                         <li class="print-li">
                             <button onclick="window.print();" class="no-print">Print</button>
@@ -2077,9 +2082,9 @@
     <div id="pop22" class="modalx">
         <div class="modalx-content">
             <a class="btn-close-popup" onclick="closePopUp(22);">X</a>
-            <h4>Identifizieren Sie kritische Kontrollpunkte</h4>
+            <h4>Identifizieren Sie die kritischen Kontrollpunkte (CCPs)</h4>
             <p>
-                &nbsp;
+                Identifizieren Sie die kritischen Kontrollpunkte (CCPs), bei denen mögliche Gefahren das akzeptable Niveau nicht überschreiten und durch den gewohnten Arbeitsablaufs beseitigt werden.
             </p>
         </div>
     </div>
@@ -2173,7 +2178,7 @@
             <a class="btn-close-popup" onclick="closePopUp(34);">X</a>
             <h4>Stellen Sie die richtigen Geräte zur Verfügung</h4>
             <p>
-                Ensure your kitchen has the necessary tools to safely prepare and serve food. For example, food thermometers that are easily accessible mean that employees will more easily be able to check food temperatures.
+                Stellen Sie sicher, dass Ihre Küche über die notwendigen Geräte verfügt, um Lebensmittel sicher zuzubereiten und zu servieren. Thermometer für Speisen sind leicht zu erwerben und erleichtern Ihren Mitarbeitenden die Überprüfung der Speisetemperaturen.
             </p>
         </div>
     </div>
@@ -2181,9 +2186,9 @@
     <div id="pop35" class="modalx">
         <div class="modalx-content">
             <a class="btn-close-popup" onclick="closePopUp(35);">X</a>
-            <h4>Make record keeping routine</h4>
+            <h4>Führen Sie Routinen ein</h4>
             <p>
-                Stellen Sie sicher, dass Ihre Küche über die notwendigen Geräte verfügt, um Lebensmittel sicher zuzubereiten und zu servieren. Thermometer für Speisen sind leicht zu erwerben und erleichtern Ihren Mitarbeitenden die Überprüfung der Speisetemperaturen.
+                Wenn Sie bestimmte Abläufe zu einer regelmäßigen Routine machen, z. B. das Messen der Temperaturen von Lebensmitteln zu bestimmten Zeiten, und Sie dem ganzen Vorrang einräumen, werden neue Abläufe leichter verinnerlicht. Ziehen Sie den Einsatz einer digitalen App in Betracht, die Ihre Aufzeichnungen unterstützen kann. Jüngere Mitarbeitende werden davon nicht überrascht sein, während es für ältere Mitarbeitende die Chance bedeutet, neue Fähigkeiten zu erlernen.
             </p>
         </div>
     </div>

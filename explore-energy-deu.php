@@ -23,6 +23,10 @@
 
     <link href="pageslider.css" rel="stylesheet">
     <style>
+        .footer-socials.side_nav>ul {
+            margin-left: 0rem;
+        }
+
         @media print {
             body * {
                 visibility: hidden;
@@ -187,7 +191,7 @@
                             <a href="http://msr.bdevtestservers.com/home.php">Home</a>
                         </li>
                         <li>
-                            <a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
                         </li>
                         <li>
                             <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -338,7 +342,7 @@
                             </div>
                             <div class="good_to_know_box p-4 safe_foodBox_l4">
                                 <img src="./images/safe_food/eng-5.svg" class="img-fluid">
-                                <p>Induktionsherde sind energie- und kosteneffizient. Die meiste Wärmeenergie, die erzeugt wird, wird in die Töpfe geleitet.</p>
+                                <p>Ein Induktionsherd ist zwar teurer in der Anschaffung, aber auf lange Sicht sparen Sie dadurch Geld.</p>
                             </div>
 
                         </div>
@@ -347,7 +351,7 @@
                             <div class="good_to_know_box p-4 safe_foodBox_l4 engery_box">
                                 <img src="./images/safe_food/eng-3.svg" class="img-fluid">
                                 <p>
-                                    <a href="https://www.mpulse.de/en/innovation/the-question-of-the-day-gas-or-induction">
+                                    <a href="https://www.mpulse.de/de/innovation/eine-heisse-frage-gas-oder-induktion" target="_blank">
                                         Wussten Sie, dass das Kochen mit Induktionsherden schneller, sicherer, sauberer und effizienter ist als mit einem Gas- oder Elektroherd?
                                     </a>
                                     Beim Kochen mit Induktion werden <strong>90%</strong> der erzeugten Hitze genutzt, während es bei Gas nur 40-55% sind.
@@ -1121,7 +1125,7 @@
         <div class="modalx-content">
             <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
             <h4>Senken Sie Ihren Wärmebedarf</h4>
-            <p>Turn down unnecessary heating, e.g. by lowering the water temperatures. But keep in mind the mandatory dish washing temperatures for your area. You could also use energy-efficient hand dryers for your bathrooms that don’t use heating elements.
+            <p>Verringern Sie Ihren Wärmebedarf, z.B. indem Sie die Wassertemperaturen senken. Beachten Sie jedoch die vorgeschriebenen Temperaturen für das Abwaschen von Geschirr. Sie können auch energieeffiziente Handtrockner ohne Heizelemente für Ihre Toiletten verwenden.
             </p>
 
         </div>

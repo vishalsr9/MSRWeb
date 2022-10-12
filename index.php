@@ -2,19 +2,36 @@
 <html>
 
 <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>METRO</title>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://unpkg.com/konva@8.2.2/konva.min.js"></script>
   <script src="./jquery/custom.js"></script>
-  <meta charset="utf-8" />
-  <title>METRO</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="css/page2_style_1.css">
   <link rel="stylesheet" href="css/animate.min.css" />
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="./assets/css/common.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <style type="text/css">
     .popup-exists .overlay {
       z-index: 0 !important;
+    }
+
+    .footer-socials.side_nav>ul {
+      margin-left: 0rem;
+    }
+
+    .custom__select:hover {
+      columns: #ffe500;
+    }
+
+    .y-select {
+      color: #ffe500 !important;
     }
   </style>
 </head>
@@ -35,7 +52,7 @@
           <span></span>
         </div>
         <div class="custom__select top-mar-less">
-          <select>
+          <select class="y-select">
             <option value="home.php">DEU</option>
             <option value="index.php" selected>ENG</option>
           </select>
@@ -86,21 +103,37 @@
           </ul>
           <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
           <div class="social">
-            <p>Useful Links</p>
-            <a href="https://www.menukithd.com/" target="_blank">
-              <img src="images/logo-dish.png" style="width: 5rem;">
-            </a>
-            <a href="https://www.dish.co/DE/en/" target="_blank">
-              <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
-            </a>
-            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
-              <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-            </a>
-            <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+            <p class="mb-2">Useful Links</p>
+            <div class="mt-4">
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://www.menukithd.com/" target="_blank">
+                      <img src="images/logo-dish.png" class="img-fluid">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://www.dish.co/DE/en/" target="_blank">
+                      <img src="images/Dish_Logo-svg.svg" class="img-fluid" style="height: 2rem;margin-left: .5rem;">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
+                      <img src="images/Protrace_Logo-ai.svg" class="img-fluid" style="height: 3rem; margin-left:1rem;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+
+
+
+            <!-- <a href="https://www.metro-go.de/de-DE/home" target="_blank">
               <img src="images/Eitiketten.png">
-            </a>
+            </a> -->
           </div>
-          <div class="social">
+          <!-- <div class="social">
             <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
               <img src="images/Logo_METRO-Regio_weiss.png">
             </a>
@@ -108,7 +141,7 @@
               <img src="./images/safe_food/foot_nav2.PNG">
             </a>
             <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
-          </div>
+          </div> -->
           <div class="footer-socials side_nav">
             <ul>
               <li>

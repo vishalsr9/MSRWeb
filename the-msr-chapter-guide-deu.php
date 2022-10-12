@@ -19,6 +19,10 @@
 			max-width: 60% !important;
 		}
 
+		.footer-socials.side_nav>ul {
+			margin-left: 0rem;
+		}
+
 		.image-map {
 			background: url("images/L2-deu-final.svg");
 			width: 1104px;
@@ -81,7 +85,7 @@
 							<a href="http://msr.bdevtestservers.com/home.php">Home</a>
 						</li>
 						<li>
-							<a href="my-sustainable-restaurant.php">Mein Nachhaltiges Restaurant</a>
+							<a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
 						</li>
 						<li>
 							<a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>

@@ -18,6 +18,14 @@
     .popup-exists .overlay {
       z-index: 0 !important;
     }
+
+    .footer-socials.side_nav>ul {
+      margin-left: 0rem;
+    }
+
+    .y-select {
+      color: #ffe500 !important;
+    }
   </style>
 </head>
 
@@ -37,9 +45,9 @@
           <span></span>
         </div>
         <div class="custom__select top-mar-less">
-          <select>
+          <select class="y-select">
             <option value="home.php" selected>DEU</option>
-            <option value="index.php" ENG></option>
+            <option value="index.php">ENG</option>
           </select>
         </div>
         <nav>
