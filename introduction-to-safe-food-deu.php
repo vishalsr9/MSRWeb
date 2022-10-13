@@ -46,8 +46,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-responsible-sourcing-deu.php" selected>DEU</option>
-            <option value="introduction-to-responsible-sourcing-eng.php">ENG</option>
+            <option value="introduction-to-safe-food-deu.php" selected>DEU</option>
+            <option value="introduction-to-safe-food-eng.php">ENG</option>
           </select>
         </div>
         <nav>

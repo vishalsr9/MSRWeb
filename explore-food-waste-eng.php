@@ -24,6 +24,10 @@
   <link href="pageslider.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    .two-column {
+      column-count: 2;
+    }
+
     .sldImg01>img {
       width: 19rem;
     }
@@ -1347,15 +1351,18 @@
   <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
     <div class="container">
       <div class="row safeFoodl4_paragraphs_bgwhite no-print">
-        <div class="col-md-6 p-4">
+        <div class="col-md-12 mt-2 px-2">
           <h4 class="pl-4">Composting and its benefits</h4>
-          <p class="pl-4">Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers. </p>
+          <p class="two-column mt-2">
+            Composting is the process of breaking down organic material, for example, food scraps, using heat, moisture, agitation, air-flow, and sometimes earthworms. It is very useful since all the organic uncooked waste of a restaurant can be turned into nutrient-rich soil through the process of composting. This soil can then be used as a natural fertilizer for local farmers and gardeners. You could even use it in your own restaurant garden if you have one. There are many benefits of composting such as enhancing your restaurant’s image, reducing food waste, benefits for the environment and the local community and the compost doesn’t contain synthetic chemical fertilizers.
+            <br>
+            Depending on the local regulations, a restaurant can even use compost for an onsite garden, from plant pots to a small herb garden to a vegetable patch.
+            <br>
+            But not all sorts of food can be composted. Diseased plants, dairy products, coal or charcoal ashes, meat and bones, oil, fat and grease, and all toxic materials cannot be composted. Compostable materials include fruit and vegetable waste, coffee grounds and filters, paper napkins, wood ashes, cardboard and newspaper. You should check with your local waste collection service or authority about what is possible to send for commercial composting. Also, ask them if they collect cooked waste and animal products as they might have a service to process these foods into biogas.
+          </p>
+
         </div>
-        <div class="col-md-6 p-4">
-          <h4></h4>
-          <p class="pt-4">Depending on the local regulations, a restaurant can even use compost for an onsite garden, from plant pots to a small herb garden to a vegetable patch. </p>
-          <p>But not all sorts of food can be composted. Diseased plants, dairy products, coal or charcoal ashes, meat and bones, oil, fat and grease, and all toxic materials cannot be composted. Compostable materials include fruit and vegetable waste, coffee grounds and filters, paper napkins, wood ashes, cardboard and newspaper. You should check with your local waste collection service or authority about what is possible to send for commercial composting. Also, ask them if they collect cooked waste and animal products as they might have a service to process these foods into biogas. </p>
-        </div>
+
       </div>
     </div>
   </section>

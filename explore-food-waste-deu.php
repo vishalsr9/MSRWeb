@@ -24,6 +24,10 @@
   <link href="pageslider.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/common.css">
   <style>
+    .two-column {
+      column-count: 2;
+    }
+
     .footer-socials.side_nav>ul {
       margin-left: 0rem;
     }
@@ -1351,15 +1355,12 @@
   <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
     <div class="container">
       <div class="row safeFoodl4_paragraphs_bgwhite no-print">
-        <div class="col-md-6 p-4">
+        <div class="col-md-12 mt-2 px-2">
           <h4 class="pl-4">Die Vorteile der Kompostierung</h4>
-          <p class="pl-4">Bei der Kompostierung wird organisches Material, wie z. B. Speisereste, mit Hilfe von Wärme, Feuchtigkeit, Bewegung, Luftzufuhr und manchmal mit Regenwürmern zersetzt. Damit können alle organischen, ungekochten Abfälle eines Restaurants in nährstoffreiche Erde umgewandelt werden. Diese Erde kann dann zum Beispiel als natürlicher Dünger durch die örtlichen Landwirte und Gärtner genutzt werden. Sie könnten sie auch im Garten Ihres Restaurants verwenden, sofern Sie einen besitzen. Weil Kompost keine synthetischen chemischen Bestandteile enthält, aber ein guter Dünger für Beete und Gärten ist, wirkt er sich positiv auf die Umwelt aus. Die Kompostierung von Lebensmittelabfällen trägt zur Verringerung von Lebensmittelabfällen und damit zu einem noch besseren Ruf Ihres Restaurants bei.
-
-          </p>
-        </div>
-        <div class="col-md-6 p-4">
-          <h4></h4>
-          <p class="pt-4">Allerdings können nicht alle Lebensmittel kompostiert werden. Kranke Pflanzen, Milchprodukte, Asche, Fleisch und Knochen, Öl, Fett und Schmiermittel sowie alle giftigen Materialien können nicht kompostiert werden. Kompostierbar sind Obst- und Gemüseabfälle, Kaffeesatz und -filter, Papierservietten, Holzasche, Pappe und Zeitungen. Erkundigen Sie sich bei Ihrer örtlichen Müllabfuhr, was in die städtische Kompostierung abgegeben werden darf. Erkundigen Sie sich auch, ob gekochte und tierische Produkte angenommen werden. Eventuell besteht die Möglichkeit, diese Lebensmittel in einer kommunalen Biogas-Anlage zu verarbeiten.
+          <p class="two-column mt-2">
+            Bei der Kompostierung wird organisches Material, wie z. B. Speisereste, mit Hilfe von Wärme, Feuchtigkeit, Bewegung, Luftzufuhr und manchmal mit Regenwürmern zersetzt. Damit können alle organischen, ungekochten Abfälle eines Restaurants in nährstoffreiche Erde umgewandelt werden. Diese Erde kann dann zum Beispiel als natürlicher Dünger durch die örtlichen Landwirte und Gärtner genutzt werden. Sie könnten sie auch im Garten Ihres Restaurants verwenden, sofern Sie einen besitzen. Weil Kompost keine synthetischen chemischen Bestandteile enthält, aber ein guter Dünger für Beete und Gärten ist, wirkt er sich positiv auf die Umwelt aus. Die Kompostierung von Lebensmittelabfällen trägt zur Verringerung von Lebensmittelabfällen und damit zu einem noch besseren Ruf Ihres Restaurants bei.
+            <br>
+            Allerdings können nicht alle Lebensmittel kompostiert werden. Kranke Pflanzen, Milchprodukte, Asche, Fleisch und Knochen, Öl, Fett und Schmiermittel sowie alle giftigen Materialien können nicht kompostiert werden. Kompostierbar sind Obst- und Gemüseabfälle, Kaffeesatz und -filter, Papierservietten, Holzasche, Pappe und Zeitungen. Erkundigen Sie sich bei Ihrer örtlichen Müllabfuhr, was in die städtische Kompostierung abgegeben werden darf. Erkundigen Sie sich auch, ob gekochte und tierische Produkte angenommen werden. Eventuell besteht die Möglichkeit, diese Lebensmittel in einer kommunalen Biogas-Anlage zu verarbeiten.
           </p>
         </div>
       </div>

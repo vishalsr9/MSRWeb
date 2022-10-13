@@ -630,7 +630,7 @@
                                 Verfolgen Sie Ihre Fortschritte und sprechen Sie mit Ihren Gästen darüber
                             </p>
                         </li>
-                        <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
+                        <li class="print-li"><button onclick="window.print();" class="no-print">DRUCKEN</button></li>
                     </ul>
                 </div>
             </section>

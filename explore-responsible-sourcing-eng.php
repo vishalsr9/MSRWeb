@@ -951,7 +951,7 @@
 
             <!--Good to know SECTION-->
             <section class="section-white-full-width no-print">
-                <h3 class="section-heading-blue text-center no-print">
+                <h3 class="section-heading-blue no-print">
                     Good to know – Schemes that help you find your way
                 </h3>
 

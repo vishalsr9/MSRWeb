@@ -78,8 +78,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="introduction-to-energy-deu.php">DEU</option>
-                        <option value="introduction-to-energy-eng.php" selected>ENG</option>
+                        <option value="introduction-to-water-deu.php">DEU</option>
+                        <option value="introduction-to-water-eng.php" selected>ENG</option>
                     </select>
                 </div>
                 <nav>

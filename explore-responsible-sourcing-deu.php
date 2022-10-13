@@ -243,6 +243,10 @@
             padding-right: 4rem;
         }
 
+        .slpara.slpara94p>p {
+            font-size: 18px !important;
+        }
+
         .sltitletxt {
             font-size: 24px;
             font-weight: bold;
@@ -687,8 +691,7 @@
         .pbox:hover {
             font-weight: bold !important;
         }
-    </style>
-    <style>
+
         @media print {
             body * {
                 visibility: hidden;
@@ -704,6 +707,11 @@
                 left: 0;
                 top: 0;
             }
+
+            .section-heading-blue {
+                text-transform: none !important;
+            }
+
         }
     </style>
 </head>
@@ -846,7 +854,7 @@
             <!--BANNER-->
             <section class="section1 no-print">
                 <div class="left-content">
-                    <h3>Wie Sie verantwortungsbewusst einkaufen</h3>
+                    <h3 style="text-transform: none;">Wie Sie verantwortungsbewusst Einkaufen</h3>
                     <h4>Verantwortungsvolle Beschaffung in der Gastronomie</h4>
                     <p>
                         Gastronomiebetreibende bieten ihren Gästen einzigartige Geschmackserlebnisse – häufig in Anlehnung an lokale oder kulturelle Besonderheiten ihrer speziellen Region. Ökologisch erzeugte und verantwortungsbewusste Produkte helfen Ihnen dabei, sich von der Konkurrenz zu unterscheiden. Denn viele Gäste wollen wissen, woher die Produkte stammen, die Sie verwenden. Die Informationen dazu können Sie in der Speisekarte bereitstellen und so Ihre Gäste darüber informieren, dass Ihre Produkte aus verantwortungsbewussten und regionalen Quellen stammen.
@@ -865,7 +873,7 @@
             <section class="section2 no-print z0">
                 <div class="text-center">
                     <div class="wrap-2">
-                        <h3 class="section-heading-blue">Die Bedeutung eines verantwortungsbewussten Einkaufs</h3>
+                        <h3 class="section-heading-blue" style="text-transform: none;">Die Bedeutung eines verantwortungsbewussten Einkaufs</h3>
                         <p>
                             Die Beschaffung von Waren, die sich an nachhaltigen Kriterien orientiert, bietet viele Vorteile für Restaurant- und Cafébetreibende.<br>Sehen Sie sich nachfolgend die wichtigsten Vorteile an:
                         </p>
@@ -899,7 +907,7 @@
                                     <img src="images/resp_sourcing/icon-users.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    Sie haben einen positiven Einfluss auf Ihr Personal und auf potenzielle, neue Mitarbeitende
+                                    Sie haben einen positiven Einfluss auf Ihr Personal und auf potenzielle, neue Mitarbeitende.
                                 </div>
                             </div>
                         </div>
@@ -919,7 +927,7 @@
                                     <img src="images/resp_sourcing/icon-graph.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
-                                    Ihr Restaurant wird zukunftssicher. Denn obwohl die Verfügbarkeit von Lebensmitteln durch die Folgen des Klimawandels zunehmend gefährdet werden kann, können Sie eventuelle Einschränkungen mit Hilfe von Produkten aus nachhaltiger Produktion entgegenwirken.
+                                    Ihr Restaurant wird zukunftssicher. Denn obwohl die Verfügbarkeit von Lebensmitteln durch die Folgen des Klimawandels zunehmend gefährdet werden kann, können Sie eventuellen Einschränkungen mit Hilfe von Produkten aus nachhaltiger Produktion entgegenwirken.
                                 </div>
                             </div>
                         </div>
@@ -939,8 +947,8 @@
 
             <!--Good to know SECTION-->
             <section class="section-white-full-width no-print">
-                <h3 class="section-heading-blue text-center no-print">
-                    Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu finden
+                <h3 class="section-heading-blue no-print" style="text-transform: none;">
+                    Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu finden
                 </h3>
 
                 <div class="row">
@@ -1134,7 +1142,7 @@
                                                         </div>
                                                         <div class="col-md-12 px-1 py-1 mt-2 slpara slpara92">
                                                             <p class="justify1">
-                                                                GlobalGAP ist ein unabhängiges Zertifizierungssystem für die „gute landwirtschaftliche Praxis“ (GAP, Good Agricultural Practice). Im Rahmen des Siegels gibt es auch das Programm LocalGAP, das Kleinbauern beim Anbau von Lebensmitteln einschließlich der korrekten Verwendung von Pestiziden unterstützt. Die Logos sind üblicherweise nicht auf den Produkten abgebildet.
+                                                                GlobalG.A.P ist ein unabhängiges Zertifizierungssystem für die „gute landwirtschaftliche Praxis“ (G.A.P., Good Agricultural Practice). Im Rahmen des Siegels gibt es auch das Programm LocalG.A.P., das Kleinbäuerinnen und –bauern beim Anbau von Lebensmitteln einschließlich der korrekten Verwendung von Pestiziden unterstützt. Die Logos sind üblicherweise nicht auf den Produkten abgebildet.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1149,7 +1157,7 @@
                                                         </div>
                                                         <div class="col-md-12 px-1 py-1 mt-2 slpara slpara93">
                                                             <p class="justify1">
-                                                                Das GGN-Siegel gilt für Obst und Gemüse, Meeresfrüchte und Pflanzen und bietet den Verbrauchern Orientierung und Sicherheit für gute landwirtschaftliche Praktiken, die nach dem GLOBAL G.A.P Standard zertifiziert sind. Auf der Website von GGN können Sie die Herkunft des Produktes nachverfolgen und sich ein Bild vom Herkunftsbetrieb machen.
+                                                                Das GGN-Siegel gilt für Obst und Gemüse, Meeresfrüchte und Pflanzen und bietet den Verbraucherinnen und Verbrauchern Orientierung und Sicherheit für gute landwirtschaftliche Praktiken, die nach dem GLOBAL G.A.P Standard zertifiziert sind. Auf der Website von GGN können Sie die Herkunft des Produktes nachverfolgen und sich ein Bild vom Herkunftsbetrieb machen.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1164,8 +1172,8 @@
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle94">
                                                             <span class="sltitletxt">ASC</span>
                                                         </div>
-                                                        <div class="col-md-12 px-1 py-1 mt-2 slpara slpara94">
-                                                            <p class="justify1">
+                                                        <div class="col-md-12 px-1 py-1 mt-2 slpara slpara94 slpara94p">
+                                                            <p class="justify1 ">
                                                                 ASC (Aquaculture Stewardship Council) ist ein Qualitätssiegel, das für die ökologische und sozial verantwortungsvolle Zucht von (Aquakultur-)Meeresfrüchten steht. Produkte dürfen das Logo nur dann tragen, wenn der Verkäufer zertifiziert wurde. Dies gilt auch dann, wenn das Produkt selbst zertifiziert ist.
                                                             </p>
                                                         </div>
@@ -1339,7 +1347,7 @@
                             Nicht alle Erzeuger orientieren sich an nachhaltigen Standards. Bei einigen von ihnen verläuft die Entwicklung dahin nur schrittweise. Ein Produkt kann allerdings aus vielen Gründen nachhaltig sein (lokal, gesund, ökologisch usw.) und oft erfährt man dies nur, wenn man seinen Lieferanten fragt. Manchmal fällt der produzierende Betrieb auch die bewusste Entscheidung, ein Produkt nicht zertifizieren zu lassen, obwohl es nachhaltig hergestellt wurde. Oftmals halten beispielsweise die Kosten für die Qualitätssiegel die Erzeuger davon ab, ihr Produkt zertifizieren zu lassen. Oder es wird einfach kein entsprechendes Label ausgestellt, z.B. wie bei den meisten Sozialaudits, die die Arbeitsbedingungen überprüfen.
                         </p>
                         <p class="justify1 no-print">
-                            Wenn Sie herausfinden möchten, wie nachhaltig Ihre Lieferanten sind, können Sie sie fragen, ob sie über eine Produktionszertifizierung (z.B. GlobalGAP) oder Sozialaudits (z.B. SEDEX und amfori BSCI) verfügen. Sie können sie auch nach ihren Nachhaltigkeitsmaßnahmen fragen, selbst wenn sie nicht zertifiziert sind. So bekommen Sie einen Eindruck davon, wie nachhaltig Ihr Lieferant ist.
+                            Wenn Sie herausfinden möchten, wie nachhaltig Ihre Lieferanten sind, können Sie sie fragen, ob sie über eine Produktionszertifizierung (z.B. GlobalG.A.P.) oder Sozialaudits (z.B. SEDEX und amfori BSCI) verfügen. Sie können sie auch nach ihren Nachhaltigkeitsmaßnahmen fragen, selbst wenn sie nicht zertifiziert sind. So bekommen Sie einen Eindruck davon, wie nachhaltig Ihr Lieferant ist.
                         </p>
                         <p class="justify1 no-print">
                             Sie können die Erzeuger, die sich um eine Zertifizierung bemühen, durch ihre Unterstützung dazu motivieren, ihre Bemühungen fortzusetzen und sogar zu verbessern. Denken Sie daran, dass Aussagen über Nachhaltigkeit nachweisbar sein müssen. Eine ehrliche und einfache Kommunikation eignet sich dazu am besten.
@@ -1367,7 +1375,7 @@
                 <div class="container-full con50">
                     <div class="row">
                         <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center">
-                            <h3 class="section-heading-blue">Der umfassende Leitfaden für nachhaltige Produkte </h3>
+                            <h3 class="section-heading-blue">Der umfassende Leitfaden für nachhaltige Produkte</h3>
                             <p>
                                 <strong>
                                     Es ist nicht immer einfach herauszufinden, wann ein Produkt nachhaltig ist.<br>Die Definitionen können je nach Perspektive und Überzeugung von Personen oder Organisationen stark voneinander abweichen.<br>Folgende Merkmale eignen sich als Leitfaden, da nachhaltige Produkte mindestens eines dieser Merkmale aufweisen:
@@ -1750,7 +1758,7 @@
                                             <div class="ptext-box">
                                                 <div class="ptext-inner tl2">
                                                     <span class="ptextheading ptext-13">
-                                                        Lebensmittel mit einem geringen
+                                                        Lebensmittel mit einem geringen Wasserverbrauch
                                                     </span>
                                                     <span class="imageunder pimage-3">
                                                         <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
@@ -2038,7 +2046,7 @@
                                                                 Etwa ein Drittel aller weltweit produzierten Lebensmittel landet im Abfall. Wenn wir Lebensmittel verschwenden, vergeuden wir auch die Energie und das Wasser, die für den Anbau, die Ernte, den Transport und die Verpackung der Lebensmittel erforderlich sind. Deshalb könnten etwa 11 % aller Treibhausgasemissionen, die durch die Produktion von Lebensmitteln entstehen, reduziert werden, wenn wir die Verschwendung von Lebensmitteln verhindern würden.
                                                             </p>
                                                             <div class="read-wrap">
-                                                                <a href="introduction-to-food-waste-deu.php" class="read-more" target="_self">Read More</a>
+                                                                <a href="introduction-to-food-waste-deu.php" class="read-more" target="_self">WEITERLESEN</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3">
@@ -2313,7 +2321,7 @@
         <div class="row">
             <div class="col-md-8">
                 <h3 class="section-heading-blue-small no-print">
-                    Tipps für Einsteiger, um verantwortungsbewusst einzukaufen
+                    Tipps für Einsteiger, um verantwortungsbewusst Einzukaufen
                 </h3>
                 <p class=" no-print">
                     In den letzten Jahrzehnten haben sich unsere Konsumgewohnheiten im Vergleich zu früheren Generationen stark verändert. Wir leben in einer globalisierten Welt, in der wir uns daran gewöhnt haben, das ganze Jahr über verschiedene Lebensmittel zu kaufen, auch wenn sie keine Saison haben oder nicht vor Ort wachsen. Schauen Sie sich die folgenden Tipps für einen verantwortungsbewussten Einkauf an:
@@ -2791,9 +2799,9 @@
         <div class="left-content9">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="h3v2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber</h3>
+                    <h3 class="h3v2">Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
                     <p class="justify1">
-                        Überprüfen Sie, sobald Sie mit ersten Maßnahmen eines verantwortungsbewussten Einkaufs begonnen haben, welche Auswirkungen damit verbunden sind (z.B. weniger Plastikmüll, höhere Umsätze mit nachhaltigen Gerichten, positivere Bewertungen für Ihr Restaurant). Es ist wichtig, die Fortschritte zu verfolgen und zu messen, denn das stärkt die Moral, noch mehr zu erreichen. Diskutieren Sie regelmäßig mit Ihrem Personal und notieren Sie, welche positiven Auswirkungen sie wahrnehmen. Hier sind einige Vorschläge, wie dies geschehen kann –
+                        Überprüfen Sie, sobald Sie mit ersten Maßnahmen eines verantwortungsbewussten Einkaufs begonnen haben, welche Auswirkungen damit verbunden sind (z.B. weniger Plastikmüll, höhere Umsätze mit nachhaltigen Gerichten, positivere Bewertungen für Ihr Restaurant). Es ist wichtig, die Fortschritte zu verfolgen und zu messen, denn das stärkt die Moral, noch mehr zu erreichen. Diskutieren Sie regelmäßig mit Ihrem Personal und notieren Sie, welche positiven Auswirkungen sie wahrnehmen. Hier sind einige Vorschläge, wie dies geschehen kann:
                     </p>
                 </div>
             </div>
@@ -2810,7 +2818,7 @@
                             <div class="col-md-10">
                                 <p class="tt">
                                     <strong>
-                                        Machen Sie sich bewusst, dass "Farm-to-Table"-Restaurants bei Kunden immer beliebter werden. Informieren Sie Ihre Gäste über die Herkunft Ihrer Zutaten, indem Sie mit ihnen über Ihre Speisekarte sprechen.
+                                        Machen Sie sich bewusst, dass "Farm-to-Table"-Restaurants bei Kundinnen und Kunden immer beliebter werden. Informieren Sie Ihre Gäste über die Herkunft Ihrer Zutaten, indem Sie mit ihnen über Ihre Speisekarte sprechen.
                                     </strong>
                                 </p>
                             </div>
@@ -2941,7 +2949,7 @@
                         Überprüfen Sie Ihre Fortschritte und sprechen Sie mit Ihren Gästen darüber
                     </p>
                 </li>
-                <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
+                <li class="print-li"><button onclick="window.print();" class="no-print">DRUCKEN</button></li>
             </ul>
         </div>
     </section>
@@ -3132,7 +3140,7 @@
                 <li>Um welche Fischart handelt es sich bei dem verkauften Fisch?</li>
                 <li>Wo wurde der Fisch gefangen?</li>
                 <li>Verfügt der Fisch über ein Qualitätssiegel oder Auszeichnung?</li>
-                <li>Wurden bei der Herstellung des verwendeten Palmöls und Soja die Wälder geschützt?</li>
+                <li>Wurden bei der Herstellung des verwendeten Palmöls und Sojas die Wälder geschützt?</li>
                 <li>Wie verfolgen Ihre Lieferanten ihre Produkte zurück?</li>
                 <li>Welche Informationen können Ihre Lieferanten zur Verfügung stellen?</li>
             </ul>
@@ -3169,15 +3177,14 @@
             </p>
             <ul>
                 <li>
-                    Setzen Sie auf lokale und saisonale Produkte. Wechseln Sie zu Produkten, die leicht auszutauschen sind, z.B. saisonales Gemüse aus lokalem Anbau
-                </li>
-                <li>Führen Sie Bio-Produkte ein</li>
+                    Setzen Sie auf <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" target="_blank">lokale und saisonale Produkte</a>. Wechseln Sie zu Produkten, die leicht auszutauschen sind, z.B. saisonales Gemüse aus lokalem Anbau </li>
+                <li>Führen Sie <a href="https://www.metro.de/produktwelten/bio-produkte" target="_blank">Bio-Produkte</a> ein</li>
                 <li>
                     Führen Sie zertifizierte Produkte ein, z.B. Fairtrade-Kaffee, MSC- oder ASC-zertifizierten Fisch, Bio-Fleisch
                 </li>
                 <li>Stellen Sie sicher, dass Ihre Eier von Hühnern aus Freilandhaltung stammen</li>
-                <li>RErsetzen Sie gefährdeten Fisch durch eine Alternative. Der MSC bietet Ihnen dazu einen interaktiven Leitfaden.</li>
-                <li>Ersetzen Sie Einwegprodukte aus Plastik durch Alternativen</li>
+                <li>Ersetzen Sie gefährdeten Fisch durch eine Alternative. Der MSC bietet Ihnen dazu einen interaktiven Leitfaden.</li>
+                <li>Ersetzen Sie Einwegprodukte aus Plastik durch <a href="https://prospekte.metro.de/plastikverbot/page/1?_ga=2.3470128.1274588778.1664883760-408353168.1663146057" target="_blank">Alternativen</a></li>
                 <li>
                     Ersetzen Sie Produkte mit hohem Zucker-, Salz- und Transfettgehalt durch nährstoffreiche und gesunde Alternativen
                 </li>
@@ -3188,7 +3195,7 @@
         <div class="modalx-content">
             <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
             <h4>
-                Use the comprehensive guide to sustainable products and schemes
+                Nutzen Sie den Leitfaden für nachhaltige Produkte
             </h4>
             <p>
                 Ausführlichere Informationen finden Sie in unserem Leitfaden für nachhaltige Produkte und in unserer Übersicht der Qualitätssiegel. Nutzen Sie diese als zusätzliche Information für Fragen Ihres Personals oder Ihrer Gäste.
@@ -3384,7 +3391,7 @@
         var jasonData = {
             "Topics": [{
                     "id": "topic1",
-                    "data-heading": "Siegel, die faire Preise und eine faire Behandlung der Arbeitnehmer garantieren",
+                    "data-heading": "Siegel, die faire Preise und eine faire Behandlung der Arbeitnehmenden garantieren",
                     "subTopics": [{
                             "sid": "s11",
                             "data-text": "FAIRTRADE",

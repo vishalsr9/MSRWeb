@@ -236,11 +236,11 @@
                         </li>
                         <li></li>
                         <li>
-                            <p>Möglichkeit zur Gewinnsteigerung</p>
+                            <p>Möglichkeit zur Gewinn-steigerung</p>
                         </li>
                         <li></li>
                         <li>
-                            <p>Verbesserung des Lebensunterhalts von Bauern vor Ort und weltweit</p>
+                            <p>Verbesserung des Lebens-unterhalts von Bauern vor Ort und weltweit</p>
                         </li>
                         <li></li>
                         <!-- </ul><ul> -->
@@ -265,11 +265,11 @@
                         </li>
                         <li></li>
                         <li>
-                            <p>Verbesserung des Renommees Ihres Restaurants</p>
+                            <p>Verbesserung des Rufs Ihres Restaurants</p>
                         </li>
                         <li></li>
                         <li>
-                            <p>Wettbewerbsvorteile </p>
+                            <p>Wettbewerbs-vorteile</p>
                         </li>
                         <li></li>
                         <!-- </ul>

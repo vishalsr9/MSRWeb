@@ -188,7 +188,7 @@
                         <li>
                             <img src="images/milk.svg" class="milk1" />
                             <p>
-                                proteine in vollständige (Fleisch, Fisch, Eier, Milch, Käse) und unvollständige (Bohnen, Nüsse, Samen, Tofu usw.) unterteilt werden können?
+                                Proteine in vollständige (Fleisch, Fisch, Eier, Milch, Käse) und unvollständige (Bohnen, Nüsse, Samen, Tofu usw.) unterteilt werden können?
                             </p>
                         </li>
                         <li>
@@ -215,7 +215,7 @@
             <section class="section3">
                 <div class="section3-inner">
                     <div class="left-content">
-                        <h3>DAS <br> Grosse <br> thema </h3>
+                        <h3>EIN<br>WICHTIGES<br>THEMA</h3>
                     </div>
                     <div class="right-content">
                         <p>Manchmal ist es für Verbraucherinnen und Verbraucher schwierig, ein nachhaltiges Restaurant zu finden, geschweige denn ein nachhaltiges Gericht. Indem Gastronominnen und Gastronomen Nachhaltigkeit auf die (Online-)Speisekarte setzen, zeigen sie ihr Engagement für eine Lebensmittelzukunft, die die Gesundheit des Planeten und ihrer Gäste
@@ -281,7 +281,7 @@
                 </div>
                 <div class="section3-inner3">
                     <div class="left-content">
-                        <h3>DAS <br> Grosse <br> bild</h3>
+                        <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
                     </div>
                     <div class="right-content">
                         <p>Neben einer wachsenden Zahl von Stammkundinnen und -kunden sorgt sich die jüngere Generation um die Umwelt und soziale Gerechtigkeit, was zu einem starken Trend zu umweltfreundlichen Produkten und Dienstleistungen beiträgt. Da eine von drei Mahlzeiten außer Haus verzehrt wird, können Sie als Gastronomin oder Gastronom durch die Auswahl Ihrer Gerichte einen echten Einfluss auf die Gesundheit Ihrer Gäste und Umwelt haben.</p>
@@ -295,9 +295,9 @@
                     </p>
                     <ul>
                         <li>
-                            Reduzierend Sie den Umfang Ihrer Speisekarte
+                            Reduzieren Sie den Umfang Ihrer Speisekarte
                         </li>
-                        <li>Zeigen Sie die Vorteile verantwortungsvoller Beschaffung</li>
+                        <li>Zeigen Sie die Vorteile <a href="introduction-to-responsible-sourcing-deu.php">verantwortungsvoller Beschaffung</a></li>
                         <li>Bieten Sie hauptsächlich regionale und biologische Lebensmittel an</li>
                         <li>Vermeiden Sie stark verarbeitete Zutaten<br>(Diese haben mehrere Verarbeitungsschritte durchlaufen und enthalten viele Zutaten und Zusatzstoffe)</li>
 
