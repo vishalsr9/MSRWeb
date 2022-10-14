@@ -980,7 +980,7 @@
 
             <!--SCHEMES SECTION DEVELOPEMNT AREA START------------------------>
 
-            <section class="section-blue-bg-full-width no-print" id="devid01">
+            <section class="section-blue-bg-full-width no-print" id="devid01" style="display: none;">
                 <div class="container mt-5">
                     <div class="row">
                         <div class="col-md-5">

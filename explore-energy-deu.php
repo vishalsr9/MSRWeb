@@ -302,7 +302,7 @@
 
             <section class="section1 no-print plastic_waste no-print">
                 <div class="left-content no-print">
-                    <h3>Wie man Energie effizient nutzt</h3>
+                    <h3 style="text-transform:none;">Wie man Energie effizient nutzt</h3>
                     <h4>Energienutzung in der Gastronomie</h4>
                     <p>Energie kann einen erheblichen Kostenfaktor für Ihren Betrieb darstellen. Angesichts steigender Energiekosten und der begrenzten Verfügbarkeit fossiler Ressourcen sowie der wachsenden Sensibilität der Verbraucher und Verbraucherinnen für Umweltfragen ist es an der Zeit, Energie effizienter zu nutzen und gleichzeitig Kosten zu sparen.<span id="dots"></span>
 
@@ -387,7 +387,7 @@
                 <div class="section-div">
                     <div class="container-fluid">
                         <h3 class="wayT0Title">Tipps für Einsteiger, um Energie zu sparen</h3>
-                        <p class="disc">As a restaurateur, there are many ways to save energy in your restaurant.<br>There are some actions you can implement straight away. This is how you can start:</p>
+                        <p class="disc">Als Gastronomin oder Gastronom gibt es viele Möglichkeiten, wie Sie in<br>Ihrem Restaurant Energie sparen können. Einige Maßnahmen können Sie sofort umsetzen. So können Sie anfangen: </p>
 
 
                         <!-- NEW SWIPER START -->
@@ -742,8 +742,8 @@
                         <div class="col-md-4">
                             <div class="plastic-wasteStep energy_img_row_main1">
                                 <h2>01</h2>
-                                <h4>IInstallieren Sie LED-Lampen</h4>
-                                <p>Wussten Sie, dass Kompaktleuchtstofflampen 90% weniger Energie verbrauchen und eine deutlich längere Lebensdauer als herkömmliche Glühbirnen haben? Langfristig gesehen, bietet die Anschaffung dieser Lampen erhebliche ökologische und wirtschaftliche Vorteile.</p>
+                                <h4>Installieren Sie LED-Lampen</h4>
+                                <p>Wussten Sie, dass LED-Lampen 90% weniger Energie verbrauchen und eine deutlich längere Lebensdauer als herkömmliche Glühbirnen haben? Langfristig gesehen, bietet die Anschaffung dieser Lampen erhebliche ökologische und wirtschaftliche Vorteile.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -767,7 +767,7 @@
                                         <i class="fa fa-caret-right"></i>Nutzen Sie Photovoltaik<br class="mb-4">
                                         <i class="fa fa-caret-right"></i>Stellen Sie Ladestationen für Elektrofahrzeuge auf</span>
                                 </p>
-                                <span class="read-more-btn33" id="myBtn_readmore" onclick="myFunction()"><b>Mehr Erfahren</b></span>
+                                <span class="read-more-btn33" id="myBtn_readmore" onclick="myFunction()"><b>WEITERLESEN</b></span>
 
 
 
@@ -788,7 +788,7 @@
                     <div class="row px-4">
                         <div class="col-md-5">
                             <div class="banner_l4_title" style="padding-left: 3rem;">
-                                <h1 class="banner_title2">Überprüfen Sie Ihre<br>Fortschritte und sprechen Sie darüber</h1>
+                                <h1 class="banner_title2" style="text-transform: none;">Überprüfen Sie Ihre<br>Fortschritte und sprechen Sie darüber</h1>
                                 <p>Überprüfen Sie die Veränderungen Ihres Energieverbrauchs, sobald Sie einige der genannten Maßnahmen ergriffen haben. Informieren Sie sich bei Ihrem lokalen Energieversorgungsunternehmen über Lösungen, die nicht viel Aufwand benötigen. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Energie Sie eingespart haben. Erfolge können alle motivieren, weiterhin Energie zu sparen. Machen Sie Ihre Maßnahmen bekannt: Hinweise auf den Gästetoiletten mit der Aufforderung, das Licht auszuschalten oder Energiespartipps auf Ihrer Speisekarte und Webseite erinnern daran, noch mehr Energie zu sparen.</p>
                             </div>
                         </div>
@@ -895,7 +895,7 @@
 
 
 
-                            <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
+                            <li class="print-li"><button onclick="window.print();" class="no-print">DRUCKEN</button></li>
                         </ul>
                     </div>
                 </div>
@@ -1156,11 +1156,11 @@
 
             if (dots.style.display === "none") {
                 dots.style.display = "block";
-                btnText.innerHTML = "Mehr Erfahren";
+                btnText.innerHTML = "WEITERLESEN";
                 moreText.style.display = "none";
             } else {
                 dots.style.display = "none";
-                btnText.innerHTML = "Weniger Erfahren";
+                btnText.innerHTML = "WENIGER";
                 moreText.style.display = "inline";
             }
         }
@@ -1196,10 +1196,10 @@
                 $(collapse_content_selector).toggle(function() {
                     if ($(this).css('display') == 'none') {
                         //change the button label to be 'Show'
-                        toggle_switch.html('Read More');
+                        toggle_switch.html('WEITERLESEN');
                     } else {
                         //change the button label to be 'Hide'
-                        toggle_switch.html('Read Less');
+                        toggle_switch.html('WENIGER');
                     }
                 });
             });

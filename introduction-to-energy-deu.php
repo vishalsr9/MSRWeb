@@ -180,7 +180,7 @@
   <section class="didyouknow_contents waste_foot_l3 no-print energy_mar">
     <div class="col-md-10 offset-md-1">
       <div class="row">
-        <h3 class="text-center">Wussten sie, dass…</h3>
+        <h3 class="text-center">Wussten Sie, dass…</h3>
         <div class="col-md-6 border-right">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/en-2.svg" class="px-4">
@@ -205,7 +205,7 @@
         <div class="col-md-6">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/en-5.svg" class="px-4 dis_img2">
-            <h4>Lebensmittel, die auf Induktionsherden<br>gekocht werden, <strong>90%</strong> der erzeugten Wärme aufnehmen. Im<br>Vergleich dazu sind es nur 40 - 55 % bei Gasherden</h4>
+            <h4>Lebensmittel, die auf <a href="https://www.metro.de/marktplatz/c/induktionsplatten" target="_blank">Induktionsherden</a><br>gekocht werden, <strong>90%</strong> der erzeugten Wärme aufnehmen. Im<br>Vergleich dazu sind es nur 40 - 55 % bei Gasherden</h4>
           </div>
         </div>
       </div>
@@ -239,7 +239,7 @@
       </li>
       <li></li>
       <li>
-        <p>Weniger Umweltbelastung durch geringeren Verbrauch fossiler Brennstoffe</p>
+        <p>Weniger Umwelt-Belastungen durch geringeren Verbrauch fossiler Brennstoffe</p>
       </li>
       <li></li>
       <!-- </ul><ul> -->
@@ -248,8 +248,8 @@
         <p></p>
       </li>
       <li></li>
-      <li>
-        <p>Verantwortungsbewusstes Mitglied der Gemeinschaft</p>
+      <li style="width: 17%;">
+        <p>Verantwortungs-<br>bewusstes Mitglied der Gemeinschaft</p>
       </li>
       <li></li>
 
@@ -269,7 +269,7 @@
       </div>
       <div class="right-content">
         <p>
-          Das Klima verändert sich rasant. Der natürliche Treibhauseffekt sorgt für ein Klima, das Leben auf der Erde ermöglicht.. Der Mensch beschleunigt diesen natürlichen Effekt um ein Vielfaches durch den Ausstoß von Treibhausgasen wie Kohlendioxid (CO2), welches vor allem durch die Verbrennung fossiler Brennstoffe zur Stromerzeugung freigesetzt wird. Die Treibhausgase reichern sich in der Atmosphäre an und tragen zu einem Anstieg der globalen Durchschnittstemperatur mit weitreichenden Folgen für Mensch und Umwelt bei. Wir können die Auswirkungen der globalen Klimakrise bereits wahrnehmen.Dazu gehören Wetterextreme wie Dürren, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels.
+          Das Klima verändert sich rasant. Der natürliche Treibhauseffekt sorgt für ein Klima, das Leben auf der Erde ermöglicht. Der Mensch beschleunigt diesen natürlichen Effekt um ein Vielfaches durch den Ausstoß von Treibhausgasen wie Kohlendioxid (CO2), welches vor allem durch die Verbrennung fossiler Brennstoffe zur Stromerzeugung freigesetzt wird. Die Treibhausgase reichern sich in der Atmosphäre an und tragen zu einem Anstieg der globalen Durchschnittstemperatur mit weitreichenden Folgen für Mensch und Umwelt bei. Wir können die Auswirkungen der globalen Klimakrise bereits wahrnehmen. Dazu gehören Wetterextreme wie Dürren, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels.
         </p>
       </div>
     </div>

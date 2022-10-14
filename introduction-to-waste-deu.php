@@ -174,14 +174,11 @@
   <section class="didyouknow_contents waste_foot_l3 no-print energy_mar">
     <div class="col-md-10 offset-md-1">
       <div class="row">
-        <h3 class="text-center">Wussten sie, dass…</h3>
+        <h3 class="text-center">Wussten Sie, dass…</h3>
         <div class="col-md-6 offset-md-3">
           <div class="didyouknow_2culumn" style="margin-top: -70px;">
             <img src="./images/safe_food/w2.svg" class="px-4">
-            <h4>elektronische Produkte, wie z.B. Batterien oder Glühbirnen,<br>
-              WEEE-Vorschriften (Waste of Electrical and Electronic<br>
-              Equipment) fallen, nicht im normalen<br>
-              entsorgt werden dürfen</h4>
+            <h4>elektronische Produkte, wie z. B. Batterien oder Glühbirnen, die unter WEEE-Vorschriften (Waste of Electrical and Electronic Equipment) fallen, nicht im normalen Abfall entsorgt werden dürfen</h4>
           </div>
         </div>
 
@@ -231,13 +228,13 @@
       </li>
       <li></li>
       <li>
-        <p>Gelegenheit, für ungewöhnliche, neue Speisekreationen</p>
+        <p>Gelegenheit, für ungewöhnliche, neue Speisen-Kreationen</p>
       </li>
       <li></li>
       <!-- </ul><ul> -->
       <li></li>
       <li>
-        <p>Effizienzsteigerung</p>
+        <p>Effizienz-steigerung</p>
       </li>
       <li></li>
       <li>
@@ -304,7 +301,7 @@
       <ul class="mt-1" style="margin-top:-45px !important">
         <li>Lösungen zur Abfallvermeidung sind immer leichter zu finden. Sie können zunächst einfache Maßnahmen für Ihr Abfallmanagement ergreifen, z.B. indem Sie Ihre Abfälle sortieren. Zusätzlich sollten Sie mit Ihren Mitarbeitenden sprechen und gemeinsam nach Abfallquellen suchen. Schließlich können Sie sich an Ihre Stadtwerke und Ihren Großhändler wenden, um zu erfahren, welche Lösungen sie zur Abfallvermeidung anbieten.</li>
 
-        <li>Beachten Sie folgende Tipps für <a href="introduction-to-food-waste-deu.php">Lebensmittelabfälle</a>: Hinweise für Einweg-Plastikartikel, wie z.B. Mahlzeiten zum Mitnehmen, Plastikbesteck oder -verpackungen, finden Sie <a href="introduction-to-plastic-waste-deu.php">hier</a>.</li>
+        <li>Beachten Sie folgende Tipps für <a href="introduction-to-food-waste-deu.php" target="_blank">Lebensmittelabfälle</a>: Hinweise für Einweg-Plastikartikel, wie z.B. Mahlzeiten zum Mitnehmen, Plastikbesteck oder -verpackungen, finden Sie <a href="introduction-to-plastic-waste-deu.php" target="_blank">hier</a>.</li>
 
         <li>Generell gilt, dass Sie Ihre Abfalltrennung optimieren sollten, indem Sie in allen Bereichen, in denen Müll anfällt, Behälter aufstellen, die leicht zu reinigen sind.</li>
       </ul>

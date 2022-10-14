@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
         .good_to_know_box {
-            min-height: 47rem;
+            min-height: 38rem;
         }
 
         .footer-socials.side_nav>ul {
@@ -514,7 +514,7 @@
                     <h3>Lebensmittelsicherheit</h3>
                     <h4>Lebensmittelsicherheit ist die Basis</h4>
                     <p>Als Gastronomin oder Gastronom will man das beste Angebot für seine Gäste zusammenstellen. Was Sie nicht wollen, ist Ihren Geschäftsbetrieb in Gefahr zu bringen, weil ein Gast nach dem Restaurantbesuch schwer erkrankt oder Ihr Betrieb eine Hygienekontrolle nicht bestanden hat. Es gibt bereits anerkannte Regelwerke und Maßnahmen, die Restaurants dabei helfen, auf Lebensmittelsicherheit zu achten. Es gibt jedoch keine oder wenn nur wenige, die das Management eines nachhaltigen Restaurants unterstützen. Aber wenn ein Restaurant ein solides und systematisches Managementsystem für die Sicherheit von Lebensmitteln eingeführt hat, ist dies eine gute Basis, es um den Aspekt der Nachhaltigkeit zu ergänzen.</p>
-                    <button class="read-more-btn" id="hide_show_content" href="#clickTohide">Lesen Sie mehr</button>
+                    <button class="read-more-btn" id="hide_show_content" href="#clickTohide">WEITERLESEN</button>
                 </div>
                 <div class="right-content no-print">
                     <img src="./images/safe_food/L3-banner.png" class="img-fluid mt-4" />
@@ -553,19 +553,19 @@
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 35.png" class="img-fluid">
-                                <p>Laut der Metro Sustainability Survey aus dem Jahr 2019 sind qualitativ hochwertige Produkte für HoReCa-Kunden weltweit das zweitwichtigste Kaufkriterium.</p>
+                                <p style="margin-top:8rem ;">Laut der Metro Sustainability Survey aus dem Jahr 2019 sind qualitativ hochwertige Produkte für HoReCa-Kundinnen und –kunden weltweit das zweitwichtigste Kaufkriterium.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 8.png" class="img-fluid">
-                                <p>Wenn man durch den Verzehr von Lebensmitteln krank wird, spricht man von einer Lebensmittelvergiftung. Verursacht wird sie durch gefährliche Mikroorganismen und/oder giftige Chemikalien. Die Krankheit stellt in Entwicklungsländern und Industrieländern ein ernsthaftes Problem dar, das die Gesundheitssysteme belastet und der Wirtschaft schadet. Sie kann sowohl zu Hause als auch beim Essen im Restaurant auftreten. Die meisten lebensmittelbedingten Krankheiten lassen sich aber durch den richtigen Umgang mit Lebensmitteln vermeiden.</p>
+                                <p style="margin-top:4rem ;">Wenn man durch den Verzehr von Lebensmitteln krank wird, spricht man von einer Lebensmittelvergiftung. Verursacht wird sie durch gefährliche Mikroorganismen und/oder giftige Chemikalien. Die Krankheit stellt in Entwicklungsländern und Industrieländern ein ernsthaftes Problem dar, das die Gesundheitssysteme belastet und der Wirtschaft schadet. Sie kann sowohl zu Hause als auch beim Essen im Restaurant auftreten. Die meisten lebensmittelbedingten Krankheiten lassen sich aber durch den richtigen Umgang mit Lebensmitteln vermeiden.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 37.png" class="img-fluid">
-                                <p>In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
+                                <p style="margin-top:5rem ;">In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
                             </div>
                         </div>
                     </div>
@@ -573,19 +573,19 @@
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 40.png" class="img-fluid">
-                                <p>In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
+                                <p style="margin-top:5rem ;">In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 39.png" class="img-fluid">
-                                <p>In der Regel konzentrieren sich die Inspektionen der Lebensmittelsicherheitsbehörden auf saubere und gut gewartete Einrichtungen, Gebäude und Ausrüstungen – einschließlich einer angemessenen Raumaufteilung, Belüftung, Handwaschvorrichtungen und Schädlingsbekämpfung. Außerdem legen sie einen Schwerpunkt auf den hygienischen Umgang mit Lebensmitteln, einschließlich der Zubereitung, dem Kochvorgang, dem Aufwärmen, Kühlen und der Lagerung. Zusätzlich wird das Hygienemanagement im Bereich der Lebensmittelsicherheit überprüft. Dies schließt die Kontrollen, mit denen sichergestellt wird, dass die verkauften oder servierten Lebensmittel unbedenklich sind, mit ein. Wichtig bei all diesen Überprüfungen ist, dass die Lebensmittelsicherheit stets gewährleistet ist, alle gesetzlichen Standards eingehalten werden und das Personal entsprechend geschult ist.</p>
+                                <p style="margin-top:2rem ;">In der Regel konzentrieren sich die Inspektionen der Lebensmittelsicherheitsbehörden auf saubere und gut gewartete Einrichtungen, Gebäude und Ausrüstungen – einschließlich einer angemessenen Raumaufteilung, Belüftung, Handwaschvorrichtungen und Schädlingsbekämpfung. Außerdem legen sie einen Schwerpunkt auf den hygienischen Umgang mit Lebensmitteln, einschließlich der Zubereitung, dem Kochvorgang, dem Aufwärmen, Kühlen und der Lagerung. Zusätzlich wird das Hygienemanagement im Bereich der Lebensmittelsicherheit überprüft. Dies schließt die Kontrollen, mit denen sichergestellt wird, dass die verkauften oder servierten Lebensmittel unbedenklich sind, mit ein. Wichtig bei all diesen Überprüfungen ist, dass die Lebensmittelsicherheit stets gewährleistet ist, alle gesetzlichen Standards eingehalten werden und das Personal entsprechend geschult ist.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 38.png" class="img-fluid">
-                                <p>Verunreinigungen stellen ein großes Risiko für die Lebensmittelsicherheit dar. Sie können bereits in den ursprünglichen Rohstoffen enthalten sein, aber auch durch unsachgemäßen Transport, Lagerung und Zubereitung auftreten.</p>
+                                <p style="margin-top:1rem ;">Verunreinigungen stellen ein großes Risiko für die Lebensmittelsicherheit dar. Sie können bereits in den ursprünglichen Rohstoffen enthalten sein, aber auch durch unsachgemäßen Transport, Lagerung und Zubereitung auftreten.</p>
                                 <p>
                                     Es gibt vier Hauptgefahrenquellen, wodurch Ihre Lebensmittel verunreinigt werden können:</p>
                                 <ol>
@@ -929,7 +929,7 @@
                                                                                             <div class="col-md-12">
                                                                                                 <div class="pageSlider-slide-text">
                                                                                                     <span class="sldText11">
-                                                                                                        Abfall
+                                                                                                        Abfallaufkommen
                                                                                                     </span>
                                                                                                 </div>
                                                                                             </div>
@@ -1116,7 +1116,7 @@
                                             <div class="col-md-6 offset-md-1">
                                                 <div class="three-step_para">
                                                     <p>
-                                                        <strong>HACCP (Hazard Analysis and Critical Control Points)</strong> HACCP (Hazard Analysis and Critical Control Points) ist ein Verfahren, wodurch Sie in Ihrem Restaurant bessere Abläufe für die Lebensmittelsicherheit einführen können. In einigen Ländern, z.B. in Europa, ist es bereits gesetzlich vorgeschrieben. Allgemein jedoch wird jedoch von Restaurants nicht gefordert, dass sie ein umfassendes HACCP-Konzept haben. HACCP basiert auf sieben Grundprinzipien. Dabei zeichnet sich das Konzept durch einen präventiven Charakter aus, was bedeutet, dass Sie und Ihre Mitarbeitenden sich bewusst sind, was schief gehen könnte und dass Sie Ihr Restaurant so führen, dass Sie Fehler vermeiden. Falls Fehler passieren, sollten Sie über Strategien verfügen, diese einzudämmen. Dieser risikobasierte Ansatz kann Ihnen auch bei der Bewältigung von Nachhaltigkeitsrisiken helfen, z.B. bei der Verhinderung des Auslaufens von gebrauchtem Speiseöl in die Kanalisation. Das HACCP-Konzept verlangt von Ihnen, dass Sie alle Gefahren, die von Lebensmitteln ausgehen können, identifizieren, bewerten und kontrollieren.
+                                                        <strong>HACCP (Hazard Analysis and Critical Control Points)</strong> ist ein Verfahren, wodurch Sie in Ihrem Restaurant bessere Abläufe für die Lebensmittelsicherheit einführen können. In einigen Ländern, z.B. in Europa, ist es bereits gesetzlich vorgeschrieben. Allgemein wird jedoch von Restaurants nicht gefordert, dass sie ein umfassendes HACCP-Konzept haben. HACCP basiert auf sieben Grundprinzipien. Dabei zeichnet sich das Konzept durch einen präventiven Charakter aus, was bedeutet, dass Sie und Ihre Mitarbeitenden sich bewusst sind, was schief gehen könnte und dass Sie Ihr Restaurant so führen, dass Sie Fehler vermeiden. Falls Fehler passieren, sollten Sie über Strategien verfügen, diese einzudämmen. Dieser risikobasierte Ansatz kann Ihnen auch bei der Bewältigung von Nachhaltigkeitsrisiken helfen, z.B. bei der Verhinderung des Auslaufens von gebrauchtem Speiseöl in die Kanalisation. Das HACCP-Konzept verlangt von Ihnen, dass Sie alle Gefahren, die von Lebensmitteln ausgehen können, identifizieren, bewerten und kontrollieren.
                                                     </p>
                                                     <p class="mt-4">
                                                         <strong>Die sieben Grundsätze lauten:</strong>
@@ -1369,7 +1369,7 @@
                                             </div>
                                             <div class="col-md-6 offset-md-1">
                                                 <div class="three-step_para">
-                                                    <p>Wenn gut geschulte und informierte Mitarbeitender an der Einrichtung eines Lebensmittelsicherheits-Managementsystems beteiligt sind, werden sie sich voll und ganz dafür einsetzen, dass es funktioniert. Dies etabliert ein gemeinsames Verständnis von Lebensmittelsicherheit. Es handelt sich hierbei um ein relativ neues Konzept in der Gastronomie, das Sie sich zu eigen machen können, um die Lebensmittelsicherheit in Ihrem Restaurant fest zu verankern und sicherzustellen, dass es keine Zwischenfälle gibt. Wenn Sie sich näher mit den folgenden Schritten beschäftigen, werden Sie sehen, dass dieser Prozess eng mit dem Nachhaltigkeitsmanagement verknüpft ist.</p>
+                                                    <p>Wenn gut geschulte und informierte Mitarbeitende an der Einrichtung eines Lebensmittelsicherheits-Managementsystems beteiligt sind, werden sie sich voll und ganz dafür einsetzen, dass es funktioniert. Dies etabliert ein gemeinsames Verständnis von Lebensmittelsicherheit. Es handelt sich hierbei um ein relativ neues Konzept in der Gastronomie, das Sie sich zu eigen machen können, um die Lebensmittelsicherheit in Ihrem Restaurant fest zu verankern und sicherzustellen, dass es keine Zwischenfälle gibt. Wenn Sie sich näher mit den folgenden Schritten beschäftigen, werden Sie sehen, dass dieser Prozess eng mit dem Nachhaltigkeitsmanagement verknüpft ist.</p>
                                                     <p class="mt-4">
                                                         <strong>Sehen Sie sich die folgenden Schritte zur Schaffung einer gemeinsamen Kultur der Lebensmittelsicherheit an:</strong>
                                                     </p>
@@ -1715,10 +1715,10 @@
                                 <input type="checkbox" checked="checked">
                                 <span class="checkmark"></span>
                             </label>
-                            <p class="">Führen Sie eine Kultur der Lebensmittelsicherheit ein</p>
+                            <p class="">Führen Sie eine Kultur der Lebensmittelsicherheit in Ihrem Restaurant ein </p>
                         </li>
                         <li class="print-li">
-                            <button onclick="window.print();" class="no-print">Print</button>
+                            <button onclick="window.print();" class="no-print">DRUCKEN</button>
                         </li>
                     </ul>
                 </div>
@@ -1753,7 +1753,7 @@
                 <div class="bottom-right">
                     <div class="top-content5">
                         <h3>METRO ANGEBOTE</h3>
-                        <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
+                        <p>METRO unterstützt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
                     </div>
                     <div class="bottom-content5">
                         <ul>
@@ -1878,7 +1878,7 @@
             <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
             <h4>Menschen</h4>
             <p>
-                Ordnungsgemäß geschultes Personal, das versteht, warum persönliche Hygiene und die Vermeidung von Verunreinigungen wichtig sind, wird sich engagierter für das tägliche Management der Lebensmittelsicherheit einsetzen. Sie sind motivierter, ihre Aufgaben sorgfältig auszuführen und machen seltener Fehler, die zu verunreinigten Lebensmitteln führen können. Ein nachhaltiges Restaurant behandelt sein Personal gut, wodurch Mitarbeiter motiviert werden, bei der Umsetzung anderer Nachhaltigkeitsmaßnahmen zu helfen.
+                Ordnungsgemäß geschultes Personal, das versteht, warum persönliche Hygiene und die Vermeidung von Verunreinigungen wichtig sind, wird sich engagierter für das tägliche Management der Lebensmittelsicherheit einsetzen. Sie sind motivierter, ihre Aufgaben sorgfältig auszuführen und machen seltener Fehler, die zu verunreinigten Lebensmitteln führen können. Ein nachhaltiges Restaurant behandelt sein Personal gut, wodurch Mitarbeitende motiviert werden, bei der Umsetzung anderer Nachhaltigkeitsmaßnahmen zu helfen.
             </p>
         </div>
     </div>
@@ -1888,7 +1888,7 @@
             <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
             <h4>Einkauf </h4>
             <p>
-                Gute Lieferanten gewährleisten sichere Lebensmittel. Sie können dies überprüfen, indem Sie einen Nachweis oder einen Inspektionsbericht erbeten, der von einer lokalen oder nationalen Behörde oder von akkreditierten unabhängigen Gutachterinnen und Gutachter erstellt wurde. Sie können auch nach einem Zertifikat der Global Food Safety Initiative (GFSI) fragen. Ihr Lebensmittelsicherheitsmanagement verlangt, dass Sie eine Lieferantenliste führen. Dies kann Ihnen dabei helfen, die Leistungen Ihrer Lieferanten in Bezug auf Nachhaltigkeitsaktivitäten wie den verantwortungsbewussten Einkauf zu verfolgen. Durch Ihre Forderung nach Einhaltung der Standards für Lebensmittelsicherheit fördern Sie auch die Effizienz und das Abfallmanagement Ihrer Lieferanten. Auf diese Weise können Sie den Lieferanten helfen, ihre Prozesse zu verbessern, damit sie zusätzliche Aufträge erhalten und nachhaltiger
+                Gute Lieferanten gewährleisten sichere Lebensmittel. Sie können dies überprüfen, indem Sie einen Nachweis oder einen Inspektionsbericht erbeten, der von einer lokalen oder nationalen Behörde oder von akkreditierten unabhängigen Gutachterinnen und Gutachtern erstellt wurde. Sie können auch nach einem Zertifikat der Global Food Safety Initiative (GFSI) fragen. Ihr Lebensmittelsicherheitsmanagement verlangt, dass Sie eine Lieferantenliste führen. Dies kann Ihnen dabei helfen, die Leistungen Ihrer Lieferanten in Bezug auf Nachhaltigkeitsaktivitäten wie den <a href="introduction-to-responsible-sourcing-deu.php">verantwortungsbewussten Einkauf</a> zu verfolgen. Durch Ihre Forderung nach Einhaltung der Standards für Lebensmittelsicherheit fördern Sie auch die Effizienz und das Abfallmanagement Ihrer Lieferanten. Auf diese Weise können Sie den Lieferanten helfen, ihre Prozesse zu verbessern, damit sie zusätzliche Aufträge erhalten und nachhaltiger
                 wirtschaften.
             </p>
         </div>
@@ -1909,7 +1909,7 @@
             <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
             <h4>Trennung</h4>
             <p>
-                Rohe, verzehrfertige oder gekochte Lebensmittel müssen getrennt voneinander behandelt werden, ebenso wie Lebensmittel, die Allergene enthalten. Lebensmittel, die andere Zutaten kontaminieren könnten, werden in einem separaten Bereich verarbeitet.. Abfälle müssen getrennt und in gekennzeichneten Behältern gelagert werden. Rohes Gemüse mit Schmutzresten sollte z.B. von verzehrfertigem Salat ferngehalten werden. Gemüseschalen können zur Herstellung von Brühe aufbewahrt oder kompostiert werden.
+                Rohe, verzehrfertige oder gekochte Lebensmittel müssen getrennt voneinander behandelt werden, ebenso wie Lebensmittel, die Allergene enthalten. Lebensmittel, die andere Zutaten kontaminieren könnten, werden in einem separaten Bereich verarbeitet. Abfälle müssen getrennt und in gekennzeichneten Behältern gelagert werden. Rohes Gemüse mit Schmutzresten sollte z.B. von verzehrfertigem Salat ferngehalten werden. Gemüseschalen können zur Herstellung von Brühe aufbewahrt oder kompostiert werden.
             </p>
         </div>
     </div>
@@ -1980,9 +1980,9 @@
     <div id="pop11" class="modalx">
         <div class="modalx-content">
             <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
-            <h4>Abfall</h4>
+            <h4>Abfallaufkommen</h4>
             <p>
-                Gäste müssen (in vielen Ländern) vollständigen Zugang zu den Listen der Allergene in den Gerichten des Restaurants erhalten. Das Allergenmanagement stellt eine große Herausforderung für Restaurants dar, die beispielsweise eine hohe Personalfluktuation aufweisen – denn dies kann sich negativ auf den Wissenstransfer auswirken. Eine unkomplizierte Speisekarte ist der Grundstein für ein nachhaltiges Restaurant und erleichtert die Verwaltung von Allergenlisten. Wenn Sie jedoch Ihre Speisekarte saisonal ändern, sollten Sie dies Ihren Gästen und Mitarbeitenden mitteilen. Wenn die Mahlzeiten von Grund auf neu zubereitet werden, können Sie sicher sein, welche Zutaten verwendet werden und ob sie Allergene enthalten, auf die Sie Ihre Gäste hinweisen sollten. Seriöse Lieferanten werden die Allergene auf ihren Produkten kennzeichnen.
+                Ein wichtiger Aspekt ist der Umgang mit nicht verwendeten Lebensmitteln und Resten von Gerichten. So kann z.B. nicht verzehrtes Brot, je nachdem, wie es verwendet wurde, in einer anderen Mahlzeit wiederverwendet werden, z.B. als Paniermehl, oder es kann kompostiert und weggeworfen werden. Je nachdem, wie Sie damit umgehen, ergeben sich unterschiedliche Anforderungen an die Lebensmittelsicherheit und das.
             </p>
         </div>
     </div>
@@ -2188,7 +2188,7 @@
             <a class="btn-close-popup" onclick="closePopUp(35);">X</a>
             <h4>Führen Sie Routinen ein</h4>
             <p>
-                Wenn Sie bestimmte Abläufe zu einer regelmäßigen Routine machen, z. B. das Messen der Temperaturen von Lebensmitteln zu bestimmten Zeiten, und Sie dem ganzen Vorrang einräumen, werden neue Abläufe leichter verinnerlicht. Ziehen Sie den Einsatz einer digitalen App in Betracht, die Ihre Aufzeichnungen unterstützen kann. Jüngere Mitarbeitende werden davon nicht überrascht sein, während es für ältere Mitarbeitende die Chance bedeutet, neue Fähigkeiten zu erlernen.
+                Wenn Sie bestimmte Abläufe zu einer regelmäßigen Routine machen, z.B. das Messen der Temperaturen von Lebensmitteln zu bestimmten Zeiten, und Sie dem ganzen Vorrang einräumen, werden neue Abläufe leichter verinnerlicht. Ziehen Sie den Einsatz einer digitalen App in Betracht, die Ihre Aufzeichnungen unterstützen kann. Jüngere Mitarbeitende werden davon nicht überrascht sein, während es für ältere Mitarbeitende die Chance bedeutet, neue Fähigkeiten zu erlernen.
             </p>
         </div>
     </div>
@@ -2198,7 +2198,7 @@
             <a class="btn-close-popup" onclick="closePopUp(36);">X</a>
             <h4>Stärken Sie Ihre Mitarbeitenden</h4>
             <p>
-                Erlauben Sie ihnen, selbst Entscheidungen zu treffen, z.B. potenziell unsichere Lebensmittel von Lieferanten bei der Ankunft abzulehnen. Wenn Lebensmittel nicht sicher sind, z. B. weil die Temperatur über den gesetzlichen Vorschriften liegt, müssen sie entsorgt werden.
+                Erlauben Sie ihnen, selbst Entscheidungen zu treffen, z.B. potenziell unsichere Lebensmittel von Lieferanten bei der Ankunft abzulehnen. Wenn Lebensmittel nicht sicher sind, z.B. weil die Temperatur über den gesetzlichen Vorschriften liegt, müssen sie entsorgt werden.
             </p>
         </div>
     </div>
@@ -2208,7 +2208,7 @@
             <a class="btn-close-popup" onclick="closePopUp(37);">X</a>
             <h4>Führen Sie Überprüfungen durch</h4>
             <p>
-                Auf diese Weise können Sie prüfen, ob Ihr System funktioniert und ob die Mitarbeitendenr die Verfahren einhalten. Eigene Inspektionen durch Sie selbst oder geschultes Führungspersonal können ebenso effektiv sein wie die Beauftragung eines externen Prüfers. Manchmal kann eine dritte Person Dinge erkennen, die Ihnen entgehen, woraus Sie viel lernen können.
+                Auf diese Weise können Sie prüfen, ob Ihr System funktioniert und ob die Mitarbeitenden die Verfahren einhalten. Eigene Inspektionen durch Sie selbst oder geschultes Führungspersonal können ebenso effektiv sein wie die Beauftragung eines externen Prüfers. Manchmal kann eine dritte Person Dinge erkennen, die Ihnen entgehen, woraus Sie viel lernen können.
             </p>
         </div>
     </div>
@@ -2334,10 +2334,10 @@
                 $(collapse_content_selector).toggle(function() {
                     if ($(this).css('display') == 'none') {
                         //change the button label to be 'Show'
-                        toggle_switch.html('Read More');
+                        toggle_switch.html('WEITERLESEN');
                     } else {
                         //change the button label to be 'Hide'
-                        toggle_switch.html('Read Less');
+                        toggle_switch.html('WENIGER');
                     }
                 });
             });

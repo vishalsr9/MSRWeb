@@ -115,17 +115,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -174,11 +174,11 @@
     <section class="didyouknow_contents waste_foot_l3">
         <div class="col-md-10 offset-md-1">
             <div class="row">
-                <h3 class="text-center">WUSSTEN SIE, dass…</h3>
+                <h3 class="text-center">Wussten Sie, dass…</h3>
                 <div class="col-md-6 border-right">
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/l3-1.svg" class="px-4">
-                        <h4>wir jedes Jahr <br><strong>2.21 Milliarden Tonnen</strong> <br>Abfall wegwerfen</h4>
+                        <h4>wir jedes Jahr <br><strong>2,21 Milliarden Tonnen</strong> <br>Abfall wegwerfen</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -234,13 +234,13 @@
             </li>
             <li></li>
             <li>
-                <p>Wffizienter sein</p>
+                <p>Effizienter sein</p>
             </li>
             <li></li>
             <!-- </ul><ul> -->
             <li></li>
             <li>
-                <p>Dazu lernen</p>
+                <p>Erkenntnisse sammeln</p>
             </li>
             <li></li>
             <li>
@@ -248,12 +248,12 @@
             </li>
             <li></li>
             <li>
-                <p>Die Arbeitsmoral steigern</p>
+                <p>Arbeitsmoral steigern</p>
             </li>
             <!-- </ul>
                 <ul> -->
             <li>
-                <p>Die Treue von Gästen erhöhen (was auch zu besseren Bewertungen führt)
+                <p>Treue von Gästen erhöhen (was auch zu besseren Bewertungen führt)
                 </p>
             </li>
             <li></li>
@@ -262,19 +262,19 @@
             </li>
             <li></li>
             <li>
-                <p>Ihren Ruf verbessern</p>
+                <p>Ruf verbessern</p>
             </li>
             <li></li>
             <!-- </ul>
                 <ul> -->
             <li></li>
             <li>
-                <p>Einen positiven Einfluss auf Ihre Community ausüben
+                <p>Positiven Einfluss auf Ihre Community ausüben
                 </p>
             </li>
             <li></li>
             <li>
-                <p>Die Verschmutzung der lokalen und globalen Umwelt verhindern
+                <p>Verschmutzung der lokalen und globalen Umwelt verhindern
                 </p>
             </li>
             <li></li>
@@ -292,7 +292,7 @@
             </div>
             <div class="right-content">
                 <p>
-                    Die Nachfrage nach Lebensmitteln steigt mit dem Wachstum der Weltbevölkerung, aber die Anbauflächen sind endlich. Deshalb ist die Vermeidung von Lebensmittelverschwendung ein wichtiges Thema für die globale Ernährungssicherheit. Jedes Jahr werden über 1/3 aller weltweit produzierten Lebensmittel weggeworfen, während gleichzeitig <strong>840 Millionen Menschen hungrig zu Bett gehen</strong>. Jeder von ihnen könnte mit weniger als dem, was in den USA, Großbritannien und Europa jährlich verschwendet wird, ernährt werden. In einer METRO-Umfrage aus dem Jahr 2022 gaben 82 % der HoReCa Kunden an, dass die Reduktion von Lebensmittelverschwendung sie sehr in ihrem Betriebsalltag beschäftigt.
+                    Die Nachfrage nach Lebensmitteln steigt mit dem Wachstum der Weltbevölkerung, aber die Anbauflächen sind endlich. Deshalb ist die Vermeidung von Lebensmittelverschwendung ein wichtiges Thema für die globale Ernährungssicherheit. Jedes Jahr werden über 1/3 aller weltweit produzierten Lebensmittel weggeworfen, während gleichzeitig 840 Millionen Menschen hungrig zu Bett gehen. Jeder von ihnen könnte mit weniger als dem, was in den USA, Großbritannien und Europa jährlich verschwendet wird, ernährt werden. In einer METRO-Umfrage aus dem Jahr 2022 gaben 82 % der HoReCa Kundinnen und Kunden an, dass die Reduktion von Lebensmittelverschwendung sie sehr in ihrem Betriebsalltag beschäftigt.
 
                 </p>
             </div>
@@ -304,7 +304,7 @@
         <div class="left-content noalign border-right col-md-6">
             <h3>KNOW-HOW – ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN </h3>
             <p>
-                Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen. Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung">Lebensmittelabfälle. </a><br><br>
+                Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen.<br>Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung">Lebensmittelabfälle. </a><br><br>
                 Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene Lebensmittel landen!
 
             </p>
@@ -317,7 +317,7 @@
         <div class="l3-5img mr-4 col-md-6">
             <!-- <h3>Food Recovery Hierarchy</h3> -->
             <img src="./images/safe_food/Food Waste L3_graphics.svg" class="img-fluid">
-            <a style="top:12.5%;left:50%;" href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">WEITERLESEN</a>
+            <a style="top:12.5%;left:50%;" href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung" target="_blank" class="imgCta">WEITERLESEN</a>
         </div>
     </section>
 
@@ -326,9 +326,9 @@
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO- LÖSUNGEN</h3>
-                <p>Sammlung von Abfällen oder Pfandsysteme finden Sie entweder bei METRO oder über einen externen Anbieter sowohl für Non-Food- als auch für Lebensmittelabfälle. Kontaktieren Sie Wohltätigkeitsorganisationen, die überschüssige Lebensmittel annehmen. </p>
-                <p><strong>Applications that can support with menu design or communications are:</strong></p>
+                <h3>METRO LÖSUNGEN</h3>
+                <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
+                <p><strong>Anwendungen, die bei der Menügestaltung oder Kommunikation unterstützen können:</strong></p>
             </div>
             <div class="bottom-content5">
                 <ul>
@@ -336,7 +336,7 @@
                         <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
                     </li>
                     <li>
-                        <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                        <a href="https://www.dish.co/XX/de/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
                     </li>
                     <li>
                         <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
@@ -351,8 +351,8 @@
         </div>
         <div class="bottom-right">
             <div class="top-content5">
-                <h3>METRO Offer</h3>
-                <p>METRO supports you with a diverse product assortment for your sustainability strategy: </p>
+                <h3>METRO ANGEBOTE</h3>
+                <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
             </div>
             <div class="bottom-content5">
                 <ul>
@@ -429,11 +429,11 @@
             </div>
             <div class="footer-socials">
                 <ul>
-                    <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/metro.deutschland"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/MetroGrossmarkt"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="https://www.instagram.com/metro_deutschland/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/metro-ag"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/@METRO_News"><i class="fa fa-twitter"></i></a></li>
                 </ul>
 
             </div>
@@ -445,22 +445,22 @@
                     <ul>
 
 
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
+                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
 
-                        <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
+                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
 
-                        <li><a href="use-https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
+                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
 
-                        <li><a href="contact-https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
+                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
 
                     </ul>
 
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>

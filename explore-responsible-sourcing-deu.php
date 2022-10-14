@@ -125,6 +125,10 @@
             float: left;
         }
 
+        .section-heading-white-small {
+            text-transform: none !important;
+        }
+
         /**/
         .sw9 {
             width: 38rem;
@@ -947,7 +951,7 @@
 
             <!--Good to know SECTION-->
             <section class="section-white-full-width no-print">
-                <h3 class="section-heading-blue no-print" style="text-transform: none;">
+                <h3 class="section-heading-blue no-print" style="text-transform: none!important;">
                     Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu finden
                 </h3>
 
@@ -977,14 +981,14 @@
 
             <!--SCHEMES SECTION DEVELOPEMNT AREA START------------------------>
 
-            <section class="section-blue-bg-full-width no-print" id="devid01">
+            <section class="section-blue-bg-full-width no-print" id="devid01" style="display: none;">
                 <div class="container mt-5">
                     <div class="row">
                         <div class="col-md-5">
                             <div class="row">
                                 <!--CONTENT-->
                                 <div class="col-md-12 mt-2 mb-5">
-                                    <h4 class="section-heading-white-small">Siegel und Zertifizierungen</h4>
+                                    <h4 class="section-heading-white-small" style="text-transform: none!important;">Siegel und Zertifizierungen</h4>
                                 </div>
                                 <div class="col-md-12 mt-2 mb-1">
                                     <div id="topics9"></div>
@@ -1138,11 +1142,11 @@
                                                             <img src="images/resp_sourcing/scheme-logos/GLOBALG.A.P..png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle92">
-                                                            <span class="sltitletxt">GlobalGAP</span>
+                                                            <span class="sltitletxt">GLOBALG.A.P.</span>
                                                         </div>
                                                         <div class="col-md-12 px-1 py-1 mt-2 slpara slpara92">
                                                             <p class="justify1">
-                                                                GlobalG.A.P ist ein unabhängiges Zertifizierungssystem für die „gute landwirtschaftliche Praxis“ (G.A.P., Good Agricultural Practice). Im Rahmen des Siegels gibt es auch das Programm LocalG.A.P., das Kleinbäuerinnen und –bauern beim Anbau von Lebensmitteln einschließlich der korrekten Verwendung von Pestiziden unterstützt. Die Logos sind üblicherweise nicht auf den Produkten abgebildet.
+                                                                GlobalG.A.P ist ein unabhängiges Zertifizierungssystem für die „gute landwirtschaftliche Praxis“ (G.A.P., Good Agricultural Practice). Im Rahmen des Siegels gibt es auch das Programm LocalG.A.P., das Kleinbäuerinnen und -bauern beim Anbau von Lebensmitteln einschließlich der korrekten Verwendung von Pestiziden unterstützt. Die Logos sind üblicherweise nicht auf den Produkten abgebildet.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1342,7 +1346,7 @@
             <section class="section-white-full-width no-print">
                 <div class="row">
                     <div class="col-md-8 mb-5">
-                        <h3 class="section-heading-blue-small no-print">Nicht-zertifizierte nachhaltige Produkte</h3>
+                        <h3 class="section-heading-blue-small no-print" style="text-transform: none!important;">Nicht-zertifizierte nachhaltige Produkte</h3>
                         <p class="justify1 no-print">
                             Nicht alle Erzeuger orientieren sich an nachhaltigen Standards. Bei einigen von ihnen verläuft die Entwicklung dahin nur schrittweise. Ein Produkt kann allerdings aus vielen Gründen nachhaltig sein (lokal, gesund, ökologisch usw.) und oft erfährt man dies nur, wenn man seinen Lieferanten fragt. Manchmal fällt der produzierende Betrieb auch die bewusste Entscheidung, ein Produkt nicht zertifizieren zu lassen, obwohl es nachhaltig hergestellt wurde. Oftmals halten beispielsweise die Kosten für die Qualitätssiegel die Erzeuger davon ab, ihr Produkt zertifizieren zu lassen. Oder es wird einfach kein entsprechendes Label ausgestellt, z.B. wie bei den meisten Sozialaudits, die die Arbeitsbedingungen überprüfen.
                         </p>
@@ -1375,7 +1379,7 @@
                 <div class="container-full con50">
                     <div class="row">
                         <div class="col-md-12 mt-2 mb-2 mx-1 my-1 text-center">
-                            <h3 class="section-heading-blue">Der umfassende Leitfaden für nachhaltige Produkte</h3>
+                            <h3 class="section-heading-blue" style="text-transform:none!important ;">Der umfassende Leitfaden für nachhaltige Produkte</h3>
                             <p>
                                 <strong>
                                     Es ist nicht immer einfach herauszufinden, wann ein Produkt nachhaltig ist.<br>Die Definitionen können je nach Perspektive und Überzeugung von Personen oder Organisationen stark voneinander abweichen.<br>Folgende Merkmale eignen sich als Leitfaden, da nachhaltige Produkte mindestens eines dieser Merkmale aufweisen:
@@ -2320,7 +2324,7 @@
     <section class="section-white-full-width no-print">
         <div class="row">
             <div class="col-md-8">
-                <h3 class="section-heading-blue-small no-print">
+                <h3 class="section-heading-blue-small no-print" style="text-transform: none!important;">
                     Tipps für Einsteiger, um verantwortungsbewusst Einzukaufen
                 </h3>
                 <p class=" no-print">
@@ -2674,7 +2678,7 @@
     <!---------ADVANCE WAYS---------->
     <section class="section-highlight-withimages section4-5 pbg mb-3 no-print">
         <div class="top-highlight text-center">
-            <h3>Tipps für Fortgeschrittene, um<br>verantwortungsbewusst einzukaufen</h3>
+            <h3>Tipps für Fortgeschrittene, um<br>verantwortungsbewusst Einzukaufen</h3>
             <p>Sie können sogar noch weiter gehen, indem Sie Tipps für Fortgeschrittene verwenden, um das Kriterium der Nachhaltigkeit in Ihrem Einkauf zu verankern: </p>
         </div>
         <div class="container9 mt-m2 mb-5">
@@ -2799,7 +2803,7 @@
         <div class="left-content9">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="h3v2">Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
+                    <h3 class="h3v2" style="text-transform:none!important;">Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
                     <p class="justify1">
                         Überprüfen Sie, sobald Sie mit ersten Maßnahmen eines verantwortungsbewussten Einkaufs begonnen haben, welche Auswirkungen damit verbunden sind (z.B. weniger Plastikmüll, höhere Umsätze mit nachhaltigen Gerichten, positivere Bewertungen für Ihr Restaurant). Es ist wichtig, die Fortschritte zu verfolgen und zu messen, denn das stärkt die Moral, noch mehr zu erreichen. Diskutieren Sie regelmäßig mit Ihrem Personal und notieren Sie, welche positiven Auswirkungen sie wahrnehmen. Hier sind einige Vorschläge, wie dies geschehen kann:
                     </p>
@@ -3432,7 +3436,7 @@
                         },
                         {
                             "sid": "s32",
-                            "data-text": "GlobalGAP",
+                            "data-text": "GLOBALG.A.P.",
                             "icon-url": "icon url 3-2"
                         },
                         {

@@ -338,6 +338,7 @@
 
         .two-column {
             column-count: 2;
+            column-gap: 2rem;
         }
 
         .noalign {
@@ -481,7 +482,7 @@
             <!--BANNER-->
             <section class="section1 no-print">
                 <div class="left-content no-print">
-                    <h3>Wie Sie sich als Gastronomiebetreibende<br>
+                    <h3 style="text-transform: none;">Wie Sie sich als Gastronomiebetreibende<br>
                         sozial engagieren können</h3>
                     <h4>Soziales Engagement in der Gastronomie</h4>
                     <p>Als Gastronom und Gastronomin haben Sie großen Einfluss auf soziale Belange. Soziales Engagement beschränkt sich hierbei nicht nur auf die Mitarbeitenden eines Restaurants, sondern es bezieht sich auch darauf, wie sich das Restaurant vor Ort engagiert und wie die Lieferanten behandelt werden. Wichtig ist: Wer in der Gastronomie arbeitet, sollte sozial- und krankenversichert sein und erwarten können, dass sein Gehalt pünktlich ausgezahlt wird. Leider erfahren nicht alle Beschäftigten im Gastgewerbe diesen Schutz.</p>
@@ -506,9 +507,9 @@
                                 <br>
                                 Das Gastgewerbe und die Lebensmittelbranche gehören zu den größten Arbeitgebern der Welt, aber in vielen Betrieben fehlt es oftmals an einer guten Arbeitsphilosophie. Leider sind unterbezahlte und ausgebeutete Arbeitnehmende immer noch an der Tagesordnung, sei es in Bezug auf die physischen Arbeitsbedingungen, Arbeitszeiten, Sicherheit oder vertragliche Aspekte wie Zeit- oder Saisonarbeit.
                                 <br>
-                                Darüberh inaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens.. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die „höheren“ Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.
+                                Darüberh inaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die höheren Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.
                                 <br>
-                                Als Gastronomin oder Gastronom haben Sie eine unmittelbare Verantwortung für Ihre Mitarbeitenden. Darüber hinaus haben Sie auch eine indirekte Verantwortung für jeden Arbeitnehmenden in der Lieferkette, der Sie mit Produkten versorgt – sei es der Landwirt oder die Landwirtin oder der Fahrer bzw. die Fahrerin, welche Ihnen Waren liefern. Ein sozial engagierter Gastronomiebetreibender zu sein, bedeutet daher, sich auch vor Ort in der eigenen Region angemessen zu verhalten, z. B. gegenüber anderen Gastronomiebetreibenden, Verbänden und Wohltätigkeitsorganisationen. Insbesondere in extrem herausfordernden Zeiten kann die Art und Weise, wie Sie Ihr Personal und Ihre Lieferanten behandeln oder wie Sie mit Ihrer Gemeinde interagieren, nicht nur für Sie positive Auswirkungen haben, sondern Sie auch beeinflussen und damit auch grundsätzlich das Verständnis von guter Arbeit in der Gastronomie.
+                                Als Gastronomin oder Gastronom haben Sie eine unmittelbare Verantwortung für Ihre Mitarbeitenden. Darüber hinaus haben Sie auch eine indirekte Verantwortung für jeden Arbeitnehmenden in der Lieferkette, der Sie mit Produkten versorgt – sei es der Landwirt oder die Landwirtin oder der Fahrer bzw. die Fahrerin, welche Ihnen Waren liefern. Ein sozial engagierter Gastronomiebetreibender zu sein, bedeutet daher, sich auch vor Ort in der eigenen Region angemessen zu verhalten, z.B. gegenüber anderen Gastronomiebetreibenden, Verbänden und Wohltätigkeitsorganisationen. Insbesondere in extrem herausfordernden Zeiten kann die Art und Weise, wie Sie Ihr Personal und Ihre Lieferanten behandeln oder wie Sie mit Ihrer Gemeinde interagieren, nicht nur für Sie positive Auswirkungen haben, sondern Sie auch beeinflussen und damit auch grundsätzlich das Verständnis von guter Arbeit in der Gastronomie.
                             </p>
                         </div>
                     </div>
@@ -522,7 +523,7 @@
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/s-3.svg" class="img-fluid">
-                                <p>Menschenrechte sind für die Selbstverwirklichung eines Menschen von entscheidender Bedeutung und die, Allgemeine Erklärung der Menschenrechte“ durch die Vereinten Nationen im Jahr 1948 bildet die Grundlage für die wesentlichen Menschenrechtsanforderungen in allen Unternehmen</p>
+                                <p>Menschenrechte sind für die Selbstverwirklichung eines Menschen von entscheidender Bedeutung und die "Allgemeine Erklärung der Menschenrechte“ durch die Vereinten Nationen im Jahr 1948 bildet die Grundlage für die wesentlichen Menschenrechtsanforderungen in allen Unternehmen</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
@@ -546,7 +547,7 @@
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/s-5.svg" class="img-fluid">
-                                <p>Arbeitsbedingungen sind Zwangsarbeit, Diskriminierung oder andere Formen unethischen Geschäftsverhaltens.</p>
+                                <p>Extreme Herausforderungen für faire Arbeitsbedingungen sind Zwangsarbeit, Diskriminierung oder andere Formen unethischen Geschäftsverhaltens</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
@@ -819,7 +820,7 @@
                                                             <div class="col-md-6">
                                                                 <div class="tab-text-holder1">
                                                                     <div class="tab-text-holder1-inner">
-                                                                        <p>Als Arbeitgeber erreichen Sie nachhaltige:</p>
+                                                                        <p>Als Arbeitgeber erreichen Sie nachhaltige Arbeitsbedingungen durch:</p>
 
                                                                         <ol>
                                                                             <li>indem Sie die nationale Arbeitsgesetzgebung einhalten.</li>
@@ -959,7 +960,7 @@
 
 
                                         <p class="text-center nextStepCta mt-4">
-                                            <a id="nextBtn1" href="#tabLi2">Nächster Stempel<i class="fa fa-long-arrow-right"></i>
+                                            <a id="nextBtn1" href="#tabLi2">Nächster Schritt&nbsp;<i class="fa fa-long-arrow-right"></i>
                                             </a>
                                         </p>
                                     </div>
@@ -1119,7 +1120,7 @@
 
                                         <div class="row">
                                             <p class="text-center nextStepCta mt-4">
-                                                <a id="nextBtn2" href="#tabLi3">Nächster Stempel<i class="fa fa-long-arrow-right"></i>
+                                                <a id="nextBtn2" href="#tabLi3">Nächster Schritt&nbsp;<i class="fa fa-long-arrow-right"></i>
                                                 </a>
                                             </p>
                                         </div>
@@ -1334,7 +1335,7 @@
                         </li>
 
                         <li class="print-li">
-                            <button onclick="window.print();" class="no-print">Print</button>
+                            <button onclick="window.print();" class="no-print">DRUCKEN</button>
                         </li>
                     </ul>
                 </div>

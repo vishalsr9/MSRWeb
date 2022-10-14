@@ -38,6 +38,10 @@
                 left: 0;
                 top: 0;
             }
+
+            .nodeco12 {
+                color: white !important;
+            }
         }
     </style>
 </head>
@@ -177,7 +181,7 @@
 
             <section class="section1 no-print">
                 <div class="left-content">
-                    <h3>So wird Ihre Speisekarte nachhaltiger</h3>
+                    <h3 style="text-transform: none;">So wird Ihre Speisekarte nachhaltiger</h3>
                     <h4>Die nachhaltige Speisekarte </h4>
                     <p>Bringen Sie mehr Nachhaltigkeit in Ihre Speisekarte und zeigen Sie Ihr Engagement für die Gesundheit des Planeten und der Menschen. Mit bewussten Entscheidungen werden Sie sowohl Gäste wie auch Mitarbeitende für sich gewinnen. Nutzen Sie zum Beispiel mehr regionale und Bioprodukte und weniger Zucker und Salz.<span id="dots"></span>
 
@@ -191,7 +195,7 @@
             </section>
             <section class="section-text container no-print" id="more">
                 <div class="section-text-inner">
-                    <p> <strong>Vor allem </strong> jüngere Generationen sorgen sich um die Umwelt und einen fairen Umgang mit Menschen. Daher wissen sienachhaltige Konzepte in der Gastronomie zu schätzen. Mehr Nachhaltigkeit in Ihrem Betrieb bietet zudem die Gelegenheit, sich vom Wettbewerb abzuheben, und wirkt sich positiv auf die Umwelt und ihre Gemeinde aus. Eine intakte Umwelt und die Verfügbarkeit von Ressourcen sind die Grundlage für Ihren Geschäftsbetrieb. Indem Sie sich für nachhaltig beschaffte und produzierte Lebensmittel entscheiden, sichern Sie sich Ihre eigene Zukunft und können einen stabilen und profitablen Betrieb aufbauen. </p>
+                    <p>Vor allem jüngere Generationen sorgen sich um die Umwelt und einen fairen Umgang mit Menschen. Daher wissen sie nachhaltige Konzepte in der Gastronomie zu schätzen. Mehr Nachhaltigkeit in Ihrem Betrieb bietet zudem die Gelegenheit, sich vom Wettbewerb abzuheben, und wirkt sich positiv auf die Umwelt und ihre Gemeinde aus. Eine intakte Umwelt und die Verfügbarkeit von Ressourcen sind die Grundlage für Ihren Geschäftsbetrieb. Indem Sie sich für nachhaltig beschaffte und produzierte Lebensmittel entscheiden, sichern Sie sich Ihre eigene Zukunft und können einen stabilen und profitablen Betrieb aufbauen. </p>
                 </div>
 
             </section>
@@ -199,7 +203,7 @@
                 <div class="section-simple-way text-center">
                     <h3>
                         Einfache Schritte, um eine nachhaltige Speisekarte zu erstellen</h3>
-                    <p>Als Gastronom haben Sie zahlreiche Möglichkeiten, Ihre Speisekarte nachhaltig zu gestalten. Da es aber unterschiedliche Vorstellungen davon gibt, was ein nachhaltiges Gericht kennzeichnet, gibt es mehrere Möglichkeiten:</p>
+                    <p>Als Gastronomin und Gastronom haben Sie zahlreiche Möglichkeiten, Ihre Speisekarte nachhaltig zu gestalten. Da es aber unterschiedliche Vorstellungen davon gibt, was ein nachhaltiges Gericht kennzeichnet, gibt es mehrere Möglichkeiten:</p>
                 </div>
             </section>
             <section class="section-slider1 section-slider2 no-print">
@@ -362,12 +366,12 @@
 
             <section class="section-text-withimages section4-4 more-text no-print">
                 <div class="left-content">
-                    <h3>Tipps für Fortgeschrittene, um eine nachhaltige Speisekarte zu erstellen – Erfahren Sie alles über die Diversifizierung von Proteinen </h3>
+                    <h3 style="text-transform:none ;">Tipps für Fortgeschrittene, um eine nachhaltige Speisekarte zu erstellen – Erfahren Sie alles über die Diversifizierung von Proteinen</h3>
                     <p>Überall auf der Welt beziehen wir unseren Eiweißbedarf aus Pflanzen, Fleisch und Fisch. Das Problem ist, dass Eiweiß aus industrieller Landwirtschaft oftmals schlecht für die Umwelt ist und durch Methanemissionen (die in Kohlenstoffdioxid umgewandelt werden) Wasser und Böden belastet. Das Tierwohl wird häufig missachtet. <span id="dots"></span>
                         <br><br>
                         <span id="more1">Auch die Fischzucht hat Auswirkungen auf die Umwelt, z. B. durch Wasserverschmutzung und die Übertragung von Krankheiten auf Wildfische. Gleichzeitig nehmen die Wildfischbestände stetig ab und die Tiere sind schädlichem Mikroplastik ausgesetzt.
                             <br><br>
-                            Verbraucher sind sich immer mehr dieser Auswirkungen bewusst. Wie wir uns heute und in Zukunft ernähren, ist häufig ein Thema in den Nachrichten und sozialen Medien. Sie können in diesem Bereich innovativ sein und Ihren Gästen durch Ihr Speisenangebot zeigen, wie Sie ein großes Nachhaltigkeitsthema wirklich im Griff haben. Darüber hinaus sind Verbraucher zunehmend bereit, mehr für eine verantwortungsbewusste Ernährung zu bezahlen.
+                            Verbraucherinnen und Verbraucher sind sich immer mehr dieser Auswirkungen bewusst. Wie wir uns heute und in Zukunft ernähren, ist häufig ein Thema in den Nachrichten und sozialen Medien. Sie können in diesem Bereich innovativ sein und Ihren Gästen durch Ihr Speisenangebot zeigen, wie Sie ein großes Nachhaltigkeitsthema wirklich im Griff haben. Darüber hinaus sind Verbraucherinnen und Verbraucher zunehmend bereit, mehr für eine verantwortungsbewusste Ernährung zu bezahlen.
                             <br><br>
                             Glücklicherweise gibt es viele Lösungen, wie Sie Ihre Speisekarte nachhaltiger gestalten können. Wenn Sie sich für ökologisch produzierte Proteine entscheiden, haben Sie ein wesentliches Merkmal Ihres nachhaltigen Speisenangebots festgelegt, was sich positiv auf die Gesundheit Ihrer Gäste und unseres Planeten auswirkt.
                         </span>
@@ -411,7 +415,7 @@
                         <div class="grid--content more-text">
                             <span class="text-img"><img src="images/grid4.svg" /></span>
                             <h5> Natürliche <br> Lebensmittel </h5>
-                            <p id="more4">Die Nutzung von lokalen und in der Natur vorkommenden Lebensmitteln verbindet uns mit der natürlichen Umwelt. Eine wachsende Zahl von Köchen hat sich daher die uralte Praxis der Lebensmittelsuche, bei der sie das naturbelassene Land in der Nähe ihrer Restaurants erkunden, neu zu eigen gemacht. Sie graben, schneiden und pflücken frische Zutaten, um ihre Speisekarten zu ergänzen, die sich in der Regel an den Jahreszeiten orientieren. René Redzepi vom Noma in Dänemark hat vor wenigen Jahren dieses Konzept der Lebensmittelsuche populär gemacht, und seither haben mehrere Köche auf der ganzen Welt mit der Suche nach Lebensmitteln in ihrer eigenen, naturnahen Umgebung begonnen. Die Köche, die ihre Lebensmittel persönlich und direkt aus ihrer eigenen Umgebung sammeln, befinden sich immer noch in der Minderheit, zeichnen sich aber durch ein starkes regionales Netzwerk aus. Sie haben ein starkes Bewusstsein für nachhaltige Ernährung und stehen für eine Bewegung, die die lokale Umwelt respektiert sowie die Notwendigkeit erkannt hat, sich um ihre Region zu kümmern. Lassen Sie sich von Köchen wie Aidan Brookes von eleven98 in London, Ana Ros von Hisa Franko in Slowenien, Prateek Sadhu von Masque in Indien, Hisoto Nakahigashi von Miyamasou in Japan, Wojciech Modest Amaro von Atelier Amaro in Polen und Ricky Saward von Seven Swans Must Die in Deutschland inspirieren.
+                            <p id="more4">Die Nutzung von lokalen und in der Natur vorkommenden Lebensmitteln verbindet uns mit der natürlichen Umwelt. Eine wachsende Zahl von Köchen hat sich daher die uralte Praxis der Lebensmittelsuche, bei der sie das naturbelassene Land in der Nähe ihrer Restaurants erkunden, neu zu eigen gemacht. Sie graben, schneiden und pflücken frische Zutaten, um ihre Speisekarten zu ergänzen, die sich in der Regel an den Jahreszeiten orientieren. René Redzepi vom Noma in Dänemark hat vor wenigen Jahren dieses Konzept der Lebensmittelsuche populär gemacht, und seither haben mehrere Köchinnen und Köche auf der ganzen Welt mit der Suche nach Lebensmitteln in ihrer eigenen, naturnahen Umgebung begonnen. Die Köchinnen und Köche, die ihre Lebensmittel persönlich und direkt aus ihrer eigenen Umgebung sammeln, befinden sich immer noch in der Minderheit, zeichnen sich aber durch ein starkes regionales Netzwerk aus. Sie haben ein starkes Bewusstsein für nachhaltige Ernährung und stehen für eine Bewegung, die die lokale Umwelt respektiert sowie die Notwendigkeit erkannt hat, sich um ihre Region zu kümmern. Lassen Sie sich von Köchen wie Aidan Brookes von eleven98 in London, Ana Ros von Hisa Franko in Slowenien, Prateek Sadhu von Masque in Indien, Hisoto Nakahigashi von Miyamasou in Japan, Wojciech Modest Amaro von Atelier Amaro in Polen und Ricky Saward von Seven Swans Must Die in Deutschland inspirieren.
                             </p>
                             <button class="read-more-btn" id="myBtn4">WEITERLESEN</button>
                         </div>
@@ -432,7 +436,7 @@
                             <div class="circle-content more-text">
                                 <span class="text-num">01</span>
                                 <h5>Erklären Sie nachhaltige <br> Zutaten auf Ihrer Speisekarte</h5>
-                                <p>Zeigen Sie, wo Ihre Zutaten herkommen und wer sie produziert hat. Erklären Sie die Nachhaltigkeitslabels Ihrer Zutaten (Überprüfen Sie zuerst, ob der Eigentümer des Label-Programms dies zulässt, und stellen Sie sicher, dass Sie die Zertifikate zur Verfügung haben). Informieren Sie Ihre Kunden darüber, wie die Zutat hergestellt wird. Erklären Sie, wenn es von einem lokalen Bauern stammt, der nachhaltige Prinzipien befolgt, sich aber gegen eine Zertifizierung entschieden hat. Es ist wichtig, dies Ihren Kunden deutlich zu machen. Heben Sie Gerichte mit Gemüse und Vollkorn hervor. Erklären Sie allgemein Ihre Nachhaltigkeitsphilosophie und erzählen Sie, wo immer möglich, die nachhaltige Geschichte Ihrer Gerichte.
+                                <p>Zeigen Sie, wo Ihre Zutaten herkommen und wer sie produziert hat. Erklären Sie die Nachhaltigkeitslabels Ihrer Zutaten (Überprüfen Sie zuerst, ob der Eigentümer des Label-Programms dies zulässt, und stellen Sie sicher, dass Sie die Zertifikate zur Verfügung haben). Informieren Sie Ihre Kundinnen und Kunden darüber, wie die Zutat hergestellt wird. Erklären Sie, wenn es von einem lokalen Bauern stammt, der nachhaltige Prinzipien befolgt, sich aber gegen eine Zertifizierung entschieden hat. Es ist wichtig, dies Ihren Kundinnen und Kunden deutlich zu machen. Heben Sie Gerichte mit Gemüse und Vollkorn hervor. Erklären Sie allgemein Ihre Nachhaltigkeitsphilosophie und erzählen Sie, wo immer möglich, die nachhaltige Geschichte Ihrer Gerichte.
 
                                 </p>
 
@@ -452,7 +456,7 @@
                                 <span class="text-num">05</span>
                                 <h5>Fügen Sie Informationen zur <br> Herkunft Ihrer Zutaten hinzu</h5>
                                 <div>
-                                    <p>Erwägen Sie, Ihrer Website und Ihren Social-Media-Seiten Informationen über die <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit"> Herkunft </a> Ihrer Zutaten hinzuzufügen sowie in gedruckter Form oder auf Ihrem Menüdisplay. Es spart Platz in den einzelnen Gerichtbeschreibungen.
+                                    <p>Erwägen Sie, Ihrer Website und Ihren Social-Media-Seiten Informationen über die <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit"> Herkunft </a> Ihrer Zutaten hinzuzufügen sowie in gedruckter Form oder auf Ihrem Menüdisplay. Dies spart Platz in den einzelnen Gerichtbeschreibungen.
                                     </p>
                                 </div>
                             </div>
@@ -469,8 +473,9 @@
                                 <span class="text-num">02</span>
                                 <h5>Heben Sie Ihr nachhaltiges <br> Engagement hervor</h5>
                                 <div>
-                                    <p>Nutzen Sie Ihre Speisekarte als Möglichkeit, um zu zeigen, was Sie als Gastronom unternehmen, um nachhaltiger zu sein.
-                                    <div id="more5">Informieren Sie Ihre Gäste über die Art und Weise, wie Sie mit Lebensmittelabfällen umgehen, über Lebensmittelspenden oder über Ihr lokales Engagement. Laden Sie Ihre Gäste ein, Lebensmittel, die sie nicht aufgegessen haben, mit nach Hause zu nehmen. <a href="https://prospekte.metro.de/plastikverbot/page/1?_ga=2.100060056.786427769.1650543436-715601530.1600076213"> Natürlich in einer nachhaltigen Verpackung! </a></div>
+                                    <p>Nutzen Sie Ihre Speisekarte als Möglichkeit, um zu zeigen, was Sie als Gastronomin und Gastronom unternehmen, um nachhaltiger zu sein.
+                                    <div id="more5" style="color: black;font-size: 16px;font-family: 'gothambook';">
+                                        Informieren Sie Ihre Gäste über die Art und Weise, wie Sie mit Lebensmittelabfällen umgehen, über Lebensmittelspenden oder über Ihr lokales Engagement. Laden Sie Ihre Gäste ein, Lebensmittel, die sie nicht aufgegessen haben, mit nach Hause zu nehmen. <a href="https://prospekte.metro.de/plastikverbot/page/1?_ga=2.100060056.786427769.1650543436-715601530.1600076213" target="_blank">Natürlich in einer nachhaltigen Verpackung! </a></div>
                                     </p>
                                 </div>
                                 <button href="#" class="read-text" id="myBtn5">WEITERLESEN</button>
@@ -520,36 +525,18 @@
                 <ul class="section-lena-inner">
                     <li class="accordian1">
                         <div class="collapsible__header">UNSERE LEBENSMITTELHERKUNFT</div>
-                        <p class="collapsible__content">Salate und Kräuter sind
-                            in unserem Indoor gewachsen
-                            Garten. Die meisten unserer
-                            Gemüse stammt aus der Region
-                            Bauernhöfe. Wenn wir müssen
-                            Wir verwenden Quellen weiter
-                            Weg. <br> Rindfleisch stammt vom Rind
-                            lokal bei Valley geweidet
-                            Bauernhof. <br>Fisch ist verantwortungsvoll
-                            über Mr FishMarket bezogen.
-                            Brot ist von Mrs Baker in
-                            Stadt, Dorf. <br> Bitte teilen Sie uns mit, ob Sie
-                            eine Allergie haben und wir werden
-                            tun unser Bestes, um Ihnen zu helfen
-                            Wählen Sie eine passende Mahlzeit!</p>
+                        <p class="collapsible__content">Die meisten unserer Gemüsesorten stammen von regionalen Bauernhöfen. Wenn nötig, verwenden wir weiterentfernte Quellen. Das Rindfleisch stammt von Rindern aus Weidehaltung. Der Fisch ist verantwortungsvoll über den lokalen Fischmarkt bezogen. Brot stammt von der lokalen Stadtbäckerei. Bitte teilen Sie uns mit, ob Sie eine Allergie haben und wir werden Ihnen helfen das passende Gericht zu wählen!</p>
                     </li>
                     <li class="accordian2">
                         <div class="collapsible__header">ZERTIFIZIERTE QUELLEN</div>
-                        <p class="collapsible__content">Milch und Sahne sind von Mrs Wholesale zertifiziert. <br>
-                            Sojazutaten stammen von Mrs Wholesale aus zertifiziertem, nicht abgeholztem Land. <br>
-                            Frittieröl ist zertifiziertes nachhaltiges Palmöl von Mrs Wholesale.<br>
-                            Gewürze. Schokolade. Kaffee und Tee werden von Mrs Wholesale ethisch gehandelt. <br>
-                            Hähnchen und Eier stammen aus zertifiziert nachhaltiger Freilandhaltung über Mrs Wholesale.</p>
+                        <p class="collapsible__content">Milch und Sahne sind über den Großhändler zertifiziert. Das Soja stammt aus zertifizierten Quellen, die sicherstellen, dass dafür kein Regenwald abgeholzt wurde. Auch das Frittieröl stammt aus zertifizierten Quellen. Gewürze, Schokolade, Kaffee und Tee wurden fair gehandelt. Hähnchen und Eier stammen aus zertifizierter, nachhaltiger Freilandhaltung.</p>
                     </li>
                     <li class="accordian3">
                         <div class="collapsible__header">WIR MÖGEN KEINEN MÜLL</div>
                         <p class="collapsible__content">Wir verwandeln unser ungenutztes Brot in Semmelbrösel und Zutaten für unsere Gerichte. <br>
                             Alle unsere Gerichte sind in den Größen „hungrig“ und „sehr hungrig“ erhältlich. Bitte teilen Sie uns mit, welche Sie bevorzugen.
                             <br>
-                            Wenn sich herausstellt, dass Sie etwas zu viel auf Ihrem Teller haben. Den Rest geben wir Ihnen mit nach Hause.
+                            Wenn sich herausstellt, dass sie etwas zu viel auf Ihrem Teller haben, geben wir Ihnen den Rest mit nach Hause.
                         </p>
                     </li>
                     <li class="accordian4">
@@ -560,8 +547,8 @@
             </section>
             <section class="section-text-withimages  section4-5 no-print">
                 <div class="left-content">
-                    <h3>Überprüfen Sie Ihre <br>
-                        Fortschritte und sprechen Sie darüber </h3>
+                    <h3 style="text-transform: none;">Überprüfen Sie Ihre Fortschritte<br>
+                        und sprechen Sie darüber</h3>
                     <p>Wenn Sie nachhaltige Speiseoptionen in Ihre Speisekarte aufgenommen haben, sollten Sie damit beginnen, die Auswirkungen von diesen Veränderungen zu messen. Dies können Sie z.B. durch direktes Feedback von Gästen oder über Bewertungen im Internet, durch die Anzahl der Bestellungen oder die Rentabilität der Gerichte tun. Mit der entsprechenden Software können Sie diese Veränderungen auch direkt digital nachverfolgen.
                         Denken Sie daran: Farm-to-Table-Restaurants sind bei Restaurantbesuchern sehr beliebt. Bringen Sie Ihre Gäste mit dem Ursprung von Lebensmitteln in Kontakt, indem Sie mit ihnen über Ihre Speisekarte sprechen. Erklären Sie, warum Sie die Änderungen vorgenommen haben. Wenn Sie Informationen zur Rückverfolgbarkeit auf Ihrer Speisekarte oder Ihrer Website angeben, erklären Sie, wie das funktioniert. Als Betrieb haben Sie einen viel größeren Einfluss auf Ihre Region, wenn Ihre Gäste und Mitarbeitenden verstehen, was Sie tun. Eventuell lassen sich einige von Ihren Gästen bei der nächsten Einkaufsentscheidung von Ihnen inspirieren. Ihr Einfluss könnte größer sein, als Sie denken!
                     </p>
@@ -955,7 +942,7 @@
                         Leiten Sie Ihre Mitarbeitenden im Service entsprechend an
                     </h4>
                     <ul>
-                        <li>Binden Sie die Mitarbeiter von Anfang an ein und erklären Sie, was Sie tun möchten und warum. </li>
+                        <li>Binden Sie die Mitarbeitenden von Anfang an ein und erklären Sie, was Sie tun möchten und warum. </li>
                         <li>Ihr Servicepersonal wird bei der Vermittlung Ihrer Philosophie von entscheidender Bedeutung sein und überzeugender sein, wenn es in Ihre Entscheidungen einbezogen wird.</li>
                         <li>Beispiele für nachhaltige Menüs können ihr Verständnis fördern und sie ermutigen, Ideen einzubringen. </li>
                     </ul>
@@ -1043,9 +1030,7 @@
                             Beifang gelten. </li>
                         <li>Bieten Sie Fisch an, der aus
                             verantwortungsbewusster Fischerei stammt,
-                            das heißt, der zertifiziert ist und vollständig
-                            rückverfolgt werden kann.</li>
-
+                            das heißt, der zertifiziert ist und <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank" style="color: white!important;">vollständig rückverfolgt</a> werden kann.</li>
                     </ul>
                 </div>
             </div>
@@ -1067,8 +1052,12 @@
             <div class="modal-body1">
 
                 <div class="modal-content1 flexi-cont">
-                    <h4>Experimentieren Sie mit pflanzlichen
-                        Proteinen</h4>
+                    <h4 class="nodeco12">
+                        <a href="https://www.metro.de/produktwelten/fleischloser-genuss" target="_blank" style="color: white !important;">
+                            Experimentieren Sie mit pflanzlichen
+                            Proteinen
+                        </a>
+                    </h4>
                     <ul>
                         <li>Nutzen Sie (mehr) unverarbeitete
                             pflanzliche Lebensmittel als
@@ -1162,7 +1151,7 @@
                     <h4>
                         Führen Sie kleinere Portionsgrößen als Option ein
                     </h4>
-                    <p>Viele Gäste bemühen sich,weniger zu essen. Dies geschieht oftmals aus gesundheitlichen Gründen, kann aber auch eine attraktive Option für Gäste mit Kindern sein. Immer mehr Gastronominnen und Gastronomen stellen fest, dass Kinder am besten die gleichen Gerichte wie Erwachsene erhalten sollten, wenn auch in kleineren Portionen. </p>
+                    <p>Viele Gäste bemühen sich, weniger zu essen. Dies geschieht oftmals aus gesundheitlichen Gründen, kann aber auch eine attraktive Option für Gäste mit Kindern sein. Immer mehr Gastronominnen und Gastronomen stellen fest, dass Kinder am besten die gleichen Gerichte wie Erwachsene erhalten sollten, wenn auch in kleineren Portionen. </p>
                 </div>
             </div>
         </div>
@@ -1182,9 +1171,9 @@
             <div class="modal-body1">
                 <div class="modal-content1 flexi-cont">
                     <h4>
-                        Beziehen Sie Ihre Produkte lokal, regional und saisonal
+                        <a target="_blank" href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" style="color: white!important;">Beziehen Sie Ihre Produkte lokal, regional und saisonal</a>
                     </h4>
-                    <p>Setzen Sie ein Zeichen mit einem verantwortungsbewussten Einkauf und verwenden Sie nur nachhaltigen Fisch und Lebensmittel, die biologisch, nährstoffreich, saisonal, fair hergestellt, lokal und regional sind. Achten Sie außerdem darauf, Lebensmittel einzukaufen, die die Artenvielfalt fördern und Abfälle vermeiden. Wenn Sie mehr darüber erfahren möchten, lesen Sie das Kapitel über einen verantwortungsbewussten Einkauf.</p>
+                    <p>Setzen Sie ein Zeichen mit einem verantwortungsbewussten Einkauf und verwenden Sie nur nachhaltigen Fisch und Lebensmittel, die biologisch, nährstoffreich, saisonal, fair hergestellt, lokal und regional sind. Achten Sie außerdem darauf, Lebensmittel einzukaufen, die die Artenvielfalt fördern und Abfälle vermeiden. Wenn Sie mehr darüber erfahren möchten, lesen Sie das Kapitel über einen <a href="introduction-to-responsible-sourcing-deu.php" style="color: white!important;">verantwortungsbewussten Einkauf</a>.</p>
                 </div>
             </div>
         </div>
@@ -1209,9 +1198,7 @@
                         <h4>
                             Verwenden Sie weniger und dafür besseres Fleisch
                         </h4>
-                        <p>Wenn die meisten Ihrer Gerichte Fleisch beinhalten, können Sie die Portionsgröße an Fleisch, Geflügel und Fisch reduzieren. Achten Sie zusätzlich beim Einkauf von tierischen Produkten auf eine nachhaltige Erzeugung. Sie können auch verschiedene, normalerweise nicht verwendete Fleischteile zu sogenannten Nose-to-Tail-Gerichten verarbeiten.
-
-                        </p>
+                        <p>Wenn die meisten Ihrer Gerichte Fleisch beinhalten, können Sie die Portionsgröße an Fleisch, Geflügel und Fisch reduzieren. Achten Sie zusätzlich beim Einkauf von tierischen Produkten auf eine nachhaltige Erzeugung. Sie können auch verschiedene, normalerweise nicht verwendete Fleischteile zu sogenannten <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants" target="_blank" style="color: white!important;">Nose-to-Tail-Gerichten</a> verarbeiten. </p>
                         <div class="listing-use" id="more13">
                             <ul>
                                 <li>
@@ -1227,7 +1214,9 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <h5> Experimentieren Sie mit pflanzlichen Proteinen</h5>
+                                    <h5>
+                                        Experimentieren Sie mit pflanzlichen Proteinen
+                                    </h5>
                                     <p>
                                         Verwenden Sie (mehr) vollwertige pflanzliche Proteine, die in besonders hoher Konzentration in Linsen, Quinoa oder Bohnen vorkommen. Sie können auch verschiedene Arten von verarbeiteten pflanzlichen Proteinen einführen, z. B. Tofu und Tempeh.
                                     </p>
@@ -1252,7 +1241,6 @@
                                 </li>
                             </ul>
                         </div>
-                        <button class="read-more-btn" href="#" id="myBtn13">WEITERLESEN </button>
                     </div>
 
                 </div>

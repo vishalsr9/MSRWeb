@@ -181,7 +181,7 @@
             </section>
             <section class="section2">
                 <div class="top-content">
-                    <h3>WUSSTEN SIE, dass...</h3>
+                    <h3>Wussten Sie, dass…</h3>
                 </div>
                 <div class="mid-content">
                     <ul>

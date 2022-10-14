@@ -309,6 +309,7 @@
 
     .two-column {
       column-count: 2;
+      column-gap: 2rem;
     }
 
     .noalign {
@@ -545,7 +546,7 @@
               <img src="./images/safe_food/s-3.svg" class="img-fluid">
               <p>Human Rights are crucial for a person’s self-fulfilment
                 and the 1948 United Nations Universal Declaration of
-                Human Rights Lays the foundation for basic human
+                Human Rights lays the foundation for basic human
 
                 rights requirements for all businesses. </p>
             </div>
@@ -571,7 +572,7 @@
               <img src="./images/safe_food/s-20.svg" class="img-fluid">
               <p>Labour legislations exist which must be complied with
                 irrespective of your employees’ contracts, be it
-                permanent or temporary, full time or part-time.</p>
+                permanent or temporary, full-time or part-time.</p>
             </div>
           </div>
           <div class="col-md-4 px-4">

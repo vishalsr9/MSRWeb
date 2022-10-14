@@ -198,7 +198,7 @@
                     <img src="images/water/earth-water.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-1">
-                    <p class="text-center">nur <span class="highlight2">2,5%</span> der weltweiten Wasservorräte Süßwasser sind und wir nur <span class="highlight2">0.3%</span> davon nutzen können</p>
+                    <p class="text-center">nur <span class="highlight2">2,5%</span> der weltweiten Wasservorräte Süßwasser sind und wir nur <span class="highlight2">0,3%</span> davon nutzen können</p>
                   </div>
 
                 </div>
@@ -209,7 +209,7 @@
                     <img src="images/water/drought.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-2">
-                    <p><span class="highlight2">1.2</span> Milliarden Menschen aufgrund von Dürre und Wasserknappheit keinen<br>Zugang zu ausreichend Wasser haben</p>
+                    <p><span class="highlight2">1,2</span> Milliarden Menschen aufgrund von Dürre und Wasserknappheit keinen<br>Zugang zu ausreichend Wasser haben</p>
                   </div>
 
                 </div>
@@ -224,7 +224,7 @@
                     <img src="images/water/well.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-3">
-                    <p><span class="highlight2">1.6</span> Milliarden Menschen aufgrund von infrastrukturellen Problemen keinen angemessenen Zugang zu Wasser besitzen
+                    <p><span class="highlight2">1,6</span> Milliarden Menschen aufgrund von infrastrukturellen Problemen keinen angemessenen Zugang zu Wasser besitzen
                   </div>
 
                 </div>
@@ -250,7 +250,7 @@
                     <img src="images/water/water-scarcity.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-5">
-                    <p>bis 2030 die Wasserknappheit als Folge des Klimawandels zwischen <span class="highlight2">24</span> und <span class="highlight2">700 million</span> Menschen verlagern könnte</p>
+                    <p>bis 2030 die Wasserknappheit als Folge des Klimawandels zwischen <span class="highlight2">24</span> und <span class="highlight2">700 Millionen</span> Menschen verlagern könnte</p>
                   </div>
 
                 </div>
@@ -261,7 +261,7 @@
                     <img src="images/water/water-pollution.svg" class="img-fluid">
                   </span>
                   <div class="duktext-inner duktext-6">
-                    <p>weltweit, <span class="highlight2">80%</span> der Abwässer ohne Aufbereitung oder Wiederverwendung in die Ökosysteme zurückfließen</p>
+                    <p>weltweit <span class="highlight2">80%</span> der Abwässer ohne Aufbereitung oder Wiederverwendung in die Ökosysteme zurückfließen</p>
                   </div>
 
                 </div>
@@ -290,24 +290,27 @@
           </li>
           <li></li>
           <li>
-            <p>Kosteneinsparungen</p>
+            <p>Kosten-einsparungen
+            </p>
           </li>
           <li></li>
           <li>
             <p>Status eines<br>
-              verantwortungsvollen<br>Unternehmens</p>
+              verantwortungs-vollen
+              <br>Unternehmens
+            </p>
           </li>
           <li></li>
           <!-- </ul><ul> -->
           <li></li>
           <li>
-            <p>positive Auswirkungen<br>
+            <p>Positive Auswirkungen<br>
               auf die lokale und<br>
               globale Umwelt</p>
           </li>
           <li></li>
           <li>
-            <p>Positives Image</p>
+            <p>Verantwortungsvolles Mitglied der Gemeinschaft</p>
           </li>
           <li></li>
           <li>

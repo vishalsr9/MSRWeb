@@ -210,7 +210,7 @@
             <!--BANNER-->
             <section class="section1 no-print">
                 <div class="left-content no-print prless-4r mtop-7r">
-                    <h3>Wie man Wasser verantwortungsvoll nutzt</h3>
+                    <h3 style="text-transform: none;">Wie man Wasser verantwortungsvoll nutzt</h3>
                     <h4>Wasserverbrauch in der Gastronomie</h4>
                     <p>Wasser ist unabdingbar für Ihr Restaurant. Es ist eine wichtige Ressource, die Sie in großen Mengen vor, während und nach der Zubereitung von Speisen benötigen. Aber der Verbrauch von Wasser kostet auch Geld und trägt dazu bei, dass natürliche Ressourcen knapper werden. Angesichts der steigenden Wasserpreise und der zunehmenden Wasserknappheit sowie der wachsenden Sensibilität Ihrer Gäste für Umweltfragen ist es an der Zeit, dass Sie als Gastronomin oder Gastronom nachhaltiger werden und dabei gleichzeitig Geld sparen.</p>
                     <button class="read-more-btn" id="hide_show_content" href="#clickTohide">Lesen Sie mehr</button>
@@ -228,7 +228,7 @@
                                 <img src="./images/water/col-img-1.svg" class="img-fluid">
                                 <p class="ybox-title">Der Zusammenhang von Wasser<br>und Klimawandel</p>
                                 <p>
-                                    Das Klima verändert sich und führt zu einer steigenden Erderwärmung. Der Anstieg der globalen Durchschnittstemperatur hat weitreichende Folgen. Dazu gehören Extremwetterlagen wie Trockenheit, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels. Zusätzlich verzeichnen Wissenschaftler messbare Auswirkungen auf die Menge, Verteilung, Verfügbarkeit und Qualität von Wasser.
+                                    Das Klima verändert sich und führt zu einer steigenden Erderwärmung. Der Anstieg der globalen Durchschnittstemperatur hat weitreichende Folgen. Dazu gehören Extremwetterlagen wie Trockenheit, Überflutungen und Stürme sowie ein Anstieg des Meeresspiegels. Zusätzlich verzeichnen Wissenschaftlerinnen und Wissenschaftler messbare Auswirkungen auf die Menge, Verteilung, Verfügbarkeit und Qualität von Wasser.
                                 </p>
 
                             </div>
@@ -288,7 +288,7 @@
                                     </div>
                                 </div>
                                 <div class="box-note-1">
-                                    *Sustainability Survey 2019 von METRO&nbsp;
+                                    *METRO Sustainability Survey 2019 &nbsp;
                                 </div>
                             </div>
                         </div>
@@ -303,7 +303,7 @@
                                     </div>
                                 </div>
                                 <div class="box-note-1">
-                                    *Sustainability Survey 2019 von METRO&nbsp;
+                                    *METRO Sustainability Survey 2019 &nbsp;
                                 </div>
                             </div>
                         </div>
@@ -463,10 +463,10 @@
                                                 02
                                             </div>
                                             <div class="col-md-12 title9">
-                                                <h5>Wasserhähne mit niedrigem Durchfluss</h5>
+                                                <h5>Vorspüldüsen mit niedrigem Durchfluss</h5>
                                             </div>
                                             <div class="col-md-12 text9">
-                                                Mit dieser einfachen, kostengünstigen und effektiven Methode können Sie Ihren Wasserverbrauch sofort senken. Da Hygiene von entscheidender Bedeutung ist, ist dies beispielsweise eine Möglichkeit, weiterhin Hände zu waschen ohne Wasser zu verschwenden.
+                                                Um Wasser zu sparen, sollten Sie mit speziellen Vorspüldüsen Ihr Geschirr vorspülen, bevor Sie es von Hand abwaschen oder in den Geschirrspüler geben.
                                             </div>
                                         </div>
                                     </div>
@@ -617,7 +617,7 @@
                         <div class="col-md-6">
                             <div class="track-and_talk_discr">
                                 <h3>Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
-                                <p class="justify1 prless-2r">Überprüfen Sie die Veränderungen Ihres Wasserverbrauchs, sobald Sie einige der genannten Maßnahmen zur Wassereinsparung ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand erfordern. Erkundigen Sie sich beispielsweise bei Ihrem Wasserversorger über nützliche Angebote.. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Sie bereits einsparen konnten und wassie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Wasser zu sparen. Machen Sie Ihre Maßnahmen bekannt. Zum Beispiel kann ein Schild in den Waschräumen oder auf der Speisekarte Ihre Gäste auf Ihr verantwortungsvolles Handeln hinweisen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
+                                <p class="justify1 prless-2r">Überprüfen Sie die Veränderungen Ihres Wasserverbrauchs, sobald Sie einige der genannten Maßnahmen zur Wassereinsparung ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand erfordern. Erkundigen Sie sich beispielsweise bei Ihrem Wasserversorger über nützliche Angebote. Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Sie bereits einsparen konnten und was sie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Wasser zu sparen. Machen Sie Ihre Maßnahmen bekannt. Zum Beispiel kann ein Schild in den Waschräumen oder auf der Speisekarte Ihre Gäste auf Ihr verantwortungsvolles Handeln hinweisen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -677,7 +677,7 @@
                             <p class="">Überprüfen Sie den Erfolg Ihrer Änderungen nach ein paar Wochen</p>
                         </li>
                         <li class="print-li">
-                            <button onclick="window.print();" class="no-print">Print</button>
+                            <button onclick="window.print();" class="no-print">DRUCKEN</button>
                         </li>
                     </ul>
                 </div>

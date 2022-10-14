@@ -276,7 +276,7 @@
 
             <section class="section1 no-print plastic_waste no-print">
                 <div class="left-content no-print">
-                    <h3>Wie man Abfall reduziert</h3>
+                    <h3 style="text-transform:none ;">Wie man Abfall reduziert</h3>
                     <p>
                         Weltweit sind die Mülldeponien überfüllt. Gleichzeitig entsteht bei der Zersetzung von Abfällen Methan, ein Treibhausgas, das die globale Erderwärmung und den Klimawandel verstärkt. Restaurants können einen wichtigen Beitrag zu der Lösung dieses Problems leisten, da sie jeden Tag eine große Menge an Abfall produzieren und diesen, soweit es geht, reduzieren sollten. Sie können auch Ihren Gästen dabei helfen, Abfälle zu vermeiden und sich ihrer Auswirkungen und Beitragsmöglichkeit bewusst zu werden.<span id="dots"></span>
                     </p>
@@ -315,7 +315,7 @@
                             <div class="good_to_know_box p-4 safe_foodBox_l4" style="    margin-top: 2.18rem;">
                                 <img src="./images/safe_food/wl6.svg" class="img-fluid">
                                 <h5>Elektronische Geräte</h5>
-                                <p>TElektronische Geräte sollten niemals im Müll entsorgt werden, insbesondere solche, die den WEEE-Vorschriften (Waste of Electrical and Electronic Equipment) unterliegen, wie Batterien, Glühbirnen usw.</p>
+                                <p>Elektronische Geräte sollten niemals im Müll entsorgt werden, insbesondere solche, die den WEEE-Vorschriften (Waste of Electrical and Electronic Equipment) unterliegen, wie Batterien, Glühbirnen usw.</p>
                             </div>
 
                         </div>
@@ -346,7 +346,7 @@
                     <div class="container-fluid">
                         <h3 class="wayT0Title">Tipps für Einsteiger, um weniger Abfall zu produzieren</h3>
                         <p class="disc">
-                            Packaging or leftovers from cutting meat and vegetables:
+                            So können Sie anfangen, Ihren Abfall
                             <br>
                             <strong>
                                 besser zu organisieren.
@@ -437,7 +437,7 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText04">
-                                                                                            Wenden Sie sich an Ihre Behörden vor Ort, um zu erfahren, welche Lösungen es gibt.
+                                                                                            Wenden Sie sich an Ihre Behörden vor Ort, um zu erfahren, welche Lösungen es gibt
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -455,7 +455,7 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText05">
-                                                                                            Für die Entsorgung von Lebensmittelabfällen finden Sie hier einige Tipps.
+                                                                                            Für die Entsorgung von Lebensmittelabfällen finden Sie hier einige Tipps
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -480,7 +480,7 @@
                                                                                 <div class="col-md-12">
                                                                                     <div class="pageSlider-slide-text">
                                                                                         <span class="sldText06">
-                                                                                            Für Einwegartikel aus Kunststoff, z.B. Produkte zum Mitnehmen, Plastikrührstäbchen und Verpackungen aus Kunststoff, schauen Sie sich diese Hinweise an.
+                                                                                            Für Einwegartikel aus Kunststoff, z.B. Produkte zum Mitnehmen, Plastikrührstäbchen und Verpackungen aus Kunststoff, schauen Sie sich diese Hinweise an
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
@@ -603,7 +603,7 @@
                         <div class="col-md-6">
                             <div class="track-and_talk_discr">
                                 <h3>Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h3>
-                                <p>Überprüfen Sie die Veränderungen Ihres Abfallmanagements, sobald Sie einige der genannten Maßnahmen ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand von Ihnen erfordern. Erkundigen Sie sich beispielsweise bei Ihrem lokalen Entsorgungsunternehmen über Angebote, die Sie nutzen können. Und Sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Abfall Sie insgesamt vermieden haben und wie Sie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Abfall zu vermeiden. Da es lokale Unterschiede bei den Müllabfuhr- und Entsorgungsdiensten gibt, müssen Sie selbst entscheiden, wie Sie Ihre Gäste auf Ihr Abfallmanagement aufmerksam machen. Sie können auf Kontaktstellen hinweisen, z.B. auf die Website des lokalen Entsorgungsunternehmens, auf METRO-Services oder auf spezifische Dienstleistungen, die Ihre Lieferanten anbieten. Die Wirkung Ihrer Handlungen wird dadurch vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen!</p>
+                                <p>Überprüfen Sie die Veränderungen Ihres Abfallmanagements, sobald Sie einige der genannten Maßnahmen ergriffen haben. Führen Sie Lösungen ein, die nicht allzu viel Aufwand von Ihnen erfordern. Erkundigen Sie sich beispielsweise bei Ihrem lokalen Entsorgungsunternehmen über Angebote, die Sie nutzen können. Und sprechen Sie mit Ihren Mitarbeitenden darüber, wie viel Abfall Sie insgesamt vermieden haben und wie Sie dazu beigetragen haben. Erfolge können sie motivieren, weiterhin Abfall zu vermeiden. Da es lokale Unterschiede bei den Müllabfuhr- und Entsorgungsdiensten gibt, müssen Sie selbst entscheiden, wie Sie Ihre Gäste auf Ihr Abfallmanagement aufmerksam machen. Sie können auf Kontaktstellen hinweisen, z.B. auf die Website des lokalen Entsorgungsunternehmens, auf METRO-Services oder auf spezifische Dienstleistungen, die Ihre Lieferanten anbieten. Die Wirkung Ihrer Handlungen wird dadurch vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen!</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -695,7 +695,7 @@
 
 
 
-                            <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
+                            <li class="print-li"><button onclick="window.print();" class="no-print">Drucken</button></li>
                         </ul>
                     </div>
                 </div>

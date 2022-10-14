@@ -26,6 +26,7 @@
   <style>
     .two-column {
       column-count: 2;
+      column-gap: 2rem;
     }
 
     .footer-socials.side_nav>ul {
@@ -102,6 +103,10 @@
         position: absolute;
         left: 0;
         top: 0;
+      }
+
+      div.cx9 {
+        padding: 3rem;
       }
     }
   </style>
@@ -200,17 +205,17 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.metroag.de/youtube" target="_blank">
+                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                   <i class="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -262,7 +267,7 @@
       <div class="row">
         <h3 class="food_wasteTitle">Mülldeponien sollten der letzte Ort sein, <br>auf dem nicht benötigte Lebensmittel landen
         </h3>
-        <p class="exploreFood_discripsn">Mehr als<strong> 1/3</strong> aller weltweit produzierten Lebensmittel landen im Abfall. Es gibt viele andere Möglichkeiten besser mit Lebensmittelabfällen umzugehen. Verkaufen Sie überschüssige Lebensmittel weiter oder spenden Sie sie an Menschen und Tiere. Wenn möglich, recyceln Sie Lebensmittel für andere Zwecke und kompostieren Sie so viel wie möglich. </p>
+        <p class="exploreFood_discripsn">Mehr als 1/3 aller weltweit produzierten Lebensmittel landen im Abfall. Es gibt viele andere Möglichkeiten besser mit Lebensmittelabfällen umzugehen. Verkaufen Sie überschüssige Lebensmittel weiter oder spenden Sie sie an Menschen und Tiere. Wenn möglich, recyceln Sie Lebensmittel für andere Zwecke und kompostieren Sie so viel wie möglich. </p>
         <div class="col-md-4 px-4">
           <div class="good_to_know_box p-4 safe_foodBox_l4">
             <img src="./images/safe_food/Asset 3.1.svg" class="img-fluid">
@@ -494,7 +499,7 @@
   <section class="yellow-sec1">
     <div class="thermo-inner">
       <div class="text-center">
-        <h3 class="msr-text-color h3v t-lower">
+        <h3 class="msr-text-color h3v t-lower" style="text-transform: none;">
           Gut zu wissen
         </h3>
 
@@ -1264,7 +1269,7 @@
                 <img src="./images/safe_food/Asset 18.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p class="pt-0">Informieren Sie Ihr Personal und helfen Sie ihnen zu verstehen, warum diese Maßnahmen nötig sind. Fragen Sie sie nach ihren Ideen </p>
+                <p class="pt-0">Informieren Sie Ihr Personal und helfen Sie ihnen zu verstehen, warum diese Maßnahmen nötig sind. Fragen Sie sie nach ihren Ideen. </p>
               </div>
             </div>
           </div>
@@ -1274,7 +1279,7 @@
                 <img src="./images/safe_food/Asset 19.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p class="mt-3">Entscheiden Sie, ob Sie vor Ort kompostieren oder einen Dienstleister dafür beauftragen wollen</p>
+                <p class="mt-3">Entscheiden Sie, ob Sie vor Ort kompostieren oder einen Dienstleister dafür beauftragen wollen.</p>
               </div>
             </div>
           </div>
@@ -1284,7 +1289,7 @@
                 <img src="./images/safe_food/Asset 31.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Bringen Sie Hinweisschilder im hinteren Bereich Ihres Restaurants an, um zu zeigen, wo und was kompostiert wird
+                <p>Bringen Sie Hinweisschilder im hinteren Bereich Ihres Restaurants an, um zu zeigen, wo und was kompostiert wird.
                 </p>
               </div>
             </div>
@@ -1295,7 +1300,7 @@
                 <img src="./images/safe_food/Asset 30.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Sichern Sie die Kompostanlage, um zu verhindern, dass sie die Umgebung verunreinigt und Schädlinge anzieht
+                <p>Sichern Sie die Kompostanlage, um zu verhindern, dass sie die Umgebung verunreinigt und Schädlinge anzieht.
                 </p>
               </div>
             </div>
@@ -1306,7 +1311,7 @@
                 <img src="./images/safe_food/Asset 29.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p class="mt-3">Benutzen Sie umweltfreundliche Müllbeutel für die Abfallentsorgung
+                <p class="mt-3">Benutzen Sie umweltfreundliche Müllbeutel für die Abfallentsorgung.
                 </p>
               </div>
             </div>
@@ -1317,13 +1322,13 @@
                 <img src="./images/safe_food/Asset 28.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Erkundigen Sie sich bei Ihrer örtlichen Müllabfuhr, was bei der Kompostierung über Ihr lokales Stadtwerk zu beachten ist</p>
+                <p>Erkundigen Sie sich bei Ihrer örtlichen Müllabfuhr, was bei der Kompostierung über Ihr lokales Stadtwerk zu beachten ist.</p>
               </div>
             </div>
           </div>
           <div class="compost_wasteFood_listing">
             <div class="media">
-              <div class="media-left">
+              <div class="media-left" style="padding-top:15px ;">
                 <img src="./images/safe_food/Asset-l4.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
@@ -1334,7 +1339,7 @@
           </div>
           <div class="compost_wasteFood_listing">
             <div class="media">
-              <div class="media-left">
+              <div class="media-left" style="padding-top:13px ;">
                 <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
@@ -1353,8 +1358,8 @@
     </div>
   </section>
   <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
-    <div class="container">
-      <div class="row safeFoodl4_paragraphs_bgwhite no-print">
+    <div class="container ">
+      <div class="row safeFoodl4_paragraphs_bgwhite no-print cx9" style="padding: 2.5rem;">
         <div class="col-md-12 mt-2 px-2">
           <h4 class="pl-4">Die Vorteile der Kompostierung</h4>
           <p class="two-column mt-2">
@@ -1391,8 +1396,7 @@
                 <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Beziehen Sie Fisch und Fleisch aus nachhaltigen Quellen
-                </p>
+                <p>Beziehen Sie Fisch und Fleisch aus <a href="https://verantwortung.metroag.de/schwerpunkte/rohstoffbeschaffung" target="_blank">nachhaltigen Quellen</a></p>
               </div>
             </div>
           </div>
@@ -1402,7 +1406,7 @@
                 <img src="./images/safe_food/Asset 42.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Kaufen Sie Teile von Fischen und Fleisch ein, die nicht so beliebt sind oder die normalerweise weggeworfen werden</p>
+                <p>Kaufen Sie Teile von Fischen und Fleisch ein, die nicht so beliebt sind oder die normalerweise weggeworfen werden.</p>
               </div>
             </div>
           </div>
@@ -1412,7 +1416,7 @@
                 <img src="./images/safe_food/Asset 41.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Sprechen Sie mit Ihren Gästen darüber, was Sie tun und weshalb. Um sie davon zu überzeugen, ungewöhnliche Gerichte zu probieren, könnten Sie Probierteller anbieten
+                <p>Sprechen Sie mit Ihren Gästen darüber, was Sie tun und weshalb. Um sie davon zu überzeugen, ungewöhnliche Gerichte zu probieren, könnten Sie Probierteller anbieten.
                 </p>
               </div>
             </div>
@@ -1423,7 +1427,7 @@
                 <img src="./images/safe_food/Asset 40.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Machen Sie aus Lachsresten ein Risotto</p>
+                <p>Machen Sie aus Lachsresten ein Risotto.</p>
               </div>
             </div>
           </div>
@@ -1433,7 +1437,7 @@
                 <img src="./images/safe_food/Asset 39.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Braten Sie z.B. Hühnerhaut zu Chips</p>
+                <p>Braten Sie z.B. Hühnerhaut zu Chips.</p>
               </div>
             </div>
           </div>
@@ -1443,7 +1447,7 @@
                 <img src="./images/safe_food/Asset 38.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Verarbeiten Sie Knochen zu Brühe</p>
+                <p>Verarbeiten Sie Knochen zu Brühe.</p>
               </div>
             </div>
           </div>
@@ -1453,7 +1457,7 @@
                 <img src="./images/safe_food/Asset 37.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Benutzen Sie Kronfleisch – das ist genauso lecker wie ein Entrecote, aber günstiger</p>
+                <p>Benutzen Sie Kronfleisch – das ist genauso lecker wie ein Entrecote, aber günstiger.</p>
               </div>
             </div>
           </div>
@@ -1463,7 +1467,7 @@
                 <img src="./images/safe_food/Asset 36.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Aus Karottenspitzen lässt sich eine Pestosauce herstellen</p>
+                <p>Aus Karottenspitzen lässt sich eine Pestosauce herstellen.</p>
               </div>
             </div>
           </div>
@@ -1473,7 +1477,7 @@
                 <img src="./images/safe_food/Asset 35.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Verwelkter Salat kann sautiert und als Beilage serviert werden
+                <p>Verwelkter Salat kann sautiert und als Beilage serviert werden.
                 </p>
               </div>
             </div>
@@ -1484,7 +1488,7 @@
                 <img src="./images/safe_food/Asset 34.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Gekochte Brokkolistängel können zu einer Suppe püriert werden
+                <p>Gekochte Brokkolistängel können zu einer Suppe püriert werden.
                 </p>
               </div>
             </div>
@@ -1498,7 +1502,7 @@
       <div class="row px-4">
         <div class="col-md-5">
           <div class="banner_l4_title">
-            <h1 class="banner_title2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber</h1>
+            <h1 class="banner_title2" style="text-transform: none;">Überprüfen Sie Ihre Fortschritte<br>und sprechen Sie darüber</h1>
             <p>Überprüfen Sie regelmäßig die Ergebnisse Ihrer Maßnahmen, sobald Sie erste Schritte zur Abfallvermeidung ergriffen haben. Halten Sie Ausschau nach einfachen Lösungen, die Ihnen nicht viel Zeit abverlangen. Überwachen Sie z.B. Ihre Entsorgungskosten, das Spendenaufkommen, die Einsparung von Kosten durch die Verteilung von Lebensmittelresten und die Ansprache neuer Gäste. Sprechen Sie mit Ihren Mitarbeitenden, wie viel Sie eingespart haben und wie ihre Mitarbeitenden Sie bei diesen angestrebten Einsparungen unterstützt haben. Die sichtbaren Fortschritte können Sie motivieren, auch weiterhin Lebensmittel einzusparen. Machen Sie Ihre Aktivitäten bekannt. Sie können Ihr verantwortungsbewusstes Handeln für Ihre Gäste mit einem Hinweis auf Ihrer Website oder in Ihrer Speisekarte sichtbar machen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen. </p>
           </div>
         </div>
@@ -1588,7 +1592,7 @@
             </p>
           </li>
           <li class="print-li">
-            <button onclick="window.print();" class="no-print">Print</button>
+            <button onclick="window.print();" class="no-print">Drucken</button>
           </li>
         </ul>
       </div>
@@ -1597,7 +1601,7 @@
   <section class="section5 no-print">
     <div class="bottom-left">
       <div class="top-content5">
-        <h3>METRO-Lösungen</h3>
+        <h3>METRO Lösungen</h3>
         <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
         <p>
           <strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong>
@@ -1611,7 +1615,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.dish.co/DE/en/" target="_blank">
+            <a href="https://www.dish.co/XX/de/" target="_blank">
               <img src="images/Dish_Logo-svg.svg" />
             </a>
           </li>
@@ -1631,7 +1635,7 @@
     <div class="bottom-right">
       <div class="top-content5">
         <h3>METRO ANGEBOTE</h3>
-        <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie: </p>
+        <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
       </div>
       <div class="bottom-content5">
         <ul>
@@ -1713,32 +1717,13 @@
       </div>
       <div class="footer-socials">
         <ul>
-          <li>
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-youtube-play"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
+          <li><a href="https://www.facebook.com/metro.deutschland"> <i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.youtube.com/user/MetroGrossmarkt"><i class="fa fa-youtube-play"></i></a></li>
+          <li><a href="https://www.instagram.com/metro_deutschland/"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/metro-ag"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/@METRO_News"><i class="fa fa-twitter"></i></a></li>
         </ul>
+
       </div>
     </div>
     <div class="fotter-right page-ani-footer">
@@ -1761,32 +1746,13 @@
         </div>
         <div class="footer-socials">
           <ul>
-            <li>
-              <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/youtube" target="_blank">
-                <i class="fa fa-youtube-play"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/@METRO_News" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
+            <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
           </ul>
+
         </div>
       </div>
     </div>
@@ -1814,28 +1780,27 @@
           <ul>
             <li> Messen, verfolgen und analysieren Sie Ihre Lebensmittelabfälle</li>
             <li> Prüfen Sie Ihre Speisekarte. Entfernen Sie Gerichte, die sich nicht gut verkaufen</li>
-            <li> Nutzen Sie digitale Tools, wie das <a href="https://www.menukithd.com/ 
-">Menukit </a>, um Rezepte zu verwalten und den täglichen Bedarf an Lebensmitteln zu berechnen. So können Sie gleichzeitig Ihre Einkaufskosten besser kontrollieren.</li>
+            <li> Nutzen Sie digitale Tools, wie das <a href="https://www.menukithd.com/" target="_blank">Menukit </a>, um Rezepte zu verwalten und den täglichen Bedarf an Lebensmitteln zu berechnen. So können Sie gleichzeitig Ihre Einkaufskosten besser kontrollieren.</li>
             <li> Fragen Sie Ihre Mitarbeitenden nach ihrer Einschätzung: Wo werden Lebensmittel verschwendet und wie kann man es vermeiden?
             </li>
-            <li> Optimieren Sie die Haltbarkeit von Lebensmitteln, indem Sie sicherstellen, dass die Kühlketten nicht unterbrochen und die Produkte bei der richtigen Temperatur gelagert werden
+            <li> Optimieren Sie die Haltbarkeit von Lebensmitteln, indem Sie sicherstellen, dass die Kühlketten nicht unterbrochen und die Produkte bei der richtigen Temperatur gelagert werden.
             </li>
-            <li>Organisieren und beschriften Sie Ihre Vorräte, so dass die Haltbarkeit sichtbar ist
+            <li>Organisieren und beschriften Sie Ihre Vorräte, so dass die Haltbarkeit sichtbar ist.
             </li>
-            <li>Stellen Sie sicher, dass alle bereits geöffneten und verarbeiteten Zutaten ein Etikett mit ihrer Haltbarkeitsdauer erhalten
+            <li>Stellen Sie sicher, dass alle bereits geöffneten und verarbeiteten Zutaten ein Etikett mit ihrer Haltbarkeitsdauer erhalten.
             </li>
-            <li>Sorgen Sie für Ordnung in Ihrem Vorratsraum. Sie sollten immer wissen, was verbraucht werden muss, damit Sie nicht mehr bestellen, als wirklich nötig ist</li>
-            <li>Überprüfen Sie Ihren Bestand regelmäßig, um die gekauften Mengen und die Menge der verschwendeten Lebensmittel zu vergleichen
+            <li>Sorgen Sie für Ordnung in Ihrem Vorratsraum. Sie sollten immer wissen, was verbraucht werden muss, damit Sie nicht mehr bestellen, als wirklich nötig ist.</li>
+            <li>Überprüfen Sie Ihren Bestand regelmäßig, um die gekauften Mengen und die Menge der verschwendeten Lebensmittel zu vergleichen.
             </li>
-            <li>Versuchen Sie, bislang nicht verwendete Teile von Lebensmitteln zu nutzen, z.B. mit Hilfe von <a href="https://www.mpulse.de/de/gastronomie/food-trends-fuer-die-gastronomie "> Zero-Waste-Rezepten</a>
+            <li>Versuchen Sie, bislang nicht verwendete Teile von Lebensmitteln zu nutzen, z.B. mit Hilfe von <a href="https://www.mpulse.de/de/gastronomie/food-trends-fuer-die-gastronomie "> Zero-Waste-Rezepten.</a>
             </li>
-            <li> Bedenken Sie, dass Lebensmittelreste (die nicht von Tieren stammen) als Tierfutter gespendet werden können, z.B. an ein örtliches Tierheim oder einen Zoo
+            <li> Bedenken Sie, dass Lebensmittelreste (die nicht von Tieren stammen) als Tierfutter gespendet werden können, z.B. an ein örtliches Tierheim oder einen Zoo.
             </li>
-            <li> Erlauben Sie Ihrem Personal, die überschüssigen Lebensmittel am Ende des Tages zu essen oder mit nach Hause zu nehmen</li>
-            <li>Spenden Sie Ihre übrig gebliebenen Lebensmittel
+            <li> Erlauben Sie Ihrem Personal, die überschüssigen Lebensmittel am Ende des Tages zu essen oder mit nach Hause zu nehmen.</li>
+            <li>Spenden Sie Ihre übrig gebliebenen Lebensmittel.
             </li>
-            <li> Recyceln und/oder verwerten Sie Abfälle, wo immer es möglich ist</li>
-            <li>Lebensmittelabfälle im <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants "> vorderen Bereich des</a> Restaurants
+            <li> Recyceln und/oder verwerten Sie Abfälle, wo immer es möglich ist.</li>
+            <li>Lebensmittelabfälle im <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants "> vorderen Bereich des</a> Restaurants.
             </li>
 
 
@@ -1880,22 +1845,22 @@
 
 
       <ul>
-        <li>Stellen Sie sicher, dass Ihr Lagerraum gut belüftet ist
+        <li>Stellen Sie sicher, dass Ihr Lagerraum gut belüftet ist.
         </li>
-        <li>Wenden Sie das First-In-First-Out-Prinzip (FIFO) an, um sicherzugehen, dass Produkte, die zuerst angeliefert werden, auch sofort weiterverarbeitet werden
+        <li>Wenden Sie das First-In-First-Out-Prinzip (FIFO) an, um sicherzugehen, dass Produkte, die zuerst angeliefert werden, auch sofort weiterverarbeitet werden.
         </li>
         <li>Lagern Sie Obst und Gemüse bei einer niedrigeren Temperatur als in der Umgebung, in er sie normalerweise wachsen, um ihre Haltbarkeit zu verlängern.
         </li>
-        <li>Lagern Sie Obst und Gemüse entsprechend ihren spezifischen Lagertemperaturen. Beeren können z.B. in einem Kühlschrank aufbewahrt werden, Bananen sollten jedoch außerhalb des Kühlschranks an einem kühlen Ort gelagert werden
+        <li>Lagern Sie Obst und Gemüse entsprechend ihren spezifischen Lagertemperaturen. Beeren können z.B. in einem Kühlschrank aufbewahrt werden, Bananen sollten jedoch außerhalb des Kühlschranks an einem kühlen Ort gelagert werden.
         </li>
-        <li>Frische Produkte sollten ihre spezifische Temperaturzone nicht zu lange verlassen. Abgepackte Salate verlieren einen Tag ihrer Haltbarkeit für jede Stunde, die sie nicht optimal gelagert werden</li>
-        <li>Gehen Sie vorsichtig mit Obst und Gemüse um, um Beschädigungen zu vermeiden
+        <li>Frische Produkte sollten ihre spezifische Temperaturzone nicht zu lange verlassen. Abgepackte Salate verlieren einen Tag ihrer Haltbarkeit für jede Stunde, die sie nicht optimal gelagert werden.</li>
+        <li>Gehen Sie vorsichtig mit Obst und Gemüse um, um Beschädigungen zu vermeiden.
         </li>
-        <li>Stapeln Sie leichte Waren wie Beeren, Pilze und leichte Kisten oben im Kühlschrank und Kühlraum
+        <li>Stapeln Sie leichte Waren wie Beeren, Pilze und leichte Kisten oben im Kühlschrank und Kühlraum.
         </li>
-        <li>Achten Sie auf verpackte Produkte, wie z.B. Äpfel in einer Plastikfolie, da die Beschädigung eines Produkts in der Verpackung auch die anderen schnell beschädigen kann
+        <li>Achten Sie auf verpackte Produkte, wie z.B. Äpfel in einer Plastikfolie, da die Beschädigung eines Produkts in der Verpackung auch die anderen schnell beschädigen kann.
         </li>
-        <li>Trennen Sie Ethylen produzierende Produkte (Bananen, Äpfel, Birnen, Kiwis, Feigen, Melonen und Tomaten) von ethylempfindlichen Produkten (Zitrusfrüchte, Ananas, Blattgemüse, Kirschen, Beeren, Trauben sowie Fruchtgemüse). Durch die Trennung wird die Reifung der ethylempfindlichen Lebensmittel verlangsamt
+        <li>Trennen Sie Ethylen produzierende Produkte (Bananen, Äpfel, Birnen, Kiwis, Feigen, Melonen und Tomaten) von ethylempfindlichen Produkten (Zitrusfrüchte, Ananas, Blattgemüse, Kirschen, Beeren, Trauben sowie Fruchtgemüse). Durch die Trennung wird die Reifung der ethylempfindlichen Lebensmittel verlangsamt.
         </li>
       </ul>
       </p>
@@ -1930,8 +1895,7 @@
     <div class="modalx-content">
       <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
       <h4> Spenden Sie überschüssige Lebensmittel </h4>
-      <p>Nicht verwendete Lebensmittel müssen nicht weggeworfen werden. Indem Sie solche Lebensmittel spenden oder günstiger anbieten (z.B. über TOO GOOD TO GO), verhindern Sie, dass diese auf der Mülldeponie landen. Gleichzeitig helfen Sie Menschen in Not. Darüber hinaus steigern Spenden die Moral Ihres Personals, weil Ihre Mitarbeiter sehen, dass sie etwas Positives bewirken. Spenden können Ihnen auch bei der Steuer finanzielle Vorteile bringen. Grundsätzlich können Lebensmittel an Wohltätigkeitsorganisationen, Lebensmittelbanken, Zoos oder Tierheime gespendet werden. Aber denken Sie daran: In der Regel stellen diese bestimmte Anforderungen an die Lebensmittel, die sie annehmen. Dies sind zum Beispiel:
-
+      <p>Nicht verwendete Lebensmittel müssen nicht weggeworfen werden. Indem Sie solche Lebensmittel spenden oder günstiger anbieten (z.B. über <a href="https://toogoodtogo.at/de-at" target="_blank">TOO GOOD TO GO</a>), verhindern Sie, dass diese auf der Mülldeponie landen. Gleichzeitig helfen Sie Menschen in Not. Darüber hinaus steigern Spenden die Moral Ihres Personals, weil Ihre Mitarbeitenden sehen, dass sie etwas Positives bewirken. Spenden können Ihnen auch bei der Steuer finanzielle Vorteile bringen. Grundsätzlich können Lebensmittel an Wohltätigkeitsorganisationen, Lebensmittelbanken, Zoos oder Tierheime gespendet werden. Aber denken Sie daran: In der Regel stellen diese bestimmte Anforderungen an die Lebensmittel, die sie annehmen. Dies sind zum Beispiel:
       <ul>
         <li>Frische Lebensmittel müssen verpackt und noch haltbar sein
         </li>

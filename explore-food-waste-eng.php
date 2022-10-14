@@ -26,6 +26,7 @@
   <style>
     .two-column {
       column-count: 2;
+      column-gap: 2rem;
     }
 
     .sldImg01>img {
@@ -1350,7 +1351,7 @@
   </section>
   <section class="safeFoodl4_paragraphs no-print" id="clickTohide">
     <div class="container">
-      <div class="row safeFoodl4_paragraphs_bgwhite no-print">
+      <div class="row safeFoodl4_paragraphs_bgwhite no-print" style="padding: 2.5rem;">
         <div class="col-md-12 mt-2 px-2">
           <h4 class="pl-4">Composting and its benefits</h4>
           <p class="two-column mt-2">

@@ -309,7 +309,7 @@
 
       <section class="section1 no-print plastic_waste no-print">
         <div class="left-content no-print">
-          <h3>Wie Sie Plastikmülll vermeiden </h3>
+          <h3 style="text-transform: none;">Wie Sie Plastikmülll vermeiden </h3>
           <h4>Plastikmüll in der Gastronomie </h4>
           <p>Plastikprodukte und -verpackungen spielen eine wichtige Rolle bei der Einhaltung der Hygiene in der Gastronomie. Sie schützen Lebensmittel, gewährleisten ihre Sicherheit und verbessern die Haltbarkeit. Doch sowohl die Herstellung als auch die Entsorgung von Plastik- und Verpackungsmüll verbrauchen Ressourcen und haben negative Auswirkungen auf die Umwelt. Gleichzeitig verschärfen sich weltweit die Vorschriften für Einwegkunststoffe (SUPs). Deshalb wollen wir unsere HoReCa-Kundinnen und Kunden Anregungen bieten, Alternativen zu nutzen und sie dabei unterstützen, Plastik richtig zu entsorgen. Wenn Kunststoffmüll nicht richtig entsorgt wird, dann können damit Kosten für Ihr Restaurant verbunden sein. Durch ein anderes Verhalten können Sie jedoch zeigen, dass Ihnen die Umwelt und das Wohlergehen Ihrer Gäste am Herzen liegen. <span id="dots"></span>
 
@@ -396,14 +396,14 @@
                     <td><b>Material</b></td>
                     <td>Kunststoff aus Erdöl mit Zusatzstoffen</td>
                     <td>Kunststoff aus Erdöl</td>
-                    <td>Kunststoff aus Erdö</td>
+                    <td>Kunststoff aus Erdöl</td>
                     <td>Kunststoff aus Erdöl</td>
                     <td>Kunststoff aus Erdöl mit Zusatzstoffen, extrahiert</td>
                   </tr>
                   <tr>
                     <td><b>Entsorgung</b></td>
                     <td>Normaler Müll</td>
-                    <td>Kommt auf den Inhalt an. Einige können im normalen Müll entsorgt werden, manches nicht</td>
+                    <td>Kommt auf den Inhalt an.</td>
                     <td>Recyclingbehälter</td>
                     <td>Recyclingabfall oder normaler Müll (bei Lebensmittelrückständen)</td>
                     <td>Normaler Müll</td>
@@ -464,7 +464,7 @@
                   <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:480px;">
                     <h6 class="yellow_circle">EPS</h6>
                     <h4>Expandiertes Polystyrol (EPS)/Styropor </h4>
-                    <p>Expandiertes Polystyrol (EPS)/Styropor weist nur sehr niedrige Recyclingraten auf, da es zu 95 % aus Luft besteht und daher nicht kosteneffizient gelagert oder transportiert werden kann. Es ist zwar technisch möglich, EPS zu recyceln, doch ist es häufig mit Zusatzstoffen verunreinigt und daher nicht für Lebensmittelverpackungen geeignet. Das hat direkte Auswirkungen auf die Sammel- und Transportkosten. Es kann in kleine bis winzige Stücke zerbrechen, die nur schwer zu reinigen sind.</p>
+                    <p>Expandiertes Polystyrol (EPS)/Styropor weist nur sehr niedrige Recyclingraten auf, da es zu 95 % aus Luft besteht und daher nicht kosteneffizient gelagert oder transportiert werden kann. Es ist zwar technisch möglich, EPS zu recyceln, doch es ist häufig mit Zusatzstoffen verunreinigt und daher nicht für Lebensmittelverpackungen geeignet. Das hat direkte Auswirkungen auf die Sammel- und Transportkosten. Es kann in kleine bis winzige Stücke zerbrechen, die nur schwer zu reinigen sind.</p>
                   </div>
 
                 </div>
@@ -491,18 +491,17 @@
         <div class="container">
           <div class="row">
             <div class="top-content">
-              <h3 class="good_to_know_l4">Gut zu wissen </h3>
+              <h3 class="good_to_know_l4" style="margin-top: 110px;">Gut zu wissen </h3>
             </div>
             <div class="col-md-6">
               <div class="plastic-waste_goodToKnow_box">
                 <img src="./images/plastic-waste/Asset 21-8.png">
-                <p style="margin-top: 35px;"><span>Seit 2021</span>, <a href="https://www.mpulse.de/en/movinggoods/different-packaging-different-decomposition-
-times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. Informieren Sie sich über die neuen Vorschriften und finden Sie rechtzeitig die Lösungen zur Vermeidung von Plastikmüll, die sich am besten für Sie eignet. </p>
+                <p style="margin-top: 35px;"><span>Seit 2021</span>, <a href="https://www.mpulse.de/de/warenbewegen/so-lange-brauchen-verpackungen-bis-sie-sich-zersetzt-haben" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. Informieren Sie sich über die neuen Vorschriften und finden Sie rechtzeitig die Lösungen zur Vermeidung von Plastikmüll, die sich am besten für Sie eignen. </p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="plastic-waste_goodToKnow_box">
-                <img src="./images/plastic-waste/Asset 15-1.svg" style="width: 60%;">
+                <img src="./images/plastic-waste/Asset 15-1.svg" style="width: 71%;margin-bottom:1rem;margin-top:.5rem">
                 <p>Auf Plastik, das nur einmal verwendet wird, treffen Sie in Ihrem Restaurant in der Regel in Form von Lieferbehältern wie Rollwagen und Paletten, die in Plastikfolie eingewickelt sind. Darüber hinaus wird es für in Plastik verpackte Lebensmittel und Getränke, To-Go-Behälter, Plastikfolien für die Küche und Hygieneartikel wie Handschuhe verwendet. </p>
               </div>
             </div>
@@ -512,7 +511,7 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
             <div class="col-md-6">
               <div class="plastic-waste_goodToKnow_box">
                 <img src="./images/plastic-waste/Asset 16.svg" style="width: 55%;">
-                <p style="margin-top: 28px;"><span>47 %</span> der HoReCa-Kunden von METRO (weltweit) wollen Produkte mit umweltfreundlichen Verpackungen kaufen (Sustainability Survey 2019 von METRO).
+                <p style="margin-top: 28px;"><span>47 %</span> der METRO HoReCa-Kundinnen und Kunden von METRO (weltweit) wollen Produkte mit umweltfreundlichen Verpackungen kaufen (METRO Sustainability Survey 2019).
                 </p>
               </div>
             </div>
@@ -603,7 +602,7 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
                                       </div>
                                     </div>
                                   </div>
-                                  <div class="swiper-slide pageSlider-slide text-center">
+                                  <!-- <div class="swiper-slide pageSlider-slide text-center">
                                     <div class="row">
                                       <div class="col-md-12">
                                         <div class="pageSlider-slide-image">
@@ -627,7 +626,7 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                  </div> -->
                                   <div class="swiper-slide pageSlider-slide text-center">
                                     <div class="row">
                                       <div class="col-md-12">
@@ -691,7 +690,7 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
                                       <div class="col-md-12">
                                         <div class="pageSlider-slide-text">
                                           <span class="sldText06">
-                                            Führen Sie Leitungswasser ein
+                                            BIETEN SIE LEITUNGSWASSER AN
                                           </span>
                                         </div>
                                       </div>
@@ -944,9 +943,9 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
           <div class="row px-4">
             <div class="col-md-5">
               <div class="banner_l4_title">
-                <h1 class="banner_title2">Überprüfen Sie Ihre Fortschritte <br>und sprechen Sie darüber </h1>
+                <h1 class="banner_title2" style="text-transform: none;">Überprüfen Sie ihre Fortschritte<br>und sprechen Sie darüber</h1>
 
-                <p>Überprüfen Sie die Veränderungen, die Sie vornehmen, und analysieren Sie die Menge an Kunststoffabfällen, die Sie dadurch vermeiden. Nutzen Sie einfache Lösungen, die Ihnen nicht viel Zeit abverlangen, um Ihre Entsorgungskosten zu überwachen. Für den Anfang reicht manchmal bereits eine einfache Tabelle! Sprechen Sie mit Ihrem Personal darüber, wie viel Sie bereits eingespart haben und wie sie zu diesen Einsparungen beitragen. Sichtbare Fortschritte können motivierend sein, um weiterhin den Plastikverbrauch zu reduzieren. Machen Sie bekannt, was Sie tun. Zum Beispiel können Sie mit einem Hinweis auf Ihrer Website oder in Ihrer Speisekarte Ihr verantwortungsbewusstes Handeln für Ihre Gäste sichtbar machen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeiter und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
+                <p>Überprüfen Sie die Veränderungen, die Sie vornehmen, und analysieren Sie die Menge an Kunststoffabfällen, die Sie dadurch vermeiden. Nutzen Sie einfache Lösungen, die Ihnen nicht viel Zeit abverlangen, um Ihre Entsorgungskosten zu überwachen. Für den Anfang reicht manchmal bereits eine einfache Tabelle! Sprechen Sie mit Ihrem Personal darüber, wie viel Sie bereits eingespart haben und wie sie zu diesen Einsparungen beitragen. Sichtbare Fortschritte können motivierend sein, um weiterhin den Plastikverbrauch zu reduzieren. Machen Sie bekannt, was Sie tun. Zum Beispiel können Sie mit einem Hinweis auf Ihrer Website oder in Ihrer Speisekarte Ihr verantwortungsbewusstes Handeln für Ihre Gäste sichtbar machen. Die Wirkung Ihrer Handlungen wird dadurch nur vergrößert, denn Ihre Mitarbeitenden und Gäste werden diese Botschaften mit nach Hause nehmen.</p>
               </div>
             </div>
             <div class="col-md-5 offset-md-1">
@@ -1235,7 +1234,7 @@ times" target="_blank">sind in der EU viele Einwegplastikartikel</a> verboten. I
       <div id="pop6" class="modalx">
         <div class="modalx-content">
           <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-          <h4>Führen Sie Leitungswasser ein</h4>
+          <h4>BIETEN SIE LEITUNGSWASSER AN</h4>
           <p>
             Wenn die Wasserqualität es zulässt, sollten Sie Ihren Gästen Leitungswasser anbieten.
 

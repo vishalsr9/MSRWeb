@@ -196,7 +196,7 @@
         </section>
         <section class="section2">
             <div class="top-content">
-                <h3>WUSSTEN SIE, dass…</h3>
+                <h3>Wussten Sie, dass…</h3>
             </div>
 
 
@@ -367,7 +367,7 @@
                 </li>
                 <li></li>
                 <li>
-                    <p>Geringere Verschmutzung der lokalen und globalen Umwelt </p>
+                    <p>Geringere Verschmut-zung der lokalen und globalen Umwelt </p>
                 </li>
                 <li></li>
                 <li>
@@ -402,7 +402,7 @@
                     <p class="theme-p">
 
 
-                        Analysieren Sie Ihren Plastikverbrauch. Prüfen Sie, wie Sie Plastik verwenden und entsorgen. Ein erster Check hilft, Einwegplastik zu vermeiden, indem Sie z.B. in Plastik verpackte Lebensmittel oder Plastikeinwegflaschen aus dem Angebot nehmen. Seit Juli 2021 sind viele<a href="https://www.mpulse.de/en/movingboundaries/how-to-cope-with-plastic-flood" class="nodeco" target="_blank"> Einwegplastikartikel</a> in der EU verboten und weitere Gesetze werden folgen. In Deutschland werden Gastronomiebetriebe ab dem 1.1.2023 verpflichtet, neben Einwegbehältern auch wiederverwendbare Behältnisse für Speisen und Getränke zum Mitnehmen anzubieten. Gastronomiebetreibende müssen <a href="https://www.mpulse.de/de/sortiment/wie-ver-packen-wir-das-nachhaltig" class="nodeco" target="_blank">Alternativen</a> verwenden, die wiederverwendbar, recyclebar und kompostierbar sind, z.B. Teller aus pflanzlichen Materialien wie Bagasse. Darüber hinaus können Sie auch fortgeschrittene Maßnahmen einführen:
+                        Analysieren Sie Ihren Plastikverbrauch. Prüfen Sie, wie Sie Plastik verwenden und entsorgen. Ein erster Check hilft, Einwegplastik zu vermeiden, indem Sie z.B. in Plastik verpackte Lebensmittel oder Plastikeinwegflaschen aus dem Angebot nehmen. Seit Juli 2021 sind viele<a href="https://www.mpulse.de/de/grenzenbewegen/wie-meistert-man-die-plastikflut" class="nodeco" target="_blank"> Einwegplastikartikel</a> in der EU verboten und weitere Gesetze werden folgen. In Deutschland werden Gastronomiebetriebe ab dem 1.1.2023 verpflichtet, neben Einwegbehältern auch wiederverwendbare Behältnisse für Speisen und Getränke zum Mitnehmen anzubieten. Gastronomiebetreibende müssen <a href="https://www.mpulse.de/de/sortiment/wie-ver-packen-wir-das-nachhaltig" class="nodeco" target="_blank">Alternativen</a> verwenden, die wiederverwendbar, recyclebar und kompostierbar sind, z.B. Teller aus pflanzlichen Materialien wie Bagasse. Darüber hinaus können Sie auch fortgeschrittene Maßnahmen einführen:
 
                     </p>
                     <strong>
@@ -435,8 +435,8 @@
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO- LÖSUNGEN</h3>
-                <p>METRO bietet vielfältige abfallfreie Produkte an, wie z.B. umweltfreundliche Einwegartikel und Behältnisse zum Mitnehmen, Produkte, die mit weniger Verpackung auskommen (z.B. neu entwickelte Reinigungsmittel, Mehrwegsysteme für Getränkeflaschen, Wasserfilter, wiederverwendbare Wasserflaschen, Produkte, die kein PVC enthalten oder Alternativen für EPS). </p>
+                <h3>METRO LÖSUNGEN</h3>
+                <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
                 <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
             </div>
             <div class="bottom-content5">
@@ -461,9 +461,7 @@
         <div class="bottom-right">
             <div class="top-content5">
                 <h3>METRO ANGEBOTE</h3>
-                <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:
-
-                </p>
+                <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
             </div>
             <div class="bottom-content5">
                 <ul>

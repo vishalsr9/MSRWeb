@@ -177,7 +177,7 @@
   <section class="didyouknow_contents waste_foot_l3 no-print energy_mar">
     <div class="col-md-10 offset-md-1">
       <div class="row">
-        <h3 class="text-center">Wussten sie, dass…</h3>
+        <h3 class="text-center">Wussten Sie, dass…</h3>
 
 
       </div>
@@ -194,7 +194,7 @@
         <div class="col-md-6">
           <div class="didyouknow_2culumn">
             <img src="./images/safe_food/s3.svg" class="px-4 dis_img2">
-            <h4>unterbezahltes und ausgebeutetes Personal im Gastgewerbe<br>
+            <h4>unterbezahltes und ausgebeutetes Personal im Gastgewerbe und der <br>
               Lebensmittelbranche häufig immer noch an der Tagesordnung<br>
               sind, z.B. in Bezug auf die physischen Arbeitsbedingungen,<br>
               Arbeitszeiten, Arbeitssicherheit oder vertraglichen<br>
@@ -247,7 +247,7 @@
       </li>
       <li></li>
       <li>
-        <p>weniger Personalfluktuation</p>
+        <p>weniger Personal- fluktuation</p>
       </li>
       <!-- </ul>
                 <ul> -->
@@ -294,7 +294,7 @@
         <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
       </div>
       <div class="right-content">
-        <p>Da die Gastronomiebranche viele Menschen beschäftigt, spielt jedes Restaurant, unabhängig von seiner Größe und Art, eine wichtige Rolle für die Wirtschaft und die lokale Gemeinde. Doch leider halten sich viele Unternehmen im Gastgewerbe immer noch nicht an die Gesetze. Es mangelt an Grundlagen wie der vorbildlichen Vorgehensweise und häufig ist das erforderliche Wissen einfach nicht bekannt und/oder verfügbar.. Arbeitnehmende, deren grundlegende Rechte nicht geschützt sind, wirken sich aber nicht nur negativ auf ihr Restaurant, sondern auch auf die umliegende Gemeinde aus. Die Effizienz eines Restaurants, die Lebensmittelqualität und der Gesamterfolg Ihres Betriebs hängen im hohen Maße von engagiertem Personal ab.</p>
+        <p>Da die Gastronomiebranche viele Menschen beschäftigt, spielt jedes Restaurant, unabhängig von seiner Größe und Art, eine wichtige Rolle für die Wirtschaft und die lokale Gemeinde. Doch leider halten sich viele Unternehmen im Gastgewerbe immer noch nicht an die Gesetze. Es mangelt an Grundlagen wie der vorbildlichen Vorgehensweise und häufig ist das erforderliche Wissen einfach nicht bekannt und/oder verfügbar. Arbeitnehmende, deren grundlegende Rechte nicht geschützt sind, wirken sich aber nicht nur negativ auf Ihr Restaurant, sondern auch auf die umliegende Gemeinde aus. Die Effizienz eines Restaurants, die Lebensmittelqualität und der Gesamterfolg Ihres Betriebs hängen im hohen Maße von engagiertem Personal ab.</p>
       </div>
     </div>
   </section>
@@ -303,7 +303,7 @@
   <section class="section4 padr-60px no-print">
     <div class="left-content noalign col-md-6">
       <h3>
-        KNOW-HOW –<br>SERSTE SCHRITTE, WIE SIE<br>SOZIAL HANDELN
+        KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>SOZIAL HANDELN
       </h3>
       <p>Um ein sozial engagierter Arbeitgeber oder Arbeitgeberin zu sein, müssen Sie die nationalen Arbeitsgesetze einhalten und die grundlegenden Menschenrechte Ihrer Mitarbeitenden wahren. Indem Sie diese Rechte respektieren, sorgen Sie für faire Arbeitsbedingungen für Ihr Personal. Dies können Sie tun, indem Sie sich für Ihr Personal engagieren. Halten Sie die notwendigen Gesundheits- und Sicherheitsmaßnahmen ein und behalten Sie die Arbeitszeiten Ihrer Mitarbeitenden im Auge. Sie können sich noch weiter engagieren, indem Sie faire Arbeitsbedingungen bei Ihren Lieferanten einfordern, um in Ihrer Lieferkette etwas zu bewirken. Haben sie beispielsweise einen Kodex für ethisches Verhalten? Engagieren Sie sich darüber hinaus auch in Ihrer lokalen Gemeinde, um sich vollständig zu integrieren. Stellen Sie lokale Mitarbeitende und Menschen mit unterschiedlichem sozialen Hintergrund, Kultur und Geschichte, einschließlich Migrantinnen und Migranten, ein.</p>
 

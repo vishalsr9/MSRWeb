@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="banner_l3_img energy_banner">
-                        <img src="./images/safe_food/w1.svg" class="img-fluid pl-5">
+                        <img src="./images/safe_food/w1e.svg" class="img-fluid pl-5">
                     </div>
                 </div>
             </div>

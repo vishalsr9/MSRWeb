@@ -204,9 +204,9 @@
         </div>
         <div class="right-content">
           <p>
-            Mehrere Vorfälle haben in den letzten Jahren ein schlechtes Licht auf die Lebensmittelindustrie geworfen (z.B. nicht ausgewiesene Allergene in Sandwiches zum Mitnehmen, E.coli-Bakterien in Sprossen). Das Bewusstsein über die Notwendigkeit sicherer Lebensmittel wird Verbraucherinnen und Verbrauchern zunehmend bewusst. Deshalb sind sichere Lebensmittel die Grundlage für ein nachhaltiges Restaurant, zugleich können kontaminierte Lebensmittel als verschwendete Lebensmittel betrachtet werden. Bei der Führung eines nachhaltigen Restaurants geht es darum, effizient mit Ressourcen umzugehen, Abfälle zu vermeiden und die Mitarbeitenden zur produktiven Arbeit zu motivieren. Zusätzlich haben die jüngsten Entwicklungen im Zuge von COVID-19 die Bedeutung von guten Hygienemaßnahmen deutlich gemacht. Ein gutes
+            Mehrere Vorfälle haben in den letzten Jahren ein schlechtes Licht auf die Lebensmittelindustrie geworfen (z.B. nicht ausgewiesene Allergene in Sandwiches zum Mitnehmen, E.coli-Bakterien in Sprossen). Das Bewusstsein über die Notwendigkeit sicherer Lebensmittel wird Verbraucherinnen und Verbrauchern zunehmend bewusst. Deshalb sind sichere Lebensmittel die Grundlage für ein nachhaltiges Restaurant, zugleich können kontaminierte Lebensmittel als verschwendete Lebensmittel betrachtet werden. Bei der Führung eines nachhaltigen Restaurants geht es darum, effizient mit Ressourcen umzugehen, Abfälle zu vermeiden und die Mitarbeitenden zur produktiven Arbeit zu motivieren. Zusätzlich haben die jüngsten Entwicklungen im Zuge von COVID-19 die Bedeutung von guten Hygienemaßnahmen deutlich gemacht.
           </p>
-          <p>Lebensmittelsicherheitsmanagement kann dazu beitragen,</p>
+          <p>Ein gutes Lebensmittelsicherheitsmanagement kann dazu beitragen:</p>
         </div>
       </div>
 
@@ -218,17 +218,17 @@
           </li>
           <li></li>
           <li>
-            <p>Ihren Geschäftsbetrieb am Laufen zu halten</p>
+            <p>Ihren Geschäfts-betrieb am Laufen zu halten</p>
           </li>
           <li></li>
           <li>
-            <p>Gäste mit guten Ergebnissen bei Lebensmittelkontrollen anzulocken</p>
+            <p>Gäste mit guten Ergebnissen bei Lebensmittel-kontrollen anzulocken</p>
           </li>
           <li></li>
           <!-- </ul><ul> -->
           <li></li>
           <li>
-            <p>Bestandskunden und -kundinnen zu halten</p>
+            <p>Bestands-kunden und -kundinnen zu halten</p>
           </li>
           <li></li>
           <li>
@@ -249,7 +249,7 @@
           </li>
           <li></li>
           <li>
-            <p>Lebensmittelverschwendung zu vermeiden</p>
+            <p>Lebensmittel-verschwendung zu vermeiden</p>
           </li>
           <li></li>
           <!-- </ul>
@@ -286,7 +286,7 @@
         <div class="left-content noalign w60-per">
           <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>LEBENSMITTELSICHERHEIT SICHERSTELLEN</h3>
           <p>
-            Das Wichtigste ist ein Lebensmittelsicherheitsmanagement. Hierfür können Sie das HACCP-Konzept (Hazard Analysis Critical Control Points) verwenden – eine Methode, die Ihr Restaurant bei der Einhaltung der Lebensmittelsicherheit unterstützt. Mit diesem Konzept können Sie die Lebensmittelsicherheit in Ihrem Restaurant effektiv verankern. Ihre direkte Beteiligung als Führungsperson an diesem System setzt ein positives Beispiel und wird Ihre Mitarbeitenden motivieren, Ihrem Vorbild zu folgen. Zeigen Sie, dass Sie sich ernsthaft für Lebensmittelsicherheit einsetzen.
+            Das Wichtigste ist ein Lebensmittelsicherheitsmanagement. Hierfür können Sie das <a href="explore-safe-food-deu.php">HACCP-Konzept</a> (Hazard Analysis Critical Control Points) verwenden – eine Methode, die Ihr Restaurant bei der Einhaltung der Lebensmittelsicherheit unterstützt. Mit diesem Konzept können Sie die Lebensmittelsicherheit in Ihrem Restaurant effektiv verankern. Ihre direkte Beteiligung als Führungsperson an diesem System setzt ein positives Beispiel und wird Ihre Mitarbeitenden motivieren, Ihrem Vorbild zu folgen. Zeigen Sie, dass Sie sich ernsthaft für Lebensmittelsicherheit einsetzen.
           </p>
 
 
