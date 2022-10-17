@@ -2990,7 +2990,7 @@
         <div class="bottom-right">
             <div class="top-content5">
                 <h3>METRO ANGEBOTE</h3>
-                <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
+                <p>METRO unterstüzt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
             </div>
             <div class="bottom-content5">
                 <ul>
