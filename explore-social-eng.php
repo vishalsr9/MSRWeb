@@ -466,7 +466,7 @@
           <h4>Social engagement and your business</h4>
           <p>As a restaurateur, you have a huge impact on social matters. Social engagement not
             only applies to a restaurant’s staff, but also includes how the restaurant acts in the
-            community and treats its suppliers. Thanks to established practices in Human Resource
+            community and treats its suppliers. Thanks to established practices in human resource
             operations, we know what our jobs entail, that our social and health insurances are taken
             care of our wages or salaries are paid on time and so on. But beyond good practice,
             there are other aspects that are important for us to perform to the best of our ability.
@@ -513,7 +513,7 @@
                 business behaviour. When the basic rights are not
                 respected, the ‘on top’ aspects which are crucial for a
                 person’s self-fulfilment are most certainly not considered.
-                All together, these aspects are deemed as Human Rights.
+                All together, these aspects are deemed as human rights.
                 <br>
                 As a restaurant owner, you have direct responsibility for
                 your staff. You also have an indirect (shared) responsibility
@@ -1654,7 +1654,7 @@
       <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
       <h4>Contribute to the local community</h4>
       <p>
-        Contribute to local activities and charitable projects such as street-festivals. Donate your surplus food. Collect money for charity or donate your employees` time to support local charities. Let your restaurant serve as a welcoming space outside busy hours, for those who need it such as local charities and organisations. Create a welcoming space for parents with children, especially during the day.
+        Contribute to local activities and charitable projects such as street-festivals. Donate your surplus food. Collect money for charity or donate your employees` time to support local charities. Let your restaurant serve as a welcoming space outside busy hours, for those who need it, such as local charities and organisations. Create a welcoming space for parents with children, especially during the day.
       </p>
 
     </div>

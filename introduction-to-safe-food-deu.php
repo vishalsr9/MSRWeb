@@ -91,6 +91,9 @@
               </li>
             </div>
             <li>
+              <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+            </li>
+            <li>
               <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
@@ -122,17 +125,17 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.metroag.de/youtube" target="_blank">
+                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                   <i class="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -419,24 +422,17 @@
       <div class="fotter-right-top">
         <div class="footer-links link2">
           <ul>
-
-
-            <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-            <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-            <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-            <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+            <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+            <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+            <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
           </ul>
-
         </div>
         <div class="footer-socials">
           <ul>
-            <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-            <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
           </ul>
@@ -446,47 +442,45 @@
 
     </div>
 
-  </div>
 
-
-  <script src="jquery/page1.js"></script>
+    <script src="jquery/page1.js"></script>
 
 
 
-  <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtncustm");
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtncustm");
 
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
       }
-    }
-  </script>
-  <script>
-    document.onreadystatechange = function() {
-      if (document.readyState !== "complete") {
-        document.querySelector(
-          "body").style.visibility = "hidden";
-        document.querySelector(
-          "#loader-page2").style.visibility = "visible";
-      } else {
-        document.querySelector(
-          "#loader-page2").style.display = "none";
-        document.querySelector(
-          "body").style.visibility = "visible";
-      }
-    };
-  </script>
+    </script>
+    <script>
+      document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader-page2").style.visibility = "visible";
+        } else {
+          document.querySelector(
+            "#loader-page2").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+        }
+      };
+    </script>
 
-  <script type="text/javascript" src="./assets/js/common.js"></script>
+    <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 
 </html>

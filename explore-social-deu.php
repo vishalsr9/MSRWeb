@@ -364,8 +364,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-social-deu.php" selected>DEU</option>
-                        <option value="explore-social-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -409,6 +409,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -440,17 +443,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -1462,24 +1465,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -1489,247 +1485,245 @@
 
         </div>
 
-    </div>
 
 
+        <div id="pop1" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+                <h4>Schulen und fördern Sie Ihr Personal</h4>
+                <p>
+                    Vereinbaren Sie gemeinsam, wie Sie Mitarbeitende unterstützen können, die Angehörige oder Kinder betreuen und für die Sie gegebenenfalls kurzfristig Ersatz finden müssen. Berücksichtigen Sie bei der Erstellung von Schichtplänen die Bedürfnisse älterer und körperlich beeinträchtigter Mitarbeitender. Fördern Sie Ihr Personal durch Weiterbildungen und Beförderungen.
+                </p>
 
-    <div id="pop1" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-            <h4>Schulen und fördern Sie Ihr Personal</h4>
-            <p>
-                Vereinbaren Sie gemeinsam, wie Sie Mitarbeitende unterstützen können, die Angehörige oder Kinder betreuen und für die Sie gegebenenfalls kurzfristig Ersatz finden müssen. Berücksichtigen Sie bei der Erstellung von Schichtplänen die Bedürfnisse älterer und körperlich beeinträchtigter Mitarbeitender. Fördern Sie Ihr Personal durch Weiterbildungen und Beförderungen.
-            </p>
-
+            </div>
         </div>
-    </div>
 
-    <div id="pop2" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-            <h4>Prüfen Sie, was zu tun ist</h4>
-            <p>
-                Informieren Sie sich über die rechtlichen Anforderungen, bewerten Sie die gegenwärtige Situation, nehmen Sie Änderungen vor und überwachen Sie die eingeführten Maßnahmen. Stellen Sie sicher, dass bei Bedarf alle Mitarbeitenden mit einer persönlichen Schutzkleidung (PSA) ausgestattet sind. Bieten Sie Ihren Arbeitnehmenden zusätzlich die Möglichkeit, überschüssiges Essen mit nach Hause zu nehmen und sorgen Sie dafür, dass alle eine kostenlose Mahlzeit am Tag erhalten.
-            </p>
+        <div id="pop2" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+                <h4>Prüfen Sie, was zu tun ist</h4>
+                <p>
+                    Informieren Sie sich über die rechtlichen Anforderungen, bewerten Sie die gegenwärtige Situation, nehmen Sie Änderungen vor und überwachen Sie die eingeführten Maßnahmen. Stellen Sie sicher, dass bei Bedarf alle Mitarbeitenden mit einer persönlichen Schutzkleidung (PSA) ausgestattet sind. Bieten Sie Ihren Arbeitnehmenden zusätzlich die Möglichkeit, überschüssiges Essen mit nach Hause zu nehmen und sorgen Sie dafür, dass alle eine kostenlose Mahlzeit am Tag erhalten.
+                </p>
 
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop3" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-            <h4>Kommunizieren Sie klar und deutlich</h4>
-            <p>
-                Machen Sie Ihr Engagement und Ihre Erwartungen gegenüber Ihren Mitarbeitenden deutlich. Legen Sie alle Aufgaben klar und deutlich fest. Sprechen Sie häufig mit ihnen und binden Sie sie durch Aus- und Weiterbildungen oder soziale Begegnungen (Team Events, Weihnachtsfeiern, etc.) ein. Führen Sie ein effizientes Beschwerdeverfahren ein, um besser mit Feedback umgehen zu können. Treffen Sie mit Ihren Mitarbeitenden eine Vereinbarung, wie Trinkgelder verteilt werden.
-            </p>
+        <div id="pop3" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+                <h4>Kommunizieren Sie klar und deutlich</h4>
+                <p>
+                    Machen Sie Ihr Engagement und Ihre Erwartungen gegenüber Ihren Mitarbeitenden deutlich. Legen Sie alle Aufgaben klar und deutlich fest. Sprechen Sie häufig mit ihnen und binden Sie sie durch Aus- und Weiterbildungen oder soziale Begegnungen (Team Events, Weihnachtsfeiern, etc.) ein. Führen Sie ein effizientes Beschwerdeverfahren ein, um besser mit Feedback umgehen zu können. Treffen Sie mit Ihren Mitarbeitenden eine Vereinbarung, wie Trinkgelder verteilt werden.
+                </p>
 
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop31" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
-            <h4>Leisten Sie einen Beitrag für Ihre Region</h4>
-            <p>
-                Beteiligen Sie sich an lokalen Aktivitäten und Wohltätigkeitsprojekten, z.B. an Straßenfesten. Spenden Sie überschüssige Lebensmittel. Sammeln Sie Geld für wohltätige Zwecke oder stellen Sie Mitarbeitende zur Unterstützung lokaler Wohltätigkeitsorganisationen frei. Stellen Sie Ihr Restaurant auch außerhalb der Geschäftszeiten als Treffpunkt zur Verfügung z.B. für örtliche Wohlfahrtsverbände und Organisationen. Schaffen Sie besonders tagsüber einen ansprechenden Ort für Eltern mit Kindern.
-            </p>
+        <div id="pop31" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
+                <h4>Leisten Sie einen Beitrag für Ihre Region</h4>
+                <p>
+                    Beteiligen Sie sich an lokalen Aktivitäten und Wohltätigkeitsprojekten, z.B. an Straßenfesten. Spenden Sie überschüssige Lebensmittel. Sammeln Sie Geld für wohltätige Zwecke oder stellen Sie Mitarbeitende zur Unterstützung lokaler Wohltätigkeitsorganisationen frei. Stellen Sie Ihr Restaurant auch außerhalb der Geschäftszeiten als Treffpunkt zur Verfügung z.B. für örtliche Wohlfahrtsverbände und Organisationen. Schaffen Sie besonders tagsüber einen ansprechenden Ort für Eltern mit Kindern.
+                </p>
 
+            </div>
         </div>
-    </div>
 
-    <div id="pop32" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(32);">X</a>
-            <h4>Stellen Sie Personal aus der Umgebung ein und seien Sie inklusiv</h4>
-            <p>
-                Machen Sie deutlich, dass Sie ein inklusives Restaurant betreiben, in dem Diskriminierungen nicht geduldet werden, weder bei Mitarbeitenden noch bei Gästen. Berücksichtigen Sie bei der Anstellung von Mitarbeitenden aus der Umgebung unterschiedliche soziale Hintergründe und Kulturen, einschließlich von Migrantinnen und Migranten.
-            </p>
+        <div id="pop32" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(32);">X</a>
+                <h4>Stellen Sie Personal aus der Umgebung ein und seien Sie inklusiv</h4>
+                <p>
+                    Machen Sie deutlich, dass Sie ein inklusives Restaurant betreiben, in dem Diskriminierungen nicht geduldet werden, weder bei Mitarbeitenden noch bei Gästen. Berücksichtigen Sie bei der Anstellung von Mitarbeitenden aus der Umgebung unterschiedliche soziale Hintergründe und Kulturen, einschließlich von Migrantinnen und Migranten.
+                </p>
 
+            </div>
         </div>
-    </div>
 
-    <div id="pop33" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(33);">X</a>
-            <h4>Kaufen Sie Ihre saisonalen Produkte vor Ort</h4>
-            <p>
-                Beziehen Sie Ihre saisonalen Lebensmittel vor Ort und erweitern Sie Ihre Speisekarte um lokale Spezialitäten. Sorgen Sie dafür, dass Ihre Speisekarte die verschiedenen Ernährungsstile Ihrer Gäste berücksichtigt.
-            </p>
+        <div id="pop33" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(33);">X</a>
+                <h4>Kaufen Sie Ihre saisonalen Produkte vor Ort</h4>
+                <p>
+                    Beziehen Sie Ihre saisonalen Lebensmittel vor Ort und erweitern Sie Ihre Speisekarte um lokale Spezialitäten. Sorgen Sie dafür, dass Ihre Speisekarte die verschiedenen Ernährungsstile Ihrer Gäste berücksichtigt.
+                </p>
 
+            </div>
         </div>
-    </div>
 
 
 
 
-    <script src="jquery/page1.js"></script>
-    <!-- Swiper JS -->
+        <script src="jquery/page1.js"></script>
+        <!-- Swiper JS -->
 
 
 
 
-    <script>
-        $(document).ready(function() {
-            $('#hide_show_content').click(function() {
-                //get collapse content selector
-                var collapse_content_selector = $(this).attr('href');
+        <script>
+            $(document).ready(function() {
+                $('#hide_show_content').click(function() {
+                    //get collapse content selector
+                    var collapse_content_selector = $(this).attr('href');
 
-                //make the collapse content to be shown or hide
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        //change the button label to be 'Show'
-                        toggle_switch.html('Read More');
-                    } else {
-                        //change the button label to be 'Hide'
-                        toggle_switch.html('Read Less');
-                    }
+                    //make the collapse content to be shown or hide
+                    var toggle_switch = $(this);
+                    $(collapse_content_selector).toggle(function() {
+                        if ($(this).css('display') == 'none') {
+                            //change the button label to be 'Show'
+                            toggle_switch.html('Read More');
+                        } else {
+                            //change the button label to be 'Hide'
+                            toggle_switch.html('Read Less');
+                        }
+                    });
+                });
+
+            });
+        </script>
+        <script>
+            //pageSlider swiper
+            function openPopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "block");
+            }
+
+            function closePopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "none");
+            }
+            var swiper = new Swiper(".pageSwiper1", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper1Pagination",
+                },
+            });
+
+            var swiper = new Swiper(".pageSwiper2", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper2NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper2PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper2Pagination",
+                },
+            });
+
+            var swiper = new Swiper(".pageSwiper3", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper3NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper3PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper3Pagination",
+                },
+            });
+
+            var swiper = new Swiper(".pageSwiper4", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper4NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper4PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper4Pagination",
+                },
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                //first button click
+                $("#nextBtn1").click(function() {
+                    $("#tabLi1").removeClass("active");
+                    $("#tabLink1").removeClass("active");
+                    $("#home").removeClass("active")
+                    //
+                    $("#tabLi2").addClass("active");
+                    $("#tabLink2").addClass("active");
+                    $("#profile").addClass("active")
+                    return false;
+                });
+                //second button click
+                $("#nextBtn2").click(function() {
+                    $("#tabLi2").removeClass("active");
+                    $("#tabLink2").removeClass("active");
+                    $("#profile").removeClass("active")
+                    //
+                    $("#tabLi3").addClass("active");
+                    $("#tabLink3").addClass("active");
+                    $("#messages").addClass("active")
+                    return false;
                 });
             });
+        </script>
 
-        });
-    </script>
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
 
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-
-        var swiper = new Swiper(".pageSwiper2", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper2NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper2PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper2Pagination",
-            },
-        });
-
-        var swiper = new Swiper(".pageSwiper3", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper3NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper3PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper3Pagination",
-            },
-        });
-
-        var swiper = new Swiper(".pageSwiper4", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper4NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper4PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper4Pagination",
-            },
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            //first button click
-            $("#nextBtn1").click(function() {
-                $("#tabLi1").removeClass("active");
-                $("#tabLink1").removeClass("active");
-                $("#home").removeClass("active")
-                //
-                $("#tabLi2").addClass("active");
-                $("#tabLink2").addClass("active");
-                $("#profile").addClass("active")
-                return false;
-            });
-            //second button click
-            $("#nextBtn2").click(function() {
-                $("#tabLi2").removeClass("active");
-                $("#tabLink2").removeClass("active");
-                $("#profile").removeClass("active")
-                //
-                $("#tabLi3").addClass("active");
-                $("#tabLink3").addClass("active");
-                $("#messages").addClass("active")
-                return false;
-            });
-        });
-    </script>
-
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

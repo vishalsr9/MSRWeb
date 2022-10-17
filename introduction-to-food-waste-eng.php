@@ -216,7 +216,7 @@
             </div>
             <div class="right-content">
                 <p>
-                    Food waste costs you and your customers money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict which young and future customers are not willing to accept. Did you know that if food waste was a country, it would be the 3rd largest emitter of greenhouse gases?<br><br> In the restaurant business, we can make a real difference by eliminating food waste in our operations and thus:
+                    Food waste costs you and your customers, money. Throwing away valuable resources uneaten also holds enormous potential for environmental and social conflict, which young and future customers are not willing to accept. Did you know that if food waste was a country, it would be the 3rd largest emitter of greenhouse gases?<br><br> In the restaurant business, we can make a real difference by eliminating food waste in our operations and thus:
                 </p>
             </div>
         </div>
@@ -298,7 +298,7 @@
 
     <section class="section4 padr-60px w90-per">
         <div class="left-content noalign border-right col-md-6">
-            <h3>KNOW HOW – <br>STEPS HOW TO<br> AVOID FOOD WASTE</h3>
+            <h3>KNOW HOW – STEPS TO<br> AVOID FOOD WASTE</h3>
             <p>
                 Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest <a href="https://responsibility.metroag.de/focus-areas/food-waste">Food Waste Report</a>.<br><br>Landfills should be the last place where food waste ends up!
             </p>

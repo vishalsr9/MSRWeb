@@ -129,8 +129,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="explore-food-waste-deu.php" selected>DEU</option>
-            <option value="explore-food-waste-eng.php">ENG</option>
+            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+            <option value="introduction-to-food-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -173,6 +173,9 @@
                 <a href="introduction-to-social-deu.php">Gemeinschaft</a>
               </li>
             </div>
+            <li>
+              <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+            </li>
             <li>
               <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
@@ -1604,7 +1607,7 @@
         <h3>METRO Lösungen</h3>
         <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
         <p>
-          <strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong>
+          <strong>Anwendungen, die bei der Menügestaltung oder Kommunikation unterstützen können:</strong>
         </p>
       </div>
       <div class="bottom-content5">
@@ -1730,18 +1733,10 @@
       <div class="fotter-right-top">
         <div class="footer-links link2">
           <ul>
-            <li>
-              <a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a>
-            </li>
-            <li>
-              <a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a>
-            </li>
+            <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+            <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+            <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
           </ul>
         </div>
         <div class="footer-socials">

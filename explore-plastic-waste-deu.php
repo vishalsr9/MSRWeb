@@ -189,8 +189,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="explore-plastic-waste-deu.php" selected>DEU</option>
-            <option value="explore-plastic-waste-eng.php">ENG</option>
+            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+            <option value="introduction-to-food-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -234,6 +234,9 @@
               </li>
             </div>
             <li>
+              <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+            </li>
+            <li>
               <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
@@ -265,17 +268,17 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.metroag.de/youtube" target="_blank">
+                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                   <i class="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -403,7 +406,7 @@
                   <tr>
                     <td><b>Entsorgung</b></td>
                     <td>Normaler Müll</td>
-                    <td>Kommt auf den Inhalt an.</td>
+                    <td>Kommt auf den Inhalt an. Einige können im normalen Müll entsorgt werden, manche nicht.</td>
                     <td>Recyclingbehälter</td>
                     <td>Recyclingabfall oder normaler Müll (bei Lebensmittelrückständen)</td>
                     <td>Normaler Müll</td>
@@ -1144,24 +1147,17 @@
           <div class="fotter-right-top">
             <div class="footer-links link2">
               <ul>
-
-
-                <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
               </ul>
-
             </div>
             <div class="footer-socials">
               <ul>
-                <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
               </ul>
@@ -1171,130 +1167,128 @@
 
         </div>
 
-      </div>
 
 
 
-
-      <div id="pop1" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-          <h4>Vermeiden Sie die Nutzung von Plastikfolie </h4>
-          <p>
-            Reduzieren Sie nach Möglichkeit und im Einklang mit den Hygienevorschriften die Nutzung von Plastikfolien. Verwenden Sie stattdessen wiederverwendbare Behälter oder Wachspapier.
-          </p>
+        <div id="pop1" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+            <h4>Vermeiden Sie die Nutzung von Plastikfolie </h4>
+            <p>
+              Reduzieren Sie nach Möglichkeit und im Einklang mit den Hygienevorschriften die Nutzung von Plastikfolien. Verwenden Sie stattdessen wiederverwendbare Behälter oder Wachspapier.
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop2" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-          <h4>Vermeiden Sie Einwegplastik </h4>
-          <p>
-            Sie können Einwegplastik vermeiden, indem Sie Ihre Gäste auffordern, ihre eigenen Behälter zur Mitnahme von Speisen mitzubringen. Kaufen Sie Produkte, die nachhaltig verpackt sind.
-          </p>
+        <div id="pop2" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+            <h4>Vermeiden Sie Einwegplastik </h4>
+            <p>
+              Sie können Einwegplastik vermeiden, indem Sie Ihre Gäste auffordern, ihre eigenen Behälter zur Mitnahme von Speisen mitzubringen. Kaufen Sie Produkte, die nachhaltig verpackt sind.
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop3" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-          <h4>Verzichten Sie auf Plastikstrohhalme</h4>
-          <p>
-            Überlegen Sie, ob Sie einige Utensilien wirklich brauchen oder ob sie nur aus Gewohnheit da sind. Versuchen Sie, keine Strohhalme mehr anzubieten, es sei denn, Ihre Gäste fragen ausdrücklich danach.
-          </p>
+        <div id="pop3" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+            <h4>Verzichten Sie auf Plastikstrohhalme</h4>
+            <p>
+              Überlegen Sie, ob Sie einige Utensilien wirklich brauchen oder ob sie nur aus Gewohnheit da sind. Versuchen Sie, keine Strohhalme mehr anzubieten, es sei denn, Ihre Gäste fragen ausdrücklich danach.
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop4" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
-          <h4>Erwägen Sie Ermäßigungen für Gäste, die ihre eigenen Behälter zum Mitnehmen von Speisen mitbringen
-          </h4>
-          <p>
-            Ermutigen Sie Ihre Gäste, ihre eigenen Behälter für Speisen und Getränke To-Go mitzubringen. Stellen Sie sicher, dass die Hygienevorschriften eingehalten werden, indem Sie z.B. das Befüllen eines Lebensmittelbehälters oder eines Kaffeebechers nicht in dem Bereich vornehmen, in dem Sie Lebensmittel zubereiten.
-          </p>
+        <div id="pop4" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+            <h4>Erwägen Sie Ermäßigungen für Gäste, die ihre eigenen Behälter zum Mitnehmen von Speisen mitbringen
+            </h4>
+            <p>
+              Ermutigen Sie Ihre Gäste, ihre eigenen Behälter für Speisen und Getränke To-Go mitzubringen. Stellen Sie sicher, dass die Hygienevorschriften eingehalten werden, indem Sie z.B. das Befüllen eines Lebensmittelbehälters oder eines Kaffeebechers nicht in dem Bereich vornehmen, in dem Sie Lebensmittel zubereiten.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div id="pop5" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-          <h4>Fragen Sie Ihre Gäste, ob Sie Besteck benötigen</h4>
-          <p>
-            Bevor Sie Ihren Gästen Besteck (Messer, Gabel, Löffel, Rührer, Stäbchen) aus Plastik mitgeben, fragen Sie sie, ob sie sie wirklich benötigen.
-          </p>
+        <div id="pop5" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+            <h4>Fragen Sie Ihre Gäste, ob Sie Besteck benötigen</h4>
+            <p>
+              Bevor Sie Ihren Gästen Besteck (Messer, Gabel, Löffel, Rührer, Stäbchen) aus Plastik mitgeben, fragen Sie sie, ob sie sie wirklich benötigen.
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop6" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-          <h4>BIETEN SIE LEITUNGSWASSER AN</h4>
-          <p>
-            Wenn die Wasserqualität es zulässt, sollten Sie Ihren Gästen Leitungswasser anbieten.
+        <div id="pop6" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+            <h4>Bieten Sie Leitungswasser An</h4>
+            <p>
+              Wenn die Wasserqualität es zulässt, sollten Sie Ihren Gästen Leitungswasser anbieten.
 
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop7" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
-          <h4>Verwenden Sie Mehrweg- oder Pfandverpackungen sowie Mehrweg-Plastikbehälter </h4>
-          <p>
-            Um Plastikmüll zu vermeiden, sollten Sie, wo immer möglich, Mehrwegverpackungen verwenden, z.B. Wasserflaschen aus Glas, Mehrweg-Plastikbehälter oder Pfandbehälter.
+        <div id="pop7" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
+            <h4>Verwenden Sie Mehrweg- oder Pfandverpackungen sowie Mehrweg-Plastikbehälter </h4>
+            <p>
+              Um Plastikmüll zu vermeiden, sollten Sie, wo immer möglich, Mehrwegverpackungen verwenden, z.B. Wasserflaschen aus Glas, Mehrweg-Plastikbehälter oder Pfandbehälter.
 
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop8" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
-          <h4>Nutzen Sie die lokale Kunststoffsammlung und -entsorgung</h4>
-          <p>
-            Ihr örtlicher Großhändler bietet Sammel- und Entsorgungsdienste für Kunststoffabfälle an, die Sie in Anspruch nehmen sollten, damit die Kunststoffe ordnungsgemäß recycelt werden können.
-          </p>
+        <div id="pop8" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
+            <h4>Nutzen Sie die lokale Kunststoffsammlung und -entsorgung</h4>
+            <p>
+              Ihr örtlicher Großhändler bietet Sammel- und Entsorgungsdienste für Kunststoffabfälle an, die Sie in Anspruch nehmen sollten, damit die Kunststoffe ordnungsgemäß recycelt werden können.
+            </p>
+          </div>
         </div>
-      </div>
 
 
-      <div id="pop9" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
-          <h4>Nehmen Sie an Refill-Aktionen teil</h4>
-          <p>
-            Wasserauffüllprogramme machen Ihr Restaurant bekannt. Bieten Sie an, dass Flaschen kostenlos aufgefüllt werden können. Sie zeigen damit nicht nur Ihr soziales Bewusstsein, sondern verhindern ganz konkret, dass mehr Plastik verbraucht wird, weil die Verbraucherinnen und Verbraucher kein Wasser in Plastikflaschen kaufen müssen. Außerdem können Sie auf diese Weise neue Gäste gewinnen.
-          </p>
+        <div id="pop9" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
+            <h4>Nehmen Sie an Refill-Aktionen teil</h4>
+            <p>
+              Wasserauffüllprogramme machen Ihr Restaurant bekannt. Bieten Sie an, dass Flaschen kostenlos aufgefüllt werden können. Sie zeigen damit nicht nur Ihr soziales Bewusstsein, sondern verhindern ganz konkret, dass mehr Plastik verbraucht wird, weil die Verbraucherinnen und Verbraucher kein Wasser in Plastikflaschen kaufen müssen. Außerdem können Sie auf diese Weise neue Gäste gewinnen.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div id="pop10" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
-          <h4>Legen Sie Wert auf nachhaltig verpackte Produkte</h4>
-          <p>
-            Kaufen Sie Produkte, die nachhaltig verpackt sind. Das beinhaltet Verpackungen ohne PVC, PVDC und EPS. Damit können Sie auch Ihre Entsorgungskosten senken.
-          </p>
+        <div id="pop10" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
+            <h4>Legen Sie Wert auf nachhaltig verpackte Produkte</h4>
+            <p>
+              Kaufen Sie Produkte, die nachhaltig verpackt sind. Das beinhaltet Verpackungen ohne PVC, PVDC und EPS. Damit können Sie auch Ihre Entsorgungskosten senken.
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div id="pop11" class="modalx">
-        <div class="modalx-content">
-          <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
-          <h4>Beziehen Sie Ihr Personal ein</h4>
-          <p>
-            Die Verwendung von Plastik ist eng mit unseren Gewohnheiten verbunden. Daher ist es wichtig, Ihren Mitarbeitenden die Notwendigkeit und den Nutzen eines geringeren Plastikverbrauchs zu vermitteln. Beziehen Sie sie in regelmäßige Besprechungen zur Vermeidung von Plastikabfall mit ein. Bringen Sie Schilder an gut sichtbaren Stellen im Restaurant an, um alle an die neuen Regeln zu erinnern und lassen Sie sie wissen, dass der Beitrag jedes Einzelnen benötigt und geschätzt wird.
-          </p>
+        <div id="pop11" class="modalx">
+          <div class="modalx-content">
+            <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
+            <h4>Beziehen Sie Ihr Personal ein</h4>
+            <p>
+              Die Verwendung von Plastik ist eng mit unseren Gewohnheiten verbunden. Daher ist es wichtig, Ihren Mitarbeitenden die Notwendigkeit und den Nutzen eines geringeren Plastikverbrauchs zu vermitteln. Beziehen Sie sie in regelmäßige Besprechungen zur Vermeidung von Plastikabfall mit ein. Bringen Sie Schilder an gut sichtbaren Stellen im Restaurant an, um alle an die neuen Regeln zu erinnern und lassen Sie sie wissen, dass der Beitrag jedes Einzelnen benötigt und geschätzt wird.
+            </p>
+          </div>
         </div>
-      </div>
 
 
 
@@ -1306,99 +1300,99 @@
 
 
 
-      <script type="text/javascript">
-        var eurl = "explore-to-plastic-waste-eng.php"
-        var gurl = "explore-to-plastic-waste-deu.php"
+        <script type="text/javascript">
+          var eurl = "explore-to-plastic-waste-eng.php"
+          var gurl = "explore-to-plastic-waste-deu.php"
 
 
-        //btn-test click test script
+          //btn-test click test script
 
-        $(document).ready(function() {
-          $('#select').change(function() {
-            location.href = $(this).val();
-          });
-        });
-
-
-        $(document).ready(function() {
-          $('#myBtn_cust').click(function() {
-            //get collapse content selector
-            var collapse_content_selector = $(this).attr('href');
-
-            //make the collapse content to be shown or hide
-            var toggle_switch = $(this);
-            $(collapse_content_selector).toggle(function() {
-              if ($(this).css('display') == 'none') {
-                //change the button label to be 'Show'
-                toggle_switch.html('WEITERLESEN');
-              } else {
-                //change the button label to be 'Hide'
-                toggle_switch.html('Weniger');
-              }
+          $(document).ready(function() {
+            $('#select').change(function() {
+              location.href = $(this).val();
             });
           });
 
-        });
-      </script>
 
-      <script>
-        document.onreadystatechange = function() {
-          if (document.readyState !== "complete") {
-            document.querySelector(
-              "body").style.visibility = "hidden";
-            document.querySelector(
-              "#loader-page2").style.visibility = "visible";
-          } else {
-            document.querySelector(
-              "#loader-page2").style.display = "none";
-            document.querySelector(
-              "body").style.visibility = "visible";
-          }
-        };
-      </script>
+          $(document).ready(function() {
+            $('#myBtn_cust').click(function() {
+              //get collapse content selector
+              var collapse_content_selector = $(this).attr('href');
 
-      <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-          //alert(Id);
-          $("#pop" + Id).css("display", "block");
-        }
+              //make the collapse content to be shown or hide
+              var toggle_switch = $(this);
+              $(collapse_content_selector).toggle(function() {
+                if ($(this).css('display') == 'none') {
+                  //change the button label to be 'Show'
+                  toggle_switch.html('WEITERLESEN');
+                } else {
+                  //change the button label to be 'Hide'
+                  toggle_switch.html('Weniger');
+                }
+              });
+            });
 
-        function closePopUp(Id) {
-          //alert(Id);
-          $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-          grabCursor: true,
-          centeredSlides: true,
-          initialSlide: 1,
-          slidesPerView: "auto",
-          coverflowEffect: {
-            rotate: 0,
-            stretch: 30,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-            prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-          },
-          pagination: {
-            el: ".swiper-pagination.pageSwiper1Pagination",
-          },
-        });
-      </script>
-      <script type="text/javascript">
-        $(document).ready(function() {
-          $(".nextStepCta a").click(function() {
-            $(".nav-tabs .nav-item").removeClass("active");
-            $(this).addClass("active");
           });
-        });
-      </script>
+        </script>
 
-      <script type="text/javascript" src="./assets/js/common.js"></script>
+        <script>
+          document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+              document.querySelector(
+                "body").style.visibility = "hidden";
+              document.querySelector(
+                "#loader-page2").style.visibility = "visible";
+            } else {
+              document.querySelector(
+                "#loader-page2").style.display = "none";
+              document.querySelector(
+                "body").style.visibility = "visible";
+            }
+          };
+        </script>
+
+        <script>
+          //pageSlider swiper
+          function openPopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "block");
+          }
+
+          function closePopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "none");
+          }
+          var swiper = new Swiper(".pageSwiper1", {
+            grabCursor: true,
+            centeredSlides: true,
+            initialSlide: 1,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 0,
+              stretch: 30,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+              prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+            },
+            pagination: {
+              el: ".swiper-pagination.pageSwiper1Pagination",
+            },
+          });
+        </script>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $(".nextStepCta a").click(function() {
+              $(".nav-tabs .nav-item").removeClass("active");
+              $(this).addClass("active");
+            });
+          });
+        </script>
+
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 
 

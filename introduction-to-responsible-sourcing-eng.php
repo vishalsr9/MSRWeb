@@ -309,7 +309,7 @@
             </section>
             <section class="section4 padr-60px w90-per">
                 <div class="left-content noalign w60-per">
-                    <h3>KNOW HOW –<br>STEPS HOW TO<br>SOURCE RESPONSIBLY</h3>
+                    <h3>KNOW HOW – STEPS<br>TO SOURCE RESPONSIBLY</h3>
                     <p>
                         To be more connected with your customers and suppliers while building trust and credibility in your relationship with them, ask yourself if your products are responsibly sourced and sustainable. Our comprehensive guide to sustainable products will help you to find information more easily. Take a closer look at your supply chain and get engaged with your suppliers on sustainability topics. Schemes that guarantee a fair price of the product and fair treatment of workers, the origin and way of production or the compostability of packaging will provide you with more information and orientation on the sustainability aspects of your products. Don’t forget to track your progress and talk about successful steps toward becoming a sustainable restaurant.
                     </p>

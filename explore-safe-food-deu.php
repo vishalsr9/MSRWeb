@@ -393,8 +393,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-safe-food-deu.php" selected>DEU</option>
-                        <option value="explore-safe-food-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -438,6 +438,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -469,17 +472,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -1844,24 +1847,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -1871,178 +1867,176 @@
 
         </div>
 
-    </div>
-
-    <div id="pop1" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-            <h4>Menschen</h4>
-            <p>
-                Ordnungsgemäß geschultes Personal, das versteht, warum persönliche Hygiene und die Vermeidung von Verunreinigungen wichtig sind, wird sich engagierter für das tägliche Management der Lebensmittelsicherheit einsetzen. Sie sind motivierter, ihre Aufgaben sorgfältig auszuführen und machen seltener Fehler, die zu verunreinigten Lebensmitteln führen können. Ein nachhaltiges Restaurant behandelt sein Personal gut, wodurch Mitarbeitende motiviert werden, bei der Umsetzung anderer Nachhaltigkeitsmaßnahmen zu helfen.
-            </p>
+        <div id="pop1" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+                <h4>Menschen</h4>
+                <p>
+                    Ordnungsgemäß geschultes Personal, das versteht, warum persönliche Hygiene und die Vermeidung von Verunreinigungen wichtig sind, wird sich engagierter für das tägliche Management der Lebensmittelsicherheit einsetzen. Sie sind motivierter, ihre Aufgaben sorgfältig auszuführen und machen seltener Fehler, die zu verunreinigten Lebensmitteln führen können. Ein nachhaltiges Restaurant behandelt sein Personal gut, wodurch Mitarbeitende motiviert werden, bei der Umsetzung anderer Nachhaltigkeitsmaßnahmen zu helfen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop2" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-            <h4>Einkauf </h4>
-            <p>
-                Gute Lieferanten gewährleisten sichere Lebensmittel. Sie können dies überprüfen, indem Sie einen Nachweis oder einen Inspektionsbericht erbeten, der von einer lokalen oder nationalen Behörde oder von akkreditierten unabhängigen Gutachterinnen und Gutachtern erstellt wurde. Sie können auch nach einem Zertifikat der Global Food Safety Initiative (GFSI) fragen. Ihr Lebensmittelsicherheitsmanagement verlangt, dass Sie eine Lieferantenliste führen. Dies kann Ihnen dabei helfen, die Leistungen Ihrer Lieferanten in Bezug auf Nachhaltigkeitsaktivitäten wie den <a href="introduction-to-responsible-sourcing-deu.php">verantwortungsbewussten Einkauf</a> zu verfolgen. Durch Ihre Forderung nach Einhaltung der Standards für Lebensmittelsicherheit fördern Sie auch die Effizienz und das Abfallmanagement Ihrer Lieferanten. Auf diese Weise können Sie den Lieferanten helfen, ihre Prozesse zu verbessern, damit sie zusätzliche Aufträge erhalten und nachhaltiger
-                wirtschaften.
-            </p>
+        <div id="pop2" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+                <h4>Einkauf </h4>
+                <p>
+                    Gute Lieferanten gewährleisten sichere Lebensmittel. Sie können dies überprüfen, indem Sie einen Nachweis oder einen Inspektionsbericht erbeten, der von einer lokalen oder nationalen Behörde oder von akkreditierten unabhängigen Gutachterinnen und Gutachtern erstellt wurde. Sie können auch nach einem Zertifikat der Global Food Safety Initiative (GFSI) fragen. Ihr Lebensmittelsicherheitsmanagement verlangt, dass Sie eine Lieferantenliste führen. Dies kann Ihnen dabei helfen, die Leistungen Ihrer Lieferanten in Bezug auf Nachhaltigkeitsaktivitäten wie den <a href="introduction-to-responsible-sourcing-deu.php">verantwortungsbewussten Einkauf</a> zu verfolgen. Durch Ihre Forderung nach Einhaltung der Standards für Lebensmittelsicherheit fördern Sie auch die Effizienz und das Abfallmanagement Ihrer Lieferanten. Auf diese Weise können Sie den Lieferanten helfen, ihre Prozesse zu verbessern, damit sie zusätzliche Aufträge erhalten und nachhaltiger
+                    wirtschaften.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop3" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-            <h4>Restauranteinrichtung</h4>
-            <p>
-                Richten Sie Ihr Restaurant so ein, dass ein reibungsloser Ablauf gewährleistet wird und Kreuzkontaminationen vermieden werden. Wo dies nicht möglich ist, müssen Sie über ein Verfahren nachdenken, das sicherstellt, dass es keine derartigen Verunreinigungen gibt. Zum Beispiel durch verschiedene Mitarbeitende, die Lebensmittel auf einer Fläche zubereiten und diese nach ihrer Schicht gründlich reinigen. Dies erleichtert Ihrem Personal die Arbeit und verhindert Spannungen während hektischer Schichten.
-            </p>
+        <div id="pop3" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+                <h4>Restauranteinrichtung</h4>
+                <p>
+                    Richten Sie Ihr Restaurant so ein, dass ein reibungsloser Ablauf gewährleistet wird und Kreuzkontaminationen vermieden werden. Wo dies nicht möglich ist, müssen Sie über ein Verfahren nachdenken, das sicherstellt, dass es keine derartigen Verunreinigungen gibt. Zum Beispiel durch verschiedene Mitarbeitende, die Lebensmittel auf einer Fläche zubereiten und diese nach ihrer Schicht gründlich reinigen. Dies erleichtert Ihrem Personal die Arbeit und verhindert Spannungen während hektischer Schichten.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop4" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
-            <h4>Trennung</h4>
-            <p>
-                Rohe, verzehrfertige oder gekochte Lebensmittel müssen getrennt voneinander behandelt werden, ebenso wie Lebensmittel, die Allergene enthalten. Lebensmittel, die andere Zutaten kontaminieren könnten, werden in einem separaten Bereich verarbeitet. Abfälle müssen getrennt und in gekennzeichneten Behältern gelagert werden. Rohes Gemüse mit Schmutzresten sollte z.B. von verzehrfertigem Salat ferngehalten werden. Gemüseschalen können zur Herstellung von Brühe aufbewahrt oder kompostiert werden.
-            </p>
+        <div id="pop4" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+                <h4>Trennung</h4>
+                <p>
+                    Rohe, verzehrfertige oder gekochte Lebensmittel müssen getrennt voneinander behandelt werden, ebenso wie Lebensmittel, die Allergene enthalten. Lebensmittel, die andere Zutaten kontaminieren könnten, werden in einem separaten Bereich verarbeitet. Abfälle müssen getrennt und in gekennzeichneten Behältern gelagert werden. Rohes Gemüse mit Schmutzresten sollte z.B. von verzehrfertigem Salat ferngehalten werden. Gemüseschalen können zur Herstellung von Brühe aufbewahrt oder kompostiert werden.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop5" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-            <h4>Geräte</h4>
-            <p>
-                Eine richtige Ausrüstung macht die Küche effizienter. Moderne, gut konzipierte Geräte sind leicht zu reinigen und zu bedienen. Dies spart Zeit und Energie und verringert das Risiko von Verunreinigungen.
-            </p>
+        <div id="pop5" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+                <h4>Geräte</h4>
+                <p>
+                    Eine richtige Ausrüstung macht die Küche effizienter. Moderne, gut konzipierte Geräte sind leicht zu reinigen und zu bedienen. Dies spart Zeit und Energie und verringert das Risiko von Verunreinigungen.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop6" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-            <h4>Kühlkette</h4>
-            <p>
-                Wenn die Kühlkette intakt ist, sind gekühlte Lebensmittel sicher und länger haltbar. Das führt auch zu einer Verringerung der Abfallmenge. Gekühlte Lebensmittel sollten in einem Kühltransporter transportiert werden. Ist dies nicht möglich, dann sollten Container mit Kühlelementen oder Gefrierblöcken benutzt werden.
-            </p>
+        <div id="pop6" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+                <h4>Kühlkette</h4>
+                <p>
+                    Wenn die Kühlkette intakt ist, sind gekühlte Lebensmittel sicher und länger haltbar. Das führt auch zu einer Verringerung der Abfallmenge. Gekühlte Lebensmittel sollten in einem Kühltransporter transportiert werden. Ist dies nicht möglich, dann sollten Container mit Kühlelementen oder Gefrierblöcken benutzt werden.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop7" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
-            <h4>Annahme und Lagerung von Lebensmitteln</h4>
-            <p>
-                Lebensmittel, die Allergene enthalten, die roh oder verzehrfertig sind oder die entweder verpackt oder unverpackt sind, müssen getrennt gelagert und verarbeitet werden. Wenn Sie Lebensmittel erhalten, sollten immer sofort die äußeren Kartons entfernt werden, um zu verhindern, dass Ihre Küche verunreinigt wird. Ein gut funktionierendes System verfügt über einen ausgewiesenen Platz für Verpackungen, so dass diese recycelt werden können. Eine effektive Vorratshaltung bedeutet, dass Sie die Lebensmittel rechtzeitig vor Ablauf ihrer Haltbarkeit aufbrauchen. Durch die Lagerung bei richtiger Temperatur verhindern Sie die Vermehrung von Bakterien und sorgen dafür, dass die Lebensmittel entsprechend der Angaben des Lieferanten haltbar sind. So vermeiden Sie die Verschwendung von Lebensmitteln.
-            </p>
+        <div id="pop7" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
+                <h4>Annahme und Lagerung von Lebensmitteln</h4>
+                <p>
+                    Lebensmittel, die Allergene enthalten, die roh oder verzehrfertig sind oder die entweder verpackt oder unverpackt sind, müssen getrennt gelagert und verarbeitet werden. Wenn Sie Lebensmittel erhalten, sollten immer sofort die äußeren Kartons entfernt werden, um zu verhindern, dass Ihre Küche verunreinigt wird. Ein gut funktionierendes System verfügt über einen ausgewiesenen Platz für Verpackungen, so dass diese recycelt werden können. Eine effektive Vorratshaltung bedeutet, dass Sie die Lebensmittel rechtzeitig vor Ablauf ihrer Haltbarkeit aufbrauchen. Durch die Lagerung bei richtiger Temperatur verhindern Sie die Vermehrung von Bakterien und sorgen dafür, dass die Lebensmittel entsprechend der Angaben des Lieferanten haltbar sind. So vermeiden Sie die Verschwendung von Lebensmitteln.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop8" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
-            <h4>Pflege und Wartung</h4>
-            <p>
-                Ihre Geräte und Maschinen müssen regelmäßig überprüft werden, um sicherzustellen, dass sie nicht beschädigt sind. Beschädigungen können dazu führen, dass kleine Metalle in die Lebensmittel gelangen und dass die Reinigung erschwert wird. Gut gewartete Geräte sind leistungsfähiger. Ein Heizkessel, der verkalkt ist, ist unhygienisch und benötigt mehr Energie zum Heizen. Ein Gefrierschrank, der nicht gut belüftet ist, benötigt mehr Energie, um Lebensmittel zu kühlen. Eine mit Staub verstopfte Klimaanlage birgt nicht nur die Gefahr, dass Bakterien in die Luft gelangen, sondern auch, dass zu viel Energie beim Kühlen verbraucht wird.
-            </p>
+        <div id="pop8" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
+                <h4>Pflege und Wartung</h4>
+                <p>
+                    Ihre Geräte und Maschinen müssen regelmäßig überprüft werden, um sicherzustellen, dass sie nicht beschädigt sind. Beschädigungen können dazu führen, dass kleine Metalle in die Lebensmittel gelangen und dass die Reinigung erschwert wird. Gut gewartete Geräte sind leistungsfähiger. Ein Heizkessel, der verkalkt ist, ist unhygienisch und benötigt mehr Energie zum Heizen. Ein Gefrierschrank, der nicht gut belüftet ist, benötigt mehr Energie, um Lebensmittel zu kühlen. Eine mit Staub verstopfte Klimaanlage birgt nicht nur die Gefahr, dass Bakterien in die Luft gelangen, sondern auch, dass zu viel Energie beim Kühlen verbraucht wird.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop9" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
-            <h4>Aufbewahrung</h4>
-            <p>
-                Sobald Lebensmittel konserviert werden, verlängert dies ihre Lebensdauer. Durch richtiges Einfrieren verlängert sich die Haltbarkeit der Lebensmittel. Wenn Sie heiße Lebensmittel in den Gefrierschrank räumen, verbrauchen Sie zusätzliche Energie, um diese abzukühlen. Außerdem kann es bei Lebensmitteln, die sich bereits im Gefrierschrank befinden, zu lokalen Erwärmungen kommen, die zu unerwünschtem Bakterienwachstum führen. Das ordnungsgemäße Einfrieren kann dazu beitragen, die Verschwendung von Lebensmitteln zu reduzieren. Zusätzlich bietet es die Chance, lokale Lebensmittel zu verwenden, deren Saison bereits vorbei ist. Fermentierung verlängert – sofern sie sicher durchgeführt wird – die Haltbarkeit und macht aus einer einfachen Zutat, z.B. eingelegtem Gemüse, ein leckeres und gesundes Produkt. Natürlich sollten die Produkte mit einem Hinweis zur Haltbarkeit versehen werden.
-            </p>
+        <div id="pop9" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
+                <h4>Aufbewahrung</h4>
+                <p>
+                    Sobald Lebensmittel konserviert werden, verlängert dies ihre Lebensdauer. Durch richtiges Einfrieren verlängert sich die Haltbarkeit der Lebensmittel. Wenn Sie heiße Lebensmittel in den Gefrierschrank räumen, verbrauchen Sie zusätzliche Energie, um diese abzukühlen. Außerdem kann es bei Lebensmitteln, die sich bereits im Gefrierschrank befinden, zu lokalen Erwärmungen kommen, die zu unerwünschtem Bakterienwachstum führen. Das ordnungsgemäße Einfrieren kann dazu beitragen, die Verschwendung von Lebensmitteln zu reduzieren. Zusätzlich bietet es die Chance, lokale Lebensmittel zu verwenden, deren Saison bereits vorbei ist. Fermentierung verlängert – sofern sie sicher durchgeführt wird – die Haltbarkeit und macht aus einer einfachen Zutat, z.B. eingelegtem Gemüse, ein leckeres und gesundes Produkt. Natürlich sollten die Produkte mit einem Hinweis zur Haltbarkeit versehen werden.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop10" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
-            <h4>Lebensmittelallergien</h4>
-            <p>
-                Gäste müssen (in vielen Ländern) vollständigen Zugang zu den Listen der Allergene in den Gerichten des Restaurants erhalten. Das Allergenmanagement stellt eine große Herausforderung für Restaurants dar, die beispielsweise eine hohe Personalfluktuation aufweisen – denn dies kann sich negativ auf den Wissenstransfer auswirken. Eine unkomplizierte Speisekarte ist der Grundstein für ein nachhaltiges Restaurant und erleichtert die Verwaltung von Allergenlisten. Wenn Sie jedoch Ihre Speisekarte saisonal ändern, sollten Sie dies Ihren Gästen und Mitarbeitenden mitteilen. Wenn die Mahlzeiten von Grund auf neu zubereitet werden, können Sie sicher sein, welche Zutaten verwendet werden und ob sie Allergene enthalten, auf die Sie Ihre Gäste hinweisen sollten. Seriöse Lieferanten werden die Allergene auf ihren Produkten kennzeichnen.
-            </p>
+        <div id="pop10" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
+                <h4>Lebensmittelallergien</h4>
+                <p>
+                    Gäste müssen (in vielen Ländern) vollständigen Zugang zu den Listen der Allergene in den Gerichten des Restaurants erhalten. Das Allergenmanagement stellt eine große Herausforderung für Restaurants dar, die beispielsweise eine hohe Personalfluktuation aufweisen – denn dies kann sich negativ auf den Wissenstransfer auswirken. Eine unkomplizierte Speisekarte ist der Grundstein für ein nachhaltiges Restaurant und erleichtert die Verwaltung von Allergenlisten. Wenn Sie jedoch Ihre Speisekarte saisonal ändern, sollten Sie dies Ihren Gästen und Mitarbeitenden mitteilen. Wenn die Mahlzeiten von Grund auf neu zubereitet werden, können Sie sicher sein, welche Zutaten verwendet werden und ob sie Allergene enthalten, auf die Sie Ihre Gäste hinweisen sollten. Seriöse Lieferanten werden die Allergene auf ihren Produkten kennzeichnen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop11" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
-            <h4>Abfallaufkommen</h4>
-            <p>
-                Ein wichtiger Aspekt ist der Umgang mit nicht verwendeten Lebensmitteln und Resten von Gerichten. So kann z.B. nicht verzehrtes Brot, je nachdem, wie es verwendet wurde, in einer anderen Mahlzeit wiederverwendet werden, z.B. als Paniermehl, oder es kann kompostiert und weggeworfen werden. Je nachdem, wie Sie damit umgehen, ergeben sich unterschiedliche Anforderungen an die Lebensmittelsicherheit und das.
-            </p>
+        <div id="pop11" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
+                <h4>Abfallaufkommen</h4>
+                <p>
+                    Ein wichtiger Aspekt ist der Umgang mit nicht verwendeten Lebensmitteln und Resten von Gerichten. So kann z.B. nicht verzehrtes Brot, je nachdem, wie es verwendet wurde, in einer anderen Mahlzeit wiederverwendet werden, z.B. als Paniermehl, oder es kann kompostiert und weggeworfen werden. Je nachdem, wie Sie damit umgehen, ergeben sich unterschiedliche Anforderungen an die Lebensmittelsicherheit und das.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
-    <div id="pop12" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(12);">X</a>
-            <h4>Lieferung und Abholung</h4>
-            <p>
-                Vor allem durch COVID-19 sind Lieferungen und Abholungen von Speisen häufiger geworden. Dafür werden stabile Behälter benötigt, die die Lebensmittel vor Verunreinigungen schützen und die Ihre Gäste leicht entsorgen können. Kompostierbare Behälter sind eine gute Alternative. Falls Sie ein Mehrwegsystem nutzen, prüfen Sie, wie die Behälter bei Rückgabe gereinigt werden müssen.
-            </p>
+        <div id="pop12" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(12);">X</a>
+                <h4>Lieferung und Abholung</h4>
+                <p>
+                    Vor allem durch COVID-19 sind Lieferungen und Abholungen von Speisen häufiger geworden. Dafür werden stabile Behälter benötigt, die die Lebensmittel vor Verunreinigungen schützen und die Ihre Gäste leicht entsorgen können. Kompostierbare Behälter sind eine gute Alternative. Falls Sie ein Mehrwegsystem nutzen, prüfen Sie, wie die Behälter bei Rückgabe gereinigt werden müssen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop13" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(13);">X</a>
-            <h4>Lieferanten</h4>
-            <p>
-                In der Regel kümmern sich die Lieferanten auch um Anlieferung und Ungezieferkontrolle. Sie müssen sicherstellen, dass dies nicht die Sicherheit der Lebensmittel gefährdet. Die Lieferanten müssen beispielsweise gewährleisten, dass die Lebensmittel in der richtigen Temperatur und innerhalb der richtigen Zeitspanne transportiert werden. Dienstleister, die für die Schädlingsbekämpfung zuständig sind, müssen darauf achten, dass die Platzierung ihrer Geräte und die verwendeten Chemikalien kein Kontaminationsrisiko in Ihrer Küche darstellen. Wenn Ihre Zulieferer Ihre Anforderungen kennen, haben sie vielleicht weitere Ideen, die sie Ihnen vorschlagen können. Einige Subunternehmer, die für die Schädlingsbekämpfung zuständig sind, ändern beispielsweise die Art und Weise, wie sie Schädlinge bekämpfen, um die Umweltbelastungen durch Chemikalien zu verringern.
-            </p>
+        <div id="pop13" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(13);">X</a>
+                <h4>Lieferanten</h4>
+                <p>
+                    In der Regel kümmern sich die Lieferanten auch um Anlieferung und Ungezieferkontrolle. Sie müssen sicherstellen, dass dies nicht die Sicherheit der Lebensmittel gefährdet. Die Lieferanten müssen beispielsweise gewährleisten, dass die Lebensmittel in der richtigen Temperatur und innerhalb der richtigen Zeitspanne transportiert werden. Dienstleister, die für die Schädlingsbekämpfung zuständig sind, müssen darauf achten, dass die Platzierung ihrer Geräte und die verwendeten Chemikalien kein Kontaminationsrisiko in Ihrer Küche darstellen. Wenn Ihre Zulieferer Ihre Anforderungen kennen, haben sie vielleicht weitere Ideen, die sie Ihnen vorschlagen können. Einige Subunternehmer, die für die Schädlingsbekämpfung zuständig sind, ändern beispielsweise die Art und Weise, wie sie Schädlinge bekämpfen, um die Umweltbelastungen durch Chemikalien zu verringern.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop14" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(14);">X</a>
-            <h4>Berichtswesen und Dokumentation</h4>
-            <p>
-                Als Gastronomiebetreibende sind Sie für die Überwachung der Lebensmittelsicherheit verantwortlich. Ihr System zur Gewährleistung der Lebensmittelsicherheit muss alle Schritte dokumentieren. Die aktuelle und genaue Aufzeichnung ist daher Grundvoraussetzung. Darüber hinaus geht damit einher, dass Sie oder verantwortliche Mitarbeitende in Ihrem Namen Kontrollen durchführen Sie führen die Eröffnungs- und Abschlusskontrollen durch, kontrollieren die Arbeitsabläufe und stellen sicher, dass die Nachweisdokumente (z.B. Reinigungs- und Schulungsunterlagen) vollständig sind. Wenn Sie bereits ein System für die Lebensmittelsicherheit implementiert haben, ist es einfacher, Kontrollen für weitere Nachhaltigkeitsaspekte zu integrieren. Die Dokumentation des Status eines neuen Verfahrens und die Überwachung seines Fortschritts ist ein weiterer Teil des Nachhaltigkeitsmanagements, z.B. beim Energieverbrauch.
-            </p>
+        <div id="pop14" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(14);">X</a>
+                <h4>Berichtswesen und Dokumentation</h4>
+                <p>
+                    Als Gastronomiebetreibende sind Sie für die Überwachung der Lebensmittelsicherheit verantwortlich. Ihr System zur Gewährleistung der Lebensmittelsicherheit muss alle Schritte dokumentieren. Die aktuelle und genaue Aufzeichnung ist daher Grundvoraussetzung. Darüber hinaus geht damit einher, dass Sie oder verantwortliche Mitarbeitende in Ihrem Namen Kontrollen durchführen Sie führen die Eröffnungs- und Abschlusskontrollen durch, kontrollieren die Arbeitsabläufe und stellen sicher, dass die Nachweisdokumente (z.B. Reinigungs- und Schulungsunterlagen) vollständig sind. Wenn Sie bereits ein System für die Lebensmittelsicherheit implementiert haben, ist es einfacher, Kontrollen für weitere Nachhaltigkeitsaspekte zu integrieren. Die Dokumentation des Status eines neuen Verfahrens und die Überwachung seines Fortschritts ist ein weiterer Teil des Nachhaltigkeitsmanagements, z.B. beim Energieverbrauch.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop15" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(15);">X</a>
-            <h4>Unabhängige Kontrollen</h4>
-            <p>
-                Um sich zu vergewissern, dass Ihr Lebensmittelsicherheitssystem funktioniert, sollten Sie es unabhängig überprüfen lassen. Es gibt professionelle Dienstleister, die maßgeschneiderte Analyseprogramme anbieten. Eine externe Kontrolle bietet Ihnen die Möglichkeit, sich zu verbessern, eine Bestätigung für das Funktionieren Ihres Lebensmittelsicherheitsmanagements einzuholen und es stellt eine zusätzliche Sicherheit für Ihre Gäste dar. Ähnliche Dienstleistungen gibt es auch im Bereich des Nachhaltigkeitsmanagements, wobei diese nicht so weit verbreitet sind. Erkundigen Sie sich bei den örtlichen Behörden oder Ihren Großhändlern und fragen Sie nach deren Empfehlungen.
-            </p>
+        <div id="pop15" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(15);">X</a>
+                <h4>Unabhängige Kontrollen</h4>
+                <p>
+                    Um sich zu vergewissern, dass Ihr Lebensmittelsicherheitssystem funktioniert, sollten Sie es unabhängig überprüfen lassen. Es gibt professionelle Dienstleister, die maßgeschneiderte Analyseprogramme anbieten. Eine externe Kontrolle bietet Ihnen die Möglichkeit, sich zu verbessern, eine Bestätigung für das Funktionieren Ihres Lebensmittelsicherheitsmanagements einzuholen und es stellt eine zusätzliche Sicherheit für Ihre Gäste dar. Ähnliche Dienstleistungen gibt es auch im Bereich des Nachhaltigkeitsmanagements, wobei diese nicht so weit verbreitet sind. Erkundigen Sie sich bei den örtlichen Behörden oder Ihren Großhändlern und fragen Sie nach deren Empfehlungen.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
 
-    <div id="pop16" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(16);">X</a>
-            <h4>Verunreinigte Bereiche</h4>
-            <p>
-                Bereiche wie der Abwasch, Mülleimer oder Gemüseverarbeitung sollten von sauberen Bereichen getrennt werden. Dies hilft, den Abfallfluss zu steuern und sicherzustellen, dass der richtige Abfall recycelt oder wiederverwendet wird. Sauberes Spülwasser kann zum Beispiel zur Bewässerung Ihres Gartens verwendet werden.
-            </p>
+        <div id="pop16" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(16);">X</a>
+                <h4>Verunreinigte Bereiche</h4>
+                <p>
+                    Bereiche wie der Abwasch, Mülleimer oder Gemüseverarbeitung sollten von sauberen Bereichen getrennt werden. Dies hilft, den Abfallfluss zu steuern und sicherzustellen, dass der richtige Abfall recycelt oder wiederverwendet wird. Sauberes Spülwasser kann zum Beispiel zur Bewässerung Ihres Gartens verwendet werden.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
@@ -2050,15 +2044,15 @@
 
 
 
-    <div id="safe_foodSlide_c-5" class="modalx">
-        <div class="modalx-content">
-            <h4>Reinigung</h4>
-            <p>
-                Ein professionelles Reinigungsprogramm, das speziell auf Ihre Räumlichkeiten zugeschnitten ist, die richtigen Reinigungsmittel in der geeigneten Dosierung vorsieht und für die richtige Ausrüstung geeignet ist, sorgt nicht nur für Sauberkeit. Es verhindert auch, dass die Umwelt geschädigt und Kosten durch den überhöhten Einsatz von Chemikalien in die Höhe getrieben werden. Im nächsten Schritt könnten Sie auch umweltfreundliche Reinigungsmittel in Betracht ziehen. Wenn Sie direkt im laufenden Betrieb reinigen, verhindern Sie, dass sich Abfälle ansammeln und das Risiko einer Verunreinigung sauberer Bereiche, z.B. durch überquellende Mülleimer. Eindeutig gekennzeichnete Behälter in einem abgetrennten Bereich erleichtern das Recycling oder die Wiederverwendung von Abfällen.
-            </p>
-            <a class="read-more-btn btn btn-sm safe_foodSlide-close-5">X</a>
+        <div id="safe_foodSlide_c-5" class="modalx">
+            <div class="modalx-content">
+                <h4>Reinigung</h4>
+                <p>
+                    Ein professionelles Reinigungsprogramm, das speziell auf Ihre Räumlichkeiten zugeschnitten ist, die richtigen Reinigungsmittel in der geeigneten Dosierung vorsieht und für die richtige Ausrüstung geeignet ist, sorgt nicht nur für Sauberkeit. Es verhindert auch, dass die Umwelt geschädigt und Kosten durch den überhöhten Einsatz von Chemikalien in die Höhe getrieben werden. Im nächsten Schritt könnten Sie auch umweltfreundliche Reinigungsmittel in Betracht ziehen. Wenn Sie direkt im laufenden Betrieb reinigen, verhindern Sie, dass sich Abfälle ansammeln und das Risiko einer Verunreinigung sauberer Bereiche, z.B. durch überquellende Mülleimer. Eindeutig gekennzeichnete Behälter in einem abgetrennten Bereich erleichtern das Recycling oder die Wiederverwendung von Abfällen.
+                </p>
+                <a class="read-more-btn btn btn-sm safe_foodSlide-close-5">X</a>
+            </div>
         </div>
-    </div>
 
 
 
@@ -2068,327 +2062,327 @@
 
 
 
-    <div id="pop21" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(21);">X</a>
-            <h4>Identifizieren Sie alle Risiken und Gefahren</h4>
-            <p>
-                Ermitteln Sie bei jedem Schritt Ihrer Abläufe – von den Lebensmitteln, die Sie erhalten, bis zu den Gerichten, die Sie servieren und ausliefern – alle Risiken und Gefahren.
-            </p>
+        <div id="pop21" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(21);">X</a>
+                <h4>Identifizieren Sie alle Risiken und Gefahren</h4>
+                <p>
+                    Ermitteln Sie bei jedem Schritt Ihrer Abläufe – von den Lebensmitteln, die Sie erhalten, bis zu den Gerichten, die Sie servieren und ausliefern – alle Risiken und Gefahren.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop22" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(22);">X</a>
-            <h4>Identifizieren Sie die kritischen Kontrollpunkte (CCPs)</h4>
-            <p>
-                Identifizieren Sie die kritischen Kontrollpunkte (CCPs), bei denen mögliche Gefahren das akzeptable Niveau nicht überschreiten und durch den gewohnten Arbeitsablaufs beseitigt werden.
-            </p>
+        <div id="pop22" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(22);">X</a>
+                <h4>Identifizieren Sie die kritischen Kontrollpunkte (CCPs)</h4>
+                <p>
+                    Identifizieren Sie die kritischen Kontrollpunkte (CCPs), bei denen mögliche Gefahren das akzeptable Niveau nicht überschreiten und durch den gewohnten Arbeitsablaufs beseitigt werden.
+                </p>
+            </div>
         </div>
-    </div>
 
 
-    <div id="pop23" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(23);">X</a>
-            <h4>Legen Sie Standards fest</h4>
-            <p>
-                Legen Sie die einzuhaltenden Standards fest, wobei kritische Schwellenwerte nicht überschritten werden sollten.
-            </p>
+        <div id="pop23" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(23);">X</a>
+                <h4>Legen Sie Standards fest</h4>
+                <p>
+                    Legen Sie die einzuhaltenden Standards fest, wobei kritische Schwellenwerte nicht überschritten werden sollten.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop24" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(24);">X</a>
-            <h4>Etablieren Sie wirksame Kontrollverfahren</h4>
-            <p>
-                Führen Sie Kontrollmechanismen ein, damit Sie die Abläufe an jedem kritischen Punkt effektiv überwachen können.
-            </p>
+        <div id="pop24" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(24);">X</a>
+                <h4>Etablieren Sie wirksame Kontrollverfahren</h4>
+                <p>
+                    Führen Sie Kontrollmechanismen ein, damit Sie die Abläufe an jedem kritischen Punkt effektiv überwachen können.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop25" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(25);">X</a>
-            <h4>Definieren Sie Korrekturmaßnahmen</h4>
-            <p>
-                Für den Fall, dass Sie die Schwellenwerte nicht einhalten, sollten Sie die durchzuführenden Korrekturmaßnahmen festlegen.
-            </p>
+        <div id="pop25" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(25);">X</a>
+                <h4>Definieren Sie Korrekturmaßnahmen</h4>
+                <p>
+                    Für den Fall, dass Sie die Schwellenwerte nicht einhalten, sollten Sie die durchzuführenden Korrekturmaßnahmen festlegen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop26" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(26);">X</a>
-            <h4>Richten Sie ein Verfahren zur Überprüfung ein</h4>
-            <p>
-                Stellen Sie sicher, dass das System mit regelmäßigen Überprüfungen arbeitet.
-            </p>
+        <div id="pop26" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(26);">X</a>
+                <h4>Richten Sie ein Verfahren zur Überprüfung ein</h4>
+                <p>
+                    Stellen Sie sicher, dass das System mit regelmäßigen Überprüfungen arbeitet.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop27" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(27);">X</a>
-            <h4>Erstellen Sie schriftliche Dokumente und Aufzeichnungen</h4>
-            <p>
-                Schriftliche Dokumente und Aufzeichnungen können Ihnen dabei helfen, die wirksame Umsetzung Ihrer Kontrollmaßnahmen nachzuweisen.
-            </p>
+        <div id="pop27" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(27);">X</a>
+                <h4>Erstellen Sie schriftliche Dokumente und Aufzeichnungen</h4>
+                <p>
+                    Schriftliche Dokumente und Aufzeichnungen können Ihnen dabei helfen, die wirksame Umsetzung Ihrer Kontrollmaßnahmen nachzuweisen.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
 
-    <div id="pop31" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
-            <h4>Zeigen Sie Führungsstärke</h4>
-            <p>
-                Gehen Sie mit gutem Beispiel voran, damit Ihr Personal Ihnen folgt. Zeigen Sie, dass Ihnen die Lebensmittelsicherheit am Herzen liegt und betonen Sie, dass Sie dasselbe von Ihrem Team erwarten. Einfache Maßnahmen wie Händewaschen beim Betreten der Küche mögen zwar Zeit kosten, verdeutlichen aber, was Sie von Ihren Mitarbeitenden erwarten.
-            </p>
+        <div id="pop31" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(31);">X</a>
+                <h4>Zeigen Sie Führungsstärke</h4>
+                <p>
+                    Gehen Sie mit gutem Beispiel voran, damit Ihr Personal Ihnen folgt. Zeigen Sie, dass Ihnen die Lebensmittelsicherheit am Herzen liegt und betonen Sie, dass Sie dasselbe von Ihrem Team erwarten. Einfache Maßnahmen wie Händewaschen beim Betreten der Küche mögen zwar Zeit kosten, verdeutlichen aber, was Sie von Ihren Mitarbeitenden erwarten.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop32" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(32);">X</a>
-            <h4>Erklären Sie, warum Sie Regeln brauchen</h4>
-            <p>
-                Menschen mögen es nicht, wenn man Ihnen sagt, was sie tun sollen, ohne zu wissen, warum. Erklären Sie z. B. warum sich Ihre Mitarbeitenden nach der Zubereitung von rohem Fleisch zunächst die Hände waschen sollten, bevor sie Salate vorbereiten – denn andernfalls können gefährliche Bakterien auf den Salat übertragen werden, die Ihre Gäste krank machen.
-            </p>
+        <div id="pop32" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(32);">X</a>
+                <h4>Erklären Sie, warum Sie Regeln brauchen</h4>
+                <p>
+                    Menschen mögen es nicht, wenn man Ihnen sagt, was sie tun sollen, ohne zu wissen, warum. Erklären Sie z. B. warum sich Ihre Mitarbeitenden nach der Zubereitung von rohem Fleisch zunächst die Hände waschen sollten, bevor sie Salate vorbereiten – denn andernfalls können gefährliche Bakterien auf den Salat übertragen werden, die Ihre Gäste krank machen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop33" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(33);">X</a>
-            <h4>Schulen Sie Ihr Personal</h4>
-            <p>
-                Weiterbildungen sollten für alle neuen und langjährigen Mitarbeitenden selbstverständlich sein. Erläutern Sie, warum dies so wichtig ist und wie Nachlässigkeiten bei der Lebensmittelsicherheit zu schwerwiegenden Folgen führen können. Grundsätzlich kann immer jemand ernsthaft erkranken, was im schlimmsten Fall die Schließung Ihres Restaurants nach sich zieht.
-            </p>
+        <div id="pop33" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(33);">X</a>
+                <h4>Schulen Sie Ihr Personal</h4>
+                <p>
+                    Weiterbildungen sollten für alle neuen und langjährigen Mitarbeitenden selbstverständlich sein. Erläutern Sie, warum dies so wichtig ist und wie Nachlässigkeiten bei der Lebensmittelsicherheit zu schwerwiegenden Folgen führen können. Grundsätzlich kann immer jemand ernsthaft erkranken, was im schlimmsten Fall die Schließung Ihres Restaurants nach sich zieht.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop34" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(34);">X</a>
-            <h4>Stellen Sie die richtigen Geräte zur Verfügung</h4>
-            <p>
-                Stellen Sie sicher, dass Ihre Küche über die notwendigen Geräte verfügt, um Lebensmittel sicher zuzubereiten und zu servieren. Thermometer für Speisen sind leicht zu erwerben und erleichtern Ihren Mitarbeitenden die Überprüfung der Speisetemperaturen.
-            </p>
+        <div id="pop34" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(34);">X</a>
+                <h4>Stellen Sie die richtigen Geräte zur Verfügung</h4>
+                <p>
+                    Stellen Sie sicher, dass Ihre Küche über die notwendigen Geräte verfügt, um Lebensmittel sicher zuzubereiten und zu servieren. Thermometer für Speisen sind leicht zu erwerben und erleichtern Ihren Mitarbeitenden die Überprüfung der Speisetemperaturen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop35" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(35);">X</a>
-            <h4>Führen Sie Routinen ein</h4>
-            <p>
-                Wenn Sie bestimmte Abläufe zu einer regelmäßigen Routine machen, z.B. das Messen der Temperaturen von Lebensmitteln zu bestimmten Zeiten, und Sie dem ganzen Vorrang einräumen, werden neue Abläufe leichter verinnerlicht. Ziehen Sie den Einsatz einer digitalen App in Betracht, die Ihre Aufzeichnungen unterstützen kann. Jüngere Mitarbeitende werden davon nicht überrascht sein, während es für ältere Mitarbeitende die Chance bedeutet, neue Fähigkeiten zu erlernen.
-            </p>
+        <div id="pop35" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(35);">X</a>
+                <h4>Führen Sie Routinen ein</h4>
+                <p>
+                    Wenn Sie bestimmte Abläufe zu einer regelmäßigen Routine machen, z.B. das Messen der Temperaturen von Lebensmitteln zu bestimmten Zeiten, und Sie dem ganzen Vorrang einräumen, werden neue Abläufe leichter verinnerlicht. Ziehen Sie den Einsatz einer digitalen App in Betracht, die Ihre Aufzeichnungen unterstützen kann. Jüngere Mitarbeitende werden davon nicht überrascht sein, während es für ältere Mitarbeitende die Chance bedeutet, neue Fähigkeiten zu erlernen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop36" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(36);">X</a>
-            <h4>Stärken Sie Ihre Mitarbeitenden</h4>
-            <p>
-                Erlauben Sie ihnen, selbst Entscheidungen zu treffen, z.B. potenziell unsichere Lebensmittel von Lieferanten bei der Ankunft abzulehnen. Wenn Lebensmittel nicht sicher sind, z.B. weil die Temperatur über den gesetzlichen Vorschriften liegt, müssen sie entsorgt werden.
-            </p>
+        <div id="pop36" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(36);">X</a>
+                <h4>Stärken Sie Ihre Mitarbeitenden</h4>
+                <p>
+                    Erlauben Sie ihnen, selbst Entscheidungen zu treffen, z.B. potenziell unsichere Lebensmittel von Lieferanten bei der Ankunft abzulehnen. Wenn Lebensmittel nicht sicher sind, z.B. weil die Temperatur über den gesetzlichen Vorschriften liegt, müssen sie entsorgt werden.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop37" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(37);">X</a>
-            <h4>Führen Sie Überprüfungen durch</h4>
-            <p>
-                Auf diese Weise können Sie prüfen, ob Ihr System funktioniert und ob die Mitarbeitenden die Verfahren einhalten. Eigene Inspektionen durch Sie selbst oder geschultes Führungspersonal können ebenso effektiv sein wie die Beauftragung eines externen Prüfers. Manchmal kann eine dritte Person Dinge erkennen, die Ihnen entgehen, woraus Sie viel lernen können.
-            </p>
+        <div id="pop37" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(37);">X</a>
+                <h4>Führen Sie Überprüfungen durch</h4>
+                <p>
+                    Auf diese Weise können Sie prüfen, ob Ihr System funktioniert und ob die Mitarbeitenden die Verfahren einhalten. Eigene Inspektionen durch Sie selbst oder geschultes Führungspersonal können ebenso effektiv sein wie die Beauftragung eines externen Prüfers. Manchmal kann eine dritte Person Dinge erkennen, die Ihnen entgehen, woraus Sie viel lernen können.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop38" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(38);">X</a>
-            <h4>Stellen Sie keine Vermutungen an</h4>
-            <p>
-                Erinnern Sie Ihr gesamtes Personal daran, dass selbst kleine Fehler die Gesundheit eines Gastes gefährden können. Beispielsweise sollte ein Spülschwamm niemals zum Wischen eines schmutzigen Fußbodens verwendet werden und die Mitarbeitenden sollten sich nach dem Toilettengang oder Rauchen die Hände waschen.
-            </p>
+        <div id="pop38" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(38);">X</a>
+                <h4>Stellen Sie keine Vermutungen an</h4>
+                <p>
+                    Erinnern Sie Ihr gesamtes Personal daran, dass selbst kleine Fehler die Gesundheit eines Gastes gefährden können. Beispielsweise sollte ein Spülschwamm niemals zum Wischen eines schmutzigen Fußbodens verwendet werden und die Mitarbeitenden sollten sich nach dem Toilettengang oder Rauchen die Hände waschen.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div id="pop39" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(39);">X</a>
-            <h4>Suchen Sie die Hilfe von lokalen Behörden und Dienstleistern</h4>
-            <p>
-                Eine Kultur der Lebensmittelsicherheit zu etablieren, muss nicht teuer oder schwierig sein. Es ist eine Frage der Gewohnheit und führt dazu, dass Ihr Restaurant ein Ort ist, der Lebensmittel sicher verarbeitet, weshalb man es gerne besucht. Aber scheuen Sie nicht davor zurück, Hilfe zu suchen. Erkundigen Sie sich, welche Dienstleistungen oder Hilfestellungen Ihre örtliche Verwaltung oder Ihr Großhändler anbietet. Manche haben sogar Sondervereinbarungen mit den örtlichen Hygienekontrolldiensten oder Laboren, die Ihnen bei der Einführung eines Systems oder der Verbesserung Ihres bestehenden Systems helfen können.
-            </p>
+        <div id="pop39" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(39);">X</a>
+                <h4>Suchen Sie die Hilfe von lokalen Behörden und Dienstleistern</h4>
+                <p>
+                    Eine Kultur der Lebensmittelsicherheit zu etablieren, muss nicht teuer oder schwierig sein. Es ist eine Frage der Gewohnheit und führt dazu, dass Ihr Restaurant ein Ort ist, der Lebensmittel sicher verarbeitet, weshalb man es gerne besucht. Aber scheuen Sie nicht davor zurück, Hilfe zu suchen. Erkundigen Sie sich, welche Dienstleistungen oder Hilfestellungen Ihre örtliche Verwaltung oder Ihr Großhändler anbietet. Manche haben sogar Sondervereinbarungen mit den örtlichen Hygienekontrolldiensten oder Laboren, die Ihnen bei der Einführung eines Systems oder der Verbesserung Ihres bestehenden Systems helfen können.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
-    <script src="jquery/page1.js"></script>
-    <!-- Swiper JS -->
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
+        <script src="jquery/page1.js"></script>
+        <!-- Swiper JS -->
+        <script>
+            //pageSlider swiper
+            function openPopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "block");
+            }
 
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-
-        var swiper = new Swiper(".pageSwiper2", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper2NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper2PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper2Pagination",
-            },
-        });
-
-        var swiper = new Swiper(".pageSwiper3", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper3NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper3PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper3Pagination",
-            },
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".nextStepCta a").click(function() {
-                $(".nav-tabs .nav-item").removeClass("active");
-                $(this).addClass("active");
+            function closePopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "none");
+            }
+            var swiper = new Swiper(".pageSwiper1", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper1Pagination",
+                },
             });
-        });
-    </script>
 
+            var swiper = new Swiper(".pageSwiper2", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper2NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper2PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper2Pagination",
+                },
+            });
 
+            var swiper = new Swiper(".pageSwiper3", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper3NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper3PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper3Pagination",
+                },
+            });
+        </script>
 
-    <script>
-        $(document).ready(function() {
-            $('#hide_show_content').click(function() {
-                //get collapse content selector
-                var collapse_content_selector = $(this).attr('href');
-
-                //make the collapse content to be shown or hide
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        //change the button label to be 'Show'
-                        toggle_switch.html('WEITERLESEN');
-                    } else {
-                        //change the button label to be 'Hide'
-                        toggle_switch.html('WENIGER');
-                    }
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".nextStepCta a").click(function() {
+                    $(".nav-tabs .nav-item").removeClass("active");
+                    $(this).addClass("active");
                 });
             });
-
-        });
-    </script>
+        </script>
 
 
-    <script>
-        $(document).ready(function() {
-            //first button click
-            $("#nextBtn1").click(function() {
-                $("#tabLi1").removeClass("active");
-                $("#tabLink1").removeClass("active");
-                $("#home").removeClass("active")
-                //
-                $("#tabLi2").addClass("active");
-                $("#tabLink2").addClass("active");
-                $("#profile").addClass("active")
-                return false;
+
+        <script>
+            $(document).ready(function() {
+                $('#hide_show_content').click(function() {
+                    //get collapse content selector
+                    var collapse_content_selector = $(this).attr('href');
+
+                    //make the collapse content to be shown or hide
+                    var toggle_switch = $(this);
+                    $(collapse_content_selector).toggle(function() {
+                        if ($(this).css('display') == 'none') {
+                            //change the button label to be 'Show'
+                            toggle_switch.html('WEITERLESEN');
+                        } else {
+                            //change the button label to be 'Hide'
+                            toggle_switch.html('WENIGER');
+                        }
+                    });
+                });
+
             });
-            //second button click
-            $("#nextBtn2").click(function() {
-                $("#tabLi2").removeClass("active");
-                $("#tabLink2").removeClass("active");
-                $("#profile").removeClass("active")
-                //
-                $("#tabLi3").addClass("active");
-                $("#tabLink3").addClass("active");
-                $("#messages").addClass("active")
-                return false;
-            });
-        });
-    </script>
+        </script>
 
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                //first button click
+                $("#nextBtn1").click(function() {
+                    $("#tabLi1").removeClass("active");
+                    $("#tabLink1").removeClass("active");
+                    $("#home").removeClass("active")
+                    //
+                    $("#tabLi2").addClass("active");
+                    $("#tabLink2").addClass("active");
+                    $("#profile").addClass("active")
+                    return false;
+                });
+                //second button click
+                $("#nextBtn2").click(function() {
+                    $("#tabLi2").removeClass("active");
+                    $("#tabLink2").removeClass("active");
+                    $("#profile").removeClass("active")
+                    //
+                    $("#tabLi3").addClass("active");
+                    $("#tabLink3").addClass("active");
+                    $("#messages").addClass("active")
+                    return false;
+                });
+            });
+        </script>
+
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

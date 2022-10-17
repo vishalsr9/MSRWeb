@@ -289,7 +289,7 @@
 
       <section class="section4 padr-60px">
         <div class="left-content noalign w60-per">
-          <h3><a href="explore-safe-food-eng.php" target="_self">KNOW HOW –<br>STEPS HOW TO ENSURE<br>SAFE FOOD</a></h3>
+          <h3><a href="explore-safe-food-eng.php" target="_self">KNOW HOW – STEPS TO<br>ENSURE SAFE FOOD</a></h3>
           <p>
             It is basic to have a food safety management system. For this, you can use <a href="explore-safe-food-eng.php"> HACCP (Hazard Analysis Critical Control Points)</a> which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
           </p>

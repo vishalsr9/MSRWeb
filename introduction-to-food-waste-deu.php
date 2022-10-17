@@ -39,8 +39,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-food-waste-deu.php" selected>DEU</option>
-                        <option value="explore-food-waste-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -83,6 +83,9 @@
                                 <a href="introduction-to-social-deu.php">Gemeinschaft</a>
                             </li>
                         </div>
+                        <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
                         <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
@@ -323,30 +326,38 @@
 
 
 
-    <section class="section5">
+    <section class="section5 no-print">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO LÖSUNGEN</h3>
-                <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
-                <p><strong>Anwendungen, die bei der Menügestaltung oder Kommunikation unterstützen können:</strong></p>
+                <h3>METRO Lösungen</h3>
+                <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
+                <p>
+                    <strong>Anwendungen, die bei der Menügestaltung oder Kommunikation unterstützen können:</strong>
+                </p>
             </div>
             <div class="bottom-content5">
                 <ul>
                     <li>
-                        <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
+                        <a href="https://www.menukithd.com/" target="_blank">
+                            <img src="images/logo-dish.png" />
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.dish.co/XX/de/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                        <a href="https://www.dish.co/XX/de/" target="_blank">
+                            <img src="images/Dish_Logo-svg.svg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
+                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                            <img src="images/Protrace_Logo-ai.svg" />
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.metro-go.de/de-DE/home" target="_blank"> <img src="images/Eitiketten.png" /></a>
+                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+                            <img src="images/Eitiketten.png" />
+                        </a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
         <div class="bottom-right">
@@ -357,10 +368,13 @@
             <div class="bottom-content5">
                 <ul>
                     <li>
-                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <img src="images/Logo_METRO-Regio_weiss.png" /></a>
+                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <img src="images/Logo_METRO-Regio_weiss.png" />
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 373 192" width="373" height="192">
+                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 373 192" width="373" height="192">
                                 <title>METRO_Bio-ai</title>
                                 <style>
                                     .sf {
@@ -377,9 +391,9 @@
                                         <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m257.8 33.4h105.1v31.2h-105.1zm78.7 10.2c-0.1-1.9-1.5-3-3.2-3.1h-13.3v17.1h5.2v-7.1h1.8l3.6 7.1h5.9l-4-7.1h0.8c1.6-0.1 3.2-1.2 3.2-3.1zm-18.5-3.1h-14.8v3.4h4.9v13.7h5.1v-13.7h4.8zm-16.8 0h-13.5v17.1h13.5v-3.4h-8.4v-3.6h8.4v-3.3h-8.4v-3.4h8.4zm-16.1 0h-6.9l-3.3 8.4-3.3-8.4h-6.9v17.1h5.1v-10.8l3.4 10.8h3.4l3.4-10.8v10.8h5.1zm71.1 2.9c-0.1-1.9-1.5-2.8-3.2-2.9h-11c-1.6 0.1-3 1-3.2 2.9v11.1c0.2 2 1.6 3 3.2 3.1h11c1.7-0.1 3.1-1.1 3.2-3.1z" />
                                     </g>
                                 </g>
-                            </svg></a>
+                            </svg>
+                        </a>
                     </li>
-
                     <li>
                         <a href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank">METRO <br> Serviceverpackungen </a>
                     </li>
@@ -443,18 +457,11 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
@@ -470,40 +477,38 @@
 
         </div>
 
-    </div>
 
 
+        <script type="text/javascript">
+            var eurl = "introduction-to-food-waste-eng.php"
+            var gurl = "introduction-to-food-waste-deu.php"
 
-    <script type="text/javascript">
-        var eurl = "introduction-to-food-waste-eng.php"
-        var gurl = "introduction-to-food-waste-deu.php"
 
+            //btn-test click test script
 
-        //btn-test click test script
-
-        $(document).ready(function() {
-            $('#select').change(function() {
-                location.href = $(this).val();
+            $(document).ready(function() {
+                $('#select').change(function() {
+                    location.href = $(this).val();
+                });
             });
-        });
-    </script>
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-    <script src="jquery/page1.js"></script>
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+        </script>
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+        <script src="jquery/page1.js"></script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 
 

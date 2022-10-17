@@ -63,8 +63,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-sustainable-menu-deu.php" selected>DEU</option>
-                        <option value="explore-sustainable-menu-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -108,6 +108,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -139,17 +142,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -744,24 +747,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -771,1011 +767,1009 @@
 
         </div>
 
-    </div>
 
-
-    <div class=" vegan-modal">
-        <div class="modal-overlay1 modal-toggle1"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle1">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 veg-con">
-                    <h4>Vegan</h4>
-                    <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" vegi-modal">
-        <div class="modal-overlay1 modal-toggle2"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle2">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 vegi-cont">
-                    <h4>Vegetarisch
-                    </h4>
-                    <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" paleo-modal">
-        <div class="modal-overlay1 modal-toggle3"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle3">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 paleo-cont">
-                    <h4>Paleo
-                    </h4>
-                    <p>Diese Ernährungsform basiert ausschließlich auf Lebensmitteln, von denen man annimmt, dass sie in der Steinzeit zu finden waren. Dazu gehören vor allem Fleisch, Eier, Obst, Gemüse, Nüsse und Honig. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" keto-modal">
-        <div class="modal-overlay1 modal-toggle4"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle4">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 keto-cont">
-                    <h4>Keto
-                    </h4>
-                    <p>Diese Ernährungsweise ist sehr kohlenhydratarm und fettreich. Sie ähnelt in vielerlei Hinsicht anderen kohlenhydratarmen Ernährungsformen. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" fruit-modal">
-        <div class="modal-overlay1 modal-toggle5"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle5">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 fruit-cont">
-                    <h4>Fruitarian
-                    </h4>
-                    <p>Nur Obst. Diese Ernährungsform erweitert das Konzept der Veganer und achtet darauf, dass Pflanzen durch die Ernte nicht geschädigt werden. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" omni-modal">
-        <div class="modal-overlay1 modal-toggle6"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle6">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 omni-cont">
-                    <h4>Omnivore
-                    </h4>
-                    <p>Beinhaltet nahezu alle Lebensmittel pflanzlichen oder tierischen Ursprungs. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" flexi-modal">
-        <div class="modal-overlay1 modal-toggle7"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle7">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 flexi-cont">
-                    <h4>Flexitarian
-                    </h4>
-                    <p>Fleisch, Geflügel oder Fisch werden gelegentlich verzehrt, um den Nährstoffbedarf einer Person zu decken. Manche Flexitarier wählen diesen Ernährungsstil, weil ihnen das Tierwohl wichtig ist und sie einen maßvolleren Konsum tierischer Produkte erzielen möchten.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="eng-modal">
-        <div class="modal-overlay1 modal-toggle8"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle8">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Leiten Sie Ihre Mitarbeitenden im Service entsprechend an
-                    </h4>
-                    <ul>
-                        <li>Binden Sie die Mitarbeitenden von Anfang an ein und erklären Sie, was Sie tun möchten und warum. </li>
-                        <li>Ihr Servicepersonal wird bei der Vermittlung Ihrer Philosophie von entscheidender Bedeutung sein und überzeugender sein, wenn es in Ihre Entscheidungen einbezogen wird.</li>
-                        <li>Beispiele für nachhaltige Menüs können ihr Verständnis fördern und sie ermutigen, Ideen einzubringen. </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" redu-modal">
-        <div class="modal-overlay1 modal-toggle9"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle9">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Reduzieren Sie den Umfang Ihrer Speisekarte
-                    </h4>
-                    <p>Eine kleinere Speisekarte wird häufig mit hoher Qualität gleichgesetzt. Zudem bietet sich die Gelegenheit, mehr saisonale Produkte zu verwenden und weniger Lebensmittel zu verschwenden. Versuchen Sie, ausgewählte Zutaten auf ein Minimum zu beschränken, während Sie die Klassiker, die Ihre Gäste besonders schätzen, beibehalten. Konzentrieren Sie sich auf die 20 Prozent der Gerichte, die 80 ProzentIhres Umsatzes erzielen. Bieten Sie ein Gericht an, das sich täglich, monatlich oder saisonabhängig ändert.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class=" set-modal">
-        <div class="modal-overlay1 modal-toggle13"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle13">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Setzen Sie auf Gemüse</h4>
-                    <ul>
-                        <li>Führen Sie (mehr) Gerichte ein, bei denen
-                            Gemüse die Hauptrolle spielt.</li>
-                        <li>Erhöhen Sie die Menge von unverarbeitetem
-                            Gemüse auf dem Teller im Vergleich zur Fleisch- oder Fischportion
-                            Bieten Sie mehr Speisen an, die komplett auf
-                            Gemüse basieren.</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class=" ver-modal">
-        <div class="modal-overlay1 modal-toggle14"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle14">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Verwenden Sie nachhaltigen Fisch</h4>
-                    <ul>
-                        <li>Machen Sie Ihre Gäste mit weniger üblichen
-                            Fischarten bekannt, darunter auch solche, die
-                            normalerweise weggeworfen werden oder als
-                            Beifang gelten. </li>
-                        <li>Bieten Sie Fisch an, der aus
-                            verantwortungsbewusster Fischerei stammt,
-                            das heißt, der zertifiziert ist und <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank" style="color: white!important;">vollständig rückverfolgt</a> werden kann.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" exp-modal">
-        <div class="modal-overlay1 modal-toggle15"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle15">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4 class="nodeco12">
-                        <a href="https://www.metro.de/produktwelten/fleischloser-genuss" target="_blank" style="color: white !important;">
-                            Experimentieren Sie mit pflanzlichen
-                            Proteinen
-                        </a>
-                    </h4>
-                    <ul>
-                        <li>Nutzen Sie (mehr) unverarbeitete
-                            pflanzliche Lebensmittel als
-                            Proteinlieferanten, etwa Linsen, Quinoa,
-                            Teff, Bohnen oder Algen. </li>
-                        <li>Verwenden Sie verschiedene Produkte auf
-                            pflanzlicher Basis als Proteinlieferanten,
-                            etwa Tofu oder Tempeh.</li>
-                        <li>Bieten Sie eine Vielfalt von Getreidesorten
-                            an.</li>
-                        <li>Nutzen Sie alte Getreidesorten wie Teff oder
-                            alte Sorten, die mit Ihrer Region verbunden
-                            sind.</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class=" neh-modal">
-        <div class="modal-overlay1 modal-toggle16"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle16">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>Nehmen Sie Abstand von
-                        stark verarbeiteten Zutaten</h4>
-                    <p>Seien Sie vorsichtig bei Zutaten, die in
-                        Anlehnung an traditionelle Lebensmittel
-                        hergestellt wurden. Diese sind oft stark
-                        verarbeitet, enthalten viel Zucker, Salz
-                        und Transfette und sind nicht besonders gesund</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" setsie-modal">
-        <div class="modal-overlay1 modal-toggle17"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle17">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 flexi-cont">
-                    <h4>Setzen Sie Speisen auf die Karte,
-                        die allen gerecht werden</h4>
-                    <p>Bieten Sie Speisen an, die auf unterschiedliche
-                        Ernährungsvorlieben eingehen, etwa auch
-                        vegane Gerichte</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <div class=" intro-modal">
-        <div class="modal-overlay1 modal-toggle10"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle10">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        Führen Sie kleinere Portionsgrößen als Option ein
-                    </h4>
-                    <p>Viele Gäste bemühen sich, weniger zu essen. Dies geschieht oftmals aus gesundheitlichen Gründen, kann aber auch eine attraktive Option für Gäste mit Kindern sein. Immer mehr Gastronominnen und Gastronomen stellen fest, dass Kinder am besten die gleichen Gerichte wie Erwachsene erhalten sollten, wenn auch in kleineren Portionen. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=" source-modal">
-        <div class="modal-overlay1 modal-toggle11"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle11">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-                <div class="modal-content1 flexi-cont">
-                    <h4>
-                        <a target="_blank" href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" style="color: white!important;">Beziehen Sie Ihre Produkte lokal, regional und saisonal</a>
-                    </h4>
-                    <p>Setzen Sie ein Zeichen mit einem verantwortungsbewussten Einkauf und verwenden Sie nur nachhaltigen Fisch und Lebensmittel, die biologisch, nährstoffreich, saisonal, fair hergestellt, lokal und regional sind. Achten Sie außerdem darauf, Lebensmittel einzukaufen, die die Artenvielfalt fördern und Abfälle vermeiden. Wenn Sie mehr darüber erfahren möchten, lesen Sie das Kapitel über einen <a href="introduction-to-responsible-sourcing-deu.php" style="color: white!important;">verantwortungsbewussten Einkauf</a>.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" use-modal">
-        <div class="modal-overlay1 modal-toggle12"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <button class="modal-close1 modal-toggle12">
-                <svg class="icon-close icon" viewBox="0 0 32 32">
-                    <use xlink:href="#icon-close">
-                        <g id="icon-close">
-                            <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
-                        </g>
-                    </use>
-                </svg>
-            </button>
-            <div class="modal-body1">
-
-                <div class="modal-content1 flexi-cont">
-                    <div>
-                        <h4>
-                            Verwenden Sie weniger und dafür besseres Fleisch
-                        </h4>
-                        <p>Wenn die meisten Ihrer Gerichte Fleisch beinhalten, können Sie die Portionsgröße an Fleisch, Geflügel und Fisch reduzieren. Achten Sie zusätzlich beim Einkauf von tierischen Produkten auf eine nachhaltige Erzeugung. Sie können auch verschiedene, normalerweise nicht verwendete Fleischteile zu sogenannten <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants" target="_blank" style="color: white!important;">Nose-to-Tail-Gerichten</a> verarbeiten. </p>
-                        <div class="listing-use" id="more13">
-                            <ul>
-                                <li>
-                                    <h5> Verwenden Sie nachhaltigen Fisch</h5>
-                                    <p>
-                                        Bieten Sie Fisch aus nachhaltiger Fischerei an. Achten Sie auf entsprechende Zertifizierungen und volle Rückverfolgbarkeit. Bieten Sie auch unbekannte Arten an, einschließlich solcher, die normalerweise entsorgt werden oder Beifang sind.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5> Feiern Sie den Geschmack von frischem Gemüse </h5>
-                                    <p>
-                                        Führen Sie (mehr) Gerichte ein, bei denen Gemüse die Hauptzutat oder die einzige Zutat ist und erhöhen Sie den Anteil von vollwertigem Gemüse eines Gerichts im Vergleich zum Fleisch- oder Fischanteil.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Experimentieren Sie mit pflanzlichen Proteinen
-                                    </h5>
-                                    <p>
-                                        Verwenden Sie (mehr) vollwertige pflanzliche Proteine, die in besonders hoher Konzentration in Linsen, Quinoa oder Bohnen vorkommen. Sie können auch verschiedene Arten von verarbeiteten pflanzlichen Proteinen einführen, z. B. Tofu und Tempeh.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5> Verwenden Sie unterschiedliche Getreidesorten</h5>
-                                    <p>
-                                        ProbierenSietraditionelle Getreidesorten beim Kochen und Backen aus oder solche, die in Ihrer Region besonders typisch sind.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5> Vermeiden Sie stark verarbeitete Zutaten </h5>
-                                    <p>
-                                        Achten Sie auf Nachahmungen traditioneller Zutaten. Diese sind oft stark verarbeitet, enthalten viel Zucker, Salz und Transfette und sind nicht besonders gesundheitsfördernd.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5> Führen Sie Gerichte ein, die für alle Ernährungsstile geeignet sind</h5>
-                                    <p>
-                                        Bieten Sie Gerichte an, die unterschiedlichen Ernährungsformen gerecht werden, wie z. B. auch vegane Optionen.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
+        <div class=" vegan-modal">
+            <div class="modal-overlay1 modal-toggle1"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle1">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 veg-con">
+                        <h4>Vegan</h4>
+                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
+        <div class=" vegi-modal">
+            <div class="modal-overlay1 modal-toggle2"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle2">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 vegi-cont">
+                        <h4>Vegetarisch
+                        </h4>
+                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" paleo-modal">
+            <div class="modal-overlay1 modal-toggle3"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle3">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 paleo-cont">
+                        <h4>Paleo
+                        </h4>
+                        <p>Diese Ernährungsform basiert ausschließlich auf Lebensmitteln, von denen man annimmt, dass sie in der Steinzeit zu finden waren. Dazu gehören vor allem Fleisch, Eier, Obst, Gemüse, Nüsse und Honig. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" keto-modal">
+            <div class="modal-overlay1 modal-toggle4"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle4">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 keto-cont">
+                        <h4>Keto
+                        </h4>
+                        <p>Diese Ernährungsweise ist sehr kohlenhydratarm und fettreich. Sie ähnelt in vielerlei Hinsicht anderen kohlenhydratarmen Ernährungsformen. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" fruit-modal">
+            <div class="modal-overlay1 modal-toggle5"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle5">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 fruit-cont">
+                        <h4>Fruitarian
+                        </h4>
+                        <p>Nur Obst. Diese Ernährungsform erweitert das Konzept der Veganer und achtet darauf, dass Pflanzen durch die Ernte nicht geschädigt werden. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" omni-modal">
+            <div class="modal-overlay1 modal-toggle6"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle6">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 omni-cont">
+                        <h4>Omnivore
+                        </h4>
+                        <p>Beinhaltet nahezu alle Lebensmittel pflanzlichen oder tierischen Ursprungs. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" flexi-modal">
+            <div class="modal-overlay1 modal-toggle7"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle7">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 flexi-cont">
+                        <h4>Flexitarian
+                        </h4>
+                        <p>Fleisch, Geflügel oder Fisch werden gelegentlich verzehrt, um den Nährstoffbedarf einer Person zu decken. Manche Flexitarier wählen diesen Ernährungsstil, weil ihnen das Tierwohl wichtig ist und sie einen maßvolleren Konsum tierischer Produkte erzielen möchten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="eng-modal">
+            <div class="modal-overlay1 modal-toggle8"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle8">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 flexi-cont">
+                        <h4>
+                            Leiten Sie Ihre Mitarbeitenden im Service entsprechend an
+                        </h4>
+                        <ul>
+                            <li>Binden Sie die Mitarbeitenden von Anfang an ein und erklären Sie, was Sie tun möchten und warum. </li>
+                            <li>Ihr Servicepersonal wird bei der Vermittlung Ihrer Philosophie von entscheidender Bedeutung sein und überzeugender sein, wenn es in Ihre Entscheidungen einbezogen wird.</li>
+                            <li>Beispiele für nachhaltige Menüs können ihr Verständnis fördern und sie ermutigen, Ideen einzubringen. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" redu-modal">
+            <div class="modal-overlay1 modal-toggle9"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle9">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4>
+                            Reduzieren Sie den Umfang Ihrer Speisekarte
+                        </h4>
+                        <p>Eine kleinere Speisekarte wird häufig mit hoher Qualität gleichgesetzt. Zudem bietet sich die Gelegenheit, mehr saisonale Produkte zu verwenden und weniger Lebensmittel zu verschwenden. Versuchen Sie, ausgewählte Zutaten auf ein Minimum zu beschränken, während Sie die Klassiker, die Ihre Gäste besonders schätzen, beibehalten. Konzentrieren Sie sich auf die 20 Prozent der Gerichte, die 80 ProzentIhres Umsatzes erzielen. Bieten Sie ein Gericht an, das sich täglich, monatlich oder saisonabhängig ändert.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    <script>
-        var x, i, j, l, ll, selElmnt, a, b, c;
-        /*look for any elements with the class "custom-select":*/
-        x = document.getElementsByClassName("custom-select");
-        l = x.length;
-        for (i = 0; i < l; i++) {
-            selElmnt = x[i].getElementsByTagName("select")[0];
-            ll = selElmnt.length;
-            /*for each element, create a new DIV that will act as the selected item:*/
-            a = document.createElement("DIV");
-            a.setAttribute("class", "select-selected");
-            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-            x[i].appendChild(a);
-            /*for each element, create a new DIV that will contain the option list:*/
-            b = document.createElement("DIV");
-            b.setAttribute("class", "select-items select-hide");
-            for (j = 1; j < ll; j++) {
-                /*for each option in the original select element,
-                create a new DIV that will act as an option item:*/
-                c = document.createElement("DIV");
-                c.innerHTML = selElmnt.options[j].innerHTML;
-                c.addEventListener("click", function(e) {
-                    /*when an item is clicked, update the original select box,
-                    and the selected item:*/
-                    var y, i, k, s, h, sl, yl;
-                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                    sl = s.length;
-                    h = this.parentNode.previousSibling;
-                    for (i = 0; i < sl; i++) {
-                        if (s.options[i].innerHTML == this.innerHTML) {
-                            s.selectedIndex = i;
-                            h.innerHTML = this.innerHTML;
-                            y = this.parentNode.getElementsByClassName("same-as-selected");
-                            yl = y.length;
-                            for (k = 0; k < yl; k++) {
-                                y[k].removeAttribute("class");
+        <div class=" set-modal">
+            <div class="modal-overlay1 modal-toggle13"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle13">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4>Setzen Sie auf Gemüse</h4>
+                        <ul>
+                            <li>Führen Sie (mehr) Gerichte ein, bei denen
+                                Gemüse die Hauptrolle spielt.</li>
+                            <li>Erhöhen Sie die Menge von unverarbeitetem
+                                Gemüse auf dem Teller im Vergleich zur Fleisch- oder Fischportion
+                                Bieten Sie mehr Speisen an, die komplett auf
+                                Gemüse basieren.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" ver-modal">
+            <div class="modal-overlay1 modal-toggle14"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle14">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4>Verwenden Sie nachhaltigen Fisch</h4>
+                        <ul>
+                            <li>Machen Sie Ihre Gäste mit weniger üblichen
+                                Fischarten bekannt, darunter auch solche, die
+                                normalerweise weggeworfen werden oder als
+                                Beifang gelten. </li>
+                            <li>Bieten Sie Fisch an, der aus
+                                verantwortungsbewusster Fischerei stammt,
+                                das heißt, der zertifiziert ist und <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank" style="color: white!important;">vollständig rückverfolgt</a> werden kann.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" exp-modal">
+            <div class="modal-overlay1 modal-toggle15"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle15">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4 class="nodeco12">
+                            <a href="https://www.metro.de/produktwelten/fleischloser-genuss" target="_blank" style="color: white !important;">
+                                Experimentieren Sie mit pflanzlichen
+                                Proteinen
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>Nutzen Sie (mehr) unverarbeitete
+                                pflanzliche Lebensmittel als
+                                Proteinlieferanten, etwa Linsen, Quinoa,
+                                Teff, Bohnen oder Algen. </li>
+                            <li>Verwenden Sie verschiedene Produkte auf
+                                pflanzlicher Basis als Proteinlieferanten,
+                                etwa Tofu oder Tempeh.</li>
+                            <li>Bieten Sie eine Vielfalt von Getreidesorten
+                                an.</li>
+                            <li>Nutzen Sie alte Getreidesorten wie Teff oder
+                                alte Sorten, die mit Ihrer Region verbunden
+                                sind.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" neh-modal">
+            <div class="modal-overlay1 modal-toggle16"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle16">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4>Nehmen Sie Abstand von
+                            stark verarbeiteten Zutaten</h4>
+                        <p>Seien Sie vorsichtig bei Zutaten, die in
+                            Anlehnung an traditionelle Lebensmittel
+                            hergestellt wurden. Diese sind oft stark
+                            verarbeitet, enthalten viel Zucker, Salz
+                            und Transfette und sind nicht besonders gesund</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" setsie-modal">
+            <div class="modal-overlay1 modal-toggle17"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle17">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 flexi-cont">
+                        <h4>Setzen Sie Speisen auf die Karte,
+                            die allen gerecht werden</h4>
+                        <p>Bieten Sie Speisen an, die auf unterschiedliche
+                            Ernährungsvorlieben eingehen, etwa auch
+                            vegane Gerichte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class=" intro-modal">
+            <div class="modal-overlay1 modal-toggle10"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle10">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <h4>
+                            Führen Sie kleinere Portionsgrößen als Option ein
+                        </h4>
+                        <p>Viele Gäste bemühen sich, weniger zu essen. Dies geschieht oftmals aus gesundheitlichen Gründen, kann aber auch eine attraktive Option für Gäste mit Kindern sein. Immer mehr Gastronominnen und Gastronomen stellen fest, dass Kinder am besten die gleichen Gerichte wie Erwachsene erhalten sollten, wenn auch in kleineren Portionen. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" source-modal">
+            <div class="modal-overlay1 modal-toggle11"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle11">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+                    <div class="modal-content1 flexi-cont">
+                        <h4>
+                            <a target="_blank" href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" style="color: white!important;">Beziehen Sie Ihre Produkte lokal, regional und saisonal</a>
+                        </h4>
+                        <p>Setzen Sie ein Zeichen mit einem verantwortungsbewussten Einkauf und verwenden Sie nur nachhaltigen Fisch und Lebensmittel, die biologisch, nährstoffreich, saisonal, fair hergestellt, lokal und regional sind. Achten Sie außerdem darauf, Lebensmittel einzukaufen, die die Artenvielfalt fördern und Abfälle vermeiden. Wenn Sie mehr darüber erfahren möchten, lesen Sie das Kapitel über einen <a href="introduction-to-responsible-sourcing-deu.php" style="color: white!important;">verantwortungsbewussten Einkauf</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" use-modal">
+            <div class="modal-overlay1 modal-toggle12"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <button class="modal-close1 modal-toggle12">
+                    <svg class="icon-close icon" viewBox="0 0 32 32">
+                        <use xlink:href="#icon-close">
+                            <g id="icon-close">
+                                <path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                            </g>
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-body1">
+
+                    <div class="modal-content1 flexi-cont">
+                        <div>
+                            <h4>
+                                Verwenden Sie weniger und dafür besseres Fleisch
+                            </h4>
+                            <p>Wenn die meisten Ihrer Gerichte Fleisch beinhalten, können Sie die Portionsgröße an Fleisch, Geflügel und Fisch reduzieren. Achten Sie zusätzlich beim Einkauf von tierischen Produkten auf eine nachhaltige Erzeugung. Sie können auch verschiedene, normalerweise nicht verwendete Fleischteile zu sogenannten <a href="https://www.mpulse.de/de/warenbewegen/nose-to-tail-vergessene-delikatessen-erobern-die-restaurants" target="_blank" style="color: white!important;">Nose-to-Tail-Gerichten</a> verarbeiten. </p>
+                            <div class="listing-use" id="more13">
+                                <ul>
+                                    <li>
+                                        <h5> Verwenden Sie nachhaltigen Fisch</h5>
+                                        <p>
+                                            Bieten Sie Fisch aus nachhaltiger Fischerei an. Achten Sie auf entsprechende Zertifizierungen und volle Rückverfolgbarkeit. Bieten Sie auch unbekannte Arten an, einschließlich solcher, die normalerweise entsorgt werden oder Beifang sind.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5> Feiern Sie den Geschmack von frischem Gemüse </h5>
+                                        <p>
+                                            Führen Sie (mehr) Gerichte ein, bei denen Gemüse die Hauptzutat oder die einzige Zutat ist und erhöhen Sie den Anteil von vollwertigem Gemüse eines Gerichts im Vergleich zum Fleisch- oder Fischanteil.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>
+                                            Experimentieren Sie mit pflanzlichen Proteinen
+                                        </h5>
+                                        <p>
+                                            Verwenden Sie (mehr) vollwertige pflanzliche Proteine, die in besonders hoher Konzentration in Linsen, Quinoa oder Bohnen vorkommen. Sie können auch verschiedene Arten von verarbeiteten pflanzlichen Proteinen einführen, z. B. Tofu und Tempeh.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5> Verwenden Sie unterschiedliche Getreidesorten</h5>
+                                        <p>
+                                            ProbierenSietraditionelle Getreidesorten beim Kochen und Backen aus oder solche, die in Ihrer Region besonders typisch sind.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5> Vermeiden Sie stark verarbeitete Zutaten </h5>
+                                        <p>
+                                            Achten Sie auf Nachahmungen traditioneller Zutaten. Diese sind oft stark verarbeitet, enthalten viel Zucker, Salz und Transfette und sind nicht besonders gesundheitsfördernd.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5> Führen Sie Gerichte ein, die für alle Ernährungsstile geeignet sind</h5>
+                                        <p>
+                                            Bieten Sie Gerichte an, die unterschiedlichen Ernährungsformen gerecht werden, wie z. B. auch vegane Optionen.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            var x, i, j, l, ll, selElmnt, a, b, c;
+            /*look for any elements with the class "custom-select":*/
+            x = document.getElementsByClassName("custom-select");
+            l = x.length;
+            for (i = 0; i < l; i++) {
+                selElmnt = x[i].getElementsByTagName("select")[0];
+                ll = selElmnt.length;
+                /*for each element, create a new DIV that will act as the selected item:*/
+                a = document.createElement("DIV");
+                a.setAttribute("class", "select-selected");
+                a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+                x[i].appendChild(a);
+                /*for each element, create a new DIV that will contain the option list:*/
+                b = document.createElement("DIV");
+                b.setAttribute("class", "select-items select-hide");
+                for (j = 1; j < ll; j++) {
+                    /*for each option in the original select element,
+                    create a new DIV that will act as an option item:*/
+                    c = document.createElement("DIV");
+                    c.innerHTML = selElmnt.options[j].innerHTML;
+                    c.addEventListener("click", function(e) {
+                        /*when an item is clicked, update the original select box,
+                        and the selected item:*/
+                        var y, i, k, s, h, sl, yl;
+                        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                        sl = s.length;
+                        h = this.parentNode.previousSibling;
+                        for (i = 0; i < sl; i++) {
+                            if (s.options[i].innerHTML == this.innerHTML) {
+                                s.selectedIndex = i;
+                                h.innerHTML = this.innerHTML;
+                                y = this.parentNode.getElementsByClassName("same-as-selected");
+                                yl = y.length;
+                                for (k = 0; k < yl; k++) {
+                                    y[k].removeAttribute("class");
+                                }
+                                this.setAttribute("class", "same-as-selected");
+                                break;
                             }
-                            this.setAttribute("class", "same-as-selected");
-                            break;
                         }
-                    }
-                    h.click();
+                        h.click();
+                    });
+                    b.appendChild(c);
+                }
+                x[i].appendChild(b);
+                a.addEventListener("click", function(e) {
+                    /*when the select box is clicked, close any other select boxes,
+                    and open/close the current select box:*/
+                    e.stopPropagation();
+                    closeAllSelect(this);
+                    this.nextSibling.classList.toggle("select-hide");
+                    this.classList.toggle("select-arrow-active");
                 });
-                b.appendChild(c);
             }
-            x[i].appendChild(b);
-            a.addEventListener("click", function(e) {
-                /*when the select box is clicked, close any other select boxes,
-                and open/close the current select box:*/
-                e.stopPropagation();
-                closeAllSelect(this);
-                this.nextSibling.classList.toggle("select-hide");
-                this.classList.toggle("select-arrow-active");
-            });
-        }
 
-        function closeAllSelect(elmnt) {
-            /*a function that will close all select boxes in the document,
-            except the current select box:*/
-            var x, y, i, xl, yl, arrNo = [];
-            x = document.getElementsByClassName("select-items");
-            y = document.getElementsByClassName("select-selected");
-            xl = x.length;
-            yl = y.length;
-            for (i = 0; i < yl; i++) {
-                if (elmnt == y[i]) {
-                    arrNo.push(i)
+            function closeAllSelect(elmnt) {
+                /*a function that will close all select boxes in the document,
+                except the current select box:*/
+                var x, y, i, xl, yl, arrNo = [];
+                x = document.getElementsByClassName("select-items");
+                y = document.getElementsByClassName("select-selected");
+                xl = x.length;
+                yl = y.length;
+                for (i = 0; i < yl; i++) {
+                    if (elmnt == y[i]) {
+                        arrNo.push(i)
+                    } else {
+                        y[i].classList.remove("select-arrow-active");
+                    }
+                }
+                for (i = 0; i < xl; i++) {
+                    if (arrNo.indexOf(i)) {
+                        x[i].classList.add("select-hide");
+                    }
+                }
+            }
+            /*if the user clicks anywhere outside the select box,
+            then close all select boxes:*/
+            document.addEventListener("click", closeAllSelect);
+
+
+
+            $('.slider').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                centerMode: true,
+                variableWidth: true,
+                infinite: true,
+                focusOnSelect: true,
+                cssEase: 'linear',
+                touchMove: true,
+                prevArrow: '<button class="slick-prev"> < </button>',
+                nextArrow: '<button class="slick-next"> > </button>',
+
+                //         responsive: [                        
+                //             {
+                //               breakpoint: 576,
+                //               settings: {
+                //                 centerMode: false,
+                //                 variableWidth: false,
+                //               }
+                //             },
+                //         ]
+            });
+
+
+
+            var imgs = $('.slider img');
+            imgs.each(function() {
+                var item = $(this).closest('.item');
+                item.css({
+                    'background-image': 'url(' + $(this).attr('src') + ')',
+                    'background-position': 'center',
+                    '-webkit-background-size': 'cover',
+                    'background-size': 'cover',
+                });
+                $(this).hide();
+            });
+
+            $('.slider2').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                centerMode: true,
+                variableWidth: true,
+                infinite: true,
+                focusOnSelect: true,
+                cssEase: 'linear',
+                touchMove: true,
+                prevArrow: '<button class="slick-prev"> < </button>',
+                nextArrow: '<button class="slick-next"> > </button>',
+
+                //         responsive: [                        
+                //             {
+                //               breakpoint: 576,
+                //               settings: {
+                //                 centerMode: false,
+                //                 variableWidth: false,
+                //               }
+                //             },
+                //         ]
+            });
+
+            var imgs = $('.slider2 img');
+            imgs.each(function() {
+                var item = $(this).closest('.item');
+                item.css({
+                    'background-image': 'url(' + $(this).attr('src') + ')',
+                    'background-position': 'center',
+                    '-webkit-background-size': 'cover',
+                    'background-size': 'cover',
+                });
+                $(this).hide();
+            });
+
+
+            /*readmorejs */
+
+            // function () {
+            //   var dots = document.getElementById("dots");
+            //   var moreText = document.getElementById("more");
+            //   var btnText = document.getElementById("myBtn");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText.innerHTML = "WEITERLESEN "; 
+            //     moreText.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText.innerHTML = "WENIGER"; 
+            //     moreText.style.display = "block";
+            //   }
+            // }
+
+            // function 13() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText13 = document.getElementById("more13");
+            //   var btnText13 = document.getElementById("myBtn13");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText13.innerHTML = "WEITERLESEN"; 
+            //     moreText13.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText13.innerHTML = "WENIGER"; 
+            //     moreText13.style.display = "block";
+            //   }
+            // }
+
+            // function 14() {
+            //   var dots14 = document.getElementById("dots14");
+            //   var moreText14 = document.getElementById("more14");
+            //   var btnText14 = document.getElementById("myBtn14");
+
+            //   if (dots14.style.display === "none") {
+            //     dots14.style.display = "block";
+            //     btnText14.innerHTML = "WEITERLESEN"; 
+            //     moreText14.style.display = "none";
+            //   } else {
+            //     dots14.style.display = "none";
+            //     btnText14.innerHTML = "LESE WENIGER"; 
+            //     moreText14.style.display = "block";
+            //   }
+            // }
+            // function 1() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText1 = document.getElementById("more1");
+            //   var btnText1 = document.getElementById("myBtn1");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText1.innerHTML = "WEITERLESEN"; 
+            //     moreText1.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText1.innerHTML = "LESE WENIGER"; 
+            //     moreText1.style.display = "block";
+            //   }
+            // }
+            // function 2() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText2 = document.getElementById("more2");
+            //   var btnText2 = document.getElementById("myBtn2");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText2.innerHTML = "WEITERLESEN"; 
+            //     moreText2.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText2.innerHTML = "LESE WENIGER"; 
+            //     moreText2.style.display = "block";
+            //   }
+            // }
+            // function 3() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText3 = document.getElementById("more3");
+            //   var btnText3 = document.getElementById("myBtn3");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText3.innerHTML = "WEITERLESEN"; 
+            //     moreText3.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText3.innerHTML = "LESE WENIGER"; 
+            //     moreText3.style.display = "block";
+            //   }
+            // }
+            // function 4() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText4 = document.getElementById("more4");
+            //   var btnText4 = document.getElementById("myBtn4");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText4.innerHTML = "WEITERLESEN"; 
+            //     moreText4.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText4.innerHTML = "LESE WENIGER"; 
+            //     moreText4.style.display = "block";
+            //   }
+            // }
+
+            // function 5() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText5 = document.getElementById("more5");
+            //   var btnText5 = document.getElementById("myBtn5");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText5.innerHTML = "WEITERLESEN"; 
+            //     moreText5.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText5.innerHTML = "LESE WENIGER"; 
+            //     moreText5.style.display = "inline";
+            //   }
+            // }
+            // function 6() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText6 = document.getElementById("more6");
+            //   var btnText6 = document.getElementById("myBtn6");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "block";
+            //     btnText6.innerHTML = "WEITERLESEN"; 
+            //     moreText6.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText6.innerHTML = "LESE WENIGER"; 
+            //     moreText6.style.display = "block";
+            //   }
+            // }
+            // function 7() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText7 = document.getElementById("more7");
+            //   var btnText7 = document.getElementById("myBtn7");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText7.innerHTML = "WEITERLESEN"; 
+            //     moreText7.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText7.innerHTML = "LESE WENIGER"; 
+            //     moreText7.style.display = "inline";
+            //   }
+            // }
+            // function 8() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText8 = document.getElementById("more8");
+            //   var btnText8 = document.getElementById("myBtn8");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText8.innerHTML = "WEITERLESEN"; 
+            //     moreText8.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText8.innerHTML = "LESE WENIGER"; 
+            //     moreText8.style.display = "inline";
+            //   }
+            // }
+            // function 9() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText9 = document.getElementById("more9");
+            //   var btnText9 = document.getElementById("myBtn9");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText9.innerHTML = "WEITERLESEN"; 
+            //     moreText9.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText9.innerHTML = "LESE WENIGER"; 
+            //     moreText9.style.display = "inline";
+            //   }
+            // }
+            // function 10() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText10 = document.getElementById("more10");
+            //   var btnText10 = document.getElementById("myBtn10");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText10.innerHTML = "WEITERLESEN"; 
+            //     moreText10.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText10.innerHTML = "LESE WENIGER"; 
+            //     moreText10.style.display = "inline";
+            //   }
+            // }
+            // function 11() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText11 = document.getElementById("more11");
+            //   var btnText11 = document.getElementById("myBtn11");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText11.innerHTML = "WEITERLESEN"; 
+            //     moreText11.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText11.innerHTML = "LESE WENIGER"; 
+            //     moreText11.style.display = "inline";
+            //   }
+            // }
+            // function 12() {
+            //   var dots = document.getElementById("dots");
+            //   var moreText12 = document.getElementById("more12");
+            //   var btnText12 = document.getElementById("myBtn12");
+
+            //   if (dots.style.display === "none") {
+            //     dots.style.display = "inline";
+            //     btnText12.innerHTML = "WEITERLESEN"; 
+            //     moreText12.style.display = "none";
+            //   } else {
+            //     dots.style.display = "none";
+            //     btnText12.innerHTML = "LESE WENIGER"; 
+            //     moreText12.style.display = "inline";
+            //   }
+            // }
+
+            let collapsibleHeaders = document.getElementsByClassName('collapsible__header');
+
+            Array.from(collapsibleHeaders).forEach(header => {
+                header.addEventListener('click', () => {
+                    header.parentElement.classList.toggle('collapsible--open');
+                });
+            });
+
+            // Quick & dirty toggle to demonstrate modal toggle behavior
+            $('.modal-toggle1').on('click', function(e) {
+                e.preventDefault();
+                $('.vegan-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle2').on('click', function(e) {
+                e.preventDefault();
+                $('.vegi-modal').toggleClass('is-visible');
+            });
+
+            $('.modal-toggle3').on('click', function(e) {
+                e.preventDefault();
+                $('.paleo-modal').toggleClass('is-visible');
+            });
+            $(' .modal-toggle4').on('click', function(e) {
+                e.preventDefault();
+                $('.keto-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle5').on('click', function(e) {
+                e.preventDefault();
+                $('.fruit-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle6').on('click', function(e) {
+                e.preventDefault();
+                $('.omni-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle7').on('click', function(e) {
+                e.preventDefault();
+                $('.flexi-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle8').on('click', function(e) {
+                e.preventDefault();
+                $('.eng-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle9').on('click', function(e) {
+                e.preventDefault();
+                $('.redu-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle10').on('click', function(e) {
+                e.preventDefault();
+                $('.intro-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle11').on('click', function(e) {
+                e.preventDefault();
+                $('.source-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle12').on('click', function(e) {
+                e.preventDefault();
+                $('.use-modal').toggleClass('is-visible');
+            });
+
+            $('.modal-toggle13').on('click', function(e) {
+                e.preventDefault();
+                $('.set-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle14').on('click', function(e) {
+                e.preventDefault();
+                $('.ver-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle15').on('click', function(e) {
+                e.preventDefault();
+                $('.exp-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle16').on('click', function(e) {
+                e.preventDefault();
+                $('.neh-modal').toggleClass('is-visible');
+            });
+            $('.modal-toggle17').on('click', function(e) {
+                e.preventDefault();
+                $('.setsie-modal').toggleClass('is-visible');
+            });
+
+
+            $(document).on('click', '.read-more-btn, .read-text', function() {
+                var $el = $(this),
+                    $el_wrap = $el.closest('.more-text'),
+                    $content = $el_wrap.find('[id^="more"]'),
+                    target = $el.attr('target');
+                if (target != null) {
+                    $content = $(target);
+                }
+                if ($content.hasClass('active')) {
+                    $content.slideUp().removeClass('active');
+                    $el.html('WEITERLESEN').removeClass('btn-active');
                 } else {
-                    y[i].classList.remove("select-arrow-active");
+                    $content.slideDown().addClass('active');
+                    $el.html('Weniger').addClass('btn-active');
                 }
-            }
-            for (i = 0; i < xl; i++) {
-                if (arrNo.indexOf(i)) {
-                    x[i].classList.add("select-hide");
-                }
-            }
-        }
-        /*if the user clicks anywhere outside the select box,
-        then close all select boxes:*/
-        document.addEventListener("click", closeAllSelect);
-
-
-
-        $('.slider').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            arrows: true,
-            dots: false,
-            centerMode: true,
-            variableWidth: true,
-            infinite: true,
-            focusOnSelect: true,
-            cssEase: 'linear',
-            touchMove: true,
-            prevArrow: '<button class="slick-prev"> < </button>',
-            nextArrow: '<button class="slick-next"> > </button>',
-
-            //         responsive: [                        
-            //             {
-            //               breakpoint: 576,
-            //               settings: {
-            //                 centerMode: false,
-            //                 variableWidth: false,
-            //               }
-            //             },
-            //         ]
-        });
-
-
-
-        var imgs = $('.slider img');
-        imgs.each(function() {
-            var item = $(this).closest('.item');
-            item.css({
-                'background-image': 'url(' + $(this).attr('src') + ')',
-                'background-position': 'center',
-                '-webkit-background-size': 'cover',
-                'background-size': 'cover',
             });
-            $(this).hide();
-        });
+        </script>
 
-        $('.slider2').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows: true,
-            dots: false,
-            centerMode: true,
-            variableWidth: true,
-            infinite: true,
-            focusOnSelect: true,
-            cssEase: 'linear',
-            touchMove: true,
-            prevArrow: '<button class="slick-prev"> < </button>',
-            nextArrow: '<button class="slick-next"> > </button>',
+        <div class="modal1">
+            <div class="modal-overlay1 modal-toggle1"></div>
+            <div class="modal-wrapper1 modal-transition1">
+                <div class="modal-header1">
+                    <button class="modal-close1 modal-toggle1"><svg class="icon-close icon" viewBox="0 0 32 32">
+                            <use xlink:href="#icon-close"></use>
+                        </svg></button>
+                    <h2 class="modal-heading1">Dies ist ein Modal</h2>
+                </div>
 
-            //         responsive: [                        
-            //             {
-            //               breakpoint: 576,
-            //               settings: {
-            //                 centerMode: false,
-            //                 variableWidth: false,
-            //               }
-            //             },
-            //         ]
-        });
-
-        var imgs = $('.slider2 img');
-        imgs.each(function() {
-            var item = $(this).closest('.item');
-            item.css({
-                'background-image': 'url(' + $(this).attr('src') + ')',
-                'background-position': 'center',
-                '-webkit-background-size': 'cover',
-                'background-size': 'cover',
-            });
-            $(this).hide();
-        });
-
-
-        /*readmorejs */
-
-        // function () {
-        //   var dots = document.getElementById("dots");
-        //   var moreText = document.getElementById("more");
-        //   var btnText = document.getElementById("myBtn");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText.innerHTML = "WEITERLESEN "; 
-        //     moreText.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText.innerHTML = "WENIGER"; 
-        //     moreText.style.display = "block";
-        //   }
-        // }
-
-        // function 13() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText13 = document.getElementById("more13");
-        //   var btnText13 = document.getElementById("myBtn13");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText13.innerHTML = "WEITERLESEN"; 
-        //     moreText13.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText13.innerHTML = "WENIGER"; 
-        //     moreText13.style.display = "block";
-        //   }
-        // }
-
-        // function 14() {
-        //   var dots14 = document.getElementById("dots14");
-        //   var moreText14 = document.getElementById("more14");
-        //   var btnText14 = document.getElementById("myBtn14");
-
-        //   if (dots14.style.display === "none") {
-        //     dots14.style.display = "block";
-        //     btnText14.innerHTML = "WEITERLESEN"; 
-        //     moreText14.style.display = "none";
-        //   } else {
-        //     dots14.style.display = "none";
-        //     btnText14.innerHTML = "LESE WENIGER"; 
-        //     moreText14.style.display = "block";
-        //   }
-        // }
-        // function 1() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText1 = document.getElementById("more1");
-        //   var btnText1 = document.getElementById("myBtn1");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText1.innerHTML = "WEITERLESEN"; 
-        //     moreText1.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText1.innerHTML = "LESE WENIGER"; 
-        //     moreText1.style.display = "block";
-        //   }
-        // }
-        // function 2() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText2 = document.getElementById("more2");
-        //   var btnText2 = document.getElementById("myBtn2");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText2.innerHTML = "WEITERLESEN"; 
-        //     moreText2.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText2.innerHTML = "LESE WENIGER"; 
-        //     moreText2.style.display = "block";
-        //   }
-        // }
-        // function 3() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText3 = document.getElementById("more3");
-        //   var btnText3 = document.getElementById("myBtn3");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText3.innerHTML = "WEITERLESEN"; 
-        //     moreText3.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText3.innerHTML = "LESE WENIGER"; 
-        //     moreText3.style.display = "block";
-        //   }
-        // }
-        // function 4() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText4 = document.getElementById("more4");
-        //   var btnText4 = document.getElementById("myBtn4");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText4.innerHTML = "WEITERLESEN"; 
-        //     moreText4.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText4.innerHTML = "LESE WENIGER"; 
-        //     moreText4.style.display = "block";
-        //   }
-        // }
-
-        // function 5() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText5 = document.getElementById("more5");
-        //   var btnText5 = document.getElementById("myBtn5");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText5.innerHTML = "WEITERLESEN"; 
-        //     moreText5.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText5.innerHTML = "LESE WENIGER"; 
-        //     moreText5.style.display = "inline";
-        //   }
-        // }
-        // function 6() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText6 = document.getElementById("more6");
-        //   var btnText6 = document.getElementById("myBtn6");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "block";
-        //     btnText6.innerHTML = "WEITERLESEN"; 
-        //     moreText6.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText6.innerHTML = "LESE WENIGER"; 
-        //     moreText6.style.display = "block";
-        //   }
-        // }
-        // function 7() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText7 = document.getElementById("more7");
-        //   var btnText7 = document.getElementById("myBtn7");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText7.innerHTML = "WEITERLESEN"; 
-        //     moreText7.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText7.innerHTML = "LESE WENIGER"; 
-        //     moreText7.style.display = "inline";
-        //   }
-        // }
-        // function 8() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText8 = document.getElementById("more8");
-        //   var btnText8 = document.getElementById("myBtn8");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText8.innerHTML = "WEITERLESEN"; 
-        //     moreText8.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText8.innerHTML = "LESE WENIGER"; 
-        //     moreText8.style.display = "inline";
-        //   }
-        // }
-        // function 9() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText9 = document.getElementById("more9");
-        //   var btnText9 = document.getElementById("myBtn9");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText9.innerHTML = "WEITERLESEN"; 
-        //     moreText9.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText9.innerHTML = "LESE WENIGER"; 
-        //     moreText9.style.display = "inline";
-        //   }
-        // }
-        // function 10() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText10 = document.getElementById("more10");
-        //   var btnText10 = document.getElementById("myBtn10");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText10.innerHTML = "WEITERLESEN"; 
-        //     moreText10.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText10.innerHTML = "LESE WENIGER"; 
-        //     moreText10.style.display = "inline";
-        //   }
-        // }
-        // function 11() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText11 = document.getElementById("more11");
-        //   var btnText11 = document.getElementById("myBtn11");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText11.innerHTML = "WEITERLESEN"; 
-        //     moreText11.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText11.innerHTML = "LESE WENIGER"; 
-        //     moreText11.style.display = "inline";
-        //   }
-        // }
-        // function 12() {
-        //   var dots = document.getElementById("dots");
-        //   var moreText12 = document.getElementById("more12");
-        //   var btnText12 = document.getElementById("myBtn12");
-
-        //   if (dots.style.display === "none") {
-        //     dots.style.display = "inline";
-        //     btnText12.innerHTML = "WEITERLESEN"; 
-        //     moreText12.style.display = "none";
-        //   } else {
-        //     dots.style.display = "none";
-        //     btnText12.innerHTML = "LESE WENIGER"; 
-        //     moreText12.style.display = "inline";
-        //   }
-        // }
-
-        let collapsibleHeaders = document.getElementsByClassName('collapsible__header');
-
-        Array.from(collapsibleHeaders).forEach(header => {
-            header.addEventListener('click', () => {
-                header.parentElement.classList.toggle('collapsible--open');
-            });
-        });
-
-        // Quick & dirty toggle to demonstrate modal toggle behavior
-        $('.modal-toggle1').on('click', function(e) {
-            e.preventDefault();
-            $('.vegan-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle2').on('click', function(e) {
-            e.preventDefault();
-            $('.vegi-modal').toggleClass('is-visible');
-        });
-
-        $('.modal-toggle3').on('click', function(e) {
-            e.preventDefault();
-            $('.paleo-modal').toggleClass('is-visible');
-        });
-        $(' .modal-toggle4').on('click', function(e) {
-            e.preventDefault();
-            $('.keto-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle5').on('click', function(e) {
-            e.preventDefault();
-            $('.fruit-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle6').on('click', function(e) {
-            e.preventDefault();
-            $('.omni-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle7').on('click', function(e) {
-            e.preventDefault();
-            $('.flexi-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle8').on('click', function(e) {
-            e.preventDefault();
-            $('.eng-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle9').on('click', function(e) {
-            e.preventDefault();
-            $('.redu-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle10').on('click', function(e) {
-            e.preventDefault();
-            $('.intro-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle11').on('click', function(e) {
-            e.preventDefault();
-            $('.source-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle12').on('click', function(e) {
-            e.preventDefault();
-            $('.use-modal').toggleClass('is-visible');
-        });
-
-        $('.modal-toggle13').on('click', function(e) {
-            e.preventDefault();
-            $('.set-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle14').on('click', function(e) {
-            e.preventDefault();
-            $('.ver-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle15').on('click', function(e) {
-            e.preventDefault();
-            $('.exp-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle16').on('click', function(e) {
-            e.preventDefault();
-            $('.neh-modal').toggleClass('is-visible');
-        });
-        $('.modal-toggle17').on('click', function(e) {
-            e.preventDefault();
-            $('.setsie-modal').toggleClass('is-visible');
-        });
-
-
-        $(document).on('click', '.read-more-btn, .read-text', function() {
-            var $el = $(this),
-                $el_wrap = $el.closest('.more-text'),
-                $content = $el_wrap.find('[id^="more"]'),
-                target = $el.attr('target');
-            if (target != null) {
-                $content = $(target);
-            }
-            if ($content.hasClass('active')) {
-                $content.slideUp().removeClass('active');
-                $el.html('WEITERLESEN').removeClass('btn-active');
-            } else {
-                $content.slideDown().addClass('active');
-                $el.html('Weniger').addClass('btn-active');
-            }
-        });
-    </script>
-
-    <div class="modal1">
-        <div class="modal-overlay1 modal-toggle1"></div>
-        <div class="modal-wrapper1 modal-transition1">
-            <div class="modal-header1">
-                <button class="modal-close1 modal-toggle1"><svg class="icon-close icon" viewBox="0 0 32 32">
-                        <use xlink:href="#icon-close"></use>
-                    </svg></button>
-                <h2 class="modal-heading1">Dies ist ein Modal</h2>
-            </div>
-
-            <div class="modal-body1">
-                <div class="modal-content1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eum delectus, libero, accusantium dolores Inventore obcaecati placeat cum sapiente vel laboriosam similique totam id ducimus aperiam, ratione fuga blanditiis maiores.</p>
-                    <button class="modal-toggle1">Aktualisieren</button>
+                <div class="modal-body1">
+                    <div class="modal-content1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eum delectus, libero, accusantium dolores Inventore obcaecati placeat cum sapiente vel laboriosam similique totam id ducimus aperiam, ratione fuga blanditiis maiores.</p>
+                        <button class="modal-toggle1">Aktualisieren</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="jquery/page1.js"></script>
+        <script src="jquery/page1.js"></script>
 
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
 
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 
 

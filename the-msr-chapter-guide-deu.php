@@ -75,8 +75,8 @@
 				</div>
 				<div class="custom__select top-mar-less">
 					<select>
-						<option value="the-msr-chapter-guide-deu.php" selected>DEU</option>
-						<option value="the-msr-chapter-guide-eng.php">ENG</option>
+						<option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+						<option value="introduction-to-food-waste-eng.php">ENG</option>
 					</select>
 				</div>
 				<nav>
@@ -120,6 +120,9 @@
 							</li>
 						</div>
 						<li>
+							<a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+						</li>
+						<li>
 							<a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
 						</li>
 					</ul>
@@ -151,17 +154,17 @@
 					<div class="footer-socials side_nav">
 						<ul>
 							<li>
-								<a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+								<a href="https://www.facebook.com/metro.deutschland" target="_blank">
 									<i class="fa fa-facebook"></i>
 								</a>
 							</li>
 							<li>
-								<a href="https://www.metroag.de/youtube" target="_blank">
+								<a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
 									<i class="fa fa-youtube-play"></i>
 								</a>
 							</li>
 							<li>
-								<a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+								<a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
 									<i class="fa fa-instagram"></i>
 								</a>
 							</li>
@@ -472,24 +475,17 @@ height: 7rem;" href="#" id="water_id"></a>
 			<div class="fotter-right-top">
 				<div class="footer-links link2">
 					<ul>
-
-
-						<li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-
-						<li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-
-						<li><a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-
-						<li><a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-
+						<li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+						<li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+						<li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+						<li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
 					</ul>
-
 				</div>
 				<div class="footer-socials">
 					<ul>
-						<li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
 					</ul>
@@ -498,104 +494,102 @@ height: 7rem;" href="#" id="water_id"></a>
 			</div>
 
 		</div>
-
-	</div>
-	<script>
-		document.getElementById("car_parking").addEventListener("click", function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		document.getElementById('safe_food_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-		document.getElementById('energy_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-		document.getElementById('waste_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		document.getElementById('plastic_waste_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		document.getElementById('food_waste_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		document.getElementById('Sustainable_Menu_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		document.getElementById('water_id').addEventListener('click', function() {
-			var subhead = $(this).attr('data-subhead');
-			var content = $(this).attr('data-content');
-			var cta = $(this).attr('data-cta');
-			openModel1(subhead, content, cta);
-		})
-
-		function social_popup() {
-			var subhead = $('#social_id').attr('data-subhead');
-			var content = $('#social_id').attr('data-content');
-			var cta = $('#social_id').attr('data-cta');
-			openModel1(subhead, content, cta);
-		}
-
-		function nextModal() {
-
-			openModal2();
-			$('.submit_form').click(function(e) {
-				e.preventDefault();
-				$('.thanks_message').remove();
-				$('.form-div').append('<div class="thanks_message">Thank you for submitting!!</div>');
-				setTimeout(function() {
-					$('#myModal2').hide();
-				}, 5000);
+		<script>
+			document.getElementById("car_parking").addEventListener("click", function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
 			})
-			//openModelmessage();
-			var modal11 = document.getElementById("myModal");
-			modal11.style.display = "none";
-		}
 
-		function openModel1(sub, cont, cta) {
-			var modal = document.getElementById("myModal");
-			$('#myModal').find('h2').empty();
-			$('#myModal').find('p').empty();
-			$('#myModal').find('.modal-cta').empty();
-			$('#myModal').find('h2').text(sub);
-			$('#myModal').find('p').html(cont);
-			$('#myModal').find('.modal-cta').text(cta);
-			modal.style.display = "block";
+			document.getElementById('safe_food_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+			document.getElementById('energy_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+			document.getElementById('waste_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
 
-			window.onclick = function(event) {
-				if (event.target == modal) {
-					modal.style.display = "none";
+			document.getElementById('plastic_waste_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+
+			document.getElementById('food_waste_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+
+			document.getElementById('Sustainable_Menu_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+
+			document.getElementById('water_id').addEventListener('click', function() {
+				var subhead = $(this).attr('data-subhead');
+				var content = $(this).attr('data-content');
+				var cta = $(this).attr('data-cta');
+				openModel1(subhead, content, cta);
+			})
+
+			function social_popup() {
+				var subhead = $('#social_id').attr('data-subhead');
+				var content = $('#social_id').attr('data-content');
+				var cta = $('#social_id').attr('data-cta');
+				openModel1(subhead, content, cta);
+			}
+
+			function nextModal() {
+
+				openModal2();
+				$('.submit_form').click(function(e) {
+					e.preventDefault();
+					$('.thanks_message').remove();
+					$('.form-div').append('<div class="thanks_message">Thank you for submitting!!</div>');
+					setTimeout(function() {
+						$('#myModal2').hide();
+					}, 5000);
+				})
+				//openModelmessage();
+				var modal11 = document.getElementById("myModal");
+				modal11.style.display = "none";
+			}
+
+			function openModel1(sub, cont, cta) {
+				var modal = document.getElementById("myModal");
+				$('#myModal').find('h2').empty();
+				$('#myModal').find('p').empty();
+				$('#myModal').find('.modal-cta').empty();
+				$('#myModal').find('h2').text(sub);
+				$('#myModal').find('p').html(cont);
+				$('#myModal').find('.modal-cta').text(cta);
+				modal.style.display = "block";
+
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
 				}
 			}
-		}
 
-		/* function openModelmessage() {
+			/* function openModelmessage() {
 			var modal = document.getElementById("openModelmessage");
 modal.style.display = "block";
 			window.onclick = function (event) {
@@ -607,148 +601,148 @@ modal.style.display = "block";
 				})
 			}
 		} */
-		function openModal2() {
-			$('.thanks_message').remove();
-			var modal = document.getElementById("myModal");
-			modal.style.display = "none";
-			// Get the modal
-			var modal2 = document.getElementById("myModal2");
-			modal2.style.display = "block";
-			window.onclick = function(event) {
-				if (event.target == modal2) {
-					modal2.style.display = "none";
-				}
-			}
-		}
-		window.onload = function() {
-			setTimeout(function() {
-				$('g.hidden').removeClass('hidden');
-			}, 2500);
-		};
-	</script>
-	<script>
-		var x, i, j, l, ll, selElmnt, a, b, c;
-		/*look for any elements with the class "custom-select":*/
-		x = document.getElementsByClassName("custom-select");
-		l = x.length;
-		for (i = 0; i < l; i++) {
-			selElmnt = x[i].getElementsByTagName("select")[0];
-			ll = selElmnt.length;
-			/*for each element, create a new DIV that will act as the selected item:*/
-			a = document.createElement("DIV");
-			a.setAttribute("class", "select-selected");
-			a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-			x[i].appendChild(a);
-			/*for each element, create a new DIV that will contain the option list:*/
-			b = document.createElement("DIV");
-			b.setAttribute("class", "select-items select-hide");
-			for (j = 1; j < ll; j++) {
-				/*for each option in the original select element,
-				create a new DIV that will act as an option item:*/
-				c = document.createElement("DIV");
-				c.innerHTML = selElmnt.options[j].innerHTML;
-				c.addEventListener("click", function(e) {
-					/*when an item is clicked, update the original select box,
-					and the selected item:*/
-					var y, i, k, s, h, sl, yl;
-					s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-					sl = s.length;
-					h = this.parentNode.previousSibling;
-					for (i = 0; i < sl; i++) {
-						if (s.options[i].innerHTML == this.innerHTML) {
-							s.selectedIndex = i;
-							h.innerHTML = this.innerHTML;
-							y = this.parentNode.getElementsByClassName("same-as-selected");
-							yl = y.length;
-							for (k = 0; k < yl; k++) {
-								y[k].removeAttribute("class");
-							}
-							this.setAttribute("class", "same-as-selected");
-							break;
-						}
+			function openModal2() {
+				$('.thanks_message').remove();
+				var modal = document.getElementById("myModal");
+				modal.style.display = "none";
+				// Get the modal
+				var modal2 = document.getElementById("myModal2");
+				modal2.style.display = "block";
+				window.onclick = function(event) {
+					if (event.target == modal2) {
+						modal2.style.display = "none";
 					}
-					h.click();
+				}
+			}
+			window.onload = function() {
+				setTimeout(function() {
+					$('g.hidden').removeClass('hidden');
+				}, 2500);
+			};
+		</script>
+		<script>
+			var x, i, j, l, ll, selElmnt, a, b, c;
+			/*look for any elements with the class "custom-select":*/
+			x = document.getElementsByClassName("custom-select");
+			l = x.length;
+			for (i = 0; i < l; i++) {
+				selElmnt = x[i].getElementsByTagName("select")[0];
+				ll = selElmnt.length;
+				/*for each element, create a new DIV that will act as the selected item:*/
+				a = document.createElement("DIV");
+				a.setAttribute("class", "select-selected");
+				a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+				x[i].appendChild(a);
+				/*for each element, create a new DIV that will contain the option list:*/
+				b = document.createElement("DIV");
+				b.setAttribute("class", "select-items select-hide");
+				for (j = 1; j < ll; j++) {
+					/*for each option in the original select element,
+					create a new DIV that will act as an option item:*/
+					c = document.createElement("DIV");
+					c.innerHTML = selElmnt.options[j].innerHTML;
+					c.addEventListener("click", function(e) {
+						/*when an item is clicked, update the original select box,
+						and the selected item:*/
+						var y, i, k, s, h, sl, yl;
+						s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+						sl = s.length;
+						h = this.parentNode.previousSibling;
+						for (i = 0; i < sl; i++) {
+							if (s.options[i].innerHTML == this.innerHTML) {
+								s.selectedIndex = i;
+								h.innerHTML = this.innerHTML;
+								y = this.parentNode.getElementsByClassName("same-as-selected");
+								yl = y.length;
+								for (k = 0; k < yl; k++) {
+									y[k].removeAttribute("class");
+								}
+								this.setAttribute("class", "same-as-selected");
+								break;
+							}
+						}
+						h.click();
+					});
+					b.appendChild(c);
+				}
+				x[i].appendChild(b);
+				a.addEventListener("click", function(e) {
+					/*when the select box is clicked, close any other select boxes,
+					and open/close the current select box:*/
+					e.stopPropagation();
+					closeAllSelect(this);
+					this.nextSibling.classList.toggle("select-hide");
+					this.classList.toggle("select-arrow-active");
 				});
-				b.appendChild(c);
 			}
-			x[i].appendChild(b);
-			a.addEventListener("click", function(e) {
-				/*when the select box is clicked, close any other select boxes,
-				and open/close the current select box:*/
-				e.stopPropagation();
-				closeAllSelect(this);
-				this.nextSibling.classList.toggle("select-hide");
-				this.classList.toggle("select-arrow-active");
-			});
-		}
 
-		function closeAllSelect(elmnt) {
-			/*a function that will close all select boxes in the document,
-			except the current select box:*/
-			var x, y, i, xl, yl, arrNo = [];
-			x = document.getElementsByClassName("select-items");
-			y = document.getElementsByClassName("select-selected");
-			xl = x.length;
-			yl = y.length;
-			for (i = 0; i < yl; i++) {
-				if (elmnt == y[i]) {
-					arrNo.push(i)
+			function closeAllSelect(elmnt) {
+				/*a function that will close all select boxes in the document,
+				except the current select box:*/
+				var x, y, i, xl, yl, arrNo = [];
+				x = document.getElementsByClassName("select-items");
+				y = document.getElementsByClassName("select-selected");
+				xl = x.length;
+				yl = y.length;
+				for (i = 0; i < yl; i++) {
+					if (elmnt == y[i]) {
+						arrNo.push(i)
+					} else {
+						y[i].classList.remove("select-arrow-active");
+					}
+				}
+				for (i = 0; i < xl; i++) {
+					if (arrNo.indexOf(i)) {
+						x[i].classList.add("select-hide");
+					}
+				}
+			}
+			/*if the user clicks anywhere outside the select box,
+			then close all select boxes:*/
+			document.addEventListener("click", closeAllSelect);
+		</script>
+		<script src="jquery/page1.js"></script>
+
+		<script>
+			document.onreadystatechange = function() {
+				if (document.readyState !== "complete") {
+					document.querySelector(
+						"body").style.visibility = "hidden";
+					document.querySelector(
+						"#loader-page2").style.visibility = "visible";
 				} else {
-					y[i].classList.remove("select-arrow-active");
+					document.querySelector(
+						"#loader-page2").style.display = "none";
+					document.querySelector(
+						"body").style.visibility = "visible";
 				}
-			}
-			for (i = 0; i < xl; i++) {
-				if (arrNo.indexOf(i)) {
-					x[i].classList.add("select-hide");
+			};
+		</script>
+
+
+
+		<script>
+			$(document).ready(function(e) {
+				$('img[usemap]').rwdImageMaps();
+			});
+		</script>
+		<script>
+			document.onreadystatechange = function() {
+				if (document.readyState !== "complete") {
+					document.querySelector(
+						"body").style.visibility = "hidden";
+					document.querySelector(
+						"#loader-page2").style.visibility = "visible";
+				} else {
+					document.querySelector(
+						"#loader-page2").style.display = "none";
+					document.querySelector(
+						"body").style.visibility = "visible";
 				}
-			}
-		}
-		/*if the user clicks anywhere outside the select box,
-		then close all select boxes:*/
-		document.addEventListener("click", closeAllSelect);
-	</script>
-	<script src="jquery/page1.js"></script>
+			};
+		</script>
 
-	<script>
-		document.onreadystatechange = function() {
-			if (document.readyState !== "complete") {
-				document.querySelector(
-					"body").style.visibility = "hidden";
-				document.querySelector(
-					"#loader-page2").style.visibility = "visible";
-			} else {
-				document.querySelector(
-					"#loader-page2").style.display = "none";
-				document.querySelector(
-					"body").style.visibility = "visible";
-			}
-		};
-	</script>
-
-
-
-	<script>
-		$(document).ready(function(e) {
-			$('img[usemap]').rwdImageMaps();
-		});
-	</script>
-	<script>
-		document.onreadystatechange = function() {
-			if (document.readyState !== "complete") {
-				document.querySelector(
-					"body").style.visibility = "hidden";
-				document.querySelector(
-					"#loader-page2").style.visibility = "visible";
-			} else {
-				document.querySelector(
-					"#loader-page2").style.display = "none";
-				document.querySelector(
-					"body").style.visibility = "visible";
-			}
-		};
-	</script>
-
-	<script type="text/javascript" src="./assets/js/common.js"></script>
+		<script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

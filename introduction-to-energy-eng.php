@@ -292,7 +292,7 @@
 
     <section class="section4 padr-60px no-print">
         <div class="left-content noalign col-md-6">
-            <h3>KNOW HOW –<br>STEPS HOW TO REDUCE<br>ENERGY CONSUMPTION</h3>
+            <h3>KNOW HOW – STEPS TO<br>REDUCE ENERGY CONSUMPTION</h3>
 
             <ul>
                 <li> Analyse your consumption and hunt for sources of energy wastage,

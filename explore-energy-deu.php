@@ -181,8 +181,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-energy-deu.php" selected>DEU</option>
-                        <option value="explore-energy-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -226,6 +226,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -257,17 +260,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -984,18 +987,11 @@
                 </div>
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-
-                        <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-
-                        <li><a href="use-https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-
-                        <li><a href="contact-https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-links link3">
                     <ul>
@@ -1026,24 +1022,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -1053,92 +1042,90 @@
 
         </div>
 
-    </div>
 
 
 
 
 
-
-    <div id="pop1" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-            <h4>Schalten Sie nicht benötigte Lichter und elektrische Geräte aus</h4>
-            <p>Sparen Sie Energie, indem Sie unnötige Lichter und elektrische Geräte ausschalten. Stellen Sie beispielsweise den Herd oder die Fritteuse bei Nichtnutzung aus und beginnen Sie erst dann mit dem Vorheizen, wenn Sie die Geräte benötigen. Auch Ihr Kassensystem und Ihre Computer sollten ausgeschaltet werden, wenn diese an Ruhetagen oder nachts nicht verwendet werden.</p>
+        <div id="pop1" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+                <h4>Schalten Sie nicht benötigte Lichter und elektrische Geräte aus</h4>
+                <p>Sparen Sie Energie, indem Sie unnötige Lichter und elektrische Geräte ausschalten. Stellen Sie beispielsweise den Herd oder die Fritteuse bei Nichtnutzung aus und beginnen Sie erst dann mit dem Vorheizen, wenn Sie die Geräte benötigen. Auch Ihr Kassensystem und Ihre Computer sollten ausgeschaltet werden, wenn diese an Ruhetagen oder nachts nicht verwendet werden.</p>
+            </div>
         </div>
-    </div>
-    <div id="pop2" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-            <h4>Legen Sie einen Ausgangspunkt fest und erstellen Sie einen konkreten Aktionsplan</h4>
-            <p>Bestimmen Sie einen Startpunkt, von dem aus Sie Verbesserungen vornehmen können. Dabei kann ein Rückblick auf Ihre Erfolge eine große Motivation sein! Erstellen Sie einen Maßnahmenplan mit realistischen Zielen für die Einsparung von Energie.</p>
+        <div id="pop2" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+                <h4>Legen Sie einen Ausgangspunkt fest und erstellen Sie einen konkreten Aktionsplan</h4>
+                <p>Bestimmen Sie einen Startpunkt, von dem aus Sie Verbesserungen vornehmen können. Dabei kann ein Rückblick auf Ihre Erfolge eine große Motivation sein! Erstellen Sie einen Maßnahmenplan mit realistischen Zielen für die Einsparung von Energie.</p>
+            </div>
         </div>
-    </div>
-    <div id="pop3" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-            <h4>Setzen Sie sich mit Ihrem Energieversorger in Kontakt</h4>
-            <p>Wenden Sie sich an Ihren Energieversorger, um herauszufinden, wie viel Energie Sie monatlich verbrauchen. Prüfen Sie, zu welchem Zeitpunkt der höchste Verbrauch erreicht wird und werfen Sie einen Blick auf Ihre Rechnungen, um eine Vorstellung von den Kosten zu bekommen. Sie können auch einen Tracker einsetzen, um zu sehen, wie viel Energie Sie benötigen.</p>
+        <div id="pop3" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+                <h4>Setzen Sie sich mit Ihrem Energieversorger in Kontakt</h4>
+                <p>Wenden Sie sich an Ihren Energieversorger, um herauszufinden, wie viel Energie Sie monatlich verbrauchen. Prüfen Sie, zu welchem Zeitpunkt der höchste Verbrauch erreicht wird und werfen Sie einen Blick auf Ihre Rechnungen, um eine Vorstellung von den Kosten zu bekommen. Sie können auch einen Tracker einsetzen, um zu sehen, wie viel Energie Sie benötigen.</p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop4" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
-            <h4>Achten Sie auf Ihre Kühlgeräte</h4>
-            <p>Es ist wichtig zu wissen, wie Ihre Kühlgeräte funktionieren. Beispielsweise sollten Sie darauf achten, wie viel Eis Sie maximal einfüllen können, damit die Belüftung nicht überlastet wird. Wenn der Luftstrom unterbrochen wird, verbraucht das Gerät mehr Energie, um die gleiche Menge Eis zu produzieren.</p>
+        <div id="pop4" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+                <h4>Achten Sie auf Ihre Kühlgeräte</h4>
+                <p>Es ist wichtig zu wissen, wie Ihre Kühlgeräte funktionieren. Beispielsweise sollten Sie darauf achten, wie viel Eis Sie maximal einfüllen können, damit die Belüftung nicht überlastet wird. Wenn der Luftstrom unterbrochen wird, verbraucht das Gerät mehr Energie, um die gleiche Menge Eis zu produzieren.</p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop5" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-            <h4>Prüfen Sie Ihren Kühlschrank</h4>
-            <p>Wenn die Dichtungen Ihres Kühlschranks nicht sauber sind, besteht die Gefahr, dass warme Luft eindringt. Vergewissern Sie sich, dass die Ventilatoren Ihres Kühlschranks sowie die Kühl- und Lüftungsschlitze hinter freistehenden Kühl- und Gefriergeräten nicht blockiert sind.</p>
+        <div id="pop5" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+                <h4>Prüfen Sie Ihren Kühlschrank</h4>
+                <p>Wenn die Dichtungen Ihres Kühlschranks nicht sauber sind, besteht die Gefahr, dass warme Luft eindringt. Vergewissern Sie sich, dass die Ventilatoren Ihres Kühlschranks sowie die Kühl- und Lüftungsschlitze hinter freistehenden Kühl- und Gefriergeräten nicht blockiert sind.</p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop6" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-            <h4>Verschwenden Sie kein Eis</h4>
-            <p>Die Herstellung von Eis ist teuer und benötigt Wasser und Energie, also gehen Sie nicht verschwenderisch damit um. Füllen Sie nur so viel ein, wie Sie brauchen.</p>
+        <div id="pop6" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+                <h4>Verschwenden Sie kein Eis</h4>
+                <p>Die Herstellung von Eis ist teuer und benötigt Wasser und Energie, also gehen Sie nicht verschwenderisch damit um. Füllen Sie nur so viel ein, wie Sie brauchen.</p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop7" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
-            <h4>Tauschen Sie Ihre Glühbirnen gegen energieeffiziente Leuchtmittel aus</h4>
-            <p>Energieeffiziente Leuchtmittel sind eine Möglichkeit Energie zu sparen. Verwenden Sie LED-, Halogen- und Kompaktleuchtstofflampen für Ihre Küche und den Essbereich. Sie können auch Leuchten mit automatischem Lichtsensor und Bewegungsmelder installieren. Diese Art intelligenter Beleuchtung kann beispielsweise in Toiletten, Lager- oder Technikräumen eingesetzt werden.</p>
+        <div id="pop7" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(7);">X</a>
+                <h4>Tauschen Sie Ihre Glühbirnen gegen energieeffiziente Leuchtmittel aus</h4>
+                <p>Energieeffiziente Leuchtmittel sind eine Möglichkeit Energie zu sparen. Verwenden Sie LED-, Halogen- und Kompaktleuchtstofflampen für Ihre Küche und den Essbereich. Sie können auch Leuchten mit automatischem Lichtsensor und Bewegungsmelder installieren. Diese Art intelligenter Beleuchtung kann beispielsweise in Toiletten, Lager- oder Technikräumen eingesetzt werden.</p>
+            </div>
         </div>
-    </div>
-    <div id="pop8" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
-            <h4>Reinigen und pflegen Sie Ihre Geräte</h4>
-            <p>Wenn Sie Ihre Geräte nicht reinigen und pflegen, verbrauchen sie mehr Energie als nötig. Nutzen Sie beispielsweise bei Geräten, die mit Wasser betrieben werden, ein Filtersystem, um zu verhindern, dass Ihre Geräte durch Kalk- und Mineralablagerungen beschädigt werden.</p>
+        <div id="pop8" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(8);">X</a>
+                <h4>Reinigen und pflegen Sie Ihre Geräte</h4>
+                <p>Wenn Sie Ihre Geräte nicht reinigen und pflegen, verbrauchen sie mehr Energie als nötig. Nutzen Sie beispielsweise bei Geräten, die mit Wasser betrieben werden, ein Filtersystem, um zu verhindern, dass Ihre Geräte durch Kalk- und Mineralablagerungen beschädigt werden.</p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop9" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
-            <h4>Senken Sie Ihren Wärmebedarf</h4>
-            <p>Verringern Sie Ihren Wärmebedarf, z.B. indem Sie die Wassertemperaturen senken. Beachten Sie jedoch die vorgeschriebenen Temperaturen für das Abwaschen von Geschirr. Sie können auch energieeffiziente Handtrockner ohne Heizelemente für Ihre Toiletten verwenden.
-            </p>
+        <div id="pop9" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(9);">X</a>
+                <h4>Senken Sie Ihren Wärmebedarf</h4>
+                <p>Verringern Sie Ihren Wärmebedarf, z.B. indem Sie die Wassertemperaturen senken. Beachten Sie jedoch die vorgeschriebenen Temperaturen für das Abwaschen von Geschirr. Sie können auch energieeffiziente Handtrockner ohne Heizelemente für Ihre Toiletten verwenden.
+                </p>
 
+            </div>
         </div>
-    </div>
-    <div id="pop10" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
-            <h4>Organisieren Sie Ihre Küche neu</h4>
-            <p>Organisieren Sie Ihre Küche so, dass wärmeerzeugende Geräte nicht in der Nähe von Kühlgeräten platziert werden. Achten Sie beispielsweise darauf, dass der Herd nicht neben der Eismaschine steht, damit nicht mehr Energie als nötig verwendet wird.
-            </p>
+        <div id="pop10" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(10);">X</a>
+                <h4>Organisieren Sie Ihre Küche neu</h4>
+                <p>Organisieren Sie Ihre Küche so, dass wärmeerzeugende Geräte nicht in der Nähe von Kühlgeräten platziert werden. Achten Sie beispielsweise darauf, dass der Herd nicht neben der Eismaschine steht, damit nicht mehr Energie als nötig verwendet wird.
+                </p>
 
+            </div>
         </div>
-    </div>
 
 
 
@@ -1148,23 +1135,23 @@
 
 
 
-    <script type="text/javascript">
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("moreless");
-            var btnText = document.getElementById("myBtn_readmore");
+        <script type="text/javascript">
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("moreless");
+                var btnText = document.getElementById("myBtn_readmore");
 
-            if (dots.style.display === "none") {
-                dots.style.display = "block";
-                btnText.innerHTML = "WEITERLESEN";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "WENIGER";
-                moreText.style.display = "inline";
+                if (dots.style.display === "none") {
+                    dots.style.display = "block";
+                    btnText.innerHTML = "WEITERLESEN";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "WENIGER";
+                    moreText.style.display = "inline";
+                }
             }
-        }
-    </script>
+        </script>
 
 
 
@@ -1172,107 +1159,107 @@
 
 
 
-    <script type="text/javascript">
-        var eurl = "explore-to-plastic-waste-eng.php"
-        var gurl = "explore-to-plastic-waste-deu.php"
+        <script type="text/javascript">
+            var eurl = "explore-to-plastic-waste-eng.php"
+            var gurl = "explore-to-plastic-waste-deu.php"
 
 
-        //btn-test click test script
+            //btn-test click test script
 
-        $(document).ready(function() {
-            $('#select').change(function() {
-                location.href = $(this).val();
-            });
-        });
-
-
-        $(document).ready(function() {
-            $('#myBtn_cust').click(function() {
-                //get collapse content selector
-                var collapse_content_selector = $(this).attr('href');
-
-                //make the collapse content to be shown or hide
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        //change the button label to be 'Show'
-                        toggle_switch.html('WEITERLESEN');
-                    } else {
-                        //change the button label to be 'Hide'
-                        toggle_switch.html('WENIGER');
-                    }
+            $(document).ready(function() {
+                $('#select').change(function() {
+                    location.href = $(this).val();
                 });
             });
 
-        });
-    </script>
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
 
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 2,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-    </script>
+            $(document).ready(function() {
+                $('#myBtn_cust').click(function() {
+                    //get collapse content selector
+                    var collapse_content_selector = $(this).attr('href');
 
+                    //make the collapse content to be shown or hide
+                    var toggle_switch = $(this);
+                    $(collapse_content_selector).toggle(function() {
+                        if ($(this).css('display') == 'none') {
+                            //change the button label to be 'Show'
+                            toggle_switch.html('WEITERLESEN');
+                        } else {
+                            //change the button label to be 'Hide'
+                            toggle_switch.html('WENIGER');
+                        }
+                    });
+                });
 
-
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-
-    <script type="text/javascript">
-        $('.burger, .overlay').click(function() {
-            $('.burger').toggleClass('clicked');
-            $('.overlay').toggleClass('show');
-            $('nav').toggleClass('show');
-            $('body').toggleClass('overflow');
-        });
-
-        $(document).ready(function() {
-            $('#nav-icon4').click(function() {
-                $(this).toggleClass('open');
             });
-        });
-    </script>
+        </script>
+        <script>
+            //pageSlider swiper
+            function openPopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "block");
+            }
 
-    <script src="jquery/page1.js"></script>
+            function closePopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "none");
+            }
+            var swiper = new Swiper(".pageSwiper1", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 2,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper1Pagination",
+                },
+            });
+        </script>
+
+
+
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+
+        <script type="text/javascript">
+            $('.burger, .overlay').click(function() {
+                $('.burger').toggleClass('clicked');
+                $('.overlay').toggleClass('show');
+                $('nav').toggleClass('show');
+                $('body').toggleClass('overflow');
+            });
+
+            $(document).ready(function() {
+                $('#nav-icon4').click(function() {
+                    $(this).toggleClass('open');
+                });
+            });
+        </script>
+
+        <script src="jquery/page1.js"></script>
 
 
 </body>

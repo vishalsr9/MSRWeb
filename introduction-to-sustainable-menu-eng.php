@@ -192,10 +192,7 @@
                         <li>
                             <img src="images/milk.svg" class="milk1" />
                             <p>
-                                proteins can be divided into complete
-                                (meat, ﬁsh, eggs, milk, cheese)
-                                and incomplete
-                                (beans, nuts, seeds, tofu etc.)
+                                proteins can be divided into two categories - complete (meat, ﬁsh, eggs, milk, cheese) and incomplete (beans, nuts, seeds, tofu etc.)
                             </p>
                         </li>
                         <li>
@@ -214,7 +211,7 @@
                         <li>
                             <img src="images/bread.svg" class="bread1" />
                             <p>
-                                <span class="highlight">one in three</span> meals are eaten out of home
+                                <span class="highlight">one in three</span> meals are eaten outside of home
                             </p>
                         </li>
                     </ul>
@@ -226,7 +223,7 @@
                         <h3>The <br> Big <br> Issue </h3>
                     </div>
                     <div class="right-content">
-                        <p>Sometimes it can be difficult for consumers to find sustainable restaurants let alone a sustainable dish once inside. By putting sustainability on the (online) menu restaurateurs can visibly demonstrate to their customers their engagement for a food future that respects the health of the planet and their communities. <br>
+                        <p>Sometimes, it can be difficult for consumers to find sustainable restaurants, let alone a sustainable dish once inside. By putting sustainability on the (online) menu restaurateurs can visibly demonstrate to their customers, their engagement for a food future that respects the health of the planet and their communities.<br><br>
                             To provide a sustainable menu provides many benefits:</p>
                     </div>
                 </div>
@@ -299,7 +296,7 @@
             </section>
             <section class="section4">
                 <div class="left-content">
-                    <h3>Know how – <br> Steps how to create a <br> Sustainable Menu</h3>
+                    <h3>Know how – <br> Steps to create a <br> Sustainable Menu</h3>
                     <p>It is easy to mirror your sustainability philosophy on your menu.
                         There are several steps that can help you.
                     </p>
@@ -312,7 +309,7 @@
                         <li> Avoiding highly processed ingredients</li>
                         <li>Using more plant proteins to meet the interests of <br> your customer</li>
                     </ul>
-                    <p class="circlgraph-text">Generally, this is an indication for them of good quality and well controlled stock. It also gives you the opportunity to use more seasonal products and be closer to the producer. When working on a more sustainable menu you can easily adapt to societal eating trends and attract consumers that are more aware of the impact that their eating has on the environment. Conscious proteins e.g. include conventional proteins obtained from animals that were raised to high welfare standards as well as alternative protein from plant sources.</p>
+                    <p class="circlgraph-text">Generally, this is an indication for them of good quality and well controlled stock. It also gives you the opportunity to use more seasonal products and be closer to the producer. When working on a more sustainable menu you can easily adapt to societal eating trends and attract consumers that are more aware of the impact that their eating has, on the environment. Conscious proteins e.g. include conventional proteins obtained from animals that were raised to high welfare standards as well as alternative protein from plant sources.</p>
                     <div class="read-wrap">
                         <a href="explore-sustainable-menu-eng.php" class="read-more" target="_self">Read More</a>
                     </div>

@@ -361,7 +361,7 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12">
-                                <h3 class="know-how-heading">KNOW HOW –<br>STEPS TO SAVE<br>WATER</h3>
+                                <h3 class="know-how-heading">KNOW HOW - STEPS TO<br>SAVE WATER</h3>
                                 <ul class="justify1">
                                     <li class=" strongUl">
                                         Analyse and evaluate your consumption. Your utility company can

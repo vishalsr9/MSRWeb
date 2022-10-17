@@ -205,7 +205,7 @@
       </section>
       <section class="section-text container" id="more">
         <div class="section-text-inner">
-          <p> <strong>Many customers </strong> will appreciate your efforts. In addition to a growing number of established consumers, the younger generation cares about the environment and how people are treated. By being more sustainable, you will build a positive image with your customers and create opportunities to win new ones. It is also an opportunity to differentiate yourself from other competitors and you will automatically create a positive impact for your existing and potential employees. Furthermore your activities will have a positive, restorative impact on the environment and your local community. Your business will be future proof, because you can build a stable, profitable business when you buy products that are sourced and produced sustainably. As a restaurateur you can have a real impact on the health of your community and environment through the meals you serve. </p>
+          <p> <strong>Many customers </strong> will appreciate your efforts. In addition to a growing number of established consumers, the younger generation cares about the environment and how people are treated. By being more sustainable, you will build a positive image with your customers and create opportunities to win new ones. It is also an opportunity to differentiate yourself from other competitors and you will automatically create a positive impact for your existing and potential employees. Furthermore, your activities will have a positive, restorative impact on the environment and your local community. Your business will be future proof, because you can build a stable, profitable business when you buy products that are sourced and produced sustainably. As a restaurateur, you can have a real impact on the health of your community and environment through the meals you serve. </p>
         </div>
 
       </section>
@@ -395,11 +395,11 @@
             sustainable menu.
             Learn all about
             diversifying protein </h3>
-          <p>Around the world we get our protein from different sources including plants, meat and fish. The problem is that protein from most industrially farmed animal sources is bad for the environment through methane emissions (which are converted to carbon dioxide), the use of water and contamination of soil and water courses. Animal welfare is frequently poor.<span id="dots"></span>
+          <p>Around the world, we get our protein from different sources including plants, meat, and fish. The problem is that protein from most industrially farmed animal sources is bad for the environment owing to the methane emissions (which are converted to carbon dioxide), the abuse of water, and contamination of soil and water courses. Animal welfare is frequently ignored.<span id="dots"></span>
             <br><br>
-            <span id="more1">Farmed fish also has environmental impacts such as water pollution and the release of diseases to wild fish. In turn the amount of wild fish is steadily decreasing and becoming contaminated with micro plastics.
+            <span id="more1">Farmed fish also has environmental impacts, such as water pollution and the release of diseases to wild fish. In turn, the number of wild fish is steadily decreasing and becoming contaminated with microplastics.
               <br><br>
-              Consumers are ever more aware of the impact that their eating has on the environment. How we eat protein now and the way we will eat protein in the future is frequently a subject of attention in the news and on social media. You can be innovative in this space and show your customers how you really have a handle on a major sustainability topic through your menu. Additionally customers are increasingly prepared to pay more for responsibly sourced protein.
+              Consumers are ever more aware of the impact that their eating has on the environment. How we eat protein now and the way we will eat protein in the future is frequently a subject of attention in the news and on social media. You can be innovative in this space and show your customers how you really have a handle on a major sustainability topic through your menu. Additionally, customers are increasingly prepared to pay more for responsibly sourced protein.
               <br><br>
               Fortunately, there are many solutions that you can choose to include conscious proteins into your sustainable menu. When you choose a conscious protein approach you will have a key element of your sustainable menu established and you will create a positive impact on the health of our planet.
             </span>
@@ -425,14 +425,14 @@
             <div class="grid--content more-text">
               <span class="text-img"><img src="images/grid2.svg" /></span>
               <h5>Conscious <br> protein</h5>
-              <p id="more3">Conscious protein describes an approach which is based on consuming a diverse source of sustainable protein and the awareness of people in their eating habits. Conscious proteins include for instance conventional proteins obtained from animals that were raised to high welfare standards as well as alternative protein from plant sources
+              <p id="more3">Conscious protein describes an approach which is based on consuming a diverse source of sustainable protein and the awareness of people in their eating habits. Conscious proteins include, for instance conventional, proteins obtained from animals that were raised to high welfare standards as well as alternative protein from plant sources.
                 <br>
                 <br><b> Animal proteins</b> are from meat and fish raised responsibly. It includes products like eggs and milk.Animal proteins that come from responsibly raised meat or fish means high welfare, fed with sustainable feed and in the case of ruminants grazed on pasture, responsible use of water, assured welfare, responsible use of animal treatments for example antibiotics, a positive impact on biodiversity for example by using heritage breeds, traceable and workers’ rights are assured.
                 <br><br>
-                <b> Plant proteins</b> are whole ingredients which include beans, grains, pulses, nuts, chickpeas, ancient grains such as quinoa and minimally processed ingredients such as tofu, tempeh and seitan.Produced responsibly means for example that responsible tofu would be from soy beans grown on non-deforested land and responsible nuts would be grown in orchards where water is managed responsibly.
+                <b> Plant proteins</b> are whole ingredients which include beans, grains, pulses, nuts, chickpeas, ancient grains such as quinoa and minimally processed ingredients such as tofu, tempeh and seitan. Produced responsibly means, for example, that responsible tofu would be from soy beans grown on non-deforested land and responsible nuts would be grown in orchards where water is managed responsibly.
                 <br><br>
 
-                <b>Alternative proteins</b> are either not commonly eaten or are completely new, being produced with novel (new) technologies and ingredients.Exciting work is underway around the world to reproduce meat in laboratories. There is some way to go before it can be considered completely sustainable due to for example the energy required to produce the proteins. The cost remains prohibitive and for some people lab meat is a taboo. Meanwhile it is worth keeping a close eye on developments as this field of research is changing rapidly. In east Asia for example, fish has been successfully reproduced and marketed.Produced responsibly means for example responsible pea protein would be from peas grown on non-deforested land.
+                <b>Alternative proteins</b> are either not commonly eaten or are completely new, being produced with novel (new) technologies and ingredients. Exciting work is underway around the world to reproduce meat in laboratories. There is some way to go before it can be considered completely sustainable due to for example the energy required to produce the proteins. The cost remains prohibitive and for some people lab meat is a taboo. Meanwhile it is worth keeping a close eye on developments as this field of research is changing rapidly. In East Asia, for example, fish has been successfully reproduced and marketed. Produced responsibly means, for example, responsible pea protein would be from peas grown on non-deforested land.
               </p>
               <button class="read-more-btn" id="myBtn3">Read more</button>
             </div>
@@ -442,7 +442,7 @@
               <span class="text-img"><img src="images/grid4.svg" /></span>
               <h5>Foraging from <br> the wild</h5>
               <p id="more4">Discovering local and wild ingredients connects us to the natural environment. A growing movement of chefs have adopted this ancient practice of foraging, where they roam the uncultivated land closest to their restaurants. They dig, clip and pick the freshest ingredients to complement their menus which are usually lead by the seasons.
-                In recent history René Redzepi of Noma in Denmark popularised the concept and since then several chefs around the world have started foraging. While still niche, the foraging chefs have a strong connection to their communities for example Aidan Brookes of eleven98 in London. They raise awareness of eating sustainably, slowly building a wave towards a greater respect of the local environment and the need to look after their communities. Be inspired by chefs such as Ana Ros of Hisa Franko in Slovenia, Prateek Sadhu of Masque in India, HisotoNakahigashi of Miyamasou in Japan, Wojciech Modest Amaro of Atelier Amaro in Poland and Ricky Saward of Seven Swans Must Die in Germany.
+                In recent history, René Redzepi of Noma in Denmark popularised the concept and since then several chefs around the world have started foraging. While still niche, the foraging chefs have a strong connection to their communities, for example, Aidan Brookes of eleven98 in London. They raise awareness of eating sustainably, slowly building a wave towards a greater respect of the local environment and the need to look after their communities. Be inspired by chefs such as Ana Ros of Hisa Franko in Slovenia, Prateek Sadhu of Masque in India, HisotoNakahigashi of Miyamasou in Japan, Wojciech Modest Amaro of Atelier Amaro in Poland and Ricky Saward of Seven Swans Must Die in Germany.
               </p>
               <button class="read-more-btn" id="myBtn4">Read more</button>
             </div>
@@ -463,7 +463,7 @@
               <div class="circle-content more-text">
                 <span class="text-num">01</span>
                 <h5>Explain sustainable <br> ingredients on your menu</h5>
-                <p>Show where your ingredients are from and who has produced them. Explain the sustainability labels of your ingredients (check first that the label scheme owner allows this and make sure you have the certificates available).Let your customers know how the ingredient is produced. Explain when it is from a local farmer who follows sustainable principles but has decided not to be certified. It is important to make this clear to your customers.Highlight dishes with vegetables and wholegrains. Generally explain your sustainability philosophy and tell your dishes’ sustainable story wherever possible.
+                <p>Show where your ingredients are from and who has produced them. Explain the sustainability labels of your ingredients (check first that the label scheme owner allows this and make sure you have the certificates available). Let your customers know how the ingredient is produced. Explain when it is from a local farmer who follows sustainable principles but has decided not to be certified. It is important to make this clear to your customers. Highlight dishes with vegetables and wholegrains. Generally explain your sustainability philosophy and tell your dishes’ sustainable story wherever possible.
                 </p>
               </div>
             </li>
@@ -568,7 +568,7 @@
           <li class="accordian3 accor">
             <div class="collapsible__header">WE DON´T LIKE WASTE</div>
             <p class="collapsible__content">We transform our unused bread into bread crumbs and ingredients for our dishes. <br>
-              All our dishes are available in 'hungry and 'very hungry sizes. Please tell us which you prefer. If it turns out you have a little too much on your plate, we will give you the rest to take home with you.
+              All our dishes are available in 'hungry’ and 'very hungry’ sizes. Please tell us which one you would prefer. If it turns out you have a little too much on your plate after you’re done, we will give you the rest to take home with you.
             </p>
           </li>
           <li class="accordian4 accor">
@@ -848,7 +848,7 @@
         <div class="modal-content1 vegi-cont">
           <h4>Vegetarian
           </h4>
-          <p>No meat, poultry or fish. Sometimes no insects. Milk or egg products derived from live animals, such as cheese is allowed. Honey from bees is also allowed.</p>
+          <p>No meat, poultry or fish. Sometimes, no insects. Milk or egg products derived from live animals, such as cheese is allowed. Honey from bees is also allowed.</p>
         </div>
       </div>
     </div>
@@ -870,7 +870,7 @@
         <div class="modal-content1 paleo-cont">
           <h4>Paleo
           </h4>
-          <p>This diet is based only on foods that are believed to be found in the Stone Age. These are mainly meat, eggs, fruit, vegetables, nuts and honey.</p>
+          <p>This diet is based only on foods that are believed to be found in the stone age. These are mainly meat, eggs, fruit, vegetables, nuts and honey.</p>
         </div>
       </div>
     </div>
@@ -1016,7 +1016,7 @@
 
           </h4>
           <p>A smaller menu often indicates good quality and well controlled stock. It is the opportunity
-            to use more seasonal products and to reduce food waste. Try to keep single ingredients to a minimum while keeping the classics that your customers love. If you make 80% revenue from 20% of your dishes be sure to keep these. Add a dish that changes with the day / month / season.
+            to use more seasonal products and to reduce food waste. Try to keep single ingredients to a minimum while keeping the classics that your customers love. If you make 80% revenue from 20% of your dishes be sure to keep these. Add a dish that changes with the day/month/season.
           </p>
         </div>
       </div>
@@ -1099,8 +1099,8 @@
         <div class="modal-content1 flexi-cont">
           <h4>Experiment with plant proteins</h4>
           <ul>
-            <li>Use (more) whole plant proteins for example lentils, quinoa, teff, beans and seaweed.</li>
-            <li>Use different processed plant proteins for example tofu, tempeh.</li>
+            <li>Use (more) whole plant proteins, for example, lentils, quinoa, teff, beans and seaweed.</li>
+            <li>Use different processed plant proteins, for example, tofu, tempeh.</li>
 
           </ul>
         </div>
@@ -1125,7 +1125,7 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>Avoid highly processed ingredients </h4>
-          <p>Be mindful of imitations of traditional ingredients. Often these are highly processed, high in sugar, salt, transfats and are not particularly healthy.</p>
+          <p>Be mindful of imitations of traditional ingredients. Often these are highly processed, high in sugar, salt, transfats, and are not particularly healthy.</p>
         </div>
       </div>
     </div>
@@ -1255,7 +1255,7 @@
               and
               better meat
             </h4>
-            <p>If meat is the main feature of most of your dishes, you can reduce the portion of meat, poultry and fish. When you choose meat, poultry, pork and so on look for sustainably sourced products. You can also include different parts of meat that are usually not used, in other words “nose to tail” eating.
+            <p>If meat is the main feature of most of your dishes, you can reduce the portion of meat, poultry and fish. When you choose meat, poultry, pork and so on, look for sustainably sourced products. You can also include different parts of meat that are usually not used, in other words “nose to tail” eating.
 
             </p>
             <!-- <div class="listing-use" id="more13">

@@ -45,9 +45,9 @@
           <span></span>
         </div>
         <div class="custom__select top-mar-less">
-          <select class="y-select">
-            <option value="home.php" selected>DEU</option>
-            <option value="index.php">ENG</option>
+          <select>
+            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+            <option value="introduction-to-food-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -56,7 +56,7 @@
               <a href="http://msr.bdevtestservers.com/home.php">Home</a>
             </li>
             <li>
-              <a href="http://msr.bdevtestservers.com/mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
+              <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
             </li>
             <li>
               <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
@@ -91,6 +91,9 @@
               </li>
             </div>
             <li>
+              <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+            </li>
+            <li>
               <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
@@ -122,17 +125,17 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.metroag.de/youtube" target="_blank">
+                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                   <i class="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -150,7 +153,7 @@
           </div>
           <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
         </nav>
-        <div class="overlay2"></div>
+        <div class="overlay"></div>
       </div>
     </div>
   </header>
@@ -206,18 +209,11 @@
         </div>
         <div class="footer-links link2">
           <ul>
-
-
-            <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-            <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-            <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-            <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+            <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+            <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+            <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
           </ul>
-
         </div>
         <div class="footer-links link3">
           <ul>
@@ -248,24 +244,17 @@
       <div class="fotter-right-top">
         <div class="footer-links link2">
           <ul>
-
-
-            <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-            <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-            <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-            <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+            <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+            <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+            <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
           </ul>
-
         </div>
         <div class="footer-socials">
           <ul>
-            <li><a href="https://de-de.facebook.com/metro.deutschland/ " target="_blank"> <i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-            <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
           </ul>
@@ -274,50 +263,48 @@
       </div>
 
     </div>
+    <script src="jquery/page1.js"></script>
+    <script>
+      function mynewFunction() {
+        idArray = new Array()
+        idArray[1] = "Jedes Jahr produzieren wir 2,21 Milliarden Tonnen Abfall."
+        idArray[2] = "Etwa 40 %der weltweit produzierten Lebensmittel wandern direkt in den Müll."
+        idArray[3] = "Weltweit leidet jeder neunte Mensch an Hunger."
+        idArray[4] = "Ein Viertel des weltweiten Trinkwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden. "
+        idArray[5] = "Wenn die Menge an weggeworfenen Lebensmitteln ein Land wäre, wäre es der drittgrößte Emittent von Treibhausgasen. "
+        idArray[6] = "Wenn wir nichts dagegen unternehmen, wird es bis 2050 mehr Plastik als Fisch (nach Gewicht) in den Meeren geben.  "
+        idArray[7] = "Nur 14 %der weltweit verwendeten Kunststoffverpackungen werden recycelt. "
+        idArray[8] = "Kartoffelabfälle, Fischhäute und Orangenschalen – weltweit arbeiten Wissenschaftler daran, neue Materialien für Verpackungen zu entwickeln."
+        idArray[9] = "Kompaktleuchtstofflampen und -birnen verbrauchen 75 %weniger Energie als Glühbirnen und halten zehnmal länger. "
+        idArray[10] = "Beim Kochen mit Induktionsherdengeht nur 10 %der Wärme verloren, während es bei Gasherden fast 55 %sind. "
+        idArray[11] = "Europäische Metropolen wie Istanbul, Barcelona und London sind bereits von Wasserknappheit betroffen."
 
-  </div>
-  <script src="jquery/page1.js"></script>
-  <script>
-    function mynewFunction() {
-      idArray = new Array()
-      idArray[1] = "Jedes Jahr produzieren wir 2,21 Milliarden Tonnen Abfall."
-      idArray[2] = "Etwa 40 %der weltweit produzierten Lebensmittel wandern direkt in den Müll."
-      idArray[3] = "Weltweit leidet jeder neunte Mensch an Hunger."
-      idArray[4] = "Ein Viertel des weltweiten Trinkwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden. "
-      idArray[5] = "Wenn die Menge an weggeworfenen Lebensmitteln ein Land wäre, wäre es der drittgrößte Emittent von Treibhausgasen. "
-      idArray[6] = "Wenn wir nichts dagegen unternehmen, wird es bis 2050 mehr Plastik als Fisch (nach Gewicht) in den Meeren geben.  "
-      idArray[7] = "Nur 14 %der weltweit verwendeten Kunststoffverpackungen werden recycelt. "
-      idArray[8] = "Kartoffelabfälle, Fischhäute und Orangenschalen – weltweit arbeiten Wissenschaftler daran, neue Materialien für Verpackungen zu entwickeln."
-      idArray[9] = "Kompaktleuchtstofflampen und -birnen verbrauchen 75 %weniger Energie als Glühbirnen und halten zehnmal länger. "
-      idArray[10] = "Beim Kochen mit Induktionsherdengeht nur 10 %der Wärme verloren, während es bei Gasherden fast 55 %sind. "
-      idArray[11] = "Europäische Metropolen wie Istanbul, Barcelona und London sind bereits von Wasserknappheit betroffen."
+        document.getElementById("selectFact").onclick = mynewFunction;
+        randomParagraph = Math.floor(Math.random() * 5);
 
-      document.getElementById("selectFact").onclick = mynewFunction;
-      randomParagraph = Math.floor(Math.random() * 5);
-
-      document.getElementById("result_fact").innerHTML = idArray[randomParagraph + 1];
-      console.log(idArray);
-    }
-  </script>
+        document.getElementById("result_fact").innerHTML = idArray[randomParagraph + 1];
+        console.log(idArray);
+      }
+    </script>
 
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#nav-icon4').click(function() {
-        $(this).toggleClass('open');
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#nav-icon4').click(function() {
+          $(this).toggleClass('open');
+        });
       });
-    });
 
 
 
-    $('.burger, .overlay2').click(function() {
-      $('.burger').toggleClass('clicked');
-      $('.overlay2').toggleClass('show');
-      $('nav').toggleClass('show');
-      $('body').toggleClass('overflow');
-    });
-  </script>
-  <script src="jquery/page1.js"></script>
+      $('.burger, .overlay2').click(function() {
+        $('.burger').toggleClass('clicked');
+        $('.overlay2').toggleClass('show');
+        $('nav').toggleClass('show');
+        $('body').toggleClass('overflow');
+      });
+    </script>
+    <script src="jquery/page1.js"></script>
 </body>
 
 </html>

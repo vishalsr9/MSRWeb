@@ -229,6 +229,7 @@ body {
 
 ul.main {
   padding-left: 2rem;
+  padding-right: 1rem;
 }
 
 .footer-wrap {
@@ -396,11 +397,12 @@ nav.show ul.sub {
 }
 @media (min-width: 667px) {
   nav {
-    padding: 50px 40px 0;
+    padding: 20px 15px 0;
   }
 }
 nav ul.main {
   list-style-type: none;
+  margin-right: 1rem;
 }
 nav ul.main li {
   margin-bottom: 10px;
@@ -676,7 +678,7 @@ a.bottom-right h6 {
   color: #003b7e;
 }
 nav.show .footer-socials {
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding-left: 1rem;
 }
 

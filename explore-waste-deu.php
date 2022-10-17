@@ -156,8 +156,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-waste-deu.php" selected>DEU</option>
-                        <option value="explore-waste-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -201,6 +201,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -232,17 +235,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -282,7 +285,7 @@
                     </p>
                 </div>
                 <div class="right-content no-print">
-                    <img src="./images/safe_food/wl1.svg">
+                    <img src="./images/safe_food/w1.svg">
                 </div>
             </section>
 
@@ -827,24 +830,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -854,27 +850,25 @@
 
         </div>
 
-    </div>
 
-
-    <div id="pop5" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-            <h4>For food waste</h4>
-            <p>
-                Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
-            </p>
+        <div id="pop5" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+                <h4>For food waste</h4>
+                <p>
+                    Grey water means water that has already been used for cooking, ice bucketsand also refers to rainwater. When recycled properly, grey water can help save a lot of water. Water that is used for boiling vegetables or eggs can, once cooled off, be used for the garden or plants in the restaurant. Even rainwater can also be trapped and used to water plants or clean outdoor areas. Ensure that the re-used grey water does not obtain salt as it harms plants and the container that captures the water is closed and emptied regularly to prevent access to insects, such as mosquitos.
+                </p>
+            </div>
         </div>
-    </div>
-    <div id="pop6" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-            <h4>For single use plastic items such as takeaway goods, plastic stirrers, or packaging</h4>
-            <p>
-                Reposition heat generating equipment away from cooling equipment. For example, ensure the oven is not next to the ice machine where it will have to work harder than needed.
-            </p>
+        <div id="pop6" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+                <h4>For single use plastic items such as takeaway goods, plastic stirrers, or packaging</h4>
+                <p>
+                    Reposition heat generating equipment away from cooling equipment. For example, ensure the oven is not next to the ice machine where it will have to work harder than needed.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
@@ -882,115 +876,115 @@
 
 
 
-    <script type="text/javascript">
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("moreless");
-            var btnText = document.getElementById("myBtn_readmore");
+        <script type="text/javascript">
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("moreless");
+                var btnText = document.getElementById("myBtn_readmore");
 
-            if (dots.style.display === "none") {
-                dots.style.display = "block";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
+                if (dots.style.display === "none") {
+                    dots.style.display = "block";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
             }
-        }
-    </script>
+        </script>
 
-    <script type="text/javascript">
-        var eurl = "explore-to-plastic-waste-eng.php"
-        var gurl = "explore-to-plastic-waste-deu.php"
-
-
-        //btn-test click test script
-
-        $(document).ready(function() {
-            $('#select').change(function() {
-                location.href = $(this).val();
-            });
-        });
+        <script type="text/javascript">
+            var eurl = "explore-to-plastic-waste-eng.php"
+            var gurl = "explore-to-plastic-waste-deu.php"
 
 
-        $(document).ready(function() {
-            $('#myBtn_cust').click(function() {
-                //get collapse content selector
-                var collapse_content_selector = $(this).attr('href');
+            //btn-test click test script
 
-                //make the collapse content to be shown or hide
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        //change the button label to be 'Show'
-                        toggle_switch.html('Read More');
-                    } else {
-                        //change the button label to be 'Hide'
-                        toggle_switch.html('Read Less');
-                    }
+            $(document).ready(function() {
+                $('#select').change(function() {
+                    location.href = $(this).val();
                 });
             });
 
-        });
-    </script>
+
+            $(document).ready(function() {
+                $('#myBtn_cust').click(function() {
+                    //get collapse content selector
+                    var collapse_content_selector = $(this).attr('href');
+
+                    //make the collapse content to be shown or hide
+                    var toggle_switch = $(this);
+                    $(collapse_content_selector).toggle(function() {
+                        if ($(this).css('display') == 'none') {
+                            //change the button label to be 'Show'
+                            toggle_switch.html('Read More');
+                        } else {
+                            //change the button label to be 'Hide'
+                            toggle_switch.html('Read Less');
+                        }
+                    });
+                });
+
+            });
+        </script>
 
 
 
 
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+
+
+
+
+        <script>
+            //pageSlider swiper
+            function openPopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "block");
             }
-        };
-    </script>
 
+            function closePopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "none");
+            }
+            var swiper = new Swiper(".pageSwiper1", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper1Pagination",
+                },
+            });
+        </script>
 
-
-
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
-
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-    </script>
-
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

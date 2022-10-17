@@ -199,13 +199,11 @@
                     <div class="didyouknow_2culumn">
                         <img src="./images/safe_food/s3.svg" class="px-4 dis_img2">
                         <h4>underpaid and abused workers are<br>
-
                             unfortunately commonplace in the hospitality<br>
                             and food industry, especially in terms of<br>
                             physical working conditions, working hours,<br>
-                            safety, or contractual matters like working on<br>
-
-                            a temporary or seasonal basis </h4>
+                            safety, or contractual matters such as working on<br>
+                            a temporary or seasonal basis</h4>
                     </div>
                 </div>
             </div>
@@ -260,10 +258,7 @@
             <!-- </ul><ul> -->
             <li></li>
             <li>
-                <p>Motivates
-                    staff and
-                    makes it
-                    more reliable </p>
+                <p>Motivates staff and makes them more reliable</p>
             </li>
             <li></li>
             <li>
@@ -356,7 +351,7 @@
     <section class="section4 padr-60px no-print">
         <div class="left-content noalign col-md-6">
             <h3>
-                KNOW HOW –<br>STEPS HOW TO<br>ACT SOCIALLY
+                KNOW HOW – STEPS TO<br>ACT SOCIALLY
             </h3>
             <p>To be a sustainable and socially engaged employer, comply with your
                 national employment legislation and uphold the basic human rights of

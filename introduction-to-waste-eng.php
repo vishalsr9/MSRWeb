@@ -185,7 +185,7 @@
                         <h4>electronic products should never be disposed of<br>
                             in the rubbish bin, especially those subject to<br>
                             Waste of Electrical and Electronic Equipment (WEEE)<br>
-                            regulations such as batteries, bulbs, etc.</h4>
+                            regulations, such as batteries, bulbs, etc.</h4>
                     </div>
                 </div>
 
@@ -323,10 +323,8 @@
     <section class="section4 padr-60px no-print mt-4">
         <div class="left-content noalign col-md-6">
             <h3>
-                KNOW HOW –<br>STEPS HOW TO<br>REDUCE WASTE
+                KNOW HOW – STEPS TO<br>REDUCE WASTE
             </h3>
-
-
             <ul class="mt-1" style="margin-top:-45px !important">
                 <li>Simple steps can be undertaken to manage your waste, e.g.
                     separate waste according to its type, talk to your staff and get

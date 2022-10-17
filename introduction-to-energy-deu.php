@@ -41,8 +41,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-energy-deu.php" selected>DEU</option>
-            <option value="introduction-to-energy-eng.php">ENG</option>
+            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+            <option value="introduction-to-food-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -86,6 +86,9 @@
               </li>
             </div>
             <li>
+              <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+            </li>
+            <li>
               <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
             </li>
           </ul>
@@ -117,17 +120,17 @@
           <div class="footer-socials side_nav">
             <ul>
               <li>
-                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.metroag.de/youtube" target="_blank">
+                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                   <i class="fa fa-youtube-play"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -428,24 +431,17 @@
       <div class="fotter-right-top">
         <div class="footer-links link2">
           <ul>
-
-
-            <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-            <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-            <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-            <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+            <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+            <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+            <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+            <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
           </ul>
-
         </div>
         <div class="footer-socials">
           <ul>
-            <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-            <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+            <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
           </ul>
@@ -455,54 +451,52 @@
 
     </div>
 
-  </div>
 
 
+    <script type="text/javascript">
+      var eurl = "introduction-to-food-waste-eng.php"
+      var gurl = "introduction-to-food-waste-deu.php"
 
-  <script type="text/javascript">
-    var eurl = "introduction-to-food-waste-eng.php"
-    var gurl = "introduction-to-food-waste-deu.php"
 
+      //btn-test click test script
 
-    //btn-test click test script
-
-    $(document).ready(function() {
-      $('#select').change(function() {
-        location.href = $(this).val();
+      $(document).ready(function() {
+        $('#select').change(function() {
+          location.href = $(this).val();
+        });
       });
-    });
-  </script>
-  <script>
-    document.onreadystatechange = function() {
-      if (document.readyState !== "complete") {
-        document.querySelector(
-          "body").style.visibility = "hidden";
-        document.querySelector(
-          "#loader-page2").style.visibility = "visible";
-      } else {
-        document.querySelector(
-          "#loader-page2").style.display = "none";
-        document.querySelector(
-          "body").style.visibility = "visible";
-      }
-    };
-  </script>
+    </script>
+    <script>
+      document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader-page2").style.visibility = "visible";
+        } else {
+          document.querySelector(
+            "#loader-page2").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+        }
+      };
+    </script>
 
 
-  <script type="text/javascript">
-    $('.burger, .overlay').click(function() {
-      $('.burger').toggleClass('clicked');
-      $('.overlay').toggleClass('show');
-      $('nav').toggleClass('show');
-      $('body').toggleClass('overflow');
-    });
-
-    $(document).ready(function() {
-      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
-        $(this).toggleClass('open');
+    <script type="text/javascript">
+      $('.burger, .overlay').click(function() {
+        $('.burger').toggleClass('clicked');
+        $('.overlay').toggleClass('show');
+        $('nav').toggleClass('show');
+        $('body').toggleClass('overflow');
       });
-    });
-  </script>
+
+      $(document).ready(function() {
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
+          $(this).toggleClass('open');
+        });
+      });
+    </script>
 
 
 </body>

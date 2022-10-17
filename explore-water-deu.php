@@ -92,8 +92,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-water-deu.php" selected>DEU</option>
-                        <option value="explore-water-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -137,6 +137,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -168,17 +171,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -805,24 +808,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -832,146 +828,144 @@
 
         </div>
 
-    </div>
 
 
 
 
 
+        <div id="pop1" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+                <h4>Vorbereitung und Reinigung mit Bedacht</h4>
+                <p>Überprüfen Sie, ob Sie bereits alle Möglichkeiten ausschöpfen:</p>
+                <ul>
+                    <li>
+                        Verwenden Sie kein Wasser zum Auftauen von Lebensmitteln. Lebensmittel sollten immer im Voraus in einem Kühlgerät aufgetaut werden.
+                    </li>
+                    <li>
+                        Wischen Sie den Küchenboden nur am Ende eines Arbeitstages oder, wenn Lebensmittel verschüttet wurden.
+                    </li>
+                    <li>
+                        Entfernen Sie Essensreste vom Geschirr möglichst über dem Mülleimer (mit einem Schaber oder Abzieher, nicht mit Wasser), bevor Sie es in den Geschirrspüler stellen.
+                    </li>
+                    <li>
+                        Wenn Sie vor dem Beladen des Geschirrspülers spülen müssen, verwenden Sie eine Vorspüldüse mit geringem Durchfluss.
+                    </li>
+                    <li>
+                        Lassen Sie den Geschirrspüler nur dann laufen, wenn er voll ist.
+                    </li>
+                    <li>
+                        Schalten Sie Geräte ab, die Wasser verbrauchen, wenn sie nicht benutzt werden.
+                    </li>
+                    <li>
+                        Tauschen Sie einen Wasserschlauch durch eine Wasserbürste aus. Diese reinigt effizienter und benötigt nur die Hälfte des Wassers in stark genutzten Bereichen wie bei den Mülltonnen oder im Außenbereich.
+                    </li>
+                </ul>
 
-    <div id="pop1" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-            <h4>Vorbereitung und Reinigung mit Bedacht</h4>
-            <p>Überprüfen Sie, ob Sie bereits alle Möglichkeiten ausschöpfen:</p>
-            <ul>
-                <li>
-                    Verwenden Sie kein Wasser zum Auftauen von Lebensmitteln. Lebensmittel sollten immer im Voraus in einem Kühlgerät aufgetaut werden.
-                </li>
-                <li>
-                    Wischen Sie den Küchenboden nur am Ende eines Arbeitstages oder, wenn Lebensmittel verschüttet wurden.
-                </li>
-                <li>
-                    Entfernen Sie Essensreste vom Geschirr möglichst über dem Mülleimer (mit einem Schaber oder Abzieher, nicht mit Wasser), bevor Sie es in den Geschirrspüler stellen.
-                </li>
-                <li>
-                    Wenn Sie vor dem Beladen des Geschirrspülers spülen müssen, verwenden Sie eine Vorspüldüse mit geringem Durchfluss.
-                </li>
-                <li>
-                    Lassen Sie den Geschirrspüler nur dann laufen, wenn er voll ist.
-                </li>
-                <li>
-                    Schalten Sie Geräte ab, die Wasser verbrauchen, wenn sie nicht benutzt werden.
-                </li>
-                <li>
-                    Tauschen Sie einen Wasserschlauch durch eine Wasserbürste aus. Diese reinigt effizienter und benötigt nur die Hälfte des Wassers in stark genutzten Bereichen wie bei den Mülltonnen oder im Außenbereich.
-                </li>
-            </ul>
-
+            </div>
         </div>
-    </div>
 
-    <div id="pop2" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-            <h4>Reparieren Sie undichte Wasserhähne und leitungen</h4>
-            <p>
-                Wissen Sie, wie viel Wasser durch tropfende, undichte Wasserhähne, Geräte oder Rohre verschwendet wird? Bis zu 750 Liter Wasser pro Tag gehen durch eine undichte Toilettenspülung verloren und bis zu 70 Liter pro Tag durch einen tropfenden Wasserhahn!
-            </p>
+        <div id="pop2" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+                <h4>Reparieren Sie undichte Wasserhähne und leitungen</h4>
+                <p>
+                    Wissen Sie, wie viel Wasser durch tropfende, undichte Wasserhähne, Geräte oder Rohre verschwendet wird? Bis zu 750 Liter Wasser pro Tag gehen durch eine undichte Toilettenspülung verloren und bis zu 70 Liter pro Tag durch einen tropfenden Wasserhahn!
+                </p>
 
+            </div>
         </div>
-    </div>
 
-    <div id="pop3" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-            <h4>Verwenden Sie Grauwasser wieder</h4>
-            <p>
-                Grauwasser ist gebrauchtes Wasser, z.B. vom Kochen, aus Eiskübeln oder Regenwasser. Wenn es richtig aufbereitet wird, kann mit Grauwasser eine Menge Wasser eingespart werden. Beispielsweise kann Wasser, das zum Kochen von Gemüse oder Eiern verwendet wird, nachdem es abgekühlt ist für den Garten oder die Pflanzen im Restaurant benutzt werden. Auch aufgefangenes Regenwasser kann dazu verwendet werden, die Pflanzen zu bewässern oder den Außenbereich zu reinigen. Achten Sie darauf, dass das wiederverwendete Grauwasser kein Salz enthält, da dies den Pflanzen schadet. Außerdem sollten Sie sicherstellen, dass die Wasserauffangbehälter verschlossen und regelmäßig geleert werden, um beispielsweise einen Insektenbefall zu verhindern.
-            </p>
+        <div id="pop3" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+                <h4>Verwenden Sie Grauwasser wieder</h4>
+                <p>
+                    Grauwasser ist gebrauchtes Wasser, z.B. vom Kochen, aus Eiskübeln oder Regenwasser. Wenn es richtig aufbereitet wird, kann mit Grauwasser eine Menge Wasser eingespart werden. Beispielsweise kann Wasser, das zum Kochen von Gemüse oder Eiern verwendet wird, nachdem es abgekühlt ist für den Garten oder die Pflanzen im Restaurant benutzt werden. Auch aufgefangenes Regenwasser kann dazu verwendet werden, die Pflanzen zu bewässern oder den Außenbereich zu reinigen. Achten Sie darauf, dass das wiederverwendete Grauwasser kein Salz enthält, da dies den Pflanzen schadet. Außerdem sollten Sie sicherstellen, dass die Wasserauffangbehälter verschlossen und regelmäßig geleert werden, um beispielsweise einen Insektenbefall zu verhindern.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
 
-    <script src="jquery/page1.js"></script>
-    <!-- Swiper JS -->
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
+        <script src="jquery/page1.js"></script>
+        <!-- Swiper JS -->
+        <script>
+            //pageSlider swiper
+            function openPopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "block");
+            }
 
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".nextStepCta a").click(function() {
-                $(".nav-tabs .nav-item").removeClass("active");
-                $(this).addClass("active");
+            function closePopUp(Id) {
+                //alert(Id);
+                $("#pop" + Id).css("display", "none");
+            }
+            var swiper = new Swiper(".pageSwiper1", {
+                grabCursor: true,
+                centeredSlides: true,
+                initialSlide: 1,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 30,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                    prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+                },
+                pagination: {
+                    el: ".swiper-pagination.pageSwiper1Pagination",
+                },
             });
-        });
-    </script>
-
-
-
-    <script>
-        $(document).ready(function() {
-            $('#hide_show_content').click(function() {
-                var collapse_content_selector = $(this).attr('href');
-                var toggle_switch = $(this);
-                $(collapse_content_selector).toggle(function() {
-                    if ($(this).css('display') == 'none') {
-                        toggle_switch.html('Read More');
-                    } else {
-                        toggle_switch.html('Read Less');
-                    }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".nextStepCta a").click(function() {
+                    $(".nav-tabs .nav-item").removeClass("active");
+                    $(this).addClass("active");
                 });
             });
+        </script>
 
-        });
-    </script>
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-    <script src="./assets/js/common.js"></script>
+
+
+        <script>
+            $(document).ready(function() {
+                $('#hide_show_content').click(function() {
+                    var collapse_content_selector = $(this).attr('href');
+                    var toggle_switch = $(this);
+                    $(collapse_content_selector).toggle(function() {
+                        if ($(this).css('display') == 'none') {
+                            toggle_switch.html('Read More');
+                        } else {
+                            toggle_switch.html('Read Less');
+                        }
+                    });
+                });
+
+            });
+        </script>
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+        <script src="./assets/js/common.js"></script>
 </body>
 
 </html>

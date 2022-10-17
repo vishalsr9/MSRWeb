@@ -737,8 +737,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="explore-responsible-sourcing-deu.php" selected>DEU</option>
-                        <option value="explore-responsible-sourcing-eng.php">ENG</option>
+                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
+                        <option value="introduction-to-food-waste-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -782,6 +782,9 @@
                             </li>
                         </div>
                         <li>
+                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        </li>
+                        <li>
                             <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
                         </li>
                     </ul>
@@ -813,17 +816,17 @@
                     <div class="footer-socials side_nav">
                         <ul>
                             <li>
-                                <a href="https://de-de.facebook.com/metro.deutschland/" target="_blank">
+                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/youtube" target="_blank">
+                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
+                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
@@ -3079,24 +3082,17 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Impressum</a></li>
-
-                        <li><a href="https://www.metroag.de/datenschutz" title="" target="_blank">Datenschutz</a></li>
-
-                        <li><a href="https://www.metroag.de/nutzungsbedingungen" title="" target="_blank">Nutzungsbedingungen</a></li>
-
-                        <li><a href="https://www.metroag.de/kontakt" title="" target="_blank">Kontakt</a></li>
-
+                        <li><a href="https://www.metro.de/unternehmen/impressum" title="" target="_blank">Impressum</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/datenschutzallgemein" title="" target="_blank">Datenschutz</a></li>
+                        <li><a href="https://www.metro.de/unternehmen/agb_allgemein" title="" target="_blank">Nutzungsbedingungen</a></li>
+                        <li><a href="https://www.metro.de/kontakt" title="" target="_blank">Kontakt</a></li>
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>
-                        <li><a href="https://de-de.facebook.com/metro.deutschland/" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/metro.deutschland" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/metro_deutschland/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     </ul>
@@ -3106,464 +3102,462 @@
 
         </div>
 
-    </div>
 
 
 
 
-
-    <div id="pop1" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
-            <h4>
-                Überprüfen Sie Ihre Einkäufe
-            </h4>
-            <p>
-                Schauen Sie sich Ihre wichtigsten Zutaten an. Wissen Sie, wie nachhaltig diese sind? Anfangs sollten Sie sich auf die Zutaten konzentrieren, die für Ihren Betrieb am wichtigsten sind. Nachhaltige Produkte erfüllen mindestens eines der folgenden Merkmale: Sie sind lokal und/oder regional, saisonal, ökologisch, fair gehandelt, aus artgerechter Tierhaltung, aus verantwortungsvoller Fischerei, nährstoffreich, verursachen weniger Abfall, tragen zur Artenvielfalt bei, haben einen minimalen Kohlenstoff- und Wasserverbrauch.
-            </p>
+        <div id="pop1" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(1);">X</a>
+                <h4>
+                    Überprüfen Sie Ihre Einkäufe
+                </h4>
+                <p>
+                    Schauen Sie sich Ihre wichtigsten Zutaten an. Wissen Sie, wie nachhaltig diese sind? Anfangs sollten Sie sich auf die Zutaten konzentrieren, die für Ihren Betrieb am wichtigsten sind. Nachhaltige Produkte erfüllen mindestens eines der folgenden Merkmale: Sie sind lokal und/oder regional, saisonal, ökologisch, fair gehandelt, aus artgerechter Tierhaltung, aus verantwortungsvoller Fischerei, nährstoffreich, verursachen weniger Abfall, tragen zur Artenvielfalt bei, haben einen minimalen Kohlenstoff- und Wasserverbrauch.
+                </p>
+            </div>
         </div>
-    </div>
-    <div id="pop2" class="modalx">
-        <div class="modalx-content text-left">
-            <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
-            <h4>
-                Überprüfen Sie, wer Ihre Produkte liefert
-            </h4>
-            <p class="justify1">
-                Lernen Sie Ihre Lieferanten kennen, und wenn möglich, besuchen Sie sie, um sich über ihre Produktionsmethoden zu informieren. Stellen Sie Fragen wie z.B.:
-            </p>
-            <ul>
-                <li>
-                    Um welche Form der Tierhaltung handelt es sich (Stall, Käfig, Freiland)? Wie viel Zeit verbringen die Tiere drinnen? Wie viel Platz haben die Tiere im Käfig?
-                </li>
-                <li>Womit werden die Tiere gefüttert? Beispielsweise mit Gras oder Soja, was nicht zertifiziert ist?</li>
-                <li>
-                    Wie wird Ihr Obst und Gemüse vor Schädlingen geschützt? Mit natürlichen Methoden oder mit chemischen Pestiziden?
-                </li>
-                <li>Wird der Fisch gezüchtet oder gefangen?</li>
-                <li>Um welche Fischart handelt es sich bei dem verkauften Fisch?</li>
-                <li>Wo wurde der Fisch gefangen?</li>
-                <li>Verfügt der Fisch über ein Qualitätssiegel oder Auszeichnung?</li>
-                <li>Wurden bei der Herstellung des verwendeten Palmöls und Sojas die Wälder geschützt?</li>
-                <li>Wie verfolgen Ihre Lieferanten ihre Produkte zurück?</li>
-                <li>Welche Informationen können Ihre Lieferanten zur Verfügung stellen?</li>
-            </ul>
+        <div id="pop2" class="modalx">
+            <div class="modalx-content text-left">
+                <a class="btn-close-popup" onclick="closePopUp(2);">X</a>
+                <h4>
+                    Überprüfen Sie, wer Ihre Produkte liefert
+                </h4>
+                <p class="justify1">
+                    Lernen Sie Ihre Lieferanten kennen, und wenn möglich, besuchen Sie sie, um sich über ihre Produktionsmethoden zu informieren. Stellen Sie Fragen wie z.B.:
+                </p>
+                <ul>
+                    <li>
+                        Um welche Form der Tierhaltung handelt es sich (Stall, Käfig, Freiland)? Wie viel Zeit verbringen die Tiere drinnen? Wie viel Platz haben die Tiere im Käfig?
+                    </li>
+                    <li>Womit werden die Tiere gefüttert? Beispielsweise mit Gras oder Soja, was nicht zertifiziert ist?</li>
+                    <li>
+                        Wie wird Ihr Obst und Gemüse vor Schädlingen geschützt? Mit natürlichen Methoden oder mit chemischen Pestiziden?
+                    </li>
+                    <li>Wird der Fisch gezüchtet oder gefangen?</li>
+                    <li>Um welche Fischart handelt es sich bei dem verkauften Fisch?</li>
+                    <li>Wo wurde der Fisch gefangen?</li>
+                    <li>Verfügt der Fisch über ein Qualitätssiegel oder Auszeichnung?</li>
+                    <li>Wurden bei der Herstellung des verwendeten Palmöls und Sojas die Wälder geschützt?</li>
+                    <li>Wie verfolgen Ihre Lieferanten ihre Produkte zurück?</li>
+                    <li>Welche Informationen können Ihre Lieferanten zur Verfügung stellen?</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div id="pop3" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
-            <h4>
-                Machen Sie die Herkunft Ihrer Produkte bekannt
-            </h4>
-            <p>
-                Einige Lieferanten verwenden Codes, um zu zeigen, dass sie den Ursprung ihrer Produkte nachverfolgen können. Manchmal geschieht dies digital über eine App. Fragen Sie Ihre Lieferanten, ob Sie diese Informationen mit einem QR-Code auf Ihrer Speisekarte ausweisen können, damit Ihre Gäste sich genauer informieren können. Erkundigen Sie sich, ob Ihr Lieferant eine Website hat oder die sozialen Medien nutzt, auf der Sie aktuelle Informationen finden und auf die Sie ebenfalls Ihre Gäste verweisen können, falls diese mehr darüber erfahren möchten. Sie müssen nicht zu jedem Produkt Informationen bereitstellen. Ihre Gäste erwarten aber, dass Sie offen und transparent sind.
-            </p>
+        <div id="pop3" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(3);">X</a>
+                <h4>
+                    Machen Sie die Herkunft Ihrer Produkte bekannt
+                </h4>
+                <p>
+                    Einige Lieferanten verwenden Codes, um zu zeigen, dass sie den Ursprung ihrer Produkte nachverfolgen können. Manchmal geschieht dies digital über eine App. Fragen Sie Ihre Lieferanten, ob Sie diese Informationen mit einem QR-Code auf Ihrer Speisekarte ausweisen können, damit Ihre Gäste sich genauer informieren können. Erkundigen Sie sich, ob Ihr Lieferant eine Website hat oder die sozialen Medien nutzt, auf der Sie aktuelle Informationen finden und auf die Sie ebenfalls Ihre Gäste verweisen können, falls diese mehr darüber erfahren möchten. Sie müssen nicht zu jedem Produkt Informationen bereitstellen. Ihre Gäste erwarten aber, dass Sie offen und transparent sind.
+                </p>
+            </div>
         </div>
-    </div>
-    <div id="pop4" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
-            <h4>Beziehen Sie Ihr Personal ein</h4>
-            <p>
-                Beziehen Sie Ihre Mitarbeitenden von Anfang an mit ein und erklären Sie, warum Sie dies tun. Erläutern Sie die verschiedenen Möglichkeiten eines verantwortungsbewussten Einkaufs, z.B. lokal, regional, saisonal. Verwenden Sie visuelle Erinnerungshilfen, z.B. Poster mit saisonalen Kalendern im Büro oder in der Küche.
-            </p>
+        <div id="pop4" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(4);">X</a>
+                <h4>Beziehen Sie Ihr Personal ein</h4>
+                <p>
+                    Beziehen Sie Ihre Mitarbeitenden von Anfang an mit ein und erklären Sie, warum Sie dies tun. Erläutern Sie die verschiedenen Möglichkeiten eines verantwortungsbewussten Einkaufs, z.B. lokal, regional, saisonal. Verwenden Sie visuelle Erinnerungshilfen, z.B. Poster mit saisonalen Kalendern im Büro oder in der Küche.
+                </p>
+            </div>
         </div>
-    </div>
-    <div id="pop5" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
-            <h4>
-                Schauen Sie sich die Zutaten an, die Sie am häufigsten verwenden und kaufen Sie diese nachhaltig ein
-            </h4>
-            <p>
-                Der verantwortungsbewusste Einkauf ist ein komplexes Thema und kurzfristige Änderungen können herausfordernd sein. Bei den Zutaten, die Sie am häufigsten verwenden, gibt es einige Maßnahmen, mit denen Sie starten können:
-            </p>
-            <ul>
-                <li>
-                    Setzen Sie auf <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" target="_blank">lokale und saisonale Produkte</a>. Wechseln Sie zu Produkten, die leicht auszutauschen sind, z.B. saisonales Gemüse aus lokalem Anbau </li>
-                <li>Führen Sie <a href="https://www.metro.de/produktwelten/bio-produkte" target="_blank">Bio-Produkte</a> ein</li>
-                <li>
-                    Führen Sie zertifizierte Produkte ein, z.B. Fairtrade-Kaffee, MSC- oder ASC-zertifizierten Fisch, Bio-Fleisch
-                </li>
-                <li>Stellen Sie sicher, dass Ihre Eier von Hühnern aus Freilandhaltung stammen</li>
-                <li>Ersetzen Sie gefährdeten Fisch durch eine Alternative. Der MSC bietet Ihnen dazu einen interaktiven Leitfaden.</li>
-                <li>Ersetzen Sie Einwegprodukte aus Plastik durch <a href="https://prospekte.metro.de/plastikverbot/page/1?_ga=2.3470128.1274588778.1664883760-408353168.1663146057" target="_blank">Alternativen</a></li>
-                <li>
-                    Ersetzen Sie Produkte mit hohem Zucker-, Salz- und Transfettgehalt durch nährstoffreiche und gesunde Alternativen
-                </li>
-            </ul>
+        <div id="pop5" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(5);">X</a>
+                <h4>
+                    Schauen Sie sich die Zutaten an, die Sie am häufigsten verwenden und kaufen Sie diese nachhaltig ein
+                </h4>
+                <p>
+                    Der verantwortungsbewusste Einkauf ist ein komplexes Thema und kurzfristige Änderungen können herausfordernd sein. Bei den Zutaten, die Sie am häufigsten verwenden, gibt es einige Maßnahmen, mit denen Sie starten können:
+                </p>
+                <ul>
+                    <li>
+                        Setzen Sie auf <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional" target="_blank">lokale und saisonale Produkte</a>. Wechseln Sie zu Produkten, die leicht auszutauschen sind, z.B. saisonales Gemüse aus lokalem Anbau </li>
+                    <li>Führen Sie <a href="https://www.metro.de/produktwelten/bio-produkte" target="_blank">Bio-Produkte</a> ein</li>
+                    <li>
+                        Führen Sie zertifizierte Produkte ein, z.B. Fairtrade-Kaffee, MSC- oder ASC-zertifizierten Fisch, Bio-Fleisch
+                    </li>
+                    <li>Stellen Sie sicher, dass Ihre Eier von Hühnern aus Freilandhaltung stammen</li>
+                    <li>Ersetzen Sie gefährdeten Fisch durch eine Alternative. Der MSC bietet Ihnen dazu einen interaktiven Leitfaden.</li>
+                    <li>Ersetzen Sie Einwegprodukte aus Plastik durch <a href="https://prospekte.metro.de/plastikverbot/page/1?_ga=2.3470128.1274588778.1664883760-408353168.1663146057" target="_blank">Alternativen</a></li>
+                    <li>
+                        Ersetzen Sie Produkte mit hohem Zucker-, Salz- und Transfettgehalt durch nährstoffreiche und gesunde Alternativen
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div id="pop6" class="modalx">
-        <div class="modalx-content">
-            <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
-            <h4>
-                Nutzen Sie den Leitfaden für nachhaltige Produkte
-            </h4>
-            <p>
-                Ausführlichere Informationen finden Sie in unserem Leitfaden für nachhaltige Produkte und in unserer Übersicht der Qualitätssiegel. Nutzen Sie diese als zusätzliche Information für Fragen Ihres Personals oder Ihrer Gäste.
-            </p>
+        <div id="pop6" class="modalx">
+            <div class="modalx-content">
+                <a class="btn-close-popup" onclick="closePopUp(6);">X</a>
+                <h4>
+                    Nutzen Sie den Leitfaden für nachhaltige Produkte
+                </h4>
+                <p>
+                    Ausführlichere Informationen finden Sie in unserem Leitfaden für nachhaltige Produkte und in unserer Übersicht der Qualitätssiegel. Nutzen Sie diese als zusätzliche Information für Fragen Ihres Personals oder Ihrer Gäste.
+                </p>
+            </div>
         </div>
-    </div>
 
 
 
 
 
 
-    <script>
-        //schemes and certifications script
-        window.onload = function() {
-            BindTopics();
-            var topicno = "1";
-            BindSubTopics(topicno);
-            $("li#topic0>a.topic-link>div.ltext").addClass("scheme-activev1");
-            $("#topic0>a>div.yarrow>img").css("display", "block");
-
-        };
-
-        function BindTopics() {
-            var listTopics = "";
-            listTopics += "<ul id='topics'>";
-            for (var t = 0; t < jasonData.Topics.length; t++) {
-                listTopics += "<li class='topic-box' id='" + "topic" + t + "'><a class='topic-link' data-topicindex=" + t + " onclick='highLightTopic9(this);'><div class='ltext'>" + jasonData.Topics[t]["data-heading"] + "</div><div class='yarrow'><img src='images/resp_sourcing/scheme-yellow-arow.svg' class='img-fluid scheme-yellow-arow arrow-show'></div></a></li>";
-            }
-            listTopics += "</ul>";
-            $("#subtopics9").show();
-            $("#sl9").hide();
-            $("#topics9").html(listTopics);
-            return false;
-        };
-
-        function BindSubTopics(topicno) {
-            $("#subtopics9").html("");
-            var subTopics = "";
-            subTopics += "<div class='row'>";
-            if (topicno == "3") {
-                subTopics += "<span id='d-border1'></span>";
-            }
-            if (topicno == "1") {
-                for (var t = 0; t < jasonData.Topics[0].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='1' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[0].subTopics[t]["sid"] + ">" + jasonData.Topics[0].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "2") {
-                for (var t = 0; t < jasonData.Topics[1].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='2' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[1].subTopics[t]["sid"] + ">" + jasonData.Topics[1].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "3") {
-                for (var t = 0; t < jasonData.Topics[2].subTopics.length; t++) {
-                    subTopics += "<div class='col-md-3 mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='3' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[2].subTopics[t]["sid"] + ">" + jasonData.Topics[2].subTopics[t]["data-text"] + "</a></div>";
-                }
-            } else if (topicno == "4") {
-                for (var t = 0; t < jasonData.Topics[3].subTopics.length; t++) {
-                    subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='4' data-cellno=" + (t) + " data-id=" + jasonData.Topics[3].subTopics[t]["sid"] + ">" + jasonData.Topics[3].subTopics[t]["data-text"] + "</a></div>";
-                }
-            }
-            subTopics += "</div>";
-
-            $("#subtopics9").html(subTopics);
-            return false;
-        };
-
-        function ShowInSlider(elem) {
-            var topicno = $(elem).data("topicno");
-            var cellno = $(elem).data("cellno");
-            $("#subtopicsDiv").hide();
-            CreateSlider(topicno, cellno);
-            return false;
-        };
-
-        function CreateSlider(topicno, cellno) {
-
-            var swiper9 = new Swiper(".sw9", {
-                pagination: {
-                    el: ".swiper-pagination.sw9pag",
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next.sw5",
-                    prevEl: ".swiper-button-prev.sw5",
-                },
-            });
-            var swiper10 = new Swiper(".sw10", {
-                pagination: {
-                    el: ".swiper-pagination.sw9pag",
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next.sw5",
-                    prevEl: ".swiper-button-prev.sw5",
-                },
-            });
-            var swiper11 = new Swiper(".sw11", {
-                pagination: {
-                    el: ".swiper-pagination.sw9pag",
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next.sw5",
-                    prevEl: ".swiper-button-prev.sw5",
-                },
-            });
-
-            var swiper12 = new Swiper(".sw12", {
-                pagination: {
-                    el: ".swiper-pagination.sw9pag",
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next.sw5",
-                    prevEl: ".swiper-button-prev.sw5",
-                },
-            });
-
-
-            if (topicno == "1") {
-                $(".scheme-slider-1").css("display", "block");
-                swiper10.slideTo(cellno);
-            } else if (topicno == "2") {
-                $(".scheme-slider-2").css("display", "block");
-                swiper11.slideTo(cellno);
-            } else if (topicno == "3") {
-                $(".scheme-slider-3").css("display", "block");
-                swiper9.slideTo(cellno);
-            } else if (topicno == "4") {
-                $(".scheme-slider-4").css("display", "block");
-                swiper12.slideTo(cellno);
-            }
-
-            return false;
-        };
-
-        function highLightTopic9(elem) {
-
-            var topicno = $(elem).data("topicindex");
-            $("#subtopicsDiv").show();
-
-            $("d-border9").addClass(".noshow");
-            $(".yarrow>img").css("display", "none");
-            $(".scheme-slider-4").css("display", "none");
-            $(".scheme-slider-3").css("display", "none");
-            $(".scheme-slider-2").css("display", "none");
-            $(".scheme-slider-1").css("display", "none");
-            //hide subtopicsDic
-            //$("#SubTopicsDiv").css("visibility", "hidden");
-            //alert(topicno);
-            $("li#topic0>a.topic-link>div.ltext").addClass("scheme-inactivev1");
-            $("li#topic1>a.topic-link>div.ltext").addClass("scheme-inactivev1");
-            $("li#topic2>a.topic-link>div.ltext").addClass("scheme-inactivev1");
-            $("li#topic3>a.topic-link>div.ltext").addClass("scheme-inactivev1");
-            if (topicno == "0") {
-                $("li#topic0>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
+        <script>
+            //schemes and certifications script
+            window.onload = function() {
+                BindTopics();
+                var topicno = "1";
+                BindSubTopics(topicno);
                 $("li#topic0>a.topic-link>div.ltext").addClass("scheme-activev1");
                 $("#topic0>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "1") {
-                $("li#topic1>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
-                $("li#topic1>a.topic-link>div.ltext").addClass("scheme-activev1");
-                $("#topic1>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "2") {
-                $("li#topic2>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
-                $("li#topic2>a.topic-link>div.ltext").addClass("scheme-activev1");
-                $("#topic2>a>div.yarrow>img").css("display", "block");
-            } else if (topicno == "3") {
-                $("li#topic3>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
-                $("li#topic3>a.topic-link>div.ltext").addClass("scheme-activev1");
-                $("#topic3>a>div.yarrow>img").css("display", "block");
-            }
 
-            BindSubTopics(topicno + 1);
+            };
 
-            return false;
-        };
+            function BindTopics() {
+                var listTopics = "";
+                listTopics += "<ul id='topics'>";
+                for (var t = 0; t < jasonData.Topics.length; t++) {
+                    listTopics += "<li class='topic-box' id='" + "topic" + t + "'><a class='topic-link' data-topicindex=" + t + " onclick='highLightTopic9(this);'><div class='ltext'>" + jasonData.Topics[t]["data-heading"] + "</div><div class='yarrow'><img src='images/resp_sourcing/scheme-yellow-arow.svg' class='img-fluid scheme-yellow-arow arrow-show'></div></a></li>";
+                }
+                listTopics += "</ul>";
+                $("#subtopics9").show();
+                $("#sl9").hide();
+                $("#topics9").html(listTopics);
+                return false;
+            };
 
-        function closeSlider() {
-            $(".scheme-slider-4").css("display", "none");
-            $(".scheme-slider-3").css("display", "none");
-            $(".scheme-slider-2").css("display", "none");
-            $(".scheme-slider-1").css("display", "none");
-            $("#subtopicsDiv").show();
-            return false;
-        };
-        $(document).ready(function() { //working
-            $("a.topic-link").click(function() {
-                //alert("Clicked");
-                //$("li.topic-box:first-child").css("font-weight", "normal");
-                //$("li.topic-box:first-child>a>div.yarrow>img").css("display", "none");
+            function BindSubTopics(topicno) {
+                $("#subtopics9").html("");
+                var subTopics = "";
+                subTopics += "<div class='row'>";
+                if (topicno == "3") {
+                    subTopics += "<span id='d-border1'></span>";
+                }
+                if (topicno == "1") {
+                    for (var t = 0; t < jasonData.Topics[0].subTopics.length; t++) {
+                        subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='1' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[0].subTopics[t]["sid"] + ">" + jasonData.Topics[0].subTopics[t]["data-text"] + "</a></div>";
+                    }
+                } else if (topicno == "2") {
+                    for (var t = 0; t < jasonData.Topics[1].subTopics.length; t++) {
+                        subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='2' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[1].subTopics[t]["sid"] + ">" + jasonData.Topics[1].subTopics[t]["data-text"] + "</a></div>";
+                    }
+                } else if (topicno == "3") {
+                    for (var t = 0; t < jasonData.Topics[2].subTopics.length; t++) {
+                        subTopics += "<div class='col-md-3 mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='3' data-cellno=" + (t) + "  data-id=" + jasonData.Topics[2].subTopics[t]["sid"] + ">" + jasonData.Topics[2].subTopics[t]["data-text"] + "</a></div>";
+                    }
+                } else if (topicno == "4") {
+                    for (var t = 0; t < jasonData.Topics[3].subTopics.length; t++) {
+                        subTopics += "<div class='col mx-1 my-1 mt-1 mb-1 sc-block'><a class='sc-block-link' onclick='ShowInSlider(this);' data-topicno='4' data-cellno=" + (t) + " data-id=" + jasonData.Topics[3].subTopics[t]["sid"] + ">" + jasonData.Topics[3].subTopics[t]["data-text"] + "</a></div>";
+                    }
+                }
+                subTopics += "</div>";
+
+                $("#subtopics9").html(subTopics);
+                return false;
+            };
+
+            function ShowInSlider(elem) {
+                var topicno = $(elem).data("topicno");
+                var cellno = $(elem).data("cellno");
+                $("#subtopicsDiv").hide();
+                CreateSlider(topicno, cellno);
+                return false;
+            };
+
+            function CreateSlider(topicno, cellno) {
+
+                var swiper9 = new Swiper(".sw9", {
+                    pagination: {
+                        el: ".swiper-pagination.sw9pag",
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next.sw5",
+                        prevEl: ".swiper-button-prev.sw5",
+                    },
+                });
+                var swiper10 = new Swiper(".sw10", {
+                    pagination: {
+                        el: ".swiper-pagination.sw9pag",
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next.sw5",
+                        prevEl: ".swiper-button-prev.sw5",
+                    },
+                });
+                var swiper11 = new Swiper(".sw11", {
+                    pagination: {
+                        el: ".swiper-pagination.sw9pag",
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next.sw5",
+                        prevEl: ".swiper-button-prev.sw5",
+                    },
+                });
+
+                var swiper12 = new Swiper(".sw12", {
+                    pagination: {
+                        el: ".swiper-pagination.sw9pag",
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next.sw5",
+                        prevEl: ".swiper-button-prev.sw5",
+                    },
+                });
+
+
+                if (topicno == "1") {
+                    $(".scheme-slider-1").css("display", "block");
+                    swiper10.slideTo(cellno);
+                } else if (topicno == "2") {
+                    $(".scheme-slider-2").css("display", "block");
+                    swiper11.slideTo(cellno);
+                } else if (topicno == "3") {
+                    $(".scheme-slider-3").css("display", "block");
+                    swiper9.slideTo(cellno);
+                } else if (topicno == "4") {
+                    $(".scheme-slider-4").css("display", "block");
+                    swiper12.slideTo(cellno);
+                }
+
+                return false;
+            };
+
+            function highLightTopic9(elem) {
+
+                var topicno = $(elem).data("topicindex");
+                $("#subtopicsDiv").show();
+
+                $("d-border9").addClass(".noshow");
+                $(".yarrow>img").css("display", "none");
+                $(".scheme-slider-4").css("display", "none");
+                $(".scheme-slider-3").css("display", "none");
+                $(".scheme-slider-2").css("display", "none");
+                $(".scheme-slider-1").css("display", "none");
+                //hide subtopicsDic
+                //$("#SubTopicsDiv").css("visibility", "hidden");
+                //alert(topicno);
+                $("li#topic0>a.topic-link>div.ltext").addClass("scheme-inactivev1");
+                $("li#topic1>a.topic-link>div.ltext").addClass("scheme-inactivev1");
+                $("li#topic2>a.topic-link>div.ltext").addClass("scheme-inactivev1");
+                $("li#topic3>a.topic-link>div.ltext").addClass("scheme-inactivev1");
+                if (topicno == "0") {
+                    $("li#topic0>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
+                    $("li#topic0>a.topic-link>div.ltext").addClass("scheme-activev1");
+                    $("#topic0>a>div.yarrow>img").css("display", "block");
+                } else if (topicno == "1") {
+                    $("li#topic1>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
+                    $("li#topic1>a.topic-link>div.ltext").addClass("scheme-activev1");
+                    $("#topic1>a>div.yarrow>img").css("display", "block");
+                } else if (topicno == "2") {
+                    $("li#topic2>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
+                    $("li#topic2>a.topic-link>div.ltext").addClass("scheme-activev1");
+                    $("#topic2>a>div.yarrow>img").css("display", "block");
+                } else if (topicno == "3") {
+                    $("li#topic3>a.topic-link>div.ltext").removeClass("scheme-inactivev1");
+                    $("li#topic3>a.topic-link>div.ltext").addClass("scheme-activev1");
+                    $("#topic3>a>div.yarrow>img").css("display", "block");
+                }
+
+                BindSubTopics(topicno + 1);
+
+                return false;
+            };
+
+            function closeSlider() {
+                $(".scheme-slider-4").css("display", "none");
+                $(".scheme-slider-3").css("display", "none");
+                $(".scheme-slider-2").css("display", "none");
+                $(".scheme-slider-1").css("display", "none");
+                $("#subtopicsDiv").show();
+                return false;
+            };
+            $(document).ready(function() { //working
+                $("a.topic-link").click(function() {
+                    //alert("Clicked");
+                    //$("li.topic-box:first-child").css("font-weight", "normal");
+                    //$("li.topic-box:first-child>a>div.yarrow>img").css("display", "none");
+                });
             });
-        });
 
 
 
 
-        var jasonData = {
-            "Topics": [{
-                    "id": "topic1",
-                    "data-heading": "Siegel, die faire Preise und eine faire Behandlung der Arbeitnehmenden garantieren",
-                    "subTopics": [{
-                            "sid": "s11",
-                            "data-text": "FAIRTRADE",
-                            "icon-url": "images/resp_sourcing/scheme-logos/Fairtrade_Certification_Mark.svg.png",
-                            "desc": "FAIRTRADE is a scheme with a label that brings together NGOs and producers’ representatives. It guarantees that the product has been purchased at a fair price from producers and produced under conditions that respect human rights, for example, no forced labour and respect of the environment."
-                        },
-                        {
-                            "sid": "s12",
-                            "data-text": "GEPA ",
-                            "icon-url": "images/resp_sourcing/scheme-logos/GEPA.png",
-                            "desc": "GEPA is an enterprise that practices 100 per cent Fair Trade and any surplus is exclusively re-invested in Fair Trade."
-                        },
-                    ]
-                },
-                {
-                    "id": "topic2",
-                    "data-heading": "Siegel, die Herkunft und Produktionsweisen zertifizieren ",
-                    "subTopics": [{
-                        "sid": "s21",
-                        "data-text": "Geographische Herkunftsangaben und traditionelle Spezialitäten",
-                        "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
-                        "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
-                    }, {
-                        "sid": "s22",
-                        "data-text": "EU-Kennzeichnungen",
-                        "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
-                        "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
-                    }, ]
-                },
-                {
-                    "id": "topic3",
-                    "data-heading": "Siegel, die eine bestimmte Produktionsweise garantieren",
-                    "subTopics": [{
-                            "sid": "s31",
-                            "data-text": "Das EU-Bio-Siegel",
-                            "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
-                            "desc": "EU Organic Farming is a scheme that ensures that the production method is respectful of the environment and animal welfare. The rules governing the organic production method are the same throughout Europe, and imported products are subject to the same requirements. Approved products carry the EU organic logo."
-                        },
-                        {
-                            "sid": "s32",
-                            "data-text": "GLOBALG.A.P.",
-                            "icon-url": "icon url 3-2"
-                        },
-                        {
-                            "sid": "s33",
-                            "data-text": "GGN-Siegel",
-                            "icon-url": "icon url 3-3"
-                        },
-                        {
-                            "sid": "s34",
-                            "data-text": "Aquaculture Stewardship Council (ASC)",
-                            "icon-url": "icon url 3-4"
-                        },
-                        {
-                            "sid": "s34",
-                            "data-text": "Marine Stewardship Council (MSC)",
-                            "icon-url": "icon url 3-5"
-                        },
-                        {
-                            "sid": "s35",
-                            "data-text": "Forest Stewardship Council (FSC)",
-                            "icon-url": "icon url 3-6"
-                        },
-                        {
-                            "sid": "s36",
-                            "data-text": "Program for Endorsement for Forest Certification (PEFC)",
-                            "icon-url": "icon url 3-7"
-                        },
-                        {
-                            "sid": "s38",
-                            "data-text": "Roundtable for Responsible Soy (RTRS)",
-                            "icon-url": "icon url 3-8"
-                        },
-                        {
-                            "sid": "s39",
-                            "data-text": "Roundtable on Sustainable Palm Oil (RSPO)",
-                            "icon-url": "icon url 3-9"
-                        },
-                    ]
-                },
-                {
-                    "id": "topic4",
-                    "data-heading": "Siegel, die die Kompostierbarkeit von Verpackungen garantieren",
-                    "subTopics": [{
-                            "sid": "s41",
-                            "data-text": "Kompostierbare Verpackungen für private Haushalte (HCP)",
-                            "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
-                            "desc": "HOME COMPOSTABLE PACKAGING is shown by a logo that indicates that the packaging can compost at ambient temperatures (20-30°C) within 52 weeks according to European standard EN 13432. The certifying body is placed next to the logo with the company’s reference number. This packaging is also compostable. "
-                        },
-                        {
-                            "sid": "s42",
-                            "data-text": "Kompostierbare Industrieverpackungen (ICP)",
-                            "icon-url": "icon url 4-2"
-                        },
-                    ]
-                },
-            ]
-        };
-    </script>
-    <script type="text/javascript">
-        //comprehensive guide
-        function ButtonNext9Click() {
-            //alert("click" );
-            quPop("n-Ul");
-            quPop("ulContent1");
-            return false;
-        };
-
-        function quPop(qu) {
-            var qu1 = document.getElementById(qu);
-            var elements = qu1.getElementsByTagName("li");
-            var top = elements[0];
-            qu1.removeChild(elements[0]);
-            qu1.appendChild(top);
-            return false;
-        };
-
-        $(".n-li").click(function(event) {
-            var index9 = $(".n-li").index(this);
-            //alert("click" + index9);
-            linkPop(index9);
-            return false;
-        });
-
-        $(document).ready(function() {
-            //var elem = $("#ulqu1 > li:first > .product-box > .aqu > div:first");
-            //$("#ulqu1 > li:first > .product-box > .aqu >  .xzd").removeClass("product-icon-1");
-            //$("#ulqu1 > li:first > .product-box > .aqu >  .xzd").addClass("active-icon1");
-
-        });
-
-        function linkPop(liindex9) {
-            for (var i = 0; i < liindex9; i++) {
+            var jasonData = {
+                "Topics": [{
+                        "id": "topic1",
+                        "data-heading": "Siegel, die faire Preise und eine faire Behandlung der Arbeitnehmenden garantieren",
+                        "subTopics": [{
+                                "sid": "s11",
+                                "data-text": "FAIRTRADE",
+                                "icon-url": "images/resp_sourcing/scheme-logos/Fairtrade_Certification_Mark.svg.png",
+                                "desc": "FAIRTRADE is a scheme with a label that brings together NGOs and producers’ representatives. It guarantees that the product has been purchased at a fair price from producers and produced under conditions that respect human rights, for example, no forced labour and respect of the environment."
+                            },
+                            {
+                                "sid": "s12",
+                                "data-text": "GEPA ",
+                                "icon-url": "images/resp_sourcing/scheme-logos/GEPA.png",
+                                "desc": "GEPA is an enterprise that practices 100 per cent Fair Trade and any surplus is exclusively re-invested in Fair Trade."
+                            },
+                        ]
+                    },
+                    {
+                        "id": "topic2",
+                        "data-heading": "Siegel, die Herkunft und Produktionsweisen zertifizieren ",
+                        "subTopics": [{
+                            "sid": "s21",
+                            "data-text": "Geographische Herkunftsangaben und traditionelle Spezialitäten",
+                            "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
+                            "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
+                        }, {
+                            "sid": "s22",
+                            "data-text": "EU-Kennzeichnungen",
+                            "icon-url": "images/resp_sourcing/scheme-logos/EU SCHEMES.jpg",
+                            "desc": "EU SCHEMES The EU schemes that protect specialities are the PDO (protected designation of origin), PDI (protected geographical indication) and TSG (traditional specialities guaranteed). The EU scheme works in parallel with some country specific schemes such as AOC in France and DOC in Romania. The products covered by the scheme are wines, cheeses, hams, sausages, seafood, olives, olive oils, beers, balsamic vinegar, regional breads, fruits, vegetables and raw meats."
+                        }, ]
+                    },
+                    {
+                        "id": "topic3",
+                        "data-heading": "Siegel, die eine bestimmte Produktionsweise garantieren",
+                        "subTopics": [{
+                                "sid": "s31",
+                                "data-text": "Das EU-Bio-Siegel",
+                                "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
+                                "desc": "EU Organic Farming is a scheme that ensures that the production method is respectful of the environment and animal welfare. The rules governing the organic production method are the same throughout Europe, and imported products are subject to the same requirements. Approved products carry the EU organic logo."
+                            },
+                            {
+                                "sid": "s32",
+                                "data-text": "GLOBALG.A.P.",
+                                "icon-url": "icon url 3-2"
+                            },
+                            {
+                                "sid": "s33",
+                                "data-text": "GGN-Siegel",
+                                "icon-url": "icon url 3-3"
+                            },
+                            {
+                                "sid": "s34",
+                                "data-text": "Aquaculture Stewardship Council (ASC)",
+                                "icon-url": "icon url 3-4"
+                            },
+                            {
+                                "sid": "s34",
+                                "data-text": "Marine Stewardship Council (MSC)",
+                                "icon-url": "icon url 3-5"
+                            },
+                            {
+                                "sid": "s35",
+                                "data-text": "Forest Stewardship Council (FSC)",
+                                "icon-url": "icon url 3-6"
+                            },
+                            {
+                                "sid": "s36",
+                                "data-text": "Program for Endorsement for Forest Certification (PEFC)",
+                                "icon-url": "icon url 3-7"
+                            },
+                            {
+                                "sid": "s38",
+                                "data-text": "Roundtable for Responsible Soy (RTRS)",
+                                "icon-url": "icon url 3-8"
+                            },
+                            {
+                                "sid": "s39",
+                                "data-text": "Roundtable on Sustainable Palm Oil (RSPO)",
+                                "icon-url": "icon url 3-9"
+                            },
+                        ]
+                    },
+                    {
+                        "id": "topic4",
+                        "data-heading": "Siegel, die die Kompostierbarkeit von Verpackungen garantieren",
+                        "subTopics": [{
+                                "sid": "s41",
+                                "data-text": "Kompostierbare Verpackungen für private Haushalte (HCP)",
+                                "icon-url": "images/resp_sourcing/scheme-logos/EU organic farming.png",
+                                "desc": "HOME COMPOSTABLE PACKAGING is shown by a logo that indicates that the packaging can compost at ambient temperatures (20-30°C) within 52 weeks according to European standard EN 13432. The certifying body is placed next to the logo with the company’s reference number. This packaging is also compostable. "
+                            },
+                            {
+                                "sid": "s42",
+                                "data-text": "Kompostierbare Industrieverpackungen (ICP)",
+                                "icon-url": "icon url 4-2"
+                            },
+                        ]
+                    },
+                ]
+            };
+        </script>
+        <script type="text/javascript">
+            //comprehensive guide
+            function ButtonNext9Click() {
+                //alert("click" );
                 quPop("n-Ul");
                 quPop("ulContent1");
+                return false;
+            };
+
+            function quPop(qu) {
+                var qu1 = document.getElementById(qu);
+                var elements = qu1.getElementsByTagName("li");
+                var top = elements[0];
+                qu1.removeChild(elements[0]);
+                qu1.appendChild(top);
+                return false;
+            };
+
+            $(".n-li").click(function(event) {
+                var index9 = $(".n-li").index(this);
+                //alert("click" + index9);
+                linkPop(index9);
+                return false;
+            });
+
+            $(document).ready(function() {
+                //var elem = $("#ulqu1 > li:first > .product-box > .aqu > div:first");
+                //$("#ulqu1 > li:first > .product-box > .aqu >  .xzd").removeClass("product-icon-1");
+                //$("#ulqu1 > li:first > .product-box > .aqu >  .xzd").addClass("active-icon1");
+
+            });
+
+            function linkPop(liindex9) {
+                for (var i = 0; i < liindex9; i++) {
+                    quPop("n-Ul");
+                    quPop("ulContent1");
+                }
             }
-        }
-    </script>
+        </script>
 
-    <script src="jquery/page1.js"></script>
-    <!-- Swiper JS -->
-
+        <script src="jquery/page1.js"></script>
+        <!-- Swiper JS -->
 
 
-    <script>
-        var swiper = new Swiper(".mySwiper9", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
-    <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
-    </script>
-    <script type="text/javascript" src="./assets/js/common.js"></script>
+
+        <script>
+            var swiper = new Swiper(".mySwiper9", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+        <script>
+            document.onreadystatechange = function() {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader-page2").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader-page2").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+        <script type="text/javascript" src="./assets/js/common.js"></script>
 
 </body>
 

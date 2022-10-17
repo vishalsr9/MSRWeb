@@ -23,6 +23,10 @@
 			width: 100px;
 			height: 100px;
 		}
+
+		.modal-cta-9 {
+			padding: 7px 10px 7px 10px !important;
+		}
 	</style>
 </head>
 
@@ -191,7 +195,7 @@
 							<img src="images/L2-07.svg" />
 						</div>
 						<h2>Why it is important to offer a sustainable menu </h2>
-						<p>Sometimes it can be difficult for consumers to find sustainable restaurants let alone a sustainable dish once inside. By putting sustainability on the (online) menu restaurateurs can visibly demonstrate to their customers their engagement for a food future that respects the health of the planet and their communities. </p>
+						<p>Sometimes, it can be difficult for consumers to find sustainable restaurants, let alone a sustainable dish once inside. By putting sustainability on the (online) menu restaurateurs can visibly demonstrate to their customers, their engagement for a food future that respects the health of the planet and their communities. </p>
 						<div class="btn-drawer"><a class="modal-cta" href="introduction-to-sustainable-menu-eng.php">TAKE A DEEP DIVE </a></div>
 					</div>
 				</div>
@@ -221,9 +225,9 @@
 							<img src="images/L2-09.svg" />
 						</div>
 						<h2>Why gastronomy must engage socially </h2>
-						<p>When your staff is treated well, the positive effects on your business are felt not only in your restaurant but in your community around you.<br>As a restaurant owner you have a direct responsibility for your employees, but you also have an indirect responsibility for every worker in the supply chain - the community overall.<br>Take an active role in your community and ensure the welfare of your employees, your customers, your suppliers and others in society who you are in touch with. </p>
+						<p>When your staff is treated well, the positive effects on your business are felt not only in your restaurant but also in the community around you. As a restaurant owner, you have direct responsibility for your employees, but you also have indirect responsibility for every worker in the supply chain - the community overall. Take an active role in your community and ensure the welfare of your employees, your customers, your suppliers, and others in society whom you are in touch with.</p>
 						<div class="btn-drawer">
-							<a class="modal-cta" href="introduction-to-social-eng.php">TAKE A DEEP DIVE </a>
+							<a class="modal-cta modal-cta-9" href="introduction-to-social-eng.php">TAKE A DEEP DIVE </a>
 						</div>
 					</div>
 				</div>
@@ -314,7 +318,7 @@
 							<img src="images/L2-04.svg" />
 						</div>
 						<h2>The problem with waste! </h2>
-						<p>When waste is not valued it becomes a problem. It costs your business money and when not properly managed it damages the environment and our health. As a restaurateur you really can make an impact by preventing waste, sorting and disposing of it carefully. Doing so will prevent costs and contribute to your reputation with customers and your community. </p>
+						<p>When waste is not valued it becomes a problem. It costs your business money and when not properly managed it damages the environment and our health. As a restaurateur, you really can make an impact by preventing waste, sorting and disposing of it carefully. Doing so will prevent costs and contribute to your reputation with customers and your community. </p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-waste-eng.php">TAKE A DEEP DIVE </a>
 						</div>
