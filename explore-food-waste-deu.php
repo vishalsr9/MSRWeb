@@ -129,8 +129,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-            <option value="introduction-to-food-waste-eng.php">ENG</option>
+            <option value="explore-food-waste-deu.php" selected>DEU</option>
+            <option value="explore-food-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>

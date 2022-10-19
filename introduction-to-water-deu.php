@@ -58,8 +58,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-            <option value="introduction-to-food-waste-eng.php">ENG</option>
+            <option value="introduction-to-water-deu.php" selected>DEU</option>
+            <option value="introduction-to-water-eng.php">ENG</option>
           </select>
         </div>
         <nav>

@@ -271,23 +271,27 @@
     <script>
       function mynewFunction() {
         idArray = new Array()
-        idArray[1] = "Jedes Jahr produzieren wir 2,21 Milliarden Tonnen Abfall."
-        idArray[2] = "Etwa 40 %der weltweit produzierten Lebensmittel wandern direkt in den Müll."
-        idArray[3] = "Weltweit leidet jeder neunte Mensch an Hunger."
-        idArray[4] = "Ein Viertel des weltweiten Trinkwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden. "
-        idArray[5] = "Wenn die Menge an weggeworfenen Lebensmitteln ein Land wäre, wäre es der drittgrößte Emittent von Treibhausgasen. "
-        idArray[6] = "Wenn wir nichts dagegen unternehmen, wird es bis 2050 mehr Plastik als Fisch (nach Gewicht) in den Meeren geben.  "
-        idArray[7] = "Nur 14 %der weltweit verwendeten Kunststoffverpackungen werden recycelt. "
-        idArray[8] = "Kartoffelabfälle, Fischhäute und Orangenschalen – weltweit arbeiten Wissenschaftler daran, neue Materialien für Verpackungen zu entwickeln."
-        idArray[9] = "Kompaktleuchtstofflampen und -birnen verbrauchen 75 %weniger Energie als Glühbirnen und halten zehnmal länger. "
-        idArray[10] = "Beim Kochen mit Induktionsherdengeht nur 10 %der Wärme verloren, während es bei Gasherden fast 55 %sind. "
-        idArray[11] = "Europäische Metropolen wie Istanbul, Barcelona und London sind bereits von Wasserknappheit betroffen."
+        idArray[1] = "Jedes Jahr werden 2,21 Milliarden Tonnen Abfall weggeworfen."
+        idArray[2] = "Etwa 40 % aller weltweit produzierten Lebensmittel werden verschwendet."
+        idArray[3] = "Für die Produktion von 1 kg Rindfleisch werden 15.500 Liter Wasser benötigt, was 100 Badewannen entspricht."
+        idArray[4] = "1/4 des weltweiten Süßwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden."
+        // idArray[5] = "Wenn die Menge an weggeworfenen Lebensmitteln ein Land wäre, wäre es der drittgrößte Emittent von Treibhausgasen. "
+        // idArray[6] = "Wenn wir nichts dagegen unternehmen, wird es bis 2050 mehr Plastik als Fisch (nach Gewicht) in den Meeren geben.  "
+        // idArray[7] = "Nur 14 %der weltweit verwendeten Kunststoffverpackungen werden recycelt. "
+        // idArray[8] = "Kartoffelabfälle, Fischhäute und Orangenschalen – weltweit arbeiten Wissenschaftler daran, neue Materialien für Verpackungen zu entwickeln."
+        // idArray[9] = "Kompaktleuchtstofflampen und -birnen verbrauchen 75 %weniger Energie als Glühbirnen und halten zehnmal länger. "
+        // idArray[10] = "Beim Kochen mit Induktionsherdengeht nur 10 %der Wärme verloren, während es bei Gasherden fast 55 %sind. "
+        // idArray[11] = "Europäische Metropolen wie Istanbul, Barcelona und London sind bereits von Wasserknappheit betroffen."
 
         document.getElementById("selectFact").onclick = mynewFunction;
-        randomParagraph = Math.floor(Math.random() * 5);
-
-        document.getElementById("result_fact").innerHTML = idArray[randomParagraph + 1];
+        //randomParagraph = Math.floor(Math.random() * 3);
+        const rndInt = randomIntFromInterval(1, 4)
+        document.getElementById("result_fact").innerHTML = idArray[rndInt];
         console.log(idArray);
+      }
+
+      function randomIntFromInterval(min, max) { // min and max included 
+        return Math.floor(Math.random() * (max - min + 1) + min)
       }
     </script>
 

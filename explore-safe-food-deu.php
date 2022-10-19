@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="pageslider.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
+        div.test {
+            z-index: 0;
+        }
+
         .good_to_know_box {
             min-height: 33rem !important;
         }
@@ -378,6 +382,24 @@
             transition: .5s;
         }
     </style>
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            #section-to-print,
+            #section-to-print * {
+                visibility: visible;
+            }
+
+            #section-to-print {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
 </head>
 
 <body class="page4-page">
@@ -397,8 +419,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-                        <option value="introduction-to-food-waste-eng.php">ENG</option>
+                        <option value="explore-safe-food-deu.php" selected>DEU</option>
+                        <option value="explore-safe-food-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -1690,7 +1712,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container section4-6">
+            <section class="container section4-6" id="section-to-print">
                 <div class="top-content">
                     <h3>Ihr Aktionsplan</h3>
                 </div>

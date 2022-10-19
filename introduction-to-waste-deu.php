@@ -39,8 +39,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-            <option value="introduction-to-food-waste-eng.php">ENG</option>
+            <option value="introduction-to-waste-deu.php" selected>DEU</option>
+            <option value="introduction-to-waste-eng.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -328,7 +328,7 @@
     <div class="section5  section4-6">
       <div class="bottom-left">
         <div class="top-content5">
-          <h3>METRO-Lösungen</h3>
+          <h3>METRO Lösungen</h3>
           <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können. </p>
           <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
         </div>

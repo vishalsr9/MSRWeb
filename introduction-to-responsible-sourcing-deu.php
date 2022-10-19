@@ -39,8 +39,8 @@
                 </div>
                 <div class="custom__select top-mar-less">
                     <select>
-                        <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-                        <option value="introduction-to-food-waste-eng.php">ENG</option>
+                        <option value="introduction-to-responsible-sourcing-deu.php" selected>DEU</option>
+                        <option value="introduction-to-responsible-sourcing-eng.php">ENG</option>
                     </select>
                 </div>
                 <nav>
@@ -349,7 +349,7 @@
                 <div class="bottom-right">
                     <div class="top-content5">
                         <h3>METRO Angebote</h3>
-                        <p>METRO unterstüzt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
+                        <p>METRO unterstützt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
                     </div>
                     <div class="bottom-content5">
                         <ul>
