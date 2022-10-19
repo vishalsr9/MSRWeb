@@ -2,12 +2,15 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>METRO</title>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://unpkg.com/konva@8.2.2/konva.min.js"></script>
   <script src="./jquery/custom.js"></script>
-  <meta charset="utf-8" />
-  <title>METRO</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="css/page2_style_1.css">
   <link rel="stylesheet" href="css/animate.min.css" />
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="./assets/css/common.css">
@@ -46,8 +49,8 @@
         </div>
         <div class="custom__select top-mar-less">
           <select>
-            <option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-            <option value="introduction-to-food-waste-eng.php">ENG</option>
+            <option value="home.php" selected>DEU</option>
+            <option value="index.php">ENG</option>
           </select>
         </div>
         <nav>
@@ -263,6 +266,7 @@
       </div>
 
     </div>
+
     <script src="jquery/page1.js"></script>
     <script>
       function mynewFunction() {
@@ -304,7 +308,6 @@
         $('body').toggleClass('overflow');
       });
     </script>
-    <script src="jquery/page1.js"></script>
 </body>
 
 </html>

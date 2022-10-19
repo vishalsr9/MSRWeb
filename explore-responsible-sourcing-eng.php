@@ -3425,7 +3425,7 @@
             <div class="bottom-right">
                 <div class="top-content5">
                     <h3>METRO Offer</h3>
-                    <p>METRO supports you with a diverse product assortment for your sustainability strategy:
+                    <p>METRO supports you with a diverse product assortment and services for your sustainability strategy. Please check out the local METRO or makro website in your country.
                     </p>
                 </div>
                 <!-- <div class="bottom-content5">

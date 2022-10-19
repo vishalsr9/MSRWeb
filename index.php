@@ -298,6 +298,7 @@
     </div>
 
   </div>
+
   <script>
     function mynewFunction() {
       idArray = new Array()

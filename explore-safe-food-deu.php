@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
         .good_to_know_box {
-            min-height: 38rem;
+            min-height: 33rem !important;
+        }
+
+        .box_2 {
+            min-height: 48rem !important;
         }
 
         .footer-socials.side_nav>ul {
@@ -556,39 +560,39 @@
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 35.png" class="img-fluid">
-                                <p style="margin-top:8rem ;">Laut der Metro Sustainability Survey aus dem Jahr 2019 sind qualitativ hochwertige Produkte für HoReCa-Kundinnen und –kunden weltweit das zweitwichtigste Kaufkriterium.</p>
+                                <p style="margin-top:3rem ;">Laut der Metro Sustainability Survey aus dem Jahr 2019 sind qualitativ hochwertige Produkte für HoReCa-Kundinnen und –kunden weltweit das zweitwichtigste Kaufkriterium.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 8.png" class="img-fluid">
-                                <p style="margin-top:4rem ;">Wenn man durch den Verzehr von Lebensmitteln krank wird, spricht man von einer Lebensmittelvergiftung. Verursacht wird sie durch gefährliche Mikroorganismen und/oder giftige Chemikalien. Die Krankheit stellt in Entwicklungsländern und Industrieländern ein ernsthaftes Problem dar, das die Gesundheitssysteme belastet und der Wirtschaft schadet. Sie kann sowohl zu Hause als auch beim Essen im Restaurant auftreten. Die meisten lebensmittelbedingten Krankheiten lassen sich aber durch den richtigen Umgang mit Lebensmitteln vermeiden.</p>
+                                <p style="margin-top:3rem ;">Wenn man durch den Verzehr von Lebensmitteln krank wird, spricht man von einer Lebensmittelvergiftung. Verursacht wird sie durch gefährliche Mikroorganismen und/oder giftige Chemikalien. Die Krankheit stellt in Entwicklungsländern und Industrieländern ein ernsthaftes Problem dar, das die Gesundheitssysteme belastet und der Wirtschaft schadet. Sie kann sowohl zu Hause als auch beim Essen im Restaurant auftreten. Die meisten lebensmittelbedingten Krankheiten lassen sich aber durch den richtigen Umgang mit Lebensmitteln vermeiden.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
                             <div class="good_to_know_box p-4">
                                 <img src="./images/safe_food/Asset 37.png" class="img-fluid">
-                                <p style="margin-top:5rem ;">In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
+                                <p style="margin-top:3rem ;">Verunreinigte Lebensmittel können viele Ursachen haben. Schmutzige Hände sind eine der häufigsten Gründe für die Verunreinigung von Lebensmitteln, aber auch im Anlieferungsbereich können durch Mitarbeitende und Ausrüstung Verschmutzungen auftreten.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row margin_top">
                         <div class="col-md-4 px-4">
-                            <div class="good_to_know_box p-4">
+                            <div class="good_to_know_box box_2 p-4">
                                 <img src="./images/safe_food/Asset 40.png" class="img-fluid">
-                                <p style="margin-top:5rem ;">In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
+                                <p style="margin-top:2rem ;">In einigen Ländern haben die Behörden Bewertungssysteme zur Lebensmittelsicherheit eingeführt und veröffentlichen im Anschluss die Ergebnisse der Hygieneinspektionen. Kundinnen und Kunden können die Bewertung ihrer örtlichen Restaurants einsehen und auf dieser Grundlage entscheiden, ob sie dort essen möchten oder nicht. In einigen Ländern werden diese Ergebnisse an der Tür des Restaurants ausgehängt. In anderen Ländern wiederum kann man sie vor dem Essen online nachlesen.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
-                            <div class="good_to_know_box p-4">
+                            <div class="good_to_know_box box_2 p-4">
                                 <img src="./images/safe_food/Asset 39.png" class="img-fluid">
                                 <p style="margin-top:2rem ;">In der Regel konzentrieren sich die Inspektionen der Lebensmittelsicherheitsbehörden auf saubere und gut gewartete Einrichtungen, Gebäude und Ausrüstungen – einschließlich einer angemessenen Raumaufteilung, Belüftung, Handwaschvorrichtungen und Schädlingsbekämpfung. Außerdem legen sie einen Schwerpunkt auf den hygienischen Umgang mit Lebensmitteln, einschließlich der Zubereitung, dem Kochvorgang, dem Aufwärmen, Kühlen und der Lagerung. Zusätzlich wird das Hygienemanagement im Bereich der Lebensmittelsicherheit überprüft. Dies schließt die Kontrollen, mit denen sichergestellt wird, dass die verkauften oder servierten Lebensmittel unbedenklich sind, mit ein. Wichtig bei all diesen Überprüfungen ist, dass die Lebensmittelsicherheit stets gewährleistet ist, alle gesetzlichen Standards eingehalten werden und das Personal entsprechend geschult ist.</p>
                             </div>
                         </div>
                         <div class="col-md-4 px-4">
-                            <div class="good_to_know_box p-4">
+                            <div class="good_to_know_box box_2 p-4">
                                 <img src="./images/safe_food/Asset 38.png" class="img-fluid">
-                                <p style="margin-top:1rem ;">Verunreinigungen stellen ein großes Risiko für die Lebensmittelsicherheit dar. Sie können bereits in den ursprünglichen Rohstoffen enthalten sein, aber auch durch unsachgemäßen Transport, Lagerung und Zubereitung auftreten.</p>
+                                <p style="margin-top:2rem ;">Verunreinigungen stellen ein großes Risiko für die Lebensmittelsicherheit dar. Sie können bereits in den ursprünglichen Rohstoffen enthalten sein, aber auch durch unsachgemäßen Transport, Lagerung und Zubereitung auftreten.</p>
                                 <p>
                                     Es gibt vier Hauptgefahrenquellen, wodurch Ihre Lebensmittel verunreinigt werden können:</p>
                                 <ol>
@@ -1730,7 +1734,7 @@
             <section class="section5 no-print">
                 <div class="bottom-left">
                     <div class="top-content5">
-                        <h3>METRO LÖSUNGEN</h3>
+                        <h3>METRO Lösungen</h3>
                         <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
                         <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
                     </div>
@@ -1755,7 +1759,7 @@
                 </div>
                 <div class="bottom-right">
                     <div class="top-content5">
-                        <h3>METRO ANGEBOTE</h3>
+                        <h3>METRO Angebote</h3>
                         <p>METRO unterstützt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
                     </div>
                     <div class="bottom-content5">
@@ -1976,7 +1980,7 @@
                 <a class="btn-close-popup" onclick="closePopUp(11);">X</a>
                 <h4>Abfallaufkommen</h4>
                 <p>
-                    Ein wichtiger Aspekt ist der Umgang mit nicht verwendeten Lebensmitteln und Resten von Gerichten. So kann z.B. nicht verzehrtes Brot, je nachdem, wie es verwendet wurde, in einer anderen Mahlzeit wiederverwendet werden, z.B. als Paniermehl, oder es kann kompostiert und weggeworfen werden. Je nachdem, wie Sie damit umgehen, ergeben sich unterschiedliche Anforderungen an die Lebensmittelsicherheit und das.
+                    Ein wichtiger Aspekt ist der Umgang mit nicht verwendeten Lebensmitteln und Resten von Gerichten. So kann z.B. nicht verzehrtes Brot, je nachdem, wie es verwendet wurde, in einer anderen Mahlzeit wiederverwendet werden, z.B. als Paniermehl, oder es kann kompostiert und weggeworfen werden. Je nachdem, wie Sie damit umgehen, ergeben sich unterschiedliche Anforderungen an die Lebensmittelsicherheit und das Abfallaufkommen.
                 </p>
             </div>
         </div>

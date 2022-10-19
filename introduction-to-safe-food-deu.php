@@ -305,7 +305,7 @@
       <section class="section5">
         <div class="bottom-left">
           <div class="top-content5">
-            <h3>METRO LÖSUNGEN</h3>
+            <h3>METRO Lösungen</h3>
             <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
             <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
           </div>
@@ -330,8 +330,8 @@
         </div>
         <div class="bottom-right">
           <div class="top-content5">
-            <h3>METRO ANGEBOTE</h3>
-            <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
+            <h3>METRO Angebote</h3>
+            <p>METRO unterstützt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
           </div>
           <div class="bottom-content5">
             <ul>

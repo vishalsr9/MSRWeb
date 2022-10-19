@@ -510,7 +510,7 @@
                                 <br>
                                 Das Gastgewerbe und die Lebensmittelbranche gehören zu den größten Arbeitgebern der Welt, aber in vielen Betrieben fehlt es oftmals an einer guten Arbeitsphilosophie. Leider sind unterbezahlte und ausgebeutete Arbeitnehmende immer noch an der Tagesordnung, sei es in Bezug auf die physischen Arbeitsbedingungen, Arbeitszeiten, Sicherheit oder vertragliche Aspekte wie Zeit- oder Saisonarbeit.
                                 <br>
-                                Darüberh inaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die höheren Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.
+                                Darüber hinaus gibt es auch extremere Fälle von Zwangsarbeit, Diskriminierung oder andere Formen unethischen Verhaltens. Wenn die grundlegenden Rechte von Mitarbeitenden missachtet werden, werden mit Sicherheit auch die höheren Bedürfnisse, die für die Selbstverwirklichung eines Menschen entscheidend sind, nicht berücksichtigt. Die Menschenrechte aber umfassen alle menschlichen Bedürfnisse.
                                 <br>
                                 Als Gastronomin oder Gastronom haben Sie eine unmittelbare Verantwortung für Ihre Mitarbeitenden. Darüber hinaus haben Sie auch eine indirekte Verantwortung für jeden Arbeitnehmenden in der Lieferkette, der Sie mit Produkten versorgt – sei es der Landwirt oder die Landwirtin oder der Fahrer bzw. die Fahrerin, welche Ihnen Waren liefern. Ein sozial engagierter Gastronomiebetreibender zu sein, bedeutet daher, sich auch vor Ort in der eigenen Region angemessen zu verhalten, z.B. gegenüber anderen Gastronomiebetreibenden, Verbänden und Wohltätigkeitsorganisationen. Insbesondere in extrem herausfordernden Zeiten kann die Art und Weise, wie Sie Ihr Personal und Ihre Lieferanten behandeln oder wie Sie mit Ihrer Gemeinde interagieren, nicht nur für Sie positive Auswirkungen haben, sondern Sie auch beeinflussen und damit auch grundsätzlich das Verständnis von guter Arbeit in der Gastronomie.
                             </p>
@@ -1372,8 +1372,8 @@
                     </div>
                     <div class="bottom-right">
                         <div class="top-content5">
-                            <h3>METRO ANGEBOTE</h3>
-                            <p>METRO unterstütz Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
+                            <h3>METRO Angebote</h3>
+                            <p>METRO unterstützt Sie mit vielen nachhaltigen Produkten bei Ihrer Nachhaltigkeitsstrategie:</p>
                         </div>
                         <div class="bottom-content5">
                             <ul>
