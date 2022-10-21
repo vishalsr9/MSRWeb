@@ -710,8 +710,8 @@
                 <div class="section5  section4-6">
                     <div class="bottom-left">
                         <div class="top-content5">
-                            <h3>METRO Lösungen</h3>
-                            <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können. </p>
+                            <h3>METRO LÖSUNGEN</h3>
+                            <p>Lassen Sie sich bei einem besseren Abfallmanagement unterstützen. Das Produktsortiment von METRO enthält viele Angebote, die dabei helfen, das Abfallmanagement effizient zu gestalten.</p>
                             <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
                         </div>
                         <div class="bottom-content5">

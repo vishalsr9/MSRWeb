@@ -1585,8 +1585,8 @@
   <section class="section5 no-print">
     <div class="bottom-left">
       <div class="top-content5">
-        <h3>METRO Solutions</h3>
-        <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+        <h3>METRO SOLUTIONS</h3>
+        <p>Waste collection or deposit services either in METRO or via an external provider for non-food waste and food waste. Contact charities that take surplus food.</p>
         <p>
           <strong>Applications that can support with menu design or communications are:</strong>
         </p>

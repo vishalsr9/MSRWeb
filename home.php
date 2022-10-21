@@ -271,21 +271,21 @@
     <script>
       function mynewFunction() {
         idArray = new Array()
-        idArray[1] = "Jedes Jahr werden 2,21 Milliarden Tonnen Abfall weggeworfen."
-        idArray[2] = "Etwa 40 % aller weltweit produzierten Lebensmittel werden verschwendet."
-        idArray[3] = "Für die Produktion von 1 kg Rindfleisch werden 15.500 Liter Wasser benötigt, was 100 Badewannen entspricht."
-        idArray[4] = "1/4 des weltweiten Süßwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden."
-        // idArray[5] = "Wenn die Menge an weggeworfenen Lebensmitteln ein Land wäre, wäre es der drittgrößte Emittent von Treibhausgasen. "
-        // idArray[6] = "Wenn wir nichts dagegen unternehmen, wird es bis 2050 mehr Plastik als Fisch (nach Gewicht) in den Meeren geben.  "
-        // idArray[7] = "Nur 14 %der weltweit verwendeten Kunststoffverpackungen werden recycelt. "
-        // idArray[8] = "Kartoffelabfälle, Fischhäute und Orangenschalen – weltweit arbeiten Wissenschaftler daran, neue Materialien für Verpackungen zu entwickeln."
-        // idArray[9] = "Kompaktleuchtstofflampen und -birnen verbrauchen 75 %weniger Energie als Glühbirnen und halten zehnmal länger. "
-        // idArray[10] = "Beim Kochen mit Induktionsherdengeht nur 10 %der Wärme verloren, während es bei Gasherden fast 55 %sind. "
-        // idArray[11] = "Europäische Metropolen wie Istanbul, Barcelona und London sind bereits von Wasserknappheit betroffen."
+        idArray[1] = "Für 1 kg Rindfleisch werden 15.500 Liter Wasser verbraucht, was 100 Badewannen entspricht."
+        idArray[2] = "Jedes Jahr landen 2,21 Milliarden Tonnen Abfall auf Deponien."
+        idArray[3] = "Etwa 40 % aller weltweit produzierten Lebensmittel werden verschwendet."
+        idArray[4] = "1 von 9 Menschen auf diesem Planeten geht hungrig ins Bett."
+        idArray[5] = "1/4 des weltweiten Süßwasservorrats wird für den Anbau von Lebensmitteln verwendet, die nie gegessen werden."
+        idArray[6] = "Wäre die Lebensmittelverschwendung ein Land, wäre es nach China und den USA der drittgrößte Emittent von Treibhausgasen."
+        idArray[7] = "Bis 2050 wird es mehr Plastik als Fisch (nach Gewicht) in den Ozeanen geben, wenn wir nichts dagegen unternehmen."
+        idArray[8] = "Nur 14 % der Kunststoffverpackungen werden weltweit für das Recycling gesammelt."
+        idArray[9] = "Kartoffel-, Fisch- und Orangenabfälle könnten schon bald zu neuen Verpackungsformen werden, daran arbeiten Wissenschaftlerinnen und Wissenschaftler."
+        idArray[10] = "LED-Lampen verbrauchen bis zu 90% weniger Energie als Glühbirnen."
+        idArray[11] = "Beim Kochen mit einem Induktionsherd gehen nur 10 % der Wärme verloren, während bei einem Gasherd fast 50 % der Wärme verloren gehen."
 
         document.getElementById("selectFact").onclick = mynewFunction;
         //randomParagraph = Math.floor(Math.random() * 3);
-        const rndInt = randomIntFromInterval(1, 4)
+        const rndInt = randomIntFromInterval(1, 11)
         document.getElementById("result_fact").innerHTML = idArray[rndInt];
         console.log(idArray);
       }

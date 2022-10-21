@@ -308,20 +308,34 @@
                 <a href="explore-food-waste-eng.php" class="read-more" target="_self">Read More</a>
             </div>
         </div>
+        <style>
+            .l3-5 {
+                display: inline-block;
+                position: relative;
+            }
+
+            .l3-5img {
+                height: 50rem;
+                margin-left: 2rem;
+            }
+        </style>
         <div class="l3-5img mr-4 col-md-6">
             <h3>Food Recovery Hierarchy</h3>
-            <img src="./images/safe_food/l3-5.svg" class="img-fluid">
-            <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="imgCta">Read More</a>
+            <div class="l3-5">
+                <img src="images/safe_food/l3-5.svg" class="l3-5img">
+                <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="ovrBtn">Read More</a>
+            </div>
+
         </div>
     </section>
 
 
-
+    <!--  -->
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Solutions</h3>
-                <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+                <h3>METRO SOLUTIONS</h3>
+                <p>Waste collection or deposit services either in METRO or via an external provider for non-food waste and food waste. Contact charities that take surplus food.</p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>
             <div class="bottom-content5">
@@ -492,6 +506,12 @@
                     "body").style.visibility = "visible";
             }
         };
+    </script>
+    <script src="jquery/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
     </script>
     <script src="jquery/page1.js"></script>
     <script type="text/javascript" src="./assets/js/common.js"></script>

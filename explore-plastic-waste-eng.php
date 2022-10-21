@@ -1028,8 +1028,8 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
         <div class="section5">
           <div class="bottom-left">
             <div class="top-content5">
-              <h3>METRO Solutions</h3>
-              <p>METRO offers the digital tool PROTRACE where you can find out about both the product itself and the supply routes from its origin to the journey to METRO. </p>
+              <h3>METRO SOLUTIONS </h3>
+              <p>METRO offers a wide variety of waste-less products, such as eco-friendly disposables and takeaway containers, products with less packaging e.g. reformulated detergents, returnable bottle schemes, water filters, reusable carafes for water, products that don´t contain PVC or are alternatives for EPS.</p>
               <p>
                 <strong>Applications that can support with menu design or communications are:</strong>
               </p>

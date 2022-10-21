@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="./assets/css/common.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <style>
+    .likebtn {
+      margin-bottom: 2rem;
+    }
+
     .spacerx {
       margin-top: 3rem;
     }
@@ -660,9 +664,19 @@
             <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
           </ul>
         </div>
+
+
+
+
       </section>
 
-      <section class="container no-print">
+
+
+
+
+
+
+      <section class="container mt-5">
         <div class="section5">
           <div class="bottom-left">
             <div class="top-content5">

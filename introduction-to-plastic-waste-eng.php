@@ -457,7 +457,7 @@
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Solutions</h3>
+                <h3>METRO SOLUTIONS</h3>
                 <p>METRO offers a wide variety of waste-less products, such as eco-friendly disposables and takeaway containers, products with less packaging e.g. reformulated detergents, returnable bottle schemes, water filters, reusable carafes for water, products that don´t contain PVC or are alternatives for EPS.</p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>

@@ -330,7 +330,7 @@
         <div class="bottom-left">
             <div class="top-content5">
                 <h3>METRO Lösungen</h3>
-                <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
+                <p>Sammlung von Abfällen oder Pfandsysteme finden Sie entweder bei METRO oder über einen externen Anbieter sowohl für Non-Food- als auch für Lebensmittelabfälle. Kontaktieren Sie Wohltätigkeitsorganisationen, die überschüssige Lebensmittel annehmen. </p>
                 <p>
                     <strong>Anwendungen, die bei der Menügestaltung oder Kommunikation unterstützen können:</strong>
                 </p>

@@ -438,8 +438,8 @@
     <section class="section5">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Lösungen</h3>
-                <p>METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.</p>
+                <h3>METRO LÖSUNGEN</h3>
+                <p>METRO bietet vielfältige abfallfreie Produkte an, wie z.B. umweltfreundliche Einwegartikel und Behältnisse zum Mitnehmen, Produkte, die mit weniger Verpackung auskommen (z.B. neu entwickelte Reinigungsmittel, Mehrwegsysteme für Getränkeflaschen, Wasserfilter, wiederverwendbare Wasserflaschen, Produkte, die kein PVC enthalten oder Alternativen für EPS).</p>
                 <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
             </div>
             <div class="bottom-content5">

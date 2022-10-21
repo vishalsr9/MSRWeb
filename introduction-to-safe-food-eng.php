@@ -307,8 +307,8 @@
       <section class="section5">
         <div class="bottom-left">
           <div class="top-content5">
-            <h3>METRO Solutions</h3>
-            <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+            <h3>METRO SOLUTIONS</h3>
+            <p>METRO offers helpful solutions that are available either through METRO (for example, cleaning products and protective equipment), through partners or are on the market in general. Some METRO countries also offer specific advice for HoReCa customers on food safety such as METRO Germany with hygiene trainings and HACCP tools or METRO India on food safety standards.</p>
             <p>
               <strong>Applications that can support with menu design or communications are:</strong>
             </p>

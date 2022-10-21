@@ -384,8 +384,8 @@
     <section class="section5 no-print">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Solutions</h3>
-                <p>METRO offers advisory through employees. A reference is provided by METRO’s Fair Working Conditions </p>
+                <h3>METRO SOLUTIONS</h3>
+                <p>METRO offers advisory through employees. A reference is provided by METRO’s Fair Working Conditions.</p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>
             <div class="bottom-content5">

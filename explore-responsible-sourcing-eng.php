@@ -698,6 +698,7 @@
             }
         }
     </style>
+
 </head>
 
 <body class="page4-page">
@@ -3396,14 +3397,16 @@
             </ul>
         </div>
     </section>
+
+
+
     <!-----FOOTER--------->
     <section class="no-side-margin no-print">
         <div class="section5">
             <div class="bottom-left">
                 <div class="top-content5">
-                    <h3>METRO Solutions</h3>
-                    <p>METRO offers the digital tool PROTRACE where you can find out about both the product
-                        itself and the supply routes from its origin to the journey to METRO. </p>
+                    <h3>METRO SOLUTIONS</h3>
+                    <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on.</p>
                     <p><strong>Applications that can support with menu design or communications are:</strong>
                     </p>
                 </div>

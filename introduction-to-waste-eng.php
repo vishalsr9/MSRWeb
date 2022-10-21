@@ -360,8 +360,9 @@
     <section class="section5 no-print">
         <div class="bottom-left">
             <div class="top-content5">
-                <h3>METRO Solutions</h3>
-                <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on. </p>
+                <h3>METRO SOLUTIONS</h3>
+                <p>You can support customers with better waste management by guiding them through the METRO product assortment which can help them make the process efficient.
+                </p>
                 <p><strong>Applications that can support with menu design or communications are:</strong></p>
             </div>
             <div class="bottom-content5">
