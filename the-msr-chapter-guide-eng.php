@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>METRO - The MSR Chapter Guide</title>
+	<title>METRO</title>
 	<meta name="description" content="METRO - The MSR Chapter Guide" />
 	<link rel="stylesheet" href="css/page2_style.css">
 

@@ -19,6 +19,39 @@
         .footer-socials.side_nav>ul {
             margin-left: 0rem;
         }
+
+        .l3-5 {
+            display: inline-block;
+            position: relative;
+        }
+
+        .l3-5img {
+            height: 56rem;
+            margin-left: 2rem;
+        }
+
+        .ovrBtn {
+            position: absolute;
+            top: 15.8rem;
+            left: 16.5rem;
+            color: white;
+            background-color: #003b7e;
+            border-radius: 0;
+            padding: 5px 6px;
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            font-family: GothamBold;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .ovrBtn:hover {
+            color: #003b7e;
+            background-color: white;
+        }
     </style>
 </head>
 
@@ -303,11 +336,11 @@
     </section>
 
 
-    <section class="section4 padr-60px w90-per">
+    <section class="section4 padr-60px">
         <div class="left-content noalign border-right col-md-6">
             <h3>KNOW-HOW – ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN </h3>
             <p>
-                Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen.<br>Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung">Lebensmittelabfälle. </a><br><br>
+                Vermeiden Sie Lebensmittelverschwendung, indem Sie ermitteln, welche Arten von Abfällen anfallen und wo sie erzeugt werden. Lebensmittelabfälle entstehen in der Regel entweder im hinteren Teil Ihres Restaurants, d.h. in der Küche vor dem Servieren oder im vorderen Teil, d.h. dort, wo die Gäste bedient werden. Obst und Gemüse tragen wesentlich zur Menge der Lebensmittelabfälle in einem Restaurant bei. Lernen Sie, wie man sie optimal lagert, um Abfälle zu verringern. Gewähren Sie Preisnachlässe oder spenden Sie überschüssige Lebensmittel, um Menschen und Tieren in Not zu helfen. Sie können Lebensmittelabfälle auch selbst oder über einen lokalen Dienstleister kompostieren oder Sie fangen an, mit den bislang unerwünschten Bestandteilen Ihrer Lebensmittel zu kochen.<br>Technische Lösungen können zusätzlich die betriebliche Effizienz verbessern und Lebensmittelverschwendung verringern. Durch Online-Verwaltung des Lebensmittelabfallbestands beispielsweise und die Neuverteilung von Lebensmitteln, was zu zeitlichen Einsparungen bei der Abfallentsorgung führt. Weitere Informationen über die Reduzierung von Lebensmittelabfällen finden Sie in unserem aktuellen Bericht über <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung" target="_blank">Lebensmittelabfälle. </a><br><br>
                 Wichtig ist: Mülldeponien sollten der letzte Ort sein, an dem übriggebliebene Lebensmittel landen!
 
             </p>
@@ -317,11 +350,20 @@
                 <a href="explore-food-waste-deu.php" class="read-more" target="_self">WEITERLESEN</a>
             </div>
         </div>
+
         <div class="l3-5img mr-4 col-md-6">
             <!-- <h3>Food Recovery Hierarchy</h3> -->
-            <img src="./images/safe_food/Food Waste L3_graphics.svg" class="img-fluid">
-            <a style="top:12.5%;left:50%;" href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung" target="_blank" class="imgCta">WEITERLESEN</a>
+            <div class="l3-5">
+                <img src="images/safe_food/Food Waste L3_graphics.svg" class="l3-5img">
+                <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung" target="_blank" class="ovrBtn">WEITERLESEN</a>
+            </div>
+
         </div>
+
+
+
+
+
     </section>
 
 

@@ -1390,7 +1390,7 @@
                 <img src="./images/safe_food/Asset 43.svg" class="media-object" style="width:80px">
               </div>
               <div class="media-body">
-                <p>Source your fish and meat <a href="https://responsibility.metroag.de/focus-areas/raw-material-sourcing "> responsibly</a></p>
+                <p>Source your fish and meat <a href="https://responsibility.metroag.de/focus-areas/raw-material-sourcing" target="_blank"> responsibly</a></p>
               </div>
             </div>
           </div>
@@ -1582,6 +1582,219 @@
       </div>
     </div>
   </section>
+
+
+
+  <style>
+    .likebtn1 {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .sharing {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .contentyn {
+      transition: all 0.3s;
+      border: 0;
+      border-radius: 0;
+      background-color: #003b7e;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "GothamBold";
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 15px 0 0;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .contentyn:hover {
+      background-color: #ffe500;
+      color: #003b7e;
+      outline: 2px solid #003b7e;
+      transition: 0.5s;
+    }
+
+    .contentyn:active {
+      outline: 25px solid #003b7e;
+      box-shadow: 30px 30px 25px #003b7e;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+
+
+    .cyliked {
+      background-color: #ffe500;
+      outline: 2px solid #003b7e;
+      color: #003b7e;
+    }
+
+    .sharebtn {
+      transition: all 0.3s;
+      border: 0;
+      border-radius: 0;
+      background-color: #003b7e;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "GothamBold";
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 15px 0 0;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .sharebtn:hover {
+      background-color: #ffe500;
+      color: #003b7e;
+
+    }
+  </style>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="likebtn1">
+        <p>
+          <strong>
+            Was this article helpful?
+          </strong>
+        </p>
+        <a href="" class="contentyn cy" onclick="liked(); return false;">
+          Yes <i class="fa fa-thumbs-up"></i>
+        </a>
+        <a href="" class="contentyn cn" onclick="disliked(); return false;">
+          No <i class="fa fa-thumbs-down"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="sharing">
+        <p>
+          <strong>
+            Share this page
+          </strong>
+        </p>
+        <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+        <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+        <a href="" id="ln-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+        <a href="mailto:?subject=This page has a great content" class="sharebtn"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.onload = function() {
+      starter();
+    };
+
+    function starter() {
+      var lcook = getCookie("likedCook");
+      var dlcook = getCookie("dislikedCook");
+      if (lcook) {
+        $(".cy").addClass("cyliked");
+        $(".cn").removeClass("cyliked");
+      } else {
+        $(".cy").removeClass("cyliked");
+      }
+      if (dlcook) {
+        $(".cn").addClass("cyliked");
+        $(".cy").removeClass("cyliked");
+      } else {
+        $(".cn").removeClass("cyliked");
+      }
+    };
+
+    function liked() {
+      var lcook = getCookie("likedCook");
+      if (lcook) {
+        eraseCookie("likedCook");
+
+      } else {
+        setCookie("likedCook", "1", 365);
+
+      }
+      eraseCookie("dislikedCook");
+      starter();
+    };
+
+    function disliked() {
+      var dlcook = getCookie("dislikedCook");
+      if (dlcook) {
+        eraseCookie("dislikedCook");
+
+      } else {
+        setCookie("dislikedCook", "1", 365);
+      }
+      eraseCookie("likedCook");
+      starter();
+    };
+
+
+
+
+    function setCookie(name, value, days) {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    };
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    };
+
+
+    function eraseCookie(name) {
+      document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    }
+
+
+    var fbButton = document.getElementById('fb-share-button');
+    var url = window.location.href;
+
+    fbButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
+        'facebook-share-dialog',
+        'width=800,height=600'
+      )
+      return false;
+    });
+
+    var twButton = document.getElementById('tw-share-button');
+    var url = window.location.href;
+
+    twButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.open('https://twitter.com/share?' + url,
+        'twitter-share-dialog',
+        'width=800,height=600'
+      )
+      return false;
+    });
+  </script>
+
+
+
+
+
   <section class="section5 no-print">
     <div class="bottom-left">
       <div class="top-content5">
@@ -1796,20 +2009,19 @@
           <ul>
             <li> Measure, track and analyse the food wasted</li>
             <li> Evaluate your inventory, menu and dish sales. Remove non-sellers from the menu</li>
-            <li> Use digital tools such as <a href="https://www.menukithd.com/ 
-">Menukit</a> to track recipes and calculate the daily food needed in order to control your purchasing cost</li>
+            <li> Use digital tools such as <a href="https://www.menukithd.com/" target="_blank">Menukit</a> to track recipes and calculate the daily food needed in order to control your purchasing cost</li>
             <li> Ask your staff to “hunt” for waste and suggest ways to manage it</li>
             <li> Optimize the shelf life by ensuring that the cool chain is not broken and products are stored at the right temperature </li>
             <li> Organise and label your stock so that the shelf life is visible and you can more easily rotate it</li>
             <li> Ensure all opened and prepared ingredients have a label stating the shelf life</li>
             <li> Keep your stock organized so that you know what needs to be used up and to ensure you don’t order more than your kitchen needs</li>
             <li>Check your inventory frequently in order to compare purchased quantities and the quantity of food wasted</li>
-            <li>Find ways of repurposing unused ingredients and parts of food with <a href="https://www.mpulse.de/en/gastronomy/food-trends-for-the-hospitality-industry"> zero waste</a> recipes</li>
+            <li>Find ways of repurposing unused ingredients and parts of food with <a href="https://www.mpulse.de/en/gastronomy/food-trends-for-the-hospitality-industry" target="_blank"> zero waste</a> recipes</li>
             <li> Consider that food scraps (not of animal origin) can be donated for animal feed in a local animal shelter or a zoo</li>
             <li> At the end of the service, allow your staff to eat the surplus food or take it home</li>
             <li>Donate your surplus ingredients if you can´t use them</li>
             <li> Recycle and / or upcycle waste where possible</li>
-            <li>Learn to <a href="https://www.mpulse.de/en/movinggoods/nose-to-tail-vergessene-delicatessen"> cook with unwanted parts</a> of meat, fish, fruit and vegetables</li>
+            <li>Learn to <a href="https://www.mpulse.de/en/movinggoods/nose-to-tail-vergessene-delicatessen" target="_blank"> cook with unwanted parts</a> of meat, fish, fruit and vegetables</li>
 
 
           </ul>

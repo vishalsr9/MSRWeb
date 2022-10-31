@@ -332,10 +332,10 @@
                     or talk to your local authority and wholesale supplier to check
                     what available solutions they have.</li>
 
-                <li>For food waste,<a href="introduction-to-food-waste-eng.php" target="_self"> check out these tips.</a></li>
+                <li>For food waste,<a href="introduction-to-food-waste-eng.php" target="_blank"> check out these tips.</a></li>
 
                 <li>For single-use plastic items such as takeaway goods, plastic
-                    stirrers or packaging <a href="introduction-to-plastic-waste-eng.php">check out these tips.</a></li>
+                    stirrers or packaging <a href="introduction-to-plastic-waste-eng.php" target="_blank">check out these tips.</a></li>
 
                 <li>In general, maximise waste separation by measures such as
                     placing waste containers in all areas where waste is generated

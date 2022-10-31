@@ -194,7 +194,7 @@
               <div class="col-md-6 border-top">
                 <div class="didyouknow_2culumn">
                   <img src="./images/safe_food/Asset 5.svg" class="px-4 dis_img2">
-                  <h4>Nicht ausgewiesene Allergene in<br>Lebensmitteln schwere Krankheiten verursachen<br>können, die in Industrieländern immer<br>häufiger auftreten?</h4>
+                  <h4>nicht ausgewiesene Allergene in<br>Lebensmitteln schwere Krankheiten verursachen<br>können, die in Industrieländern immer<br>häufiger auftreten?</h4>
                 </div>
               </div>
             </div>
@@ -289,7 +289,7 @@
         <div class="left-content noalign w60-per">
           <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>LEBENSMITTELSICHERHEIT SICHERSTELLEN</h3>
           <p>
-            Das Wichtigste ist ein Lebensmittelsicherheitsmanagement. Hierfür können Sie das <a href="explore-safe-food-deu.php">HACCP-Konzept</a> (Hazard Analysis Critical Control Points) verwenden – eine Methode, die Ihr Restaurant bei der Einhaltung der Lebensmittelsicherheit unterstützt. Mit diesem Konzept können Sie die Lebensmittelsicherheit in Ihrem Restaurant effektiv verankern. Ihre direkte Beteiligung als Führungsperson an diesem System setzt ein positives Beispiel und wird Ihre Mitarbeitenden motivieren, Ihrem Vorbild zu folgen. Zeigen Sie, dass Sie sich ernsthaft für Lebensmittelsicherheit einsetzen.
+            Das Wichtigste ist ein Lebensmittelsicherheitsmanagement. Hierfür können Sie das <a href="explore-safe-food-deu.php" target="_blank">HACCP-Konzept</a> (Hazard Analysis Critical Control Points) verwenden – eine Methode, die Ihr Restaurant bei der Einhaltung der Lebensmittelsicherheit unterstützt. Mit diesem Konzept können Sie die Lebensmittelsicherheit in Ihrem Restaurant effektiv verankern. Ihre direkte Beteiligung als Führungsperson an diesem System setzt ein positives Beispiel und wird Ihre Mitarbeitenden motivieren, Ihrem Vorbild zu folgen. Zeigen Sie, dass Sie sich ernsthaft für Lebensmittelsicherheit einsetzen.
           </p>
 
 

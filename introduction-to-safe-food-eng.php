@@ -207,7 +207,7 @@
         </div>
         <div class="right-content">
           <p>
-            Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries, etc.) and consumers are increasingly becoming aware of the need for safely produced food that doesn’t injure them or make them sick. That ́s why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, <a href="http://msr.bdevtestservers.com/introduction-to-waste-eng.php"> minimizing waste </a>and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants.
+            Several incidents in recent years have shed a bad light on the food industry (for example, undeclared allergens in take-out sandwiches, E.coli in sprouts, needles in strawberries, etc.) and consumers are increasingly becoming aware of the need for safely produced food that doesn’t injure them or make them sick. That ́s why safe food is the foundation of a sustainable restaurant and contaminated food is wasted food. Running a sustainable business is about being efficient with resources, <a href="http://msr.bdevtestservers.com/introduction-to-waste-eng.php" target="_blank"> minimizing waste </a>and engaging people to work productively. The latest developments with COVID-19 have shown the importance of good hygiene practices even more. This will continue to have an impact on restaurants.
 
           </p>
           <p>Good food safety management will help to:</p>
@@ -291,7 +291,7 @@
         <div class="left-content noalign w60-per">
           <h3><a href="explore-safe-food-eng.php" target="_self">KNOW HOW – STEPS TO<br>ENSURE SAFE FOOD</a></h3>
           <p>
-            It is basic to have a food safety management system. For this, you can use <a href="explore-safe-food-eng.php"> HACCP (Hazard Analysis Critical Control Points)</a> which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
+            It is basic to have a food safety management system. For this, you can use <a href="explore-safe-food-eng.php" target="_blank"> HACCP (Hazard Analysis Critical Control Points)</a> which is a methodology that can guide your restaurant towards even better food safety practices. To make these systems effective, it is important to have a food safety culture. With this relatively new concept, you can embrace the way to really embed food safety into your business. The direct involvement of your leadership in this system will set a good example for your employees to follow and show your strong commitment to food safety.
           </p>
 
 

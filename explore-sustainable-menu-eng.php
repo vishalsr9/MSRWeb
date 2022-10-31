@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>METRO</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/page2_style.css">
   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
   <script src="./jquery/custom.js"></script>
@@ -13,7 +13,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <link rel="stylesheet" href="./assets/css/common.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
   <style>
+    .c9 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
     .likebtn {
       margin-bottom: 2rem;
     }
@@ -222,7 +228,7 @@
       </section>
       <section class="section-slider1 section-slider2 no-print">
         <div class="section-slider-center text-center">
-          <div class="wrap">
+          <div class="wrap" style="z-index: 0;">
             <div class="slider2">
               <div class="item">
                 <div class="inner-item">
@@ -325,7 +331,7 @@
       </section>
       <section class="section-slider1 no-print spacerx">
         <div class="section-slider-center text-center">
-          <div class="wrap">
+          <div class="wrap" style="z-index: 0;">
             <h3>Good to know - Different ways of eating </h3>
             <!---////////////////////////////////////////-->
             <div class="slider">
@@ -670,13 +676,215 @@
 
       </section>
 
+      <style>
+        .likebtn1 {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .sharing {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .contentyn {
+          transition: all 0.3s;
+          border: 0;
+          border-radius: 0;
+          background-color: #003b7e;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "GothamBold";
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 15px 0 0;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .contentyn:hover {
+          background-color: #ffe500;
+          color: #003b7e;
+          outline: 2px solid #003b7e;
+          transition: 0.5s;
+        }
+
+        .contentyn:active {
+          outline: 25px solid #003b7e;
+          box-shadow: 30px 30px 25px #003b7e;
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+
+
+        .cyliked {
+          background-color: #ffe500;
+          outline: 2px solid #003b7e;
+          color: #003b7e;
+        }
+
+        .sharebtn {
+          transition: all 0.3s;
+          border: 0;
+          border-radius: 0;
+          background-color: #003b7e;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "GothamBold";
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 15px 0 0;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .sharebtn:hover {
+          background-color: #ffe500;
+          color: #003b7e;
+
+        }
+      </style>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="likebtn1">
+            <p>
+              <strong>
+                Was this article helpful?
+              </strong>
+            </p>
+            <a href="" class="contentyn cy" onclick="liked(); return false;">
+              Yes <i class="fa fa-thumbs-up"></i>
+            </a>
+            <a href="" class="contentyn cn" onclick="disliked(); return false;">
+              No <i class="fa fa-thumbs-down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="sharing">
+            <p>
+              <strong>
+                Share this page
+              </strong>
+            </p>
+            <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+            <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+            <a href="" id="ln-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:?subject=This page has a great content" class="sharebtn"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        window.onload = function() {
+          starter();
+        };
+
+        function starter() {
+          var lcook = getCookie("likedCook");
+          var dlcook = getCookie("dislikedCook");
+          if (lcook) {
+            $(".cy").addClass("cyliked");
+            $(".cn").removeClass("cyliked");
+          } else {
+            $(".cy").removeClass("cyliked");
+          }
+          if (dlcook) {
+            $(".cn").addClass("cyliked");
+            $(".cy").removeClass("cyliked");
+          } else {
+            $(".cn").removeClass("cyliked");
+          }
+        };
+
+        function liked() {
+          var lcook = getCookie("likedCook");
+          if (lcook) {
+            eraseCookie("likedCook");
+
+          } else {
+            setCookie("likedCook", "1", 365);
+
+          }
+          eraseCookie("dislikedCook");
+          starter();
+        };
+
+        function disliked() {
+          var dlcook = getCookie("dislikedCook");
+          if (dlcook) {
+            eraseCookie("dislikedCook");
+
+          } else {
+            setCookie("dislikedCook", "1", 365);
+          }
+          eraseCookie("likedCook");
+          starter();
+        };
 
 
 
 
+        function setCookie(name, value, days) {
+          var expires = "";
+          if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+          }
+          document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        };
+
+        function getCookie(name) {
+          var nameEQ = name + "=";
+          var ca = document.cookie.split(';');
+          for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+          }
+          return null;
+        };
 
 
-      <section class="container mt-5">
+        function eraseCookie(name) {
+          document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+
+
+        var fbButton = document.getElementById('fb-share-button');
+        var url = window.location.href;
+
+        fbButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
+            'facebook-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+
+        var twButton = document.getElementById('tw-share-button');
+        var url = window.location.href;
+
+        twButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://twitter.com/share?' + url,
+            'twitter-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+      </script>
+
+
+
+      <section class="container mt-5 c9">
         <div class="section5">
           <div class="bottom-left">
             <div class="top-content5">
@@ -1441,236 +1649,7 @@
       });
 
 
-      /*readmorejs */
 
-      // function myFunction() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText = document.getElementById("more");
-      //   var btnText = document.getElementById("myBtn");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText.innerHTML = "Read more"; 
-      //     moreText.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText.innerHTML = "Read less"; 
-      //     moreText.style.display = "block";
-      //   }
-      // }
-
-      // function myFunction13() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText13 = document.getElementById("more13");
-      //   var btnText13 = document.getElementById("myBtn13");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText13.innerHTML = "Read more"; 
-      //     moreText13.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText13.innerHTML = "Read less"; 
-      //     moreText13.style.display = "block";
-      //   }
-      // }
-
-      // function myFunction14() {
-      //   var dots14 = document.getElementById("dots14");
-      //   var moreText14 = document.getElementById("more14");
-      //   var btnText14 = document.getElementById("myBtn14");
-
-      //   if (dots14.style.display === "none") {
-      //     dots14.style.display = "block";
-      //     btnText14.innerHTML = "Read more"; 
-      //     moreText14.style.display = "none";
-      //   } else {
-      //     dots14.style.display = "none";
-      //     btnText14.innerHTML = "Read less"; 
-      //     moreText14.style.display = "block";
-      //   }
-      // }
-      // function myFunction1() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText1 = document.getElementById("more1");
-      //   var btnText1 = document.getElementById("myBtn1");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText1.innerHTML = "Read more"; 
-      //     moreText1.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText1.innerHTML = "Read less"; 
-      //     moreText1.style.display = "block";
-      //   }
-      // }
-      // function myFunction2() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText2 = document.getElementById("more2");
-      //   var btnText2 = document.getElementById("myBtn2");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText2.innerHTML = "Read more"; 
-      //     moreText2.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText2.innerHTML = "Read less"; 
-      //     moreText2.style.display = "block";
-      //   }
-      // }
-      // function myFunction3() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText3 = document.getElementById("more3");
-      //   var btnText3 = document.getElementById("myBtn3");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText3.innerHTML = "Read more"; 
-      //     moreText3.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText3.innerHTML = "Read less"; 
-      //     moreText3.style.display = "block";
-      //   }
-      // }
-      // function myFunction4() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText4 = document.getElementById("more4");
-      //   var btnText4 = document.getElementById("myBtn4");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText4.innerHTML = "Read more"; 
-      //     moreText4.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText4.innerHTML = "Read less"; 
-      //     moreText4.style.display = "block";
-      //   }
-      // }
-
-      // function myFunction5() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText5 = document.getElementById("more5");
-      //   var btnText5 = document.getElementById("myBtn5");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText5.innerHTML = "Read more"; 
-      //     moreText5.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText5.innerHTML = "Read less"; 
-      //     moreText5.style.display = "inline";
-      //   }
-      // }
-      // function myFunction6() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText6 = document.getElementById("more6");
-      //   var btnText6 = document.getElementById("myBtn6");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "block";
-      //     btnText6.innerHTML = "Read more"; 
-      //     moreText6.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText6.innerHTML = "Read less"; 
-      //     moreText6.style.display = "block";
-      //   }
-      // }
-      // function myFunction7() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText7 = document.getElementById("more7");
-      //   var btnText7 = document.getElementById("myBtn7");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText7.innerHTML = "Read more"; 
-      //     moreText7.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText7.innerHTML = "Read less"; 
-      //     moreText7.style.display = "inline";
-      //   }
-      // }
-      // function myFunction8() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText8 = document.getElementById("more8");
-      //   var btnText8 = document.getElementById("myBtn8");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText8.innerHTML = "Read more"; 
-      //     moreText8.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText8.innerHTML = "Read less"; 
-      //     moreText8.style.display = "inline";
-      //   }
-      // }
-      // function myFunction9() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText9 = document.getElementById("more9");
-      //   var btnText9 = document.getElementById("myBtn9");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText9.innerHTML = "Read more"; 
-      //     moreText9.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText9.innerHTML = "Read less"; 
-      //     moreText9.style.display = "inline";
-      //   }
-      // }
-      // function myFunction10() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText10 = document.getElementById("more10");
-      //   var btnText10 = document.getElementById("myBtn10");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText10.innerHTML = "Read more"; 
-      //     moreText10.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText10.innerHTML = "Read less"; 
-      //     moreText10.style.display = "inline";
-      //   }
-      // }
-      // function myFunction11() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText11 = document.getElementById("more11");
-      //   var btnText11 = document.getElementById("myBtn11");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText11.innerHTML = "Read more"; 
-      //     moreText11.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText11.innerHTML = "Read less"; 
-      //     moreText11.style.display = "inline";
-      //   }
-      // }
-      // function myFunction12() {
-      //   var dots = document.getElementById("dots");
-      //   var moreText12 = document.getElementById("more12");
-      //   var btnText12 = document.getElementById("myBtn12");
-
-      //   if (dots.style.display === "none") {
-      //     dots.style.display = "inline";
-      //     btnText12.innerHTML = "Read more"; 
-      //     moreText12.style.display = "none";
-      //   } else {
-      //     dots.style.display = "none";
-      //     btnText12.innerHTML = "Read less"; 
-      //     moreText12.style.display = "inline";
-      //   }
-      // }
 
       let collapsibleHeaders = document.getElementsByClassName('collapsible__header');
 
@@ -1791,8 +1770,6 @@
         }
       };
     </script>
-
-
     <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
 

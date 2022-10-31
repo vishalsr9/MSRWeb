@@ -277,9 +277,11 @@
                         <li></li>
                         <!-- </ul>
                 <ul> -->
-                        <li></li>
                         <li>
 
+                        </li>
+                        <li>
+                            <p>Regionale Produkte haben kürzere Lieferketten</p>
                         </li>
                         <li></li>
                         <li>
@@ -297,7 +299,7 @@
                     </div>
                     <div class="right-content">
                         <p>
-                            Die Versorgung mit Lebensmitteln ist zunehmend durch den Klimawandel bedroht. Zusätzlich haben die Covid-19 Pandemie sowie die Zunahme geopolitischer Krisen die Anfälligkeit mancher Lieferketten verdeutlicht. Dagegen können nachhaltige Produkte ökologische, soziale oder wirtschaftliche Vorteile bieten. Sie schützen während ihrer gesamten Lebensdauer sowohl unsere Gesundheit als auch unsere Umwelt. Nachhaltig produziertes Fleisch oder Molkereiprodukte beispielsweise stoßen zwar auch Kohlenstoff (über Methan) aus, aber dennoch wird der natürliche CO2-Kreislauf nahezu im Gleichgewicht gehalten. Nachhaltige Produkte und nachhaltiger Konsum sind daher der Schlüssel zur Bewältigung der weltweiten Herausforderungen durch Klimawandel, Pandemien und geopolitische Krisen.
+                            Die Versorgung mit Lebensmitteln ist zunehmend durch den Klimawandel bedroht. Zusätzlich haben die Covid-19 Pandemie sowie die Zunahme geopolitischer Krisen die Anfälligkeit mancher Lieferketten verdeutlicht. Dagegen können nachhaltige Produkte ökologische, soziale oder wirtschaftliche Vorteile bieten. Sie schützen während ihrer gesamten Lebensdauer sowohl unsere Gesundheit als auch unsere Umwelt. Bei der nachhaltigen Produktion von Fleisch oder Molkereiprodukten wird zwar auch Kohlenstoff (über Methan) ausgestoßen, aber dennoch wird der natürliche CO2-Kreislauf nahezu im Gleichgewicht gehalten. Nachhaltige Produkte und nachhaltiger Konsum sind daher der Schlüssel zur Bewältigung der weltweiten Herausforderungen durch Klimawandel, Pandemien und geopolitische Krisen.
                         </p>
                     </div>
                 </div>

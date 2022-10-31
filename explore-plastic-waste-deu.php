@@ -540,7 +540,7 @@
 
 
             <div class="row">
-              <div class="col-md-12 mb-5">
+              <div class="col-md-12 mb-5" style="z-index: 0;">
                 <div class="pageSlider-container">
                   <div class="pageSlider-container-inner">
                     <div class="pageSlider-prev">
@@ -1023,7 +1023,211 @@
         </div>
       </section>
 
+      <style>
+        .likebtn1 {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
 
+        .sharing {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .contentyn {
+          transition: all 0.3s;
+          border: 0;
+          border-radius: 0;
+          background-color: #003b7e;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "GothamBold";
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 15px 0 0;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .contentyn:hover {
+          background-color: #ffe500;
+          color: #003b7e;
+          outline: 2px solid #003b7e;
+          transition: 0.5s;
+        }
+
+        .contentyn:active {
+          outline: 25px solid #003b7e;
+          box-shadow: 30px 30px 25px #003b7e;
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+
+
+        .cyliked {
+          background-color: #ffe500;
+          outline: 2px solid #003b7e;
+          color: #003b7e;
+        }
+
+        .sharebtn {
+          transition: all 0.3s;
+          border: 0;
+          border-radius: 0;
+          background-color: #003b7e;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "GothamBold";
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 15px 0 0;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .sharebtn:hover {
+          background-color: #ffe500;
+          color: #003b7e;
+
+        }
+      </style>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="likebtn1">
+            <p>
+              <strong>
+                War dieser Artikel hilfreich?
+              </strong>
+            </p>
+            <a href="" class="contentyn cy" onclick="liked(); return false;">
+              Ja <i class="fa fa-thumbs-up"></i>
+            </a>
+            <a href="" class="contentyn cn" onclick="disliked(); return false;">
+              Nein <i class="fa fa-thumbs-down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="sharing">
+            <p>
+              <strong>
+                Teile diese Seite
+              </strong>
+            </p>
+            <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+            <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+            <a href="" id="ln-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:?subject=This page has a great content" class="sharebtn"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        window.onload = function() {
+          starter();
+        };
+
+        function starter() {
+          var lcook = getCookie("likedCook");
+          var dlcook = getCookie("dislikedCook");
+          if (lcook) {
+            $(".cy").addClass("cyliked");
+            $(".cn").removeClass("cyliked");
+          } else {
+            $(".cy").removeClass("cyliked");
+          }
+          if (dlcook) {
+            $(".cn").addClass("cyliked");
+            $(".cy").removeClass("cyliked");
+          } else {
+            $(".cn").removeClass("cyliked");
+          }
+        };
+
+        function liked() {
+          var lcook = getCookie("likedCook");
+          if (lcook) {
+            eraseCookie("likedCook");
+
+          } else {
+            setCookie("likedCook", "1", 365);
+
+          }
+          eraseCookie("dislikedCook");
+          starter();
+        };
+
+        function disliked() {
+          var dlcook = getCookie("dislikedCook");
+          if (dlcook) {
+            eraseCookie("dislikedCook");
+
+          } else {
+            setCookie("dislikedCook", "1", 365);
+          }
+          eraseCookie("likedCook");
+          starter();
+        };
+
+
+
+
+        function setCookie(name, value, days) {
+          var expires = "";
+          if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+          }
+          document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        };
+
+        function getCookie(name) {
+          var nameEQ = name + "=";
+          var ca = document.cookie.split(';');
+          for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+          }
+          return null;
+        };
+
+
+        function eraseCookie(name) {
+          document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+
+
+        var fbButton = document.getElementById('fb-share-button');
+        var url = window.location.href;
+
+        fbButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
+            'facebook-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+
+        var twButton = document.getElementById('tw-share-button');
+        var url = window.location.href;
+
+        twButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://twitter.com/share?' + url,
+            'twitter-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+      </script>
 
       <section class="section5">
         <div class="bottom-left">

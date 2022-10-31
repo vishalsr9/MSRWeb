@@ -254,11 +254,11 @@
       </li>
       <li></li>
       <li>
-        <p>Positiver Einfluss auf die Gemeinde</p>
+        <p>Positiver Einfluss auf die Kommune</p>
       </li>
       <li></li>
       <li>
-        <p>Geringere Auswirkungen auf die lokale und globale Umwelt</p>
+        <p>Geringere Auswirkungen Umwelt</p>
       </li>
       <!-- <li>
             <p>Prevent food waste</p>

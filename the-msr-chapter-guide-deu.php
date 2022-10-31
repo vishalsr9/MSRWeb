@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>METRO - The MSR Chapter Guide</title>
+	<title>METRO</title>
 	<meta name="description" content="METRO - The MSR Chapter Guide" />
 	<link rel="stylesheet" href="css/page2_style.css">
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -50,6 +50,10 @@
 		.mt-less-5r {
 			margin-top: -5rem;
 		}
+
+		.cta-social {
+			padding: 9px 10px 9px 10px !important;
+		}
 	</style>
 </head>
 
@@ -75,8 +79,8 @@
 				</div>
 				<div class="custom__select top-mar-less">
 					<select>
-						<option value="introduction-to-food-waste-deu.php" selected>DEU</option>
-						<option value="introduction-to-food-waste-eng.php">ENG</option>
+						<option value="the-msr-chapter-guide-deu.php" selected>DEU</option>
+						<option value="the-msr-chapter-guide-eng.php">ENG</option>
 					</select>
 				</div>
 				<nav>
@@ -274,9 +278,9 @@ height: 7rem;" href="#" id="water_id"></a>
 							<img src="images/L2-09.svg" />
 						</div>
 						<h2>Warum sich die Gastronomie gesellschaftlich engagieren muss</h2>
-						<p>Essen und Trinken bringt die Menschen zusammen. Bei sozial engagierten Unternehmen geht es darum, eine aktive Rolle in Ihrer Gemeinde zu übernehmen und das Wohlergehen Ihrer Mitarbeitende und Lieferanten zu gewährleisten. Wenn Ihre Mitarbeitende gut behandelt werden und Sie und Ihre Lieferanten verantwortungsbewusst handeln, sind die positiven Auswirkungen auf Ihren Geschäftsbetrieb nicht nur in Ihrem Restaurant, sondern auch in Ihrer lokalen Gemeinde zu spüren. </p>
+						<p>Essen und Trinken bringt die Menschen zusammen. Bei sozial engagierten Unternehmen geht es darum, eine aktive Rolle in Ihrer Gemeinde zu übernehmen und das Wohlergehen Ihrer Mitarbeitenden und Lieferanten zu gewährleisten. Wenn Ihre Mitarbeitenden gut behandelt werden und Sie und Ihre Lieferanten verantwortungsbewusst handeln, sind die positiven Auswirkungen auf Ihren Geschäftsbetrieb nicht nur in Ihrem Restaurant, sondern auch in Ihrer lokalen Gemeinde zu spüren. </p>
 						<div class="btn-drawer">
-							<a class="modal-cta" href="introduction-to-social-deu.php">MEHR ERFAHREN</a>
+							<a class="modal-cta cta-social" href="introduction-to-social-deu.php">MEHR ERFAHREN</a>
 						</div>
 					</div>
 				</div>
@@ -290,7 +294,7 @@ height: 7rem;" href="#" id="water_id"></a>
 							<img src="images/L2-10.svg" />
 						</div>
 						<h2>Wie man Produkte verantwortungsbewusst einkauft</h2>
-						<p>Regionalität ist lange kein Trend mehr. Immer mehr Menschen interessieren sich dafür, woher ihre Lebensmittel kommen. Durch Lebensmittel aus der Region können lange Transportwege vermieden werden. Gäste fordern regionale, saisonale und nachhaltigere Alternativen, auch wenn sie auswärts essen. Durch die sorgfältige Auswahl der von Ihnen angebotenen Produkte können Sie auf die wachsenden Bedürfnisse Ihrer Gäste eingehen und einen positiven Einfluss auf die Umwelt ausüben. Als Restaurantbesitzer mit sorgfältig ausgewählten Gerichten in der Speisekarte, der auch auf nachhaltige Lebensmittel achtet, können Sie einen Mehrwert bieten und sich von der Konkurrenz abheben.</p>
+						<p>Regionalität ist lange kein Trend mehr. Immer mehr Menschen interessieren sich dafür, woher ihre Lebensmittel kommen. Durch Lebensmittel aus der Region können lange Transportwege vermieden werden. Gäste fordern regionale, saisonale und nachhaltigere Alternativen, auch wenn sie auswärts essen. Durch die sorgfältige Auswahl der von Ihnen angebotenen Produkte können Sie auf die wachsenden Bedürfnisse Ihrer Gäste eingehen und einen positiven Einfluss auf die Umwelt ausüben. Als Restaurantbetreibende mit sorgfältig ausgewählten Gerichten in der Speisekarte, die auch auf nachhaltige Lebensmittel achten, können Sie einen Mehrwert bieten und sich von der Konkurrenz abheben.</p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-responsible-sourcing-deu.php">MEHR ERFAHREN</a>
 						</div>
@@ -306,7 +310,7 @@ height: 7rem;" href="#" id="water_id"></a>
 							<img src="images/L2-06.svg" />
 						</div>
 						<h2>Warum wir Lebensmittelabfälle reduzieren müssen</h2>
-						<p>Die Boston Consulting Group (BCG) geht davon aus, dass die Menge an weggeworfenen Lebensmitteln bis 2030 weltweit 2,1 Milliarden Tonnen erreichen wird. Doch das ist wertvolle Nahrung, die Sie mit Ihrer Zeit, Ihrem Fachwissen, mit Wärme, Wasser und Energie geschaffen haben. Sie werfen also buchstäblich Geld zum Fenster hinaus. Ihr Restaurant kann profitabler sein, indem Sie Lebensmittelabfälle in Ihrem Betrieb reduzieren. in Ihrem Betrieb reduzieren, wie beispielsweise durch die Abgabe an gemeinnützige Organisationen, bedarfsgerechte Planung sowie die richtige Lagerung von Lebensmitteln.</p>
+						<p>Die Boston Consulting Group (BCG) geht davon aus, dass die Menge an weggeworfenen Lebensmitteln bis 2030 weltweit 2,1 Milliarden Tonnen erreichen wird. Doch das ist wertvolle Nahrung, die Sie mit Ihrer Zeit, Ihrem Fachwissen, mit Wärme, Wasser und Energie geschaffen haben. Sie werfen also buchstäblich Geld zum Fenster hinaus. Ihr Restaurant kann profitabler sein, indem Sie Lebensmittelabfälle in Ihrem Betrieb reduzieren. Dies können Sie beispielsweise durch die Abgabe an gemeinnützige Organisationen, bedarfsgerechte Planung sowie die richtige Lagerung von Lebensmitteln.</p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-food-waste-deu.php">MEHR ERFAHREN</a>
 						</div>
@@ -367,7 +371,7 @@ height: 7rem;" href="#" id="water_id"></a>
 							<img src="images/L2-04.svg" />
 						</div>
 						<h2>Das Problem mit dem Abfall</h2>
-						<p>Abfall ist ein Problem – ein Problem, das wir selbst schaffen. Abfall beansprucht Platz und kostet Geld, wenn er nicht richtig gemanagt wird. Außerdem schadet er der Umwelt und unserer Gesundheit. Als Gastronom können Sie wirklich etwas bewirken, indem Sie Müll vermeiden, sorgfältig sortieren und entsorgen. Abfälle können an vielen Stellen vermieden werden, wie beispielsweise durch das Nutzen von Mehrwegsystemen. Dies senkt Ihre Kosten und verbessert Ihren Ruf bei Gästen und in Ihrer Gemeinde vor Ort.</p>
+						<p>Abfall ist ein Problem – ein Problem, das wir selbst schaffen. Abfall beansprucht Platz und kostet Geld, wenn er nicht richtig gemanagt wird. Außerdem schadet er der Umwelt und unserer Gesundheit. Als Gastronomen können Sie wirklich etwas bewirken, indem Sie Müll vermeiden, sorgfältig sortieren und entsorgen. Abfälle können an vielen Stellen vermieden werden, wie beispielsweise durch das Nutzen von Mehrwegsystemen. Dies senkt Ihre Kosten und verbessert Ihren Ruf bei Gästen und in Ihrer Gemeinde vor Ort.</p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-waste-deu.php">MEHR ERFAHREN</a>
 						</div>

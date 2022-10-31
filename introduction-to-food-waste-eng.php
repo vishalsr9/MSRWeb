@@ -15,6 +15,40 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="safe-food.css">
     <link rel="stylesheet" href="./assets/css/common.css">
+    <style>
+        .l3-5 {
+            display: inline-block;
+            position: relative;
+        }
+
+        .l3-5img {
+            height: 50rem;
+            margin-left: 2rem;
+        }
+
+        .ovrBtn {
+            position: absolute;
+            top: 11.2rem;
+            left: 18.5rem;
+            color: white;
+            background-color: #003b7e;
+            border-radius: 0;
+            padding: 5px 6px;
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            font-family: GothamBold;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .ovrBtn:hover {
+            color: #003b7e;
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body class="page3-page">
@@ -296,11 +330,11 @@
     </section>
 
 
-    <section class="section4 padr-60px w90-per">
+    <section class="section4 padr-60px">
         <div class="left-content noalign border-right col-md-6">
             <h3>KNOW HOW – STEPS TO<br> AVOID FOOD WASTE</h3>
             <p>
-                Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest <a href="https://responsibility.metroag.de/focus-areas/food-waste">Food Waste Report</a>.<br><br>Landfills should be the last place where food waste ends up!
+                Avoid food waste by identifying the types of waste and where it is generated. Food waste comes from either the back of house i.e. in the kitchen before serving or from the front of the house i.e. where customers are served. Fruit and vegetables, for example, are a major contributor to food waste in a restaurant. Learn how to store them well to avoid waste. Talk with your staff and help them understand the importance of reducing waste. Discount or donate surplus food to help people and animals in need. Practice advanced ways to reduce food waste, e.g. compost food waste at your restaurant or through a local service and learn to cook with unwanted parts. Technical solutions can also improve operational efficiency and reduce food waste e.g. by managing the food waste inventory and redistribution of food online, thereby eliminating time for waste management. You can find out more about food waste reduction in our latest <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank">Food Waste Report</a>.<br><br>Landfills should be the last place where food waste ends up!
             </p>
 
 
@@ -308,17 +342,9 @@
                 <a href="explore-food-waste-eng.php" class="read-more" target="_self">Read More</a>
             </div>
         </div>
-        <style>
-            .l3-5 {
-                display: inline-block;
-                position: relative;
-            }
 
-            .l3-5img {
-                height: 50rem;
-                margin-left: 2rem;
-            }
-        </style>
+
+
         <div class="l3-5img mr-4 col-md-6">
             <h3>Food Recovery Hierarchy</h3>
             <div class="l3-5">
@@ -327,6 +353,9 @@
             </div>
 
         </div>
+
+
+
     </section>
 
 

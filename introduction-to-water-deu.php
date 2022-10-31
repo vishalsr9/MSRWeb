@@ -307,13 +307,12 @@
           <!-- </ul><ul> -->
           <li></li>
           <li>
-            <p>Positive Auswirkungen<br>
-              auf die lokale und<br>
-              globale Umwelt</p>
+            <p>Positive Auswirkungen
+              auf Umwelt</p>
           </li>
           <li></li>
           <li>
-            <p>Verantwor-tungsvoll Mitglied der Gemeinschaft</p>
+            <p>Verantwor-tungsvolles Mitglied der Gemeinschaft</p>
           </li>
           <li></li>
           <li>

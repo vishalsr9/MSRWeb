@@ -284,7 +284,7 @@
                 <ul> -->
                         <li></li>
                         <li>
-
+                            Regional products have shorter supply chains
                         </li>
                         <li></li>
                         <li>
