@@ -3071,8 +3071,8 @@
         };
 
         function starter() {
-            var lcook = getCookie("likedCook");
-            var dlcook = getCookie("dislikedCook");
+            var lcook = getCookie("likedCook2d");
+            var dlcook = getCookie("dislikedCook2d");
             if (lcook) {
                 $(".cy").addClass("cyliked");
                 $(".cn").removeClass("cyliked");
@@ -3088,27 +3088,27 @@
         };
 
         function liked() {
-            var lcook = getCookie("likedCook");
+            var lcook = getCookie("likedCook2d");
             if (lcook) {
-                eraseCookie("likedCook");
+                eraseCookie("likedCook2d");
 
             } else {
-                setCookie("likedCook", "1", 365);
+                setCookie("likedCook2d", "1", 365);
 
             }
-            eraseCookie("dislikedCook");
+            eraseCookie("dislikedCook2d");
             starter();
         };
 
         function disliked() {
-            var dlcook = getCookie("dislikedCook");
+            var dlcook = getCookie("dislikedCook2d");
             if (dlcook) {
-                eraseCookie("dislikedCook");
+                eraseCookie("dislikedCook2d");
 
             } else {
-                setCookie("dislikedCook", "1", 365);
+                setCookie("dislikedCook2d", "1", 365);
             }
-            eraseCookie("likedCook");
+            eraseCookie("likedCook2d");
             starter();
         };
 

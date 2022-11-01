@@ -3508,8 +3508,8 @@
         };
 
         function starter() {
-            var lcook = getCookie("likedCook");
-            var dlcook = getCookie("dislikedCook");
+            var lcook = getCookie("likedCook2e");
+            var dlcook = getCookie("dislikedCook2e");
             if (lcook) {
                 $(".cy").addClass("cyliked");
                 $(".cn").removeClass("cyliked");
@@ -3525,27 +3525,27 @@
         };
 
         function liked() {
-            var lcook = getCookie("likedCook");
+            var lcook = getCookie("likedCook2e");
             if (lcook) {
-                eraseCookie("likedCook");
+                eraseCookie("likedCook2e");
 
             } else {
-                setCookie("likedCook", "1", 365);
+                setCookie("likedCook2e", "1", 365);
 
             }
-            eraseCookie("dislikedCook");
+            eraseCookie("dislikedCook2e");
             starter();
         };
 
         function disliked() {
-            var dlcook = getCookie("dislikedCook");
+            var dlcook = getCookie("dislikedCook2e");
             if (dlcook) {
-                eraseCookie("dislikedCook");
+                eraseCookie("dislikedCook2e");
 
             } else {
-                setCookie("dislikedCook", "1", 365);
+                setCookie("dislikedCook2e", "1", 365);
             }
-            eraseCookie("likedCook");
+            eraseCookie("likedCook2e");
             starter();
         };
 
@@ -3576,7 +3576,7 @@
 
         function eraseCookie(name) {
             document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-        }
+        };
 
 
         var fbButton = document.getElementById('fb-share-button');
@@ -3679,23 +3679,15 @@
         <div class="fotter-right footer-first-page">
             <div class="fotter-right-top">
                 <div class="footer-links content-foo">
-                    <p>The METRO My Sustainable Restaurant is designed to help food business
-                        owners adopt a more sustainable future.</p>
+                    <p>The METRO My Sustainable Restaurant is designed to help food business owners adopt a more sustainable future.</p>
                 </div>
                 <div class="footer-links link2">
                     <ul>
-
-
                         <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-
                         <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-
                         <li><a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-
                         <li><a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-
                     </ul>
-
                 </div>
                 <div class="footer-links link3">
                     <ul>
@@ -3726,18 +3718,11 @@
             <div class="fotter-right-top">
                 <div class="footer-links link2">
                     <ul>
-
-
                         <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-
                         <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-
                         <li><a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-
                         <li><a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-
                     </ul>
-
                 </div>
                 <div class="footer-socials">
                     <ul>

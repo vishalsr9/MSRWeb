@@ -26,9 +26,15 @@
             margin-left: 2rem;
         }
 
+        .food-rec {
+            margin-bottom: -5rem;
+            margin-left: 3rem;
+            margin-top: 8rem;
+        }
+
         .ovrBtn {
             position: absolute;
-            top: 11.2rem;
+            top: 17rem;
             left: 18.5rem;
             color: white;
             background-color: #003b7e;
@@ -260,7 +266,11 @@
     <section class="section3-grid">
         <ul>
             <li>
-                <p class="font-size-30px">Benefits</p>
+                <p class="font-size-30px">
+                    <span class="nowrap1">
+                        Benefits
+                    </span>
+                </p>
             </li>
             <li></li>
             <li>
@@ -343,11 +353,9 @@
             </div>
         </div>
 
-
-
         <div class="l3-5img mr-4 col-md-6">
-            <h3>Food Recovery Hierarchy</h3>
             <div class="l3-5">
+                <h3 class="food-rec">Food Recovery Hierarchy</h3>
                 <img src="images/safe_food/l3-5.svg" class="l3-5img">
                 <a href="https://responsibility.metroag.de/focus-areas/food-waste" target="_blank" class="ovrBtn">Read More</a>
             </div>

@@ -30,10 +30,16 @@
             margin-left: 2rem;
         }
 
+        .food-rec {
+            margin-bottom: -5rem;
+            margin-left: 3rem;
+            margin-top: 4.5rem;
+        }
+
         .ovrBtn {
             position: absolute;
-            top: 15.8rem;
-            left: 16.5rem;
+            top: 16.8rem;
+            left: 18rem;
             color: white;
             background-color: #003b7e;
             border-radius: 0;
@@ -352,9 +358,10 @@
         </div>
 
         <div class="l3-5img mr-4 col-md-6">
-            <!-- <h3>Food Recovery Hierarchy</h3> -->
+
             <div class="l3-5">
-                <img src="images/safe_food/Food Waste L3_graphics.svg" class="l3-5img">
+                <h3 class="food-rec">Hierarchie der<br>Lebensmittelwiederverwertung</h3>
+                <img src="images/safe_food/food-waste-l3-deu.svg" class="l3-5img">
                 <a href="https://verantwortung.metroag.de/schwerpunkte/lebensmittelverschwendung" target="_blank" class="ovrBtn">WEITERLESEN</a>
             </div>
 

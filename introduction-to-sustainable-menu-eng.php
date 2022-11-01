@@ -5,7 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>METRO</title>
-
+    <link rel="stylesheet" href="required1/bootstrap.min.css" />
+    <link rel="stylesheet" href="required1/font-awesome.min.css" />
+    <link rel="stylesheet" href="required1/normalize.min.css" />
+    <link rel="stylesheet" href="required1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="required1/bootstrap.bundle.min.js"></script>
+    <script src="required1/jquery-3.6.0.min.js"></script>
+    <script src="required1/modernizr.min.js"></script>
+    <script src="required1/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/page2_style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="./jquery/custom.js"></script>
@@ -32,10 +41,35 @@
             font-weight: bolder;
             font-size: 20px !important;
         }
+
+        .font-size-30px {
+            font-size: 30px;
+        }
+
+        #searchq>i {
+            color: white;
+        }
+
+        .searchbox {
+            position: absolute;
+            top: 18px;
+            left: 30%;
+            text-align: center;
+            width: 40%;
+            display: none;
+        }
     </style>
 </head>
 
 <body class="page3-page">
+    <div class="searchbox">
+        <div class="input-group mb-3">
+            <input id="sq" type="text" class="form-control" placeholder="" aria-label="" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+        </div>
+    </div>
+
+
     <header class="no-print">
         <div class="container">
             <div class="logo">
@@ -45,17 +79,29 @@
             </div>
 
             <div class="new_header header-menu">
+
                 <div id="nav-icon4" class="burger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+
                 <div class="custom__select top-mar-less">
+
                     <select>
                         <option value="introduction-to-sustainable-menu-deu.php">DEU</option>
                         <option value="introduction-to-sustainable-menu-eng.php" selected>ENG</option>
                     </select>
                 </div>
+                <a id="searchq" href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+                <script>
+                    $("#searchq").click(function() {
+                        $(".searchbox").toggle();
+                        $("#sq").focus();
+                    });
+                </script>
                 <nav>
                     <ul class="main">
                         <li>
@@ -230,7 +276,11 @@
                 <div class="section3-grid">
                     <ul>
                         <li>
-                            <p>Benefits</p>
+                            <p class="font-size-30px">
+                                <span class="nowrap1">
+                                    Benefits
+                                </span>
+                            </p>
                         </li>
                         <li></li>
                         <li>

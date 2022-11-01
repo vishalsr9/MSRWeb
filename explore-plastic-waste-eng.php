@@ -1132,8 +1132,8 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
         };
 
         function starter() {
-          var lcook = getCookie("likedCook");
-          var dlcook = getCookie("dislikedCook");
+          var lcook = getCookie("likedCook4e");
+          var dlcook = getCookie("dislikedCook4e");
           if (lcook) {
             $(".cy").addClass("cyliked");
             $(".cn").removeClass("cyliked");
@@ -1149,27 +1149,27 @@ times" target="_blank"> single-use plastic items</a> have been banned in the EU.
         };
 
         function liked() {
-          var lcook = getCookie("likedCook");
+          var lcook = getCookie("likedCook4e");
           if (lcook) {
-            eraseCookie("likedCook");
+            eraseCookie("likedCook4e");
 
           } else {
-            setCookie("likedCook", "1", 365);
+            setCookie("likedCook4e", "1", 365);
 
           }
-          eraseCookie("dislikedCook");
+          eraseCookie("dislikedCook4e");
           starter();
         };
 
         function disliked() {
-          var dlcook = getCookie("dislikedCook");
+          var dlcook = getCookie("dislikedCook4e");
           if (dlcook) {
-            eraseCookie("dislikedCook");
+            eraseCookie("dislikedCook4e");
 
           } else {
-            setCookie("dislikedCook", "1", 365);
+            setCookie("dislikedCook4e", "1", 365);
           }
-          eraseCookie("likedCook");
+          eraseCookie("likedCook4e");
           starter();
         };
 
