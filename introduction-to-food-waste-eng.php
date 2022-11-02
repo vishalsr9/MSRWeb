@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="safe-food.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <style>
+        .section4.padr-60px {
+            padding-top: 0px;
+        }
+
         .l3-5 {
             display: inline-block;
             position: relative;
@@ -81,7 +85,7 @@
                 <nav>
                     <ul class="main">
                         <li>
-                            <a href="http://msr.bdevtestservers.com/">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>

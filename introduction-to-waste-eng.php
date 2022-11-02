@@ -42,7 +42,7 @@
                 <nav>
                     <ul class="main">
                         <li>
-                            <a href="http://msr.bdevtestservers.com/">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>

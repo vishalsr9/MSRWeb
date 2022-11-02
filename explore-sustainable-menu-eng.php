@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <link rel="stylesheet" href="./assets/css/common.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" href="likebtn.css">
 
   <style>
     .c9 {
@@ -83,7 +84,7 @@
         <nav>
           <ul class="main">
             <li>
-              <a href="http://msr.bdevtestservers.com/">Home</a>
+              <a href="index.php">Home</a>
             </li>
             <li>
               <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
@@ -676,213 +677,65 @@
 
       </section>
 
+
       <style>
-        .likebtn1 {
+        .like-section {
           margin-top: 2rem;
-          margin-bottom: 2rem;
+          margin-bottom: 4rem;
           text-align: center;
         }
 
-        .sharing {
-          margin-top: 2rem;
-          margin-bottom: 2rem;
-          text-align: center;
-        }
-
-        .contentyn {
-          transition: all 0.3s;
-          border: 0;
-          border-radius: 0;
-          background-color: #003b7e;
-          color: #fff;
-          text-transform: uppercase;
-          font-family: "GothamBold";
-          text-transform: uppercase;
-          display: inline-block;
-          padding: 10px 20px;
-          margin: 15px 0 0;
+        #like {
+          background: #fff;
+          border: unset;
+          outline: 0;
           font-size: 18px;
-          text-decoration: none;
+          cursor: pointer;
+          color: #65676b;
+          padding: 5px 10px;
         }
 
-        .contentyn:hover {
-          background-color: #ffe500;
-          color: #003b7e;
-          outline: 2px solid #003b7e;
-          transition: 0.5s;
+        .liked {
+          color: #0571ed;
         }
 
-        .contentyn:active {
-          outline: 25px solid #003b7e;
-          box-shadow: 30px 30px 25px #003b7e;
-          transform: scale(1.1);
-          transition: 0.5s;
+        .liked i {
+          animation: anim 0.5s ease-in-out;
+          -webkit-animation: anim 0.5s ease-in-out;
         }
 
-
-        .cyliked {
-          background-color: #ffe500;
-          outline: 2px solid #003b7e;
-          color: #003b7e;
-        }
-
-        .sharebtn {
-          transition: all 0.3s;
-          border: 0;
-          border-radius: 0;
-          background-color: #003b7e;
-          color: #fff;
-          text-transform: uppercase;
-          font-family: "GothamBold";
-          text-transform: uppercase;
-          display: inline-block;
-          padding: 10px 20px;
-          margin: 15px 0 0;
-          font-size: 18px;
-          text-decoration: none;
-        }
-
-        .sharebtn:hover {
-          background-color: #ffe500;
-          color: #003b7e;
-
+        @keyframes anim {
+          100% {
+            transform: rotate(-15deg) scale(1.3);
+            -webkit-transform: rotate(-15deg) scale(1.3);
+            -moz-transform: rotate(-15deg) scale(1.3);
+            -ms-transform: rotate(-15deg) scale(1.3);
+            -o-transform: rotate(-15deg) scale(1.3);
+            filter: blur(0.5px);
+            -webkit-filter: blur(0.5px);
+          }
         }
       </style>
 
+
       <div class="row">
-        <div class="col-md-12">
-          <div class="likebtn1">
-            <p>
-              <strong>
-                Was this article helpful?
-              </strong>
-            </p>
-            <a href="" class="contentyn cy" onclick="liked(); return false;">
-              Yes <i class="fa fa-thumbs-up"></i>
-            </a>
-            <a href="" class="contentyn cn" onclick="disliked(); return false;">
-              No <i class="fa fa-thumbs-down"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="sharing">
-            <p>
-              <strong>
-                Share this page
-              </strong>
-            </p>
-            <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
-            <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
-            <a href="" id="ln-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:?subject=This page has a great content" class="sharebtn"><i class="fa fa-envelope"></i></a>
-          </div>
+        <div class="col-md-12 like-section">
+          <h4>
+            Was this article helpful?
+          </h4>
+          <button id="like" onclick="liked()">
+            <i class="fa fa-thumbs-up fa-2x"></i>
+            <span class="icon">Like</span>
+          </button>
         </div>
       </div>
 
       <script>
-        window.onload = function() {
-          starter();
-        };
-
-        function starter() {
-          var lcook = getCookie("likedCook1e");
-          var dlcook = getCookie("dislikedCook1e");
-          if (lcook) {
-            $(".cy").addClass("cyliked");
-            $(".cn").removeClass("cyliked");
-          } else {
-            $(".cy").removeClass("cyliked");
-          }
-          if (dlcook) {
-            $(".cn").addClass("cyliked");
-            $(".cy").removeClass("cyliked");
-          } else {
-            $(".cn").removeClass("cyliked");
-          }
-        };
-
         function liked() {
-          var lcook = getCookie("likedCook1e");
-          if (lcook) {
-            eraseCookie("likedCook1e");
-
-          } else {
-            setCookie("likedCook1e", "1", 365);
-
-          }
-          eraseCookie("dislikedCook1e");
-          starter();
-        };
-
-        function disliked() {
-          var dlcook = getCookie("dislikedCook1e");
-          if (dlcook) {
-            eraseCookie("dislikedCook1e");
-
-          } else {
-            setCookie("dislikedCook1e", "1", 365);
-          }
-          eraseCookie("likedCook1e");
-          starter();
-        };
-
-
-
-
-        function setCookie(name, value, days) {
-          var expires = "";
-          if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires = "; expires=" + date.toUTCString();
-          }
-          document.cookie = name + "=" + (value || "") + expires + "; path=/";
-        };
-
-        function getCookie(name) {
-          var nameEQ = name + "=";
-          var ca = document.cookie.split(';');
-          for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-          }
-          return null;
-        };
-
-
-        function eraseCookie(name) {
-          document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+          var element = document.getElementById("like");
+          element.classList.toggle("liked");
         }
-
-
-        var fbButton = document.getElementById('fb-share-button');
-        var url = window.location.href;
-
-        fbButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
-            'facebook-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
-
-        var twButton = document.getElementById('tw-share-button');
-        var url = window.location.href;
-
-        twButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('https://twitter.com/share?' + url,
-            'twitter-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
       </script>
-
-
 
       <section class="container mt-5 c9">
         <div class="section5">
@@ -1771,6 +1624,7 @@
       };
     </script>
     <script type="text/javascript" src="./assets/js/common.js"></script>
+    <script type="text/javascript" src="likebtn.js"></script>
 </body>
 
 

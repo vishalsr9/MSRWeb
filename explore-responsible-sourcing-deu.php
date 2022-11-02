@@ -744,7 +744,7 @@
                 <nav>
                     <ul class="main">
                         <li>
-                            <a href="http://msr.bdevtestservers.com/home.php">Home</a>
+                            <a href="home.php">Home</a>
                         </li>
                         <li>
                             <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
