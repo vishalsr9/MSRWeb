@@ -310,7 +310,7 @@ height: 7rem;" href="#" id="water_id"></a>
 							<img src="images/L2-06.svg" />
 						</div>
 						<h2>Warum wir Lebensmittelabfälle reduzieren müssen</h2>
-						<p>Die Boston Consulting Group (BCG) geht davon aus, dass die Menge an weggeworfenen Lebensmitteln bis 2030 weltweit 2,1 Milliarden Tonnen erreichen wird. Doch das ist wertvolle Nahrung, die Sie mit Ihrer Zeit, Ihrem Fachwissen, mit Wärme, Wasser und Energie geschaffen haben. Sie werfen also buchstäblich Geld zum Fenster hinaus. Ihr Restaurant kann profitabler sein, indem Sie Lebensmittelabfälle in Ihrem Betrieb reduzieren. Dies können Sie beispielsweise durch die Abgabe an gemeinnützige Organisationen, bedarfsgerechte Planung sowie die richtige Lagerung von Lebensmitteln.</p>
+						<p>Die Boston Consulting Group (BCG) geht davon aus, dass die Menge an weggeworfenen Lebensmitteln bis 2030 weltweit 2,1 Milliarden Tonnen erreichen wird. Doch das ist wertvolle Nahrung, die Sie mit Ihrer Zeit, Ihrem Fachwissen, mit Wärme, Wasser und Energie geschaffen haben. Sie werfen also buchstäblich Geld zum Fenster hinaus. Ihr Restaurant kann profitabler sein, indem Sie Lebensmittelabfälle in Ihrem Betrieb reduzieren. Dies können Sie beispielsweise durch die Abgabe an gemeinnützige Organisationen, bedarfsgerechte Planung sowie die richtige Lagerung von Lebensmitteln erreichen.</p>
 						<div class="btn-drawer">
 							<a class="modal-cta" href="introduction-to-food-waste-deu.php">MEHR ERFAHREN</a>
 						</div>

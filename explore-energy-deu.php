@@ -904,54 +904,75 @@
                 </div>
             </section>
 
+
             <style>
-                .likebtn1 {
+                .like-section {
                     margin-top: 2rem;
-                    margin-bottom: 2rem;
                     text-align: center;
+                }
+
+                #like {
+                    background: #fff;
+                    border: 1px solid #003b7e;
+                    outline: 0;
+                    font-size: 18px;
+                    cursor: pointer;
+                    color: #003b7e;
+                    padding: 5px 15px 10px 15px;
+                    margin-top: 1rem;
+                    font-family: "Gothambold";
+                }
+
+                .ripple {
+                    background-position: center;
+                    transition: 0.8s;
+                }
+
+                .ripple:hover {
+                    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+                }
+
+                .ripple:active {
+                    background-color: #6eb9f7;
+                    background-size: 100%;
+                    transition: 0.5s;
+                }
+
+                #like:hover {
+                    color: black;
+                }
+
+                #like>i {
+                    font-size: 28px;
+                }
+
+
+                .liked {
+                    color: white !important;
+                    background-color: #003b7e !important;
+                }
+
+                .liked i {
+                    animation: anim 0.5s ease-in-out;
+                    -webkit-animation: anim 0.5s ease-in-out;
+                }
+
+                @keyframes anim {
+                    100% {
+                        transform: rotate(-15deg) scale(1.3);
+                        -webkit-transform: rotate(-15deg) scale(1.3);
+                        -moz-transform: rotate(-15deg) scale(1.3);
+                        -ms-transform: rotate(-15deg) scale(1.3);
+                        -o-transform: rotate(-15deg) scale(1.3);
+                        filter: blur(0.5px);
+                        -webkit-filter: blur(0.5px);
+                    }
                 }
 
                 .sharing {
                     margin-top: 2rem;
                     margin-bottom: 2rem;
                     text-align: center;
-                }
-
-                .contentyn {
-                    transition: all 0.3s;
-                    border: 0;
-                    border-radius: 0;
-                    background-color: #003b7e;
-                    color: #fff;
-                    text-transform: uppercase;
-                    font-family: "GothamBold";
-                    text-transform: uppercase;
-                    display: inline-block;
-                    padding: 10px 20px;
-                    margin: 15px 0 0;
-                    font-size: 18px;
-                    text-decoration: none;
-                }
-
-                .contentyn:hover {
-                    background-color: #ffe500;
-                    color: #003b7e;
-                    outline: 2px solid #003b7e;
-                    transition: 0.5s;
-                }
-
-                .contentyn:active {
-                    outline: 25px solid #003b7e;
-                    box-shadow: 30px 30px 25px #003b7e;
-                    transform: scale(1.1);
-                    transition: 0.5s;
-                }
-
-
-                .cyliked {
-                    background-color: #ffe500;
-                    outline: 2px solid #003b7e;
-                    color: #003b7e;
                 }
 
                 .sharebtn {
@@ -978,116 +999,37 @@
             </style>
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="likebtn1">
-                        <p>
-                            <strong>
-                                War dieser Artikel hilfreich?
-                            </strong>
-                        </p>
-                        <a href="" class="contentyn cy" onclick="liked(); return false;">
-                            Ja <i class="fa fa-thumbs-up"></i>
-                        </a>
-                        <a href="" class="contentyn cn" onclick="disliked(); return false;">
-                            Nein <i class="fa fa-thumbs-down"></i>
-                        </a>
-                    </div>
+                <div class="col-md-12 like-section">
+                    <h4>
+                        War dieser Artikel hilfreich?
+                    </h4>
+                    <button id="like" class="ripple" onclick="liked()">
+                        <i class="fa fa-thumbs-up"></i>
+                        <span class="liketxt">Yes!</span>
+                    </button>
                 </div>
                 <div class="col-md-12">
                     <div class="sharing">
-                        <p>
-                            <strong>
-                                Teile diese Seite
-                            </strong>
-                        </p>
+                        <h4>
+                            Teile diese Seite
+                        </h4>
                         <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
                         <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
-                        <a href="" id="ln-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:?subject=This page has a great content" class="sharebtn"><i class="fa fa-envelope"></i></a>
+                        <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+                        <a href="" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
 
             <script>
-                window.onload = function() {
-                    starter();
-                };
-
-                function starter() {
-                    var lcook = getCookie("likedCook6d");
-                    var dlcook = getCookie("dislikedCook6d");
-                    if (lcook) {
-                        $(".cy").addClass("cyliked");
-                        $(".cn").removeClass("cyliked");
-                    } else {
-                        $(".cy").removeClass("cyliked");
-                    }
-                    if (dlcook) {
-                        $(".cn").addClass("cyliked");
-                        $(".cy").removeClass("cyliked");
-                    } else {
-                        $(".cn").removeClass("cyliked");
-                    }
-                };
-
                 function liked() {
-                    var lcook = getCookie("likedCook6d");
-                    if (lcook) {
-                        eraseCookie("likedCook6d");
-
-                    } else {
-                        setCookie("likedCook6d", "1", 365);
-
-                    }
-                    eraseCookie("dislikedCook6d");
-                    starter();
-                };
-
-                function disliked() {
-                    var dlcook = getCookie("dislikedCook6d");
-                    if (dlcook) {
-                        eraseCookie("dislikedCook6d");
-
-                    } else {
-                        setCookie("dislikedCook6d", "1", 365);
-                    }
-                    eraseCookie("likedCook6d");
-                    starter();
-                };
-
-
-
-
-                function setCookie(name, value, days) {
-                    var expires = "";
-                    if (days) {
-                        var date = new Date();
-                        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                        expires = "; expires=" + date.toUTCString();
-                    }
-                    document.cookie = name + "=" + (value || "") + expires + "; path=/";
-                };
-
-                function getCookie(name) {
-                    var nameEQ = name + "=";
-                    var ca = document.cookie.split(';');
-                    for (var i = 0; i < ca.length; i++) {
-                        var c = ca[i];
-                        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-                        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-                    }
-                    return null;
-                };
-
-
-                function eraseCookie(name) {
-                    document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+                    var element = document.getElementById("like");
+                    element.classList.toggle("liked");
                 }
 
-
+                // facebok share
                 var fbButton = document.getElementById('fb-share-button');
                 var url = window.location.href;
-
                 fbButton.addEventListener('click', function(e) {
                     e.preventDefault();
                     window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
@@ -1096,14 +1038,35 @@
                     )
                     return false;
                 });
-
+                // twitter share
                 var twButton = document.getElementById('tw-share-button');
                 var url = window.location.href;
-
                 twButton.addEventListener('click', function(e) {
                     e.preventDefault();
                     window.open('https://twitter.com/share?' + url,
                         'twitter-share-dialog',
+                        'width=800,height=600'
+                    )
+                    return false;
+                });
+                //linked share
+                var ldButton = document.getElementById('ld-share-button');
+                var url = window.location.href;
+                ldButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url,
+                        'linkedin-share-dialog',
+                        'width=800,height=600'
+                    )
+                    return false;
+                });
+                //mailthis
+                var mailButton = document.getElementById('mail-share-button');
+                var url = window.location.href;
+                mailButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.open('mailto:?subject=Hey, diese Seite hat einen tollen Inhalt!&body=' + url,
+                        'email-share-dialog',
                         'width=800,height=600'
                     )
                     return false;

@@ -307,8 +307,7 @@
           <!-- </ul><ul> -->
           <li></li>
           <li>
-            <p>Positive Auswirkungen
-              auf Umwelt</p>
+            <p>Positive Auswirkungen auf die Umwelt</p>
           </li>
           <li></li>
           <li>

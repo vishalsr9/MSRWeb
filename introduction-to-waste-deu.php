@@ -258,7 +258,7 @@
       </li>
       <li></li>
       <li>
-        <p>Geringere Auswirkungen Umwelt</p>
+        <p>Geringere Auswirkungen auf die Umwelt</p>
       </li>
       <!-- <li>
             <p>Prevent food waste</p>

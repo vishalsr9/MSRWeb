@@ -678,25 +678,52 @@
       </section>
 
 
+
       <style>
         .like-section {
           margin-top: 2rem;
-          margin-bottom: 4rem;
           text-align: center;
         }
 
         #like {
           background: #fff;
-          border: unset;
+          border: 1px solid #003b7e;
           outline: 0;
           font-size: 18px;
           cursor: pointer;
-          color: #65676b;
-          padding: 5px 10px;
+          color: #003b7e;
+          padding: 5px 15px 10px 15px;
+          margin-top: 1rem;
+          font-family: "Gothambold";
         }
 
+        .ripple {
+          background-position: center;
+          transition: 0.8s;
+        }
+
+        .ripple:hover {
+          background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+        }
+
+        .ripple:active {
+          background-color: #6eb9f7;
+          background-size: 100%;
+          transition: 0.5s;
+        }
+
+        #like:hover {
+          color: black;
+        }
+
+        #like>i {
+          font-size: 28px;
+        }
+
+
         .liked {
-          color: #0571ed;
+          color: white !important;
+          background-color: #003b7e !important;
         }
 
         .liked i {
@@ -715,6 +742,34 @@
             -webkit-filter: blur(0.5px);
           }
         }
+
+        .sharing {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .sharebtn {
+          transition: all 0.3s;
+          border: 0;
+          border-radius: 0;
+          background-color: #003b7e;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: "GothamBold";
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 15px 0 0;
+          font-size: 18px;
+          text-decoration: none;
+        }
+
+        .sharebtn:hover {
+          background-color: #ffe500;
+          color: #003b7e;
+
+        }
       </style>
 
 
@@ -723,10 +778,21 @@
           <h4>
             Was this article helpful?
           </h4>
-          <button id="like" onclick="liked()">
-            <i class="fa fa-thumbs-up fa-2x"></i>
-            <span class="icon">Like</span>
+          <button id="like" class="ripple" onclick="liked()">
+            <i class="fa fa-thumbs-up"></i>
+            <span class="liketxt">Yes!</span>
           </button>
+        </div>
+        <div class="col-md-12">
+          <div class="sharing">
+            <h4>
+              Share this page
+            </h4>
+            <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+            <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+            <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:?subject=Hey, this page has a great content!&body=" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
+          </div>
         </div>
       </div>
 
@@ -735,6 +801,51 @@
           var element = document.getElementById("like");
           element.classList.toggle("liked");
         }
+
+        // facebok share
+        var fbButton = document.getElementById('fb-share-button');
+        var url = window.location.href;
+        fbButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
+            'facebook-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+        // twitter share
+        var twButton = document.getElementById('tw-share-button');
+        var url = window.location.href;
+        twButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://twitter.com/share?' + url,
+            'twitter-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+        //linked share
+        var ldButton = document.getElementById('ld-share-button');
+        var url = window.location.href;
+        ldButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url,
+            'linkedin-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
+        //mailthis
+        var mailButton = document.getElementById('mail-share-button');
+        var url = window.location.href;
+        mailButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.open('mailto:?subject=Hey, this page has a great content!&body=' + url,
+            'email-share-dialog',
+            'width=800,height=600'
+          )
+          return false;
+        });
       </script>
 
       <section class="container mt-5 c9">
@@ -1624,7 +1735,6 @@
       };
     </script>
     <script type="text/javascript" src="./assets/js/common.js"></script>
-    <script type="text/javascript" src="likebtn.js"></script>
 </body>
 
 
