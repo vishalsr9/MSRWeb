@@ -2,26 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>METRO</title>
-
-    <link rel="stylesheet" href="css/page2_style_1.css">
-    <script src="jquery/custom.js"></script>
-
-    <link rel="stylesheet" href="style1.css">
-    <link href="pageslider.css" rel="stylesheet">
-    <!--required---->
-    <link rel="stylesheet" href="required1/bootstrap.min.css" />
-    <link rel="stylesheet" href="required1/font-awesome.min.css" />
-    <link rel="stylesheet" href="required1/normalize.min.css" />
-    <link rel="stylesheet" href="required1/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./assets/css/common.css">
-    <script src="required1/bootstrap.bundle.min.js"></script>
-    <script src="required1/jquery-3.6.0.min.js"></script>
-    <script src="required1/modernizr.min.js"></script>
-    <script src="required1/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <?php include "includes/page-header.php"; ?>
+    <!--META-->
+    <meta name="language" content="EN">
+    <meta name="description" content="Visit the Metro My Sustainable Restaurant digital immersive experience to explore the future of sustainability in the HoReCa industry.">
+    <meta name="keywords" content="metro,sustainability,restaurant">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <!--OPEN GRAPH AND OTHER-->
+    <meta name="og:title" content="METRO">
+    <meta name="og:type" content="blog">
+    <meta name="og:url" content="">
+    <!--current page url-->
+    <meta name="og:site_name" content="METRO">
+    <meta name="og:description" content="Visit the Metro My Sustainable Restaurant digital immersive experience to explore the future of sustainability in the HoReCa industry.">
+    <meta name="og:email" content="">
+    <meta name="og:phone_number" content="">
+    <meta name="apple-mobile-web-app-title" content="METRO">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#003b7e">
+    <meta name="mssmarttagspreventparsing" content="true">
+    <meta name="IE=edge,chrome=1" content="X-UA-Compatible">
+    <meta name="msapplication-starturl" content="">
+    <!--current page url-->
+    <meta name="msapplication-tooltip" content="METRO">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="canonical" content="">
+    <!--current page url-->
     <style>
         /* schemes and certifications */
         .sc-block {
@@ -662,14 +672,14 @@
         }
 
         li.n-li:first-child>.pbox>.pbox-inner>.on-track>.track-highlighter {
-            content: url("images/resp_sourcing/highlighter-active.svg");
+            content: url("assets/images/resp_sourcing/highlighter-active.svg");
             width: 2rem;
             height: 2rem;
             margin-left: -3px;
         }
 
         li.n-li:first-child>.pbox>.pbox-inner>.ptext-box>.ptext-inner>.imageunder {
-            content: url("images/resp_sourcing/long-arrow.svg");
+            content: url("assets/images/resp_sourcing/long-arrow.svg");
         }
 
         li.liContent:first-child {
@@ -679,8 +689,7 @@
         .pbox:hover {
             font-weight: bold !important;
         }
-    </style>
-    <style>
+
         @media print {
             body * {
                 visibility: hidden;
@@ -698,154 +707,17 @@
             }
         }
     </style>
-
 </head>
 
-<body class="page4-page">
-    <header class="no-print">
-        <div class="container">
-            <div class="logo">
-                <a href="index.php">
-                    <img src="images/metro-logo.svg" />
-                </a>
-            </div>
+<body class="popup-exists page-animation1">
+    <?php include "includes/header-eng.php"; ?>
+    <?php include "includes/loader.php"; ?>
 
-            <div class="new_header header-menu">
-                <div id="nav-icon4" class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="custom__select top-mar-less">
-                    <select>
-                        <option value="explore-responsible-sourcing-deu.php">DEU</option>
-                        <option value="explore-responsible-sourcing-eng.php" selected>ENG</option>
-                    </select>
-                </div>
-                <nav>
-                    <ul class="main">
-                        <li>
-                            <a href="index.php">Home</a>
-                        </li>
-                        <li>
-                            <a href="my-sustainable-restaurant.php">My Sustainable Restaurant</a>
-                        </li>
-                        <li>
-                            <a href="the-msr-chapter-guide-eng.php">The MSR Chapter Guide</a>
-                        </li>
-                        <div class="sub_menuUi">
-                            <li>
-                                <a href="introduction-to-sustainable-menu-eng.php">Sustainable Menu</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-responsible-sourcing-eng.php">Responsible Sourcing</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-food-waste-eng.php">Food Waste</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-plastic-waste-eng.php">Plastic Waste</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-safe-food-eng.php">Safe Food</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-energy-eng.php">Energy</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-water-eng.php">Water</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-waste-eng.php">Waste</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-social-eng.php">Social</a>
-                            </li>
-                        </div>
-                        <li>
-                            <a href="https://www.metroag.de/en/contact" target="_blank">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
-                    <div class="social">
-                        <p class="mb-2">Useful Links</p>
-                        <div class="mt-4">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <a href="https://www.menukithd.com/" target="_blank">
-                                            <img src="images/logo-dish.png" class="img-fluid">
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a href="https://www.dish.co/DE/en/" target="_blank">
-                                            <img src="images/Dish_Logo-svg.svg" class="img-fluid" style="height: 2rem;margin-left: .5rem;">
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
-                                            <img src="images/Protrace_Logo-ai.svg" class="img-fluid" style="height: 3rem; margin-left:1rem;">
-                                        </a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <!-- <div class="social">
-                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-                            <img src="images/Logo_METRO-Regio_weiss.png">
-                        </a>
-                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-                            <img src="./images/safe_food/foot_nav2.PNG">
-                        </a>
-                        <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
-                    </div>-->
-                        <div class="footer-socials side_nav">
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/mpulse/" target="_blank">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.metroag.de/youtube" target="_blank">
-                                        <i class="fa fa-youtube-play"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/metro_mpulse/" target="_blank">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/@METRO_News" target="_blank">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
-                </nav>
-                <div class="overlay"></div>
-            </div>
-        </div>
-    </header>
-    <div id="loader-page2" class="center no-print">
-        <span class="loader__text">
-            <img src="images/yellow_pan.gif" class="loader9" />
-        </span>
-    </div>
-
-    <div class="container-full">
-
+    <div class="wrapper">
         <div class="page-3_stage page-4_stage">
 
             <!--BANNER-->
-            <section class="section1 no-print">
+            <section class="section1 no-print" id="option1" data-scrl="How to source responsibly">
                 <div class="left-content">
                     <h3>How to source<br>responsibly</h3>
                     <h4>Responsible sourcing and your business</h4>
@@ -855,7 +727,7 @@
                     <!-- <button class="read-more-btn" href="#" id="myBtn" onclick="expand-next('#more')">Read more</button> -->
                 </div>
                 <div class="right-content">
-                    <img src="images/resp_sourcing/resp_sour_L3_banner_img.svg" class="img-fluid mt-4" />
+                    <img src="assets/images/resp_sourcing/resp_sour_L3_banner_img.svg" class="img-fluid mt-4" />
                 </div>
                 <!-- <a href="#devid01">DEV. Link</a> -->
             </section>
@@ -863,7 +735,7 @@
 
 
             <!--Importance of sourcing-->
-            <section class="section2 no-print z0">
+            <section class="section2 no-print z0" id="option2" data-scrl="The importance of sourcing responsibly">
                 <div class="text-center">
                     <div class="wrap-2">
                         <h3 class="section-heading-blue">The importance of sourcing responsibly </h3>
@@ -877,7 +749,7 @@
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-handshake.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-handshake.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     By being more sustainable, you will build a positive image with your customers and create opportunities to win new ones.
@@ -887,7 +759,7 @@
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-diamond.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-diamond.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will differentiate yourself from your competitors with added value.
@@ -897,7 +769,7 @@
                         <div class="col-md-4 mt-2 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-users.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-users.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will create a
@@ -909,7 +781,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-globe-hand.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-globe-hand.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will have a positive,
@@ -921,7 +793,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-graph.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-graph.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     Your business will be future-proof. As
@@ -936,7 +808,7 @@
                         <div class="col-md-4 mt-4 mx-0 icon-box-1">
                             <div class="icon-box-1-content">
                                 <div class="icon-holder">
-                                    <img src="images/resp_sourcing/icon-recycle.svg" class="img-fluid">
+                                    <img src="assets/images/resp_sourcing/icon-recycle.svg" class="img-fluid">
                                 </div>
                                 <div class="text-holder">
                                     You will stimulate the demand
@@ -951,7 +823,7 @@
             </section>
 
             <!--Good to know SECTION-->
-            <section class="section-white-full-width no-print">
+            <section class="section-white-full-width no-print" id="option3" data-scrl="Good to know – Schemes that help you find your way">
                 <h3 class="section-heading-blue no-print">
                     Good to know – Schemes that help you find your way
                 </h3>
@@ -968,7 +840,7 @@
                     <div class="col-md-3 no-print">
                         <div class="protrace-frame">
                             <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank">
-                                <img src="images/Protrace_Logo-ai.svg" class="protrace-img" />
+                                <img src="assets/images/Protrace_Logo-ai.svg" class="protrace-img" />
                             </a>
                         </div>
 
@@ -1009,14 +881,14 @@
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
-                                            <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
+                                            <img src="assets/images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
                                         </span>
                                         <div class="swiper sw10">
                                             <div class="swiper-wrapper swr9">
                                                 <div class="swiper-slide ss sl10 sl101">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage101">
-                                                            <img src="images/resp_sourcing/scheme-logos/Fairtrade_Certification_Mark.svg.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Fairtrade_Certification_Mark.svg.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle101">
                                                             <span class="sltitletxt">FAIRTRADE</span>
@@ -1031,7 +903,7 @@
                                                 <div class="swiper-slide ss sl10 sl102">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage102">
-                                                            <img src="images/resp_sourcing/scheme-logos/GEPA.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/GEPA.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle102">
                                                             <span class="sltitletxt">GEPA</span>
@@ -1062,7 +934,7 @@
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
-                                            <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
+                                            <img src="assets/images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
                                         </span>
                                         <div class="swiper sw11">
                                             <div class="swiper-wrapper swr9">
@@ -1082,7 +954,7 @@
                                                 <div class="swiper-slide ss sl11 sl111">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage111">
-                                                            <img src="images/resp_sourcing/scheme-logos/EU SCHEMES.jpg" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/EU SCHEMES.jpg" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle111">
                                                             <span class="sltitletxt">EU Schemes</span>
@@ -1114,14 +986,14 @@
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
-                                            <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
+                                            <img src="assets/images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
                                         </span>
                                         <div class="swiper sw9">
                                             <div class="swiper-wrapper swr9">
                                                 <div class="swiper-slide ss sl9 sl91">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage91">
-                                                            <img src="images/resp_sourcing/scheme-logos/EU organic farming.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/EU organic farming.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle91">
                                                             <span class="sltitletxt">EU Organic Farming</span>
@@ -1144,7 +1016,7 @@
                                                 <div class="swiper-slide ss sl9 sl92">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage92">
-                                                            <img src="images/resp_sourcing/scheme-logos/GLOBALG.A.P..png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/GLOBALG.A.P..png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle92">
                                                             <span class="sltitletxt">GLOBALG.A.P.</span>
@@ -1163,7 +1035,7 @@
                                                 <div class="swiper-slide ss sl9 sl93">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage93">
-                                                            <img src="images/resp_sourcing/scheme-logos/GGN_FullLogo.svg" class="ggnlogo">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/GGN_FullLogo.svg" class="ggnlogo">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle93">
                                                             <span class="sltitletxt">GGN</span>
@@ -1185,7 +1057,7 @@
                                                 <div class="swiper-slide ss sl9 sl94">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage94">
-                                                            <img src="images/resp_sourcing/scheme-logos/ASC.svg" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/ASC.svg" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle94">
                                                             <span class="sltitletxt">ASC</span>
@@ -1204,7 +1076,7 @@
                                                 <div class="swiper-slide ss sl9 sl95">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage95">
-                                                            <img src="images/resp_sourcing/scheme-logos/Marine Stewardship Council.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Marine Stewardship Council.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle95">
                                                             <span class="sltitletxt">
@@ -1228,7 +1100,7 @@
                                                 <div class="swiper-slide ss sl9 sl96">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage96">
-                                                            <img src="images/resp_sourcing/scheme-logos/Forest Stewardship Council.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Forest Stewardship Council.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle96">
                                                             <span class="sltitletxt">FSC</span>
@@ -1247,7 +1119,7 @@
                                                 <div class="swiper-slide ss sl9 sl97">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage97">
-                                                            <img src="images/resp_sourcing/scheme-logos/Program for Endorsement of Forest Certification.png" class=" mt-2 img-fluid">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Program for Endorsement of Forest Certification.png" class=" mt-2 img-fluid">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle97">
                                                             <span class="sltitletxt">PEFC</span>
@@ -1264,7 +1136,7 @@
                                                 <div class="swiper-slide ss sl9 sl98">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage98">
-                                                            <img src="images/resp_sourcing/scheme-logos/Roundtable for Responsible Soy.svg" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Roundtable for Responsible Soy.svg" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle98">
                                                             <span class="sltitletxt">RTRS</span>
@@ -1285,7 +1157,7 @@
                                                 <div class="swiper-slide ss sl9 sl99">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage99">
-                                                            <img src="images/resp_sourcing/scheme-logos/Roundtable on Sustainable Palm Oil.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/Roundtable on Sustainable Palm Oil.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle99">
                                                             <span class="sltitletxt">RSPO</span>
@@ -1323,14 +1195,14 @@
                                     </div>
                                     <div class="slider-panel slider-panel-2">
                                         <span class="scheme-close-button" onclick="closeSlider();" style="top: 22px !important; right: -15px !important; cursor: pointer; z-index: 5;">
-                                            <img src="images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
+                                            <img src="assets/images/resp_sourcing/scheme-close-button.svg" class="img-fluid">
                                         </span>
                                         <div class="swiper sw12">
                                             <div class="swiper-wrapper swr12">
                                                 <div class="swiper-slide ss sl10 sl121">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage121">
-                                                            <img src="images/resp_sourcing/scheme-logos/HOME COMPOSTABLE PACKAGING.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/HOME COMPOSTABLE PACKAGING.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle121">
                                                             <span class="sltitletxt">Home Compostable Packaging</span>
@@ -1345,7 +1217,7 @@
                                                 <div class="swiper-slide ss sl10 sl122">
                                                     <div class="row swiper-slide-inner">
                                                         <div class="col px-1 py-1 mt-1 mb-1 slimage slimage122">
-                                                            <img src="images/resp_sourcing/scheme-logos/INDUSTRIAL COMPOSTABLE PACKAGING.png" class="img-fluid mt-2">
+                                                            <img src="assets/images/resp_sourcing/scheme-logos/INDUSTRIAL COMPOSTABLE PACKAGING.png" class="img-fluid mt-2">
                                                         </div>
                                                         <div class="col px-1 py-1 mt-1 mb-1 sltitle sltitle122">
                                                             <span class="sltitletxt">Industrial<br>Compostable Packaging</span>
@@ -1378,6 +1250,7 @@
                 </div>
 
             </section>
+
             <!--SCHEMES SECTION DEVELOPEMNT AREA END------------------------>
 
 
@@ -1386,7 +1259,7 @@
 
 
             <!--Non-certified sustainable products-->
-            <section class="section-white-full-width no-print">
+            <section class="section-white-full-width no-print" id="option4" data-scrl="Non-certified sustainable products">
                 <div class="row">
                     <div class="col-md-8 mb-5">
                         <h3 class="section-heading-blue-small no-print">Non-certified sustainable products</h3>
@@ -1403,7 +1276,7 @@
                     <div class="col-md-4 mb-5">
                         <div class="msr-img-holder2">
                             <div class="msr-img-holder-inner2 mt-4">
-                                <img src="images/resp_sourcing/non-certified-sust-products.svg" class="no-print non-certified-sust-products">
+                                <img src="assets/images/resp_sourcing/non-certified-sust-products.svg" class="no-print non-certified-sust-products">
                             </div>
                         </div>
                     </div>
@@ -1417,7 +1290,7 @@
 
             <!--------Comprehensive Guide START------->
 
-            <section class="section2 mb-50 no-print" id="comp">
+            <section class="section2 mb-50 no-print" id="option5" data-scrl="The comprehensive guide to sustainable products">
 
 
                 <div class="container-full con50">
@@ -1442,7 +1315,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-1">
-                                                    <img src="images/resp_sourcing/icon-sm-location-marker.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-location-marker.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1451,13 +1324,13 @@
                                                         Local and Regional Products
                                                     </span>
                                                     <span class="imageunder pimage-1">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-11">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1472,7 +1345,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-2">
-                                                    <img src="images/resp_sourcing/icon-sm-fruits.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-fruits.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1481,13 +1354,13 @@
                                                         Seasonal Products
                                                     </span>
                                                     <span class="imageunder pimage-2">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-2">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1503,7 +1376,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-3">
-                                                    <img src="images/resp_sourcing/icon-sm-flower.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-flower.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1512,13 +1385,13 @@
                                                         Organic
                                                     </span>
                                                     <span class="imageunder pimage-3">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-3">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1535,7 +1408,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-4">
-                                                    <img src="images/resp_sourcing/icon-sm-env.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-env.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1544,13 +1417,13 @@
                                                         Ethically traded
                                                     </span>
                                                     <span class="imageunder pimage-4">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-4">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1565,7 +1438,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-5">
-                                                    <img src="images/resp_sourcing/icon-sm-animal.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-animal.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1574,13 +1447,13 @@
                                                         Animal welfare
                                                     </span>
                                                     <span class="imageunder pimage-5">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-5">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1594,7 +1467,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-6">
-                                                    <img src="images/resp_sourcing/icon-sm-fish.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-fish.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1603,13 +1476,13 @@
                                                         Responsibly sourced fish and seafood
                                                     </span>
                                                     <span class="imageunder pimage-6">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-6">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1625,7 +1498,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-7">
-                                                    <img src="images/resp_sourcing/icon-sm-fruits-in-plate.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-fruits-in-plate.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1634,13 +1507,13 @@
                                                         Nutritious food
                                                     </span>
                                                     <span class="imageunder pimage-7">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-7">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1656,7 +1529,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-8">
-                                                    <img src="images/resp_sourcing/icon-sm-bin.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-bin.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1665,13 +1538,13 @@
                                                         No waste
                                                     </span>
                                                     <span class="imageunder pimage-8">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-8">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1686,7 +1559,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-9">
-                                                    <img src="images/resp_sourcing/icon-sm-bee.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-bee.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1695,13 +1568,13 @@
                                                         Food that contributes to biodiversity
                                                     </span>
                                                     <span class="imageunder pimage-9">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-9">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1715,7 +1588,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-10">
-                                                    <img src="images/resp_sourcing/icon-sm-trees.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-trees.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1724,13 +1597,13 @@
                                                         Products that do not cause deforestation
                                                     </span>
                                                     <span class="imageunder pimage-10">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-10">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1744,7 +1617,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-11">
-                                                    <img src="images/resp_sourcing/icon-sm-packet.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-packet.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1753,13 +1626,13 @@
                                                         Packaging with less environmental impact
                                                     </span>
                                                     <span class="imageunder pimage-11">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-11">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1773,7 +1646,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-12">
-                                                    <img src="images/resp_sourcing/icon-sm-carbon-footprint.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-carbon-footprint.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1782,13 +1655,13 @@
                                                         Food with minimal carbon footprint
                                                     </span>
                                                     <span class="imageunder pimage-12">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-12">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1803,7 +1676,7 @@
                                         <div class="pbox-inner">
                                             <div class="picon-box">
                                                 <div class="picon-container picon-13">
-                                                    <img src="images/resp_sourcing/icon-sm-water-drop.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/icon-sm-water-drop.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                             <div class="ptext-box">
@@ -1812,13 +1685,13 @@
                                                         Food with minimal water footprint
                                                     </span>
                                                     <span class="imageunder pimage-3">
-                                                        <img src="images/resp_sourcing/long-line.svg" class="img-fluid">
+                                                        <img src="assets/images/resp_sourcing/long-line.svg" class="img-fluid">
                                                     </span>
                                                 </div>
                                             </div>
                                             <div class="on-track ontrack-13">
                                                 <div class="track-highlighter">
-                                                    <img src="images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/highlighter-plain.svg" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -1838,7 +1711,7 @@
                                         <div class="container conx">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/tractor-with-trolly.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/tractor-with-trolly.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -1876,7 +1749,7 @@
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
                                                     <h5><strong>Why is it important to buy locally?</strong></h5>
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/fruit-seller-with-cap.svg" class="img-fluid seller-cap">
+                                                        <img src="assets/images/resp_sourcing/fruit-seller-with-cap.svg" class="img-fluid seller-cap">
                                                         Buying local is a responsible act that creates a sense of
                                                         proximity,
                                                         or closeness, in your menu and with your customers. It means you
@@ -1913,7 +1786,7 @@
                                                 <div class="col-md-4">
                                                     <div class="msr-img-holder3">
                                                         <div class="msr-img-holder-inner3 mt-4">
-                                                            <img src="images/resp_sourcing/fresh-fruit-stall.svg" class="fresh-fruit-stall1">
+                                                            <img src="assets/images/resp_sourcing/fresh-fruit-stall.svg" class="fresh-fruit-stall1">
                                                         </div>
                                                     </div>
 
@@ -1933,7 +1806,7 @@
                                                 <div class="col-md-12 mt-5 mb-2 yellow-block">
                                                     <h5><strong>Why is it important to buy seasonal products?</strong></h5>
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/fruid-bowl.svg" class="img-fluid fruit-bowl">
+                                                        <img src="assets/images/resp_sourcing/fruid-bowl.svg" class="img-fluid fruit-bowl">
                                                         The arrival of new season produce generates a real excitement and
                                                         expectation of tastes to come. You can demonstrate how in touch
                                                         you are with your food sources by updating your menu according
@@ -1959,7 +1832,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/organic-farming.svg" class="img-fluid org-farming">
+                                                        <img src="assets/images/resp_sourcing/organic-farming.svg" class="img-fluid org-farming">
                                                         Organic means working with nature to produce food. Farming
                                                         organically means higher levels of animal welfare, not using
                                                         medicines unless necessary, fewer pesticides, more natural
@@ -1992,7 +1865,7 @@
                                                         <strong>Why is it important to buy organic products?</strong>
                                                     </h5>
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/organic-products.svg" class="img-fluid fruit-bowl">
+                                                        <img src="assets/images/resp_sourcing/organic-products.svg" class="img-fluid fruit-bowl">
                                                         There are several advantages when you buy organic products. For
                                                         example, organic farming means a reduced impact on the
                                                         environment and better treatment of animals. Organic farms tend
@@ -2032,7 +1905,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/milk-products.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/milk-products.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2046,7 +1919,7 @@
                                                 <div class="col-md-12 mt-2 mb-2 yellow-block">
                                                     <h5><strong>Why is it important to source ethically?</strong></h5>
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/fruit-seller-dollar.svg" class="img-fluid fruit-bowl">
+                                                        <img src="assets/images/resp_sourcing/fruit-seller-dollar.svg" class="img-fluid fruit-bowl">
                                                         Many farmers do not receive a fair price for what they produce.
                                                         Ethical trading ensures that farmers receive a fair price for
                                                         what they produce. Workers receive a living wage, have the
@@ -2066,7 +1939,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/animal-farm.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/animal-farm.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2095,7 +1968,7 @@
                                                         </strong>
                                                     </h5>
                                                     <p class="justify1">
-                                                        <img src="images/resp_sourcing/hen-egg-basket.svg" class="img-fluid hen-egg">
+                                                        <img src="assets/images/resp_sourcing/hen-egg-basket.svg" class="img-fluid hen-egg">
                                                         Despite being sentient creatures, billions of animals are raised
                                                         in
                                                         crowded, inhuman factory farms. Due to its intensive nature,
@@ -2122,7 +1995,7 @@
                                                         slaughtered in stress-free conditions have better taste and
                                                         texture.
                                                         Eggs from hens raised outdoors have less chance of
-                                                        contamination by salmonella, which can cause food poisoning
+                                                        contamination by salmonella, which can cause food poisoning.
                                                     </p>
                                                 </div>
                                             </div>
@@ -2134,7 +2007,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/ocean-ship-fishing.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/ocean-ship-fishing.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2206,7 +2079,7 @@
                                                         <div class="col-md-4">
                                                             <div class="msr-img-holder4">
                                                                 <div class="msr-img-holder-inner4">
-                                                                    <img src="images/resp_sourcing/sea-food.svg" class="img-fluid">
+                                                                    <img src="assets/images/resp_sourcing/sea-food.svg" class="img-fluid">
                                                                 </div>
                                                             </div>
 
@@ -2226,7 +2099,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img src="images/resp_sourcing/nutritious-food.svg" class="img-fluid nut-food mx-5">
+                                                    <img src="assets/images/resp_sourcing/nutritious-food.svg" class="img-fluid nut-food mx-5">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <p class="justify1">
@@ -2260,11 +2133,11 @@
                                                                 safer pregnancies and childbirth, lower risk of diseases and
                                                                 will
                                                                 live
-                                                                longer
+                                                                longer.
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/salad-bowl.svg" class="salad-bowl">
+                                                            <img src="assets/images/resp_sourcing/salad-bowl.svg" class="salad-bowl">
                                                         </div>
                                                     </div>
 
@@ -2278,7 +2151,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-5">
-                                                    <img src="images/resp_sourcing/bin-waste.svg" class="bin-waste">
+                                                    <img src="assets/images/resp_sourcing/bin-waste.svg" class="bin-waste">
                                                 </div>
                                                 <div class="col-md-7">
                                                     <p class="justify1 mt-5 px-5">
@@ -2317,7 +2190,7 @@
                                                         <div class="col-md-3">
                                                             <div class="msr-img-holder5">
                                                                 <div class="msr-img-holder-inner5">
-                                                                    <img src="images/resp_sourcing/garbage.svg" class="">
+                                                                    <img src="assets/images/resp_sourcing/garbage.svg" class="">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2335,7 +2208,7 @@
                                             <div class="row">
                                                 <div class="col-md-12 text-center">
 
-                                                    <img src="images/resp_sourcing/earth-life-trees.svg" class="earth-life-trees">
+                                                    <img src="assets/images/resp_sourcing/earth-life-trees.svg" class="earth-life-trees">
                                                 </div>
                                                 <div class="col-md-12">
                                                     <p class="justify1">
@@ -2403,7 +2276,7 @@
                                                         <div class="col-md-4">
                                                             <div class="msr-img-holder6">
                                                                 <div class="msr-img-holder-inner6">
-                                                                    <img src="images/resp_sourcing/save-earth.svg" class="save-earth sve2">
+                                                                    <img src="assets/images/resp_sourcing/save-earth.svg" class="save-earth sve2">
                                                                 </div>
                                                             </div>
 
@@ -2421,7 +2294,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/portrait.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/portrait.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2458,7 +2331,7 @@
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/trees-mountain.svg" class="img-fluid hen-egg mt-3">
+                                                            <img src="assets/images/resp_sourcing/trees-mountain.svg" class="img-fluid hen-egg mt-3">
                                                         </div>
                                                     </div>
 
@@ -2473,7 +2346,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img src="images/resp_sourcing/plastic-disposable.svg" class="plastic-disposable">
+                                                    <img src="assets/images/resp_sourcing/plastic-disposable.svg" class="plastic-disposable">
                                                 </div>
                                                 <div class="col-md-6 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2572,7 +2445,7 @@
                                                         <div class="col-md-4">
                                                             <div class="msr-img-holder9">
                                                                 <div class="msr-img-holder-inner9">
-                                                                    <img src="images/resp_sourcing/food-pack.svg" class="">
+                                                                    <img src="assets/images/resp_sourcing/food-pack.svg" class="">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2609,7 +2482,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/farmers.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/farmers.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2631,8 +2504,8 @@
                                                         <div class="col-md-8">
                                                             <h5>
                                                                 <strong>
-                                                                    Why is it important to source food with a minimal<br>
-                                                                    carbon footprint?
+                                                                    Why is it important to source food with a <br>
+                                                                    minimal carbon footprint?
                                                                 </strong>
                                                             </h5>
                                                             <p class="justify1">
@@ -2650,7 +2523,7 @@
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/earth-temperature.svg" class="et2">
+                                                            <img src="assets/images/resp_sourcing/earth-temperature.svg" class="et2">
                                                         </div>
                                                     </div>
 
@@ -2668,7 +2541,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-8 offset-md-2 mt-2 mb-2">
-                                                    <img src="images/resp_sourcing/water-footprint.svg" class="img-fluid">
+                                                    <img src="assets/images/resp_sourcing/water-footprint.svg" class="img-fluid">
                                                 </div>
                                                 <div class="col-md-12 mb-2 mt-2">
                                                     <p class="justify1">
@@ -2694,7 +2567,7 @@
                                                             </p>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <img src="images/resp_sourcing/tap-water-drop.svg" class="img-fluid etemp1 mt-2">
+                                                            <img src="assets/images/resp_sourcing/tap-water-drop.svg" class="img-fluid etemp1 mt-2">
                                                         </div>
                                                     </div>
 
@@ -2722,989 +2595,674 @@
 
                 </div>
         </div>
-    </div>
-    </section>
-
-    <!--------Comprehensive Guide END------->
+        <!--------Comprehensive Guide END------->
 
 
 
-    <!--------Simple ways------>
-    <section class="section-white-full-width no-print">
-        <div class="row">
-            <div class="col-md-8">
-                <h3 class="section-heading-blue-small no-print">
-                    Simple ways to source responsibly
-                </h3>
-                <p class=" no-print">
-                    Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a globalised world where most of the time we are used to getting different kinds of products throughout the year, even though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients are produced. Check out the following simple ways to source responsibly:
-                </p>
-            </div>
-            <div class="col-md-4 no-print">
-                <div class="msr-img-holder7">
-                    <div class="msr-img-holder-inner7">
-                        <img src="images/resp_sourcing/fresh-store.svg" class="fresh-store">
-                    </div>
+        <!--------Simple ways------>
+        <section class="section-white-full-width no-print" id="option6" data-scrl="Simple ways to source responsibly">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="section-heading-blue-small no-print">
+                        Simple ways to source responsibly
+                    </h3>
+                    <p class=" no-print">
+                        Within the last decades, our consumption habits have changed a lot compared to past generations. We live in a globalised world where most of the time we are used to getting different kinds of products throughout the year, even though they are not in season or don’t grow locally, so sometimes, we lose the connection about how the ingredients are produced. Check out the following simple ways to source responsibly:
+                    </p>
                 </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-----SLIDER START------>
-
-    <style>
-        /* SLIDER BALANCING STYLE */
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
-            width: 24rem;
-            transition: 0.5s;
-        }
-
-        .sldImg01>img {
-            width: 16rem;
-            transition: 0.5s;
-        }
-
-        .sldImg02>img {
-            width: 23rem;
-            margin-bottom: 2rem;
-            transition: 0.5s;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
-            width: 35rem;
-            transition: 0.5s;
-            margin-bottom: 2rem;
-        }
-
-        .sldImg03>img {
-            margin-top: 3.6rem;
-            margin-bottom: 2rem;
-            transition: 0.5s;
-            width: 23rem;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText03 {
-            margin-bottom: 2rem;
-        }
-
-
-
-
-        .sldImg04>img {
-            margin-top: .8rem;
-            transition: 0.5s;
-            width: 23rem;
-        }
-
-        .sldImg05>img {
-            margin-top: 1rem !important;
-            transition: 0.5s;
-            margin-bottom: 1rem;
-            width: 22rem;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
-            margin-top: 3rem;
-            width: 35rem;
-            transition: 0.5s;
-            margin-bottom: 3rem;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
-            width: 35rem;
-            margin-top: 1rem;
-            transition: 0.5s;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
-            display: block;
-            margin-top: 3rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .pageSlider-slide.swiper-slide>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
-            display: block;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
-            width: 33rem;
-            transition: 0.5s;
-
-        }
-
-        .sldImg06>img {
-            width: 11.5rem;
-            transition: 0.5s;
-        }
-
-        .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
-            width: 17rem;
-            transition: 0.5s;
-        }
-    </style>
-
-
-
-    <div class="row no-print">
-        <div class="col-md-12">
-            <div class="pageSlider-container">
-                <div class="pageSlider-container-inner">
-                    <div class="pageSlider-prev no-print">
-                        <div class="pageSlider-prev-inner">
-                            <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                <div class="col-md-4 no-print">
+                    <div class="msr-img-holder7">
+                        <div class="msr-img-holder-inner7">
+                            <img src="assets/images/resp_sourcing/fresh-store.svg" class="fresh-store">
                         </div>
                     </div>
-                    <div class="pageSlider no-print">
-                        <div class="pageSlider-inner">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="pageSlider-holder">
-                                        <div class="swiper pageSwiper1 no-print">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide pageSlider-slide text-center no-print">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg01">
-                                                                    <img src="images/resp_sourcing/purchase-box.svg" class="img-fluid">
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
-                                                                <span class="sldText01">
-                                                                    ANALYSE YOUR<br />PURCHASES
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button no-print">
-                                                                <span class="sldBtn01">
-                                                                    <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide pageSlider-slide text-center no-print">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg02">
-                                                                    <img src="images/resp_sourcing/package-delivery.svg" class="img-fluid">
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text no-print">
-                                                                <span class="sldText02">
-                                                                    LOOK AT WHO<br>SUPPLIES YOUR PRODUCTS
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
-                                                                <span class="sldBtn02">
-                                                                    <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide pageSlider-slide text-center no-print">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg03">
-                                                                    <img src="images/resp_sourcing/cow-milking.svg" class=" img-fluid">
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
-                                                                <span class="sldText03">
-                                                                    MAKE THE ORIGIN OF<br>YOUR PRODUCTS PUBLIC
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
-                                                                <span class="sldBtn03">
-                                                                    <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide pageSlider-slide text-center">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg04">
-                                                                    <img src="images/resp_sourcing/sliderimg4.svg" class=" img-fluid">
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
-                                                                <span class="sldText04">
-                                                                    ENGAGE YOUR STAFF
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
-                                                                <span class="sldBtn04">
-                                                                    <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
 
-                                                <div class="swiper-slide pageSlider-slide text-center">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg05">
-                                                                    <img src="images/resp_sourcing/sliderimg5.svg" class=" img-fluid">
-                                                                </span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----SLIDER START------>
+
+        <style>
+            /* SLIDER BALANCING STYLE */
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg01>img {
+                width: 24rem;
+                transition: 0.5s;
+            }
+
+            .sldImg01>img {
+                width: 16rem;
+                transition: 0.5s;
+            }
+
+            .sldImg02>img {
+                width: 23rem;
+                margin-bottom: 2rem;
+                transition: 0.5s;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg02>img {
+                width: 35rem;
+                transition: 0.5s;
+                margin-bottom: 2rem;
+            }
+
+            .sldImg03>img {
+                margin-top: 3.6rem;
+                margin-bottom: 2rem;
+                transition: 0.5s;
+                width: 23rem;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText03 {
+                margin-bottom: 2rem;
+            }
+
+
+
+
+            .sldImg04>img {
+                margin-top: .8rem;
+                transition: 0.5s;
+                width: 23rem;
+            }
+
+            .sldImg05>img {
+                margin-top: 1rem !important;
+                transition: 0.5s;
+                margin-bottom: 1rem;
+                width: 22rem;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg03>img {
+                margin-top: 3rem;
+                width: 35rem;
+                transition: 0.5s;
+                margin-bottom: 3rem;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg04>img {
+                width: 35rem;
+                margin-top: 1rem;
+                transition: 0.5s;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
+                display: block;
+                margin-top: 3rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .pageSlider-slide.swiper-slide>div.row>div.col-md-12>.pageSlider-slide-text>span.sldText04 {
+                display: block;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg05>img {
+                width: 33rem;
+                transition: 0.5s;
+
+            }
+
+            .sldImg06>img {
+                width: 11.5rem;
+                transition: 0.5s;
+            }
+
+            .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg06>img {
+                width: 17rem;
+                transition: 0.5s;
+            }
+        </style>
+
+
+
+        <div class="row no-print">
+            <div class="col-md-12">
+                <div class="pageSlider-container">
+                    <div class="pageSlider-container-inner">
+                        <div class="pageSlider-prev no-print">
+                            <div class="pageSlider-prev-inner">
+                                <div class="swiper-button-prev pageSwiper1PrevBtn"></div>
+                            </div>
+                        </div>
+                        <div class="pageSlider no-print">
+                            <div class="pageSlider-inner">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="pageSlider-holder">
+                                            <div class="swiper pageSwiper1 no-print">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide pageSlider-slide text-center no-print">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg01">
+                                                                        <img src="assets/images/resp_sourcing/purchase-box.svg" class="img-fluid">
+                                                                    </span>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
-                                                                <span class="sldText05">
-                                                                    Look at your most common ingredients and source them more sustainable
-                                                                </span>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text">
+                                                                    <span class="sldText01">
+                                                                        ANALYSE YOUR<br />PURCHASES
+                                                                    </span>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
-                                                                <span class="sldBtn05">
-                                                                    <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
-                                                                </span>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button no-print">
+                                                                    <span class="sldBtn01">
+                                                                        <button class="read-more-btn" onclick="openPopUp(1);">Read more</button>
+                                                                    </span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-
-                                                <div class="swiper-slide pageSlider-slide text-center">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-image">
-                                                                <span class="sldImg06">
-                                                                    <img src="images/resp_sourcing/sliderimg6.svg" class=" img-fluid">
-                                                                </span>
+                                                    <div class="swiper-slide pageSlider-slide text-center no-print">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg02">
+                                                                        <img src="assets/images/resp_sourcing/package-delivery.svg" class="img-fluid">
+                                                                    </span>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-text">
-                                                                <span class="sldText06">
-                                                                    Use the comprehensive guide to sustainable products and schemes
-                                                                </span>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text no-print">
+                                                                    <span class="sldText02">
+                                                                        LOOK AT WHO<br>SUPPLIES YOUR PRODUCTS
+                                                                    </span>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="pageSlider-slide-button">
-                                                                <span class="sldBtn06">
-                                                                    <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
-                                                                </span>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button">
+                                                                    <span class="sldBtn02">
+                                                                        <button class="read-more-btn" onclick="openPopUp(2);">Read more</button>
+                                                                    </span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                    <div class="swiper-slide pageSlider-slide text-center no-print">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg03">
+                                                                        <img src="assets/images/resp_sourcing/cow-milking.svg" class=" img-fluid">
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text">
+                                                                    <span class="sldText03">
+                                                                        MAKE THE ORIGIN OF<br>YOUR PRODUCTS PUBLIC
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button">
+                                                                    <span class="sldBtn03">
+                                                                        <button class="read-more-btn" onclick="openPopUp(3);">Read more</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide pageSlider-slide text-center">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg04">
+                                                                        <img src="assets/images/resp_sourcing/sliderimg4.svg" class=" img-fluid">
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text">
+                                                                    <span class="sldText04">
+                                                                        ENGAGE YOUR STAFF
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button">
+                                                                    <span class="sldBtn04">
+                                                                        <button class="read-more-btn" onclick="openPopUp(4);">Read more</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="swiper-slide pageSlider-slide text-center">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg05">
+                                                                        <img src="assets/images/resp_sourcing/sliderimg5.svg" class=" img-fluid">
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text">
+                                                                    <span class="sldText05">
+                                                                        Look at your most common ingredients and source them more sustainable
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button">
+                                                                    <span class="sldBtn05">
+                                                                        <button class="read-more-btn" onclick="openPopUp(5);">Read more</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-slide pageSlider-slide text-center">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-image">
+                                                                    <span class="sldImg06">
+                                                                        <img src="assets/images/resp_sourcing/sliderimg6.svg" class=" img-fluid">
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-text">
+                                                                    <span class="sldText06">
+                                                                        Use the comprehensive guide to sustainable products and schemes
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="pageSlider-slide-button">
+                                                                    <span class="sldBtn06">
+                                                                        <button class="read-more-btn" onclick="openPopUp(6);">Read more</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="pageSlider-pagination no-print">
-                                        <div class="pageSlider-pagination-inner no-print">
-                                            <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                    <div class="col-md-12">
+                                        <div class="pageSlider-pagination no-print">
+                                            <div class="pageSlider-pagination-inner no-print">
+                                                <div class="swiper-pagination pageSwiper1Pagination"></div>
+                                            </div>
                                         </div>
+
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="pageSlider-next">
-                        <div class="pageSlider-next-inner no-print">
-                            <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                        <div class="pageSlider-next">
+                            <div class="pageSlider-next-inner no-print">
+                                <div class="swiper-button-next pageSwiper1NextBtn"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Swiper JS -->
-    <script>
-        //pageSlider swiper
-        function openPopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "block");
-        }
+        <!-- Swiper JS -->
 
-        function closePopUp(Id) {
-            //alert(Id);
-            $("#pop" + Id).css("display", "none");
-        }
-        var swiper = new Swiper(".pageSwiper1", {
-            grabCursor: true,
-            centeredSlides: true,
-            initialSlide: 1,
-            slidesPerView: "auto",
-            coverflowEffect: {
-                rotate: 0,
-                stretch: 30,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
-                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
-            },
-            pagination: {
-                el: ".swiper-pagination.pageSwiper1Pagination",
-            },
-        });
-    </script>
+        <!-----SLIDER End------>
 
-
-
-
-
-    <!-----SLIDER End------>
-
-    <!---------ADVANCE WAYS---------->
-    <section class="section-highlight-withimages section4-5 pbg mb-3 no-print">
-        <div class="top-highlight text-center">
-            <h3>Advanced ways to source responsibly </h3>
-            <p>Once you have worked on the basics, you can focus on really embedding sustainability into your
-                sourcing:</p>
-        </div>
-
-
-        <div class="container9 mt-m2 mb-5 no-print">
-            <div class="row">
-                <div class="col-md-12 mb-2">
-                    <!---top row-->
-                    <div class="row">
-                        <div class="col-md-2 offset-md-2 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    02
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Focus on seasonal products whenever they are available
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    Source seasonal products whenever they are available
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 offset-md-2 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    04
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Use whole ingredients
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    Source whole ingredients and cook
-                                    from scratch
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 offset-md-2 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    06
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Grow your own produce
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    You can grow produce such as herbs
-                                    and lettuce on your own
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 mb-2 mt-2">
-                    <!---middle row-->
-                    <img src="images/resp_sourcing/advance-ways.svg" class="img-fluid" />
-                </div>
-                <div class="col-md-12 mb-2 mt-2">
-                    <!---bottom row-->
-                    <div class="row">
-                        <div class="col-md-3 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    01
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Connect and commit to independent and local farms and producers
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    If you partner with local producers, it gives them the encouragement to scale up,
-                                    produce the food you want, and commit to
-                                    practices that are environmentally friendly
-                                </div>
-                            </div>
-                        </div>
-                        <div class="offset-md-1 col-md-3 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    03
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Source rare or
-                                        locally specific species
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    There are rare or locally specific species
-                                    that you can source responsibly. For
-                                    example, ancient grains instead of the
-                                    conventional ones or quinoa instead of rice,
-                                    rare animal breeds and heirloom fruit and
-                                    vegetables
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 offset-md-1 advance-way-box">
-                            <div class="row">
-                                <div class="col-md-12 title-yellow">
-                                    05
-                                </div>
-                                <div class="col-md-12 title9">
-                                    <h5>
-                                        Prevent waste
-                                        </h3>
-                                </div>
-                                <div class="col-md-12 text9">
-                                    Introduce waste-free ingredients for example
-                                    different cuts of meat for “nose-to-tail”
-                                    cooking. Source packaging that will not be
-                                    wasted and ask your supplier for refillable
-                                    packaging options, for example, for
-                                    detergents or oils
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="spacerx"></div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-    </section>
-
-
-
-    <!-----Trach and talk--------->
-    <section class="container9 section-text-withimages section4-4 more-text no-print">
-        <div class="left-content9 no-print">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="h3v2">Track and talk <br>about your progress</h3>
-                    <p class="justify1">
-                        Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing.<br>Here are a few ways this can be done:
-                    </p>
-                </div>
+        <!---------ADVANCE WAYS---------->
+        <section class="section-highlight-withimages section4-5 pbg mb-3 no-print" id="option7" data-scrl="Advanced ways to source responsibly">
+            <div class="top-highlight text-center">
+                <h3>Advanced ways to source responsibly </h3>
+                <p>Once you have worked on the basics, you can focus on really embedding sustainability into your
+                    sourcing:</p>
             </div>
 
 
-            <div class="track-talk-subsection mt-5 mb-3 py-2 no-print">
+            <div class="container9 mt-m2 mb-5 no-print">
                 <div class="row">
-                    <div class="col-md-12 mt-5">
+                    <div class="col-md-12 mb-2">
+                        <!---top row-->
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-1 no-print">
-                                    <img src="images/resp_sourcing/tracktalk-icon1.svg" class="img-fluid " />
+                            <div class="col-md-2 offset-md-2 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        02
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Focus on seasonal products whenever they are available
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        Source seasonal products whenever they are available
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
-                                <p class="tt">
-                                    <strong>
-                                        Be aware that “farm-to-table” restaurants continue to appeal to restaurant visitors. Connect your customers to the source of your ingredients by talking with them about your menu.
-                                    </strong>
-                                </p>
+                            <div class="col-md-2 offset-md-2 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        04
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Use whole ingredients
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        Source whole ingredients and cook
+                                        from scratch
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 offset-md-2 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        06
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Grow your own produce
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        You can grow produce such as herbs
+                                        and lettuce on your own
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 mt-3">
+                    <div class="col-md-12 mb-2 mt-2">
+                        <!---middle row-->
+                        <img src="assets/images/resp_sourcing/advance-ways.svg" class="img-fluid" />
+                    </div>
+                    <div class="col-md-12 mb-2 mt-2">
+                        <!---bottom row-->
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-2 no-print">
-                                    <img src="images/resp_sourcing/tracktalk-icon2.svg" class="img-fluid tracktalk-icon" />
+                            <div class="col-md-3 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        01
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Connect and commit to independent and local farms and producers
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        If you partner with local producers, it gives them the encouragement to scale up,
+                                        produce the food you want, and commit to
+                                        practices that are environmentally friendly
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
-                                <p class="tt">
-                                    <strong>
-                                        Explain why you made the changes and the benefits of those changes. For
-                                        example, you might decide not to serve strawberries in the winter, but
-                                        customers need to know why not.
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mt-3">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-3">
-                                    <img src="images/resp_sourcing/tracktalk-icon3.svg" class="img-fluid tracktalk-icon" />
+                            <div class="offset-md-1 col-md-3 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        03
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Source rare or
+                                            locally specific species
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        There are rare or locally specific species
+                                        that you can source responsibly. For
+                                        example, ancient grains instead of the
+                                        conventional ones or quinoa instead of rice,
+                                        rare animal breeds and heirloom fruit and
+                                        vegetables
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
-                                <p class="tt">
-                                    <strong>
-                                        If you have traceability information on your menu or your website, explain how
-                                        it works. Think about displaying a seasonal calendar with pictures of the
-                                        produce in your restaurant, website or social media page. This can create a
-                                        good connection with your customers especially if you can interact over it and
-                                        freshen up the information as the season changes.
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mt-3">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <div class="tracktalk-iconbox tracktalk-icon-4">
-                                    <img src="images/resp_sourcing/tracktalk-icon4.svg" class="img-fluid tracktalk-icon" />
+                            <div class="col-md-3 offset-md-1 advance-way-box">
+                                <div class="row">
+                                    <div class="col-md-12 title-yellow">
+                                        05
+                                    </div>
+                                    <div class="col-md-12 title9">
+                                        <h5>
+                                            Prevent waste
+                                            </h3>
+                                    </div>
+                                    <div class="col-md-12 text9">
+                                        Introduce waste-free ingredients for example
+                                        different cuts of meat for “nose-to-tail”
+                                        cooking. Source packaging that will not be
+                                        wasted and ask your supplier for refillable
+                                        packaging options, for example, for
+                                        detergents or oils
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-10">
-                                <p class="tt">
-                                    <strong>
-                                        Communicate what you are doing. For example, a sign on your menu in your
-                                        restaurant or website is a visible reminder to your customers about your
-                                        responsible actions.
-                                    </strong>
-                                </p>
-                            </div>
                         </div>
+                        <div class="spacerx"></div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="col-md-12 mt-4">
-                        <p class="justify1 ml-2">
-                            As a business your impact on your community will be so much more when your customers and
-                            staff understand what you are doing. Some might copy your practices in their shopping decisions.
-                            Your impact could be greater than you imagine!
+
+
+
+        </section>
+
+
+
+        <!-----Trach and talk--------->
+        <section class="container9 section-text-withimages section4-4 more-text no-print" id="option8" data-scrl="Track and talk about your progress">
+            <div class="left-content9 no-print">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="h3v2">Track and talk <br>about your progress</h3>
+                        <p class="justify1">
+                            Once you have taken steps towards sustainable sourcing, check what impact they have, for example, less plastic waste, increased sales of sustainable menu items, or increased positive reviews on your restaurant. It is important to track and measure the progress because that boosts morale to achieve even more. Discuss with your staff regularly about the improvements observed and take note of what positive impacts they are seeing.<br>Here are a few ways this can be done:
                         </p>
                     </div>
                 </div>
+
+
+                <div class="track-talk-subsection mt-5 mb-3 py-2 no-print">
+                    <div class="row">
+                        <div class="col-md-12 mt-5">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="tracktalk-iconbox tracktalk-icon-1 no-print">
+                                        <img src="assets/images/resp_sourcing/tracktalk-icon1.svg" class="img-fluid " />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <p class="tt">
+                                        <strong>
+                                            Be aware that “farm-to-table” restaurants continue to appeal to restaurant visitors. Connect your customers to the source of your ingredients by talking with them about your menu.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="tracktalk-iconbox tracktalk-icon-2 no-print">
+                                        <img src="assets/images/resp_sourcing/tracktalk-icon2.svg" class="img-fluid tracktalk-icon" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <p class="tt">
+                                        <strong>
+                                            Explain why you made the changes and the benefits of those changes. For
+                                            example, you might decide not to serve strawberries in the winter, but
+                                            customers need to know why not.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="tracktalk-iconbox tracktalk-icon-3">
+                                        <img src="assets/images/resp_sourcing/tracktalk-icon3.svg" class="img-fluid tracktalk-icon" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <p class="tt">
+                                        <strong>
+                                            If you have traceability information on your menu or your website, explain how
+                                            it works. Think about displaying a seasonal calendar with pictures of the
+                                            produce in your restaurant, website or social media page. This can create a
+                                            good connection with your customers especially if you can interact over it and
+                                            freshen up the information as the season changes.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="tracktalk-iconbox tracktalk-icon-4">
+                                        <img src="assets/images/resp_sourcing/tracktalk-icon4.svg" class="img-fluid tracktalk-icon" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <p class="tt">
+                                        <strong>
+                                            Communicate what you are doing. For example, a sign on your menu in your
+                                            restaurant or website is a visible reminder to your customers about your
+                                            responsible actions.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mt-4">
+                            <p class="justify1 ml-2">
+                                As a business your impact on your community will be so much more when your customers and
+                                staff understand what you are doing. Some might copy your practices in their shopping decisions.
+                                Your impact could be greater than you imagine!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </div>
-
-
-
-
-        </div>
-        <div class="right-content9">
-            <img src="images/flag-p-svg.svg" class="img-fluid track-talk1-img9" />
-        </div>
-    </section>
-    <!-----TODO--------->
-    <!-----TODO--------->
-    <section class="container section4-6 print9 " id="section-to-print">
-        <div class="top-content">
-            <h3>Your Action Plan</h3>
-        </div>
-        <div class="mid-content cation-plan-section">
-            <ul>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Understand the importance of sustainable products
-                    </p>
-                </li>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Inform yourself about labels and certification
-                    </p>
-                </li>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Use the comprehensive guide to sustainable products
-                    </p>
-                </li>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Introduce simple steps to your business to source sustainably
-                    </p>
-                </li>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Use advanced ways to integrate sustainability into your business
-                    </p>
-                </li>
-                <li>
-                    <label class="check-wrap">
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p class="">
-                        Track and talk about your progress to customers
-                    </p>
-                </li>
-                <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
-            </ul>
-        </div>
-    </section>
-
-    <style>
-        .like-section {
-            margin-top: 2rem;
-            text-align: center;
-        }
-
-        #like {
-            background: #fff;
-            border: 1px solid #003b7e;
-            outline: 0;
-            font-size: 18px;
-            cursor: pointer;
-            color: #003b7e;
-            padding: 5px 15px 10px 15px;
-            margin-top: 1rem;
-            font-family: "Gothambold";
-        }
-
-        .ripple {
-            background-position: center;
-            transition: 0.8s;
-        }
-
-        .ripple:hover {
-            background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
-        }
-
-        .ripple:active {
-            background-color: #6eb9f7;
-            background-size: 100%;
-            transition: 0.5s;
-        }
-
-        #like:hover {
-            color: black;
-        }
-
-        #like>i {
-            font-size: 28px;
-        }
-
-
-        .liked {
-            color: white !important;
-            background-color: #003b7e !important;
-        }
-
-        .liked i {
-            animation: anim 0.5s ease-in-out;
-            -webkit-animation: anim 0.5s ease-in-out;
-        }
-
-        @keyframes anim {
-            100% {
-                transform: rotate(-15deg) scale(1.3);
-                -webkit-transform: rotate(-15deg) scale(1.3);
-                -moz-transform: rotate(-15deg) scale(1.3);
-                -ms-transform: rotate(-15deg) scale(1.3);
-                -o-transform: rotate(-15deg) scale(1.3);
-                filter: blur(0.5px);
-                -webkit-filter: blur(0.5px);
-            }
-        }
-
-        .sharing {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        .sharebtn {
-            transition: all 0.3s;
-            border: 0;
-            border-radius: 0;
-            background-color: #003b7e;
-            color: #fff;
-            text-transform: uppercase;
-            font-family: "GothamBold";
-            text-transform: uppercase;
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 15px 0 0;
-            font-size: 18px;
-            text-decoration: none;
-        }
-
-        .sharebtn:hover {
-            background-color: #ffe500;
-            color: #003b7e;
-
-        }
-    </style>
-
-
-    <div class="row">
-        <div class="col-md-12 like-section">
-            <h4>
-                Was this article helpful?
-            </h4>
-            <button id="like" class="ripple" onclick="liked()">
-                <i class="fa fa-thumbs-up"></i>
-                <span class="liketxt">Yes!</span>
-            </button>
-        </div>
-        <div class="col-md-12">
-            <div class="sharing">
-                <h4>
-                    Share this page
-                </h4>
-                <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
-                <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
-                <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
-                <a href="mailto:?subject=Hey, this page has a great content!&body=" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
+            <div class="right-content9">
+                <img src="assets/images/flag-p-svg.svg" class="img-fluid track-talk1-img9" />
             </div>
-        </div>
-    </div>
-
-    <script>
-        function liked() {
-            var element = document.getElementById("like");
-            element.classList.toggle("liked");
-        }
-
-        // facebok share
-        var fbButton = document.getElementById('fb-share-button');
-        var url = window.location.href;
-        fbButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
-                'facebook-share-dialog',
-                'width=800,height=600'
-            )
-            return false;
-        });
-        // twitter share
-        var twButton = document.getElementById('tw-share-button');
-        var url = window.location.href;
-        twButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open('https://twitter.com/share?' + url,
-                'twitter-share-dialog',
-                'width=800,height=600'
-            )
-            return false;
-        });
-        //linked share
-        var ldButton = document.getElementById('ld-share-button');
-        var url = window.location.href;
-        ldButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url,
-                'linkedin-share-dialog',
-                'width=800,height=600'
-            )
-            return false;
-        });
-        //mailthis
-        var mailButton = document.getElementById('mail-share-button');
-        var url = window.location.href;
-        mailButton.addEventListener('click', function(e) {
-            e.preventDefault();
-            window.open('mailto:?subject=Hey, this page has a great content!&body=' + url,
-                'email-share-dialog',
-                'width=800,height=600'
-            )
-            return false;
-        });
-    </script>
-
-    <!-----FOOTER--------->
-    <section class="no-side-margin no-print">
-        <div class="section5">
-            <div class="bottom-left">
-                <div class="top-content5">
-                    <h3>METRO SOLUTIONS</h3>
-                    <p>METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on.</p>
-                    <p><strong>Applications that can support with menu design or communications are:</strong>
-                    </p>
-                </div>
-                <div class="bottom-content5">
-                    <ul>
-                        <li>
-                            <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
-                        </li>
-                        <li>
-                            <a href="https://dataentry.protrace.metrosystems.net/login" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
-                        </li>
-                    </ul>
-
-                </div>
+        </section>
+        <!-----TODO--------->
+        <!-----TODO--------->
+        <section class="container section4-6 section-to-print print9" id="option9" data-scrl="Your action plan">
+            <div class="top-content">
+                <h3>Your Action Plan</h3>
             </div>
-            <div class="bottom-right">
-                <div class="top-content5">
-                    <h3>METRO Offer</h3>
-                    <p>METRO supports you with a diverse product assortment and services for your sustainability strategy. Please check out the local METRO or makro website in your country.
-                    </p>
-                </div>
-                <!-- <div class="bottom-content5">
-                    <ul>
-                        <li>
-                            <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <img src="images/Logo_METRO-Regio_weiss.png" /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 373 192" width="373" height="192">
-                                    <title>METRO_Bio-ai</title>
-                                    <style>
-                                        .sf {
-                                            fill: #fff
-                                        }
-                                    </style>
-                                    <g id="Ebene 1">
-                                        <g id="&lt;Group&gt;">
-                                            <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m104.1 0.8h6.4q1.2 0.4 2.3 1.1 1.2 0.6 2.6 1.9 2.4 1.7 5.5 2.3 3 0.5 6.1 0.5 1.9 0 3.5-0.3 1.7-0.3 2.8-0.3 2.6 0 4.4 0.3 1.8 0.3 3.7 0.3 1.8 0.4 3.1 1.1 1.3 0.6 3.2 1.1 0.5 0 1.5 0.3 1.1 0.3 1.6 0.3 2.3 0 4.3 0.5 2 0.6 4.4 1 1.9 1.1 4.1 1.7 2.2 0.7 4.8 1.8 2.9 1.3 5.7 2.9 2.8 1.6 5.2 3.7 2.6 2.2 4 4.9 1.4 2.7 3 5.3 0.8 1.1 0.9 2.1 0.1 1.1 0.1 2.2 0 1.7 0.1 2.9 0.1 1.2 0.6 2.3 0 1.7-0.1 3.2-0.1 1.5-0.6 3.2-0.7 2.2-1.2 4-0.5 1.9-0.5 4-0.4 2.2-1.1 4.2-0.7 2.1-2.6 3.6-1.4 1.7-2.6 3-1.2 1.3-1.7 2.4-2.3 4.3-5.4 7.6-3.1 3.4-7.3 6-1.9 1-3.5 2.6-1.7 1.5-4.3 3.2-3 2.4-6.4 4.1-3.5 1.7-7 3.9-3.1 1-5.5 2.5-2.5 1.6-5.6 3.3-0.7 0-0.7 1.5 0.5 1.7 1.3 3.1 0.8 1.4 3.4 1.9 1.7 1 3.3 2.2 1.7 1.2 2.4 2.9 1.9 2.2 3.1 3.9 1.1 1.7 3 3.9 0.7 0.9 0.7 3.7v0.8q0.7 1.7 1.2 3.7 0.5 1.9 0.5 4.1 0.4 2.4 1 4.5 0.6 2.2 0.6 4.3-0.7 1.1-0.9 2.2-0.3 1.1-0.7 2.1-0.5 0.5-0.6 1.4-0.1 1-0.1 1.4 0.4 1.8 0.1 3.4-0.4 1.6-1.1 3.3-0.5 1.8-1.2 3.7-0.7 1.9-2.5 3.7-1.2 1.7-2.4 3.3-1.2 1.6-2.6 3.8-0.5 0.4-1.2 0.9-0.7 0.6-1.1 1.2-1.9 1.8-3.1 3.6-1.2 1.8-3.1 2.3-0.9 0-0.9 0.6-2.8 3-8 5-2.4 1-5 2.7-2.6 1.6-5.2 2.7h-1.6q-2.4 0-4.6 0.4-2.2 0.4-4.8 0.8-1.2 0.5-2.5 0.6-1.3 0.1-3.2 0.1-1.9 0-3.4-0.2-1.5-0.2-3.4 0.2-1.9 1.1-3.3 0.9-1.4-0.3-3.3-0.9-1.9-0.4-3.4-0.7-1.6-0.2-2.7-0.6h-5l-0.5-0.2h-0.2v0.2q-0.7 0.4-1.3 0.2-0.6-0.2-1-0.2-2.4-1.7-4.9-2.4-2.4-0.6-5.5-1.5-2.4-0.8-4.7-2.1-1.2-0.5-2.4-1-1.2-0.5-2.3-1-4.7-2.1-8-5.2-1.2-1-2.3-1.7-1-0.6-2.2-1.9-0.7-0.4-1.5-1.5-0.9-1.1-0.2-2.2v-0.6q-0.7-2.2-0.1-4.2 0.6-2.1 1.8-4.5 0.5-2.3 1-3.9 0.6-1.7 1.1-3.2 0.2 0 0.2-0.4-0.2-0.2-0.2-0.4v-1.3q1.2-0.7 1.9-1.6 0.7-1 1.4-1.7 1.9-3.6 3.1-8.4 0.4-1.7 1.3-3.3 0.8-1.6 2.7-2.7v-1.3q0.7-1.1 1.3-2.2 0.5-1 1-2.8 0-0.4 0.5-1 0.5-0.7 0.5-1.3 2.1-2.2 2.1-4.4l0.9-0.6q0.5-2.2 1.6-4 1-1.8 2.2-4.2 0.5-1.1 0.6-2.2 0.1-1 0.1-2.8v-10.1l0.9-0.6q1.9-1.8 3.8-3.3 1.9-1.5 4.3-3.2 1.4-1.7 1.4-3 1.1-1.7 1.9-2.8 0.7-1.1 1.4-2.8 1.1-3.5 2.4-6.7 1.3-3.3 3.2-6.5 0.7-0.6 0.7-2.8 0.5-1.3 1.2-2.4 0.7-1 1.2-2.1 0.5-1.7 1.5-2.8 1.1-1.1 1.5-2.8 3.3-5.6 5.2-11.3 1.9-5.8 3.6-11.2 0-1-0.2-2.1-0.1-1.1-0.5-1.5v-0.7q-1.2 0-2.4 0.1-1.2 0.2-2.4 0.6-5.4 2.8-10.6 5.8-5.1 3-9.8 6.5-1 0-1.7 0.8-3.5 3.1-7.2 6-3.6 2.9-6.9 6.3-1.2 1.1-2 1.8-0.9 0.6-2 1.7-1.9 2.8-4.2 5.5-2.2 2.7-4.6 5.5l-0.4 0.4q-0.5 0.4-0.5 0.9-2.4 2.1-4.6 4.8-2.2 2.7-3.4 6.2-1.7 2.6-3 5.2-1.2 2.7-2.4 5.6-0.5 1-0.8 2.1-0.4 1.1 0.1 2.2v0.6q0.4 2.2-0.4 4.8-0.8 2.5-2 4.7v1.5q1.2 2.6 2.4 4.9 1.2 2.2 2.3 4.6 0 0.6-0.7 1.3-0.7 0.4-1.6 1.1-1 0.6-1.4 1h-1q-2.6-2.1-5.4-3.8-2.8-1.8-5.7-4.1v-2q0-0.2-0.2-0.3-0.2-0.1-0.5-0.5-1.1-1.1-1.9-2.3-0.7-1.2-1.6-2.7 0-1.7-0.5-3-0.4-1.3-0.9-3-1.2-3.5-4.7-3.5v-18.1q0.4 0 1.5-0.4 1.1-0.5 1.5-0.5l1-0.8q0.5-3.7 2.5-6.5 2-2.8 3.8-5.8 2.4-2.6 4.6-5.6 2.3-3 4.9-5.8-0.3-0.3 0-0.5 0-0.4 0.9-0.4 0.5-1.1 1.5-1.7 1.1-0.7 2.3-1.8 1.2-1 2.4-2.4 1.3-1.4 3-2.5 1.9-1.7 3.8-3 1.8-1.3 4.2-3.1 1.9-1 3.5-2.4 1.7-1.4 3.6-2.5 3.5-1.7 7.3-4.5l1.4-1.3q5.4-2.2 10.8-4.7 5.4-2.5 10.9-4.6 1.1-1.3 2.3-1.5 1.2-0.2 3.1-0.2v-0.3q0-0.4 0.7-0.4 0.5 0 0.7-0.4 0.2-0.4 0.7-1.1 2.6-0.4 4.9-1 2.4-0.5 4.8-0.9 3-1.1 4.9-2.6 1.9-1.5 3.8-3.3 0.7-1 1.3-2.1 0.6-1.1 1-1.5zm57.7 43.5v-2.1q-0.4-1.7-0.5-3-0.2-1.3-0.2-3.1-0.7-0.6-0.7-1.2-0.7-1.1-0.9-2.2-0.3-1.1-0.7-2.2-1.2-1.7-2.1-3.6-1-2-2.9-3-1.9-1.8-3.5-3.2-1.7-1.4-3.5-3.1-0.3 0.2-0.5 0-0.2 0-0.2-0.9-2.4 0-5.2-0.4-2.9-0.4-5.2-0.9-1.2-0.8-2.4-0.3-1.1 0.6-2.3 1-1.7 1.1-2.3 2.3-0.5 1.1 0.2 3.3 0 0.6-0.5 1.2-0.5 0.5-0.5 1 0 0.6-0.4 1.1-0.5 0.6-0.5 1 0 0.4-0.1 1.2-0.2 0.8-0.6 1.2-1 0.6-1 2.8-0.4 1.1-0.9 2.1-0.5 1.1-0.5 2.2-0.7 1.1-0.8 2.3-0.1 1.1-0.1 2.9l-2.1 6.4q-0.8 0.5-1.3 1.4-0.6 1-1.1 2.1-1.2 1.3-1.5 2.4-0.4 1-0.9 2.1 0 1.7-0.2 2.8-0.2 1.1-1.4 2.2-0.7 1.1-0.9 2.1-0.3 1.1-0.8 2.4-0.7 1.7-1.4 3.2-0.7 1.6-1.9 3.3l-0.7 0.6q-0.4 1.8-1.1 3.4-0.7 1.6-1.2 4-1.2 2.1-2.3 4.6-1 2.5-1.5 4.6-0.7 1.8-0.2 2.5 0.4 0.8 1.6 1.2 0.7 0.6 1.3 0.9 0.6 0.2 1.1 0.6h2.3q0.5 0 1.2-0.3 0.7-0.3 1.2-0.3 2.6-0.7 4.4-1.2 1.7-0.6 3.6-1.6 1.2 0 2.4-0.5 1.1-0.4 2.3-0.4 1.4 0 1.4-0.9 0.7 0 1.3-0.3 0.6-0.3 1.3-0.3 0.7-0.7 1.6-0.9 0.8-0.2 0.8-0.6 4-2.6 8.6-5.7 4.6-3.2 7.9-6.6 2.6-2.8 5.2-5.5 2.5-2.7 4.4-6.2 1.9-3.6 2.7-7.4 0.9-3.8 2-7.7 0.5-0.4 0.6-1.4 0.1-0.9 0.1-1.4zm-53-26.7q0.5 1.1 1.3 1.2 0.9 0.1 2.7 0.1-1.1-0.4-2-1.2-0.8-0.7-2-0.1zm-1.6 15.7h1.6v-0.6h-0.4q-0.3 0-0.5 0.2-0.2 0.2-0.7 0.4zm1.6-0.6q-0.4-1.1-0.5-1.8-0.2-0.8-0.2-1.9-0.7 0.7-0.9 1.1-0.2 0.4-0.7 0.4zm-1.7 15.1v-2.1q-1.1 0.6-1.3 0.8-0.1 0.3-0.1 1.3zm-3.7-17.2q0.4 0.4 1.1 0.6 0.7 0.2 1.2 0.9v-2.2q-0.7 0.7-2.3 0.7zm2.3-4.5h0.7v1.7q0.5 0 1.2 0.3 0.7 0.3 1.2 0.3h0.7q0.7-0.4 0.9-1.1 0.3-0.6 0.7-0.6-1.2-0.4-0.9-1 0.1-0.1 0.1-0.3h-1.5q-0.5 0-0.5-0.8 0-0.7-1.2-0.7v1.5q0 0.7-0.4 0.7h-0.3q0-0.5-0.2-1.3-0.3-0.9 0.9-0.9 0-0.4-0.3-0.7-0.4-0.2-0.4-0.6h1.7q0-0.9-1-0.9h-3q-1 2.2 0.9 2.2l0.7 0.9v1.3h-1.6l-0.5 0.4q-0.2 0.2-0.2 1.3-0.8 0 0 0.6h0.7q1.6 0 1.6-2.3zm4.6-0.7h0.1q0-0.3 0-0.6 0 0 0 0 0 0.3-0.1 0.6zm0.8 0.7v0.6q0.5 0 0.6 0.6 0.1 0.7 0.1 1.1 1.9 0 1-2.3-1.4-2 0-4.4v-0.6q-0.7 0.4-1.7-0.1-0.9-0.6-1.6-0.6v2.2h1.6q-0.6 0.5-0.7 2.2 0.7 0 0.7 1.3zm1.7-5.7q0.4 0 1.2 0.3 0.7 0.2 1.4-0.9-1.9 0-2.6 0.6zm-9.4 14.5h-1.7v0.6q1.7 0 1.7-0.6zm-2.4 25.2q0.7-0.6 2.4-0.6-1.5-1.3-2.4 0.6zm-3.3 7.4q0-1.1-0.1-1.2-0.1-0.1-0.6-0.1 0 1.3 0.7 1.3zm-1.7 7.7h1.7v-0.6h-1.7zm-1.4 6h1.4l-0.7-0.6zm0 10.7q0 0.7-0.5 1.3-0.6 0.7-1.1 1.8 0.7-0.9 2.3-0.9 0-0.4-0.3-1-0.4-0.5-0.4-1.2zm-5.4 5h3.8q-1.4-1.3-2.4-1.9-1.4 1.3-1.4 1.9zm0-9.3q1.4-1.7 1.4-2.1h1v-0.9q-0.3 0-0.3-0.2-0.4-0.4-0.7-0.4h-0.7q-0.4 0.4-1.1 1-0.8 0.7-1.5 1.1 0.7 0.5 1 0.7 0.2 0.2 0.9 0.8zm3.8 3.1q0-0.7 0.2-0.7h0.5q0.5-0.4 0.4-0.5-0.2-0.1-0.2-0.6-0.2-0.2-0.2-0.6-1.4 0-1.4 0.8-0.5 0.7-0.7 1.2-0.3 0.6-1 1 0-0.4-0.3-1-0.4-0.5-0.4-1.2-0.4 1.1-1.3 1.1-0.8 0-2 0.5 0.7 0 1.7 0.6 1.6 0 1.6 0.6l0.7 0.9h2.4zm-6.4 9.3q0-0.7 0.7-0.9 0.7-0.2 0-1.3h-1.6q0.7-0.6 0.2-1.2-0.5-0.5-0.9-0.9 0-0.5-0.4-1.1-0.3-0.7-0.3-1.1h4q1.6 0 1.6-0.6h-2.6q0-1.5-1.6 0-1.9 0-2.1 0.2-0.3 0.2-0.3 1.9 0 2.8 2.4 2.8v2.2q-0.7-0.9-3.1-0.9 0 0.7 0.4 1.2 0.3 0.5 0.3 1.2-0.4 0-1-0.4-0.6-0.5-1.1-0.5-0.9 0.9-0.9 2.4-0.3 0-0.3 0.4 0 0.2 0.3 0.2h1.6q-0.2 0.3-0.5 0.3-0.2 0.2-0.2 0.6v1.3h0.5q0.2 0 0.9-0.6l0.7-0.7q0-0.6-0.3-1.2-0.4-0.5-0.4-0.9 0.5 0 1.4 0.1 1 0.1 1 1.1 0.5 0.7 0.8 0.7 0.4 0 1.5-0.7-0.7-0.6-0.7-2.1h1.7q-0.7-0.7-1-1.4-0.2-0.8-0.7-0.1zm0-9.9q0-0.7-0.6-0.9-0.5-0.2-1-0.9v1.8zm-2.4-2.4q2.6-1.7 1.4-3.7-0.7 0-2.3 1.5 1.2 0.5 0.7 1-0.5 0.5 0.2 1.2zm-0.9 20.9q1.4-0.9 2.3-2.1h-3q0 1.5 0.7 2.1zm2.3-8.6h1v1.5h-1zm15.4 8.6q-4.3-0.4-7.8 2.2-3.6 2.6-4 6-0.7 1.5-1.6 3-0.8 1.5-2 3.3-0.4 1.7-1 3.3-0.6 1.6-1.3 3.4-1.2 2.5-2.4 5.2-1.2 2.7-3 5.5-1.4 1.8-1.4 2.2-1.2 3.7-2.5 7.2-1.3 3.6-3.2 7.2-0.7 1.1-1.2 2.3-0.5 1.2-0.5 2.9 0 1.5-0.7 1.5-0.7 0-0.7 1.5v5.6q1.2 1.1 2.3 1.8 1 0.6 2.2 1-0.2 0.5 0 0.7 0 0.4 1 0.4 1.1 0 2.8-0.5 1.6-0.6 3.5-0.6 2.4-0.8 4.7 0h1.4q4.5-1 8.6-2.4 4.2-1.4 8.4-2.5 1.9-1.1 3.4-1.7 1.5-0.7 3.4-1.8 0.7-0.6 1.4-1.2 0.7-0.5 1.9-0.9 2.4-3.5 6.4-6.1 2.3-1.7 4.7-4.9 0.5 0 0.9-0.8 0.5-0.7 0.5-1.4 0.7-2.8 1.9-4.8 1.2-2.1 2.4-3.8 0.2-0.4 0.4-0.6 0.3-0.3 0.3-0.5v-0.4q0-2.4 0.3-4.1 0.4-1.7 0.4-3.9v-5q-1-7.5-7.1-13.1-3.1-2.8-6.5-4.2-3.4-1.4-7.9-1zm-21.4 3.7h-0.7q0.7 0 0.7 0.4zm0-2.8q0-0.6-0.2-1-0.3-0.3-1.5 0.1 0 0.9 1.7 0.9zm-2.4-2.1q1-1.3 3.1-2.2-1.9 0-2.2 0.2-0.4 0.2-0.9 2zm1.7-8.2l-0.5 0.4q-0.5 0.4-0.5 1.1h3.3q-0.7-0.5-0.9-1-0.2-0.5-0.7-0.5l0.7-0.7q-0.7 0-1.4 0.7v-1.3l-0.5-0.5q-0.5-0.4-0.5-1-0.4 0.4-1 1-0.6 0.7-1.1 1.1 2.1 0 3.1 0.7zm-1-2.8q1.2 0 2.4 0.1 1.2 0.1 2.4 0.5 0-1.5-0.2-2.7-0.1-1.2-0.5-2.3h1.4v-2.8q-1.2 0-1.3 0.3-0.2 0.2-0.1 1.3v1.2q-0.5-0.2-0.8-0.4-0.2-0.2-0.4-0.2h-0.5q-0.7 0.6-1.4 1.5 1.4 0 2.3 0.7-0.9 0-0.9 0.4-0.2 0.2 0 0.2l0.9-0.6q0 0.4 0.4 0.6 0.4 0.2 0.4 0.9-1.2 0.4-2.1 0.2-0.8-0.2-2-0.2c0 0 0 1.3 0 1.3zm0-2.8q-0.7 0-1.4 0.6h1.4zm-0.7 9.5v1.5l0.7 0.6v-0.6q1 0 1-1.5h-1.7v-1.5q-0.4 0-0.9 0.4l-0.5 0.4q-0.7-0.6-0.8-1.3-0.1-0.6-0.1-1v3zm-3.3 22.4v-1.5l-1.7 1.5v0.9q1 0 1.7-0.9zm-1.7 2.2q0-0.5-0.4-0.9-0.3-0.2-0.3-0.4l-0.7 0.6v0.7zm-1.4-13q-0.7 0.5-0.3 1.1 0.3 0.7 0.3 1.7 0.5-0.4 0.5-1.4 0-0.9-0.5-1.4zm-1.6 5q0.4 1.1 0.7 1.7 0.2 0.7 0.9 1.1v-2.8zm-1.4 11.6h0.7v-1.5h-0.7zm12.5-20.5h1.6v-1.3h-2.3q0 0.5 0.3 0.7 0.4 0.2 0.4 0.6zm-13.4 14.7q0 0 0 0zm0.4 0.4q0.5 0.5 1.2 0.5v-1.8q-0.9 0.9-1.2 0.9-0.2 0.2-0.4 0zm-5.9 26.3q0.4-1.1 0.7-1.8 0.2-0.8 0.9-1.8-0.7 0.6-1.2 0.6h-0.4l-1 0.9q-0.9 0.8 0 1.5zm-3.3 12.3v0.8q0.5 0 0.7-0.4 0.3-0.4 0.7-0.4zm-2.3-17.5q1.2 0.4 2.2 0.7 1.1 0.2 1.6 0.8 0-1.1-0.4-1.8-0.3-0.8-0.3-1.9-2.2 1.3-3.1 2.2zm-0.7 11.6v2.2q0.7 0 0.9-0.2l0.5-0.4q0-0.7-0.5-0.9-0.4-0.2-0.9-0.7zm-1-0.6q-0.4-0.6-0.7-1.1-0.2-0.4-0.7-0.4v1.5zm-1.4-3h-3q0 0.6 0.4 1 0.5 0.3 1-0.2 0.7-0.6 0.9-0.7 0.2-0.1 0.7-0.1zm-4 8.2v1.3l1 0.8q0-1.5-1-2.1zm1.7-0.9v-0.9q-1.7 0.1-2.4 0.9zm62.4-128.9q0-0.7 1.7-2.2h-2.6q0 1.5 0.9 2.2zm-25.4 48.5h-0.7-1z" />
-                                            <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m232.8 30.3q0.7 0.7 1.7 1.1 1.1 0.4 1.8 1.1 1.4 1.1 2.6 2.6 1.2 1.5 1.6 3.2 1 1.1 1.1 1.8 0.1 0.8 0.1 1.9 0 1.9-0.1 4.6-0.1 2.7-1.1 4.6-0.4 0.7-0.9 1.7-0.5 0.9-0.5 1.6-1.2 1.9-2.7 3.7-1.5 1.9-2.7 3.8-2.6 3-5.5 4.7-3 1.6-7 2.9-5.6 0.6-11.3 0l-0.9-0.9q-1.9-1.1-3.2-2-1.3-1-3.2-2.5-1.9-1.1-3.2-2.3-1.3-1.2-1.3-3.5v-0.5q0-1.3-0.4-1.8-0.5-0.5-0.5-1.6-0.7 0-0.7-0.5 0-0.4 0.7-0.4 0.7-1.1 1-2.1 0.4-1.1 0.4-1.6 1.2-1.7 2-3.3 0.8-1.6 2-3.3 1.9-1.8 3.8-3.4 1.8-1.6 4.4-2.9 1.2-1.3 3-1.8 1.8-0.6 3.9-1.2 0.7-0.9 1.2-1 0.4-0.1 1.1-0.5 1.9-0.7 3.8-1.4 1.9-0.8 3.8-0.8zm-13.7 21.8v-2.2q-0.5 0.5-0.5 2.2zm1-3.4q0.9 1 1.4 0.7 0.5-0.3 1.2-0.3-0.7-1.1-2.3-1.6-1.5-0.6-2.7-0.6 0.7 0.7 0.8 1.2 0.2 0.6 0.6 1 1 0 1-0.4zm1.6 3.8h1.9v-0.4h-1.9zm-63.8 121.8q0.5-1 0.5-1.9v-1.9q0-1.3 0.4-2.4 0.5-1.1 0.5-2.2 1.4-1.9 1.4-5.4 0-1.2 0.5-2.4 0.5-1.2 0.5-2.3 0-0.9 0.2-1.1 0-0.2 0.2-0.4 1.4-1.7 2.5-3.4 1.1-1.6 1.1-3.3 0.7-1.1 1.1-2 0.5-1 1.2-2.3 4.3-8.6 7.8-17.5 1.2-2.8 2.6-5.3 1.4-2.4 2.8-4.6v-0.9q0-3.4 2.4-7.1 1.8-3.4 3.6-6.8 1.8-3.3 3.7-7 1.1-1.1 1.4-2.6 0.2-1.5 0.2-3.2-0.5-1.1 0.5-2 0.9-1 2.8-1h8.7q3.3 2.4 6.4 5 3 2.7 6.3 6l0.5 0.4q-0.5 2.4-0.6 4.5-0.1 2.2-0.8 4.6v1.3q-1.6 3.6-3.5 5.8-0.5 1.1-0.5 2.4v3l-0.5 0.4q-0.4 0.4-0.4 0.9-0.5 0.4-1.1 0.9-0.6 0.6-1.3 1.7 0 1.5-0.4 2-0.3 0.5-1 1.6v1.7q0 1.1-0.6 2.1-0.6 1-1.1 2-1.1 3.5-2.7 6.7-1.5 3.3-2.9 6.7-0.5 1.1-1.1 2.6-0.6 1.5-1 3.2 0 3.5-2.4 7.2-0.7 1-1.3 1.9-0.6 0.9-1 1.5-1.2 2.4-2.4 5-1.2 2.6-1.2 4.5v1.3q-0.4 1.3 0.3 2.4 0.7 1 0.7 2.1 0 0.9 0.4 0.9 0.3 0.2 0.5 0 1.2-0.7 2.2-0.8 1.1-0.1 2.3-0.1 1.9-0.4 3.2-1.5 1.3-1.1 2.7-2.2 2.1-2.5 4.6-5.2 2.4-2.7 4.6-5.3 1.1-1.5 2.8-2.8 1.6-1.3 3-3 0.5-0.7 1-1.3 0.5-0.7 0.9-1.1 1.7-1.7 3.3-3.4 1.7-1.6 3.1-3.3 0.2 0 0.5-0.2 0.4-0.4 0.4-1.1-0.7-0.6-0.3-0.7 0.3-0.2 0.3-0.6 2.6-1.7 4.3-3.9 1.6-2.1 3.5-4.1 1.9-2.1 4.1-5 2.3-2.9 4.6-6 2.4-3 4.4-5.9 2-2.9 3.4-5.3 0-0.6 0.6-0.7 0.6-0.1 1.1-0.1h2.3v7.9q0 0.5-0.1 0.6-0.1 0.1-0.8 0.7-0.5 1.3-1.7 3.1-1.2 1.7-2.6 3.6-1.4 2-2.7 3.9-1.3 1.9-2.2 3.2-0.5 0.5-1.3 1.4-0.8 1-1.5 2.1-1.9 1.7-3.2 3.7-1.3 1.9-3.2 4.3-2.8 2.6-5 5.8-1.1 0.4-2 1.5-0.8 1.1-2 2.2-1.1 1.7-2.2 3.3-1.1 1.6-2.5 3.3-1.2 1.1-2 2.1-0.8 1-2 2-0.5 0.7-1.2 1.5-0.7 0.9-2.5 1.6v0.4q-0.5 0.4-0.8 0.7-0.2 0.4-0.4 0.6-0.3 0.4-0.5 0.4-2.8 2.8-5.5 5-2.7 2.1-5.6 4.5-1.9 1.1-3.1 2-1.3 1-3.2 2.5-1.2 0.5-2.3 0.6-1 0.1-1.7 0.7-1.9 0-3.2 0.3-1.3 0.4-3.2 1h-1.4q-1.9-0.6-3.7-1.1-1.7-0.4-3.6-1-2.1 0-5-0.6-2.8-0.5-4.2-2.2-0.7-0.7-1.8-1.2-1-0.6-1.7-1-1.9-1.1-3.3-2.7-1.4-1.6-1.9-4zm33-48.9q1.1 0.4 1.7 0.4 0.6 0-0.1-0.4zm1 12.9q0-0.9 0.7-0.9h-2.6q1.9 0 1.9 0.9zm-10.6 8q0 0.6 0.4 1.1 0.5 0.4 0.5 1v-2.1zm0 15.1q-0.5 1.1-0.5 1.4v0.9h0.5zm-1.4 0h2.3v-0.8h-1.4q-0.9 0-0.9 0.8zm0 10.4q0.7-1.7 0.7-1.9 0-0.3-1.2-0.3 0.5 0.9 0.5 2.2zm-3.1-6.7h1.4q1-1.1 1.1-1.6 0.1-0.5 0.1-1-1.9 0.7-2.6 2.6zm-0.9-6.2v1.7h4q0-0.4-0.5-0.4-0.9-0.7-1.6-0.8-0.7-0.1-1.9-0.5zm0-4.1q-0.7 0-0.7 0.2 0 0.2 0.7 1.7zm0 8.2q-1 0.9-1.4 0.9h1.4zm15.1-35.4q0 0.4 0.7 0.9 0.7 0.4 1.8 0.4 0-1.1-0.9-1.2-0.9-0.1-1.6-0.1z" />
-                                            <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m232 161.9v-2.4q0-1.1 0.5-1.5 0.5-0.4 0.5-1.5-0.7-2.8 0.3-5.5 1.1-2.7 2.7-5.5 1.9-1.7 3.1-3.6 1.2-1.8 1.9-3.8 1.2-1.7 1.9-3 0.7-1.3 1.2-3 1.1-1.3 2.7-3 1.5-1.7 2.2-3.5 1.2-1 1.8-2.4 0.6-1.4 1.3-2.5 0.7-1.1 0.8-2.1 0.1-0.9 0.6-2 2.3-4.5 5-9.1 2.8-4.5 6.1-8.4 1.8-2.4 3.3-4.3 1.4-1.9 3.7-3 0.7-1.1 1.8-1.9 1-0.7 2.2-1.8 3.1-2.8 6.7-4.5 3.7-1.7 7.7-2.8 1.2-0.4 2-0.9 0.8-0.4 2-0.4h0.5q1.1 0.6 2.8 0.7 1.6 0.2 2.8 0.2h8q1 0 1.5 0.4 1.8 1.1 3.7 2.4 1.9 1.2 3.8 2.3 7.8 5.4 11.1 15.1v0.5q0.4 1.2 0.6 1.9 0.1 0.6 0.8 1.7v3.3q0 1.5 0.4 2.5 0.8 2.8 0.4 5.5-0.4 2.7-0.4 5.5-0.4 2.8-1.2 5.4-0.9 2.6-3.2 4.8-1.4 1.9-1.4 4.9 0 1.1-0.3 2.6-0.2 1.5-1.4 2.6-0.7 1.1-1.3 1.8-0.6 0.8-1 1.9-1.2 1.7-1.5 3.1-0.2 1.4-0.2 3.1 0 2.4 2.1 2.4h4l1.4-1.3q0.7-0.9 1.8-1.4 1.1-0.5 1.8-1 1.9-1 3.2-2.1 1.2-1.1 2.7-2.8h1.1q1.9-0.9 3.1-2.1 1.2-1.2 2.4-2.7 1.1-1.3 2.3-2.6 1.2-1.2 2.6-2.3 1.7-1.1 3-2.5 1.2-1.4 3.1-2.5 1.2-1.5 4-4.7 2.9-3.3 4.7-5 0.5-1.1 1.6-2 1-1 1.5-2.1 0.7-0.8 1.2-1.6 0.5-0.8 1.4-1.2 1.2-1.5 1.7-1.5 0.4 0 2.3 1.5 1.2 0.4 1.3 0.5 0.1 0.2 0.1 1.2-0.7 0.9-0.8 1.4-0.1 0.6-0.1 1-0.5 1.1-1.1 2.1-0.6 0.9-1 1.6-0.7 1.7-1.8 2.8-1.1 1.1-2.2 2.1-0.8 0.9-2.3 2.5-1.5 1.6-1.5 2.3-1.9 1.7-3.1 3.6-1.2 2-2.3 3.7-0.5 0-0.7 0.1-0.3 0.1-0.7 0.1-0.5 0.2-0.8 0.2-3 2.2-5.4 5-0.4 1.7-1.5 2.8-1.1 1.1-2.5 1.9-1.6 1.3-3.4 3-1.8 1.6-3.6 3.3-1.2 0.9-2.3 1.6-1 0.8-1.7 1.2-1.5 1.1-3.1 2.2-1.7 1-2.8 1.5-2.6 1-4.6 2.2-2 1.2-4.6 2.3-2.1 0-4.5 1.5-0.9 0.4-3.5 0.4-1.2 0.7-2.3 0.9-1 0.2-2.2 0.9-1.9 1-3.7 2-1.7 1-3.1 2.1-1.2 0.8-2.4 1.7-1.2 0.8-1.6 1.9-1 1.1-1.9 2.1-1 0.9-2.2 2-2.3 1.5-4.2 2.6-1.9 1.1-3.8 2.2-2.3 1-4.3 1.9-2 0.9-4.1 1.7h-1.2q-1.2 0.5-2.3 0.5h-2.2q-4.9 1.3-9.4 0-4-0.5-8.1-2.3-4.2-1.8-7.9-4.6-3.1-2.8-5.2-5.6-2.1-2.8-2.9-6.3-0.4-1.1-0.5-2-0.2-1-0.9-1.7-0.4-1-1-2-0.6-1-0.6-2.1 0-0.8-0.5-1.3-0.5-0.4-0.5-1zm34-21.2v2.4h1.1q0-0.4-0.1-1-0.1-0.5-1-1.4zm0-4.1h2.1v-0.8h-2.1zm0-8.7h2.1v-0.8q-0.7 0-1-0.2-0.2-0.2-1.1-0.2zm1.1 1.2q-0.9 0.1-1.4 0.6-0.4 0.5-1.6 0.5h3zm-5.1 17.5q1.6 0 1.9-0.1 0.2-0.1 0.7-1.2-1 0-2.6 1.3zm-1.4-7.3q0.7 0.6 1.7 0.9 1.1 0.4 1.8 0.4-0.7-1.1-1.2-1.2-0.5-0.1-2.3-0.1zm-0.5 3.2h-1.4q-2.6 0-2.6 1.7 0 0.5 0.2 0.7 0.5 0.4 1.2 0.4 0 1.1-0.1 1.2-0.1 0.1-1.3 0.1h-3.1v1.3q-2.3 0-2.3 1.1v0.8q0 0.5 0.4 0.5 0.7-0.7 1-0.8 0.2-0.1 0.9-0.5h1.7v2.6q0 0.8 0.2 1 0 0.3 0.2 0.5l1.4 1.3q0.8 0 1-0.3 0.2-0.2 1.2-0.2v-1.3h-1.2q-0.7 0-1.2 0.2-0.5 0.3-1.2 0.3 0-0.5 0.4-1.1 0.3-0.7-0.4-1.3 0-0.4 0.5-0.9 0.5-0.4 0.9-0.4 0-0.4 0.6-0.5 0.6-0.1 1.6-1 0-0.4 0.2-1.3 0.2-0.9 0.2-1.3h-1.6q0-0.9 0.6-1 0.6-0.1 1-0.5h0.5q0.5 0 1 0.4-0.5-0.4-0.5-0.8v-0.9h1.9l-0.5-0.9q0 0.7-0.5 0.8-0.5 0.1-0.9 0.1zm1.4-14.7q-1.4 1.3-2.4 1.3h2.4zm5.6 33.5h-4q-2.6 1.9-2.5 4.1-0.5 2.1-1.3 4.4-0.9 2.2-1.8 4.2v1.1q0.9 0.4 1.4 0.8 0.5 0.5 1.2 0.9 0 0.6 0.7 1.3 0.2 0.4 0.7 0.6 4.2-1.5 7.7-3 3.4-1.5 6.4-4.3 0-0.9 0.5-1.4 0.5-0.6 0.5-1.8v-2q0-0.8-1-1.3-1.2-0.6-2.2-1.3-1.1-0.6-1.8-1.1-1.2-1-2.2-1.5-1.1-0.4-2.3 0.3zm-5.6-10.6q-1.2-0.4-2-0.6-0.8-0.1-2-0.7v1.3zm0-14.2q0-1.3-1-2.2-1.1-0.4-1.6 0.2-0.5 0.7-1.4 0.7 1.2 0.4 2 0.5 0.8 0.1 2 0.8zm-5 2.8q-0.4 0.6-0.9 0.7-0.5 0.1-0.5 0.6v1h1q0.4 0 0.9-0.4 0.2-0.2 0.5-0.6 1.9 0 2.2-0.2 0.4-0.1 0.8-1.1v-2.4h-1.4v-0.4l-0.2 0.4h0.2q0 1.1-0.4 1.1h-1.2q0.2 0.2 0.5 0.2 0.2 0.2 0.4 0.2 0.3 0 0.3 0.4-1.2 0-1.2 1.3zm-1.4-2.4v-1.2h-0.5q0 0.8 0.2 1 0 0.2 0.3 0.2zm0.9 18.4q-0.7 0-1.2 0.5-0.4 0.6-1.4 1 1 0.6 1.1 0.7 0.1 0.2 0.6 0.1 0-0.6 0.4-1 0.5-0.5 0.5-1.3zm-5.4-11q0 1.1 2.3 1.1v-2.8q-0.7 0.4-0.9 0.8-0.2 0.4-0.9 0.4l-0.3 0.5zm9.7 3.4q-0.3 0.5 0.2 1.3 0 0.5 1 0.5h0.2q0.2-0.3 0.2-0.5v-0.4q0-0.7-0.4-0.7-0.3 0-0.3-0.2-0.2-0.2-0.2-0.4 0-0.2-0.5-0.6 0 0.6-0.2 1zm-10.9 9.9q-0.4-0.8-1.4-1.2v1.2zm59.6-63.6q-1.8-1.5-3.3-2.9-1.4-1.4-3.3-3.1h-5.4q-1.9-0.7-3.5-0.1-1.7 0.5-3.5 1.6-1.2 0.7-2.8 1.4-1.5 0.8-2.7 1.2-1.8 1.7-4.1 3.3-2.2 1.7-4.8 2.7l-0.3 0.2q-0.2 0.3-0.2 0.7-0.9 0.4-1.4 1.1-0.5 0.6-1.2 1.7-0.7 0.6-1.2 0.8-0.4 0.1-1.4 0.5v6q1.2 0.5 2.6 0.9 1.4 0.4 2.6 0.4 5.4 0 9.4 4.1 1.2 1.5 1.8 2.6 0.6 1.1 2.2 2.2 0.5 0.8 0.5 1.3-0.5 0.6-0.5 1.6v2q-0.7 1.1-0.9 2.2-0.2 1.1-1.2 2.4-2.6 3.8-5.9 7.9-3.3 4.1-5.4 9.1 0 0.6-0.6 1.2-0.6 0.5-0.6 0.9 0 0.9 0.6 1.3 0.6 0.5 1.1 1.1 2.6 2.2 4.8 3.7 2.3 1.5 4.6 2.4h1.4q1.7-1.6 3.1-2.7 1.4-1.2 3-3l0.5-0.4q0-1.1 0.5-2.5 0.5-1.4 0.9-2.4 1.2-1.8 2.6-3.7 1.4-1.9 2.6-3.7 1.4-3.9 2.7-7.1 1.3-3.2 1.8-6.7 1.2-2.8 2.3-5.5 1.2-2.7 1.2-5.5 0-1.3 0.3-3 0.2-1.7 0.2-3.9 0.7-2.3 0.3-4.2-0.3-1.8-0.3-4-0.9-2.3 0.9-4.1z" />
-                                            <path id="&lt;Path&gt;" class="sf" d="m331.9 44.6v1.8c0 0.3-0.1 0.7-0.7 0.7h-6v-3.3h6c0.7 0 0.7 0.5 0.7 0.8z" />
-                                            <path id="&lt;Path&gt;" class="sf" d="m351.1 44.4v9c0 0.2-0.1 0.7-0.8 0.8h-5.6c-0.6-0.1-0.7-0.6-0.7-0.8v-9c0-0.2 0.1-0.6 0.7-0.6h5.6c0.7 0 0.8 0.4 0.8 0.6z" />
-                                            <path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="sf" d="m257.8 33.4h105.1v31.2h-105.1zm78.7 10.2c-0.1-1.9-1.5-3-3.2-3.1h-13.3v17.1h5.2v-7.1h1.8l3.6 7.1h5.9l-4-7.1h0.8c1.6-0.1 3.2-1.2 3.2-3.1zm-18.5-3.1h-14.8v3.4h4.9v13.7h5.1v-13.7h4.8zm-16.8 0h-13.5v17.1h13.5v-3.4h-8.4v-3.6h8.4v-3.3h-8.4v-3.4h8.4zm-16.1 0h-6.9l-3.3 8.4-3.3-8.4h-6.9v17.1h5.1v-10.8l3.4 10.8h3.4l3.4-10.8v10.8h5.1zm71.1 2.9c-0.1-1.9-1.5-2.8-3.2-2.9h-11c-1.6 0.1-3 1-3.2 2.9v11.1c0.2 2 1.6 3 3.2 3.1h11c1.7-0.1 3.1-1.1 3.2-3.1z" />
-                                        </g>
-                                    </g>
-                                </svg></a>
-                        </li>
-                        <li>
-                            <a href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank">METRO <br> Serviceverpackungen </a>
-                        </li>
-
-                    </ul>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    </div>
-    </div>
-
-    <div class="footer-wrap no-print">
-        <div class="logo-fooetr">
-            <img src="images/footer-logo.svg" />
-        </div>
-        <div class="fotter-right footer-first-page">
-            <div class="fotter-right-top">
-                <div class="footer-links content-foo">
-                    <p>The METRO My Sustainable Restaurant is designed to help food business owners adopt a more sustainable future.</p>
-                </div>
-                <div class="footer-links link2">
-                    <ul>
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-                        <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-                        <li><a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-                        <li><a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links link3">
-                    <ul>
-                        <li><a href="#" title="">Link 1</a></li>
-
-                        <li><a href="#" title="">Link 1</a></li>
-
-                        <li><a href="#" title="">Link 1</a></li>
-
-                        <li><a href="#" title="">Link 1</a></li>
-
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-socials">
+            <div class="mid-content cation-plan-section">
                 <ul>
-                    <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Understand the importance of sustainable products
+                        </p>
+                    </li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Inform yourself about labels and certification
+                        </p>
+                    </li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Use the comprehensive guide to sustainable products
+                        </p>
+                    </li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Introduce simple steps to your business to source sustainably
+                        </p>
+                    </li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Use advanced ways to integrate sustainability into your business
+                        </p>
+                    </li>
+                    <li>
+                        <label class="check-wrap">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p class="">
+                            Track and talk about your progress to customers
+                        </p>
+                    </li>
+                    <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
                 </ul>
+            </div>
+        </section>
 
+        <div class="row">
+            <div class="col-md-12 like-section">
+                <h4>
+                    Was this article helpful?
+                </h4>
+                <button id="like" class="ripple" onclick="liked()">
+                    <i class="fa fa-thumbs-up"></i>
+                    <span class="liketxt">Yes!</span>
+                </button>
+            </div>
+            <div class="col-md-12">
+                <div class="sharing">
+                    <h4>
+                        Share this page
+                    </h4>
+                    <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+                    <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+                    <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:?subject=Hey, this page has a great content!&body=" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
+                </div>
             </div>
         </div>
-
-        <div class="fotter-right page-ani-footer">
-            <div class="fotter-right-top">
-                <div class="footer-links link2">
-                    <ul>
-                        <li><a href="https://www.metroag.de/en/imprint" title="" target="_blank">Imprint</a></li>
-                        <li><a href="https://www.metroag.de/en/data-privacy" title="" target="_blank">Data Privacy</a></li>
-                        <li><a href="https://www.metroag.de/en/terms-of-use" title="" target="_blank">Terms of Use</a></li>
-                        <li><a href="https://www.metroag.de/en/contact" title="" target="_blank">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-socials">
-                    <ul>
-                        <li><a href="https://www.facebook.com/HOSPITALITY.digitaI" target="_blank"> <i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.metroag.de/youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="https://www.instagram.com/metro_mpulse/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/metro-ag" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://twitter.com/@METRO_News" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    </ul>
-
-                </div>
-            </div>
-
-        </div>
-
+        <?php include "includes/footer-eng.php"; ?>
     </div>
 
 
 
+
+
+
+    <?php include "includes/page-footer.php"; ?>
 
 
     <div id="pop1" class="modalx">
@@ -3837,10 +3395,7 @@
 
 
 
-
-
-
-    <script>
+    <!-- <script>
         //schemes and certifications script
         window.onload = function() {
             BindTopics();
@@ -4017,9 +3572,6 @@
             });
         });
 
-
-
-
         var jasonData = {
             "Topics": [{
                     "id": "topic1",
@@ -4122,7 +3674,7 @@
                 },
             ]
         };
-    </script>
+    </script> -->
     <script type="text/javascript">
         //comprehensive guide
         function ButtonNext9Click() {
@@ -4160,7 +3712,10 @@
                 quPop("n-Ul");
                 quPop("ulContent1");
             }
-        }
+        };
+
+        var fDText = "METRO offers a wide range of sustainable products that are regional, seasonal, organic, animal welfare assured, ethically traded, compostable and so on.";
+        $("#footDynamicText").text(fDText);
     </script>
 
     <script src="jquery/page1.js"></script>
@@ -4168,33 +3723,61 @@
 
 
 
-    <script>
+    <!-- <script>
         var swiper = new Swiper(".mySwiper9", {
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
         });
+    </script> -->
+    <script>
+        //pageSlider swiper
+        function openPopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "block");
+        }
+
+        function closePopUp(Id) {
+            //alert(Id);
+            $("#pop" + Id).css("display", "none");
+        }
+        var swiper = new Swiper(".pageSwiper1", {
+            grabCursor: true,
+            centeredSlides: true,
+            initialSlide: 1,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 30,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next.pageSwiper1NextBtn",
+                prevEl: ".swiper-button-prev.pageSwiper1PrevBtn",
+            },
+            pagination: {
+                el: ".swiper-pagination.pageSwiper1Pagination",
+            },
+        });
     </script>
     <script>
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                    "body").style.visibility = "hidden";
-                document.querySelector(
-                    "#loader-page2").style.visibility = "visible";
-            } else {
-                document.querySelector(
-                    "#loader-page2").style.display = "none";
-                document.querySelector(
-                    "body").style.visibility = "visible";
-            }
-        };
+        //page params
+        $(document).ready(function() {
+            var cur_page_name = "Responsible Sourcing";
+            var cur_nav_link_id = "3";
+            var eng_page_path = "explore-responsible-sourcing-eng.php";
+            var deu_page_path = "explore-responsible-sourcing-deu.php";
+            //manipulation
+            pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
+            var menuIdVal = "1";
+            menumanipulation(menuIdVal, "e");
+        });
+        var fDText = "METRO bietet eine Vielzahl von nachhaltigen Produkten an, die regional, saisonal, biologisch, aus artgerechter Tierhaltung, fair gehandelt, kompostierbar usw. sind.";
+        $("#footDynamicText").html(fDText);
     </script>
-
-
-    <script type="text/javascript" src="./assets/js/common.js"></script>
 </body>
-
 
 </html>

@@ -6,21 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>METRO</title>
 
-    <link rel="stylesheet" href="css/page2_style.css">
+    <link rel="stylesheet" href="assets/prev/css/page2_style.css">
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-    <script src="./jquery/custom.js"></script>
+    <script src="assets/prev/jquery/custom.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="./assets/css/common.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/normalize.min.css" rel="stylesheet">
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon-32x32.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <!--META TAGS-->
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="noindex,nofollow">
     <style>
-        .footer-socials.side_nav>ul {
-            margin-left: 0rem;
+        body {
+            overflow: auto;
+        }
+
+        .w100p1 {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        nav.navbar {
+            height: 60px;
+            top: 0;
+        }
+
+        .c9 {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            max-width: 100%;
+        }
+
+        .likebtn {
+            margin-bottom: 2rem;
         }
 
         .spacerx {
             margin-top: 3rem;
+        }
+
+        .nodeco {
+            color: white !important;
+            text-decoration: none !important;
+        }
+
+        .nowrap1 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         @media print {
@@ -28,181 +73,470 @@
                 visibility: hidden;
             }
 
-            #section-to-print,
-            #section-to-print * {
+            .section-to-print,
+            .section-to-print * {
                 visibility: visible;
             }
 
-            #section-to-print {
+            .section-to-print {
                 position: absolute;
                 left: 0;
                 top: 0;
             }
+        }
 
-            .nodeco12 {
-                color: white !important;
-            }
+        .section1 {
+            margin-top: 4rem;
+            background-color: white;
+        }
+
+        .w100p {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        .mid-highlight.container {
+            max-width: 100%;
+        }
+
+        .section-lena-kitchen {
+            max-width: 100%;
+        }
+
+        .section-lena-inner {
+            padding-left: 0;
+        }
+
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            width: unset;
+        }
+
+        .section-simple-way {
+            background-color: white;
         }
     </style>
 </head>
 
-<body class="page4-page gr-page4-page">
-    <header class="no-print">
-        <div class="container">
-            <div class="logo">
-                <a href="home.php">
-                    <img src="images/metro-logo.svg" />
-                </a>
-            </div>
-
-            <div class="new_header header-menu">
-                <div id="nav-icon4" class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="custom__select top-mar-less">
-                    <select>
-                        <option value="explore-sustainable-menu-deu.php" selected>DEU</option>
-                        <option value="explore-sustainable-menu-eng.php">ENG</option>
-                    </select>
-                </div>
-                <nav>
-                    <ul class="main">
-                        <li>
-                            <a href="home.php">Home</a>
+<body class="page4-page">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-theme-yellow" href="index.php">
+                <img src="assets/images/logo-png.png" class="img-fluid brand1">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link header-brand-link header-brand-link1" href="home.php">Home </a> </li>
+                        <li class="nav-item"><a class="nav-link header-brand-link header-brand-link2" href="my-sustainable-restaurant-deu.php">Mein Nachhaltiges Restaurant</a></li>
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a class="nav-link header-brand-link dropdown-toggle header-brand-link3" href="the-msr-chapter-guide-deu.php" data-bs-toggle="dropdown">Kapitelübersicht <span class="i1"><i class="fa fa-chevron-down"></i></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item hov-item" href="the-msr-chapter-guide-deu.php">Kapitelübersicht </a></li>
+                                <li> <a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte <i class="fa fa-chevron-right"></i></a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php">Übersicht <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option1">Warum es wichtig ist, ein nachhaltiges Menü anzubieten</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option6">MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option1">So wird Ihre Speisekarte nachhaltiger</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option2">Einfache Schritte, um eine nachhaltige Speisekarte zu erstellen</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option3">Gut zu wissen – Unterschiedliche Ernährungsformen</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option4">Erfahren Sie alles über die Diversifizierung von Proteinen</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option5">Heben Sie nachhaltige Gerichte hervor</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option6">LENAS KÜCHE</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option7">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option8">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option1">Wie man Produkte für Restaurants verantwortungsbewusst einkauft</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option6">ERSTE SCHRITTE WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option1">Wie Sie verantwortungsbewusst Einkaufen</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option2">Die Bedeutung eines verantwortungsbewussten Einkaufs</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option3">Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu findenGood to know</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option4">Nicht-zertifizierte nachhaltige Produkte</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option5">Der umfassende Leitfaden für nachhaltige Produkte</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option6">Tipps für Einsteiger, um verantwortungsbewusst Einzukaufen</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option7">Tipps für Fortgeschrittene, um verantwortungsbewusst Einzukaufen</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option8">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-responsible-sourcing-deu.php#option9">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-food-waste-deu.php">Lebensmittelverluste <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option1">Warum wir die Menge an Lebensmittelabfällen reduzieren müssen</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-food-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option1">Wie Sie Lebensmittelabfälle reduzieren</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option2">Mülldeponien sollten der letzte Ort sein, <br>auf dem nicht benötigte Lebensmittel landen</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option3">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option4">Tipps für Einsteiger, um Lebensmittelabfälle zu reduzieren</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option5">Tipps für Fortgeschrittene, um die Menge an Lebensmittelabfällen zu reduzieren</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option6">Kompostieren Sie Lebensmittelabfälle</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option7">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-food-waste-deu.php#option8">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-plastic-waste-deu.php">Plastikmüll <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option1">Die Bedeutung von Plastik in der Gastronomie</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-plastic-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option1">Wie Sie Plastikmülll vermeiden</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option2">Wie Sie Plastikmülll vermeiden</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option3">Wie Sie Plastikmüll vermeiden</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option4">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option5">Tipps für Einsteiger, um Plastikmüll zu vermeiden</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option6">Tipps für Fortgeschrittene, um Plastikmüll zu vermeiden</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option7">Überprüfen Sie ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-plastic-waste-deu.php#option8">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option1">Warum wir über Lebensmittelsicherheit sprechen müssen</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option6">ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-safe-food-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-safe-food-deu.php#option1">Lebensmittelsicherheit ist die Basis</a></li>
+                                                <li><a class="dropdown-item" href="explore-safe-food-deu.php#option2">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-safe-food-deu.php#option3">Drei Schritte für mehr Lebensmittelsicherheit</a></li>
+                                                <li><a class="dropdown-item" href="explore-safe-food-deu.php#option4">Überprüfen Sie Ihre Fortschritte und reden Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-safe-food-deu.php#option5">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-energy-deu.php">Energie <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-energy-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option1">Wie Sie in Ihrem Restaurant weniger Energie verbrauchen und damit Kosten sparen</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-energy-deu.php#option6">ERSTE SCHRITTE, WIE SIE DEN ENERGIEVERBRAUCH SENKEN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-energy-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option1">Wie man Energie effizient nutzt</a></li>
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option2">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option3">Tipps für Einsteiger, um Energie zu sparen</a></li>
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option4">Tipps für Fortgeschrittene, um Energie zu sparen</a></li>
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option5">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-energy-deu.php#option5">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-water-deu.php">Wasser <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-water-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option1">Wie Sie in Ihrem Restaurant Wasser sparen können</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-water-deu.php#option6">ERSTE SCHRITTE, WIE SIE WASSER SPAREN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-water-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option1">Wie man Wasser verantwortungsvoll nutzt</a></li>
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option2">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option3">Tipps für Einsteiger, um Wasser zu sparen</a></li>
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option4">Tipps für Fortgeschrittene, um Wasser zu sparen</a></li>
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option5">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-water-deu.php#option6">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-waste-deu.php">Abfälle <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-waste-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option1">Das Problem mit dem Abfall</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE ABFALL VERMEIDEN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option1">Wie man Abfall reduziert</a></li>
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option2">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option3">Tipps für Einsteiger, um weniger Abfall zu produzieren</a></li>
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option4">Wie Sie das Beste aus Ihrem Abfall herausholen</a></li>
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option5">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-waste-deu.php#option6">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item" href="introduction-to-social-deu.php">Gemeinschaft <i class="fa fa-chevron-right"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="introduction-to-social-deu.php">Übersicht <i class="fa fa-chevron-right"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option1">Warum sich das Gastgewerbe sozial engagieren muss</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option2">Wussten Sie, dass…</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option4">Vorteile</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+                                                <li><a class="dropdown-item" href="introduction-to-social-deu.php#option6">ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="explore-social-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option1">How to engage socially as a restaurateur</a></li>
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option2">Gut zu wissen</a></li>
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option3">Die 7 Grundrechte</a></li>
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option4">Wege, um sich als Gastronomin oder Gastronom sozial zu engagieren</a></li>
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option5">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
+                                                <li><a class="dropdown-item" href="explore-social-deu.php#option6">Ihr Aktionsplan</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="mein-nachhaltiges-restaurant.php">Mein Nachhaltiges Restaurant</a>
+                        <li class="nav-item dropdown dynamic-li1" id="myDropdown">
+                            <a class="nav-link header-brand-link dropdown-toggle active-link page-title-nav-link d-li1" href="#" data-bs-toggle="dropdown"><span id="cur_page">PAGE_TITLE</span> <span class="i1"><i class="fa fa-chevron-down"></i></span> </a>
+                            <ul class="dropdown-menu" id="chapterddn">
+                            </ul>
                         </li>
-                        <li>
-                            <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
+                        <li class="nav-item dropdown dynamic-li1" id="myDropdown">
+                            <a class="nav-link header-brand-link dropdown-toggle d-li2" href="#" data-bs-toggle="dropdown">Übersicht <span class="i1"><i class="fa fa-chevron-down"></i></span></a>
+                            <ul class="dropdown-menu" id="l3ddn">
+                            </ul>
                         </li>
-                        <div class="sub_menuUi">
-                            <li>
-                                <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-energy-deu.php">Energie</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-water-deu.php">Wasser</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-waste-deu.php">Abfälle</a>
-                            </li>
-                            <li>
-                                <a href="introduction-to-social-deu.php">Gemeinschaft</a>
-                            </li>
-                        </div>
-                        <li>
-                            <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                        <li class="nav-item dropdown dynamic-li1" id="myDropdown">
+                            <a class="nav-link header-brand-link dropdown-toggle d-li3" href="#" data-bs-toggle="dropdown">Gewusst wie <span class="i1"><i class="fa fa-chevron-down"></i></span></a>
+                            <ul class="dropdown-menu" id="l4ddn">
+                            </ul>
                         </li>
-                        <li>
-                            <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
-                        </li>
+                        <li class="nav-item dynamic-li2"><a class="nav-link header-brand-link d-li4 active-link dynamic9" href="#"></a></li>
                     </ul>
-                    <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
-                    <div class="social">
-                        <p>Hilfreiche Links</p>
-                        <a href="https://www.menukithd.com/" target="_blank">
-                            <img src="images/logo-dish.png" style="width: 5rem;">
-                        </a>
-                        <a href="https://www.dish.co/DE/en/" target="_blank">
-                            <img src="images/Dish_Logo-svg.svg" style="width: 3rem;">
-                        </a>
-                        <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
-                            <img src="images/Protrace_Logo-ai.svg" style="width: 2rem;">
-                        </a>
-                        <a href="https://www.metro-go.de/de-DE/home" target="_blank">
-                            <img src="images/Eitiketten.png">
-                        </a>
+                </div>
+                <div class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn search-btn" type="submit" id="searchq2">
+                        <i class="fa fa-2x fa-search text-theme-yellow"></i>
+                    </button>
+                    <div class="custom__select top-mar-less">
+                        <select>
+                            <option id="lange" value="explore-sustainable-menu-eng.php">ENG</option>
+                            <option id="langd" value="explore-sustainable-menu-deu.php" selected>DEU</option>
+                        </select>
                     </div>
-                    <div class="social">
-                        <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-                            <img src="images/Logo_METRO-Regio_weiss.png">
-                        </a>
-                        <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
-                            <img src="./images/safe_food/foot_nav2.PNG">
-                        </a>
-                        <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="./images/safe_food/foot_nav.PNG"></a>
+                    <div id="nav-icon4" class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                    <div class="footer-socials side_nav">
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/metro.deutschland" target="_blank">
-                                    <i class="fa fa-facebook"></i>
+
+                    <div class="new_header header-menu">
+                        <nav2>
+                            <ul class="main">
+                                <li>
+                                    <a href="index.php">Home</a>
+                                </li>
+                                <li>
+                                    <a href="my-sustainable-restaurant-deu.php">Mein Nachhaltiges Restaurant</a>
+                                </li>
+                                <li>
+                                    <a href="the-msr-chapter-guide-deu.php">Kapitelübersicht</a>
+                                </li>
+                                <div class="sub_menuUi">
+                                    <li>
+                                        <a href="introduction-to-sustainable-menu-deu.php">Nachhaltige Speisekarte</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-responsible-sourcing-deu.php">Verantwortungsbewusstes Einkaufen</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-food-waste-deu.php">Lebensmittelverluste</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-plastic-waste-deu.php">Plastikmüll</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-safe-food-deu.php">Lebensmittelsicherheit</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-energy-deu.php">Energie</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-water-deu.php">Wasser</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-waste-deu.php">Abfälle</a>
+                                    </li>
+                                    <li>
+                                        <a href="introduction-to-social-deu.php">Gemeinschaft</a>
+                                    </li>
+                                </div>
+                                <li>
+                                    <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
+                                </li>
+                            </ul>
+                            <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
+                            <div class="social">
+                                <p>Hilfreiche Links</p>
+                                <a href="https://www.menukithd.com/" target="_blank">
+                                    <img src="assets/images/logo-dish.png" style="width: 5rem;">
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
-                                    <i class="fa fa-youtube-play"></i>
+                                <a href="https://www.dish.co/DE/en/" target="_blank">
+                                    <img src="assets/images/Dish_Logo-svg.svg" style="width: 3rem;">
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
-                                    <i class="fa fa-instagram"></i>
+                                <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank">
+                                    <img src="assets/images/Protrace_Logo-ai.svg" style="width: 2rem;">
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
-                                    <i class="fa fa-linkedin"></i>
+                                <a href="https://www.metro-go.de/de-DE/home" target="_blank">
+                                    <img src="assets/images/Eitiketten.png">
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/@METRO_News" target="_blank">
-                                    <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="social">
+                                <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                                    <img src="assets/images/Logo_METRO-Regio_weiss.png">
                                 </a>
-                            </li>
-                        </ul>
+                                <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&amp;_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank">
+                                    <img src="assets//images/safe_food/foot_nav2.PNG">
+                                </a>
+                                <a style="width: 9rem;" class="bottom-right" href="https://www.metro.de/service/marktservices/serviceverpackungen" target="_blank"><img src="assets/images/safe_food/foot_nav.PNG"></a>
+                            </div>
+                            <div class="footer-socials side_nav mt2r">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/metro.deutschland" target="_blank">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/user/MetroGrossmarkt" target="_blank">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/metro_deutschland/ " target="_blank">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/metro-ag" target="_blank">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/@METRO_News" target="_blank">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav2>
+                        <div class="overlay2"></div>
                     </div>
-                    <!-- <ul class="sub"><li><a href="#0">FAQ &amp; Shipping</a></li><li><a href="#0">Terms &amp; Conditions</li></ul> -->
-                </nav>
-                <div class="overlay"></div>
+                </div>
             </div>
         </div>
-    </header>
-    <div id="loader-page2" class="center">
-        <span class="loader__text">
-            <img src="images/yellow_pan.gif" class="loader9" />
-        </span>
+    </nav>
+    <div class="searchbox">
+        <div class="input-group mb-3">
+            <input id="sq2" type="text" class="form-control" value="" placeholder="" aria-label="" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-x"></i></button>
+        </div>
     </div>
-    <div class="container-full">
+    <?php include "includes/loader.php"; ?>
+
+    <div class="container-full" style="margin-top: 2rem;">
         <div class="page-3_stage page-4_stage">
 
-            <section class="section1 no-print">
+            <section class="section1 no-print" id="option1" data-scrl="So wird Ihre Speisekarte nachhaltiger">
                 <div class="left-content">
                     <h3 style="text-transform: none;">So wird Ihre Speisekarte nachhaltiger</h3>
                     <h4>Die nachhaltige Speisekarte </h4>
-                    <p>Bringen Sie mehr Nachhaltigkeit in Ihre Speisekarte und zeigen Sie Ihr Engagement für die Gesundheit des Planeten und der Menschen. Mit bewussten Entscheidungen werden Sie sowohl Gäste wie auch Mitarbeitende für sich gewinnen. Nutzen Sie zum Beispiel mehr regionale und Bioprodukte und weniger Zucker und Salz.<span id="dots"></span>
+                    <p>Bringen Sie mehr Nachhaltigkeit in Ihre Speisekarte und zeigen Sie Ihr Engagement für die Gesundheit des Planeten und der Menschen. Mit bewussten Entscheidungen werden Sie sowohl Gäste wie auch Mitarbeitende für sich gewinnen. Nutzen Sie zum Beispiel mehr Bio- und regionale Produkte und weniger Zucker und Salz.<span id="dots"></span>
 
                     </p>
                     <!-- <button class="read-more-btn" href="#" id="myBtn" ="()">WEITERLESEN</button> -->
                     <button class="read-more-btn" href="#" id="myBtn" target="#more">WEITERLESEN</button>
                 </div>
                 <div class="right-content">
-                    <img src="images/page3banner.svg" />
+                    <img src="assets/prev/images/page3banner.svg" />
                 </div>
             </section>
             <section class="section-text container no-print" id="more">
                 <div class="section-text-inner">
-                    <p>Vor allem jüngere Generationen sorgen sich um die Umwelt und einen fairen Umgang mit Menschen. Daher wissen sie nachhaltige Konzepte in der Gastronomie zu schätzen. Mehr Nachhaltigkeit in Ihrem Betrieb bietet zudem die Gelegenheit, sich vom Wettbewerb abzuheben, und wirkt sich positiv auf die Umwelt und ihre Gemeinde aus. Eine intakte Umwelt und die Verfügbarkeit von Ressourcen sind die Grundlage für Ihren Geschäftsbetrieb. Indem Sie sich für nachhaltig beschaffte und produzierte Lebensmittel entscheiden, sichern Sie sich Ihre eigene Zukunft und können einen stabilen und profitablen Betrieb aufbauen. </p>
+                    <p>Vor allem jüngere Generationen sorgen sich um die Umwelt und einen fairen Umgang mit Menschen. Daher wissen sie nachhaltige Konzepte in der Gastronomie zu schätzen. Mehr Nachhaltigkeit in Ihrem Betrieb bietet zudem die Gelegenheit, sich vom Wettbewerb abzuheben und wirkt sich positiv auf die Umwelt und ihre Gemeinde aus. Eine intakte Umwelt und die Verfügbarkeit von Ressourcen sind die Grundlage für Ihren Geschäftsbetrieb. Indem Sie sich für nachhaltig beschaffte und produzierte Lebensmittel entscheiden, sichern Sie sich Ihre eigene Zukunft und können einen stabilen und profitablen Betrieb aufbauen. </p>
                 </div>
 
             </section>
-            <section class="section-simple no-print">
+            <section class="section-simple no-print" id="option2" data-scrl="Einfache Schritte, um eine nachhaltige Speisekarte zu erstellen">
                 <div class="section-simple-way text-center">
                     <h3>
                         Einfache Schritte, um eine nachhaltige Speisekarte zu erstellen</h3>
@@ -297,7 +631,7 @@
                 </div>
             </section>
 
-            <section class="section-slider1 no-print spacerx">
+            <section class="section-slider1 no-print spacerx" id="option3" data-scrl="Gut zu wissen – Unterschiedliche Ernährungsformen">
                 <div class="section-slider-center text-center">
                     <div class="wrap" style="z-index: 0;">
                         <h3>Gut zu wissen – Unterschiedliche Ernährungsformen </h3>
@@ -307,7 +641,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i1-svg.svg" />
+                                        <img src="assets/prev/images/i1-svg.svg" />
                                     </span>
                                     <button class="modal-toggle1" tabindex="0">Vegan</button>
 
@@ -316,7 +650,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i5-svg.svg" />
+                                        <img src="assets/prev/images/i5-svg.svg" />
                                     </span>
                                     <button href="https://www.metro.de/produktwelten/fleischloser-genuss" class="modal-toggle2" target="_blank">Vegetarisch </button>
                                 </div>
@@ -325,7 +659,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i7-svg.svg" />
+                                        <img src="assets/prev/images/i7-svg.svg" />
                                     </span>
                                     <button class="modal-toggle3" tabindex="0">Paleo</button>
                                 </div>
@@ -333,7 +667,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i8-svg.svg" />
+                                        <img src="assets/prev/images/i8-svg.svg" />
                                     </span>
                                     <button class="modal-toggle4" tabindex="0">Keto</button>
                                 </div>
@@ -341,7 +675,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i4-svg.svg" />
+                                        <img src="assets/prev/images/i4-svg.svg" />
                                     </span>
                                     <button class="modal-toggle5" tabindex="0">Fruitarian</button>
                                 </div>
@@ -349,7 +683,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i3-svg.svg" />
+                                        <img src="assets/prev/images/i3-svg.svg" />
                                     </span>
                                     <button class="modal-toggle6" tabindex="0">Omnivore</button>
                                 </div>
@@ -357,7 +691,7 @@
                             <div class="item">
                                 <div class="inner-item">
                                     <span class="icon-list">
-                                        <img src="images/i2-svg.svg" />
+                                        <img src="assets/prev/images/i2-svg.svg" />
                                     </span>
                                     <button class="modal-toggle7" tabindex="0">Flexitarian</button>
                                 </div>
@@ -367,7 +701,7 @@
                 </div>
             </section>
 
-            <section class="section-text-withimages section4-4 more-text no-print">
+            <section class="section-text-withimages section4-4 more-text no-print" id="option4" data-scrl="Tipps für Fortgeschrittene, um eine nachhaltige Speisekarte zu erstellen">
                 <div class="left-content">
                     <h3 style="text-transform:none ;">Tipps für Fortgeschrittene, um eine nachhaltige Speisekarte zu erstellen – Erfahren Sie alles über die Diversifizierung von Proteinen</h3>
                     <p>Überall auf der Welt beziehen wir unseren Eiweißbedarf aus Pflanzen, Fleisch und Fisch. Das Problem ist, dass Eiweiß aus industrieller Landwirtschaft oftmals schlecht für die Umwelt ist und durch Methanemissionen (die in Kohlenstoffdioxid umgewandelt werden) Wasser und Böden belastet. Das Tierwohl wird häufig missachtet. <span id="dots"></span>
@@ -382,17 +716,17 @@
                     <button class="read-more-btn" id="myBtn1">WEITERLESEN</button>
                 </div>
                 <div class="right-content">
-                    <img src="images/div-protein.svg" />
+                    <img src="assets/prev/images/div-protein.svg" />
                 </div>
             </section>
-            <section class="container no-print">
+            <section class="container no-print w100p1">
                 <ul class="grid--what">
                     <li>
                         <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid1.svg" /></span>
+                            <span class="text-img"><img src="assets/prev/images/grid1.svg" /></span>
                             <h5> Wofür brauchen <br> wir Protein?</h5>
                             <p id="more2">Protein ist ein wesentlicher Bestandteil unserer Ernährung und muss je nach Alter, Gesundheitszustand und Aktivitätsniveau in unterschiedlichen Mengen aufgenommen werden. Proteine werden für das Wachstum und die Regenerierung von Muskeln sowie für die gesunde Entwicklung von Hormonen, Enzymen und Antikörpern benötigt. All dies trägt zu mehr Gesundheit und Leistungsfähigkeit bei.
-                                Proteine bestehen aus etwa zwanzig Aminosäuren und je nachdem wie wir uns ernähren, nehmen wir eine unterschiedliche Menge von Aminosäuren durch unsere Ernährung auf. Deshalb ist es wichtig, eine Vielzahl von unterschiedlichen Lebensmitteln zu sich zu nehmen, um die richtige Auswahl an Aminosäuren zu erhalten. Grundsätzlich können Proteine aufgrund ihres Aminosäuregehalts in vollständige (Fleisch, Fisch, Eier, Milch, Käse) und unvollständige (Bohnen, Nüsse, Samen, Tofu usw.) Eiweiße unterschieden werden. Unvollständiges Eiweiß kann wertvolle Aminosäuren liefern, wenn es z. B. in einem Gericht mit Reis und Erbsen gemischt werden.
+                                Proteine bestehen aus etwa zwanzig Aminosäuren und je nachdem wie wir uns ernähren, nehmen wir eine unterschiedliche Menge von Aminosäuren durch unsere Ernährung auf. Deshalb ist es wichtig, eine Vielzahl von unterschiedlichen Lebensmitteln zu sich zu nehmen, um die richtige Auswahl an Aminosäuren zu erhalten. Grundsätzlich können Proteine aufgrund ihres Aminosäuregehalts in vollständige (Fleisch, Fisch, Eier, Milch, Käse) und unvollständige (Bohnen, Nüsse, Samen, Tofu usw.) Eiweiße unterschieden werden. Unvollständiges Eiweiß kann wertvolle Aminosäuren liefern, wenn es z. B. in einem Gericht mit Reis und Erbsen gemischt wird.
                             </p>
                             <button class="read-more-btn" id="myBtn2">WEITERLESEN</button>
                         </div>
@@ -400,25 +734,25 @@
                     <li>
 
                         <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid2.svg" /></span>
+                            <span class="text-img"><img src="assets/prev/images/grid2.svg" /></span>
                             <h5>Bewusster Konsum <br> von Proteinen</h5>
                             <p id="more3">Der bewusste Konsum von Proteinen umfasst einen Ansatz, der auf dem Verzehr vielfältiger nachhaltiger Proteinquellen beruht. Der Verzehr von unterschiedlichen Proteinarten beinhaltet beispielsweise konventionelles Eiweiß aus artgerechter Tierhaltung wie auch alternatives Eiweiß aus pflanzlichen Quellen.
                                 <br>
-                                <br><b>Tierische Proteine </b> sollten von Fleisch und Fisch aus nachhaltiger Haltung stammen. Dazu gehören auch Produkte wie Eier und Milch. Tierische Proteine, die aus verantwortungsvoller Tierhaltung stammen, sind gekennzeichnet durch hohes Tierwohl, nachhaltiges Futter und, im Falle von Wiederkäuern, offener Weidehaltung. Weitere Kriterien für den bewussten Konsum von Proteinen sind: verantwortungsvolle Wassernutzung, gesicherte artgerechte Haltung der Tiere, verantwortungsvoller Einsatz von Medikamenten (z. B. Antibiotika), Wahrung der biologischen Vielfalt (z.B. durch die Haltung traditioneller Rassen), Rückverfolgbarkeit der Lebensmittel und die Gewährleistung von Arbeitnehmerrechten.
+                                <br><b>Tierische Proteine </b> sollten von Fleisch und Fisch aus nachhaltiger Haltung stammen. Dazu gehören auch Produkte wie Eier und Milch. Tierische Proteine, die aus verantwortungsvoller Tierhaltung stammen, sind gekennzeichnet durch hohes Tierwohl, nachhaltiges Futter und im Falle von Wiederkäuern, offener Weidehaltung. Weitere Kriterien für den bewussten Konsum von Proteinen sind: Verantwortungsvolle Wassernutzung, gesicherte artgerechte Haltung der Tiere, verantwortungsvoller Einsatz von Medikamenten (z. B. Antibiotika), Wahrung der biologischen Vielfalt (z. B. durch die Haltung traditioneller Rassen), Rückverfolgbarkeit der Lebensmittel und die Gewährleistung von Arbeitnehmerrechten.
                                 <br><br>
-                                <b> Pflanzliche Proteine </b> sind nährstoffreiche Lebensmittel wie Bohnen, Getreide, Hülsenfrüchte, Nüsse, Kichererbsen, traditionelle Pseudogetreidesorten wie Quinoa und gering verarbeitete Zutaten wie Tofu, Tempeh und Seitan. Eine nachhaltige Lebensmittelproduktion zeichnet sich dadurch aus, dass Tofu aus Sojabohnen produziert wird, die auf Flächen angebaut werden, die nicht abgeholzt wurden, und dass Nüsse in Obstplantagen geerntet werden, in denen verantwortungsvoll mit Wasser umgegangen wird.
+                                <b> Pflanzliche Proteine </b> sind nährstoffreiche Lebensmittel wie Bohnen, Getreide, Hülsenfrüchte, Nüsse, Kichererbsen, traditionelle Pseudogetreidesorten wie Quinoa und gering verarbeitete Zutaten wie Tofu, Tempeh und Seitan. Eine nachhaltige Lebensmittelproduktion zeichnet sich dadurch aus, dass Tofu aus Sojabohnen produziert wird, die auf Flächen angebaut werden, die nicht abgeholzt wurden und dass Nüsse in Obstplantagen geerntet werden, in denen verantwortungsvoll mit Wasser umgegangen wird.
                                 <br><br>
 
-                                <b>Alternative Proteine </b> werden entweder nur selten verzehrt oder sind völlig neu und werden mit neuartigen Technologien und Zutaten hergestellt. Weltweit wird beispielsweise an spannenden Fleischersatzprodukten geforscht. Allerdings ist es noch ein weiter Weg, bis die Produktion alternativer Proteine als hinreichend nachhaltig angesehen werden kann, z.B. wegen des für die Proteinherstellung erforderlichen Energieverbrauchs. Die Kosten dafür sind nach wie vor sehr hoch und für manche Menschen ist Laborfleisch ein Tabu. Es lohnt sich, diese Entwicklungen genau zu verfolgen, da sich das Forschungsgebiet schnell verändert. In Ostasien, zum Beispiel, werden Fischersatzprodukte bereits erfolgreich produziert und vermarktet.
+                                <b>Alternative Proteine </b> werden entweder nur selten verzehrt oder sind völlig neu und werden mit neuartigen Technologien und Zutaten hergestellt. Weltweit wird beispielsweise an spannenden Fleischersatzprodukten geforscht. Allerdings ist es noch ein weiter Weg, bis die Produktion alternativer Proteine als hinreichend nachhaltig angesehen werden kann, z. B. wegen des für die Proteinherstellung erforderlichen Energieverbrauchs. Die Kosten dafür sind nach wie vor sehr hoch und für manche Menschen ist Laborfleisch ein Tabu. Es lohnt sich, diese Entwicklungen genau zu verfolgen, da sich das Forschungsgebiet schnell verändert. In Ostasien zum Beispiel werden Fischersatzprodukte bereits erfolgreich produziert und vermarktet.
                             </p>
                             <button class="read-more-btn" id="myBtn3">WEITERLESEN</button>
                         </div>
                     </li>
                     <li>
                         <div class="grid--content more-text">
-                            <span class="text-img"><img src="images/grid4.svg" /></span>
+                            <span class="text-img"><img src="assets/prev/images/grid4.svg" /></span>
                             <h5> Natürliche <br> Lebensmittel </h5>
-                            <p id="more4">Die Nutzung von lokalen und in der Natur vorkommenden Lebensmitteln verbindet uns mit der natürlichen Umwelt. Eine wachsende Zahl von Köchen hat sich daher die uralte Praxis der Lebensmittelsuche, bei der sie das naturbelassene Land in der Nähe ihrer Restaurants erkunden, neu zu eigen gemacht. Sie graben, schneiden und pflücken frische Zutaten, um ihre Speisekarten zu ergänzen, die sich in der Regel an den Jahreszeiten orientieren. René Redzepi vom Noma in Dänemark hat vor wenigen Jahren dieses Konzept der Lebensmittelsuche populär gemacht, und seither haben mehrere Köchinnen und Köche auf der ganzen Welt mit der Suche nach Lebensmitteln in ihrer eigenen, naturnahen Umgebung begonnen. Die Köchinnen und Köche, die ihre Lebensmittel persönlich und direkt aus ihrer eigenen Umgebung sammeln, befinden sich immer noch in der Minderheit, zeichnen sich aber durch ein starkes regionales Netzwerk aus. Sie haben ein starkes Bewusstsein für nachhaltige Ernährung und stehen für eine Bewegung, die die lokale Umwelt respektiert sowie die Notwendigkeit erkannt hat, sich um ihre Region zu kümmern. Lassen Sie sich von Köchen wie Aidan Brookes von eleven98 in London, Ana Ros von Hisa Franko in Slowenien, Prateek Sadhu von Masque in Indien, Hisoto Nakahigashi von Miyamasou in Japan, Wojciech Modest Amaro von Atelier Amaro in Polen und Ricky Saward von Seven Swans Must Die in Deutschland inspirieren.
+                            <p id="more4">Die Nutzung von lokalen und in der Natur vorkommenden Lebensmitteln verbindet uns mit der natürlichen Umwelt. Eine wachsende Zahl von Köchen hat sich daher die uralte Praxis der Lebensmittelsuche, bei der sie das naturbelassene Land in der Nähe ihrer Restaurants erkunden, neu zu eigen gemacht. Sie graben, schneiden und pflücken frische Zutaten, um ihre Speisekarten zu ergänzen, die sich in der Regel an den Jahreszeiten orientieren. René Redzepi vom Noma in Dänemark hat vor wenigen Jahren dieses Konzept der Lebensmittelsuche populär gemacht und seither haben mehrere Köchinnen und Köche auf der ganzen Welt mit der Suche nach Lebensmitteln in ihrer eigenen, naturnahen Umgebung begonnen. Die Köchinnen und Köche, die ihre Lebensmittel persönlich und direkt aus ihrer eigenen Umgebung sammeln, befinden sich immer noch in der Minderheit, zeichnen sich aber durch ein starkes regionales Netzwerk aus. Sie haben ein starkes Bewusstsein für nachhaltige Ernährung und stehen für eine Bewegung, die die lokale Umwelt respektiert sowie die Notwendigkeit erkannt hat, sich um ihre Region zu kümmern. Lassen Sie sich von Köchen wie Aidan Brookes von eleven98 in London, Ana Ros von Hisa Franko in Slowenien, Prateek Sadhu von Masque in Indien, Hisoto Nakahigashi von Miyamasou in Japan, Wojciech Modest Amaro von Atelier Amaro in Polen und Ricky Saward von Seven Swans Must Die in Deutschland inspirieren.
                             </p>
                             <button class="read-more-btn" id="myBtn4">WEITERLESEN</button>
                         </div>
@@ -428,7 +762,7 @@
             </section>
 
 
-            <section class="section-highlight-withimages  section4-5 no-print">
+            <section class="section-highlight-withimages  section4-5 no-print" id="option5" data-scrl="Heben Sie nachhaltige Gerichte hervor">
                 <div class="top-highlight text-center">
                     <h3>Heben Sie nachhaltige Gerichte hervor </h3>
                     <p>Es ist wichtig, dass Ihre Gäste verstehen, was Sie zu einer nachhaltigen Ernährung beitragen. Es gibt einige Wege, um Ihr Engagement hervorzuheben: </p>
@@ -439,7 +773,7 @@
                             <div class="circle-content more-text">
                                 <span class="text-num">01</span>
                                 <h5>Erklären Sie nachhaltige <br> Zutaten auf Ihrer Speisekarte</h5>
-                                <p>Zeigen Sie, wo Ihre Zutaten herkommen und wer sie produziert hat. Erklären Sie die Nachhaltigkeitslabels Ihrer Zutaten (Überprüfen Sie zuerst, ob der Eigentümer des Label-Programms dies zulässt, und stellen Sie sicher, dass Sie die Zertifikate zur Verfügung haben). Informieren Sie Ihre Kundinnen und Kunden darüber, wie die Zutat hergestellt wird. Erklären Sie, wenn es von einem lokalen Bauern stammt, der nachhaltige Prinzipien befolgt, sich aber gegen eine Zertifizierung entschieden hat. Es ist wichtig, dies Ihren Kundinnen und Kunden deutlich zu machen. Heben Sie Gerichte mit Gemüse und Vollkorn hervor. Erklären Sie allgemein Ihre Nachhaltigkeitsphilosophie und erzählen Sie, wo immer möglich, die nachhaltige Geschichte Ihrer Gerichte.
+                                <p>Zeigen Sie, wo Ihre Zutaten herkommen und wer sie produziert hat. Erklären Sie die Nachhaltigkeitslabels Ihrer Zutaten (Überprüfen Sie zuerst, ob der Eigentümer des Label-Programms dies zulässt und stellen Sie sicher, dass die Zertifikate zur Verfügung stehen). Informieren Sie Ihre Kundinnen und Kunden darüber, wie die Zutat hergestellt wird. Erklären Sie, wenn es von einem lokalen Bauern stammt, der nachhaltige Prinzipien befolgt, sich aber gegen eine Zertifizierung entschieden hat. Es ist wichtig, dies Ihren Kundinnen und Kunden deutlich zu machen. Heben Sie Gerichte mit Gemüse und Vollkorn hervor. Erklären Sie allgemein Ihre Nachhaltigkeitsphilosophie und erzählen Sie, wo immer möglich die nachhaltige Geschichte Ihrer Gerichte.
 
                                 </p>
 
@@ -449,7 +783,7 @@
                             <div class="circle-content more-text">
                                 <span class="text-num">03</span>
                                 <h5> Weisen Sie auf Allergien und <br> Unverträglichkeiten hin </h5>
-                                <p>Die Zahl von Menschen mit Allergien und Lebensmittelunverträglichkeiten steigt. Halten Sie die gesetzlichen Bestimmungen, entsprechende Hinweise in der Speisekarte zu integrieren, ein.
+                                <p>Die Zahl von Menschen mit Allergien und Lebensmittelunverträglichkeiten steigt. Halten Sie die gesetzlichen Bestimmungen ein, entsprechende Hinweise in der Speisekarte zu integrieren.
 
                                 </p>
                             </div>
@@ -468,7 +802,7 @@
                     </ul>
 
                     <div class="circle-setting">
-                        <img src="images/circle-icon.svg" />
+                        <img src="assets/prev/images/circle-icon.svg" />
                     </div>
                     <ul>
                         <li>
@@ -498,9 +832,7 @@
                                             <li>“Fisch im Teigmantel mit frischer Zitrone”
                                                 (Hausgemacht mit zertifiziertem Kabeljau aus nachhaltigem Fischfang, serviert mit knackigem Salat und Bio-Mayonnaise. Ein frischer Hauch von Meer!)
                                             </li>
-                                            <li>“Bohnenauflauf mit frischen Kräutern”
-                                                (Hausgemachter Auflauf mit gemischten Bio-Bohnen, Bio-Tomaten und geräuchertem Pfeffer. Serviert mit einer Beilage aus Wildreis. Eine köstliche und sättigende Mahlzeit aus gesunden Proteinen!)
-                                            </li>
+
 
                                         </ul>
                                     </div>
@@ -520,7 +852,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="section-lena-kitchen container no-print">
+            <section class="section-lena-kitchen container no-print" id="option6" data-scrl="LENAS KÜCHE">
                 <div class="section-lena text-center">
                     <h3>LENAS KÜCHE</h3>
                     <p>Spiegeln Sie Ihre Nachhaltigkeitsphilosophie auf Ihrer Speisekarte wider! Hier sind Beispiele, wie es geht:</p>
@@ -548,19 +880,19 @@
                     </li>
                 </ul>
             </section>
-            <section class="section-text-withimages  section4-5 no-print">
+            <section class="section-text-withimages  section4-5 no-print" id="option7" data-scrl="Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber">
                 <div class="left-content">
                     <h3 style="text-transform: none;">Überprüfen Sie Ihre Fortschritte<br>
                         und sprechen Sie darüber</h3>
-                    <p>Wenn Sie nachhaltige Speiseoptionen in Ihre Speisekarte aufgenommen haben, sollten Sie damit beginnen, die Auswirkungen von diesen Veränderungen zu messen. Dies können Sie z.B. durch direktes Feedback von Gästen oder über Bewertungen im Internet, durch die Anzahl der Bestellungen oder die Rentabilität der Gerichte tun. Mit der entsprechenden Software können Sie diese Veränderungen auch direkt digital nachverfolgen.
+                    <p>Wenn Sie nachhaltige Speiseoptionen in Ihre Speisekarte aufgenommen haben, sollten Sie damit beginnen, die Auswirkungen von diesen Veränderungen zu messen. Dies können Sie z. B. durch direktes Feedback von Gästen oder über Bewertungen im Internet, durch die Anzahl der Bestellungen oder die Rentabilität der Gerichte tun. Mit der entsprechenden Software können Sie diese Veränderungen auch direkt digital nachverfolgen.
                         Denken Sie daran: Farm-to-Table-Restaurants sind bei Restaurantbesuchern sehr beliebt. Bringen Sie Ihre Gäste mit dem Ursprung von Lebensmitteln in Kontakt, indem Sie mit ihnen über Ihre Speisekarte sprechen. Erklären Sie, warum Sie die Änderungen vorgenommen haben. Wenn Sie Informationen zur Rückverfolgbarkeit auf Ihrer Speisekarte oder Ihrer Website angeben, erklären Sie, wie das funktioniert. Als Betrieb haben Sie einen viel größeren Einfluss auf Ihre Region, wenn Ihre Gäste und Mitarbeitenden verstehen, was Sie tun. Eventuell lassen sich einige von Ihren Gästen bei der nächsten Einkaufsentscheidung von Ihnen inspirieren. Ihr Einfluss könnte größer sein, als Sie denken!
                     </p>
                 </div>
                 <div class="right-content">
-                    <img src="images/flag-p-svg.svg" />
+                    <img src="assets/prev/images/flag-p-svg.svg" />
                 </div>
             </section>
-            <section class="container section4-6" id="section-to-print">
+            <section class="container section4-6 section-to-print" id="option8" data-scrl="Ihr Aktionsplan">
                 <div class="top-content">
                     <h3>Ihr Aktionsplan </h3>
                 </div>
@@ -572,7 +904,7 @@
                                 <span class="checkmark"></span>
                             </label>
                             <p>
-                                Bieten Sie nachhaltige Gerichte auf Ihrer Speisekarte an. Denken Sie dabei daran, dass es regionale Unterschiede bei der Vorstellung davon gibt, was ein nachhaltiges Gericht auszeichnet
+                                Bieten Sie nachhaltige Gerichte auf Ihrer Speisekarte an. Denken Sie daran, dass es regionale Unterschiede bei der Vorstellung davon gibt, was ein nachhaltiges Gericht auszeichnet
                             </p>
                         </li>
                         <li>
@@ -798,21 +1130,21 @@
                     <div class="top-content5">
                         <h3>METRO Lösungen</h3>
                         <p>METRO bietet das digitale Tool PROTRACE an, mit dem Sie sich sowohl über das Produkt selbst als auch über die Lieferwege von der Herkunft bis zur Anlieferung bei METRO informieren können.</p>
-                        <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z.B. Menukit oder Dish.</strong></p>
+                        <p><strong>Anwendungen, die bei der Menükartengestaltung oder der Kommunikation helfen können, sind z. B. Menukit oder Dish.</strong></p>
                     </div>
                     <div class="bottom-content5">
                         <ul>
                             <li>
-                                <a href="https://www.menukithd.com/" target="_blank"> <img src="images/logo-dish.png" /></a>
+                                <a href="https://www.menukithd.com/" target="_blank"> <img src="assets/prev/images/logo-dish.png" /></a>
                             </li>
                             <li>
-                                <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="images/Dish_Logo-svg.svg" /></a>
+                                <a href="https://www.dish.co/DE/en/" target="_blank"> <img src="assets/prev/images/Dish_Logo-svg.svg" /></a>
                             </li>
                             <li>
                                 <a href="https://www.metro.de/nachhaltigkeit/lieferkette-rueckverfolgbarkeit/pro-trace" target="_blank"> <img src="images/Protrace_Logo-ai.svg" /></a>
                             </li>
                             <li>
-                                <a href="https://www.metro-go.de/de-DE/home" target="_blank"> <img src="images/Eitiketten.png" /></a>
+                                <a href="https://www.metro-go.de/de-DE/home" target="_blank"> <img src="assets/prev/images/Eitiketten.png" /></a>
                             </li>
 
                         </ul>
@@ -827,7 +1159,7 @@
                     <div class="bottom-content5">
                         <ul>
                             <li>
-                                <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <img src="images/Logo_METRO-Regio_weiss.png" /></a>
+                                <a href="https://www.metro.de/nachhaltigkeit/nachhaltiges-sortiment/regional?_ga=2.225037658.1761958552.1650435342-1052212916.1650435342&_gac=1.8192646.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <img src="assets/prev/images/Logo_METRO-Regio_weiss.png" /></a>
                             </li>
                             <li>
                                 <a href="https://www.metro.de/produktwelten/bio-produkte?_ga=2.119671752.1761958552.1650435342-1052212916.1650435342&_gac=1.41209622.1650435348.EAIaIQobChMI-ICk3v6h9wIV9oxoCR0VHgDbEAAYASAAEgJ0ovD_BwE" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 373 192" width="373" height="192">
@@ -863,7 +1195,7 @@
 
     <div class="footer-wrap">
         <div class="logo-fooetr">
-            <img src="images/footer-logo.svg" />
+            <img src="assets/prev/images/footer-logo.svg" />
         </div>
         <div class="fotter-right footer-first-page">
             <div class="fotter-right-top">
@@ -951,7 +1283,7 @@
                 <div class="modal-body1">
                     <div class="modal-content1 veg-con">
                         <h4>Vegan</h4>
-                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
+                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z. B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
                     </div>
                 </div>
             </div>
@@ -972,7 +1304,7 @@
                     <div class="modal-content1 vegi-cont">
                         <h4>Vegetarisch
                         </h4>
-                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z.B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
+                        <p>Kein Fleisch, Geflügel, Fisch, Insekten oder Zutaten, die aus einer dieser Quellen stammen. Keine Verarbeitungsstoffe, wie z. B. Hausenblase, die bei der Weinherstellung verwendet wird, oder Non-Food-Zutaten tierischen Ursprungs. Keine Produkte, die die Verletzung oder Ausbeutung von Tieren beinhalten. Dies schließt Honig mit ein. </p>
                     </div>
                 </div>
             </div>
@@ -1919,25 +2251,66 @@
                 </div>
             </div>
         </div>
-        <script src="jquery/page1.js"></script>
+        <script src="assets/prev/jquery/page1.js"></script>
 
+
+        <script type="text/javascript" src="assets/prev/assets/js/common.js"></script>
         <script>
-            document.onreadystatechange = function() {
-                if (document.readyState !== "complete") {
-                    document.querySelector(
-                        "body").style.visibility = "hidden";
-                    document.querySelector(
-                        "#loader-page2").style.visibility = "visible";
-                } else {
-                    document.querySelector(
-                        "#loader-page2").style.display = "none";
-                    document.querySelector(
-                        "body").style.visibility = "visible";
+            document.addEventListener("DOMContentLoaded", function() {
+                // make it as accordion for smaller screens
+                if (window.innerWidth < 992) {
+
+                    // close all inner dropdowns when parent is closed
+                    document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown) {
+                        everydropdown.addEventListener('hidden.bs.dropdown', function() {
+                            // after dropdown is hidden, then find all submenus
+                            this.querySelectorAll('.submenu').forEach(function(everysubmenu) {
+                                // hide every submenu as well
+                                everysubmenu.style.display = 'none';
+                            });
+                        })
+                    });
+                    //hover reference https://stackoverflow.com/questions/8318591/javascript-addeventlistener-using-to-create-a-mouseover-effect
+                    document.querySelectorAll('.dropdown-menu a').forEach(function(element) {
+                        element.addEventListener('click', function(e) {
+                            let nextEl = this.nextElementSibling;
+                            if (nextEl && nextEl.classList.contains('submenu')) {
+                                // prevent opening link if link needs to open dropdown
+                                e.preventDefault();
+                                if (nextEl.style.display == 'block') {
+                                    nextEl.style.display = 'none';
+                                } else {
+                                    nextEl.style.display = 'block';
+                                }
+
+                            }
+                        });
+                    });
                 }
-            };
+                // end if innerWidth
+            });
+            // DOMContentLoaded  end
         </script>
 
-        <script type="text/javascript" src="./assets/js/common.js"></script>
+        <script>
+            $(document).ready(function() {
+                var cur_page_name = "Nachhaltige Speisekarte ";
+                var cur_nav_link_id = "3";
+                var eng_page_path = "explore-sustainable-menu-eng.php";
+                var deu_page_path = "explore-sustainable-menu-deu.php";
+                //manipulation
+                pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
+                var menuIdVal = "0";
+                menumanipulation(menuIdVal, "d");
+            });
+        </script>
+
+
+        <script src="assets/js/navigation.js"></script>
+        <script src="assets/js/common.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/pageparams.js"></script>
+
 </body>
 
 
