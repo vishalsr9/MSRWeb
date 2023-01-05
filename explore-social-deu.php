@@ -366,9 +366,9 @@
     <?php include "includes/loader.php"; ?>
 
     <div class="wrapper">
-        <div class="page-3_stage page-4_stage" id="option1" data-scrl="Wie Sie sich als Gastronomiebetreibende sozial engagieren können">
+        <div class="page-3_stage page-4_stage">
             <!--BANNER-->
-            <section class="section1 no-print">
+            <section class="section1 no-print" id="option1" data-scrl="Wie Sie sich als Gastronomiebetreibende sozial engagieren können">
                 <div class="left-content no-print">
                     <h3 style="text-transform: none;">Wie Sie sich als Gastronomiebetreibende<br>sozial engagieren können</h3>
                     <h4>Soziales Engagement in der Gastronomie</h4>

@@ -77,135 +77,119 @@
 
 
 
-
-        <div class="page-3_stage" id="option2" data-scrl="Wussten Sie, dass…">
-            <section class="section1 mt-4">
-                <div class="left-content">
-
-                </div>
-
-            </section>
-            <section class="section2">
-                <div class="top-content">
-                    <h3>Wussten Sie, dass…</h3>
-                </div>
-
-
-
-                <div class="mid-content">
-
-                    <div class="container">
-                        <div class="row">
-
-
-                            <div class="col-md-6 border-r border-b">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/plastic-bin.svg" class="img-fluid diduknow-img img-w12rem" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">
-
-                                                nur <span class="highlight">14 %</span> der Plastikverpackungen für das Recycling gesammelt werden und die generelle Recyclingquote für Kunststoffe sogar noch niedriger ist
-
-                                            </p>
-                                        </div>
+        <section class="section2" id="option2" data-scrl="Wussten Sie, dass…">
+            <div class="top-content">
+                <h3>Wussten Sie, dass…</h3>
+            </div>
+            <div class="mid-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 border-r border-b">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/plastic-bin.svg" class="img-fluid diduknow-img img-w12rem" />
                                     </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">
 
-                                </div>
-                            </div>
+                                            nur <span class="highlight">14 %</span> der Plastikverpackungen für das Recycling gesammelt werden und die generelle Recyclingquote für Kunststoffe sogar noch niedriger ist
 
-                            <div class="col-md-6 border-b">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/plastic-and-packets.svg" class="img-fluid diduknow-img img-w23rem" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">die weltweite Produktion von Plastik von <span class="highlight">15 Millionen Tonnen</span> im Jahr 1964 auf<span class="highlight"> 367 Millionen Tonnen</span> im Jahr 2020 gestiegen ist und sich in den nächsten 20 Jahren noch einmal verdoppeln soll
-                                            </p>
-                                        </div>
+                                        </p>
                                     </div>
-
                                 </div>
+
                             </div>
-
-                            <div class="col-md-6 border-r border-b">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/garbage-1.svg" class="img-fluid diduknow-img img-w27rem" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">
-                                                Plastik mindestens <span class="highlight">100 Jahre</span> braucht, um abgebaut zu werden
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 border-b">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/earth.svg" class="img-fluid diduknow-img img-w12rem" style="width: 11rem !important;height: 13.2rem;" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">
-                                                mehr als zwei Drittel der Erdoberfläche von Ozeanen, Meeren und Küstengebieten bedeckt sind und damit <span class="highlight">95 %</span> des für unser Leben verfügbaren Raums ausmachen
-
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 border-r">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/water-pollution.svg" class="img-fluid diduknow-img diduknow-img-5 img-w27rem" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">
-
-                                                es bis <span class="highlight"> 2050</span> mehr Plastik als Fische (nach Gewicht) in den Ozeanen geben wird, wenn wir nichts dagegen unternehmen
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="diduknow-content text-center">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img src="assets/images/plastic_waste/earth-happy.svg" class="img-fluid diduknow-img img-w15rem mt-5" />
-                                        </div>
-                                        <div class="col-md-12">
-                                            <p class="diduknow-p">
-                                                <span class="highlight">73 %</span> der Millenials (21-34 Jährige) bereit sind, mehr für nachhaltige Angebote zu bezahlen
-
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
                         </div>
-                    </div>
 
+                        <div class="col-md-6 border-b">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/plastic-and-packets.svg" class="img-fluid diduknow-img img-w23rem" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">die weltweite Produktion von Plastik von <span class="highlight">15 Millionen Tonnen</span> im Jahr 1964 auf<span class="highlight"> 367 Millionen Tonnen</span> im Jahr 2020 gestiegen ist und sich in den nächsten 20 Jahren noch einmal verdoppeln soll
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 border-r border-b">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/garbage-1.svg" class="img-fluid diduknow-img img-w27rem" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">
+                                            Plastik mindestens <span class="highlight">100 Jahre</span> braucht, um abgebaut zu werden
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 border-b">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/earth.svg" class="img-fluid diduknow-img img-w12rem" style="width: 11rem !important;height: 13.2rem;" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">
+                                            mehr als zwei Drittel der Erdoberfläche von Ozeanen, Meeren und Küstengebieten bedeckt sind und damit <span class="highlight">95 %</span> des für unser Leben verfügbaren Raums ausmachen
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 border-r">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/water-pollution.svg" class="img-fluid diduknow-img diduknow-img-5 img-w27rem" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">
+
+                                            es bis <span class="highlight"> 2050</span> mehr Plastik als Fische (nach Gewicht) in den Ozeanen geben wird, wenn wir nichts dagegen unternehmen
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="diduknow-content text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="assets/images/plastic_waste/earth-happy.svg" class="img-fluid diduknow-img img-w15rem mt-5" />
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p class="diduknow-p">
+                                            <span class="highlight">73 %</span> der Millenials (21-34 Jährige) bereit sind, mehr für nachhaltige Angebote zu bezahlen
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
-        </div>
-
+            </div>
         </section>
+
         <section class="section3" id="option3" data-scrl="EIN WICHTIGES THEMA">
             <div class="section3-inner align-normal">
                 <div class="left-content">
@@ -220,7 +204,9 @@
                     </p>
                 </div>
             </div>
-            <div class="section3-grid" id="option4" data-scrl="Vorteile">
+        </section>
+        <section id="option4" data-scrl="Vorteile">
+            <div class="section3-grid">
                 <ul>
                     <li>
                         <p class="font-size-30px">Vorteile</p>
@@ -252,7 +238,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="section3-inner3 align-normal" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+        </section>
+
+        <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+            <div class="section3-inner3 align-normal">
                 <div class="left-content">
                     <h3>EIN <br>GESELLSCHAFTLICHER <br>TREND </h3>
                 </div>
@@ -263,6 +252,7 @@
                     </p>
                 </div>
             </div>
+
         </section>
 
 

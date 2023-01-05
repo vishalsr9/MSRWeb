@@ -233,7 +233,9 @@
                     </p>
                 </div>
             </div>
-            <div class="section3-grid" id="option4" data-scrl="Benefits">
+        </section>
+        <section id="option4" data-scrl="Benefits">
+            <div class="section3-grid">
                 <ul>
                     <li>
                         <p class="font-size-30px">Benefits</p>
@@ -271,7 +273,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="section3-inner3 align-normal" id="option5" data-scrl="The greater impact">
+        </section>
+        <section id="option5" data-scrl="The greater impact">
+            <div class="section3-inner3 align-normal">
                 <div class="left-content">
                     <h3>The <br> Greater <br> Impact </h3>
                 </div>
@@ -291,6 +295,8 @@
                 </div>
             </div>
         </section>
+
+
 
 
 

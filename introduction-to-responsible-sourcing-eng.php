@@ -121,6 +121,8 @@
                         </p>
                     </div>
                 </div>
+            </section>
+            <section>
                 <div class="section3-grid" id="option4" data-scrl="Benefits">
                     <ul>
                         <li>
@@ -135,7 +137,6 @@
                             <p>Improve livelihoods of local and global farmers</p>
                         </li>
                         <li></li>
-                        <!-- </ul><ul> -->
                         <li></li>
                         <li>
                             Fresher and tasty produce
@@ -148,8 +149,6 @@
                         <li>
                             <p>Win new customers</p>
                         </li>
-                        <!-- </ul>
-                <ul> -->
                         <li>
                             <p>Positive morale for staff</p>
                         </li>
@@ -162,8 +161,6 @@
                             <p>Stand out from the competition</p>
                         </li>
                         <li></li>
-                        <!-- </ul>
-                <ul> -->
                         <li></li>
                         <li>
                             Regional products have shorter supply chains
@@ -178,6 +175,8 @@
                         </li>
                     </ul>
                 </div>
+            </section>
+            <section>
                 <div class="section3-inner3 align-normal" id="option5" data-scrl="The greater impact">
                     <div class="left-content">
                         <h3>The <br> Greater <br> Impact </h3>
@@ -188,7 +187,13 @@
                         </p>
                     </div>
                 </div>
+
+
+
             </section>
+
+
+
             <section class="section4" id="option6" data-scrl="Steps to source responsibly">
                 <div class="left-content noalign w60-per p60a">
                     <h3>KNOW HOW – STEPS<br>TO SOURCE RESPONSIBLY</h3>

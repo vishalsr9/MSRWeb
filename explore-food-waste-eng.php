@@ -263,6 +263,11 @@
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
             width: 13rem;
         }
+
+        h1.banner_title {
+            font-size: 36px;
+            text-transform: unset;
+        }
     </style>
 </head>
 
@@ -1633,7 +1638,7 @@
                 //manipulation
                 pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
                 var menuIdVal = "2";
-                menumanipulation(menuIdVal, "e");
+                menumanipulation(menuIdVal, "d");
             });
             var fDText = "Waste collection or deposit services either in METRO or via an external provider for non-food waste and food waste. Contact charities that take surplus food.";
             $("#footDynamicText").text(fDText);

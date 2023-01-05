@@ -712,7 +712,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "Gut zu Wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu finden",
+                    "option": "Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu gehen",
                     "optionUrl": "#option3",
                 },
                 {
@@ -1885,8 +1885,8 @@ var jSearchDataDeu = [
         "url": "explore-responsible-sourcing-deu.php#option2"
     },
     {
-        "value": "Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu findenGood to know",
-        "label": "Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu findenGood to know - Verantwortungsbewusstes Einkaufen ",
+        "value": "Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu gehen",
+        "label": "Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu gehen",
         "url": "explore-responsible-sourcing-deu.php#option3"
     },
     {
@@ -2360,7 +2360,7 @@ var jSearchDataDeu = [
  $.fn.is_on_screen = function() {
     var win = $(window);
     var viewport = {
-        top: win.scrollTop()+100,
+        top: win.scrollTop()+75,
         left: win.scrollLeft()
     };
     viewport.right = viewport.left + win.width();

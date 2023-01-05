@@ -195,14 +195,17 @@
     <script>
         //page params
         $(document).ready(function() {
-            var cur_page_name = "Energy";
+            var cur_page_name = "Energie";
             var cur_nav_link_id = "3";
             var eng_page_path = "introduction-to-energy-eng.php";
             var deu_page_path = "introduction-to-energy-deu.php";
+            var chapterId = "chapter6";
+            var pageLang = "deu";
             //manipulation
             pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
+            //nav manipulation
             var menuIdVal = "5";
-            menumanipulation(menuIdVa, "d");
+            menumanipulation(menuIdVal, "d");
         });
         var fDText = "METRO Markets verfügt über eine Vielzahl von energieeffizienten Geräten.";
         $("#footDynamicText").html(fDText);

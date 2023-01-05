@@ -329,6 +329,15 @@
         .pageSlider-slide.swiper-slide-active>div.row>div.col-md-12>.pageSlider-slide-image>span.sldImg07>img {
             width: 13rem;
         }
+
+        h1.banner_title {
+            font-size: 36px;
+            text-transform: unset;
+        }
+
+        .mb-1d5 {
+            margin-bottom: 1.5rem;
+        }
     </style>
 </head>
 
@@ -339,10 +348,10 @@
     <div class="wrapper">
         <section class="safeFoodl4_banner no-print" id="option1" data-scrl="Wie Sie Lebensmittelabfälle reduzieren">
             <div class="container-fluid no-print">
-                <div class="row px-4 no-print">
+                <div class="row px-4 no-print mb-1d5">
                     <div class="col-md-5 no-print">
                         <div class="banner_l4_title">
-                            <h1 class="banner_title">Wie Sie Lebensmittelabfälle<br> reduzieren </h1>
+                            <h1 class="banner_title">Wie sie lebensmittelabfälle<br>reduzieren</h1>
                             <h6>
                                 <strong>Lebensmittelverschwendung in der Gastronomie</strong>
                             </h6>

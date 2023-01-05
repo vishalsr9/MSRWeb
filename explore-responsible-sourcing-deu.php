@@ -834,9 +834,9 @@
                 </section>
 
                 <!--Good to know SECTION-->
-                <section class="section-white-full-width no-print" id="option3" data-scrl="Gut zu Wissen – Siegel und Zertifizierungen können Ihnen Helfen, Ihren Weg zu finden">
+                <section class="section-white-full-width no-print" id="option3" data-scrl="Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu gehen">
                     <h3 class="section-heading-blue no-print" style="text-transform: none!important;">
-                        Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu finden
+                        Gut zu wissen – Siegel und Zertifizierungen können Ihnen helfen, Ihren Weg zu gehen
                     </h3>
 
                     <div class="row">
@@ -1227,7 +1227,7 @@
 
                 <!--Non-certified sustainable products-->
 
-                <section class="section-white-full-width no-print" id="option4" data-scrl=">Nicht-zertifizierte nachhaltige Produkte">
+                <section class="section-white-full-width no-print" id="option4" data-scrl="Nicht-zertifizierte nachhaltige Produkte">
                     <div class="row">
                         <div class="col-md-8 mb-5">
                             <h3 class="section-heading-blue-small no-print" style="text-transform: none!important;">Nicht-zertifizierte nachhaltige Produkte</h3>
@@ -1756,7 +1756,7 @@
                                                         </h5>
                                                         <p class="justify1">
                                                             <img src="assets/images/resp_sourcing/organic-products.svg" class="img-fluid fruit-bowl">
-                                                            Der Kauf von Bio-Produkten hat mehrere Vorteile. So geht beispielsweise mit dem ökologischen Landbau eine geringere Belastung für die Umwelt und eine bessere Tierhaltung einher. Bio-Betriebe verzeichnen eine größere Vielfalt an Wildtieren, wie z. B. Schmetterlinge, und schützen dadurch die Artenvielfalt. In einigen Fällen sind Bio-Produkte besser als die konventionelle Alternative. So enthält Fleisch von Rindern, die auf Weiden grasen können, etwa 50 % mehr Omega-3-Fettsäuren als nicht ökologisch erzeugtes Rindfleisch. Eier von Hühnern aus ökologischer Haltung haben ein geringeres Risiko der Kontamination mit Bakterien, die Lebensmittelvergiftungen verursachen.
+                                                            Der Kauf von Bio-Produkten hat mehrere Vorteile. So geht beispielsweise mit dem ökologischen Landbau eine geringere Belastung für die Umwelt und eine bessere Tierhaltung einher. Bio-Betriebe verzeichnen eine größere Vielfalt an Wildtieren wie z. B. Schmetterlinge und schützen dadurch die Artenvielfalt. In einigen Fällen sind Bio-Produkte besser als die konventionelle Alternative. So enthält Fleisch von Rindern, die auf Weiden grasen können, etwa 50 % mehr Omega-3-Fettsäuren als nicht ökologisch erzeugtes Rindfleisch. Eier von Hühnern aus ökologischer Haltung haben ein geringeres Risiko der Kontamination mit Bakterien, die Lebensmittelvergiftungen verursachen.
                                                         </p>
                                                         <p class="justify">
                                                             Das Gegenteil der ökologischen Landwirtschaft ist die intensive Landwirtschaft. Dies kann zu Bodenerosion und dem Abfluss von Chemikalien in natürliche Wassersysteme führen und dazu, dass Unkraut und Insekten gegen Herbizide und Pestizide resistent werden. In der ökologischen Landwirtschaft werden keine synthetischen oder erdölbasierten Pestizide oder Düngemittel eingesetzt.
@@ -2198,11 +2198,11 @@
             </div>
         </div>
         <!--------Simple ways------>
-        <section class="section-white-full-width no-print" id="option6" data-scrl="Tipps für Einsteiger, um verantwortungsbewusst Einzukaufen">
+        <section class="section-white-full-width no-print" id="option6" data-scrl="Tipps für Fortgeschrittene, um verantwortungsbewusst einzukaufen">
             <div class="row">
                 <div class="col-md-8">
                     <h3 class="section-heading-blue-small no-print" style="text-transform: none!important;">
-                        Tipps für Einsteiger, um verantwortungsbewusst Einzukaufen
+                        Tipps für Fortgeschrittene, um verantwortungsbewusst einzukaufen
                     </h3>
                     <p class=" no-print">
                         In den letzten Jahrzehnten haben sich unsere Konsumgewohnheiten im Vergleich zu früheren Generationen stark verändert. Wir leben in einer globalisierten Welt, in der wir uns daran gewöhnt haben, das ganze Jahr über verschiedene Lebensmittel zu kaufen, auch wenn sie keine Saison haben oder nicht vor Ort wachsen. Schauen Sie sich die folgenden Tipps für einen verantwortungsbewussten Einkauf an:

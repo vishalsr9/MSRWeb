@@ -3,6 +3,7 @@
 
 <head>
   <?php include "includes/page-header.php"; ?>
+  <link rel="stylesheet" href="assets/css/jquery-ui.css">
   <!--META-->
   <meta name="language" content="EN">
   <meta name="description" content="Visit the Metro My Sustainable Restaurant digital immersive experience to explore the future of sustainability in the HoReCa industry.">
@@ -119,6 +120,7 @@
       pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
     });
   </script>
+  <script src="assets/js/jquery-ui.min.js"></script>
 </body>
 
 </html>

@@ -17,6 +17,7 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/navigation.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link href="assets/css/jquery-ui.css" rel="stylesheet">
 
 	<script src="assets/prev/jquery/page2new.js"></script>
 	<script src="assets/prev/jquery/custom.js"></script>
@@ -405,7 +406,7 @@
 									<a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
 								</li>
 								<li>
-									<a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
+									<a href="https://www.metro.de/kontakt" target="_blank">Kontakt</a>
 								</li>
 							</ul>
 							<!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->
@@ -1018,7 +1019,7 @@ modal.style.display = "block";
 		</script>
 
 
-
+		<script src="assets/js/jquery-ui.min.js"></script>
 		<script src="assets/js/navigation.js"></script>
 		<script src="assets/js/common.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>

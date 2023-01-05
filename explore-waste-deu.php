@@ -504,7 +504,7 @@
 
 
 
-            <section class="action_plan mt-5 section-to-print" data-scrl="Ihr Aktionsplan">
+            <section class="action_plan mt-5 section-to-print" id="option6" data-scrl="Ihr Aktionsplan">
                 <div class="container">
                     <div class="top-content mb-4">
                         <h3>Ihr Aktionsplan</h3>

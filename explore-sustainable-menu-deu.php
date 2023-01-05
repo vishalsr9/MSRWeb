@@ -114,6 +114,10 @@
         .section-simple-way {
             background-color: white;
         }
+
+        .page-3_stage.page-4_stage {
+            background-color: white;
+        }
     </style>
 </head>
 

@@ -326,7 +326,7 @@
                                 <a href="https://www.metro.de/blog" target="_blank">METRO Blog</a>
                             </li>
                             <li>
-                                <a href="https://www.metroag.de/en/contact" target="_blank">Kontakt</a>
+                                <a href="https://www.metro.de/kontakt" target="_blank">Kontakt</a>
                             </li>
                         </ul>
                         <!-- <div class="about"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div> -->

@@ -186,6 +186,11 @@
         .left-content.no-print {
             width: 45%;
         }
+
+        .b20p {
+            font-weight: bold;
+            font-size: 20px;
+        }
     </style>
 </head>
 
@@ -194,10 +199,11 @@
     <?php include "includes/loader.php"; ?>
 
     <div class="wrapper">
+
         <section class="section1 no-print plastic_waste no-print" id="option1" data-scrl="Wie Sie Plastikmüll vermeiden">
             <div class="left-content no-print">
                 <h3 style="text-transform: none;">Wie Sie Plastikmüll vermeiden </h3>
-                <h4>Plastikmüll in der Gastronomie </h4>
+                <h4 class="b20p">Plastikmüll in der Gastronomie</h4>
                 <p>Plastikprodukte und -verpackungen spielen eine wichtige Rolle bei der Einhaltung der Hygiene in der Gastronomie. Sie schützen Lebensmittel, gewährleisten ihre Sicherheit und verbessern die Haltbarkeit. Doch sowohl die Herstellung als auch die Entsorgung von Plastik- und Verpackungsmüll verbrauchen Ressourcen und haben negative Auswirkungen auf die Umwelt. Gleichzeitig verschärfen sich weltweit die Vorschriften für Einwegkunststoffe (SUPs). Deshalb wollen wir unsere HoReCa-Kundinnen und Kunden Anregungen bieten, Alternativen zu nutzen und sie dabei unterstützen, Plastik richtig zu entsorgen. Wenn Kunststoffmüll nicht richtig entsorgt wird, dann können damit Kosten für Ihr Restaurant verbunden sein. Durch ein anderes Verhalten können Sie jedoch zeigen, dass Ihnen die Umwelt und das Wohlergehen Ihrer Gäste am Herzen liegen. <span id="dots"></span>
 
                 </p>
@@ -223,7 +229,7 @@
             </div>
         </section>
 
-        <section class="howTopreventPlastic no-print bg_blue1" id="option3" data-scrl="Wie Sie Plastikmüll vermeiden">
+        <section class="howTopreventPlastic no-print bg_blue1" id="option2" data-scrl="Wie Sie Plastikmüll vermeiden">
             <div class="container-fluid no-print">
                 <div class="bg_blue px-5">
                     <div class="row no-print">
@@ -328,7 +334,7 @@
                         <div class="row no-print">
                             <h3 class="food_wasteTitle plastic_ble">Die problematischsten Kunststoffe </h3>
                             <div class="col-md-4 px-4 no-print">
-                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:520px;">
+                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:620px;">
                                     <h6 class="yellow_circle">PVDC</h6>
                                     <h4>Polyvinylidenchlorid (PVDC) </h4>
                                     <p>Polyvinylidenchlorid (PVDC) wird aus Chlor hergestellt, das negative Auswirkungen auf die Umwelt und die menschliche Gesundheit haben kann. Die Entsorgung von PVDC durch Verbrennung ist problematisch, da es eine ähnliche Menge an Dioxinen erzeugt wie PVC.</p>
@@ -337,7 +343,7 @@
                             </div>
 
                             <div class="col-md-4 px-4 no-print">
-                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:520px;">
+                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:620px;">
                                     <h6 class="yellow_circle">PVC</h6>
                                     <h4>Polyvinylchlorid (PVC)</h4>
                                     <p>Polyvinylchlorid (PVC) enthält sogenannte Phthalate, die dem PVC zugesetzt werden, um es flexibel zu machen. Diese Chemikalien und Dioxine gelangen jedoch durch Verbrennung in die Umwelt. Ihre möglichen negativen Auswirkungen auf die menschliche Gesundheit sind besorgniserregend und bisher nicht vollständig geklärt. Außerdem ist PVC schwer zu recyceln. Bislang wird weniger als 1 % des PVC recycelt, was für künftige Recyclingziele in Europa ein Problem darstellt. Achten Sie auf die Verpackung der von Ihnen gekauften Produkte – versuchen Sie, Verpackungen mit dem Recycling-Logo Nummer 3 zu vermeiden, da diese PVC enthalten, und bevorzugen Sie Verpackungen, auf denen "PVC-frei" angegeben ist.
@@ -347,7 +353,7 @@
                             </div>
 
                             <div class="col-md-4 px-4 no-print">
-                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:520px;">
+                                <div class="good_to_know_box p-4 safe_foodBox_l4" style="min-height:620px;">
                                     <h6 class="yellow_circle">EPS</h6>
                                     <h4>Expandiertes Polystyrol (EPS)/Styropor </h4>
                                     <p>Expandiertes Polystyrol (EPS)/Styropor weist nur sehr niedrige Recyclingraten auf, da es zu 95 % aus Luft besteht und daher nicht kosteneffizient gelagert oder transportiert werden kann. Es ist zwar technisch möglich, EPS zu recyceln, doch es ist häufig mit Zusatzstoffen verunreinigt und daher nicht für Lebensmittelverpackungen geeignet. Das hat direkte Auswirkungen auf die Sammel- und Transportkosten. Es kann in kleine bis winzige Stücke zerbrechen, die nur schwer zu reinigen sind.</p>
@@ -359,7 +365,8 @@
                 </div>
             </div>
         </section>
-        <section class="plastic-waste_goodToKnow no-print" id="option4" data-scrl="Gut zu wissen">
+
+        <section class="plastic-waste_goodToKnow no-print" id="option3" data-scrl="Gut zu wissen">
             <div class="container">
                 <div class="row">
                     <div class="top-content">
@@ -397,7 +404,8 @@
                 </div>
             </div>
         </section>
-        <section class="simple_wayTo_preventing no-print" id="option5" data-scrl="Tipps für Einsteiger, um Plastikmüll zu vermeiden">
+
+        <section class="simple_wayTo_preventing no-print" id="option4" data-scrl="Tipps für Einsteiger, um Plastikmüll zu vermeiden">
             <div class="section-div">
                 <div class="container-fluid">
                     <h3 class="wayT0Title">Tipps für Einsteiger, um Plastikmüll zu vermeiden </h3>
@@ -507,7 +515,7 @@
                                                                         <div class="col-md-12">
                                                                             <div class="pageSlider-slide-text german_title">
                                                                                 <span class="sldText04">
-                                                                                    Erwägen Sie Ermäßigungen für Gäste, die ihre eigenen Behälter zum Mitnehmen von Speisen mitbringen
+                                                                                    Erwägen Sie <span style="font-family: Arial, Helvetica, sans-serif;">Ermäßigungen</span> für Gäste, die ihre eigenen Behälter zum Mitnehmen von Speisen mitbringen
                                                                                 </span>
                                                                             </div>
                                                                         </div>
@@ -733,7 +741,8 @@
                 </div>
             </div>
         </section>
-        <section class="advance_way no-print plastic_waste_expl" id="option6" data-scrl="Tipps für Fortgeschrittene, um Plastikmüll zu vermeiden">
+
+        <section class="advance_way no-print plastic_waste_expl" id="option5" data-scrl="Tipps für Fortgeschrittene, um Plastikmüll zu vermeiden">
             <div class="container">
                 <div class="row">
                     <h3>Tipps für Fortgeschrittene, um Plastikmüll zu vermeiden</h3>
@@ -742,8 +751,7 @@
             </div>
         </section>
 
-
-        <section class="plastic-waste_productRecycle no-print" id="option7" data-scrl="Überprüfen Sie ihre Fortschritte und sprechen Sie darüber">
+        <section class="plastic-waste_productRecycle no-print">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 offset-md-2">
@@ -795,7 +803,8 @@
                 </div>
             </div>
         </section>
-        <section class="safeFoodl4_banner no-print">
+
+        <section class="safeFoodl4_banner no-print" id="option6" data-scrl="Überprüfen Sie ihre Fortschritte und sprechen Sie darüber">
             <div class="container-fluid">
                 <div class="row px-4">
                     <div class="col-md-5">
@@ -813,7 +822,8 @@
                 </div>
             </div>
         </section>
-        <section class="action_plan mt-5 section-to-print" id="option8" data-scrl="Ihr Aktionsplan">
+
+        <section class="action_plan mt-5 section-to-print" id="option7" data-scrl="Ihr Aktionsplan">
             <div class="container">
                 <div class="top-content mb-4">
                     <h3> Ihr Aktionsplan</h3>
@@ -874,6 +884,7 @@
                 </div>
             </div>
         </section>
+
         <div class="row">
             <div class="col-md-12 like-section">
                 <h4>

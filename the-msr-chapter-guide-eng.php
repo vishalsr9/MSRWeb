@@ -14,14 +14,15 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="assets/css/navigation.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link href="assets/css/jquery-ui.css" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="assets/prev/jquery/page2new.js"></script>
 	<script src="assets/prev/jquery/custom.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/prev/assets/images/icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/prev/assets/images/icon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon-32x32.png">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<!--META TAGS-->
 	<meta name="msapplication-TileColor" content="#603cba">
@@ -433,7 +434,7 @@
 
 	<div class="page-2_stage">
 
-		<img src="assets/prev/images/updated-menu-l2.svg" class="mt-5 guideImg" usemap="#image-map" title="L1">
+		<img src="assets/prev/images/updated-menu-l2.svg" class="mt-5 guideImg" usemap="#image-map">
 
 		<map name="image-map">
 			<area id="car_parking" coords="806,71,1184,336" shape="rect">
@@ -919,7 +920,7 @@ modal.style.display = "block";
 		then close all select boxes:*/
 		document.addEventListener("click", closeAllSelect);
 	</script>
-	<script src="jquery/page1.js"></script>
+	<script src="assets/prev/jquery/page1.js"></script>
 
 
 	<script src="assets/prev/jquery/jquery.rwdImageMaps.min.js"></script>
