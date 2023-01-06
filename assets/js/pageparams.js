@@ -621,7 +621,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -629,11 +629,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE",
+                    "option": "Mit einfachen Schritten zur nachhaltigen Speisekarte",
                     "optionUrl": "#option6",
                 }
             ],
@@ -658,7 +658,7 @@ var menuDataDeu = {
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "LENAS KÜCHE",
+                    "option": "Lenas Küche",
                     "optionUrl": "#option6",
                 },
                 {
@@ -687,7 +687,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -695,11 +695,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE<br>VERANTWORTUNGSBEWUSST EINKAUFEN",
+                    "option": "Erste Schritte, wie Sie verantwortungsbewusst einkaufen",
                     "optionUrl": "#option6",
                 }
             ],
@@ -757,7 +757,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -765,11 +765,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN",
+                    "option": "Erste Schritte, wie Sie die Menge an Lebensmittelabfällen verringern",
                     "optionUrl": "#option6",
                 }
             ],
@@ -823,7 +823,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -831,11 +831,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN",
+                    "option": "Erste Schritte, wie Sie Plastikmüll reduzieren",
                     "optionUrl": "#option6",
                 }
             ],
@@ -889,7 +889,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -897,11 +897,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN",
+                    "option": "Erste Schritte, wie Sie Lebensmittelsicherheit sicherstellen",
                     "optionUrl": "#option6",
                 }
             ],
@@ -943,7 +943,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -951,11 +951,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE DEN ENERGIEVERBRAUCH SENKEN",
+                    "option": "Erste Schritte, wie Sie den Energieverbrauch senken",
                     "optionUrl": "#option6",
                 }
             ],
@@ -1001,7 +1001,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -1009,11 +1009,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE WASSER SPAREN",
+                    "option": "Erste Schritte, wie Sie Wasser sparen",
                     "optionUrl": "#option6",
                 }
             ],
@@ -1059,7 +1059,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -1067,11 +1067,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE ABFALL VERMEIDEN",
+                    "option": "Erste Schritte, wie Sie Abfall vermeiden",
                     "optionUrl": "#option6",
                 }
             ],
@@ -1117,7 +1117,7 @@ var menuDataDeu = {
                     "optionUrl": "#option2",
                 },
                 {
-                    "option": "EIN WICHTIGES THEMA",
+                    "option": "Ein wichtiges Thema",
                     "optionUrl": "#option3",
                 },
                 {
@@ -1125,11 +1125,11 @@ var menuDataDeu = {
                     "optionUrl": "#option4",
                 },
                 {
-                    "option": "EIN GESELLSCHAFTLICHER TREND",
+                    "option": "Ein gesellschaftlicher Trend",
                     "optionUrl": "#option5",
                 },
                 {
-                    "option": "ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN",
+                    "option": "Erste Schritte, wie Sie sozial handeln",
                     "optionUrl": "#option6",
                 }
             ],
@@ -1785,8 +1785,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-sustainable-menu-deu.php#option2"
     },
     {
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Nachhaltige Speisekarte",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Nachhaltige Speisekarte",
         "url": "introduction-to-sustainable-menu-deu.php#option3"
     },
     {
@@ -1795,13 +1795,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-sustainable-menu-deu.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Nachhaltige Speisekarte",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Nachhaltige Speisekarte",
         "url": "introduction-to-sustainable-menu-deu.php#option5"
     },
     {
-        "value": "MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE",
-        "label": "MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE - Nachhaltige Speisekarte",
+        "value": "Mit einfachen Schritten zur nachhaltigen Speisekarte",
+        "label": "Mit einfachen Schritten zur nachhaltigen Speisekarte - Nachhaltige Speisekarte",
         "url": "introduction-to-sustainable-menu-deu.php#option6"
     },
     {//sustainable menu l4
@@ -1855,8 +1855,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-responsible-sourcing-deu.php#option2"
     },
     {
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Verantwortungsbewusstes Einkaufen ",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Verantwortungsbewusstes Einkaufen ",
         "url": "introduction-to-responsible-sourcing-deu.php#option3"
     },
     {
@@ -1865,13 +1865,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-responsible-sourcing-deu.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Verantwortungsbewusstes Einkaufen ",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Verantwortungsbewusstes Einkaufen ",
         "url": "introduction-to-responsible-sourcing-deu.php#option5"
     },
     {
-        "value": "ERSTE SCHRITTE, WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN",
-        "label": "ERSTE SCHRITTE, WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN - Verantwortungsbewusstes Einkaufen ",
+        "value": "Erste Schritte, wie Sie verantwortungsbewusst einkaufen",
+        "label": "Erste Schritte, wie Sie verantwortungsbewusst einkaufen - Verantwortungsbewusstes Einkaufen ",
         "url": "introduction-to-responsible-sourcing-deu.php#option6"
     },
     {//responsible sourcing l4
@@ -1930,8 +1930,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-food-waste-deu.php#option2"
     },
     {
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Lebensmittelverluste",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Lebensmittelverluste",
         "url": "introduction-to-food-waste-deu.php#option3"
     },
     {
@@ -1940,13 +1940,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-food-waste-deu.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Lebensmittelverluste",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Lebensmittelverluste",
         "url": "introduction-to-food-waste-deu.php#option5"
     },
     {
-        "value": "ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN",
-        "label": "ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN - Lebensmittelverluste",
+        "value": "Erste Schritte, wie Sie die Menge an Lebensmittelabfällen verringern",
+        "label": "Erste Schritte, wie Sie die Menge an Lebensmittelabfällen verringern - Lebensmittelverluste",
         "url": "introduction-to-food-waste-deu.php#option6"
     },
     {//food waste l4
@@ -2000,8 +2000,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-plastic-waste-deu.php#option2"
     },
     {
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Plastikmüll",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Plastikmüll",
         "url": "introduction-to-plastic-waste-deu.php#option3"
     },
     {
@@ -2010,13 +2010,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-plastic-waste-deu.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Plastikmüll ",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Plastikmüll ",
         "url": "introduction-to-plastic-waste-deu.php#option5"
     },
     {
-        "value": "ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN",
-        "label": "ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN - Plastikmüll ",
+        "value": "Erste Schritte, wie Sie Plastikmüll reduzieren",
+        "label": "Erste Schritte, wie Sie Plastikmüll reduzieren - Plastikmüll ",
         "url": "introduction-to-plastic-waste-deu.php#option6"
     },
     {//plastic waste l4
@@ -2070,8 +2070,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-safe-food-deu.php#option2"
     },
     {
-        "value": "TEIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Lebensmittelsicherheit ",
+        "value": "TEin wichtiges Thema",
+        "label": "Ein wichtiges Thema - Lebensmittelsicherheit ",
         "url": "introduction-to-safe-food-deu.php#option3"
     },
     {
@@ -2080,13 +2080,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-safe-food-eng.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Lebensmittelsicherheit ",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Lebensmittelsicherheit ",
         "url": "introduction-to-safe-food-deu.php#option5"
     },
     {
-        "value": "ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN",
-        "label": "ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN - Lebensmittelsicherheit ",
+        "value": "Erste Schritte, wie Sie Lebensmittelsicherheit sicherstellen",
+        "label": "Erste Schritte, wie Sie Lebensmittelsicherheit sicherstellen - Lebensmittelsicherheit ",
         "url": "introduction-to-safe-food-deu.php#option6"
     },
     {//Safe food l4
@@ -2125,8 +2125,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-energy-deu.php#option2"
     },
     {
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Energie",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Energie",
         "url": "introduction-to-energy-deu.php#option3"
     },
     {
@@ -2135,13 +2135,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-energy-deu.php#option4"
     },
     {
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Energie",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Energie",
         "url": "introduction-to-energy-deu.php#option5"
     },
     {
-        "value": "ERSTE SCHRITTE, WIE SIE DEN ENERGIEVERBRAUCH SENKEN",
-        "label": "ERSTE SCHRITTE, WIE SIE DEN ENERGIEVERBRAUCH SENKEN - Energie",
+        "value": "Erste Schritte, wie Sie den Energieverbrauch senken",
+        "label": "Erste Schritte, wie Sie den Energieverbrauch senken - Energie",
         "url": "introduction-to-energy-deu.php#option6"
     },
     { //energy l4
@@ -2185,8 +2185,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-water-deu.php#optio2"
     },
     { 
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Wasser",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Wasser",
         "url": "introduction-to-water-deu.php#option3"
     },
     { 
@@ -2195,13 +2195,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-water-deu.php#option4"
     },
     { 
-        "value": "EIN GESELLSCHAFTLICHER TRENDThe greater impact",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Wasser",
+        "value": "Ein gesellschaftlicher TrendThe greater impact",
+        "label": "Ein gesellschaftlicher Trend - Wasser",
         "url": "introduction-to-water-deu.php#option5"
     },
     { 
-        "value": "ERSTE SCHRITTE, WIE SIE WASSER SPAREN",
-        "label": "ERSTE SCHRITTE, WIE SIE WASSER SPAREN - Wasser",
+        "value": "Erste Schritte, wie Sie Wasser sparen",
+        "label": "Erste Schritte, wie Sie Wasser sparen - Wasser",
         "url": "introduction-to-water-deu.php#option6"
     },
     { //water l4
@@ -2245,8 +2245,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-waste-deu.php#option2"
     },
     { 
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Abfälle",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Abfälle",
         "url": "introduction-to-waste-deu.php#option3"
     },
     { 
@@ -2255,13 +2255,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-waste-deu.php#option4"
     },
     { 
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Abfälle",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Abfälle",
         "url": "introduction-to-waste-deu.php#option5"
     },
     { 
-        "value": "ERSTE SCHRITTE, WIE SIE ABFALL VERMEIDEN",
-        "label": "ERSTE SCHRITTE, WIE SIE ABFALL VERMEIDEN - Waste",
+        "value": "Erste Schritte, wie Sie Abfall vermeiden",
+        "label": "Erste Schritte, wie Sie Abfall vermeiden - Waste",
         "url": "introduction-to-waste-deu.php#option6"
     },
     { //waste l4
@@ -2305,8 +2305,8 @@ var jSearchDataDeu = [
         "url": "introduction-to-social-deu.php#option2"
     },
     { 
-        "value": "EIN WICHTIGES THEMA",
-        "label": "EIN WICHTIGES THEMA - Gemeinschaft ",
+        "value": "Ein wichtiges Thema",
+        "label": "Ein wichtiges Thema - Gemeinschaft ",
         "url": "introduction-to-social-deu.php#option3"
     },
     { 
@@ -2315,13 +2315,13 @@ var jSearchDataDeu = [
         "url": "introduction-to-social-deu.php#option4"
     },
     { 
-        "value": "EIN GESELLSCHAFTLICHER TREND",
-        "label": "EIN GESELLSCHAFTLICHER TREND - Gemeinschaft ",
+        "value": "Ein gesellschaftlicher Trend",
+        "label": "Ein gesellschaftlicher Trend - Gemeinschaft ",
         "url": "introduction-to-social-deu.php#option5"
     },
     { 
-        "value": "ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN",
-        "label": "ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN - Gemeinschaft ",
+        "value": "Erste Schritte, wie Sie sozial handeln",
+        "label": "Erste Schritte, wie Sie sozial handeln - Gemeinschaft ",
         "url": "introduction-to-social-deu.php#option6"
     },
     { //social l4
@@ -2360,7 +2360,7 @@ var jSearchDataDeu = [
  $.fn.is_on_screen = function() {
     var win = $(window);
     var viewport = {
-        top: win.scrollTop()+75,
+        top: win.scrollTop()+100,
         left: win.scrollLeft()
     };
     viewport.right = viewport.left + win.width();

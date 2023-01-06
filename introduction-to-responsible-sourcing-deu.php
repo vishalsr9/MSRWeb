@@ -103,7 +103,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="section3" id="option3" data-scrl="EIN WICHTIGES THEMA">
+            <section class="section3" id="option3" data-scrl="Ein wichtiges Thema">
                 <div class="section3-inner align-normal">
                     <div class="left-content">
                         <h3>EIN <br> WICHTIGES <br> THEMA </h3>
@@ -115,78 +115,79 @@
                         </p>
                     </div>
                 </div>
-                <section>
-                    <div class="section3-grid" id="option4" data-scrl="Vorteile">
-                        <ul>
-                            <li>
-                                <p class="font-size-30px">Vorteile</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Möglichkeit zur Gewinn-steigerung</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Verbesserung des Lebens-unterhalts von Bauern vor Ort und weltweit</p>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li>
-                                <p>
-                                    Verwendung von frischen und leckeren Produkten
-                                </p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Flexible Anpassung der Speisekarte an die Saison</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Gewinnung neuer Gäste</p>
-                            </li>
-                            <li>
-                                <p>Positive Arbeitsmoral des Personals</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Verbesserung des Rufs Ihres Restaurants</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Wettbewerbs-vorteile</p>
-                            </li>
-                            <li></li>
-                            <li>
-
-                            </li>
-                            <li>
-                                <p>Regionale Produkte haben kürzere Lieferketten</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p>Erfüllung von gesetzlichen Vorschriften</p>
-                            </li>
-                            <li></li>
-                            <li>
-                                <p></p>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <div class="section3-inner3 align-normal" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
-                        <div class="left-content">
-                            <h3>EIN <br> GESELLSCHAFTLICHER <br> TREND </h3>
-                        </div>
-                        <div class="right-content">
-                            <p>
-                                Die Versorgung mit Lebensmitteln ist zunehmend durch den Klimawandel bedroht. Zusätzlich haben die Covid-19 Pandemie sowie die Zunahme geopolitischer Krisen die Anfälligkeit mancher Lieferketten verdeutlicht. Dagegen können nachhaltige Produkte ökologische, soziale oder wirtschaftliche Vorteile bieten. Sie schützen während ihrer gesamten Lebensdauer sowohl unsere Gesundheit als auch unsere Umwelt. Bei der nachhaltigen Produktion von Fleisch oder Molkereiprodukten wird zwar auch Kohlenstoff (über Methan) ausgestoßen, aber dennoch wird der natürliche CO2-Kreislauf nahezu im Gleichgewicht gehalten. Nachhaltige Produkte und nachhaltiger Konsum sind daher der Schlüssel zur Bewältigung der weltweiten Herausforderungen durch Klimawandel, Pandemien und geopolitische Krisen.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
             </section>
+            <section id="option4" data-scrl="Vorteile">
+                <div class="section3-grid">
+                    <ul>
+                        <li>
+                            <p class="font-size-30px">Vorteile</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Möglichkeit zur Gewinn-steigerung</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Verbesserung des Lebens-unterhalts von Bauern vor Ort und weltweit</p>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li>
+                            <p>
+                                Verwendung von frischen und leckeren Produkten
+                            </p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Flexible Anpassung der Speisekarte an die Saison</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Gewinnung neuer Gäste</p>
+                        </li>
+                        <li>
+                            <p>Positive Arbeitsmoral des Personals</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Verbesserung des Rufs Ihres Restaurants</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Wettbewerbs-vorteile</p>
+                        </li>
+                        <li></li>
+                        <li>
+
+                        </li>
+                        <li>
+                            <p>Regionale Produkte haben kürzere Lieferketten</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p>Erfüllung von gesetzlichen Vorschriften</p>
+                        </li>
+                        <li></li>
+                        <li>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+                <div class="section3-inner3 align-normal">
+                    <div class="left-content">
+                        <h3>EIN <br> GESELLSCHAFTLICHER <br> TREND </h3>
+                    </div>
+                    <div class="right-content">
+                        <p>
+                            Die Versorgung mit Lebensmitteln ist zunehmend durch den Klimawandel bedroht. Zusätzlich haben die Covid-19 Pandemie sowie die Zunahme geopolitischer Krisen die Anfälligkeit mancher Lieferketten verdeutlicht. Dagegen können nachhaltige Produkte ökologische, soziale oder wirtschaftliche Vorteile bieten. Sie schützen während ihrer gesamten Lebensdauer sowohl unsere Gesundheit als auch unsere Umwelt. Bei der nachhaltigen Produktion von Fleisch oder Molkereiprodukten wird zwar auch Kohlenstoff (über Methan) ausgestoßen, aber dennoch wird der natürliche CO2-Kreislauf nahezu im Gleichgewicht gehalten. Nachhaltige Produkte und nachhaltiger Konsum sind daher der Schlüssel zur Bewältigung der weltweiten Herausforderungen durch Klimawandel, Pandemien und geopolitische Krisen.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
             <section class="section4 padr-60px w90-per" style="width: 100%;" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN">
                 <div class="left-content noalign w60-per">
                     <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>VERANTWORTUNGSBEWUSST EINKAUFEN</h3>

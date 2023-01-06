@@ -121,10 +121,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option1">Warum es wichtig ist, ein nachhaltiges Menü anzubieten</a></li>
 												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option6">MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE</a></li>
+												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-sustainable-menu-deu.php#option6">Mit einfachen Schritten zur nachhaltigen Speisekarte</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -134,7 +134,7 @@
 												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option3">Gut zu wissen – Unterschiedliche Ernährungsformen</a></li>
 												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option4">Erfahren Sie alles über die Diversifizierung von Proteinen</a></li>
 												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option5">Heben Sie nachhaltige Gerichte hervor</a></li>
-												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option6">LENAS KÜCHE</a></li>
+												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option6">Lenas Küche</a></li>
 												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option7">Überprüfen Sie Ihre Fortschritte und sprechen Sie darüber</a></li>
 												<li><a class="dropdown-item" href="explore-sustainable-menu-deu.php#option8">Ihr Aktionsplan</a></li>
 											</ul>
@@ -147,9 +147,9 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option1">Wie man Produkte für Restaurants verantwortungsbewusst einkauft</a></li>
 												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
+												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
 												<li><a class="dropdown-item" href="introduction-to-responsible-sourcing-deu.php#option6">ERSTE SCHRITTE WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN</a></li>
 											</ul>
 										</li>
@@ -174,10 +174,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option1">Warum wir die Menge an Lebensmittelabfällen reduzieren müssen</a></li>
 												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-food-waste-deu.php#option6">Erste Schritte, wie Sie die Menge an Lebensmittelabfällen verringern</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-food-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -200,10 +200,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option1">Die Bedeutung von Plastik in der Gastronomie</a></li>
 												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-plastic-waste-deu.php#option6">Erste Schritte, wie Sie Plastikmüll reduzieren</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-plastic-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -226,10 +226,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option1">Warum wir über Lebensmittelsicherheit sprechen müssen</a></li>
 												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option6">ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-safe-food-deu.php#option6">Erste Schritte, wie Sie Lebensmittelsicherheit sicherstellen</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-safe-food-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -249,10 +249,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option1">Wie Sie in Ihrem Restaurant weniger Energie verbrauchen und damit Kosten sparen</a></li>
 												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option6">ERSTE SCHRITTE, WIE SIE DEN ENERGIEVERBRAUCH SENKEN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-energy-deu.php#option6">Erste Schritte, wie Sie den Energieverbrauch senken</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-energy-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -273,10 +273,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option1">Wie Sie in Ihrem Restaurant Wasser sparen können</a></li>
 												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option6">ERSTE SCHRITTE, WIE SIE WASSER SPAREN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-water-deu.php#option6">Erste Schritte, wie Sie Wasser sparen</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-water-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -297,10 +297,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option1">Das Problem mit dem Abfall</a></li>
 												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option6">ERSTE SCHRITTE, WIE SIE ABFALL VERMEIDEN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-waste-deu.php#option6">Erste Schritte, wie Sie Abfall vermeiden</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-waste-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>
@@ -321,10 +321,10 @@
 											<ul class="submenu dropdown-menu">
 												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option1">Warum sich das Gastgewerbe sozial engagieren muss</a></li>
 												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option2">Wussten Sie, dass…</a></li>
-												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option3">EIN WICHTIGES THEMA</a></li>
+												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option3">Ein wichtiges Thema</a></li>
 												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option4">Vorteile</a></li>
-												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option5">EIN GESELLSCHAFTLICHER TREND</a></li>
-												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option6">ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN</a></li>
+												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option5">Ein gesellschaftlicher Trend</a></li>
+												<li><a class="dropdown-item" href="introduction-to-social-deu.php#option6">Erste Schritte, wie Sie sozial handeln</a></li>
 											</ul>
 										</li>
 										<li><a class="dropdown-item" href="explore-social-deu.php">Gewusst wie <i class="fa fa-chevron-right"></i></a>

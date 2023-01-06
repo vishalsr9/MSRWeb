@@ -95,7 +95,7 @@
         </section>
 
 
-        <section class="section3-inners no-print" id="option3" data-scrl="EIN WICHTIGES THEMA">
+        <section class="section3-inners no-print" id="option3" data-scrl="Ein wichtiges Thema">
             <div class="section3-inner align-normal big_issues">
                 <div class="left-content">
                     <h3>EIN<br>WICHTIGES<br>THEMA</h3>

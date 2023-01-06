@@ -1701,7 +1701,7 @@
                 <h4>
                     War dieser Artikel hilfreich?
                 </h4>
-                <button id="like" class="ripple" onclick="liked()">
+                <button id="likeBtn" class="ripple" onclick="liked()">
                     <i class="fa fa-thumbs-up"></i>
                     <span class="liketxt">Yes!</span>
                 </button>

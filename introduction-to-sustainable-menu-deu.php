@@ -104,7 +104,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="section3" id="option3" data-scrl="EIN WICHTIGES THEMA">
+                <section class="section3" id="option3" data-scrl="Ein wichtiges Thema">
                     <div class="section3-inner">
                         <div class="left-content">
                             <h3>EIN<br>WICHTIGES<br>THEMA</h3>
@@ -115,7 +115,9 @@
                                 Ein nachhaltiges Menü anzubieten, bietet viele Vorteile:</p>
                         </div>
                     </div>
-                    <div class="section3-grid" id="option4" data-scrl="Vorteile">
+                </section>
+                <section id="option4" data-scrl="Vorteile">
+                    <div class="section3-grid">
                         <ul>
                             <li>
                                 <p>Vorteile</p>
@@ -171,7 +173,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="section3-inner3" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+                </section>
+                <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+                    <div class="section3-inner3">
                         <div class="left-content">
                             <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
                         </div>
@@ -180,7 +184,11 @@
                         </div>
                     </div>
                 </section>
-                <section class="section4" id="option6" data-scrl="MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE">
+
+
+
+
+                <section class="section4" id="option6" data-scrl="Mit einfachen Schritten zur nachhaltigen Speisekarte">
                     <div class="left-content">
                         <h3>MIT EINFACHEN SCHRITTEN ZUR NACHHALTIGEN SPEISEKARTE </h3>
                         <p>Es ist einfach, Ihre Nachhaltigkeitsphilosophie auf Ihrem Speiseplan widerzuspiegeln. Die folgenden Schritte können Ihnen dabei helfen.

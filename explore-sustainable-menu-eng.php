@@ -110,6 +110,7 @@
       background-color: white;
     }
   </style>
+  
 </head>
 
 <body class="page4-page">
@@ -851,9 +852,7 @@
         </div>
       </section>
 
-      <script>
-
-      </script>
+      
 
 
 
@@ -971,182 +970,38 @@
             <li class="print-li"><button onclick="window.print();" class="no-print">Print</button></li>
           </ul>
         </div>
-
-
-
-
       </section>
-
-
-
-      <style>
-        .like-section {
-          margin-top: 2rem;
-          text-align: center;
-        }
-
-        #like {
-          background: #fff;
-          border: 1px solid #003b7e;
-          outline: 0;
-          font-size: 18px;
-          cursor: pointer;
-          color: #003b7e;
-          padding: 5px 15px 10px 15px;
-          margin-top: 1rem;
-          font-family: "Gothambold";
-        }
-
-        .ripple {
-          background-position: center;
-          transition: 0.8s;
-        }
-
-        .ripple:hover {
-          background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
-        }
-
-        .ripple:active {
-          background-color: #6eb9f7;
-          background-size: 100%;
-          transition: 0.5s;
-        }
-
-        #like:hover {
-          color: black;
-        }
-
-        #like>i {
-          font-size: 28px;
-        }
-
-
-        .liked {
-          color: white !important;
-          background-color: #003b7e !important;
-        }
-
-        .liked i {
-          animation: anim 0.5s ease-in-out;
-          -webkit-animation: anim 0.5s ease-in-out;
-        }
-
-        @keyframes anim {
-          100% {
-            transform: rotate(-15deg) scale(1.3);
-            -webkit-transform: rotate(-15deg) scale(1.3);
-            -moz-transform: rotate(-15deg) scale(1.3);
-            -ms-transform: rotate(-15deg) scale(1.3);
-            -o-transform: rotate(-15deg) scale(1.3);
-            filter: blur(0.5px);
-            -webkit-filter: blur(0.5px);
-          }
-        }
-
-        .sharing {
-          margin-top: 2rem;
-          margin-bottom: 2rem;
-          text-align: center;
-        }
-
-        .sharebtn {
-          transition: all 0.3s;
-          border: 0;
-          border-radius: 0;
-          background-color: #003b7e;
-          color: #fff;
-          text-transform: uppercase;
-          font-family: "GothamBold";
-          text-transform: uppercase;
-          display: inline-block;
-          padding: 10px 20px;
-          margin: 15px 0 0;
-          font-size: 18px;
-          text-decoration: none;
-        }
-
-        .sharebtn:hover {
-          background-color: #ffe500;
-          color: #003b7e;
-
-        }
-      </style>
 
 
       <div class="row">
         <div class="col-md-12 like-section">
-          <h4>
-            Was this article helpful?
-          </h4>
-          <button id="like" class="ripple" onclick="liked()">
-            <i class="fa fa-thumbs-up"></i>
-            <span class="liketxt">Yes!</span>
-          </button>
+            <h4>
+                Was this article helpful?
+            </h4>
+            <button id="likeBtn" class="ripple">
+                <i class="fa fa-thumbs-up"></i>
+                <span class="liketxt">Yes!</span>
+            </button>
         </div>
         <div class="col-md-12">
-          <div class="sharing">
-            <h4>
-              Share this page
-            </h4>
-            <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
-            <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
-            <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:?subject=Hey, this page has a great content!&body=" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
-          </div>
+            <div class="sharing">
+                <h4>
+                    Share this page
+                </h4>
+                <a href="" id="fb-share-button" class="sharebtn"><i class="fa fa-facebook"></i></a>
+                <a href="" id="tw-share-button" class="sharebtn"><i class="fa fa-twitter"></i></a>
+                <a href="" id="ld-share-button" class="sharebtn"><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:?subject=Hey, this page has a great content!&body=" id="mail-share-button" class="sharebtn"><i class="fa fa-envelope"></i></a>
+            </div>
         </div>
       </div>
+      
+      
 
-      <script>
-        function liked() {
-          var element = document.getElementById("like");
-          element.classList.toggle("liked");
-        }
+      
+    
 
-        // facebok share
-        var fbButton = document.getElementById('fb-share-button');
-        var url = window.location.href;
-        fbButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
-            'facebook-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
-        // twitter share
-        var twButton = document.getElementById('tw-share-button');
-        var url = window.location.href;
-        twButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('https://twitter.com/share?' + url,
-            'twitter-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
-        //linked share
-        var ldButton = document.getElementById('ld-share-button');
-        var url = window.location.href;
-        ldButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url,
-            'linkedin-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
-        //mailthis
-        var mailButton = document.getElementById('mail-share-button');
-        var url = window.location.href;
-        mailButton.addEventListener('click', function(e) {
-          e.preventDefault();
-          window.open('mailto:?subject=Hey, this page has a great content!&body=' + url,
-            'email-share-dialog',
-            'width=800,height=600'
-          )
-          return false;
-        });
-      </script>
+
 
       <section class="container mt-5 c9">
         <div class="section5">
@@ -1653,10 +1508,7 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>
-            Introduce
-            smaller
-            portion sizes
-            as an option
+            Introduce smaller portion sizes as an option
           </h4>
           <p>Many consumers are looking to reduce their consumption.This happens for health reasons, but it can also be an attractive element for diners with children. Increasingly restaurateurs recognize that children are best served with the same food as adults, albeit in a smaller portion.</p>
         </div>
@@ -1679,10 +1531,7 @@
 
         <div class="modal-content1 flexi-cont">
           <h4>
-            <a class="nodeco" href="introduction-to-responsible-sourcing-eng.php">Source locally,
-              regionally
-              and in season</a>
-
+            <a class="nodeco" href="introduction-to-responsible-sourcing-eng.php">Source locally, regionally and in season</a>
           </h4>
           <p>Make an impact with responsible sourcing and only use responsibly sourced fish and food that is organic, nutritious, seasonal, ethically traded, local and regional. Moreover, try to buy foods that encourage biodiversity, do not involve waste and do not destroy forests. If you want to find out more, go to the responsible sourcing chapter. </p>
         </div>
@@ -1988,7 +1837,7 @@
       });
     </script>
 
-    <script src="jquery/page1.js"></script>
+    <script src="assets/prev/jquery/page1.js"></script>
 
     <script type="text/javascript" src="assets/prev/assets/js/common.js"></script>
 
@@ -2042,11 +1891,74 @@
       });
     </script>
 
+  
 
     <script src="assets/js/navigation.js"></script>
     <script src="assets/js/common.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/pageparams.js"></script>
+    <script src="assets/js/likeshare-eng.js"></script>
+
+
+      
+
+
+    <?php
+      function getIPAddress(){
+        if (!empty($_SERVER['HTTP_CLIENT_IP']))   
+        {
+            $ip_address = $_SERVER['HTTP_CLIENT_IP'];
+        }
+        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  
+        {
+            $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
+        }
+        else
+        {
+            $ip_address = $_SERVER['REMOTE_ADDR'];
+        }
+        return $ip_address;
+      }
+      //some code
+      function likeState(){
+        include "includes/dbconfig.php";
+        $ipa = getIPAddress();
+        $pageName="SUSTAINABLE MENU";
+        $sql1 = "SELECT * from tblengpagelikes WHERE IPAddress='$ipa' AND PageName='$pageName'";
+        if ($result = mysqli_query($conn, $sql1)) {
+            $rowcount = mysqli_num_rows( $result );
+            return $rowcount;
+        }
+      }
+
+      function processLike(){
+        include "includes/dbconfig.php";
+        $ipa = getIPAddress();
+        $pageName="SUSTAINABLE MENU";
+        $sql2 = "INSERT INTO tblengpagelikes(PageName,IPAddress) VALUES('$pageName','$ipa')";
+        if (mysqli_query($conn, $sql2)) {
+            return "1";
+        } else {
+            //return $conn->error;
+            return 0;
+        }
+      }
+
+      function processDislike(){
+        include "includes/dbconfig.php";
+        $ipa = getIPAddress();
+        $pageName="SUSTAINABLE MENU";
+        $sql3 = "DELETE FROM tblengpagelikes where IPAddress='$ipa' AND PageName='$pageName'";
+        $result = $conn->query($sql);
+        if ($result==TRUE) {
+            return "1";
+        } else {
+            //return $conn->error;
+            return 0;
+        }
+      }
+    ?>
+
 </body>
 
 

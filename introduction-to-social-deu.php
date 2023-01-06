@@ -91,7 +91,7 @@
         </section>
 
 
-        <section class="section3-inners no-print" id="option3" data-scrl="EIN WICHTIGES THEMA">
+        <section class="section3-inners no-print" id="option3" data-scrl="Ein wichtiges Thema">
             <div class="section3-inner align-normal big_issues">
                 <div class="left-content">
                     <h3>EIN<br>WICHTIGES<br>THEMA</h3>
@@ -173,7 +173,7 @@
         </section>
 
 
-        <section class="section3-inners no-print" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+        <section class="section3-inners no-print" id="option5" data-scrl="Ein gesellschaftlicher Trend">
             <div class="section3-inner align-normal big_issues">
                 <div class="left-content">
                     <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
@@ -185,7 +185,7 @@
         </section>
 
 
-        <section class="section4 padr-60px no-print" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE SOZIAL HANDELN">
+        <section class="section4 padr-60px no-print" id="option6" data-scrl="Erste Schritte, wie Sie sozial handeln">
             <div class="left-content noalign col-md-6">
                 <h3>
                     KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>SOZIAL HANDELN

@@ -190,7 +190,7 @@
             </div>
         </section>
 
-        <section class="section3" id="option3" data-scrl="EIN WICHTIGES THEMA">
+        <section class="section3" id="option3" data-scrl="Ein wichtiges Thema">
             <div class="section3-inner align-normal">
                 <div class="left-content">
                     <h3>EIN <br>WICHTIGES <br>THEMA </h3>

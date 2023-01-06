@@ -2586,7 +2586,7 @@ width: 100%;
                     text-align: center;
                 }
 
-                #like {
+                #likeBtn {
                     background: #fff;
                     border: 1px solid #003b7e;
                     outline: 0;
@@ -2613,11 +2613,11 @@ width: 100%;
                     transition: 0.5s;
                 }
 
-                #like:hover {
+                #likeBtn:hover {
                     color: black;
                 }
 
-                #like>i {
+                #likeBtn>i {
                     font-size: 28px;
                 }
 
