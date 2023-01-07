@@ -174,7 +174,7 @@
                         </ul>
                     </div>
                 </section>
-                <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+                <section id="option5" data-scrl="Ein gesellschaftlicher Trend">
                     <div class="section3-inner3">
                         <div class="left-content">
                             <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>

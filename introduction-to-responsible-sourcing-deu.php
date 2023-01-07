@@ -174,7 +174,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+            <section id="option5" data-scrl="Ein gesellschaftlicher Trend">
                 <div class="section3-inner3 align-normal">
                     <div class="left-content">
                         <h3>EIN <br> GESELLSCHAFTLICHER <br> TREND </h3>
@@ -188,7 +188,7 @@
             </section>
 
 
-            <section class="section4 padr-60px w90-per" style="width: 100%;" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE VERANTWORTUNGSBEWUSST EINKAUFEN">
+            <section class="section4 padr-60px w90-per" style="width: 100%;" id="option6" data-scrl="Erste Schritte, wie Sie verantwortungsbewusst einkaufen">
                 <div class="left-content noalign w60-per">
                     <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>VERANTWORTUNGSBEWUSST EINKAUFEN</h3>
                     <p>

@@ -216,7 +216,7 @@
         </section>
 
 
-        <section class="section3-inners" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+        <section class="section3-inners" id="option5" data-scrl="Ein gesellschaftlicher Trend">
             <div class="section3-inner align-normal big_issues">
                 <div class="left-content">
                     <h3>EIN <br>GESELLSCHAFTLICHER <br>TREND </h3>
@@ -231,7 +231,7 @@
         </section>
 
 
-        <section class="section4 padr-60px" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN">
+        <section class="section4 padr-60px" id="option6" data-scrl="Erste Schritte, wie Sie die Menge an Lebensmittelabfällen verringern">
             <div class="left-content noalign border-right col-md-6">
                 <h3>KNOW-HOW – ERSTE SCHRITTE, WIE SIE DIE MENGE AN LEBENSMITTELABFÄLLEN VERRINGERN </h3>
                 <p>

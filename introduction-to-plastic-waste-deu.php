@@ -240,7 +240,7 @@
             </div>
         </section>
 
-        <section id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+        <section id="option5" data-scrl="Ein gesellschaftlicher Trend">
             <div class="section3-inner3 align-normal">
                 <div class="left-content">
                     <h3>EIN <br>GESELLSCHAFTLICHER <br>TREND </h3>
@@ -257,7 +257,7 @@
 
 
 
-        <section class="section4" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE PLASTIKMÜLL REDUZIEREN">
+        <section class="section4" id="option6" data-scrl="Erste Schritte, wie Sie Plastikmüll reduzieren">
 
             <div class="container-full">
                 <div class="row">

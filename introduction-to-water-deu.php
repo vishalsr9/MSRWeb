@@ -196,7 +196,7 @@
             </section>
 
 
-            <section class="section3-inner align-normal" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+            <section class="section3-inner align-normal" id="option5" data-scrl="Ein gesellschaftlicher Trend">
                 <div class="left-content">
                     <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
                 </div>
@@ -208,7 +208,7 @@
             </section>
 
 
-            <section class="section4 padr-60px spacerx-top" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE WASSER SPAREN">
+            <section class="section4 padr-60px spacerx-top" id="option6" data-scrl="Erste Schritte, wie Sie Wasser sparen">
 
                 <div class="row">
                     <div class="col-md-6">

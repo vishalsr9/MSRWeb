@@ -150,7 +150,7 @@
             </section>
 
 
-            <section class="section3-inner align-normal" id="option5" data-scrl="EIN GESELLSCHAFTLICHER TREND">
+            <section class="section3-inner align-normal" id="option5" data-scrl="Ein gesellschaftlicher Trend">
                 <div class="left-content">
                     <h3>EIN<br>GESELLSCHAFTLICHER<br>TREND</h3>
                 </div>
@@ -162,7 +162,7 @@
             </section>
 
 
-            <section class="section4 padr-60px" id="option6" data-scrl="ERSTE SCHRITTE, WIE SIE LEBENSMITTELSICHERHEIT SICHERSTELLEN">
+            <section class="section4 padr-60px" id="option6" data-scrl="Erste Schritte, wie Sie Lebensmittelsicherheit sicherstellen">
                 <div class="left-content noalign w60-per">
                     <h3>KNOW-HOW –<br>ERSTE SCHRITTE, WIE SIE<br>LEBENSMITTELSICHERHEIT SICHERSTELLEN</h3>
                     <p>
