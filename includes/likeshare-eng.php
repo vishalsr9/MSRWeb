@@ -98,7 +98,7 @@
     function insertDislike(){
         include "dbconfig.php";
         $ipa = getIPAddress();
-        $sql3 = "UPDATE tblLike SET Liked=0 where IPAddress='$ipa'";
+        $sql3 = "DELETE FROM tblengpagelikes where IPAddress='$ipa' AND ";
         if (mysqli_query($conn, $sql3)) {
             return "1";
         } else {

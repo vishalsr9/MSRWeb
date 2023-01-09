@@ -1642,6 +1642,72 @@
             });
             var fDText = "Waste collection or deposit services either in METRO or via an external provider for non-food waste and food waste. Contact charities that take surplus food.";
             $("#footDynamicText").text(fDText);
+
+             //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=FOOD WASTE',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=FOOD WASTE',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=FOOD WASTE',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=FOOD WASTE',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
         </script>
 </body>
 

@@ -1888,6 +1888,73 @@
         pagemanipulation(cur_page_name, cur_nav_link_id, eng_page_path, deu_page_path);
         var menuIdVal = "0";
         menumanipulation(menuIdVal, "e");
+
+
+         //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=SUSTAINABLE MENU',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=SUSTAINABLE MENU',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=SUSTAINABLE MENU',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=SUSTAINABLE MENU',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
       });
     </script>
 
@@ -1902,62 +1969,6 @@
 
       
 
-
-    <?php
-      function getIPAddress(){
-        if (!empty($_SERVER['HTTP_CLIENT_IP']))   
-        {
-            $ip_address = $_SERVER['HTTP_CLIENT_IP'];
-        }
-        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  
-        {
-            $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        }
-        else
-        {
-            $ip_address = $_SERVER['REMOTE_ADDR'];
-        }
-        return $ip_address;
-      }
-      //some code
-      function likeState(){
-        include "includes/dbconfig.php";
-        $ipa = getIPAddress();
-        $pageName="SUSTAINABLE MENU";
-        $sql1 = "SELECT * from tblengpagelikes WHERE IPAddress='$ipa' AND PageName='$pageName'";
-        if ($result = mysqli_query($conn, $sql1)) {
-            $rowcount = mysqli_num_rows( $result );
-            return $rowcount;
-        }
-      }
-
-      function processLike(){
-        include "includes/dbconfig.php";
-        $ipa = getIPAddress();
-        $pageName="SUSTAINABLE MENU";
-        $sql2 = "INSERT INTO tblengpagelikes(PageName,IPAddress) VALUES('$pageName','$ipa')";
-        if (mysqli_query($conn, $sql2)) {
-            return "1";
-        } else {
-            //return $conn->error;
-            return 0;
-        }
-      }
-
-      function processDislike(){
-        include "includes/dbconfig.php";
-        $ipa = getIPAddress();
-        $pageName="SUSTAINABLE MENU";
-        $sql3 = "DELETE FROM tblengpagelikes where IPAddress='$ipa' AND PageName='$pageName'";
-        $result = $conn->query($sql);
-        if ($result==TRUE) {
-            return "1";
-        } else {
-            //return $conn->error;
-            return 0;
-        }
-      }
-    ?>
 
 </body>
 

@@ -331,7 +331,7 @@
 <body class="popup-exists page-animation1">
     <?php include "includes/header-eng.php"; ?>
     <?php include "includes/loader.php"; ?>
-
+    
     <div class="wrapper">
         <div class="container-full">
             <div class="page-3_stage page-4_stage">
@@ -1296,7 +1296,7 @@
                     <h4>
                         Was this article helpful?
                     </h4>
-                    <button id="likeBtn" class="ripple" onclick="liked()">
+                    <button id="likeBtn" class="ripple">
                         <i class="fa fa-thumbs-up"></i>
                         <span class="liketxt">Yes!</span>
                     </button>
@@ -1395,6 +1395,7 @@
 
         </div>
     </div>
+
     <script>
         $(document).ready(function() {
             $('#hide_show_content').click(function() {
@@ -1546,7 +1547,74 @@
         });
         var fDText = "METRO offers advisory through employees. A reference is provided by METRO’s Fair Working Conditions.";
         $("#footDynamicText").text(fDText);
+
+        //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=SOCIAL',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=SOCIAL',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=SOCIAL',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=SOCIAL',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
     </script>
+    
 </body>
 
 </html>

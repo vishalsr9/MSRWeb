@@ -890,7 +890,7 @@
                 <h4>
                     War dieser Artikel hilfreich?
                 </h4>
-                <button id="likeBtn" class="ripple" onclick="liked()">
+                <button id="likeBtn" class="ripple">
                     <i class="fa fa-thumbs-up"></i>
                     <span class="liketxt">Yes!</span>
                 </button>
@@ -1098,6 +1098,72 @@
         });
         var fDText = "METRO bietet vielfältige abfallfreie Produkte an, wie z. B. umweltfreundliche Einwegartikel und Behältnisse zum Mitnehmen, Produkte, die mit weniger Verpackung auskommen (z. B. neu entwickelte Reinigungsmittel, Mehrwegsysteme für Getränkeflaschen, Wasserfilter, wiederverwendbare Wasserflaschen, Produkte, die kein PVC enthalten oder Alternativen für EPS).";
         $("#footDynamicText").html(fDText);
+
+         //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=Plastikmüll ',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=Plastikmüll ',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=Plastikmüll ',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=Plastikmüll ',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
     </script>
 </body>
 

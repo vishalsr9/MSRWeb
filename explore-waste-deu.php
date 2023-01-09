@@ -591,7 +591,7 @@
                     <h4>
                         War dieser Artikel hilfreich?
                     </h4>
-                    <button id="likeBtn" class="ripple" onclick="liked()">
+                    <button id="likeBtn" class="ripple">
                         <i class="fa fa-thumbs-up"></i>
                         <span class="liketxt">Yes!</span>
                     </button>
@@ -684,6 +684,72 @@
         });
         var fDText = "Lassen Sie sich bei einem besseren Abfallmanagement unterstützen. Das Produktsortiment von METRO enthält viele Angebote, die dabei helfen, das Abfallmanagement effizient zu gestalten. ";
         $("#footDynamicText").html(fDText);
+
+         //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=Abfälle',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=Abfälle',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=Abfälle',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=Abfälle',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
     </script>
 </body>
 

@@ -997,7 +997,7 @@
                     <h4>
                         Was this article helpful?
                     </h4>
-                    <button id="likeBtn" class="ripple" onclick="liked()">
+                    <button id="likeBtn" class="ripple">
                         <i class="fa fa-thumbs-up"></i>
                         <span class="liketxt">Yes!</span>
                     </button>
@@ -1014,58 +1014,6 @@
                     </div>
                 </div>
             </div>
-
-            <script>
-                function liked() {
-                    var element = document.getElementById("like");
-                    element.classList.toggle("liked");
-                }
-
-                // facebok share
-                var fbButton = document.getElementById('fb-share-button');
-                var url = window.location.href;
-                fbButton.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
-                        'facebook-share-dialog',
-                        'width=800,height=600'
-                    )
-                    return false;
-                });
-                // twitter share
-                var twButton = document.getElementById('tw-share-button');
-                var url = window.location.href;
-                twButton.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    window.open('https://twitter.com/share?' + url,
-                        'twitter-share-dialog',
-                        'width=800,height=600'
-                    )
-                    return false;
-                });
-                //linked share
-                var ldButton = document.getElementById('ld-share-button');
-                var url = window.location.href;
-                ldButton.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + url,
-                        'linkedin-share-dialog',
-                        'width=800,height=600'
-                    )
-                    return false;
-                });
-                //mailthis
-                var mailButton = document.getElementById('mail-share-button');
-                var url = window.location.href;
-                mailButton.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    window.open('mailto:?subject=Hey, this page has a great content!&body=' + url,
-                        'email-share-dialog',
-                        'width=800,height=600'
-                    )
-                    return false;
-                });
-            </script>
 
 
         </div>
@@ -1280,6 +1228,72 @@
         });
         var fDText = "METRO offers a wide variety of waste-less products, such as eco-friendly disposables and takeaway containers, products with less packaging e.g. reformulated detergents, returnable bottle schemes, water filters, reusable carafes for water, products that don\´t contain PVC or are alternatives for EPS.";
         $("#footDynamicText").text(fDText);
+
+         //like share stats
+        $(document).ready(function(){
+            $.ajax({
+                url : 'isliked.php?q=PLASTIC WASTE',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        $("#likeBtn").addClass("liked");
+                    }
+                },
+                error : function () {
+                    console.log (error);
+                }
+            });
+            return false;
+         });
+
+        $("#likeBtn").click(function(){
+            $.ajax({
+                url : 'isliked.php?q=PLASTIC WASTE',
+                type : 'POST',
+                success : function (result) {
+                    var retVal=parseInt(result);
+                    if(retVal>0){
+                        //dislike
+                        $.ajax({
+                            url : 'dislike.php?q=PLASTIC WASTE',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").removeClass("liked");
+                                }else{
+                                    console.log("DISLIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }else{
+                        $.ajax({
+                            url : 'like.php?q=PLASTIC WASTE',
+                            type : 'POST',
+                            success : function (result) {
+                                var retVal=parseInt(result);
+                                if(retVal="1"){
+                                    $("#likeBtn").addClass("liked");
+                                }else{
+                                    console.log("LIKE ERROR")
+                                }
+                            },
+                            error : function () {
+                                console.log ("error");
+                            }
+                        });
+                    }
+                },
+                error : function () {
+                    console.log ("error");
+                }
+            });
+            return false;
+        });
     </script>
 </body>
 
