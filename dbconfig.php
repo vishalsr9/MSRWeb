@@ -8,5 +8,6 @@ $password = "";
 
 $dbname = "metro"; 
 
-
 ?> 
+
+<!--UPDATE THIS AS PER SERVER MYSQL CONFIGURATION-->
