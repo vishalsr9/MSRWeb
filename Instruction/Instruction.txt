@@ -17,4 +17,4 @@ Step 5: Open file with text/code editor, follow update as given below:
 
 Step 6: Save the file
 
-Now, application is ready to accept page likes
+Now, application is ready to accept page likes.
