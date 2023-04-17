@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <?php include "includes/page-header.php"; ?>
   <link rel="stylesheet" href="assets/css/jquery-ui.css">
@@ -33,7 +32,6 @@
   <meta http-equiv="cleartype" content="on">
   <meta name="canonical" content="">
   <!--current page url-->
-
 </head>
 
 <body class="popup-exists page-animation1">
