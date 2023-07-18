@@ -1,3 +1,4 @@
+
 Page like process-flow:
 When a user hit the 'Like' button, the application send IP Address with Page title to the defined MySQL database along with timestamp of like. To configure MySQL database to the application, follow steps given below:
 
@@ -18,3 +19,4 @@ Step 5: Open file with text/code editor, follow update as given below:
 Step 6: Save the file
 
 Now, application is ready to accept page likes.
+
